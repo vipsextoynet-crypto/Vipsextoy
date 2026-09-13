@@ -8,3 +8,4 @@ data/orders.json
 
 Add-Content .gitignore "vietnamese-sexual-wellness-seo-ai/"
 Add-Content .gitignore "vietnamese-sexual-wellness-seo-ai.zip"
+Add-Content .gitignore "`nvietnamese-sexual-wellness-seo-ai/`nvietnamese-sexual-wellness-seo-ai.zip"
