@@ -102,7 +102,7 @@ export default function Home() {
               },
             ].map((t) => (
               <div key={t.name} className="border border-line bg-surface2 p-6">
-                <p className="text-sm leading-relaxed text-muted">"{t.text}"</p>
+                <p className="text-sm leading-relaxed text-muted">&ldquo;{t.text}&rdquo;</p>
                 <p className="mt-4 text-xs uppercase tracking-wide text-gold">
                   {t.name}
                 </p>

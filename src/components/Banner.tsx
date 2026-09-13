@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Lock, Truck, ShieldCheck } from "lucide-react";
-import { site } from "@/lib/site";
 
 /**
  * O banner chinh cua trang chu.
