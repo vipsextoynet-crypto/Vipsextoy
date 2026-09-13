@@ -39,14 +39,14 @@ export default function CartDrawer() {
             <ul className="flex flex-col gap-5">
               {items.map((item) => (
                 <li key={item.slug} className="flex gap-4">
-                  <div className="relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden bg-surface2 p-1">
+                  <div className="relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden bg-surface2 p-3">
                     {item.image ? (
                       <Image
                         src={item.image}
                         alt={item.name}
                         fill
                         sizes="64px"
-                        className="object-contain p-1"
+                        className="object-contain p-1.5"
                       />
                     ) : (
                       <ProductGlyph type={item.icon} />
@@ -74,7 +74,7 @@ export default function CartDrawer() {
                       <button
                         onClick={() => removeItem(item.slug)}
                         aria-label="Xoá"
-                        className="ml-auto text-muted hover:text-red"
+                        className="ml-auto text-muted hover:text-rose"
                       >
                         <Trash2 size={16} />
                       </button>

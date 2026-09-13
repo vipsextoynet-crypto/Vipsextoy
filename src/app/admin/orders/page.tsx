@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getOrders } from "@/lib/orders";
 import { formatPrice } from "@/data/products";
 
@@ -50,12 +51,19 @@ export default function AdminOrdersPage() {
               </p>
             </div>
 
-            <ul className="mt-4 flex flex-col gap-1 border-t border-line pt-3 text-sm">
+            <ul className="mt-4 flex flex-col gap-2 border-t border-line pt-3 text-sm">
               {o.items.map((it, i) => (
-                <li key={i} className="flex justify-between text-muted">
-                  <span>
-                    {it.name} × {it.qty}
-                  </span>
+                <li key={i} className="flex items-center justify-between gap-3 text-muted">
+                  <div className="flex items-center gap-3">
+                    {it.image && (
+                      <div className="relative h-10 w-10 shrink-0 overflow-hidden bg-surface2">
+                        <Image src={it.image} alt={it.name} fill sizes="40px" className="object-contain" />
+                      </div>
+                    )}
+                    <span>
+                      {it.name} × {it.qty}
+                    </span>
+                  </div>
                   <span>{formatPrice(it.price * it.qty)}</span>
                 </li>
               ))}

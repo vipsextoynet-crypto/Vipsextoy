@@ -20,7 +20,7 @@ export default function ReturnPolicyPage() {
       <ul>
         <li>Sản phẩm còn nguyên tem, niêm phong, chưa bóc bao bì.</li>
         <li>Yêu cầu đổi trả trong vòng 7 ngày kể từ khi nhận hàng.</li>
-        <li>Sản phẩm lỗi do nhà sản xuất được bảo hành 3 tháng.</li>
+        <li>Sản phẩm lỗi do nhà sản xuất được đổi mới miễn phí trong 12 tháng.</li>
         <li>Giữ hoá đơn hoặc mã đơn hàng để được hỗ trợ nhanh nhất.</li>
       </ul>
       <h2>Sản phẩm không áp dụng đổi trả</h2>

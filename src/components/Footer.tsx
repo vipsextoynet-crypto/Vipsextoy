@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Lock, Package, Truck, Phone, Mail } from "lucide-react";
+import { categories } from "@/data/products";
 import { site } from "@/lib/site";
 
 function FacebookIcon() {
@@ -81,8 +82,36 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-sm text-ivory">Chính sách</p>
+            <p className="text-sm text-ivory">Danh mục</p>
             <ul className="mt-4 flex flex-col gap-2.5 text-sm text-muted">
+              {categories.map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/danh-muc/${c.slug}`} className="transition hover:text-ivory">
+                    {c.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-sm text-ivory">Hỗ trợ</p>
+            <ul className="mt-4 flex flex-col gap-2.5 text-sm text-muted">
+              <li>
+                <Link href="/gioi-thieu" className="transition hover:text-ivory">
+                  Giới thiệu
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="transition hover:text-ivory">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/lien-he" className="transition hover:text-ivory">
+                  Liên hệ
+                </Link>
+              </li>
               <li>
                 <Link href="/chinh-sach/van-chuyen" className="transition hover:text-ivory">
                   Chính sách vận chuyển
@@ -103,25 +132,9 @@ export default function Footer() {
                   Chính sách bảo mật
                 </Link>
               </li>
-            </ul>
-          </div>
-
-          <div>
-            <p className="text-sm text-ivory">Hỗ trợ</p>
-            <ul className="mt-4 flex flex-col gap-2.5 text-sm text-muted">
               <li>
-                <Link href="/gioi-thieu" className="transition hover:text-ivory">
-                  Giới thiệu
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="transition hover:text-ivory">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link href="/lien-he" className="transition hover:text-ivory">
-                  Liên hệ
+                <Link href="/chinh-sach/dieu-khoan" className="transition hover:text-ivory">
+                  Điều khoản sử dụng
                 </Link>
               </li>
             </ul>
@@ -150,14 +163,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-line px-5 py-6 text-center text-xs text-muted">
-        <p>
-          © {new Date().getFullYear()} Vipextoy. Sản phẩm dành cho người từ 18 tuổi trở lên.
-        </p>
-        <p className="mt-1.5">
-          <Link href="/chinh-sach/dieu-khoan" className="transition hover:text-ivory">
-            Điều khoản sử dụng
-          </Link>
-        </p>
+        © {new Date().getFullYear()} Vipextoy. Sản phẩm dành cho người từ 18 tuổi trở lên.
       </div>
     </footer>
   );

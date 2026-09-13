@@ -65,7 +65,14 @@ export function CartProvider({ children }: { children: ReactNode }) {
       }
       return [
         ...prev,
-        { slug: p.slug, name: p.name, price: p.price, qty, icon: p.icon, image: p.image },
+        {
+          slug: p.slug,
+          name: p.name,
+          price: p.price,
+          qty,
+          icon: p.icon,
+          image: p.image,
+        },
       ];
     });
     setIsOpen(true);

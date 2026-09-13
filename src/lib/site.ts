@@ -9,8 +9,8 @@ export const site = {
   zalo: "0971.688.862",
   zaloHref: "https://zalo.me/0971688862",
   telegramHref: "https://t.me/vipextoy",
-  email: "vipsextoy.net@gmail.com",
-  address: "4 Cao Xuân Dục, Phường 13, Quận 8, TP. Hồ Chí Minh",
+  email: "hotro@vipextoy.com",
+  address: "12 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
   hours: "8:00 – 21:00, tất cả các ngày trong tuần",
   social: {
     facebook: "https://facebook.com/vipextoy",

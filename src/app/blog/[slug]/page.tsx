@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { blogPosts, getBlogPost } from "@/data/blog";
 import ProductGlyph from "@/components/ProductGlyph";
@@ -84,19 +83,8 @@ export default function BlogPostPage({
         {formatDate(post.date)} · {post.readTime}
       </p>
 
-      <div className="relative my-10 flex aspect-[16/7] items-center justify-center overflow-hidden bg-surface p-10">
-        {post.image ? (
-          <Image
-            src={post.image}
-            alt={post.title}
-            fill
-            priority
-            className="object-cover p-0"
-            sizes="(min-width: 768px) 768px, 100vw"
-          />
-        ) : (
-          <ProductGlyph type={post.icon} className="max-h-28 max-w-28" />
-        )}
+      <div className="my-10 flex aspect-[16/7] items-center justify-center bg-surface p-10">
+        <ProductGlyph type={post.icon} className="max-h-28 max-w-28" />
       </div>
 
       <div className="flex flex-col gap-5">

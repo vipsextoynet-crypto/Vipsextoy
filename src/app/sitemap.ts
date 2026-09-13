@@ -8,7 +8,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/shop",
     "/blog",
-    "/huong-dan-mua-hang",
     "/lien-he",
     "/gioi-thieu",
     "/chinh-sach/van-chuyen",

@@ -41,7 +41,7 @@ export default function PolicyLayout({
           </p>
           <h1 className="mt-2 font-serif text-3xl text-ivory">{title}</h1>
           <p className="mt-2 text-xs text-muted">Cập nhật lần cuối: {updatedAt}</p>
-          <div className="mt-8 flex flex-col gap-5 text-sm font-medium leading-relaxed text-ivory [&_h2]:mt-4 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:font-bold [&_h2]:text-ivory [&_ul]:flex [&_ul]:list-disc [&_ul]:flex-col [&_ul]:gap-2 [&_ul]:pl-5">
+          <div className="mt-8 flex flex-col gap-5 text-sm leading-relaxed text-muted [&_h2]:mt-4 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:text-ivory [&_ul]:flex [&_ul]:list-disc [&_ul]:flex-col [&_ul]:gap-2 [&_ul]:pl-5">
             {children}
           </div>
         </div>

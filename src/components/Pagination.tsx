@@ -17,7 +17,9 @@ export default function Pagination({
   for (let i = start; i <= end; i++) pages.push(i);
 
   function href(p: number) {
-    return p <= 1 ? basePath : `${basePath}?page=${p}`;
+    if (p <= 1) return basePath;
+    const sep = basePath.includes("?") ? "&" : "?";
+    return `${basePath}${sep}page=${p}`;
   }
 
   return (

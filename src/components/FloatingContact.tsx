@@ -23,7 +23,7 @@ export default function FloatingContact() {
       <a
         href={site.phoneHref}
         aria-label="Gọi điện"
-        className="flex h-12 w-12 animate-pulse items-center justify-center rounded-full bg-red text-white shadow-lg transition hover:opacity-90"
+        className="flex h-12 w-12 animate-pulse items-center justify-center rounded-full bg-gold text-white shadow-lg transition hover:opacity-90"
       >
         <Phone size={20} />
       </a>

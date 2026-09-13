@@ -83,7 +83,7 @@ export default function CategoryPage({
       <div className="mb-8">
         <p className="text-xs uppercase tracking-wide text-gold">Danh mục</p>
         <h1 className="mt-2 font-serif text-3xl text-ivory">{category.name}</h1>
-        <p className="mt-3 max-w-xl text-base font-medium text-ivory">{category.shortDescription}</p>
+        <p className="mt-3 max-w-xl text-muted">{category.shortDescription}</p>
         <p className="mt-1 text-xs text-muted">{all.length} sản phẩm</p>
       </div>
 
@@ -93,7 +93,7 @@ export default function CategoryPage({
           {list.length === 0 ? (
             <p className="text-muted">Sản phẩm đang được cập nhật cho danh mục này.</p>
           ) : (
-            <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {list.map((p) => (
                 <ProductCard key={p.slug} product={p} />
               ))}

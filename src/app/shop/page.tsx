@@ -13,14 +13,21 @@ export const metadata: Metadata = {
 
 const PAGE_SIZE = 24;
 
+function normalize(s: string) {
+  return s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
 export default function ShopPage({
   searchParams,
 }: {
   searchParams: { page?: string; q?: string };
 }) {
-  const query = (searchParams.q ?? "").trim().toLowerCase();
-  const filtered = query
-    ? products.filter((p) => p.name.toLowerCase().includes(query))
+  const q = (searchParams.q ?? "").trim();
+  const filtered = q
+    ? products.filter((p) => normalize(p.name).includes(normalize(q)))
     : products;
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
@@ -30,29 +37,34 @@ export default function ShopPage({
   );
   const start = (page - 1) * PAGE_SIZE;
   const list = filtered.slice(start, start + PAGE_SIZE);
+  const basePath = q ? `/shop?q=${encodeURIComponent(q)}` : "/shop";
 
   return (
     <div className="mx-auto max-w-6xl px-5 py-14">
       <div className="mb-10">
         <p className="text-xs uppercase tracking-wide text-gold">Cửa hàng</p>
         <h1 className="mt-2 font-serif text-3xl text-ivory">
-          {query ? `Kết quả cho "${searchParams.q}"` : "Toàn bộ sản phẩm"}
+          {q ? `Kết quả cho “${q}”` : "Toàn bộ sản phẩm"}
         </h1>
         <p className="mt-3 max-w-xl text-muted">
-          {filtered.length} sản phẩm{query ? " phù hợp" : ""} — duyệt theo danh
-          mục bên trái để tìm nhanh hơn.
+          {filtered.length} sản phẩm — duyệt theo danh mục bên trái để tìm
+          nhanh hơn.
         </p>
       </div>
 
       <div className="flex flex-col gap-8 md:flex-row">
         <Sidebar />
         <div className="flex-1">
-          <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
-            {list.map((p) => (
-              <ProductCard key={p.slug} product={p} />
-            ))}
-          </div>
-          <Pagination basePath="/shop" currentPage={page} totalPages={totalPages} />
+          {list.length === 0 ? (
+            <p className="text-muted">Không tìm thấy sản phẩm phù hợp.</p>
+          ) : (
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {list.map((p) => (
+                <ProductCard key={p.slug} product={p} />
+              ))}
+            </div>
+          )}
+          <Pagination basePath={basePath} currentPage={page} totalPages={totalPages} />
         </div>
       </div>
     </div>

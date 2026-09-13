@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { getProduct, formatPrice, products } from "@/data/products";
 import ProductGlyph from "@/components/ProductGlyph";
@@ -49,6 +50,9 @@ export default function ProductPage({
           name: product.name,
           description: product.description,
           category: product.category,
+          sku: product.sku,
+          brand: { "@type": "Brand", name: site.name },
+          image: product.image ? [product.image] : undefined,
           offers: {
             "@type": "Offer",
             priceCurrency: "VND",
@@ -71,14 +75,15 @@ export default function ProductPage({
       </nav>
 
       <div className="grid gap-12 md:grid-cols-2">
-        <div className="flex aspect-square items-center justify-center overflow-hidden bg-surface p-16">
+        <div className="relative flex aspect-square items-center justify-center overflow-hidden bg-surface p-16">
           {product.image ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
+            <Image
               src={product.image}
               alt={product.name}
-              loading="lazy"
-              className="h-full w-full object-contain"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-contain p-4"
+              priority
             />
           ) : (
             <ProductGlyph type={product.icon} />
@@ -89,26 +94,31 @@ export default function ProductPage({
           <p className="text-xs uppercase tracking-wide text-gold">
             {product.category}
           </p>
-          <h1 className="mt-2 font-serif text-3xl uppercase text-ivory md:text-4xl">
+          <h1 className="mt-2 font-serif text-3xl text-ivory md:text-4xl">
             {product.name}
           </h1>
-          <div className="mt-4 flex items-baseline gap-3">
-            <span className="text-xl font-bold text-ivory">
-              Giá: {formatPrice(product.price)}
-            </span>
-            {product.compareAt && (
-              <span className="text-muted line-through">
-                {formatPrice(product.compareAt)}
+          <div className="mt-4 flex flex-wrap items-baseline gap-x-6 gap-y-1">
+            <div className="flex items-baseline gap-3">
+              <span className="text-xl text-ivory">
+                Giá: {formatPrice(product.price)}
               </span>
-            )}
+              {product.compareAt && (
+                <span className="text-muted line-through">
+                  {formatPrice(product.compareAt)}
+                </span>
+              )}
+            </div>
+            <span className="text-sm text-muted">
+              Mã sản phẩm: <span className="text-ivory">{product.sku}</span>
+            </span>
           </div>
-          <p className="mt-6 text-base font-medium leading-relaxed text-ivory">
+          <p className="mt-6 leading-relaxed text-muted">
             {product.description}
           </p>
 
           <ul className="mt-6 flex flex-col gap-2">
             {product.features.map((f) => (
-              <li key={f} className="flex items-center gap-2 text-sm font-medium text-ivory">
+              <li key={f} className="flex items-center gap-2 text-sm text-ivory">
                 <Check size={14} className="text-gold" />
                 {f}
               </li>
@@ -118,60 +128,43 @@ export default function ProductPage({
           <div className="mt-8">
             <AddToCartButton product={product} />
           </div>
-
-          {/* Chi tiet san pham.
-              - Neu product.details da duoc dien tay trong products.ts: hien
-                dung cac dong do (khong gioi han so luong).
-              - Neu chua dien: hien 4 dong mac dinh nhu cu de trang khong bi
-                trong. Xem huong dan dien tay ngay ben canh dinh nghia
-                "details?" trong type Product tai src/data/products.ts. */}
-          <div className="mt-10 border-t border-line pt-6">
-            <h2 className="font-serif text-lg font-bold text-ivory">
-              Chi tiết sản phẩm
-            </h2>
-            <dl className="mt-4 grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
-              {product.details && product.details.length > 0 ? (
-                product.details.map((d) => (
-                  <div
-                    key={d.label}
-                    className="flex justify-between border-b border-line pb-2 sm:justify-start sm:gap-2"
-                  >
-                    <dt className="font-medium text-muted">{d.label}</dt>
-                    <dd className="font-semibold text-ivory">{d.value}</dd>
-                  </div>
-                ))
-              ) : (
-                <>
-                  <div className="flex justify-between border-b border-line pb-2 sm:justify-start sm:gap-2">
-                    <dt className="font-medium text-muted">Danh mục</dt>
-                    <dd className="font-semibold text-ivory">{product.category}</dd>
-                  </div>
-                  <div className="flex justify-between border-b border-line pb-2 sm:justify-start sm:gap-2">
-                    <dt className="font-medium text-muted">Tình trạng</dt>
-                    <dd className="font-semibold text-ivory">Còn hàng</dd>
-                  </div>
-                  <div className="flex justify-between border-b border-line pb-2 sm:justify-start sm:gap-2">
-                    <dt className="font-medium text-muted">Đóng gói</dt>
-                    <dd className="font-semibold text-ivory">Kín đáo, riêng tư</dd>
-                  </div>
-                  <div className="flex justify-between border-b border-line pb-2 sm:justify-start sm:gap-2">
-                    <dt className="font-medium text-muted">Bảo hành</dt>
-                    <dd className="font-semibold text-ivory">3 tháng lỗi NSX</dd>
-                  </div>
-                </>
-              )}
-            </dl>
-            <p className="mt-4 text-sm font-medium text-muted">
-              Cần thêm thông số (chất liệu, kích thước, dung tích pin...)? Nhắn
-              hotline <a href={site.phoneHref} className="font-semibold text-gold">{site.phone}</a> để được tư vấn chi tiết trước khi đặt hàng.
-            </p>
-          </div>
-
-          <div className="mt-8 border-t border-line pt-6 text-xs font-medium text-muted">
-            Giao hàng kín đáo trong 2–4 ngày làm việc. Hỗ trợ kiểm tra hàng
-            trước khi thanh toán (COD) tại một số khu vực.
-          </div>
         </div>
+      </div>
+
+      {/* Chi tiết sản phẩm — đặt riêng, căn giữa trang, dưới cả 2 cột */}
+      <div className="mx-auto mt-14 max-w-3xl border border-line bg-surface p-6 sm:p-8">
+        <h2 className="font-serif text-xl text-ivory">Chi tiết sản phẩm</h2>
+        <dl className="mt-5 grid gap-4 border-t border-line pt-5 text-sm sm:grid-cols-2">
+          <div>
+            <dt className="text-muted">Danh mục</dt>
+            <dd className="mt-1 text-ivory">{product.category}</dd>
+          </div>
+          <div>
+            <dt className="text-muted">Tình trạng</dt>
+            <dd className="mt-1 text-ivory">Còn hàng</dd>
+          </div>
+          <div>
+            <dt className="text-muted">Đóng gói</dt>
+            <dd className="mt-1 text-ivory">Kín đáo, riêng tư</dd>
+          </div>
+          <div>
+            <dt className="text-muted">Bảo hành</dt>
+            <dd className="mt-1 text-ivory">3 tháng lỗi NSX</dd>
+          </div>
+        </dl>
+
+        <p className="mt-6 border-t border-line pt-5 text-sm text-muted">
+          Cần thêm thông số (chất liệu, kích thước, dung tích pin...)? Nhắn
+          hotline{" "}
+          <a href={site.phoneHref} className="font-semibold text-gold">
+            {site.phone}
+          </a>{" "}
+          để được tư vấn chi tiết trước khi đặt hàng.
+        </p>
+        <p className="mt-3 text-sm text-muted">
+          Giao hàng kín đáo trong 2–4 ngày làm việc. Hỗ trợ kiểm tra hàng
+          trước khi thanh toán (COD) tại một số khu vực.
+        </p>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { useCart } from "@/lib/cart-context";
 import { formatPrice } from "@/data/products";
 import ProductGlyph from "@/components/ProductGlyph";
@@ -150,8 +151,18 @@ export default function CheckoutPage() {
           <ul className="flex flex-col gap-4">
             {items.map((item) => (
               <li key={item.slug} className="flex items-center gap-3">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center bg-surface2 p-2.5">
-                  <ProductGlyph type={item.icon} />
+                <div className="relative flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden bg-surface2 p-2.5">
+                  {item.image ? (
+                    <Image
+                      src={item.image}
+                      alt={item.name}
+                      fill
+                      sizes="48px"
+                      className="object-contain p-1"
+                    />
+                  ) : (
+                    <ProductGlyph type={item.icon} />
+                  )}
                 </div>
                 <div className="flex-1">
                   <p className="text-sm text-ivory">{item.name}</p>
