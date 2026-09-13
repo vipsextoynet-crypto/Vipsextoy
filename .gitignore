@@ -5,3 +5,6 @@ out/
 
 # Dữ liệu đơn hàng có thông tin khách hàng — không commit lên git
 data/orders.json
+
+Add-Content .gitignore "vietnamese-sexual-wellness-seo-ai/"
+Add-Content .gitignore "vietnamese-sexual-wellness-seo-ai.zip"
