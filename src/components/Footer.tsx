@@ -147,7 +147,8 @@ export default function Footer() {
                   {site.email}
                 </a>
               </li>
-              <li className="text-muted">{site.address}</li>
+              <li className="text-muted">{site.address1}</li>
+              <li className="text-muted">{site.address2}</li>
               <li className="text-muted">{site.hours}</li>
             </ul>
           </div>

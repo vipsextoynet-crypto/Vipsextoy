@@ -54,7 +54,8 @@ export default function ContactPage() {
             <MapPin size={20} strokeWidth={1.4} className="mt-0.5 shrink-0 text-gold" />
             <div>
               <p className="text-sm text-ivory">Địa chỉ</p>
-              <p className="mt-1 text-sm text-muted">{site.address}</p>
+              <p className="mt-1 text-sm text-muted">{site.address1}</p>
+              <p className="mt-1 text-sm text-muted">{site.address2}</p>
             </div>
           </div>
           <div className="flex gap-4 border border-line bg-surface p-6">

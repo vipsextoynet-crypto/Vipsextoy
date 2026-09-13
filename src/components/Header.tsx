@@ -66,10 +66,10 @@ export default function Header() {
           </form>
 
           <a href={site.phoneHref} className="text-xs sm:text-sm">
-            <span className="font-semibold text-rose">
+            <span className="font-semibold text-white">
               Liên hệ đặt hàng toàn quốc
             </span>{" "}
-            <span className="font-bold text-[#FFD400]">{site.phone}</span>
+            <span className="font-bold text-gold">{site.phone}</span>
           </a>
 
           <button
@@ -99,7 +99,7 @@ export default function Header() {
             onMouseLeave={() => setCatOpen(false)}
           >
             <button className="flex items-center gap-1 px-4 py-3 transition hover:bg-black/10">
-              Sản phẩm
+              SẢN PHẨM
               <ChevronDown size={14} />
             </button>
             {catOpen && (
