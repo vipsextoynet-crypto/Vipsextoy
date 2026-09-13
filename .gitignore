@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+.env.local
+
+# Dữ liệu đơn hàng có thông tin khách hàng — không commit lên git
+data/orders.json

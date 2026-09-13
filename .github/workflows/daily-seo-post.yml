@@ -1,0 +1,44 @@
+name: Đăng bài SEO tự động hằng ngày
+
+on:
+  schedule:
+    # 12:00 UTC = 19:00 gio Viet Nam (UTC+7). GitHub co the chay tre vai
+    # phut so voi gio dat, day la gioi han cua GitHub Actions (khong phai
+    # loi cau hinh) - xem ghi chu trong README_SEO_AUTO.md.
+    - cron: "0 12 * * *"
+  workflow_dispatch: {} # cho bam "Run workflow" thu cong de test truoc
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Cai dat Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cai dat thu vien Gemini SDK
+        run: npm install @google/genai@latest --no-save
+
+      - name: Tao bai viet moi bang AI
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/generate-daily-post.mjs
+
+      - name: Commit va push (Vercel se tu dong deploy bai moi)
+        run: |
+          git config user.name "vipextoy-seo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/blog-posts.json scripts/seo-progress.json
+          if git diff --cached --quiet; then
+            echo "Khong co bai viet moi de commit."
+          else
+            git commit -m "chore: đăng bài SEO tự động $(date +%F)"
+            git push
+          fi
