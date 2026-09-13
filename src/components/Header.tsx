@@ -23,18 +23,18 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40">
       {/* Thanh trên: logo, tổng tiền giỏ hàng, tìm kiếm, hotline */}
-      <div className="bg-ivory">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-3">
+      <div className="border-b border-line bg-surface">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-2.5 sm:py-3">
           <Link
             href="/"
-            className="font-serif text-xl font-bold tracking-wide text-gold"
+            className="font-serif text-lg font-bold tracking-wide text-gold sm:text-xl"
           >
             {site.name.toUpperCase()}.NET
           </Link>
 
           <button
             onClick={openCart}
-            className="flex items-center gap-2 text-xs text-white sm:text-sm"
+            className="flex items-center gap-2 text-xs text-ivory sm:text-sm"
           >
             <span>
               THÀNH TIỀN: <span className="font-semibold">{formatPrice(subtotal)}</span>
@@ -51,7 +51,7 @@ export default function Header() {
 
           <form
             onSubmit={handleSearch}
-            className="hidden min-w-[220px] flex-1 items-center border border-white/20 bg-white sm:flex sm:max-w-xs"
+            className="hidden min-w-[220px] flex-1 items-center border border-line bg-surface2 sm:flex sm:max-w-xs"
           >
             <input
               value={q}
@@ -65,15 +65,15 @@ export default function Header() {
             </button>
           </form>
 
-          <a href={site.phoneHref} className="text-xs sm:text-sm">
-            <span className="font-semibold text-white">
+          <a href={site.phoneHref} className="hidden text-xs sm:block sm:text-sm">
+            <span className="font-semibold text-ivory">
               Liên hệ đặt hàng toàn quốc
             </span>{" "}
             <span className="font-bold text-gold">{site.phone}</span>
           </a>
 
           <button
-            className="text-white lg:hidden"
+            className="text-ivory lg:hidden"
             onClick={() => setMenuOpen((v) => !v)}
             aria-label="Menu"
           >
