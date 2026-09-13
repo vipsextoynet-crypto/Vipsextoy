@@ -9,6 +9,7 @@ export type BlogPost = {
   readTime: string;
   category: string;
   icon: "wave" | "orb" | "petal" | "spark" | "curve" | "drop" | "ring" | "bloom";
+  image?: string;
 };
 
 // Du lieu bai viet nam trong blog-posts.json (khong con hard-code trong file

@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "vipextoy-seo-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add src/data/blog-posts.json scripts/seo-progress.json
+          git add src/data/blog-posts.json scripts/seo-progress.json public/blog/
           if git diff --cached --quiet; then
             echo "Khong co bai viet moi de commit."
           else

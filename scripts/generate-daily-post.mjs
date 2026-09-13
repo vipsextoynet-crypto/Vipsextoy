@@ -13,9 +13,14 @@
 // Luu y an toan: script nay KHONG ghi de safetySettings cua Gemini ve
 // BLOCK_NONE nhu file goc trong du an ban gui - de nguyen muc mac dinh cua
 // Google lam lop bao ve tu dong, vi day la pipeline chay khong nguoi kiem
-// duyet truoc khi len web that.
+// duyet truoc khi len web that. Dieu nay ap dung cho CA phan sinh van ban
+// LAN phan sinh anh minh hoa (buoc 5 ben duoi) - anh chi la anh san pham /
+// tinh vat phong cach thuong mai, khong mo ta nguoi, khong noi dung nhay cam.
+// Neu Gemini tu choi sinh anh (vi cham nguong an toan mac dinh) hoac loi bat
+// ky, script se BO QUA anh va bai viet van duoc dang binh thuong voi icon
+// glyph nhu truoc gio - khong lam hong ca pipeline.
 
-import { GoogleGenAI, Type } from "@google/genai";
+import { GoogleGenAI, Type, Modality } from "@google/genai";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -24,6 +29,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const TOPICS_PATH = path.join(ROOT, "scripts/seo-topics.json");
 const PROGRESS_PATH = path.join(ROOT, "scripts/seo-progress.json");
 const BLOG_JSON_PATH = path.join(ROOT, "src/data/blog-posts.json");
+const BLOG_IMAGES_DIR = path.join(ROOT, "public/blog");
 
 const ICON_BY_CATEGORY = {
   trending: "spark",
@@ -59,6 +65,47 @@ function loadJson(p, fallback) {
   } catch {
     return fallback;
   }
+}
+
+// Sinh anh minh hoa AN TOAN cho bai viet: tinh vat / anh san pham phong cach
+// thuong mai (bao bi, hop qua, khong gian toi gian), KHONG mo ta nguoi, KHONG
+// noi dung nhay cam. Khong ghi de safetySettings - dung mac dinh cua Gemini.
+// Tra ve duong dan public (vd "/blog/slug.jpg") neu thanh cong, hoac null
+// neu that bai vi bat ky ly do gi (bai viet van duoc dang, chi khong co anh).
+async function generateSafeImage(ai, { title, categoryLabel, slug }) {
+  const imagePrompt = `Professional commercial still-life product photography for a personal-care e-commerce blog article titled "${title}" (category: ${categoryLabel}).
+Show only: elegant minimalist packaging/box, soft studio lighting, neutral pastel background, plants or soft fabric props, clean editorial e-commerce aesthetic.
+Strictly no people, no body parts, no text, no logos, no nudity, no sexual or suggestive content of any kind. Wide 16:9 composition.`;
+
+  const imageModels = ["gemini-2.5-flash-image", "gemini-3.1-flash-lite-image"];
+  for (const modelName of imageModels) {
+    try {
+      const response = await ai.models.generateContent({
+        model: modelName,
+        contents: { parts: [{ text: imagePrompt }] },
+        config: {
+          responseModalities: [Modality.IMAGE],
+          // KHONG dat safetySettings o day => dung nguong mac dinh cua Google.
+        },
+      });
+
+      const parts = response.candidates?.[0]?.content?.parts || [];
+      for (const part of parts) {
+        if (part.inlineData?.data) {
+          const ext = (part.inlineData.mimeType || "image/jpeg").includes("png") ? "png" : "jpg";
+          fs.mkdirSync(BLOG_IMAGES_DIR, { recursive: true });
+          const filePath = path.join(BLOG_IMAGES_DIR, `${slug}.${ext}`);
+          fs.writeFileSync(filePath, Buffer.from(part.inlineData.data, "base64"));
+          return `/blog/${slug}.${ext}`;
+        }
+      }
+      console.warn(`Model ${modelName} khong tra ve du lieu anh (co the bi loc an toan).`);
+    } catch (e) {
+      console.warn(`Sinh anh voi model ${modelName} that bai:`, e?.message || e);
+    }
+  }
+  console.warn("Khong sinh duoc anh cho bai viet nay - se dung icon glyph mac dinh.");
+  return null;
 }
 
 async function main() {
@@ -146,6 +193,13 @@ Viết 1 bài blog khoảng 450-650 từ bằng tiếng Việt, giọng văn th�
   const wordCount = article.content.join(" ").split(/\s+/).filter(Boolean).length;
   const readTime = `${Math.max(2, Math.round(wordCount / 200))} phút đọc`;
 
+  const categoryLabel = CATEGORY_LABEL[topic.category] || "Kiến thức";
+  const imagePath = await generateSafeImage(ai, {
+    title: article.title,
+    categoryLabel,
+    slug,
+  });
+
   const newPost = {
     slug,
     title: article.title,
@@ -153,8 +207,9 @@ Viết 1 bài blog khoảng 450-650 từ bằng tiếng Việt, giọng văn th�
     content: article.content,
     date: dateStr,
     readTime,
-    category: CATEGORY_LABEL[topic.category] || "Kiến thức",
+    category: categoryLabel,
     icon: ICON_BY_CATEGORY[topic.category] || "wave",
+    ...(imagePath ? { image: imagePath } : {}),
   };
 
   const posts = loadJson(BLOG_JSON_PATH, []);
