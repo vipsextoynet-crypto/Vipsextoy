@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Lock, Package, Truck, Phone, Mail } from "lucide-react";
-import { categories } from "@/data/products";
 import { site } from "@/lib/site";
 
 function FacebookIcon() {
@@ -82,19 +81,6 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-sm text-ivory">Danh mục</p>
-            <ul className="mt-4 flex flex-col gap-2.5 text-sm text-muted">
-              {categories.map((c) => (
-                <li key={c.slug}>
-                  <Link href={`/danh-muc/${c.slug}`} className="transition hover:text-ivory">
-                    {c.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
             <p className="text-sm text-ivory">Hỗ trợ</p>
             <ul className="mt-4 flex flex-col gap-2.5 text-sm text-muted">
               <li>
@@ -112,6 +98,12 @@ export default function Footer() {
                   Liên hệ
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-sm text-ivory">Chính sách</p>
+            <ul className="mt-4 flex flex-col gap-2.5 text-sm text-muted">
               <li>
                 <Link href="/chinh-sach/van-chuyen" className="transition hover:text-ivory">
                   Chính sách vận chuyển
