@@ -19,20 +19,20 @@ function TelegramGlyph() {
 
 export default function FloatingContact() {
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+    <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-2.5">
       <a
         href={site.phoneHref}
         aria-label="Gọi điện"
-        className="flex h-12 w-12 animate-pulse items-center justify-center rounded-full bg-gold text-white shadow-lg transition hover:opacity-90"
+        className="flex h-11 w-11 animate-pulse items-center justify-center rounded-full bg-gold text-white shadow-lg transition hover:opacity-90"
       >
-        <Phone size={20} />
+        <Phone size={18} />
       </a>
       <a
         href={site.zaloHref}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat Zalo"
-        className="flex h-12 w-12 items-center justify-center rounded-full bg-[#0068FF] text-white shadow-lg transition hover:opacity-90"
+        className="flex h-11 w-11 items-center justify-center rounded-full bg-[#0068FF] text-white shadow-lg transition hover:opacity-90"
       >
         <ZaloGlyph />
       </a>
@@ -41,7 +41,7 @@ export default function FloatingContact() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat Telegram"
-        className="flex h-12 w-12 items-center justify-center rounded-full bg-[#26A5E4] text-white shadow-lg transition hover:opacity-90"
+        className="flex h-11 w-11 items-center justify-center rounded-full bg-[#26A5E4] text-white shadow-lg transition hover:opacity-90"
       >
         <TelegramGlyph />
       </a>

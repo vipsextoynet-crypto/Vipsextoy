@@ -33,20 +33,11 @@ export default function Header() {
           </Link>
 
           <button
-            onClick={openCart}
-            className="flex items-center gap-2 text-xs text-ivory sm:text-sm"
+            className="flex h-8 w-8 items-center justify-center rounded-full bg-gold/10 text-gold lg:hidden"
+            onClick={() => setMenuOpen((v) => !v)}
+            aria-label="Menu"
           >
-            <span>
-              THÀNH TIỀN: <span className="font-semibold">{formatPrice(subtotal)}</span>
-            </span>
-            <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-gold">
-              <ShoppingBag size={13} className="text-white" />
-              {count > 0 && (
-                <span className="absolute -right-1 -top-1 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-white text-[9px] font-bold text-gold">
-                  {count}
-                </span>
-              )}
-            </span>
+            {menuOpen ? <X size={18} /> : <Menu size={18} />}
           </button>
 
           <form
@@ -73,11 +64,20 @@ export default function Header() {
           </a>
 
           <button
-            className="text-ivory lg:hidden"
-            onClick={() => setMenuOpen((v) => !v)}
-            aria-label="Menu"
+            onClick={openCart}
+            className="flex items-center gap-2 text-xs text-ivory sm:text-sm"
           >
-            {menuOpen ? <X size={20} /> : <Menu size={20} />}
+            <span>
+              THÀNH TIỀN: <span className="font-semibold">{formatPrice(subtotal)}</span>
+            </span>
+            <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-gold">
+              <ShoppingBag size={13} className="text-white" />
+              {count > 0 && (
+                <span className="absolute -right-1 -top-1 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-white text-[9px] font-bold text-gold">
+                  {count}
+                </span>
+              )}
+            </span>
           </button>
         </div>
       </div>
