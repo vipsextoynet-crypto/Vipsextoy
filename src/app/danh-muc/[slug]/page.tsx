@@ -93,7 +93,7 @@ export default function CategoryPage({
           {list.length === 0 ? (
             <p className="text-muted">Sản phẩm đang được cập nhật cho danh mục này.</p>
           ) : (
-            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
               {list.map((p) => (
                 <ProductCard key={p.slug} product={p} />
               ))}
