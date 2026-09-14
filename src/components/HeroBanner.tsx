@@ -12,12 +12,24 @@ import Image from "next/image";
 // như hiện tại (không lỗi gì cả).
 const SLIDES = [
   {
+    title: "",
+    subtitle: "",
+    href: "",
+    gradient: "",
     image: "/banners/banner-1.png",
   },
   {
+    title: "",
+    subtitle: "",
+    href: "",
+    gradient: "",
     image: "/banners/banner-2.png",
   },
   {
+    title: "",
+    subtitle: "",
+    href: "",
+    gradient: "",
     image: "/banners/banner-3.png",
   },
 ];
