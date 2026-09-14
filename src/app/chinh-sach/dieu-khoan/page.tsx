@@ -4,7 +4,7 @@ import PolicyLayout from "@/components/PolicyLayout";
 export const metadata: Metadata = {
   title: "Điều khoản sử dụng",
   description:
-    "Điều khoản sử dụng website Vipsextoy: điều kiện truy cập, độ tuổi, quyền và nghĩa vụ của người dùng khi mua sắm tại Vipsextoy.",
+    "Điều khoản sử dụng website Vipextoy: điều kiện truy cập, độ tuổi, quyền và nghĩa vụ của người dùng khi mua sắm tại Vipextoy.",
   alternates: { canonical: "/chinh-sach/dieu-khoan" },
 };
 
@@ -12,12 +12,12 @@ export default function TermsPage() {
   return (
     <PolicyLayout title="Điều khoản sử dụng" updatedAt="01/09/2026">
       <p>
-        Khi truy cập và sử dụng website vipextoy.com, bạn đồng ý với các
+        Khi truy cập và sử dụng website vipsextoy.com, bạn đồng ý với các
         điều khoản sử dụng dưới đây.
       </p>
       <h2>Điều kiện độ tuổi</h2>
       <p>
-        Website và sản phẩm của Vipsextoy chỉ dành cho người dùng từ 18 tuổi
+        Website và sản phẩm của Vipextoy chỉ dành cho người dùng từ 18 tuổi
         trở lên. Bằng việc tiếp tục truy cập, bạn xác nhận đã đủ 18 tuổi
         theo quy định pháp luật.
       </p>
@@ -35,7 +35,7 @@ export default function TermsPage() {
       </p>
       <h2>Thay đổi điều khoản</h2>
       <p>
-        Vipsextoy có thể cập nhật điều khoản sử dụng theo thời gian. Phiên
+        Vipextoy có thể cập nhật điều khoản sử dụng theo thời gian. Phiên
         bản mới nhất luôn được đăng tải công khai tại trang này.
       </p>
     </PolicyLayout>

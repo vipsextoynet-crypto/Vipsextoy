@@ -210,20 +210,40 @@ Bây giờ hãy tối ưu tên sản phẩm đã cung cấp.
   return null;
 }
 
-function appendLog(row) {
+async function appendLog(row) {
   const exists = fs.existsSync(LOG_PATH);
   const line =
     [row.sku, row.old, row.new, row.status]
       .map((v) => `"${String(v ?? "").replace(/"/g, '""')}"`)
       .join(",") + "\n";
-  if (!exists) {
-    fs.writeFileSync(
-      LOG_PATH,
-      "\uFEFFsku,old_title,new_title,status\n",
-      "utf8"
-    );
+
+  // Windows doi khi khoa file CSV trong chop giay (Excel dang mo file nay,
+  // hoac neu G:\ la o dia dong bo cloud nhu Google Drive Desktop thi phan
+  // mem dong bo cung hay giu khoa file trong luc no dang tai len). Thay vi
+  // de loi EBUSY/EPERM lam crash ca script giua chung (mat het tien do cac
+  // san pham con lai), thu lai vai lan truoc khi bo cuoc.
+  const MAX_RETRIES = 5;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      if (!exists && attempt === 1) {
+        fs.writeFileSync(LOG_PATH, "\uFEFFsku,old_title,new_title,status\n", "utf8");
+      }
+      fs.appendFileSync(LOG_PATH, line, "utf8");
+      return;
+    } catch (e) {
+      const isLocked = e && (e.code === "EBUSY" || e.code === "EPERM" || e.code === "EACCES");
+      if (!isLocked || attempt === MAX_RETRIES) {
+        console.warn(
+          `  [Canh bao] Khong ghi duoc log cho ${row.sku} sau ${attempt} lan thu (${e?.code || e}). ` +
+            `Co the file dang mo trong Excel, hoac thu muc dang duoc dong bo cloud (Google Drive/OneDrive) - ` +
+            `dong file/tam dung dong bo roi chay lai. Bo qua dong log nay, TIEP TUC chay san pham tiep theo.`
+        );
+        return; // Khong throw - de main() tiep tuc xu ly cac SKU con lai
+      }
+      // Cho mot chut roi thu lai (200ms, 400ms, 600ms...)
+      await new Promise((r) => setTimeout(r, attempt * 200));
+    }
   }
-  fs.appendFileSync(LOG_PATH, line, "utf8");
 }
 
 function loadDoneSkus() {
@@ -290,7 +310,7 @@ async function main() {
 
     if (!newTitle) {
       console.warn(`  Khong tao duoc tieu de moi cho ${sku}, giu nguyen.`);
-      appendLog({ sku, old: name, new: "", status: "FAIL" });
+      await appendLog({ sku, old: name, new: "", status: "FAIL" });
       await new Promise((r) => setTimeout(r, MIN_INTERVAL_MS));
       continue;
     }
@@ -307,7 +327,7 @@ async function main() {
     offsetShift += newBlockText.length - blockText.length;
 
     fs.writeFileSync(PRODUCTS_PATH, source, "utf8");
-    appendLog({ sku, old: name, new: newTitle, status: "OK" });
+    await appendLog({ sku, old: name, new: newTitle, status: "OK" });
     console.log(`  -> "${newTitle}"`);
 
     await new Promise((r) => setTimeout(r, MIN_INTERVAL_MS));

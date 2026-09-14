@@ -1,9 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { getProduct, formatPrice, products } from "@/data/products";
-import ProductGlyph from "@/components/ProductGlyph";
+import ProductGallery from "@/components/ProductGallery";
 import AddToCartButton from "@/components/AddToCartButton";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
@@ -75,20 +74,12 @@ export default function ProductPage({
       </nav>
 
       <div className="grid gap-12 md:grid-cols-2">
-        <div className="relative flex aspect-square items-center justify-center overflow-hidden bg-surface p-16">
-          {product.image ? (
-            <Image
-              src={product.image}
-              alt={product.name}
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-contain p-4"
-              priority
-            />
-          ) : (
-            <ProductGlyph type={product.icon} />
-          )}
-        </div>
+        <ProductGallery
+          images={product.images}
+          fallbackImage={product.image}
+          icon={product.icon}
+          name={product.name}
+        />
 
         <div>
           <p className="text-xs uppercase tracking-wide text-gold">

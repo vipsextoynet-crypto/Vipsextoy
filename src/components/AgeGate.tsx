@@ -24,7 +24,7 @@ export default function AgeGate() {
               Nội dung này chỉ dành cho người từ 18 tuổi trở lên.
             </p>
             <p className="mt-3 text-sm text-muted">
-              Bạn cần đủ 18 tuổi để truy cập vipextoy.com.
+              Bạn cần đủ 18 tuổi để truy cập vipsextoy.com.
             </p>
           </>
         ) : (
@@ -32,7 +32,7 @@ export default function AgeGate() {
             <div className="mx-auto mb-5 h-px w-10 bg-gold" />
             <p className="font-serif text-2xl text-ivory">Xác nhận độ tuổi</p>
             <p className="mt-3 text-sm leading-relaxed text-muted">
-              vipextoy.com chứa nội dung và sản phẩm dành cho người trưởng
+              vipsextoy.com chứa nội dung và sản phẩm dành cho người trưởng
               thành. Vui lòng xác nhận bạn đã đủ 18 tuổi để tiếp tục.
             </p>
             <div className="mt-7 flex flex-col gap-3">
