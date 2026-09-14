@@ -2,31 +2,35 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 // THAY BANNER THẬT Ở ĐÂY:
-// Đổi mỗi "gradient" thành ảnh banner thật bằng next/image, ví dụ:
-//   <Image src="/banners/banner-1.jpg" alt="Khuyến mãi tháng 9" fill priority className="object-cover" />
-// Kích thước khuyến nghị: 1200x360px (tỉ lệ ~10:3), nén ảnh dưới 200KB để tải nhanh.
-// "priority" chỉ đặt cho ẢNH ĐẦU TIÊN (banner luôn hiện ngay khi tải trang — đây là
-// phần ảnh hưởng tới chỉ số LCP, quan trọng nhất cho SEO/tốc độ).
+// Bỏ ảnh vào thư mục public/banners/ (ví dụ public/banners/banner-1.jpg),
+// rồi điền đường dẫn vào field "image" của slide tương ứng bên dưới.
+// Kích thước khuyến nghị: 1600x600px (tỉ lệ ~8:3), nén ảnh dưới 300KB để tải nhanh.
+// Định dạng .jpg hoặc .webp. Nếu để trống "image", banner tự dùng màu gradient
+// như hiện tại (không lỗi gì cả).
 const SLIDES = [
   {
     title: "Ưu đãi tháng này",
     subtitle: "Giảm giá đến 30% cho sản phẩm mới về",
     href: "/shop",
     gradient: "linear-gradient(135deg, #E6007A, #FF6FA5)",
+    image: "/banners/banner-1.jpg",
   },
   {
     title: "Hàng chính hãng Svakom, We-Vibe",
     subtitle: "Bảo hành quốc tế, giao hàng kín đáo toàn quốc",
     href: "/shop",
     gradient: "linear-gradient(135deg, #2196F3, #6EC6FF)",
+    image: "/banners/banner-2.jpg",
   },
   {
     title: "Freeship nội thành đơn từ 500.000đ",
     subtitle: "Thanh toán khi nhận hàng (COD)",
     href: "/shop",
     gradient: "linear-gradient(135deg, #1A1A1A, #4B4B4B)",
+    image: "/banners/banner-3.jpg",
   },
 ];
 
@@ -48,10 +52,24 @@ export default function HeroBanner() {
             className={`absolute inset-0 flex flex-col items-start justify-center gap-2 px-8 text-white transition-opacity duration-700 sm:px-16 ${
               i === index ? "opacity-100" : "pointer-events-none opacity-0"
             }`}
-            style={{ background: s.gradient }}
+            style={s.image ? undefined : { background: s.gradient }}
           >
-            <h2 className="font-serif text-2xl sm:text-4xl">{s.title}</h2>
-            <p className="text-sm text-white/90 sm:text-base">{s.subtitle}</p>
+            {s.image && (
+              <>
+                <Image
+                  src={s.image}
+                  alt={s.title}
+                  fill
+                  priority={i === 0}
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 1152px, 100vw"
+                />
+                {/* Lớp phủ tối để chữ luôn đọc rõ dù ảnh sáng hay tối */}
+                <div className="absolute inset-0 bg-black/35" />
+              </>
+            )}
+            <h2 className="relative font-serif text-2xl sm:text-4xl">{s.title}</h2>
+            <p className="relative text-sm text-white/90 sm:text-base">{s.subtitle}</p>
           </Link>
         ))}
       </div>
