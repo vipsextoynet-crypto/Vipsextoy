@@ -8,8 +8,14 @@ import Image from "next/image";
 // Bỏ ảnh vào thư mục public/banners/ (ví dụ public/banners/banner-1.jpg),
 // rồi điền đường dẫn vào field "image" của slide tương ứng bên dưới.
 // Kích thước khuyến nghị: 1600x600px (tỉ lệ ~8:3), nén ảnh dưới 300KB để tải nhanh.
-// Định dạng .jpg hoặc .webp. Nếu để trống "image", banner tự dùng màu gradient
-// như hiện tại (không lỗi gì cả).
+// Định dạng .jpg, .png hoặc .webp. Nếu để trống "image", banner tự dùng màu
+// gradient như hiện tại (không lỗi gì cả).
+//
+// hasOwnText: đặt true nếu ẢNH ĐÃ CÓ SẴN chữ/thiết kế đầy đủ (như banner quảng
+// cáo thiết kế rồi) — khi đó code sẽ KHÔNG phủ thêm lớp tối và KHÔNG in thêm
+// chữ title/subtitle đè lên nữa, tránh ảnh bị xỉn màu không cần thiết. Để false
+// (hoặc bỏ qua) nếu ảnh chỉ là ảnh nền trơn, cần chữ title/subtitle của code
+// hiển thị đè lên trên.
 const SLIDES = [
   {
     title: "",
@@ -17,6 +23,7 @@ const SLIDES = [
     href: "",
     gradient: "",
     image: "/banners/banner-1.png",
+    hasOwnText: true,
   },
   {
     title: "",
@@ -24,6 +31,7 @@ const SLIDES = [
     href: "",
     gradient: "",
     image: "/banners/banner-2.png",
+    hasOwnText: true,
   },
   {
     title: "",
@@ -31,6 +39,7 @@ const SLIDES = [
     href: "",
     gradient: "",
     image: "/banners/banner-3.png",
+    hasOwnText: true,
   },
 ];
 
@@ -64,12 +73,15 @@ export default function HeroBanner() {
                   className="object-cover"
                   sizes="(min-width: 1024px) 1152px, 100vw"
                 />
-                {/* Lớp phủ tối để chữ luôn đọc rõ dù ảnh sáng hay tối */}
-                <div className="absolute inset-0 bg-black/35" />
+                {!s.hasOwnText && <div className="absolute inset-0 bg-black/35" />}
               </>
             )}
-            <h2 className="relative font-serif text-2xl sm:text-4xl">{s.title}</h2>
-            <p className="relative text-sm text-white/90 sm:text-base">{s.subtitle}</p>
+            {!s.hasOwnText && (
+              <>
+                <h2 className="relative font-serif text-2xl sm:text-4xl">{s.title}</h2>
+                <p className="relative text-sm text-white/90 sm:text-base">{s.subtitle}</p>
+              </>
+            )}
           </Link>
         ))}
       </div>
