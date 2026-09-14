@@ -84,7 +84,7 @@ export default function Header() {
 
       {/* Thanh menu hồng */}
       <div className="hidden bg-gold lg:block">
-        <div className="mx-auto flex max-w-6xl items-center gap-1 px-5 text-sm font-medium uppercase tracking-wide text-white">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-5 text-sm font-bold uppercase tracking-wide text-white">
           <Link
             href="/"
             className="flex items-center gap-1.5 px-4 py-3 transition hover:bg-black/10"
@@ -107,16 +107,16 @@ export default function Header() {
                 <div className="grid grid-cols-2 gap-x-8 gap-y-4">
                   {categories.map((c) => (
                     <Link key={c.slug} href={`/danh-muc/${c.slug}`} className="group/item">
-                      <p className="text-sm text-ivory transition group-hover/item:text-gold">
+                      <p className="text-sm font-normal text-ivory transition group-hover/item:text-gold">
                         {c.name}
                       </p>
-                      <p className="mt-0.5 text-xs text-muted">{c.shortDescription}</p>
+                      <p className="mt-0.5 text-xs font-normal text-muted">{c.shortDescription}</p>
                     </Link>
                   ))}
                 </div>
                 <Link
                   href="/shop"
-                  className="mt-5 block border-t border-line pt-4 text-xs text-gold hover:text-ivory"
+                  className="mt-5 block border-t border-line pt-4 text-xs font-normal text-gold hover:text-ivory"
                 >
                   Xem toàn bộ sản phẩm →
                 </Link>
@@ -124,9 +124,6 @@ export default function Header() {
             )}
           </div>
 
-          <Link href="/shop" className="px-4 py-3 transition hover:bg-black/10">
-            Cửa hàng
-          </Link>
           <Link href="/huong-dan-mua-hang" className="px-4 py-3 transition hover:bg-black/10">
             Hướng dẫn mua hàng
           </Link>
@@ -154,9 +151,6 @@ export default function Header() {
             </button>
           </form>
           <nav className="flex flex-col gap-3 text-sm text-ivory">
-            <Link href="/shop" onClick={() => setMenuOpen(false)}>
-              Cửa hàng
-            </Link>
             <Link href="/huong-dan-mua-hang" onClick={() => setMenuOpen(false)}>
               Hướng dẫn mua hàng
             </Link>

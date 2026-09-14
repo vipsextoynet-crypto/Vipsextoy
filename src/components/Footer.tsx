@@ -56,8 +56,8 @@ export default function Footer() {
       <div className="border-t border-line">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 md:grid-cols-4">
           <div>
-            <p className="font-serif text-lg text-ivory">
-              Vipex<span className="text-gold">toy</span>
+            <p className="font-serif text-lg font-bold tracking-wide text-gold">
+              {site.name.toUpperCase()}.NET
             </p>
             <p className="mt-3 max-w-[220px] text-sm text-muted">
               Sản phẩm chăm sóc cá nhân cao cấp, riêng tư và an toàn cho người trưởng thành.
@@ -147,8 +147,8 @@ export default function Footer() {
                   {site.email}
                 </a>
               </li>
-              <li className="text-muted">{site.address1}</li>
-              <li className="text-muted">{site.address2}</li>
+              <li className="text-muted"><span className="text-ivory">Địa chỉ 1:</span> {site.address1}</li>
+              <li className="text-muted"><span className="text-ivory">Địa chỉ 2:</span> {site.address2}</li>
               <li className="text-muted">{site.hours}</li>
             </ul>
           </div>
@@ -156,7 +156,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-line px-5 py-6 text-center text-xs text-muted">
-        © {new Date().getFullYear()} Vipextoy. Sản phẩm dành cho người từ 18 tuổi trở lên.
+        © {new Date().getFullYear()} Vipsextoy. Sản phẩm dành cho người từ 18 tuổi trở lên.
       </div>
     </footer>
   );

@@ -5,7 +5,7 @@ import PolicyLayout from "@/components/PolicyLayout";
 export const metadata: Metadata = {
   title: "Chính sách bảo mật",
   description:
-    "Chính sách bảo mật thông tin khách hàng của Vipextoy: dữ liệu thu thập, mục đích sử dụng và cam kết không chia sẻ cho bên thứ ba.",
+    "Chính sách bảo mật thông tin khách hàng của Vipsextoy: dữ liệu thu thập, mục đích sử dụng và cam kết không chia sẻ cho bên thứ ba.",
   alternates: { canonical: "/chinh-sach/bao-mat" },
 };
 
@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
   return (
     <PolicyLayout title="Chính sách bảo mật" updatedAt="01/09/2026">
       <p>
-        Vipextoy hiểu rằng sự riêng tư là ưu tiên hàng đầu của khách hàng khi
+        Vipsextoy hiểu rằng sự riêng tư là ưu tiên hàng đầu của khách hàng khi
         mua sắm sản phẩm chăm sóc cá nhân. Chính sách này giải thích cách
         chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn.
       </p>
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
       <h2>Mục đích sử dụng</h2>
       <p>
         Thông tin của bạn chỉ được dùng để xử lý đơn hàng, giao hàng, chăm
-        sóc khách hàng và gửi ưu đãi (nếu bạn đăng ký). Vipextoy không bán
+        sóc khách hàng và gửi ưu đãi (nếu bạn đăng ký). Vipsextoy không bán
         hoặc chia sẻ thông tin cá nhân cho bên thứ ba vì mục đích quảng cáo.
       </p>
       <h2>Bảo mật dữ liệu</h2>

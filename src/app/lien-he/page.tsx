@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 export const metadata: Metadata = {
   title: "Liên hệ",
   description:
-    "Liên hệ với Vipextoy để được tư vấn sản phẩm chăm sóc cá nhân riêng tư, hỗ trợ đơn hàng và giải đáp thắc mắc — bảo mật thông tin tuyệt đối.",
+    "Liên hệ với Vipsextoy để được tư vấn sản phẩm chăm sóc cá nhân riêng tư, hỗ trợ đơn hàng và giải đáp thắc mắc — bảo mật thông tin tuyệt đối.",
   alternates: { canonical: "/lien-he" },
 };
 
@@ -19,7 +19,7 @@ export default function ContactPage() {
           Chúng tôi luôn sẵn sàng hỗ trợ
         </h1>
         <p className="mt-3 max-w-xl text-muted">
-          Mọi thông tin liên hệ và trao đổi với Vipextoy đều được bảo mật
+          Mọi thông tin liên hệ và trao đổi với Vipsextoy đều được bảo mật
           tuyệt đối. Gửi câu hỏi cho chúng tôi hoặc liên hệ trực tiếp qua các
           kênh bên dưới.
         </p>
@@ -54,8 +54,8 @@ export default function ContactPage() {
             <MapPin size={20} strokeWidth={1.4} className="mt-0.5 shrink-0 text-gold" />
             <div>
               <p className="text-sm text-ivory">Địa chỉ</p>
-              <p className="mt-1 text-sm text-muted">{site.address1}</p>
-              <p className="mt-1 text-sm text-muted">{site.address2}</p>
+              <p className="mt-1 text-sm text-muted"><span className="text-ivory">Địa chỉ 1:</span> {site.address1}</p>
+              <p className="mt-1 text-sm text-muted"><span className="text-ivory">Địa chỉ 2:</span> {site.address2}</p>
             </div>
           </div>
           <div className="flex gap-4 border border-line bg-surface p-6">

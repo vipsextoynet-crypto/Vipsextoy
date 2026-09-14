@@ -17,7 +17,7 @@ import { Lock, Truck, ShieldCheck } from "lucide-react";
  */
 export default function Banner({
   src,
-  alt = "Banner khuyến mãi Vipextoy",
+  alt = "Banner khuyến mãi Vipsextoy",
 }: {
   src?: string;
   alt?: string;

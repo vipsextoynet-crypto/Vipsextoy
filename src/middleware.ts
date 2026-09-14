@@ -19,7 +19,7 @@ export function middleware(req: NextRequest) {
 
   return new NextResponse("Yêu cầu đăng nhập để xem trang quản trị.", {
     status: 401,
-    headers: { "WWW-Authenticate": 'Basic realm="Vipextoy Admin"' },
+    headers: { "WWW-Authenticate": 'Basic realm="Vipsextoy Admin"' },
   });
 }
 

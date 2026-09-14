@@ -6,7 +6,7 @@ import ProductGlyph from "@/components/ProductGlyph";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Góc chia sẻ của Vipextoy — hướng dẫn chọn mua, vệ sinh, bảo quản sản phẩm chăm sóc cá nhân và những câu chuyện chăm sóc bản thân.",
+    "Góc chia sẻ của Vipsextoy — hướng dẫn chọn mua, vệ sinh, bảo quản sản phẩm chăm sóc cá nhân và những câu chuyện chăm sóc bản thân.",
   alternates: { canonical: "/blog" },
 };
 

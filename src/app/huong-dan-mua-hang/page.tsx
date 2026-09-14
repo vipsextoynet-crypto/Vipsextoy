@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Hướng dẫn mua hàng",
   description:
-    "Hướng dẫn đặt hàng tại Vipextoy: chọn sản phẩm, thanh toán, giao hàng kín đáo và chính sách đổi trả.",
+    "Hướng dẫn đặt hàng tại Vipsextoy: chọn sản phẩm, thanh toán, giao hàng kín đáo và chính sách đổi trả.",
   alternates: { canonical: "/huong-dan-mua-hang" },
 };
 
@@ -47,7 +47,7 @@ export default function HuongDanMuaHangPage() {
         Hướng dẫn mua hàng
       </h1>
       <p className="mt-3 text-muted">
-        Chỉ mất vài bước để đặt hàng tại Vipextoy — riêng tư, kín đáo và
+        Chỉ mất vài bước để đặt hàng tại Vipsextoy — riêng tư, kín đáo và
         nhanh chóng.
       </p>
 

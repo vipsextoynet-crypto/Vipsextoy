@@ -1,9 +1,9 @@
 export const site = {
-  name: "Vipextoy",
-  fullName: "Vipextoy — Chăm sóc cá nhân riêng tư",
+  name: "Vipsextoy",
+  fullName: "Vipsextoy — Chăm sóc cá nhân riêng tư",
   url: "https://vipextoy.com",
   description:
-    "Vipextoy tuyển chọn sản phẩm chăm sóc cá nhân cao cấp cho người trưởng thành, đóng gói kín đáo, giao hàng nhanh toàn quốc. Chỉ dành cho khách hàng từ 18 tuổi trở lên.",
+    "Vipsextoy tuyển chọn sản phẩm chăm sóc cá nhân cao cấp cho người trưởng thành, đóng gói kín đáo, giao hàng nhanh toàn quốc. Chỉ dành cho khách hàng từ 18 tuổi trở lên.",
   phone: "0971.688.862",
   phoneHref: "tel:0971688862",
   zalo: "0971.688.862",

@@ -7,7 +7,7 @@ import Pagination from "@/components/Pagination";
 export const metadata: Metadata = {
   title: "Cửa hàng",
   description:
-    "Toàn bộ sản phẩm chăm sóc cá nhân tại Vipextoy — đa dạng danh mục, chất liệu an toàn, giao hàng kín đáo toàn quốc.",
+    "Toàn bộ sản phẩm chăm sóc cá nhân tại Vipsextoy — đa dạng danh mục, chất liệu an toàn, giao hàng kín đáo toàn quốc.",
   alternates: { canonical: "/shop" },
 };
 

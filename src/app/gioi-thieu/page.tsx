@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Giới thiệu",
   description:
-    "Vipextoy là cửa hàng sản phẩm chăm sóc cá nhân dành cho người trưởng thành, cam kết chất lượng, riêng tư và giao hàng kín đáo toàn quốc.",
+    "Vipsextoy là cửa hàng sản phẩm chăm sóc cá nhân dành cho người trưởng thành, cam kết chất lượng, riêng tư và giao hàng kín đáo toàn quốc.",
   alternates: { canonical: "/gioi-thieu" },
 };
 
