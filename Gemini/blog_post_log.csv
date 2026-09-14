@@ -1,0 +1,4 @@
+2026-08-04,Giải đáp thắc mắc thường gặp về Sextoy cho Nữ (FAQ từ khách hàng),FAIL,,Tạo bài mới thất bại sau 3 lần thử. Lỗi cuối: NGHI NGỜ ĐÈ BÀI CŨ: ID 154 đã từng được dùng để đăng bài trước đó (có trong topics_queue.csv/blog_post_log.csv). Dừng lại để KHÔNG ghi đè nội dung bài cũ.
+2026-08-04,Giải đáp thắc mắc thường gặp về Sextoy cho Nữ (FAQ từ khách hàng),OK,155,
+2026-08-05,Chính sách bảo mật đơn hàng khi mua Nước Hoa online — bạn cần biết gì?,FAIL,,"Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+2026-08-05,Chính sách bảo mật đơn hàng khi mua Nước Hoa online — bạn cần biết gì?,OK,157,

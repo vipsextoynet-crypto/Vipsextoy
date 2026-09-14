@@ -122,7 +122,7 @@ export const products: Product[] = [
   {
     slug: "dc72e1-vong-rung-luoi-liem-don-day-duong-vat-dieu-khien-xa",
     sku: "DC72E1",
-    name: "Vòng rung lưỡi liếm độn dầy dương vật điều khiển xa",
+    name: "Vòng Rung Lưỡi Liếm Tích Hợp Độn Dương Vật Điều Khiển Từ Xa",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 750000,
@@ -135,7 +135,7 @@ export const products: Product[] = [
   {
     slug: "dc72e-vong-rung-luoi-liem-dieu-khien-xa",
     sku: "DC72E",
-    name: "Vòng rung lưỡi liếm điều khiển xa",
+    name: "Vòng Rung Lưỡi Điều Khiển Từ Xa Cho Nữ",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 650000,
@@ -148,7 +148,7 @@ export const products: Product[] = [
   {
     slug: "bd49g-bao-don-silicon-gai-mem-co-quay-deo",
     sku: "BD49G",
-    name: "Bao đôn silicon gai mềm có quay đeo",
+    name: "Bao Đôn Dên Silicon Gai Mềm Có Quai Đeo Tăng Khoái Cảm Nam Giới",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 400000,
@@ -161,7 +161,7 @@ export const products: Product[] = [
   {
     slug: "bd49d1-bao-don-silicon-cu-ngua-size-nho-co-quay-deo",
     sku: "BD49D1",
-    name: "Bao đôn silicon cu ngựa size nhỏ có quay đeo",
+    name: "Bao Đôn Dên Silicon Hình Dáng Độc Đáo Size Nhỏ Có Quai Đeo Tiện Lợi",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 300000,
@@ -174,7 +174,7 @@ export const products: Product[] = [
   {
     slug: "g13c-gel-boi-tron-huong-trai-cay-chai-200ml",
     sku: "G13C",
-    name: "Gel bôi trơn hương trái cây chai 200ml",
+    name: "Gel Bôi Trơn Gốc Nước Hương Trái Cây Cao Cấp 200ml",
     category: "Gel Bôi Trơn Cao Cấp",
     categorySlug: "gel-boi-tron-cao-cap",
     price: 150000,
@@ -187,7 +187,7 @@ export const products: Product[] = [
   {
     slug: "ad34q-coc-thu-dam-tu-dong-rung-thut-co-bop",
     sku: "AD34Q",
-    name: "Cốc thủ dâm tự động rung thụt co bóp",
+    name: "Cốc Thủ Dâm Tự Động Rung Thụt Co Bóp",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 950000,
@@ -200,7 +200,7 @@ export const products: Product[] = [
   {
     slug: "eg06a-trung-rung-mini-sac-pin-stormy-10-che-do",
     sku: "EG06A",
-    name: "Trứng rung mini sạc pin Stormy 10 chế độ",
+    name: "Trứng Rung Mini Stormy Sạc Pin 10 Chế Độ",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 400000,
@@ -213,7 +213,7 @@ export const products: Product[] = [
   {
     slug: "eg02a-trung-rung-da-tan-co-day-snjan",
     sku: "EG02A",
-    name: "Trứng rung đa tần có dây Snjan",
+    name: "Trứng Rung Tình Yêu Đa Tần Có Dây Snjan",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 300000,
@@ -226,7 +226,7 @@ export const products: Product[] = [
   {
     slug: "dc38l-duong-vat-mini-gan-quan-chip-rung-bu-liem-dieu-khien-tu-xa",
     sku: "DC38L",
-    name: "Dương vật mini gắn quần chip rung bú liếm, điều khiển từ xa",
+    name: "Dương Vật Mini Gắn Quần Chip Rung Bú Liếm Điều Khiển Từ Xa",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 780000,
@@ -239,7 +239,7 @@ export const products: Product[] = [
   {
     slug: "dv44z1-duong-vat-silicon-rung-liem-thut-suoi-am",
     sku: "DV44Z1",
-    name: "Dương vật silicon rung liếm thụt sưởi ấm",
+    name: "Dương Vật Silicon Rung Liếm Thụt Sưởi Ấm",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1200000,
@@ -252,7 +252,7 @@ export const products: Product[] = [
   {
     slug: "dv54p-duong-vat-silicon-da-den-sieu-khung-sieu-mem",
     sku: "DV54P",
-    name: "Dương vật silicon da đen siêu khủng siêu mềm",
+    name: "Dương Vật Giả Rung Silicon Da Đen Siêu Khủng Siêu Mềm",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1250000,
@@ -265,7 +265,7 @@ export const products: Product[] = [
   {
     slug: "dv43g-duong-vat-silicon-hit-dat-size-nho-dang-cong",
     sku: "DV43G",
-    name: "Dương vật silicon hít đất size nhỏ dáng cong",
+    name: "Dương Vật Giả Silicon Hít Đất Size Nhỏ Dáng Cong",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 280000,
@@ -278,7 +278,7 @@ export const products: Product[] = [
   {
     slug: "dc90kt-svakom-klitty-may-massage-ca-nhan-cao-cap-nho-gon-em-ai",
     sku: "DC90KT",
-    name: "Svakom Klitty – Máy Massage Cá Nhân Cao Cấp Nhỏ Gọn, Êm Ái",
+    name: "Máy Massage Cá Nhân Svakom Klitty Cao Cấp Nhỏ Gọn Êm Ái",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1950000,
@@ -291,7 +291,7 @@ export const products: Product[] = [
   {
     slug: "dc89p-svakom-handy-thruster-may-thu-dam-tu-dong-cao-cap-cho-nam",
     sku: "DC89P",
-    name: "Svakom Handy Thruster – Máy Thủ Dâm Tự Động Cao Cấp Cho Nam",
+    name: "Máy Thủ Dâm Tự Động Svakom Handy Thruster Cao Cấp Cho Nam",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 2950000,
@@ -317,7 +317,7 @@ export const products: Product[] = [
   {
     slug: "dv44y-duong-vat-silicon-sieu-mem-rung-thut-sac-usb-thiet-ke-hien-dai-da-chuc-nang",
     sku: "DV44Y",
-    name: "Dương Vật Silicon Siêu Mềm Rung Thụt Sạc USB – Thiết Kế Hiện Đại, Đa Chức Năng",
+    name: "Dương Vật Silicon Siêu Mềm Rung Thụt Sạc USB Đa Chức Năng",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1650000,
@@ -330,7 +330,7 @@ export const products: Product[] = [
   {
     slug: "bd09a-bao-don-den-braveman-co-rung-gai-gan-ho-tro-tang-kich-thuoc-va-tang-cam-giac",
     sku: "BD09A",
-    name: "Bao Đôn Dên Braveman Có Rung Gai Gân – Hỗ Trợ Tăng Kích Thước Và Tăng Cảm Giác",
+    name: "Bao Đôn Dên Braveman Có Rung Gai Gân Hỗ Trợ Tăng Kích Thước Và Tăng Cảm Giác",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 380000,
@@ -343,7 +343,7 @@ export const products: Product[] = [
   {
     slug: "dc13f-am-dao-gia-nam-flex-xoan-oc-hut-chan-khong-trai-nghiem-kich-thich-doc-dao",
     sku: "DC13F",
-    name: "Âm Đạo Giả Nam FLEX Xoắn Ốc Hút Chân Không – Trải Nghiệm Kích Thích Độc Đáo",
+    name: "Âm Đạo Giả Nam FLEX Xoắn Ốc Hút Chân Không",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 1390000,
@@ -356,7 +356,7 @@ export const products: Product[] = [
   {
     slug: "bb12s-bup-be-ban-than-sillicon-mini",
     sku: "BB12S",
-    name: "Búp bê bán thân sillicon mini",
+    name: "Búp Bê Bán Thân Silicon Mini",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 750000,
@@ -369,7 +369,7 @@ export const products: Product[] = [
   {
     slug: "dc38q-duong-vat-mini-gan-quan-chip-dieu-khien-rung-tu-xa",
     sku: "DC38Q",
-    name: "Dương vật mini gắn quần chip điều khiển rung từ xa",
+    name: "Dương Vật Mini Gắn Quần Chip Rung Điều Khiển Từ Xa",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 850000,
@@ -382,7 +382,7 @@ export const products: Product[] = [
   {
     slug: "dc92a-may-rung-chu-c-cho-cap-doi-we-vibe-chorus-pro-ket-noi-app",
     sku: "DC92A",
-    name: "Máy rung chữ C cho cặp đôi We Vibe Chorus Pro kết nối app",
+    name: "Máy Rung Chữ C Cho Cặp Đôi We Vibe Chorus Pro Kết Nối App",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 5950000,
@@ -395,7 +395,7 @@ export const products: Product[] = [
   {
     slug: "dc96-may-rung-bu-cao-cap-womanizer-next-duo",
     sku: "DC96",
-    name: "Máy rung bú cao cấp Womanizer Next Duo",
+    name: "Máy Rung Bú Cao Cấp Womanizer Next Duo",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 6450000,
@@ -408,7 +408,7 @@ export const products: Product[] = [
   {
     slug: "ms14p-luoi-kep-rung-ngoay-liem-cuc-phe",
     sku: "MS14P",
-    name: "Lưỡi kép rung ngoáy liếm cực phê",
+    name: "Trứng Rung Tình Yêu Lưỡi Kép Rung Ngoáy Liếm",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1150000,
@@ -421,7 +421,7 @@ export const products: Product[] = [
   {
     slug: "av17g-chay-rung-duoi-hai-rau-ve-vuot-rat-te",
     sku: "AV17G",
-    name: "Chày rung đuôi hai râu ve vuốt rất tê",
+    name: "Chày Rung Đuôi Hai Râu Ve Vuốt Rất Tê",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 750000,
@@ -434,7 +434,7 @@ export const products: Product[] = [
   {
     slug: "dc95a-may-rung-diem-g-cao-cap-blenva-bendi",
     sku: "DC95A",
-    name: "Máy rung điểm G cao cấp Blenva Bendi",
+    name: "Máy Rung Điểm G Cao Cấp Blenva Bendi",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1290000,
@@ -447,7 +447,7 @@ export const products: Product[] = [
   {
     slug: "dc95b-chay-rung-mini-cao-cap-blenva",
     sku: "DC95B",
-    name: "Chày rung mini cao cấp Blenva",
+    name: "Chày Rung Mini Cao Cấp Blenva",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1050000,
@@ -460,7 +460,7 @@ export const products: Product[] = [
   {
     slug: "dc95c-thanh-rung-mini-hinh-thoi-son-blenva",
     sku: "DC95C",
-    name: "Thanh rung mini hình thỏi son Blenva",
+    name: "Thanh Rung Mini Hình Thỏi Son Blenva",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1050000,
@@ -473,7 +473,7 @@ export const products: Product[] = [
   {
     slug: "dc95d-may-rung-mini-hinh-trai-dao-blenva-bonbon",
     sku: "DC95D",
-    name: "Máy rung mini hình trái đào Blenva Bonbon",
+    name: "Máy Rung Mini Hình Trái Đào Blenva Bonbon",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1290000,
@@ -486,7 +486,7 @@ export const products: Product[] = [
   {
     slug: "dc18k-qua-trung-thu-dam-lovense-kraken",
     sku: "DC18K",
-    name: "Quả trứng thủ dâm Lovense Kraken",
+    name: "Quả Trứng Thủ Dâm Lovense Kraken",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 350000,
@@ -499,7 +499,7 @@ export const products: Product[] = [
   {
     slug: "g10p-gel-kich-thich-rung-dong-hung-phan-cho-nu-pjur-woman-lust-intense",
     sku: "G10P",
-    name: "Gel kích thích rung động hưng phấn cho nữ Pjur Woman Lust Intense",
+    name: "Gel Kích Thích Rung Động Hưng Phấn Cho Nữ Pjur Woman Lust Intense",
     category: "Gel Bôi Trơn Cao Cấp",
     categorySlug: "gel-boi-tron-cao-cap",
     price: 890000,
@@ -512,7 +512,7 @@ export const products: Product[] = [
   {
     slug: "g07-gel-boi-tron-hau-mon-goc-nuoc-love-men-monogatari-200ml",
     sku: "G07",
-    name: "Gel bôi trơn hậu môn gốc nước Love Men Monogatari 200ml",
+    name: "Gel Bôi Trơn Hậu Môn Gốc Nước Love Men Monogatari 200ml",
     category: "Gel Bôi Trơn Cao Cấp",
     categorySlug: "gel-boi-tron-cao-cap",
     price: 180000,
@@ -525,7 +525,7 @@ export const products: Product[] = [
   {
     slug: "dc93v-duong-vat-cao-cap-lovense-velvo-rung-xoay-song-bi-ket-noi-app",
     sku: "DC93V",
-    name: "Dương vật cao cấp Lovense Velvo rung xoay sóng bi kết nối app",
+    name: "Dương Vật Giả Lovense Velvo Rung Xoay Sóng Bi Kết Nối App",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 3750000,
@@ -538,7 +538,7 @@ export const products: Product[] = [
   {
     slug: "dc90pl-trung-rung-cao-cap-svakom-plume-dieu-khien-app-thiet-ke-duoi-silicon-mem",
     sku: "DC90PL",
-    name: "Trứng Rung Cao Cấp Svakom Plume – Điều Khiển App, Thiết Kế Đuôi Silicon Mềm",
+    name: "Trứng Rung Tình Yêu Svakom Plume Điều Khiển App Đuôi Silicon Mềm",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1490000,
@@ -551,7 +551,7 @@ export const products: Product[] = [
   {
     slug: "sl10a-kamagra-100-chewable-giai-phap-toi-uu-cho-nam-gioi",
     sku: "SL10A",
-    name: "Kamagra 100 Chewable – Giải Pháp Tối Ưu Cho Nam Giới",
+    name: "Kamagra 100 Chewable Cho Nam Giới",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 280000,
@@ -564,7 +564,7 @@ export const products: Product[] = [
   {
     slug: "hm02q-prettylove-tarion-rung-thut-hau-mon-voi-de-phat-quang-5-mau",
     sku: "HM02Q",
-    name: "Prettylove Tarion-Rung thụt hậu môn với đế phát quang 5 màu",
+    name: "Rung Thụt Hậu Môn Prettylove Tarion Đế Phát Quang 5 Màu",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 950000,
@@ -577,7 +577,7 @@ export const products: Product[] = [
   {
     slug: "bd12-bao-cao-su-don-den-prettylove-odes-6-9",
     sku: "BD12",
-    name: "Bao cao su đôn dên Prettylove Odes 6.9\"",
+    name: "Bao Cao Su Đôn Dên Prettylove Odes 6.9",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 250000,
@@ -590,7 +590,7 @@ export const products: Product[] = [
   {
     slug: "dc70n-vong-that-biu-duong-vat-choi-lau-ra",
     sku: "DC70N",
-    name: "Vòng thắt bìu dương vật chơi lâu ra",
+    name: "Vòng Thắt Bìu Dương Vật Chơi Lâu Ra",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 150000,
@@ -603,7 +603,7 @@ export const products: Product[] = [
   {
     slug: "ms14a-may-rung-bu-prettylove-pecker",
     sku: "MS14A",
-    name: "Máy rung bú Prettylove Pecker",
+    name: "Máy Rung Bú Prettylove Pecker",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1250000,
@@ -616,7 +616,7 @@ export const products: Product[] = [
   {
     slug: "eg36c-trung-rung-bu-mini-hop-dieu-ky-magic-box",
     sku: "EG36C",
-    name: "Trứng rung bú mini- hộp diệu kỳ Magic Box",
+    name: "Trứng Rung Bú Mini - Hộp Diệu Kỳ Magic Box",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 790000,
@@ -629,7 +629,7 @@ export const products: Product[] = [
   {
     slug: "eg04b-trung-rung-da-san-nham-sieu-kich-thich",
     sku: "EG04B",
-    name: "Trứng rung da sần nhám siêu kích thích",
+    name: "Trứng Rung Tình Yêu Da Sần Nhám Siêu Kích Thích",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 550000,
@@ -642,7 +642,7 @@ export const products: Product[] = [
   {
     slug: "av17f-chay-rung-2-dau-sieu-phe",
     sku: "AV17F",
-    name: "Chày rung 2 đầu siêu phê",
+    name: "Máy Massage Cá Nhân Chày Rung 2 Đầu",
     category: "Máy Massage Cá Nhân",
     categorySlug: "may-massage-ca-nhan",
     price: 850000,
@@ -655,7 +655,7 @@ export const products: Product[] = [
   {
     slug: "ad57-am-dao-gia-silicon-mem-cao-cap-thiet-ke-nho-gon-cam-giac-chan-that-cho-nam",
     sku: "AD57",
-    name: "Âm đạo giả silicon mềm cao cấp – Thiết kế nhỏ gọn, cảm giác chân thật cho nam",
+    name: "Âm Đạo Giả Silicon Mềm Cao Cấp - Nhỏ Gọn, Cảm Giác Chân Thật Cho Nam",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 1250000,
@@ -668,7 +668,7 @@ export const products: Product[] = [
   {
     slug: "ad10-coc-thu-dam-lo-hau-mon-khit-bot-cho-gay",
     sku: "AD10",
-    name: "Cốc thủ dâm lỗ hậu môn khít bót cho Gay",
+    name: "Cốc Thủ Dâm Lỗ Hậu Môn Khít Bót Cho Gay",
     category: "Đồ Chơi Cho LGBT",
     categorySlug: "do-choi-cho-lgbt",
     price: 890000,
@@ -681,7 +681,7 @@ export const products: Product[] = [
   {
     slug: "dv58q-dung-cu-massage-ca-nhan-lovetoy-nature-cock-7-5-silicon-2-lop-cao-cap",
     sku: "DV58Q",
-    name: "Dụng Cụ Massage Cá Nhân Lovetoy Nature Cock 7.5” – Silicon 2 Lớp Cao Cấp",
+    name: "Dương Vật Giả Rung Lovetoy Nature Cock 7.5” Silicon 2 Lớp Cao Cấp",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 890000,
@@ -694,7 +694,7 @@ export const products: Product[] = [
   {
     slug: "dv39g-dung-cu-massage-ca-nhan-prettylove-molly-rung-nhieu-che-do-thiet-ke-nho-gon",
     sku: "DV39G",
-    name: "Dụng Cụ Massage Cá Nhân Prettylove Molly Rung & Nhiều Chế Độ – Thiết Kế Nhỏ Gọn",
+    name: "Dương Vật Giả Rung Prettylove Molly Nhiều Chế Độ Thiết Kế Nhỏ Gọn",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1490000,
@@ -707,7 +707,7 @@ export const products: Product[] = [
   {
     slug: "dv65g-dung-cu-ho-tro-deo-ngoai-lovetoy-ingen-silicon-cao-cap-thiet-ke-linh-hoat",
     sku: "DV65G",
-    name: "Dụng Cụ Hỗ Trợ Đeo Ngoài Lovetoy INGEN Silicon Cao Cấp – Thiết Kế Linh Hoạt",
+    name: "Dương Vật Giả Rung Đeo Ngoài Lovetoy INGEN Silicon Thiết Kế Linh Hoạt",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1750000,
@@ -720,7 +720,7 @@ export const products: Product[] = [
   {
     slug: "xts01a-xit-ho-tro-keo-dai-thoi-gian-stud-100-uk-12ml-giai-phap-cho-nam-gioi",
     sku: "XTS01A",
-    name: "Xịt Hỗ Trợ Kéo Dài Thời Gian Stud 100 UK 12ml – Giải Pháp Cho Nam Giới",
+    name: "Chai Xịt Kéo Dài Thời Gian Stud 100 UK 12ml Cho Nam Giới",
     category: "Chai Xịt Kéo Dài Thời Gian",
     categorySlug: "chai-xit-keo-dai-thoi-gian",
     price: 590000,
@@ -733,7 +733,7 @@ export const products: Product[] = [
   {
     slug: "kt116-nuoc-hoa-nam-orgie-sensfeel-50ml-huong-thom-nam-tinh-tang-su-tu-tin-va-cuon-hut",
     sku: "KT116",
-    name: "Nước hoa nam Orgie Sensfeel 50ml hương thơm nam tính, tăng sự tự tin và cuốn hút",
+    name: "Nước Hoa Kích Thích Nam Orgie Sensfeel 50ml Tăng Sự Tự Tin Và Cuốn Hút",
     category: "Nước Hoa Kích Thích",
     categorySlug: "nuoc-hoa-kich-thich",
     price: 1750000,
@@ -746,7 +746,7 @@ export const products: Product[] = [
   {
     slug: "kt116a-nuoc-hoa-nu-orgie-sensfeel-50ml-huong-thom-quyen-ru-tinh-te",
     sku: "KT116A",
-    name: "Nước Hoa Nữ Orgie Sensfeel 50ml – Hương Thơm Quyến Rũ & Tinh Tế",
+    name: "Nước Hoa Kích Thích Nữ Orgie Sensfeel 50ml Hương Thơm Quyến Rũ Tinh Tế",
     category: "Nước Hoa Kích Thích",
     categorySlug: "nuoc-hoa-kich-thich",
     price: 1750000,
@@ -759,7 +759,7 @@ export const products: Product[] = [
   {
     slug: "hm37a-phich-massage-rung-inox-cao-cap-10-che-do-rung-dieu-khien-tu-xa-tien-loi",
     sku: "HM37A",
-    name: "Phích massage rung inox cao cấp, 10 chế độ rung, điều khiển từ xa tiện lợi",
+    name: "Phích Massage Rung Inox 10 Chế Độ Rung Điều Khiển Từ Xa",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 750000,
@@ -772,7 +772,7 @@ export const products: Product[] = [
   {
     slug: "dc72d-vong-rung-massage-deo-ho-tro-nam-kem-dau-massage-mem-dieu-khien-tu-xa-sac-usb",
     sku: "DC72D",
-    name: "Vòng rung massage đeo hỗ trợ nam kèm đầu massage mềm, điều khiển từ xa, sạc USB",
+    name: "Vòng Rung Massage Đeo Hỗ Trợ Nam Kèm Đầu Massage Mềm Điều Khiển Từ Xa Sạc USB",
     category: "Đồ Chơi Hậu Môn",
     categorySlug: "do-choi-hau-mon",
     price: 850000,
@@ -785,7 +785,7 @@ export const products: Product[] = [
   {
     slug: "bd44-bao-don-silicon-gai-bi-cao-cap-tang-kich-thuoc-tai-su-dung-nhieu-lan",
     sku: "BD44",
-    name: "Bao đôn silicon gai bi cao cấp, tăng kích thước, tái sử dụng nhiều lần",
+    name: "Bao Đôn Silicon Gai Bi Cao Cấp Tăng Kích Thước Tái Sử Dụng Nhiều Lần",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 250000,
@@ -798,7 +798,7 @@ export const products: Product[] = [
   {
     slug: "eg34h-trung-rung-massage-lovense-lush-anal-ket-noi-app-dieu-khien-tu-xa-khong-gioi-han",
     sku: "EG34H",
-    name: "Trứng rung massage Lovense Lush Anal kết nối app, điều khiển từ xa không giới hạn",
+    name: "Trứng Rung Massage Lovense Lush Anal Kết Nối App Điều Khiển Từ Xa Không Giới Hạn",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 4250000,
@@ -811,7 +811,7 @@ export const products: Product[] = [
   {
     slug: "dc42k-may-massage-diem-g-cao-cap-lelo-dot-travel-rung-da-che-do-chong-nuoc-nho-gon-du-lich",
     sku: "DC42K",
-    name: "Máy massage điểm G cao cấp Lelo Dot Travel, rung đa chế độ, chống nước, nhỏ gọn du lịch",
+    name: "Máy Massage Điểm G Lelo Dot Travel Rung Đa Chế Độ Chống Nước Nhỏ Gọn",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 3750000,
@@ -824,7 +824,7 @@ export const products: Product[] = [
   {
     slug: "dc67v-bo-dung-cu-massage-rung-da-nang-cho-nu-dieu-khien-tu-xa-sac-usb-tien-loi",
     sku: "DC67V",
-    name: "Bộ dụng cụ massage rung đa năng cho nữ điều khiển từ xa, sạc USB tiện lợi",
+    name: "Trứng Rung Tình Yêu Đa Năng Cho Nữ Điều Khiển Từ Xa Sạc USB",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1050000,
@@ -837,7 +837,7 @@ export const products: Product[] = [
   {
     slug: "ms32p-quan-lot-massage-rung-yeain-red-sprite-dieu-khien-qua-app-thiet-ke-mong-nhe-cao-cap",
     sku: "MS32P",
-    name: "Quần lót massage rung Yeain Red Sprite điều khiển qua app, thiết kế mỏng nhẹ cao cấp",
+    name: "Quần Lót Massage Rung Yeain Red Sprite Điều Khiển Qua App Mỏng Nhẹ",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 850000,
@@ -850,7 +850,7 @@ export const products: Product[] = [
   {
     slug: "dv60k-may-massage-silicon-cao-cap-rung-da-che-do-suoi-am-dieu-khien-tu-xa-de-hut-tien-loi",
     sku: "DV60K",
-    name: "Máy massage silicon cao cấp rung đa chế độ, sưởi ấm, điều khiển từ xa, đế hút tiện lợi",
+    name: "Dương Vật Giả Rung Silicon Cao Cấp, Rung Đa Chế Độ, Sưởi Ấm, Điều Khiển Từ Xa, Đế Hút Tiện Lợi",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1290000,
@@ -863,7 +863,7 @@ export const products: Product[] = [
   {
     slug: "hm33a-may-massage-rung-da-nang-kem-vong-deo-dieu-khien-tu-xa-sac-usb-chong-nuoc",
     sku: "HM33A",
-    name: "Máy massage rung đa năng kèm vòng đeo điều khiển từ xa, sạc USB chống nước",
+    name: "Máy Massage Rung Đa Năng Kèm Vòng Đeo Điều Khiển Từ Xa Sạc USB Chống Nước",
     category: "Đồ Chơi Hậu Môn",
     categorySlug: "do-choi-hau-mon",
     price: 950000,
@@ -876,7 +876,7 @@ export const products: Product[] = [
   {
     slug: "dv09a-dung-cu-massage-silicon-mem-yeain-real-7-inch-cao-cap-chat-lieu-silicone-platinum-an-toan",
     sku: "DV09A",
-    name: "Dụng cụ massage silicon mềm Yeain Real 7 inch cao cấp, chất liệu silicone Platinum an toàn",
+    name: "Dương Vật Giả Rung Yeain Real 7 Inch Silicone Platinum",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 950000,
@@ -889,7 +889,7 @@ export const products: Product[] = [
   {
     slug: "dc90gb-may-massage-diem-g-svakom-gabrielle-rung-thut-suoi-am-dieu-khien-tu-xa-cao-cap",
     sku: "DC90GB",
-    name: "Máy massage điểm G Svakom Gabrielle rung thụt, sưởi ấm, điều khiển từ xa cao cấp",
+    name: "Máy Massage Điểm G Svakom Gabrielle Rung Thụt, Sưởi Ấm, Điều Khiển Từ Xa",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1950000,
@@ -902,7 +902,7 @@ export const products: Product[] = [
   {
     slug: "bd49e-bao-don-silicon-cao-cap-boc-biu-faak-nhieu-kich-thuoc-silicon-y-te-an-toan",
     sku: "BD49E",
-    name: "Bao đôn silicon cao cấp bọc bìu FAAK – Nhiều kích thước, silicon y tế an toàn",
+    name: "Bao Đôn Silicon Y Tế Cao Cấp Bọc Bìu FAAK Nhiều Kích Thước An Toàn",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 750000,
@@ -915,7 +915,7 @@ export const products: Product[] = [
   {
     slug: "duong-vat-dai-deo-rong-ruot-silicon-mem-mai",
     sku: "DUONG-VAT-DAI-DEO-RONG-RUOT-SILICON-MEM-MAI",
-    name: "Dương vật đai đeo rỗng ruột silicon mềm mại",
+    name: "Dương Vật Đai Đeo Rỗng Ruột Silicon Mềm Mại",
     category: "Đồ Chơi Cho LGBT",
     categorySlug: "do-choi-cho-lgbt",
     price: 950000,
@@ -928,7 +928,7 @@ export const products: Product[] = [
   {
     slug: "dc69u-may-tap-duong-vat-luoge-lg110-tang-kich-co-cai-thien-sinh-ly-nam",
     sku: "DC69U",
-    name: "Máy Tập Dương Vật Luoge LG110 – Tăng Kích Cỡ & Cải Thiện Sinh Lý Nam",
+    name: "Máy Tập Dương Vật Luoge LG110 Tăng Kích Cỡ Và Cải Thiện Sinh Lý Nam",
     category: "Máy Tập Dương Vật & Tăng Kích Thước",
     categorySlug: "may-tap-duong-vat-tang-kich-thuoc",
     price: 1950000,
@@ -954,7 +954,7 @@ export const products: Product[] = [
   {
     slug: "dc90m-svakom-margot-may-rung-2-dau-suoi-am-dieu-khien-qua-app",
     sku: "DC90M",
-    name: "Svakom Margot – Máy Rung 2 Đầu Sưởi Ấm Điều Khiển Qua App",
+    name: "Máy Rung 2 Đầu Svakom Margot Sưởi Ấm Điều Khiển Qua App",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1990000,
@@ -967,7 +967,7 @@ export const products: Product[] = [
   {
     slug: "dc90s-duong-vat-svakom-selena-rung-thut-suoi-am-dieu-khien-qua-app",
     sku: "DC90S",
-    name: "Dương Vật Svakom Selena Rung Thụt Sưởi Ấm Điều Khiển Qua App",
+    name: "Dương Vật Giả Rung Svakom Selena Thụt Sưởi Ấm Điều Khiển Qua App",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1900000,
@@ -980,7 +980,7 @@ export const products: Product[] = [
   {
     slug: "ny19f-quan-silicon-co-am-dao-gia-cho-gay-giai-phap-hoan-hao-de-hoa-nu-tu-nhien-nhat",
     sku: "NY19F",
-    name: "Quần Silicon Có Âm Đạo Giả Cho Gay – Giải Pháp Hoàn Hảo Để Hóa Nữ Tự Nhiên Nhất",
+    name: "Quần Silicon Có Âm Đạo Giả Cho Gay Hóa Nữ Tự Nhiên",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 1850000,
@@ -993,7 +993,7 @@ export const products: Product[] = [
   {
     slug: "av07d-chay-rung-mini-sac-pin-but-massage-cam-tay-nho-gon-manh-me",
     sku: "AV07D",
-    name: "Chày Rung Mini Sạc Pin – Bút Massage Cầm Tay Nhỏ Gọn, Mạnh Mẽ",
+    name: "Chày Rung Mini Sạc Pin - Bút Massage Cầm Tay Nhỏ Gọn Mạnh Mẽ",
     category: "Máy Massage Cá Nhân",
     categorySlug: "may-massage-ca-nhan",
     price: 450000,
@@ -1006,7 +1006,7 @@ export const products: Product[] = [
   {
     slug: "ms08-thanh-rung-diem-g-nalone-ma-vang-lua-chon-hoan-hao-cho-phai-dep",
     sku: "MS08",
-    name: "Thanh Rung Điểm G Nalone Mạ Vàng – Lựa Chọn Hoàn Hảo Cho Phái Đẹp",
+    name: "Thanh Rung Điểm G Nalone Mạ Vàng",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1250000,
@@ -1019,7 +1019,7 @@ export const products: Product[] = [
   {
     slug: "g05d-gel-se-khit-am-dao-shunga-hold-me-tight-nhat-ban-tang-khoai-cam-co-that-nhanh",
     sku: "G05D",
-    name: "Gel Se Khít Âm Đạo Shunga Hold Me Tight Nhật Bản – Tăng Khoái Cảm, Co Thắt Nhanh",
+    name: "Gel Se Khít Âm Đạo Shunga Hold Me Tight Nhật Bản - Tăng Khoái Cảm, Co Thắt Nhanh",
     category: "Gel Bôi Trơn Cao Cấp",
     categorySlug: "gel-boi-tron-cao-cap",
     price: 1750000,
@@ -1032,7 +1032,7 @@ export const products: Product[] = [
   {
     slug: "ad01d-may-mat-xa-tang-kich-thuoc-duong-vat-yeain-man-powerup-hut-xoay-manh-silicone-cao-cap",
     sku: "AD01D",
-    name: "Máy Mát Xa Tăng Kích Thước Dương Vật Yeain Man PowerUp – Hút Xoáy Mạnh, Silicone Cao Cấp",
+    name: "Máy Mát Xa Tăng Kích Thước Dương Vật Yeain Man PowerUp - Hút Xoáy Mạnh, Silicone Cao Cấp",
     category: "Máy Tập Dương Vật & Tăng Kích Thước",
     categorySlug: "may-tap-duong-vat-tang-kich-thuoc",
     price: 1850000,
@@ -1045,7 +1045,7 @@ export const products: Product[] = [
   {
     slug: "ms14h1-may-bu-hoa-hong-kem-trung-rung-thut-nhieu-che-do-rung-sac-tu-tinh",
     sku: "MS14H1",
-    name: "Máy bú hoa hồng kèm trứng rung thụt – Nhiều chế độ rung, sạc từ tính",
+    name: "Máy Bú Hoa Hồng Kèm Trứng Rung Thụt Nhiều Chế Độ Rung Sạc Từ Tính",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1050000,
@@ -1058,7 +1058,7 @@ export const products: Product[] = [
   {
     slug: "eg34m-trung-rung-lovense-lush-mini-dieu-khien-qua-app-silicone-cao-cap",
     sku: "EG34M",
-    name: "Trứng Rung Lovense Lush Mini Điều Khiển Qua App – Silicone Cao Cấp",
+    name: "Trứng Rung Lovense Lush Mini Điều Khiển Qua App Silicone Cao Cấp",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 4500000,
@@ -1071,7 +1071,7 @@ export const products: Product[] = [
   {
     slug: "dc53m-am-dao-gia-mong-silicon-khung-rung-ren-bu-2-lo-sieu-that",
     sku: "DC53M",
-    name: "Âm đạo giả mông silicon khủng rung rên bú 2 lỗ siêu thật",
+    name: "Âm Đạo Giả Mông Silicon Khủng 2 Lỗ Rung Rên Bú Siêu Thật",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 2450000,
@@ -1084,7 +1084,7 @@ export const products: Product[] = [
   {
     slug: "ad19a-am-dao-2-dau-co-mieng-mui-nhu-that-silicon-mem-3-lo-kich-thich",
     sku: "AD19A",
-    name: "Âm đạo 2 đầu có miệng mũi như thật – Silicon mềm, 3 lỗ kích thích",
+    name: "Âm Đạo 2 Đầu Có Miệng Mũi Như Thật, Silicon Mềm, 3 Lỗ Kích Thích",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 550000,
@@ -1097,7 +1097,7 @@ export const products: Product[] = [
   {
     slug: "ad38g-nguc-silicon-khung-kem-am-dao-silicon-sieu-mem-cuc-phe-nhu-that",
     sku: "AD38G",
-    name: "Ngực Silicon Khủng Kèm Âm Đạo – Silicon Siêu Mềm, Cực Phê Như Thật",
+    name: "Ngực Silicon Khủng Kèm Âm Đạo Siêu Mềm Như Thật",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 1550000,
@@ -1110,7 +1110,7 @@ export const products: Product[] = [
   {
     slug: "ad33f1-am-dao-tu-dong-leten-zero-gravity-rung-thut-suoi-am-42-c-cao-cap",
     sku: "AD33F1",
-    name: "Âm Đạo Tự Động Leten Zero Gravity – Rung Thụt, Sưởi Ấm 42°C Cao Cấp",
+    name: "Âm Đạo Tự Động Leten Zero Gravity - Rung Thụt, Sưởi Ấm 42°C",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 3300000,
@@ -1136,7 +1136,7 @@ export const products: Product[] = [
   {
     slug: "dv73e-duong-vat-2-dau-rung-bu-da-luoi-sieu-kich-thich-thu-dam-diem-g-cong-nghe-moi",
     sku: "DV73E",
-    name: "Dương vật 2 đầu rung bú đá lưỡi siêu kích thích – Thủ dâm điểm G công nghệ mới",
+    name: "Dương Vật Giả Rung 2 Đầu Bú Đá Lưỡi Kích Thích Điểm G Công Nghệ Mới",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1050000,
@@ -1149,7 +1149,7 @@ export const products: Product[] = [
   {
     slug: "dv55r-duong-vat-gia-lovetoy-sliding-skin-pro-ii-9-tuot-da-chan-thuc-10-che-do-rung",
     sku: "DV55R",
-    name: "Dương vật giả Lovetoy Sliding Skin Pro II 9” – Tuột da chân thực, 10 chế độ rung",
+    name: "Dương Vật Giả Lovetoy Sliding Skin Pro II 9” Tuột Da Chân Thực 10 Chế Độ Rung",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1490000,
@@ -1162,7 +1162,7 @@ export const products: Product[] = [
   {
     slug: "dc50s1-duong-vat-cao-cap-lovense-spinel-rung-thut-toa-nhiet-dieu-khien-app-gan-tuong-da-nang",
     sku: "DC50S1",
-    name: "Dương vật cao cấp Lovense Spinel – Rung thụt tỏa nhiệt, điều khiển App, gắn tường đa năng",
+    name: "Dương Vật Giả Lovense Spinel Rung Thụt Tỏa Nhiệt Điều Khiển App Gắn Tường Đa Năng",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 6500000,
@@ -1175,7 +1175,7 @@ export const products: Product[] = [
   {
     slug: "dc89un-duong-vat-gia-cao-cap-svakom-uneco-rung-bu-da-luoi-kich-diem-g-ket-noi-app-thong-minh",
     sku: "DC89UN",
-    name: "Dương vật giả cao cấp Svakom UNECO – Rung, bú, đá lưỡi kích điểm G kết nối App thông minh",
+    name: "Dương Vật Giả Rung Svakom UNECO Bú Đá Lưỡi Kích Điểm G Kết Nối App Thông Minh",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 2450000,
@@ -1214,7 +1214,7 @@ export const products: Product[] = [
   {
     slug: "hm15c-thanh-rung-hau-mon-10-tan-so-rung-manh-trai-nghiem-moi-la-cho-ca-nam-va-nu",
     sku: "HM15C",
-    name: "Thanh rung hậu môn – 10 tần số rung mạnh, trải nghiệm mới lạ cho cả nam và nữ",
+    name: "Thanh Rung Hậu Môn 10 Tần Số Rung Mạnh Cho Cả Nam Và Nữ",
     category: "Máy Massage Cá Nhân",
     categorySlug: "may-massage-ca-nhan",
     price: 350000,
@@ -1227,7 +1227,7 @@ export const products: Product[] = [
   {
     slug: "ny19e1-quan-silicon-co-am-dao-gia-cho-gay-nam-gia-nu-hoa-than-chan-that-trai-nghiem-tron-ven",
     sku: "NY19E1",
-    name: "Quần silicon có âm đạo giả cho Gay (nam giả nữ) – Hóa thân chân thật, trải nghiệm trọn vẹn",
+    name: "Quần Silicon Có Âm Đạo Giả Cho Gay (Nam Giả Nữ)",
     category: "Chưa phân loại",
     categorySlug: "chua-phan-loai",
     price: 1850000,
@@ -1240,7 +1240,7 @@ export const products: Product[] = [
   {
     slug: "bd07c-bo-vong-gai-co-quai-deo-bi-quyet-keo-dai-thoi-gian-yeu-tang-cuc-khoai-cho-nam-gioi",
     sku: "BD07C",
-    name: "Bộ vòng gai có quai đeo – Bí quyết kéo dài thời gian yêu & tăng cực khoái cho nam giới",
+    name: "Bộ Vòng Gai Có Quai Đeo Kéo Dài Thời Gian Yêu Và Tăng Cực Khoái Cho Nam Giới",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 150000,
@@ -1253,7 +1253,7 @@ export const products: Product[] = [
   {
     slug: "bd10t-bo-3-vong-va-2-khuc-don-tang-kich-thuoc-duong-vat-bi-quyet-keo-dai-thoi-gian-yeu-cuc-hieu-qua",
     sku: "BD10T",
-    name: "Bộ 3 vòng và 2 khúc đôn tăng kích thước dương vật – Bí quyết kéo dài thời gian yêu cực hiệu quả",
+    name: "Bộ 3 Vòng Và 2 Khúc Đôn Tăng Kích Thước Dương Vật Kéo Dài Thời Gian Yêu",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 250000,
@@ -1266,7 +1266,7 @@ export const products: Product[] = [
   {
     slug: "bd45a-bao-don-rau-rong-vay-ca-co-vong-deo",
     sku: "BD45A",
-    name: "Bao đôn râu rồng vảy cá có vòng đeo",
+    name: "Bao Đôn Râu Rồng Vảy Cá Có Vòng Đeo",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 280000,
@@ -1279,7 +1279,7 @@ export const products: Product[] = [
   {
     slug: "av16a-chay-rung-cao-cap-elizabeth-sieu-manh-8-che-do-rung-massage-toan-than-giai-toa-sinh-ly-hieu-qua",
     sku: "AV16A",
-    name: "Chày rung cao cấp Elizabeth siêu mạnh – 8 chế độ rung, massage toàn thân, giải tỏa sinh lý hiệu quả",
+    name: "Chày Rung Massage Toàn Thân Elizabeth 8 Chế Độ Rung",
     category: "Máy Massage Cá Nhân",
     categorySlug: "may-massage-ca-nhan",
     price: 1150000,
@@ -1292,7 +1292,7 @@ export const products: Product[] = [
   {
     slug: "ms45e-may-rung-mini-kich-thich-da-diem-cuc-phe-7-che-do-rung-manh-me-sac-usb-chong-nuoc",
     sku: "MS45E",
-    name: "Máy rung mini kích thích đa điểm cực phê – 7 chế độ rung mạnh mẽ, sạc USB, chống nước",
+    name: "Máy Rung Mini Kích Thích Đa Điểm 7 Chế Độ Rung Sạc USB Chống Nước",
     category: "Máy Massage Cá Nhân",
     categorySlug: "may-massage-ca-nhan",
     price: 580000,
@@ -1305,7 +1305,7 @@ export const products: Product[] = [
   {
     slug: "av07c-chay-rung-lilo-2-dau-co-suoi-am-phien-ban-cao-cap-2-trong-1-10-che-do-rung-manh-me",
     sku: "AV07C",
-    name: "Chày rung Lilo 2 đầu có sưởi ấm – Phiên bản cao cấp 2 trong 1, 10 chế độ rung mạnh mẽ",
+    name: "Chày Rung Lilo 2 Đầu Có Sưởi Ấm 2 Trong 1 10 Chế Độ Rung",
     category: "Máy Massage Cá Nhân",
     categorySlug: "may-massage-ca-nhan",
     price: 690000,
@@ -1318,7 +1318,7 @@ export const products: Product[] = [
   {
     slug: "eg36b-trung-rung-doi-mini-sac-pin-galaku-mirai-kich-thich-diem-g-giai-toa-sinh-ly-nu-hieu-qua",
     sku: "EG36B",
-    name: "Trứng rung đôi mini sạc pin Galaku MIRAI – Kích thích điểm G, giải tỏa sinh lý nữ hiệu quả",
+    name: "Trứng Rung Đôi Mini Sạc Pin Galaku MIRAI Kích Thích Điểm G",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 550000,
@@ -1331,7 +1331,7 @@ export const products: Product[] = [
   {
     slug: "bd10p-bao-don-khuc-gai-rung-sac",
     sku: "BD10P",
-    name: "Bao đôn khúc gai rung sạc",
+    name: "Bao Đôn Khúc Gai Rung Sạc",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 450000,
@@ -1344,7 +1344,7 @@ export const products: Product[] = [
   {
     slug: "bd49d-bao-don-silicon-mem-co-quai-deo",
     sku: "BD49D",
-    name: "Bao đôn silicon mềm có quai đeo",
+    name: "Bao Đôn Silicon Mềm Có Quai Đeo",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 350000,
@@ -1357,7 +1357,7 @@ export const products: Product[] = [
   {
     slug: "bb12b-bup-be-silicon-ban-than-nam-size-lon-thoa-man-moi-cam-xuc",
     sku: "BB12B",
-    name: "Búp Bê Silicon Bán Thân Nam Size Lớn – Thỏa Mãn Mọi Cảm Xúc",
+    name: "Búp Bê Silicon Bán Thân Nam Size Lớn",
     category: "Búp Bê Silicon Cao Cấp",
     categorySlug: "bup-be-silicon-cao-cap",
     price: 3450000,
@@ -1370,7 +1370,7 @@ export const products: Product[] = [
   {
     slug: "bb12r-bup-be-ban-than-silicon-co-rung-ren-trai-nghiem-chan-that-an-toan-kin-dao",
     sku: "BB12R",
-    name: "Búp bê bán thân silicon có rung rên – Trải nghiệm chân thật, an toàn & kín đáo",
+    name: "Búp Bê Bán Thân Silicon Có Rung Rên",
     category: "Búp Bê Silicon Cao Cấp",
     categorySlug: "bup-be-silicon-cao-cap",
     price: 2350000,
@@ -1383,7 +1383,7 @@ export const products: Product[] = [
   {
     slug: "bb24d-bup-be-silicon-100cm-thieu-nu-tuoi-day-thi-dang-chuan-chat-lieu-cao-cap",
     sku: "BB24D",
-    name: "Búp Bê Silicon 100cm – Thiếu Nữ Tuổi Dậy Thì Dáng Chuẩn, Chất Liệu Cao Cấp",
+    name: "Búp Bê Silicon Cao Cấp 100cm Thiếu Nữ Tuổi Dậy Thì Dáng Chuẩn",
     category: "Búp Bê Silicon Cao Cấp",
     categorySlug: "bup-be-silicon-cao-cap",
     price: 7500000,
@@ -1396,7 +1396,7 @@ export const products: Product[] = [
   {
     slug: "bb25f-bup-be-silicon-mini-60cm-de-thuong-gia-re-an-toan-kin-dao",
     sku: "BB25F",
-    name: "Búp bê silicon mini 60cm dễ thương – Giá rẻ, an toàn, kín đáo",
+    name: "Búp Bê Silicon Mini 60cm Dễ Thương - Giá Rẻ, An Toàn, Kín Đáo",
     category: "Búp Bê Silicon Cao Cấp",
     categorySlug: "bup-be-silicon-cao-cap",
     price: 2950000,
@@ -1409,7 +1409,7 @@ export const products: Product[] = [
   {
     slug: "dc85d3-may-mat-xa-am-vat-cao-cap-lelo-nea-3-thuy-dien",
     sku: "DC85D3",
-    name: "Máy mát xa âm vật cao cấp Lelo Nea 3 – Thụy Điển",
+    name: "Máy Mát Xa Âm Vật Lelo Nea 3 - Trứng Rung Tình Yêu Thụy Điển",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 3500000,
@@ -1422,7 +1422,7 @@ export const products: Product[] = [
   {
     slug: "av07b-chay-rung-2-dau-lilo-do-choi-massage-cao-cap-cho-phai-nu",
     sku: "AV07B",
-    name: "Chày Rung 2 Đầu Lilo – Đồ Chơi Massage Cao Cấp Cho Phái Nữ",
+    name: "Chày Rung 2 Đầu Lilo Máy Massage Cá Nhân Cho Phái Nữ",
     category: "Máy Massage Cá Nhân",
     categorySlug: "may-massage-ca-nhan",
     price: 650000,
@@ -1435,7 +1435,7 @@ export const products: Product[] = [
   {
     slug: "ad02m-am-dao-silicon-se-khit-gai-to-sarah-trai-nghiem-chan-that-nhu-that",
     sku: "AD02M",
-    name: "Âm đạo silicon se khít gái tơ Sarah – Trải nghiệm chân thật như thật",
+    name: "Âm Đạo Silicon Se Khít Gái Tơ Sarah - Trải Nghiệm Chân Thật",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 550000,
@@ -1448,7 +1448,7 @@ export const products: Product[] = [
   {
     slug: "ad14d-am-dao-silicon-hinh-thieu-nu-goi-cam-bup-be-ban-than-cho-nam-gioi-gia-re",
     sku: "AD14D",
-    name: "Âm đạo silicon hình thiếu nữ gợi cảm – Búp bê bán thân cho nam giới giá rẻ",
+    name: "Búp Bê Bán Thân Âm Đạo Silicon Hình Thiếu Nữ Gợi Cảm Cho Nam Giới Giá Rẻ",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 650000,
@@ -1461,7 +1461,7 @@ export const products: Product[] = [
   {
     slug: "ad01c-may-mat-xa-duong-vat-tu-dong-cam-tay-gia-re-trai-nghiem-khoai-cam-dinh-cao-cho-nam-gioi",
     sku: "AD01C",
-    name: "Máy mát xa dương vật tự động cầm tay giá rẻ – Trải nghiệm khoái cảm đỉnh cao cho nam giới",
+    name: "Máy Mát Xa Dương Vật Tự Động Cầm Tay Cho Nam Giới",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 1350000,
@@ -1474,7 +1474,7 @@ export const products: Product[] = [
   {
     slug: "ad50b-coc-thu-dam-mat-meo-silicon-cao-cap-thiet-ke-nho-gon-trai-nghiem-chan-thuc",
     sku: "AD50B",
-    name: "Cốc Thủ Dâm Mắt Mèo Silicon Cao Cấp – Thiết Kế Nhỏ Gọn, Trải Nghiệm Chân Thực",
+    name: "Cốc Thủ Dâm Mắt Mèo Silicon Cao Cấp - Thiết Kế Nhỏ Gọn, Trải Nghiệm Chân Thực",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 300000,
@@ -1487,7 +1487,7 @@ export const products: Product[] = [
   {
     slug: "dc53k-am-dao-silicon-co-lon-vong-ba-cuc-quyen-ru-trai-nghiem-chan-that",
     sku: "DC53K",
-    name: "Âm Đạo Silicon Cỡ Lớn – Vòng Ba Cực Quyến Rũ, Trải Nghiệm Chân Thật",
+    name: "Âm Đạo Silicon Cỡ Lớn Vòng Ba Quyến Rũ Trải Nghiệm Chân Thật",
     category: "Búp Bê Silicon Cao Cấp",
     categorySlug: "bup-be-silicon-cao-cap",
     price: 1250000,
@@ -1500,7 +1500,7 @@ export const products: Product[] = [
   {
     slug: "ad34n-am-dao-gia-dibe-ferrady-rung-suc-tu-dong-co-suoi-am",
     sku: "AD34N",
-    name: "Âm đạo giả Dibe Ferrady rung sục tự động có sưởi ấm",
+    name: "Âm Đạo Giả Dibe Ferrady Rung Sục Tự Động Có Sưởi Ấm",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 1450000,
@@ -1513,7 +1513,7 @@ export const products: Product[] = [
   {
     slug: "dv44u-duong-vat-cao-cap-dibe-rung-thut-suoi-am-trai-nghiem-khoai-cam-dinh-cao",
     sku: "DV44U",
-    name: "Dương Vật Cao Cấp Dibe Rung Thụt Sưởi Ấm – Trải Nghiệm Khoái Cảm Đỉnh Cao",
+    name: "Dương Vật Giả Rung Dibe Thụt Sưởi Ấm",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1490000,
@@ -1526,7 +1526,7 @@ export const products: Product[] = [
   {
     slug: "dv36c-mong-silicon-gan-duong-vat-18x4-4cm-trai-nghiem-that-nhu-ngoai-doi",
     sku: "DV36C",
-    name: "Mông Silicon Gắn Dương Vật 18x4,4cm – Trải Nghiệm Thật Như Ngoài Đời",
+    name: "Mông Silicon Gắn Dương Vật 18x4,4cm Trải Nghiệm Thật Như Ngoài Đời",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1650000,
@@ -1539,7 +1539,7 @@ export const products: Product[] = [
   {
     slug: "bz03c-phu-kien-phong-the-sm-day-troi-co-chan-co-tay-da-lot-long-cao-cap-do-choi-nguoi-lon-giup-tao-tu-the-moi-la",
     sku: "BZ03C",
-    name: "Phụ kiện phòng the SM – Dây trói cổ chân cổ tay da lót lông cao cấp | Đồ chơi người lớn giúp tạo tư thế mới lạ",
+    name: "Dây Trói Cổ Chân Cổ Tay Da Lót Lông Cao Cấp Phụ Kiện SM",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 200000,
@@ -1552,7 +1552,7 @@ export const products: Product[] = [
   {
     slug: "bd13g-do-choi-sm-banh-2-chan-tao-the-quan-he",
     sku: "BD13G",
-    name: "Đồ chơi SM banh 2 chân tạo thế quan hệ",
+    name: "Đồ Chơi SM Banh 2 Chân Tạo Thế Quan Hệ",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 400000,
@@ -1565,7 +1565,7 @@ export const products: Product[] = [
   {
     slug: "bz24-cay-co-lan-gai-sm-ma-kim-do-choi-kich-thich-cam-giac-manh-me",
     sku: "BZ24",
-    name: "Cây Cọ Lăn Gai SM Mạ Kim – Đồ Chơi Kích Thích Cảm Giác Mạnh Mẽ",
+    name: "Cây Cọ Lăn Gai SM Mạ Kim - Đồ Chơi Kích Thích Cảm Giác Mạnh Mẽ",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 300000,
@@ -1578,7 +1578,7 @@ export const products: Product[] = [
   {
     slug: "bz04-cong-tinh-yeu-hop-kim-cao-cap-khoi-day-cuoc-yeu-manh-liet",
     sku: "BZ04",
-    name: "Còng Tình Yêu Hợp Kim Cao Cấp – Khơi Dậy Cuộc Yêu Mãnh Liệt",
+    name: "Còng Tình Yêu Hợp Kim Cao Cấp",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 350000,
@@ -1591,7 +1591,7 @@ export const products: Product[] = [
   {
     slug: "bd29b-bao-don-den-trong-suot-gan-nhe-rong-dau",
     sku: "BD29B",
-    name: "Bao đôn dên trong suốt gân nhẹ rỗng đầu",
+    name: "Bao Đôn Dên Trong Suốt Gân Nhẹ Rỗng Đầu",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 150000,
@@ -1604,7 +1604,7 @@ export const products: Product[] = [
   {
     slug: "bd46a-bao-don-silicon-rung-dau-sac-pin-dieu-khien-xa",
     sku: "BD46A",
-    name: "Bao đôn silicon rung đầu sạc pin điều khiển xa",
+    name: "Bao Đôn Silicon Rung Đầu Sạc Pin Điều Khiển Từ Xa",
     category: "Bao Cao Su Chính Hãng",
     categorySlug: "bao-cao-su-chinh-hang",
     price: 650000,
@@ -1617,7 +1617,7 @@ export const products: Product[] = [
   {
     slug: "dc33b-dung-cu-massage-nam-gioi-thiet-ke-dang-voi-bach-tuoc-ho-tro-cai-thien-sinh-ly-tang-khoai-cam",
     sku: "DC33B",
-    name: "Dụng Cụ Massage Nam Giới Thiết Kế Dạng Vòi Bạch Tuộc – Hỗ Trợ Cải Thiện Sinh Lý, Tăng Khoái Cảm",
+    name: "Dụng Cụ Massage Nam Giới Dạng Vòi Bạch Tuộc - Hỗ Trợ Cải Thiện Sinh Lý, Tăng Khoái Cảm",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 550000,
@@ -1630,7 +1630,7 @@ export const products: Product[] = [
   {
     slug: "bb25e-bup-be-tinh-yeu-mini-80cm-silicone-cao-cap-bb25e",
     sku: "BB25E",
-    name: "Búp Bê Tình Yêu Mini 80cm Silicone Cao Cấp (BB25E)",
+    name: "Búp Bê Tình Yêu Mini 80cm Silicone Cao Cấp",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 3950000,
@@ -1643,7 +1643,7 @@ export const products: Product[] = [
   {
     slug: "bb12k-bup-be-nam-ban-than-cao-cap-trai-nghiem-that-nhu-dang-yeu",
     sku: "BB12K",
-    name: "Búp Bê Nam Bán Thân Cao Cấp – Trải Nghiệm Thật Như Đang Yêu",
+    name: "Búp Bê Nam Bán Thân Cao Cấp Trải Nghiệm Thật Như Đang Yêu",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1650000,
@@ -1656,7 +1656,7 @@ export const products: Product[] = [
   {
     slug: "dc85cd-thiet-bi-rung-massage-cap-doi-cao-cap-lelo-tiani-duo-ket-noi-cam-xuc-khoai-cam-manh-me",
     sku: "DC85CD",
-    name: "Thiết Bị Rung Massage Cặp Đôi Cao Cấp Lelo Tiani Duo – Kết Nối Cảm Xúc & Khoái Cảm Mạnh Mẽ",
+    name: "Thiết Bị Rung Massage Cặp Đôi Lelo Tiani Duo Cao Cấp",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 6250000,
@@ -1669,7 +1669,7 @@ export const products: Product[] = [
   {
     slug: "dc22k-thiet-bi-kich-thich-nu-gioi-luoi-rung-silicon-mem-mai-mo-phong-tu-nhien",
     sku: "DC22K",
-    name: "Thiết Bị Kích Thích Nữ Giới – Lưỡi Rung Silicon Mềm Mại, Mô Phỏng Tự Nhiên",
+    name: "Lưỡi Rung Silicon Mềm Mại Kích Thích Nữ Giới Mô Phỏng Tự Nhiên",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 590000,
@@ -1682,7 +1682,7 @@ export const products: Product[] = [
   {
     slug: "ms41-may-massage-hut-rung-da-chuc-nang-yeain-scentwave-cho-nu-tan-huong-cam-giac-thu-gian-tuyet-voi",
     sku: "MS41",
-    name: "Máy Massage Hút Rung Đa Chức Năng Yeain ScentWave Cho Nữ – Tận Hưởng Cảm Giác Thư Giãn Tuyệt Vời",
+    name: "Máy Massage Hút Rung Đa Chức Năng Yeain ScentWave Cho Nữ",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1250000,
@@ -1695,7 +1695,7 @@ export const products: Product[] = [
   {
     slug: "dc74f-coc-massage-nam-cao-cap-tenga-flip-orb-pastaio-thiet-ke-tach-doi-tien-loi-cam-giac-chan-that",
     sku: "DC74F",
-    name: "Cốc Massage Nam Cao Cấp Tenga Flip Orb Pastaio – Thiết Kế Tách Đôi Tiện Lợi, Cảm Giác Chân Thật",
+    name: "Cốc Massage Nam Tenga Flip Orb Pastaio - Thiết Kế Tách Đôi Tiện Lợi",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 2500000,
@@ -1708,7 +1708,7 @@ export const products: Product[] = [
   {
     slug: "dc46q-mong-silicon-sieu-khung-co-dui-rung-ren-cuc-chat",
     sku: "DC46Q",
-    name: "Mông silicon siêu khủng có đùi rung rên cực chất",
+    name: "Mông Silicon Siêu Khủng Có Đùi Rung Rên",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 3950000,
@@ -1721,7 +1721,7 @@ export const products: Product[] = [
   {
     slug: "ad34m-thiet-bi-massage-tu-dong-gan-tuong-chuyen-dong-xoay-thut-rung-manh-me-cho-nam-gioi",
     sku: "AD34M",
-    name: "Thiết Bị Massage Tự Động Gắn Tường – Chuyển Động Xoay, Thụt & Rung Mạnh Mẽ Cho Nam Giới",
+    name: "Thiết Bị Massage Tự Động Gắn Tường Cho Nam Giới - Xoay, Thụt & Rung Mạnh Mẽ",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 2150000,
@@ -1734,7 +1734,7 @@ export const products: Product[] = [
   {
     slug: "dc93ms-lovense-mission-2-thiet-bi-massage-ca-nhan-dieu-khien-qua-app-gan-tuong-xoay-160",
     sku: "DC93MS",
-    name: "Lovense Mission 2 – Thiết Bị Massage Cá Nhân Điều Khiển Qua App, Gắn Tường Xoay 160°",
+    name: "Dương Vật Giả Rung Lovense Mission 2 Điều Khiển Qua App, Gắn Tường Xoay 160°",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 4500000,
@@ -1747,7 +1747,7 @@ export const products: Product[] = [
   {
     slug: "dc93s-lovense-osci-3-thiet-bi-massage-ca-nhan-ket-noi-app-cong-nghe-my-hien-dai",
     sku: "DC93S",
-    name: "Lovense Osci 3 – Thiết Bị Massage Cá Nhân Kết Nối App, Công Nghệ Mỹ Hiện Đại",
+    name: "Dương Vật Giả Rung Lovense Osci 3 Kết Nối App Công Nghệ Mỹ",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 4500000,
@@ -1760,7 +1760,7 @@ export const products: Product[] = [
   {
     slug: "dv75-thiet-bi-ho-tro-ca-nhan-yeain-hot-wheel-da-chuc-nang-voi-che-do-rung-nhiet-do-42-c",
     sku: "DV75",
-    name: "Thiết Bị Hỗ Trợ Cá Nhân Yeain Hot Wheel – Đa Chức Năng Với Chế Độ Rung & Nhiệt Độ 42°C",
+    name: "Dương Vật Giả Rung Yeain Hot Wheel Đa Chức Năng Rung & Nhiệt Độ 42°C",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1450000,
@@ -1773,7 +1773,7 @@ export const products: Product[] = [
   {
     slug: "eg30n-trung-rung-prettylove-willie-kich-thich-am-vat-diem-g-manh-me-kin-dao-va-hieu-qua",
     sku: "EG30N",
-    name: "Trứng Rung Prettylove Willie – Kích Thích Âm Vật & Điểm G Mạnh Mẽ, Kín Đáo Và Hiệu Quả",
+    name: "Trứng Rung Prettylove Willie Kích Thích Âm Vật & Điểm G",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 890000,
@@ -1786,7 +1786,7 @@ export const products: Product[] = [
   {
     slug: "dc93x-lovense-exomoon-thanh-rung-mini-thoi-son-sieu-kin-dao-cho-nu-gioi-hien-dai",
     sku: "DC93X",
-    name: "Lovense Exomoon – Thanh Rung Mini Thỏi Son Siêu Kín Đáo Cho Nữ Giới Hiện Đại",
+    name: "Thanh Rung Mini Thỏi Son Lovense Exomoon Siêu Kín Đáo",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 3300000,
@@ -1799,7 +1799,7 @@ export const products: Product[] = [
   {
     slug: "dc42ew-lelo-enigma-wave-may-bu-am-vat-va-massage-diem-g-bang-song-am-cuc-khoai-kep-hoan-hao-tu-thuy-dien",
     sku: "DC42EW",
-    name: "Lelo Enigma Wave – Máy Bú Âm Vật Và Massage Điểm G Bằng Sóng Âm | Cực Khoái Kép Hoàn Hảo Từ Thụy Điển",
+    name: "Máy Bú Âm Vật Và Massage Điểm G Bằng Sóng Âm Lelo Enigma Wave",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 6000000,
@@ -1825,7 +1825,7 @@ export const products: Product[] = [
   {
     slug: "dv02d-duong-vat-silicon-rung-thut-suoi-am-size-nho-cuc-khoai-nhe-nhang-vua-van-cho-phai-dep-chau-a",
     sku: "DV02D",
-    name: "Dương Vật Silicon Rung Thụt Sưởi Ấm Size Nhỏ – Cực Khoái Nhẹ Nhàng, Vừa Vặn Cho Phái Đẹp Châu Á",
+    name: "Dương Vật Giả Silicon Rung Thụt Sưởi Ấm Size Nhỏ",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 850000,
@@ -1838,7 +1838,7 @@ export const products: Product[] = [
   {
     slug: "dv60h-duong-vat-silicon-rung-thut-suoi-am-dieu-khien-tu-xa-trai-nghiem-thang-hoa-chan-that",
     sku: "DV60H",
-    name: "Dương Vật Silicon Rung – Thụt – Sưởi Ấm – Điều Khiển Từ Xa | Trải Nghiệm Thăng Hoa Chân Thật",
+    name: "Dương Vật Giả Silicon Rung Thụt Sưởi Ấm Điều Khiển Từ Xa",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 950000,
@@ -1851,7 +1851,7 @@ export const products: Product[] = [
   {
     slug: "dv54q-duong-vat-silicon-size-khung-sieu-mem-cam-giac-that-nhu-that-thoa-man-moi-tu-the",
     sku: "DV54Q",
-    name: "Dương Vật Silicon Size Khủng Siêu Mềm – Cảm Giác Thật Như Thật, Thoả Mãn Mọi Tư Thế",
+    name: "Dương Vật Giả Rung Silicon Size Khủng Siêu Mềm Cảm Giác Thật",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 750000,
@@ -1864,7 +1864,7 @@ export const products: Product[] = [
   {
     slug: "dv26d-duong-vat-silicon-size-khung-prettylove-archille-kich-thich-manh-me-cuc-phe-tung-con",
     sku: "DV26D",
-    name: "Dương Vật Silicon Size Khủng Prettylove Archille – Kích Thích Mạnh Mẽ, Cực Phê Từng Cơn",
+    name: "Dương Vật Giả Rung Silicon Size Khủng Prettylove Archille",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 950000,
@@ -1877,7 +1877,7 @@ export const products: Product[] = [
   {
     slug: "dc09c-duong-vat-gan-dai-rung-ban-tinh-nhu-that-cuc-dinh-cho-cam-giac-nhu-giao-hop-that-su",
     sku: "DC09C",
-    name: "Dương Vật Gắn Đai Rung Bắn Tinh Như Thật – Cực Đỉnh Cho Cảm Giác Như Giao Hợp Thật Sự",
+    name: "Dương Vật Giả Rung Gắn Đai Bắn Tinh Như Thật",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 850000,
@@ -1890,7 +1890,7 @@ export const products: Product[] = [
   {
     slug: "dc49c-bo-bong-tap-kegel-se-khit-am-dao-co-rung",
     sku: "DC49C",
-    name: "Bộ bóng tập Kegel se khít âm đạo có rung",
+    name: "Bộ Bóng Tập Kegel Se Khít Âm Đạo Có Rung",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1080000,
@@ -1903,7 +1903,7 @@ export const products: Product[] = [
   {
     slug: "ny19e-ao-nguc-gia-cao-cap-tien-loi",
     sku: "NY19E",
-    name: "Áo ngưc giả cao cấp tiện lợi",
+    name: "Áo Ngực Giả Cao Cấp Tiện Lợi",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 1100000,
@@ -1916,7 +1916,7 @@ export const products: Product[] = [
   {
     slug: "ny19c1-ao-nguc-silicon-cao-cap-cho-nam-gia-nu",
     sku: "NY19C1",
-    name: "Áo ngưc silicon cao cấp cho nam giả nữ",
+    name: "Áo Ngực Silicon Cao Cấp Cho Nam Giả Nữ",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 1650000,
@@ -1929,7 +1929,7 @@ export const products: Product[] = [
   {
     slug: "dc93n2-may-mat-xa-duong-vat-thong-minh-lovense-gush-2-ket-noi-app-rung-cuc-phe-dinh-cao-cong-nghe-tinh-duc",
     sku: "DC93N2",
-    name: "Máy Mát Xa Dương Vật Thông Minh Lovense Gush 2 – Kết Nối App, Rung Cực Phê, Đỉnh Cao Công Nghệ Tình Dục",
+    name: "Máy Mát Xa Dương Vật Thông Minh Lovense Gush 2 Kết Nối App",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 4500000,
@@ -1942,7 +1942,7 @@ export const products: Product[] = [
   {
     slug: "sl16c-keo-sam-hamerpro-66f86k-vi-mat-ong-tang-cuong-sinh-ly-boi-bo-suc-khoe-toan-dien",
     sku: "SL16C",
-    name: "Kẹo sâm HamerPro 66F86K vị mật ong – Tăng cường sinh lý, bồi bổ sức khỏe toàn diện",
+    name: "Kẹo Sâm HamerPro Vị Mật Ong - Tăng Cường Sinh Lý, Bồi Bổ Sức Khỏe Toàn Diện",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 1450000,
@@ -1955,7 +1955,7 @@ export const products: Product[] = [
   {
     slug: "sl16d-keo-sam-hamerpro-66f86k-vi-mat-ong-tang-cuong-sinh-ly-boi-bo-suc-khoe-toan-dien",
     sku: "SL16D",
-    name: "Kẹo sâm HamerPro 66F86K vị mật ong – Tăng cường sinh lý, bồi bổ sức khỏe toàn diện",
+    name: "Kẹo Sâm HamerPro Vị Mật Ong - Tăng Cường Sinh Lý, Bồi Bổ Sức Khỏe Toàn Diện",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 1750000,
@@ -1968,7 +1968,7 @@ export const products: Product[] = [
   {
     slug: "kt37-chai-hit-popper-fist-den-10ml-hung-phan-tuc-thi-ho-tro-quan-he-cua-sau-de-dang",
     sku: "KT37",
-    name: "Chai hít popper Fist đen 10ml – Hưng phấn tức thì, hỗ trợ quan hệ cửa sau dễ dàng",
+    name: "Chai Hít Popper Fist Đen 10ml - Hưng Phấn Tức Thì, Hỗ Trợ Quan Hệ Cửa Sau Dễ Dàng",
     category: "Chưa phân loại",
     categorySlug: "chua-phan-loai",
     price: 300000,
@@ -1981,7 +1981,7 @@ export const products: Product[] = [
   {
     slug: "kt38-chai-hit-popper-ram-xanh-10ml-tang-hung-phan-keo-dai-cuoc-yeu-manh-me",
     sku: "KT38",
-    name: "Chai hít popper Ram xanh 10ml – Tăng hưng phấn, kéo dài cuộc yêu mạnh mẽ",
+    name: "Chai Hít Popper Ram Xanh 10ml - Tăng Hưng Phấn, Kéo Dài Cuộc Yêu Mạnh Mẽ",
     category: "Chưa phân loại",
     categorySlug: "chua-phan-loai",
     price: 300000,
@@ -1994,7 +1994,7 @@ export const products: Product[] = [
   {
     slug: "kt39-chai-hit-jungle-juice-gold-label-10ml-tang-khoai-cam-tuc-thi-hung-phan-bung-no",
     sku: "KT39",
-    name: "Chai hít Jungle Juice Gold Label 10ml – Tăng khoái cảm tức thì, hưng phấn bùng nổ",
+    name: "Chai Hít Jungle Juice Gold Label 10ml - Tăng Khoái Cảm Tức Thì, Hưng Phấn Bùng Nổ",
     category: "Chưa phân loại",
     categorySlug: "chua-phan-loai",
     price: 300000,
@@ -2007,7 +2007,7 @@ export const products: Product[] = [
   {
     slug: "g32e-son-bong-orgie-electric-fellatio-tang-khoai-cam-khi-hon-oral-sex-voi-hieu-ung-rung-doc-dao",
     sku: "G32E",
-    name: "Son bóng Orgie Electric Fellatio – Tăng khoái cảm khi hôn & Oral Sex với hiệu ứng rung độc đáo",
+    name: "Son Bóng Orgie Electric Fellatio Tăng Khoái Cảm Khi Hôn & Oral Sex Hiệu Ứng Rung Độc Đáo",
     category: "Gel Bôi Trơn Cao Cấp",
     categorySlug: "gel-boi-tron-cao-cap",
     price: 1150000,
@@ -2020,7 +2020,7 @@ export const products: Product[] = [
   {
     slug: "g32d-gel-boi-tron-hau-mon-orgie-anal-lube-tube-100ml-tron-muot-khong-dau-rat-an-toan-cho-moi-cuoc-yeu",
     sku: "G32D",
-    name: "Gel bôi trơn hậu môn Orgie Anal Lube Tube 100ml – Trơn mượt, không đau rát, an toàn cho mọi cuộc yêu",
+    name: "Gel Bôi Trơn Hậu Môn Orgie Anal Lube Tube 100ml",
     category: "Đồ Chơi Hậu Môn",
     categorySlug: "do-choi-hau-mon",
     price: 890000,
@@ -2033,7 +2033,7 @@ export const products: Product[] = [
   {
     slug: "eg06-trung-rung-mini-10-che-do-rung-dieu-khien-tu-xa-cuc-khoai-trong-tam-tay",
     sku: "EG06",
-    name: "Trứng rung mini 10 chế độ rung – Điều khiển từ xa, cực khoái trong tầm tay",
+    name: "Trứng Rung Mini 10 Chế Độ Rung Điều Khiển Từ Xa",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 490000,
@@ -2046,7 +2046,7 @@ export const products: Product[] = [
   {
     slug: "ad38e-am-dao-silicon-hinh-trai-dao-mum-mim-thiet-ke-de-thuong-trai-nghiem-chan-that",
     sku: "AD38E",
-    name: "Âm đạo silicon hình trái đào mũm mĩm – Thiết kế dễ thương, trải nghiệm chân thật",
+    name: "Âm Đạo Silicon Hình Trái Đào Mũm Mĩm - Thiết Kế Dễ Thương, Trải Nghiệm Chân Thật",
     category: "Đồ Chơi Cao Cấp",
     categorySlug: "do-choi-cao-cap",
     price: 200000,
@@ -2059,7 +2059,7 @@ export const products: Product[] = [
   {
     slug: "dv68s-duong-vat-lovetoy-dual-layered-silicon-sieu-mem-size-lon-10-5-cam-giac-chan-thuc-kich-thich-toi-da",
     sku: "DV68S",
-    name: "Dương vật Lovetoy dual layered silicon siêu mềm size lớn 10.5\" – Cảm giác chân thực, kích thích tối đa",
+    name: "Dương Vật Giả Rung Lovetoy Dual Layered Silicon Siêu Mềm Size Lớn 10.5",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1650000,
@@ -2072,7 +2072,7 @@ export const products: Product[] = [
   {
     slug: "dv68t-duong-vat-lovetoy-platinum-silicon-2-lop-size-khung-11-5-cam-giac-chan-thuc-thoa-man-tron-ven",
     sku: "DV68T",
-    name: "Dương vật Lovetoy Platinum silicon 2 lớp size khủng 11.5\" – Cảm giác chân thực, thỏa mãn trọn vẹn",
+    name: "Dương Vật Giả Rung Lovetoy Platinum Silicon 2 Lớp Size Khủng 11.5",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1950000,
@@ -2085,7 +2085,7 @@ export const products: Product[] = [
   {
     slug: "dc89za-ngon-tay-svakom-rung-liem-diem-g-cuc-phe-kich-thich-da-chieu-khoai-cam-thang-hoa",
     sku: "DC89ZA",
-    name: "Ngón tay Svakom rung liếm điểm G cực phê – Kích thích đa chiều, khoái cảm thăng hoa",
+    name: "Ngón Tay Rung Liếm Điểm G Svakom Kích Thích Đa Chiều",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1550000,
@@ -2098,7 +2098,7 @@ export const products: Product[] = [
   {
     slug: "g30-gel-boi-tron-svakom-human-body-100ml-dang-tui-boi-tron-an-toan-tien-loi-cho-vung-kin",
     sku: "G30",
-    name: "Gel bôi trơn Svakom Human Body 100ml dạng túi – Bôi trơn an toàn, tiện lợi cho vùng kín",
+    name: "Gel Bôi Trơn Svakom Human Body 100ml Dạng Túi",
     category: "Gel Bôi Trơn Cao Cấp",
     categorySlug: "gel-boi-tron-cao-cap",
     price: 200000,
@@ -2111,7 +2111,7 @@ export const products: Product[] = [
   {
     slug: "qt09g-bo-do-choi-sm-da-sang-chanh-nhieu-mau-kich-thich-moi-giac-quan-pha-cach-goi-cam",
     sku: "QT09G",
-    name: "Bộ Đồ Chơi SM Da Sang Chảnh Nhiều Màu – Kích Thích Mọi Giác Quan, Phá Cách & Gợi Cảm",
+    name: "Bộ Đồ Chơi SM Da Sang Chảnh Nhiều Màu Kích Thích Mọi Giác Quan Phá Cách Và Gợi Cảm",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 1350000,
@@ -2124,7 +2124,7 @@ export const products: Product[] = [
   {
     slug: "qt18-bo-do-choi-sm-da-cao-cap-kem-hop-dung-sang-trong-kich-thich-moi-giac-quan",
     sku: "QT18",
-    name: "Bộ Đồ Chơi SM Da Cao Cấp – Kèm Hộp Đựng Sang Trọng, Kích Thích Mọi Giác Quan",
+    name: "Bộ Đồ Chơi SM Da Cao Cấp Kèm Hộp Đựng Sang Trọng",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 1750000,
@@ -2137,7 +2137,7 @@ export const products: Product[] = [
   {
     slug: "qt18-bo-do-choi-sm-ho-ly-doc-dao-goi-cam-bi-an-khieu-goi",
     sku: "QT18",
-    name: "🦊 Bộ Đồ Chơi SM Hồ Ly Độc Đáo – Gợi Cảm, Bí Ẩn & Khiêu Gợi",
+    name: "Bộ Đồ Chơi SM Hồ Ly Độc Đáo Gợi Cảm Bí Ẩn Khiêu Gợi",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 680000,
@@ -2150,7 +2150,7 @@ export const products: Product[] = [
   {
     slug: "dc56e-mat-na-da-tai-meo-ngo-nghinh-tao-diem-nhan-goi-cam-ca-tinh",
     sku: "DC56E",
-    name: "Mặt Nạ Da Tai Mèo Ngộ Nghĩnh – Tạo Điểm Nhấn Gợi Cảm & Cá Tính",
+    name: "Mặt Nạ Da Tai Mèo Ngộ Nghĩnh Gợi Cảm Và Cá Tính",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 200000,
@@ -2163,7 +2163,7 @@ export const products: Product[] = [
   {
     slug: "pk020-bang-keo-sm-kich-thich-tro-choi-phong-the-day-kich-tinh",
     sku: "PK020",
-    name: "🔥 Băng Keo SM – Kích Thích Trò Chơi Phòng The Đầy Kịch Tính",
+    name: "Băng Keo SM Kích Thích Trò Chơi Phòng The Đầy Kịch Tính",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 80000,
@@ -2176,7 +2176,7 @@ export const products: Product[] = [
   {
     slug: "ms14n-may-rung-liem-da-nang-mieng-ngam-ha-luoi-da-cuc-phe",
     sku: "MS14N",
-    name: "🌀 Máy Rung Liếm Đa Năng – Miệng Ngậm Há, Lưỡi Đá Cực Phê",
+    name: "Máy Rung Liếm Đa Năng - Miệng Ngậm Há, Lưỡi Đá",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1150000,
@@ -2189,7 +2189,7 @@ export const products: Product[] = [
   {
     slug: "eg05e-trung-rung-ca-heo-nho-xinh-co-suoi-am-dieu-khien-xa",
     sku: "EG05E",
-    name: "Trứng rung cá heo nhỏ xinh có sưởi ấm điều khiển xa",
+    name: "Trứng Rung Cá Heo Nhỏ Xinh Có Sưởi Ấm Điều Khiển Từ Xa",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 680000,
@@ -2202,7 +2202,7 @@ export const products: Product[] = [
   {
     slug: "av17e-chay-rung-kem-dau-rung-mini-mat-xa-ti-hat-le-cuc-manh-me",
     sku: "AV17E",
-    name: "Chày Rung Kèm Đầu Rung Mini – Mát Xa Ti, Hạt Le Cực Mạnh Mẽ",
+    name: "Chày Rung Kèm Đầu Rung Mini Mát Xa Ti Và Hạt Le Cực Mạnh Mẽ",
     category: "Máy Massage Cá Nhân",
     categorySlug: "may-massage-ca-nhan",
     price: 490000,
@@ -2215,7 +2215,7 @@ export const products: Product[] = [
   {
     slug: "dc46p-am-dao-silicon-cao-cap-rung-ren-bu-suoi-am-cuc-pham-cho-nam-gioi",
     sku: "DC46P",
-    name: "Âm Đạo Silicon Cao Cấp Rung Rên Bú Sưởi Ấm – Cực Phẩm Cho Nam Giới",
+    name: "Âm Đạo Silicon Cao Cấp Rung Rên Bú Sưởi Ấm Cho Nam Giới",
     category: "Búp Bê Silicon Cao Cấp",
     categorySlug: "bup-be-silicon-cao-cap",
     price: 1950000,
@@ -2228,7 +2228,7 @@ export const products: Product[] = [
   {
     slug: "dv73d-duong-vat-gia-3-trong-1-rung-bu-da-luoi-kich-thich-cuc-khoai-toan-dien-cho-nu",
     sku: "DV73D",
-    name: "Dương Vật Giả 3 Trong 1 Rung Bú Đá Lưỡi – Kích Thích Cực Khoái Toàn Diện Cho Nữ",
+    name: "Dương Vật Giả Rung 3 Trong 1 Bú Đá Lưỡi Cho Nữ",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 950000,
@@ -2241,7 +2241,7 @@ export const products: Product[] = [
   {
     slug: "ms45d-may-rung-diem-g-mini-suoi-am-kich-thich-cuc-khoai-dinh-cao-cho-phai-nu",
     sku: "MS45D",
-    name: "Máy Rung Điểm G Mini Sưởi Ấm – Kích Thích Cực Khoái Đỉnh Cao Cho Phái Nữ",
+    name: "Máy Rung Điểm G Mini Sưởi Ấm Cho Phái Nữ",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 680000,
@@ -2254,7 +2254,7 @@ export const products: Product[] = [
   {
     slug: "dc93r-may-rung-hau-mon-lovense-edge-2-cao-cap-dieu-khien-qua-app-kich-thich-tuyet-dinh",
     sku: "DC93R",
-    name: "Máy Rung Hậu Môn Lovense Edge 2 Cao Cấp – Điều Khiển Qua App, Kích Thích Tuyệt Đỉnh",
+    name: "Máy Rung Hậu Môn Lovense Edge 2 Điều Khiển Qua App",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 4500000,
@@ -2267,7 +2267,7 @@ export const products: Product[] = [
   {
     slug: "eg34g-trung-rung-yeain-spring-buds-hat-mam-xanh-ket-noi-app-nho-gon-rung-cuc-manh",
     sku: "EG34G",
-    name: "Trứng Rung Yeain Spring Buds Hạt Mầm Xanh – Kết Nối App, Nhỏ Gọn, Rung Cực Mạnh",
+    name: "Trứng Rung Tình Yêu Yeain Spring Buds Hạt Mầm Xanh Kết Nối App Nhỏ Gọn Rung Cực Mạnh",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 650000,
@@ -2280,7 +2280,7 @@ export const products: Product[] = [
   {
     slug: "eg34e-trung-rung-lovense-lush-4-cao-cap-dieu-khien-qua-app-ket-noi-toan-cau",
     sku: "EG34E",
-    name: "Trứng Rung Lovense Lush 4 Cao Cấp – Điều Khiển Qua App, Kết Nối Toàn Cầu",
+    name: "Trứng Rung Lovense Lush 4 Điều Khiển Qua App Kết Nối Toàn Cầu",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 4900000,
@@ -2293,7 +2293,7 @@ export const products: Product[] = [
   {
     slug: "dc50u-duong-vat-gia-tu-dong-rung-thut-suoi-am-nho-gon-cuc-suong-cuc-tien",
     sku: "DC50U",
-    name: "Dương Vật Giả Tự Động Rung Thụt Sưởi Ấm Nhỏ Gọn – Cực Sướng, Cực Tiện",
+    name: "Dương Vật Giả Tự Động Rung Thụt Sưởi Ấm Nhỏ Gọn",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1650000,
@@ -2306,7 +2306,7 @@ export const products: Product[] = [
   {
     slug: "dv68q-duong-vat-gia-lovetoy-nature-cock-9-5-inch-sieu-that-dai-to-kich-thich-cuc-manh",
     sku: "DV68Q",
-    name: "Dương Vật Giả Lovetoy Nature Cock 9.5 Inch – Siêu Thật, Dài To, Kích Thích Cực Mạnh",
+    name: "Dương Vật Giả Rung Lovetoy Nature Cock 9.5 Inch Siêu Thật",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1250000,
@@ -2319,7 +2319,7 @@ export const products: Product[] = [
   {
     slug: "dv68r-duong-vat-gia-sieu-khung-lovetoy-platinum-silicone-cock-12-5-inch-cuc-dai-sieu-that-dinh-khoai-cam",
     sku: "DV68R",
-    name: "Dương Vật Giả Siêu Khủng Lovetoy Platinum Silicone Cock 12.5 Inch – Cực Đại, Siêu Thật, Đỉnh Khoái Cảm",
+    name: "Dương Vật Giả Lovetoy Platinum Silicone Cock 12.5 Inch Siêu Thật",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 2490000,
@@ -2332,7 +2332,7 @@ export const products: Product[] = [
   {
     slug: "dv55xs-duong-vat-dan-tuong-mini-lovetoy-enduro-blaste-5-inch-gon-nhe-cuc-ky-kich-thich",
     sku: "DV55XS",
-    name: "Dương Vật Dán Tường Mini Lovetoy Enduro Blaste 5 Inch – Gọn Nhẹ, Cực Kỳ Kích Thích",
+    name: "Dương Vật Dán Tường Mini Lovetoy Enduro Blaste 5 Inch",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 300000,
@@ -2345,7 +2345,7 @@ export const products: Product[] = [
   {
     slug: "dv75a-duong-vat-da-nang-yeain-hot-wheel-rung-thut-xoay-liem-toa-nhiet-cuc-manh",
     sku: "DV75A",
-    name: "Dương Vật Đa Năng Yeain Hot Wheel – Rung Thụt Xoay Liếm & Tỏa Nhiệt Cực Mạnh",
+    name: "Dương Vật Giả Rung Đa Năng Yeain Hot Wheel Thụt Xoay Liếm Tỏa Nhiệt Cực Mạnh",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1450000,
@@ -2358,7 +2358,7 @@ export const products: Product[] = [
   {
     slug: "dv70b-duong-vat-dai-deo-2-dau-rung-thut-dieu-khien-tu-xa-cuc-manh-me",
     sku: "DV70B",
-    name: "Dương Vật Đai Đeo 2 Đầu Rung Thụt – Điều Khiển Từ Xa Cực Mạnh Mẽ",
+    name: "Dương Vật Giả Đai Đeo 2 Đầu Rung Thụt Điều Khiển Từ Xa",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1550000,
@@ -2371,7 +2371,7 @@ export const products: Product[] = [
   {
     slug: "dc90u2-may-rung-am-vat-gan-quan-chip-svakom-echo-2-cao-cap-kin-dao-manh-me",
     sku: "DC90U2",
-    name: "Máy Rung Âm Vật Gắn Quần Chip Svakom Echo 2 – Cao Cấp, Kín Đáo & Mạnh Mẽ",
+    name: "Máy Rung Âm Vật Gắn Quần Chip Svakom Echo 2 Kín Đáo Và Mạnh Mẽ",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1550000,
@@ -2384,7 +2384,7 @@ export const products: Product[] = [
   {
     slug: "dc89m2-may-rung-hau-mon-svakom-vick-neo-2-toa-nhiet-dieu-khien-qua-internet",
     sku: "DC89M2",
-    name: "Máy Rung Hậu Môn Svakom Vick Neo 2 – Tỏa Nhiệt & Điều Khiển Qua Internet",
+    name: "Máy Rung Hậu Môn Svakom Vick Neo 2 Tỏa Nhiệt Điều Khiển Qua Internet",
     category: "Đồ Chơi Hậu Môn",
     categorySlug: "do-choi-hau-mon",
     price: 1750000,
@@ -2397,7 +2397,7 @@ export const products: Product[] = [
   {
     slug: "dc72c-vong-massage-cu-rung-da-tan-co-suoi-am-cuc-khoai-manh-me-trai-nghiem-am-ap",
     sku: "DC72C",
-    name: "Vòng Massage Cu Rung Đa Tần Có Sưởi Ấm – Cực Khoái Mạnh Mẽ, Trải Nghiệm Ấm Áp",
+    name: "Vòng Massage Dương Vật Rung Đa Tần Có Sưởi Ấm",
     category: "Máy Tập Dương Vật & Tăng Kích Thước",
     categorySlug: "may-tap-duong-vat-tang-kich-thuoc",
     price: 600000,
@@ -2410,7 +2410,7 @@ export const products: Product[] = [
   {
     slug: "ms41m-may-rung-bu-hat-le-2-dau-cao-cap-kiss-toy-kich-thich-manh-me-cuc-khoai-tot-dinh",
     sku: "MS41M",
-    name: "Máy Rung Bú Hạt Le 2 Đầu Cao Cấp Kiss Toy – Kích Thích Mạnh Mẽ, Cực Khoái Tột Đỉnh",
+    name: "Máy Rung Bú Hạt Le 2 Đầu Cao Cấp Kiss Toy",
     category: "Trứng Rung Tình Yêu",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1650000,
@@ -2423,7 +2423,7 @@ export const products: Product[] = [
   {
     slug: "hm17k-chuoi-hat-rung-hau-mon-black-mont-sac-pin-kich-thich-sau-khoai-cam-manh-me",
     sku: "HM17K",
-    name: "Chuỗi Hạt Rung Hậu Môn Black Mont Sạc Pin – Kích Thích Sâu, Khoái Cảm Mạnh Mẽ",
+    name: "Chuỗi Hạt Rung Hậu Môn Black Mont Sạc Pin - Kích Thích Sâu, Khoái Cảm Mạnh Mẽ",
     category: "Đồ Chơi Hậu Môn",
     categorySlug: "do-choi-hau-mon",
     price: 850000,
@@ -2436,7 +2436,7 @@ export const products: Product[] = [
   {
     slug: "bz20a-bo-kep-dau-ti-ngoc-trai-cao-cap-senuelo-pearl-nipple-clamps-kit",
     sku: "BZ20A",
-    name: "Bộ Kẹp Đầu Ti Ngọc Trai Cao Cấp Senuelo Pearl Nipple Clamps Kit",
+    name: "Bộ Kẹp Đầu Ti Ngọc Trai Cao Cấp Senuelo",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 450000,
@@ -2449,7 +2449,7 @@ export const products: Product[] = [
   {
     slug: "bz20b-co-lan-gai-deo-ngon-tay-thorn-finger-pinwheel-kich-thich-manh-me-cam-giac-day-moi-la",
     sku: "BZ20B",
-    name: "Cọ Lăn Gai Đeo Ngón Tay Thorn Finger Pinwheel – Kích Thích Mạnh Mẽ, Cảm Giác Đầy Mới Lạ",
+    name: "Cọ Lăn Gai Đeo Ngón Tay Thorn Finger Pinwheel Kích Thích Mạnh Mẽ",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 480000,
@@ -2462,7 +2462,7 @@ export const products: Product[] = [
   {
     slug: "bz20c-cay-co-lan-gai-sieu-kich-thich-prickly-pinwheel-cam-giac-moi-la-de-me-tot-dinh",
     sku: "BZ20C",
-    name: "Cây Cọ Lăn Gai Siêu Kích Thích Prickly Pinwheel – Cảm Giác Mới Lạ, Đê Mê Tột Đỉnh",
+    name: "Cây Cọ Lăn Gai Prickly Pinwheel Kích Thích Cảm Giác Mới Lạ",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 750000,
@@ -2475,7 +2475,7 @@ export const products: Product[] = [
   {
     slug: "dv21a-duong-vat-da-nang-rung-ngoay-gia-re-khoai-cam-manh-me-gia-tot",
     sku: "DV21A",
-    name: "Dương Vật Đa Năng Rung Ngoáy Giá Rẻ – Khoái Cảm Mạnh Mẽ, Giá Tốt",
+    name: "Dương Vật Giả Rung Đa Năng Rung Ngoáy Khoái Cảm Mạnh Mẽ Giá Rẻ",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 850000,
@@ -2488,7 +2488,7 @@ export const products: Product[] = [
   {
     slug: "dv44f-duong-vat-silicon-mini-sieu-rung-69-ecstasy-kich-thich-manh-me-cuc-khoai-tot-dinh",
     sku: "DV44F",
-    name: "Dương Vật Silicon Mini Siêu Rung 69 Ecstasy – Kích Thích Mạnh Mẽ, Cực Khoái Tột Đỉnh",
+    name: "Dương Vật Giả Rung Silicon Mini 69 Ecstasy",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 850000,
@@ -2501,7 +2501,7 @@ export const products: Product[] = [
   {
     slug: "qt17-bo-do-choi-phong-the-hot-storm-trai-nghiem-cuc-khoai-cho-cap-doi",
     sku: "QT17",
-    name: "Bộ Đồ Chơi Phòng The Hot Storm – Trải Nghiệm Cực Khoái Cho Cặp Đôi",
+    name: "Bộ Đồ Chơi Phòng The Hot Storm Cho Cặp Đôi",
     category: "Phụ Kiện BDSM",
     categorySlug: "phu-kien-bdsm",
     price: 700000,
@@ -2514,7 +2514,7 @@ export const products: Product[] = [
   {
     slug: "dc50t-may-lam-tinh-tu-dong-cao-cap-robot-4-chan-the-he-moi-trai-nghiem-dinh-cao",
     sku: "DC50T",
-    name: "Máy Làm Tình Tự Động Cao Cấp – Robot 4 Chân Thế Hệ Mới | Trải Nghiệm Đỉnh Cao",
+    name: "Máy Làm Tình Tự Động Robot 4 Chân Thế Hệ Mới",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 7500000,
