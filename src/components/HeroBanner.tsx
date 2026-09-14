@@ -12,24 +12,12 @@ import Image from "next/image";
 // như hiện tại (không lỗi gì cả).
 const SLIDES = [
   {
-    title: "Ưu đãi tháng này",
-    subtitle: "Giảm giá đến 30% cho sản phẩm mới về",
-    href: "/shop",
-    gradient: "linear-gradient(135deg, #E6007A, #FF6FA5)",
     image: "/banners/banner-1.jpg",
   },
   {
-    title: "Hàng chính hãng Svakom, We-Vibe",
-    subtitle: "Bảo hành quốc tế, giao hàng kín đáo toàn quốc",
-    href: "/shop",
-    gradient: "linear-gradient(135deg, #2196F3, #6EC6FF)",
     image: "/banners/banner-2.jpg",
   },
   {
-    title: "Freeship nội thành đơn từ 500.000đ",
-    subtitle: "Thanh toán khi nhận hàng (COD)",
-    href: "/shop",
-    gradient: "linear-gradient(135deg, #1A1A1A, #4B4B4B)",
     image: "/banners/banner-3.jpg",
   },
 ];
