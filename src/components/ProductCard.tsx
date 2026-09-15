@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Product, formatPrice } from "@/data/products";
 import ProductGlyph from "./ProductGlyph";
+import SensitiveOverlay from "./SensitiveOverlay";
 import { useCart } from "@/lib/cart-context";
 
 export default function ProductCard({ product }: { product: Product }) {
@@ -19,14 +20,16 @@ export default function ProductCard({ product }: { product: Product }) {
             </span>
           )}
           {product.image ? (
-            <Image
-              src={product.image}
-              alt={product.name}
-              fill
-              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-              className="object-contain p-1 transition group-hover:scale-105 sm:p-2"
-              loading="lazy"
-            />
+            <SensitiveOverlay active={!!product.sensitive}>
+              <Image
+                src={product.image}
+                alt={product.name}
+                fill
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                className="object-contain p-1 transition group-hover:scale-105 sm:p-2"
+                loading="lazy"
+              />
+            </SensitiveOverlay>
           ) : (
             <ProductGlyph type={product.icon} className="max-h-16 max-w-16 sm:max-h-28 sm:max-w-28" />
           )}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Manrope } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart-context";
+import { SensitiveProvider } from "@/lib/sensitive-context";
 import { site } from "@/lib/site";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -84,12 +85,14 @@ export default function RootLayout({
           }}
         />
         <CartProvider>
-          <AgeGate />
-          <Header />
-          <main>{children}</main>
-          <Footer />
-          <CartDrawer />
-          <FloatingContact />
+          <SensitiveProvider>
+            <AgeGate />
+            <Header />
+            <main>{children}</main>
+            <Footer />
+            <CartDrawer />
+            <FloatingContact />
+          </SensitiveProvider>
         </CartProvider>
       </body>
     </html>

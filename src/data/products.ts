@@ -16,6 +16,9 @@ export type Product = {
   // scripts/update-product-images.mjs dien tu dong). Trang chi tiet se tu
   // hien gallery (anh chinh + thumbnail) khi mang nay co >= 2 phan tu.
   images?: string[];
+  // Danh dau san pham co hinh anh qua nhay cam -> se bi che (18+) tren
+  // trang chu va trang danh sach/danh muc, khach phai bam de xem anh thuc.
+  sensitive?: boolean;
 };
 
 export type Category = {
