@@ -21,23 +21,33 @@ export default function CheckoutPage() {
     note: "",
   });
 
+  const [error, setError] = useState<string | null>(null);
+
   const total = items.length ? subtotal + SHIPPING_FEE : 0;
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (items.length === 0) return;
     setLoading(true);
+    setError(null);
     try {
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ items, customer: form, payment, total }),
       });
-      const data = await res.json();
-      if (data.orderId) {
-        clear();
-        router.push(`/success?order=${data.orderId}`);
+      const data = await res.json().catch(() => null);
+      if (!res.ok || !data?.orderId) {
+        throw new Error(data?.error || "Không thể đặt hàng, vui lòng thử lại.");
       }
+      clear();
+      router.push(`/success?order=${data.orderId}`);
+    } catch (err) {
+      setError(
+        err instanceof Error
+          ? err.message
+          : "Có lỗi xảy ra, vui lòng thử lại hoặc gọi hotline để được hỗ trợ."
+      );
     } finally {
       setLoading(false);
     }
@@ -140,6 +150,11 @@ export default function CheckoutPage() {
           >
             {loading ? "Đang xử lý..." : `Đặt hàng — ${formatPrice(total)}`}
           </button>
+          {error && (
+            <p className="text-center text-sm font-medium text-red">
+              {error}
+            </p>
+          )}
           <p className="text-center text-xs text-muted">
             Đơn hàng của bạn được đóng gói kín đáo, không thể hiện nội dung
             bên ngoài.
