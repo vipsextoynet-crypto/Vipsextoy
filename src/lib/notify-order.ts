@@ -50,7 +50,7 @@ export async function notifyOrderByEmail(order: Order): Promise<boolean> {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "Đơn hàng Vipsextoy <onboarding@resend.dev>",
+        from: "Đơn hàng Vipsextoy <donhang@vipsextoy.net>",
         to: [to],
         subject: `Đơn hàng mới #${order.orderId} - ${order.total.toLocaleString("vi-VN")}đ`,
         html,
