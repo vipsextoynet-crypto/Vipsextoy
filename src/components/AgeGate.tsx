@@ -10,6 +10,7 @@ export default function AgeGate() {
 
   useEffect(() => {
     const ok = typeof window !== "undefined" && localStorage.getItem(KEY);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of localStorage on mount to decide whether to show the gate; not a rendering loop.
     if (!ok) setShow(true);
   }, []);
 

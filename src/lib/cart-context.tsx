@@ -43,6 +43,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time cart hydration from localStorage on mount, not a rendering loop.
       if (raw) setItems(JSON.parse(raw));
     } catch {
       /* ignore */
