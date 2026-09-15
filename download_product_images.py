@@ -1,6 +1,7 @@
 import os
 import re
 import time
+import hashlib
 from urllib.parse import urljoin, urlparse, urldefrag
 
 import requests
@@ -417,100 +418,209 @@ def is_image_url(url):
 
 
 # ============================================================
-# PRODUCT GALLERY - CHỈ LẤY ẢNH TRONG .left.item_image.ipad100
+# PRODUCT GALLERY
 # ============================================================
 
-def extract_product_images(soup, page_url):
-    """
-    Chỉ lấy ảnh FULL trong đúng khối gallery sản phẩm:
+def extract_product_images(
+    soup,
+    page_url
+):
 
-    div.left.item_image.ipad100
-      div.main
-        a.jqzoom[href] -> ảnh chính
-      div.related
-        div.item
-          a[href] -> các ảnh gallery
+    candidates = []
 
-    Không lấy img src, thumbnail, big_..., sidebar, banner
-    hoặc bất kỳ ảnh nào ngoài khối này.
-    """
+    # --------------------------------------------------------
+    # 1. Ảnh trong khu vực sản phẩm
+    # --------------------------------------------------------
 
-    container = soup.select_one(
-        "div.left.item_image.ipad100"
-    )
+    product_area = None
 
-    if not container:
-        print(
-            "    [ERROR] Không tìm thấy "
-            "div.left.item_image.ipad100"
-        )
-        return []
+    selectors = [
 
-    image_urls = []
+        ".product-detail",
 
-    # 1. Ảnh chính: lấy href của a.jqzoom
-    main = container.select_one(
-        "div.main a.jqzoom[href]"
-    )
+        ".product",
 
-    if main:
-        href = normalize_image_url(
-            main.get("href"),
-            page_url
-        )
+        ".detail-product",
 
-        if href and is_full_gallery_image(href):
-            image_urls.append(href)
+        ".product-image",
 
-    # 2. Các ảnh gallery: lấy href của từng div.related div.item a
-    related = container.select_one("div.related")
+        ".product-images",
 
-    if related:
-        for item in related.select("div.item"):
-            a = item.select_one("a[href]")
+        ".gallery",
 
-            if not a:
+        ".images",
+
+        "#product",
+
+        "#product-detail",
+
+        ".left-detail",
+
+        ".box-detail",
+
+    ]
+
+    for selector in selectors:
+
+        try:
+
+            found = soup.select_one(
+                selector
+            )
+
+            if found:
+
+                product_area = found
+                break
+
+        except Exception:
+            pass
+
+    # Nếu không nhận ra container,
+    # dùng toàn bộ trang nhưng sẽ lọc kỹ.
+    if product_area is None:
+        product_area = soup
+
+    # --------------------------------------------------------
+    # 2. IMG
+    # --------------------------------------------------------
+
+    for img in product_area.find_all("img"):
+
+        attrs = [
+
+            "src",
+
+            "data-src",
+
+            "data-original",
+
+            "data-image",
+
+            "data-original-src",
+
+            "data-lazy-src",
+
+            "data-url",
+
+        ]
+
+        for attr in attrs:
+
+            value = img.get(attr)
+
+            if not value:
                 continue
 
-            href = normalize_image_url(
-                a.get("href"),
+            image_url = normalize_image_url(
+                value,
                 page_url
             )
 
-            if href and is_full_gallery_image(href):
-                image_urls.append(href)
+            if image_url:
+                candidates.append(
+                    image_url
+                )
 
-    # 3. Chỉ loại URL trùng tuyệt đối.
-    # Không hash/dedupe theo nội dung ảnh.
+        # srcset
+        srcset = img.get("srcset")
+
+        if srcset:
+
+            for item in srcset.split(","):
+
+                item = item.strip()
+
+                if not item:
+                    continue
+
+                image_url = item.split(
+                    " "
+                )[0]
+
+                image_url = normalize_image_url(
+                    image_url,
+                    page_url
+                )
+
+                if image_url:
+                    candidates.append(
+                        image_url
+                    )
+
+    # --------------------------------------------------------
+    # 3. LINK tới ảnh lớn
+    # --------------------------------------------------------
+
+    for a in product_area.find_all(
+        "a",
+        href=True
+    ):
+
+        href = normalize_image_url(
+            a.get("href"),
+            page_url
+        )
+
+        if href and is_image_url(href):
+
+            candidates.append(href)
+
+    # --------------------------------------------------------
+    # 4. Background-image
+    # --------------------------------------------------------
+
+    for tag in product_area.find_all(
+        style=True
+    ):
+
+        style = tag.get(
+            "style",
+            ""
+        )
+
+        matches = re.findall(
+            r'url\(["\']?([^"\')]+)',
+            style,
+            re.IGNORECASE
+        )
+
+        for value in matches:
+
+            image_url = normalize_image_url(
+                value,
+                page_url
+            )
+
+            if image_url:
+                candidates.append(
+                    image_url
+                )
+
+    # --------------------------------------------------------
+    # 5. Lọc
+    # --------------------------------------------------------
+
     result = []
+
     seen = set()
 
-    for url in image_urls:
+    for url in candidates:
+
+        if not url:
+            continue
+
         if url in seen:
             continue
 
+        if not is_image_url(url):
+            continue
+
         seen.add(url)
+
         result.append(url)
 
     return result
-
-
-def is_full_gallery_image(url):
-    """Kiểm tra URL có phải file ảnh FULL hay không."""
-
-    if not url:
-        return False
-
-    path = urlparse(url).path.lower()
-
-    return path.endswith((
-        ".jpg",
-        ".jpeg",
-        ".png",
-        ".webp",
-        ".gif",
-        ".avif",
-    ))
 
 
 # ============================================================
@@ -786,11 +896,6 @@ def process_product(url):
         f"[FOUND IMAGES] "
         f"{len(images)}"
     )
-
-    for i, image_url in enumerate(images, start=1):
-        print(
-            f"      [GALLERY {i}] {image_url}"
-        )
 
     if not images:
 
