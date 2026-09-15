@@ -17,7 +17,7 @@ const config: Config = {
         gold: "#E6007A",
         rose: "#FF3B30",
         line: "#E5E5EA",
-        cta: "#2196F3",
+        cta: "#1565C0",
       },
       fontFamily: {
         serif: ["var(--font-fraunces)", "Georgia", "serif"],

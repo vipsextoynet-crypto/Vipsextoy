@@ -11,6 +11,17 @@ import Image from "next/image";
 // Định dạng .jpg, .png hoặc .webp. Nếu để trống "image", banner tự dùng màu
 // gradient như hiện tại (không lỗi gì cả).
 //
+// href: đường dẫn khi khách bấm vào banner (vd "/danh-muc/duong-vat-gia-rung").
+// KHÔNG được để trống "" - để trống sẽ bị Lighthouse báo lỗi "link không có
+// tên/nhãn" (vì Link rỗng vừa không rõ trỏ đi đâu, vừa không có chữ nào cho
+// trình đọc màn hình). Nếu chưa có trang muốn trỏ tới, cứ để "/shop".
+//
+// label: mô tả ngắn banner này dẫn tới đâu (vd "Xem chương trình khuyến mãi
+// tháng này") - dùng làm tên cho trình đọc màn hình (aria-label), LUÔN cần
+// có kể cả khi hasOwnText=true (ảnh đã có chữ sẵn nên không hiện title/
+// subtitle, nhưng người dùng trình đọc màn hình vẫn cần biết bấm vào sẽ đi
+// đâu).
+//
 // hasOwnText: đặt true nếu ẢNH ĐÃ CÓ SẴN chữ/thiết kế đầy đủ (như banner quảng
 // cáo thiết kế rồi) — khi đó code sẽ KHÔNG phủ thêm lớp tối và KHÔNG in thêm
 // chữ title/subtitle đè lên nữa, tránh ảnh bị xỉn màu không cần thiết. Để false
@@ -20,7 +31,8 @@ const SLIDES = [
   {
     title: "",
     subtitle: "",
-    href: "",
+    href: "/shop",
+    label: "Xem chương trình khuyến mãi banner 1",
     gradient: "",
     image: "/banners/banner-1.png",
     hasOwnText: true,
@@ -28,7 +40,8 @@ const SLIDES = [
   {
     title: "",
     subtitle: "",
-    href: "",
+    href: "/shop",
+    label: "Xem chương trình khuyến mãi banner 2",
     gradient: "",
     image: "/banners/banner-2.png",
     hasOwnText: true,
@@ -36,7 +49,8 @@ const SLIDES = [
   {
     title: "",
     subtitle: "",
-    href: "",
+    href: "/shop",
+    label: "Xem chương trình khuyến mãi banner 3",
     gradient: "",
     image: "/banners/banner-3.png",
     hasOwnText: true,
@@ -56,8 +70,9 @@ export default function HeroBanner() {
       <div className="relative aspect-[16/6] w-full overflow-hidden sm:aspect-[3/1]">
         {SLIDES.map((s, i) => (
           <Link
-            key={s.title}
+            key={s.image}
             href={s.href}
+            aria-label={s.label}
             className={`absolute inset-0 flex flex-col items-start justify-center gap-2 px-8 text-white transition-opacity duration-700 sm:px-16 ${
               i === index ? "opacity-100" : "pointer-events-none opacity-0"
             }`}
@@ -79,7 +94,7 @@ export default function HeroBanner() {
             {!s.hasOwnText && (
               <>
                 <h2 className="relative font-serif text-2xl sm:text-4xl">{s.title}</h2>
-                <p className="relative text-sm text-white/90 sm:text-base">{s.subtitle}</p>
+                <p className="relative text-sm text-white sm:text-base">{s.subtitle}</p>
               </>
             )}
           </Link>

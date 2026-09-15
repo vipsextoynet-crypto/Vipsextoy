@@ -2,10 +2,24 @@ node_modules/
 .next/
 out/
 .env.local
+tsconfig.tsbuildinfo
 
-# Dữ liệu đơn hàng có thông tin khách hàng — không commit lên git
+# Du lieu don hang co thong tin khach hang - khong commit len git
 data/orders.json
 
-Add-Content .gitignore "vietnamese-sexual-wellness-seo-ai/"
-Add-Content .gitignore "vietnamese-sexual-wellness-seo-ai.zip"
-Add-Content .gitignore "`nvietnamese-sexual-wellness-seo-ai/`nvietnamese-sexual-wellness-seo-ai.zip"
+# API key that - TUYET DOI khong commit
+scripts/gemini_api_keys.txt
+Gemini/gemini_api_keys.txt
+gemini_api_keys.txt
+
+# Moi truong ao Python + debug artifacts cua thu muc Gemini (nang, khong can thiet)
+Gemini/*/.venv/
+Gemini/debug/
+Gemini/debug_blog/
+Gemini/ai_images/
+
+# Backup tu dong cua cac script sua products.ts
+src/data/products.ts.bak*
+
+vietnamese-sexual-wellness-seo-ai/
+vietnamese-sexual-wellness-seo-ai.zip
