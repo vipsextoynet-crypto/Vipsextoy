@@ -10,12 +10,13 @@ export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const post = getBlogPost(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getBlogPost(slug);
   if (!post) return {};
 
   return {
@@ -40,12 +41,13 @@ function formatDate(d: string) {
   });
 }
 
-export default function BlogPostPage({
+export default async function BlogPostPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const post = getBlogPost(params.slug);
+  const { slug } = await params;
+  const post = getBlogPost(slug);
   if (!post) return notFound();
 
   const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 2);

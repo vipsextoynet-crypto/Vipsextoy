@@ -14,12 +14,13 @@ export function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const category = getCategory(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const category = getCategory(slug);
   if (!category) return {};
 
   return {
@@ -34,21 +35,23 @@ export function generateMetadata({
   };
 }
 
-export default function CategoryPage({
+export default async function CategoryPage({
   params,
   searchParams,
 }: {
-  params: { slug: string };
-  searchParams: { page?: string };
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string }>;
 }) {
-  const category = getCategory(params.slug);
+  const { slug } = await params;
+  const { page: pageParam } = await searchParams;
+  const category = getCategory(slug);
   if (!category) return notFound();
 
   const all = getProductsByCategory(category.slug);
   const totalPages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
   const page = Math.min(
     totalPages,
-    Math.max(1, parseInt(searchParams.page ?? "1", 10) || 1)
+    Math.max(1, parseInt(pageParam ?? "1", 10) || 1)
   );
   const start = (page - 1) * PAGE_SIZE;
   const list = all.slice(start, start + PAGE_SIZE);
