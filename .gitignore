@@ -1,0 +1,31 @@
+node_modules/
+.next/
+out/
+.env.local
+tsconfig.tsbuildinfo
+
+# Du lieu don hang co thong tin khach hang - khong commit len git
+data/orders.json
+
+# API key that - TUYET DOI khong commit
+scripts/gemini_api_keys.txt
+Gemini/gemini_api_keys.txt
+gemini_api_keys.txt
+
+# Moi truong ao Python + debug artifacts cua thu muc Gemini (nang, khong can thiet)
+Gemini/*/.venv/
+Gemini/debug/
+Gemini/debug_blog/
+Gemini/ai_images/
+
+# Backup tu dong cua cac script sua products.ts
+src/data/products.ts.bak*
+
+vietnamese-sexual-wellness-seo-ai/
+vietnamese-sexual-wellness-seo-ai.zip
+
+public/anh/
+public/anh1/
+public/watermark/
+node_modules/
+.next/

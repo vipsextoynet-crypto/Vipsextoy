@@ -1,0 +1,233 @@
+[
+  {
+    "id": "trend-1",
+    "title": "Top 7 Máy Rung Sóng Âm (Air-Pulse) Được Săn Lùng Nhiều Nhất 30 Ngày Qua",
+    "category": "trending",
+    "targetKeyword": "máy rung sóng âm air pulse",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "trend-2",
+    "title": "Công Nghệ Máy Rung Điều Khiển Qua App Từ Xa: Xu Hướng Hot Cho Cặp Đôi Yêu Xa",
+    "category": "trending",
+    "targetKeyword": "sextoy điều khiển qua app từ xa",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "trend-3",
+    "title": "Trứng Rung Không Dây Tần Số Cao: Trải Nghiệm Thăng Hoa Kín Đáo Thế Hệ Mới",
+    "category": "trending",
+    "targetKeyword": "trứng rung không dây cao cấp",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "trend-4",
+    "title": "Silicone Y Tế Platinum Kháng Khuẩn: Chuẩn Mực An Toàn Cho Đồ Chơi Tình Dục 2026",
+    "category": "trending",
+    "targetKeyword": "silicone y tế platinum sextoy",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "buy-1",
+    "title": "Kinh Nghiệm Mua Đồ Chơi Tình Dục Giao Hàng Hỏa Tốc, Đóng Gói Kín Đáo 100%",
+    "category": "buying",
+    "targetKeyword": "mua sextoy kín đáo giao nhanh",
+    "searchIntent": "Mua hàng (Transactional)"
+  },
+  {
+    "id": "buy-2",
+    "title": "Top 5 Shop Đồ Chơi Người Lớn Uy Tín, Chính Hãng Tại TP.HCM và Hà Nội",
+    "category": "buying",
+    "targetKeyword": "shop đồ chơi người lớn uy tín tphcm",
+    "searchIntent": "Mua hàng (Transactional)"
+  },
+  {
+    "id": "buy-3",
+    "title": "Bí Quyết Chọn Gel Bôi Trơn Gốc Nước Tự Nhiên Không Gây Dị Ứng Cho Da Nhạy Cảm",
+    "category": "buying",
+    "targetKeyword": "gel bôi trơn gốc nước da nhạy cảm",
+    "searchIntent": "Mua hàng (Transactional)"
+  },
+  {
+    "id": "buy-4",
+    "title": "Cách Nhận Biết Sextoy Chính Hãng và Hàng Nhái Kém Chất Lượng Để Bảo Vệ Bản Thân",
+    "category": "buying",
+    "targetKeyword": "cách phân biệt đồ chơi người lớn chính hãng",
+    "searchIntent": "Hướng dẫn (How-to)"
+  },
+  {
+    "id": "rev-1",
+    "title": "So Sánh Chi Tiết Máy Rung Điểm G và Máy Hút Âm Vật: Phái Đẹp Nên Chọn Loại Nào?",
+    "category": "review",
+    "targetKeyword": "so sánh máy rung điểm g và máy hút",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "rev-2",
+    "title": "Review Thực Tế Cốc Thủ Dâm Tự Động Rung Xoay Thế Hệ Mới Dành Cho Nam Giới",
+    "category": "review",
+    "targetKeyword": "review cốc thủ dâm tự động",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "rev-3",
+    "title": "Gel Bôi Trơn Gốc Nước vs Gốc Silicon: Loại Nào Trơn Lâu Và Dễ Vệ Sinh Hơn?",
+    "category": "review",
+    "targetKeyword": "so sánh gel gốc nước và gốc silicon",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "rev-4",
+    "title": "Đánh Giá Máy Rung Cao Cấp Đa Năng: Liệu Có Xứng Đáng Với Mức Giá Tiền Triệu?",
+    "category": "review",
+    "targetKeyword": "đánh giá máy massage cá nhân cao cấp",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "life-1",
+    "title": "Nghệ Thuật Sử Dụng Đồ Chơi Phòng The Giúp Hâm Nóng Lửa Yêu Cho Vợ Chồng Lâu Năm",
+    "category": "lifestyle",
+    "targetKeyword": "cách dùng sextoy cho vợ chồng",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "life-2",
+    "title": "Giải Mã Bản Đồ Khoái Cảm Phụ Nữ: Bí Quyết Đạt Cực Khoái Kép Cùng Thiết Bị Hỗ Trợ",
+    "category": "lifestyle",
+    "targetKeyword": "bản đồ khoái cảm phụ nữ và máy rung",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "life-3",
+    "title": "Cách Trò Chuyện Và Cùng Đối Tác Trải Nghiệm Đồ Chơi Tình Dục Một Cách Tinh Tế",
+    "category": "lifestyle",
+    "targetKeyword": "cách thuyết phục người yêu dùng đồ chơi",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "life-4",
+    "title": "Sexual Wellness và Self-Care: Vì Sao Tự Chăm Sóc Cảm Xúc Giúp Giảm Stress Đỉnh Cao",
+    "category": "lifestyle",
+    "targetKeyword": "lợi ích của sexual wellness đối với sức khỏe",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "guide-1",
+    "title": "Hướng Dẫn Vệ Sinh Đồ Chơi Tình Dục Bằng Dung Dịch Chuyên Dụng Đúng Cách 100%",
+    "category": "guide",
+    "targetKeyword": "cách vệ sinh đồ chơi người lớn đúng cách",
+    "searchIntent": "Hướng dẫn (How-to)"
+  },
+  {
+    "id": "guide-2",
+    "title": "Cách Bảo Quản Sextoy Kín Đáo, Chống Ẩm Mốc Và Kéo Dài Tuổi Thọ Pin",
+    "category": "guide",
+    "targetKeyword": "cách bảo quản sextoy kín đáo bền lâu",
+    "searchIntent": "Hướng dẫn (How-to)"
+  },
+  {
+    "id": "guide-3",
+    "title": "Quy Tắc An Toàn Tuyệt Đối Khi Sử Dụng Đồ Chơi Tình Dục Bạn Không Thể Bỏ Qua",
+    "category": "guide",
+    "targetKeyword": "quy tắc an toàn khi dùng đồ chơi tình dục",
+    "searchIntent": "Hướng dẫn (How-to)"
+  },
+  {
+    "id": "guide-4",
+    "title": "Cách Sạc Pin Từ Tính Và Bảo Vệ Cổng Sạc Chống Nước Của Thiết Bị Massage Cao Cấp",
+    "category": "guide",
+    "targetKeyword": "cách sạc pin máy rung an toàn",
+    "searchIntent": "Hướng dẫn (How-to)"
+  },
+  {
+    "id": "pool2-trend-1",
+    "title": "Top 5 Máy Massage Điểm G Nhỏ Gọn Dành Riêng Cho Các Chuyến Du Lịch Kín Đáo",
+    "category": "trending",
+    "targetKeyword": "máy rung mini du lịch kín đáo",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "pool2-trend-2",
+    "title": "Bóng Tập Kegel Thông Minh Kết Nối Bluetooth: Giải Pháp Phục Hồi Vùng Chậu Số 1",
+    "category": "trending",
+    "targetKeyword": "bóng tập kegel thông minh",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "pool2-trend-3",
+    "title": "Top 6 Mẫu Sextoy Đôi Cùng Rung Độc Đáo Giúp Cả Hai Cùng Lên Đỉnh Đồng Thời",
+    "category": "trending",
+    "targetKeyword": "sextoy đôi cho cặp đôi",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "pool2-buy-1",
+    "title": "Kinh Nghiệm Nhận Hàng Sextoy Không Bị Lộ Thông Tin: Mẹo Che Tên Đơn Hàng 100%",
+    "category": "buying",
+    "targetKeyword": "cách mua đồ chơi người lớn không bị lộ",
+    "searchIntent": "Hướng dẫn (How-to)"
+  },
+  {
+    "id": "pool2-buy-2",
+    "title": "Cẩm Nang Chọn Bao Cao Su Siêu Mỏng Có Gân Gai Tăng Khoái Cảm Cho Cặp Đôi",
+    "category": "buying",
+    "targetKeyword": "bao cao su siêu mỏng gân gai tốt",
+    "searchIntent": "Mua hàng (Transactional)"
+  },
+  {
+    "id": "pool2-buy-3",
+    "title": "Tiêu Chí Chọn Dầu Mát-xa Cơ Thể Hương Nước Hoa Dành Riêng Cho Màn Dạo Đầu",
+    "category": "buying",
+    "targetKeyword": "dầu massage dạo đầu gợi cảm",
+    "searchIntent": "Mua hàng (Transactional)"
+  },
+  {
+    "id": "pool2-rev-1",
+    "title": "Review Chi Tiết Vòng Rung Tình Yêu Chống Xuất Tinh Sớm Cho Nam Giới",
+    "category": "review",
+    "targetKeyword": "review vòng rung tình yêu kéo dài thời gian",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "pool2-rev-2",
+    "title": "So Sánh Máy Rung Silicone Cao Cấp vs Thủy Tinh Borosilicate: Cảm Giác Nào Tinh Tế Hơn?",
+    "category": "review",
+    "targetKeyword": "so sánh sextoy silicone và thủy tinh",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "pool2-rev-3",
+    "title": "Review Top 3 Dòng Gel Gốc Nước Tự Nhiên Không Gây Dính Nhớp Được Đánh Giá 5 Sao",
+    "category": "review",
+    "targetKeyword": "gel bôi trơn không dính tốt nhất",
+    "searchIntent": "Đánh giá (Commercial)"
+  },
+  {
+    "id": "pool2-life-1",
+    "title": "Liệu Pháp Massage Điểm Nhạy Cảm Giúp Cải Thiện Chứng Mất Ngủ Ở Phụ Nữ Bận Rộn",
+    "category": "lifestyle",
+    "targetKeyword": "lợi ích của cực khoái với giấc ngủ phụ nữ",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "pool2-life-2",
+    "title": "Cách Xây Dựng Không Gian Yêu Lãng Mạn Với Nến Massage Ấm Áp Và Âm Nhạc Trị Liệu",
+    "category": "lifestyle",
+    "targetKeyword": "tạo không gian yêu lãng mạn cho vợ chồng",
+    "searchIntent": "Thông tin (Informational)"
+  },
+  {
+    "id": "pool2-guide-1",
+    "title": "Tại Sao Tuyệt Đối Không Nên Vệ Sinh Đồ Chơi Bằng Cồn 90 Độ Hoặc Sữa Tắm Thường?",
+    "category": "guide",
+    "targetKeyword": "sai lầm khi vệ sinh đồ chơi tình dục",
+    "searchIntent": "Hướng dẫn (How-to)"
+  },
+  {
+    "id": "pool2-guide-2",
+    "title": "Cách Khử Mùi Và Làm Mới Bề Mặt Silicone Của Sextoy Sau Thời Gian Dài Sử Dụng",
+    "category": "guide",
+    "targetKeyword": "cách làm mới bề mặt silicone sextoy",
+    "searchIntent": "Hướng dẫn (How-to)"
+  }
+]
