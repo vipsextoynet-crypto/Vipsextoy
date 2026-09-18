@@ -17,16 +17,24 @@ export default function AdminProductsPage() {
 
   return (
     <main className="mx-auto max-w-4xl px-5 py-14">
-      <div className="mb-6 flex items-center justify-between">
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
         <Link href="/admin" className="text-sm text-muted hover:text-ivory">
           ← Quay lại
         </Link>
-        <Link
-          href="/admin/products/new"
-          className="bg-cta px-4 py-2 text-sm font-medium text-white transition hover:opacity-90"
-        >
-          + Thêm sản phẩm
-        </Link>
+        <div className="flex gap-3">
+          <Link
+            href="/admin/products/bulk-images"
+            className="border border-line px-4 py-2 text-sm text-ivory transition hover:border-gold/50"
+          >
+            Tải ảnh theo thư mục
+          </Link>
+          <Link
+            href="/admin/products/new"
+            className="bg-cta px-4 py-2 text-sm font-medium text-white transition hover:opacity-90"
+          >
+            + Thêm sản phẩm
+          </Link>
+        </div>
       </div>
 
       <h1 className="mb-1 font-serif text-2xl text-ivory">Tất cả sản phẩm</h1>

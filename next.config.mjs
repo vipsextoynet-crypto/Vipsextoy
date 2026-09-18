@@ -8,6 +8,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "vipsextoy.net",
       },
+      {
+        // Anh upload qua trang admin (Vercel Blob) - domain dang *.public.blob.vercel-storage.com
+        protocol: "https",
+        hostname: "*.public.blob.vercel-storage.com",
+      },
     ],
     formats: ["image/avif", "image/webp"],
   },
