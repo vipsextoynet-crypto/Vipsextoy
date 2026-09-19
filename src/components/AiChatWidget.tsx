@@ -32,11 +32,15 @@ export default function AiChatWidget() {
     setError("");
     setLoading(true);
 
+    // Lọc bỏ tin nhắn chào ban đầu (role: model) nếu nó đứng ở đầu mảng
+    // giúp payload gửi lên API luôn bắt đầu bằng lượt thoại của "user"
+    const apiMessages = next.filter((m, index) => !(index === 0 && m.role === "model"));
+
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: next }),
+        body: JSON.stringify({ messages: apiMessages }),
       });
       const data = await res.json();
 

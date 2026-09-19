@@ -3,15 +3,10 @@ import { GoogleGenAI } from "@google/genai";
 import { site } from "@/lib/site";
 import { categories } from "@/data/products";
 
-// Chatbot tu van AI - dung Gemini (mien phi, tan dung lai GEMINI_API_KEY da
-// co san cho tinh nang blog tu dong). Khong gui toan bo 1913 san pham vao
-// prompt (qua nang, ton quota mien phi) - chi cho AI biet danh sach danh
-// muc + thong tin cua hang, va huong khach bam link /shop hoac /danh-muc
-// de xem san pham that thay vi bia thong tin san pham cu the.
-
 export const runtime = "nodejs";
 
-const MODELS_TO_TRY = ["gemini-3.6-flash"];
+// Đổi tên model đúng theo quy chuẩn của Google Gemini
+const MODELS_TO_TRY = ["gemini-2.5-flash", "gemini-1.5-flash"];
 
 function buildSystemPrompt() {
   const categoryList = categories.map((c) => `- ${c.name}: ${c.shortDescription}`).join("\n");
@@ -57,7 +52,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Thiếu nội dung tin nhắn." }, { status: 400 });
   }
 
-  // Giới hạn lịch sử gửi lên (10 tin gần nhất) để tiết kiệm quota miễn phí.
   const recent = messages.slice(-10);
 
   const ai = new GoogleGenAI({ apiKey });
@@ -85,7 +79,6 @@ export async function POST(req: NextRequest) {
       }
     } catch (e) {
       lastErr = e;
-      // thu model tiep theo
     }
   }
 
