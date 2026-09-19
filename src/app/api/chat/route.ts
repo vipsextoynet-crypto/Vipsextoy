@@ -11,7 +11,7 @@ import { categories } from "@/data/products";
 
 export const runtime = "nodejs";
 
-const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash"];
+const MODELS_TO_TRY = ["gemini-3.6-flash"];
 
 function buildSystemPrompt() {
   const categoryList = categories.map((c) => `- ${c.name}: ${c.shortDescription}`).join("\n");
