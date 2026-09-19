@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { put, list } from "@vercel/blob";
+import { hasVercelBlob } from "@/lib/blob-config";
 
 export type OrderItem = {
   slug: string;
@@ -37,7 +38,7 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const FILE = path.join(DATA_DIR, "orders.json");
 
 function hasBlob(): boolean {
-  return !!process.env.BLOB_READ_WRITE_TOKEN;
+  return hasVercelBlob();
 }
 
 // ---------- Fallback file (chi dung khi chay local, khong co Blob) ----------
