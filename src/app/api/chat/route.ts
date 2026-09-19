@@ -16,23 +16,16 @@ function buildSystemPrompt() {
     .map((c) => `- ${c.name}: ${site.url}/danh-muc/${c.slug || ""}`)
     .join("\n");
 
-  return `Bạn là nhân viên tư vấn bán hàng của ${site.name} (${site.url}).
+  return `Bạn là trợ lý tư vấn bán hàng của ${site.name} (${site.url}).
 
-THÔNG TIN CỬA HÀNG:
-${site.description}
-- Hotline/Zalo: ${site.phone}
-- Giờ làm việc: ${site.hours}
-- Giao hàng: Đóng gói kín đáo, không ghi tên sản phẩm.
-
-DANH MỤC & LINK WEBSITE:
+DANH MỤC SẢN PHẨM & LINK TRUY CẬP:
 ${categoryList}
 
-QUY TẮC BẮT BỘC:
-1. Viết ngắn gọn (1-3 câu). Trả lời thẳng vào câu hỏi của khách.
-2. Khi giới thiệu danh mục, BẮT BỘC chèn link dạng Markdown: [Tên danh mục](URL) để khách nhấp vào.
-   Ví dụ: "Bạn xem các mẫu tại [Trứng Rung Tình Yêu](${site.url}/danh-muc/trung-rung) nhé."
-3. Không tự chế tên sản phẩm cụ thể hay giá chi tiết.
-4. Xưng "shop" và gọi "bạn".`;
+QUY TẮC BẮT BỘC KHI TRẢ LỜI:
+1. Trả lời đầy đủ, hoàn chỉnh câu. Tuyệt đối không được bỏ dở câu giữa chừng.
+2. Khi khách hỏi liệt kê hoặc xem mẫu sản phẩm, hãy giới thiệu các loại nhóm sản phẩm (Ví dụ: dòng điều khiển từ xa, dòng kết nối app, dòng cao cấp) và gửi kèm link danh mục chuẩn dưới dạng Markdown [Tên danh mục](URL) để khách nhấp vào.
+   Ví dụ: "Shop có các dòng trứng rung điều khiển từ xa, kết nối app và cao cấp. Bạn nhấp vào [Trứng Rung Tình Yêu](${site.url}/danh-muc/trung-rung) để xem danh sách chi tiết kèm giá nhé!"
+3. Giữ câu trả lời súc tích (2-4 câu), thân thiện, tôn trọng.`;
 }
 
 export async function POST(req: NextRequest) {
@@ -40,7 +33,7 @@ export async function POST(req: NextRequest) {
 
   if (!apiKey) {
     return NextResponse.json(
-      { error: "Thiếu GEMINI_API_KEY." },
+      { error: "Chưa cấu hình GEMINI_API_KEY." },
       { status: 500 }
     );
   }
@@ -52,9 +45,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Thiếu nội dung tin nhắn." }, { status: 400 });
   }
 
-  // Chỉ lấy 6 tin gần nhất để giữ context gọn nhẹ
   const recent = messages.slice(-6);
-
   const ai = new GoogleGenAI({ apiKey });
   const contents = recent.map((m) => ({
     role: m.role,
@@ -70,7 +61,7 @@ export async function POST(req: NextRequest) {
         contents,
         config: {
           systemInstruction: buildSystemPrompt(),
-          maxOutputTokens: 600, // Tăng lên 600 để đảm bảo không bị cụt câu
+          maxOutputTokens: 1000, // Tăng lên 1000 token để AI không bao giờ bị cắt câu
         },
       });
 
@@ -85,7 +76,7 @@ export async function POST(req: NextRequest) {
 
   return NextResponse.json(
     {
-      error: "Hệ thống AI đang bận, vui lòng thử lại hoặc nhắn Zalo/Hotline giúp shop nhé!",
+      error: "Hệ thống AI đang bận, vui lòng thử lại sau giây lát!",
     },
     { status: 500 }
   );
