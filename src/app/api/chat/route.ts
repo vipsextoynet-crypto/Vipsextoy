@@ -11,37 +11,31 @@ export async function POST(req: Request) {
 
   const result = streamText({
     model: google("gemini-3.6-flash"),
-    system: `Bạn là trợ lý tư vấn của shop ${site.name}.
-
-QUY TẮC BẮT BỘC:
-1. TUYỆT ĐỐI KHÔNG tự mô tả hay bịa tên sản phẩm bằng chữ.
-2. BẮT BỘC luôn luôn gọi tool \`searchProducts\` để tìm và trả về thẻ sản phẩm thực tế cho khách nhấp xem.
-3. Phần tin nhắn văn bản chỉ viết tối đa 1 CÂU NGẮN GỌN (Ví dụ: "Shop gợi ý sản phẩm tốt nhất cho bạn đây ạ:").`,
+    system: `Bạn là trợ lý tư vấn của ${site.name}.
+QUY TẮC CỐ ĐỊNH:
+- KHÔNG được liệt kê tên sản phẩm bằng chữ hay viết link văn bản.
+- BẮT BỘC dùng tool 'searchProducts' để trả về thẻ danh sách sản phẩm.
+- Chỉ viết đúng 1 câu duy nhất: "Dạ shop gợi ý mẫu tốt nhất cho bạn đây ạ:"`,
     messages,
+    maxSteps: 5, // Bắt buộc AI gọi tool lấy sản phẩm trước khi trả tin nhắn
     tools: {
       searchProducts: tool({
-        description: "Bắt buộc gọi hàm này để tìm và hiển thị danh sách sản phẩm thực tế kèm ảnh, giá, link.",
+        description: "Lấy danh sách sản phẩm thực tế có sẵn trong shop.",
         parameters: z.object({
-          keyword: z.string().optional().describe("Từ khóa tìm kiếm sản phẩm"),
-          maxPrice: z.number().optional().describe("Mức giá tối đa"),
+          keyword: z.string().optional(),
+          maxPrice: z.number().optional(),
         }),
         execute: async ({ keyword, maxPrice }) => {
-          let filtered = products;
-
+          let list = products;
           if (keyword) {
             const kw = keyword.toLowerCase();
-            filtered = filtered.filter(
-              (p) => p.name.toLowerCase().includes(kw) || (p.category && p.category.toLowerCase().includes(kw))
-            );
+            list = list.filter((p) => p.name.toLowerCase().includes(kw));
           }
-
           if (maxPrice) {
-            filtered = filtered.filter((p) => p.price <= maxPrice);
+            list = list.filter((p) => p.price <= maxPrice);
           }
-
-          // Trả về 1-3 sản phẩm phù hợp nhất
-          const list = filtered.length > 0 ? filtered : products;
-          return list.slice(0, 3).map((p) => ({
+          // Lấy 3 sản phẩm phù hợp nhất
+          return (list.length ? list : products).slice(0, 3).map((p) => ({
             id: p.id,
             name: p.name,
             price: p.price,
