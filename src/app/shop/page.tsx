@@ -16,23 +16,34 @@ function normalize(s: string) {
   return s
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "d")
     .toLowerCase();
 }
 
-export default function ShopPage({
+// Next.js 15+/16: searchParams la Promise, phai await moi doc duoc.
+export default async function ShopPage({
   searchParams,
 }: {
-  searchParams: { page?: string; q?: string };
+  searchParams: Promise<{ page?: string; q?: string }>;
 }) {
-  const q = (searchParams.q ?? "").trim();
-  const filtered = q
-    ? products.filter((p) => normalize(p.name).includes(normalize(q)))
+  const sp = await searchParams;
+  const q = (sp.q ?? "").trim();
+
+  // Tim theo tung tu: san pham phai chua TAT CA cac tu khoa (khong can dung
+  // thu tu, khong phan biet hoa/thuong, khong phan biet dau tieng Viet).
+  const words = normalize(q).split(/\s+/).filter(Boolean);
+  const filtered = words.length
+    ? products.filter((p) => {
+        const hay = normalize(`${p.name} ${p.sku ?? ""}`);
+        return words.every((w) => hay.includes(w));
+      })
     : products;
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const page = Math.min(
     totalPages,
-    Math.max(1, parseInt(searchParams.page ?? "1", 10) || 1)
+    Math.max(1, parseInt(sp.page ?? "1", 10) || 1)
   );
   const start = (page - 1) * PAGE_SIZE;
   const list = filtered.slice(start, start + PAGE_SIZE);

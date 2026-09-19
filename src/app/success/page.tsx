@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { CheckCircle2 } from "lucide-react";
 
-export default function SuccessPage({
+export default async function SuccessPage({
   searchParams,
 }: {
-  searchParams: { order?: string };
+  searchParams: Promise<{ order?: string }>;
 }) {
+  const { order } = await searchParams;
   return (
     <div className="mx-auto flex max-w-lg flex-col items-center px-5 py-28 text-center">
       <CheckCircle2 size={48} className="text-gold" strokeWidth={1.3} />
@@ -14,7 +15,7 @@ export default function SuccessPage({
       </h1>
       <p className="mt-3 text-muted">
         Cảm ơn bạn. Mã đơn hàng của bạn là{" "}
-        <span className="text-gold">{searchParams.order}</span>. Chúng tôi sẽ
+        <span className="text-gold">{order}</span>. Chúng tôi sẽ
         liên hệ để xác nhận và giao hàng kín đáo trong 2–4 ngày làm việc.
       </p>
       <Link
