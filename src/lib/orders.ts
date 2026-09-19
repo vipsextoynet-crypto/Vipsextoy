@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { put, list } from "@vercel/blob";
-import { hasVercelBlob } from "@/lib/blob-config";
+import { getBlobAuthOptions } from "@/lib/blob-config";
 
 export type OrderItem = {
   slug: string;
@@ -38,7 +38,7 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const FILE = path.join(DATA_DIR, "orders.json");
 
 function hasBlob(): boolean {
-  return hasVercelBlob();
+  return getBlobAuthOptions() !== null;
 }
 
 // ---------- Fallback file (chi dung khi chay local, khong co Blob) ----------
@@ -72,8 +72,11 @@ function addOrderLocal(order: Order) {
 // ---------- Vercel Blob (dung tren production) ----------
 
 async function getOrdersBlob(): Promise<Order[]> {
+  const authOptions = getBlobAuthOptions();
+  if (!authOptions) return [];
+
   try {
-    const { blobs } = await list({ prefix: BLOB_PATH, limit: 1 });
+    const { blobs } = await list({ prefix: BLOB_PATH, limit: 1, ...authOptions });
     const found = blobs.find((b) => b.pathname === BLOB_PATH);
     if (!found) return [];
 
@@ -91,11 +94,15 @@ async function addOrderBlob(order: Order): Promise<void> {
   const orders = await getOrdersBlob();
   orders.unshift(order);
 
+  const authOptions = getBlobAuthOptions();
+  if (!authOptions) throw new Error("Vercel Blob chưa được cấu hình.");
+
   await put(BLOB_PATH, JSON.stringify(orders, null, 2), {
     access: "public",
     addRandomSuffix: false,
     allowOverwrite: true,
     contentType: "application/json",
+    ...authOptions,
   });
 }
 

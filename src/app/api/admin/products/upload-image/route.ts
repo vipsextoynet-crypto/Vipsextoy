@@ -1,12 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { put } from "@vercel/blob";
-import { hasVercelBlob } from "@/lib/blob-config";
+import { getBlobAuthOptions } from "@/lib/blob-config";
 
 // Upload 1 anh len Vercel Blob (khong dinh gi den GitHub/git, nen khong lam
 // nang repo, khong gay build lai). Dung cho tinh nang tai anh theo thu muc
 // trong trang admin.
 export async function POST(req: NextRequest) {
-  if (!hasVercelBlob()) {
+  const authOptions = getBlobAuthOptions();
+
+  if (!authOptions) {
     return NextResponse.json(
       { error: "Chưa bật Vercel Blob (thiếu BLOB_READ_WRITE_TOKEN hoặc chưa nối Blob store vào project)." },
       { status: 500 }
@@ -29,6 +31,7 @@ export async function POST(req: NextRequest) {
       access: "public",
       addRandomSuffix: false,
       contentType: file.type || "image/jpeg",
+      ...authOptions,
     });
 
     return NextResponse.json({ ok: true, url: blob.url, sku });
