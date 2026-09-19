@@ -8,8 +8,7 @@ export const runtime = "nodejs";
 // Đổi tên model đúng theo quy chuẩn của Google Gemini
 const MODELS_TO_TRY = [
   "gemini-flash-latest",
-  "gemini-2.0-flash",
-  "gemini-1.5-flash-latest"
+  "gemini-3.6-flash",
 ];
 
 function buildSystemPrompt() {
