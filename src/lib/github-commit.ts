@@ -40,7 +40,33 @@ export async function getFile(path: string): Promise<{ content: string; sha: str
   }
 
   const data = await res.json();
-  const content = Buffer.from(data.content, "base64").toString("utf-8");
+
+  // GitHub Contents API CHI tra ve noi dung file neu file <= 1 MB. File lon
+  // hon (products.ts hien ~1.6 MB) se co content rong + encoding "none",
+  // luc do phai doc qua Git Blobs API (ho tro toi 100 MB) bang sha cua file.
+  let base64: string = data.content ?? "";
+  if (!base64 || data.encoding === "none") {
+    const blobRes = await fetch(`${API_BASE}/repos/${repo}/git/blobs/${data.sha}`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: "application/vnd.github+json",
+      },
+      cache: "no-store",
+    });
+
+    if (!blobRes.ok) {
+      throw new Error(`Không đọc được file lớn từ GitHub (${blobRes.status}): ${await blobRes.text()}`);
+    }
+
+    const blob = await blobRes.json();
+    base64 = blob.content ?? "";
+  }
+
+  if (!base64) {
+    throw new Error(`GitHub trả về nội dung rỗng cho file ${path}.`);
+  }
+
+  const content = Buffer.from(base64, "base64").toString("utf-8");
   return { content, sha: data.sha };
 }
 
