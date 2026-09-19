@@ -3,7 +3,7 @@ import { ShieldCheck, Package, HeartHandshake, Truck } from "lucide-react";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Giới thiệu",
+  title: "Giới thiệu Vipsextoy",
   description:
     "Vipsextoy là cửa hàng sản phẩm chăm sóc cá nhân dành cho người trưởng thành, cam kết chất lượng, riêng tư và giao hàng kín đáo toàn quốc.",
   alternates: { canonical: "/gioi-thieu" },

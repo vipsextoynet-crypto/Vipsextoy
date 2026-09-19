@@ -4,7 +4,7 @@ import { blogPosts } from "@/data/blog";
 import ProductGlyph from "@/components/ProductGlyph";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Blog chăm sóc cá nhân",
   description:
     "Góc chia sẻ của Vipsextoy — hướng dẫn chọn mua, vệ sinh, bảo quản sản phẩm chăm sóc cá nhân và những câu chuyện chăm sóc bản thân.",
   alternates: { canonical: "/blog" },

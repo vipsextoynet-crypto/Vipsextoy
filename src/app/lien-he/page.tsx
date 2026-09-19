@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Liên hệ",
+  title: "Liên hệ đặt hàng",
   description:
     "Liên hệ với Vipsextoy để được tư vấn sản phẩm chăm sóc cá nhân riêng tư, hỗ trợ đơn hàng và giải đáp thắc mắc — bảo mật thông tin tuyệt đối.",
   alternates: { canonical: "/lien-he" },

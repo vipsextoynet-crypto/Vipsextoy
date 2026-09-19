@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Hướng dẫn mua hàng",
   description:
-    "Hướng dẫn đặt hàng tại Vipsextoy: chọn sản phẩm, thanh toán, giao hàng kín đáo và chính sách đổi trả.",
+    "Hướng dẫn đặt hàng tại Vipsextoy: chọn sản phẩm, thanh toán COD hoặc chuyển khoản, giao hàng kín đáo toàn quốc và chính sách đổi trả rõ ràng.",
   alternates: { canonical: "/huong-dan-mua-hang" },
 };
 

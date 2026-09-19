@@ -5,9 +5,8 @@ import Sidebar from "@/components/Sidebar";
 import Pagination from "@/components/Pagination";
 
 export const metadata: Metadata = {
-  title: "Cửa hàng",
-  description:
-    "Toàn bộ sản phẩm chăm sóc cá nhân tại Vipsextoy — đa dạng danh mục, chất liệu an toàn, giao hàng kín đáo toàn quốc.",
+  title: "Cửa hàng đồ chơi người lớn",
+  description: `Hơn ${products.length} sản phẩm chăm sóc cá nhân tại Vipsextoy — đa dạng danh mục, chất liệu an toàn, đóng gói kín đáo, giao hàng nhanh toàn quốc.`,
   alternates: { canonical: "/shop" },
 };
 

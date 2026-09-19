@@ -4,7 +4,7 @@ import PolicyLayout from "@/components/PolicyLayout";
 export const metadata: Metadata = {
   title: "Điều khoản sử dụng",
   description:
-    "Điều khoản sử dụng website Vipextoy: điều kiện truy cập, độ tuổi, quyền và nghĩa vụ của người dùng khi mua sắm tại Vipextoy.",
+    "Điều khoản sử dụng website Vipsextoy: điều kiện truy cập, độ tuổi, quyền và nghĩa vụ của người dùng khi mua sắm tại Vipsextoy.",
   alternates: { canonical: "/chinh-sach/dieu-khoan" },
 };
 

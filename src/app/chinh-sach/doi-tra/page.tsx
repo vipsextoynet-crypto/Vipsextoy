@@ -4,7 +4,7 @@ import PolicyLayout from "@/components/PolicyLayout";
 export const metadata: Metadata = {
   title: "Chính sách đổi trả",
   description:
-    "Chính sách đổi trả của Vipextoy: điều kiện đổi trả, thời gian xử lý và quy trình bảo hành sản phẩm chăm sóc cá nhân.",
+    "Chính sách đổi trả của Vipsextoy: đổi trả trong vòng 7 ngày kể từ khi nhận hàng, xử lý nhanh chóng và quy trình bảo hành sản phẩm rõ ràng, minh bạch.",
   alternates: { canonical: "/chinh-sach/doi-tra" },
 };
 
