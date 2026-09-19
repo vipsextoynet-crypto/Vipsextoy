@@ -101,16 +101,20 @@ export default function HeroBanner() {
         ))}
       </div>
 
-      <div className="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2">
+      <div className="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-1">
         {SLIDES.map((_, i) => (
           <button
             key={i}
             aria-label={`Banner ${i + 1}`}
             onClick={() => setIndex(i)}
-            className={`h-2 w-2 rounded-full transition ${
-              i === index ? "bg-white" : "bg-white/50"
-            }`}
-          />
+            className="flex h-6 w-6 items-center justify-center"
+          >
+            <span
+              className={`h-2 w-2 rounded-full transition ${
+                i === index ? "bg-white" : "bg-white/50"
+              }`}
+            />
+          </button>
         ))}
       </div>
     </div>
