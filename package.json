@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/genai": "^2.23.0",
     "@vercel/blob": "^2.8.0",
     "clsx": "^2.1.1",
     "lucide-react": "^1.45.0",
