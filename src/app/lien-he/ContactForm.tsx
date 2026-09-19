@@ -21,7 +21,7 @@ export default function ContactForm() {
       <div className="flex flex-col items-start gap-3 border border-line bg-surface p-8">
         <p className="font-serif text-xl text-ivory">Đã gửi thành công</p>
         <p className="text-sm text-muted">
-          Cảm ơn bạn đã liên hệ. Đội ngũ Vipextoy sẽ phản hồi trong vòng 24
+          Cảm ơn bạn đã liên hệ. Đội ngũ Vipsextoy sẽ phản hồi trong vòng 24
           giờ làm việc, thông tin của bạn được bảo mật tuyệt đối.
         </p>
       </div>
@@ -53,7 +53,7 @@ export default function ContactForm() {
         <textarea
           required
           className="min-h-[140px] w-full border border-line bg-surface px-4 py-3 text-ivory outline-none focus:border-gold"
-          placeholder="Vipextoy có thể giúp gì cho bạn?"
+          placeholder="Vipsextoy có thể giúp gì cho bạn?"
         />
       </div>
       <button

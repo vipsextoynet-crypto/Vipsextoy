@@ -17,7 +17,7 @@ export default function TermsPage() {
       </p>
       <h2>Điều kiện độ tuổi</h2>
       <p>
-        Website và sản phẩm của Vipextoy chỉ dành cho người dùng từ 18 tuổi
+        Website và sản phẩm của Vipsextoy chỉ dành cho người dùng từ 18 tuổi
         trở lên. Bằng việc tiếp tục truy cập, bạn xác nhận đã đủ 18 tuổi
         theo quy định pháp luật.
       </p>
@@ -35,7 +35,7 @@ export default function TermsPage() {
       </p>
       <h2>Thay đổi điều khoản</h2>
       <p>
-        Vipextoy có thể cập nhật điều khoản sử dụng theo thời gian. Phiên
+        Vipsextoy có thể cập nhật điều khoản sử dụng theo thời gian. Phiên
         bản mới nhất luôn được đăng tải công khai tại trang này.
       </p>
     </PolicyLayout>

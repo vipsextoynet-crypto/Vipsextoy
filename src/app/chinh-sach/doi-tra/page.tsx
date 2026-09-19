@@ -32,7 +32,7 @@ export default function ReturnPolicyPage() {
       <h2>Quy trình xử lý</h2>
       <p>
         Liên hệ hotline hoặc email hỗ trợ kèm hình ảnh/video tình trạng sản
-        phẩm. Vipextoy phản hồi trong vòng 24 giờ làm việc và tiến hành đổi
+        phẩm. Vipsextoy phản hồi trong vòng 24 giờ làm việc và tiến hành đổi
         trả hoặc hoàn tiền sau khi xác nhận.
       </p>
     </PolicyLayout>

@@ -29,7 +29,7 @@ export default function Header() {
             href="/"
             className="font-serif text-lg font-bold tracking-wide text-gold sm:text-xl"
           >
-            {site.name.toUpperCase()}.NET
+            {site.name.toUpperCase()}.COM
           </Link>
 
           <button

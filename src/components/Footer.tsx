@@ -57,7 +57,7 @@ export default function Footer() {
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 md:grid-cols-4">
           <div>
             <p className="font-serif text-lg font-bold tracking-wide text-gold">
-              {site.name.toUpperCase()}.NET
+              {site.name.toUpperCase()}.COM
             </p>
             <p className="mt-3 max-w-[220px] text-sm text-muted">
               Sản phẩm chăm sóc cá nhân cao cấp, riêng tư và an toàn cho người trưởng thành.
