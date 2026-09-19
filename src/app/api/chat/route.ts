@@ -5,18 +5,15 @@ import { categories } from "@/data/products";
 
 export const runtime = "nodejs";
 
-// Danh sách các model hỗ trợ, nếu model này bận 503 sẽ tự động chuyển sang model tiếp theo
 const MODELS_TO_TRY = [
   "gemini-2.5-flash",
-  "gemini-2.0-flash",
-  "gemini-flash-latest",
-  "gemini-3.6-flash"
+  "gemini-3.6-flash",
+  "gemini-flash-latest"
 ];
 
 function buildSystemPrompt() {
-  // Tạo danh sách danh mục kèm đường link URL cụ thể
   const categoryList = categories
-    .map((c) => `- ${c.name}: ${c.shortDescription} (Link: ${site.url}/danh-muc/${c.slug || ""})`)
+    .map((c) => `- ${c.name}: ${site.url}/danh-muc/${c.slug || ""}`)
     .join("\n");
 
   return `Bạn là nhân viên tư vấn bán hàng của ${site.name} (${site.url}).
@@ -25,17 +22,17 @@ THÔNG TIN CỬA HÀNG:
 ${site.description}
 - Hotline/Zalo: ${site.phone}
 - Giờ làm việc: ${site.hours}
-- Giao hàng: Đóng gói kín đáo, không in tên sản phẩm ra ngoài.
+- Giao hàng: Đóng gói kín đáo, không ghi tên sản phẩm.
 
-DANH MỤC SẢN PHẨM & ĐƯỜNG LINK:
+DANH MỤC & LINK WEBSITE:
 ${categoryList}
 
-CÁCH TƯ VẤN BẮT BỘC:
-1. TRẢ LỜI CỰC KỲ NGẮN GỌN (Tối đa 2 câu). Không chào hỏi dài dòng.
-2. Khi tư vấn danh mục sản phẩm, BẮT BỘC chèn đường link tương ứng dưới dạng Markdown: [Tên danh mục](URL) để khách hàng nhấp vào xem sản phẩm.
-   Ví dụ: "Bạn tham khảo các mẫu giá dưới 500k tại [Danh mục Trứng Rung](${site.url}/danh-muc/trung-rung) nhé!"
-3. Không tự bịa tên sản phẩm, mã SKU hay giá chi tiết.
-4. Xưng "shop" và gọi khách là "bạn".`;
+QUY TẮC BẮT BỘC:
+1. Viết ngắn gọn (1-3 câu). Trả lời thẳng vào câu hỏi của khách.
+2. Khi giới thiệu danh mục, BẮT BỘC chèn link dạng Markdown: [Tên danh mục](URL) để khách nhấp vào.
+   Ví dụ: "Bạn xem các mẫu tại [Trứng Rung Tình Yêu](${site.url}/danh-muc/trung-rung) nhé."
+3. Không tự chế tên sản phẩm cụ thể hay giá chi tiết.
+4. Xưng "shop" và gọi "bạn".`;
 }
 
 export async function POST(req: NextRequest) {
@@ -43,7 +40,7 @@ export async function POST(req: NextRequest) {
 
   if (!apiKey) {
     return NextResponse.json(
-      { error: "Chatbot chưa được cấu hình (thiếu GEMINI_API_KEY)." },
+      { error: "Thiếu GEMINI_API_KEY." },
       { status: 500 }
     );
   }
@@ -55,6 +52,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Thiếu nội dung tin nhắn." }, { status: 400 });
   }
 
+  // Chỉ lấy 6 tin gần nhất để giữ context gọn nhẹ
   const recent = messages.slice(-6);
 
   const ai = new GoogleGenAI({ apiKey });
@@ -65,34 +63,29 @@ export async function POST(req: NextRequest) {
 
   let lastErr: unknown = null;
 
-  // Cơ chế Thử lại (Retry Loop) qua nhiều Model khác nhau khi bị lỗi 503 quá tải
   for (const model of MODELS_TO_TRY) {
-    for (let attempt = 0; attempt < 2; attempt++) {
-      try {
-        const res = await ai.models.generateContent({
-          model,
-          contents,
-          config: {
-            systemInstruction: buildSystemPrompt(),
-            maxOutputTokens: 250,
-          },
-        });
+    try {
+      const res = await ai.models.generateContent({
+        model,
+        contents,
+        config: {
+          systemInstruction: buildSystemPrompt(),
+          maxOutputTokens: 600, // Tăng lên 600 để đảm bảo không bị cụt câu
+        },
+      });
 
-        const text = res.text?.trim();
-        if (text) {
-          return NextResponse.json({ reply: text });
-        }
-      } catch (e) {
-        lastErr = e;
-        // Chờ 500ms trước khi thử lại nếu bị nghẽn
-        await new Promise((resolve) => setTimeout(resolve, 500));
+      const text = res.text?.trim();
+      if (text) {
+        return NextResponse.json({ reply: text });
       }
+    } catch (e) {
+      lastErr = e;
     }
   }
 
   return NextResponse.json(
     {
-      error: "Hệ thống AI đang quá tải, bạn vui lòng bấm lại hoặc nhắn Zalo/Hotline giúp shop nhé!",
+      error: "Hệ thống AI đang bận, vui lòng thử lại hoặc nhắn Zalo/Hotline giúp shop nhé!",
     },
     { status: 500 }
   );
