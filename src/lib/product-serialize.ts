@@ -48,15 +48,29 @@ export function productToTs(p: Product): string {
 
 // Chen doan code 1 san pham moi vao ngay truoc dau "];" ket thuc mang
 // `products`, giu nguyen toan bo phan con lai cua file.
+// Khong phu thuoc kieu xuong dong (LF hay CRLF) va khoang trong giua "];" va
+// "export function getProduct" - file tren GitHub thuong bi doi sang CRLF khi
+// push tu Windows nen khong duoc so khop chuoi cung.
 export function insertProductIntoSource(source: string, productTs: string): string {
-  const marker = "];\n\nexport function getProduct";
-  const idx = source.indexOf(marker);
+  const nl = source.includes("\r\n") ? "\r\n" : "\n";
+
+  let idx = -1;
+  const fnIdx = source.indexOf("export function getProduct");
+  if (fnIdx !== -1) {
+    idx = source.lastIndexOf("];", fnIdx);
+  }
+  if (idx === -1) {
+    // Du phong: dau "];" o dau dong cuoi cung trong file.
+    const m = [...source.matchAll(/^\];/gm)].pop();
+    if (m && m.index !== undefined) idx = m.index;
+  }
 
   if (idx === -1) {
     throw new Error("Không tìm thấy vị trí kết thúc mảng products trong file.");
   }
 
-  return source.slice(0, idx) + productTs + "\n" + source.slice(idx);
+  const block = productTs.replace(/\r?\n/g, nl);
+  return source.slice(0, idx) + block + nl + source.slice(idx);
 }
 
 // Tim vi tri bat dau/ket thuc cua 1 object san pham trong file, dua vao
