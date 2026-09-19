@@ -7,8 +7,41 @@ type ChatMessage = { role: "user" | "model"; text: string };
 
 const GREETING: ChatMessage = {
   role: "model",
-  text: "Chào bạn 👋 Mình là trợ lý tư vấn của shop. Bạn đang tìm sản phẩm cho nhu cầu gì để mình gợi ý phù hợp nhé?",
+  text: "Chào bạn 👋 Mình là trợ lý tư vấn của shop. Bạn cần tìm sản phẩm gì ạ?",
 };
+
+// Hàm chuyển đổi văn bản chứa URL/Markdown Link thành thẻ <a> click được
+function renderFormattedText(text: string) {
+  // Regex nhận diện Markdown Link [Text](URL) hoặc URL thuần
+  const markdownLinkRegex = /\[([^\]]+)\]\((https?:\/\/[^\s]+)\)/g;
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = markdownLinkRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    parts.push(
+      <a
+        key={match.index}
+        href={match[2]}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-medium text-gold underline underline-offset-2 hover:opacity-80"
+      >
+        {match[1]}
+      </a>
+    );
+    lastIndex = markdownLinkRegex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : text;
+}
 
 export default function AiChatWidget() {
   const [open, setOpen] = useState(false);
@@ -32,8 +65,6 @@ export default function AiChatWidget() {
     setError("");
     setLoading(true);
 
-    // Lọc bỏ tin nhắn chào ban đầu (role: model) nếu nó đứng ở đầu mảng
-    // giúp payload gửi lên API luôn bắt đầu bằng lượt thoại của "user"
     const apiMessages = next.filter((m, index) => !(index === 0 && m.role === "model"));
 
     try {
@@ -70,13 +101,13 @@ export default function AiChatWidget() {
             {messages.map((m, i) => (
               <div
                 key={i}
-                className={`max-w-[85%] rounded-lg px-3 py-2 text-sm ${
+                className={`max-w-[85%] rounded-lg px-3 py-2 text-sm leading-relaxed ${
                   m.role === "user"
                     ? "ml-auto bg-cta text-white"
                     : "bg-surface2 text-ivory"
                 }`}
               >
-                {m.text}
+                {renderFormattedText(m.text)}
               </div>
             ))}
             {loading && (
