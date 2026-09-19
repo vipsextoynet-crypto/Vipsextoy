@@ -1,59 +1,46 @@
-import { createGoogleGenerativeAI } from "@ai-sdk/google";
-import { streamText, tool } from "ai";
-import { z } from "zod";
+import { NextRequest, NextResponse } from "next/server";
 import { site } from "@/lib/site";
 import { products } from "@/data/products";
 
-export const maxDuration = 30;
+export const runtime = "nodejs";
 
-const google = createGoogleGenerativeAI({
-  apiKey: process.env.GEMINI_API_KEY,
-});
-
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   try {
-    const { messages } = await req.json();
+    const body = await req.json().catch(() => null);
+    const messages: { role: "user" | "model"; text: string }[] = body?.messages;
 
-    const result = streamText({
-      model: google("gemini-3.6-flash"), // Dùng model 2.0 mới nhất chuẩn xác
-      system: `Bạn là trợ lý tư vấn của ${site.name}.
-QUY TẮC BẮT BỘC:
-- TUYỆT ĐỐI KHÔNG tự viết tên sản phẩm hay link văn bản.
-- BẮT BỘC luôn luôn gọi tool 'searchProducts' để trả về thẻ sản phẩm.
-- Tin nhắn văn bản chỉ viết tối đa 1 CÂU NGẮN (VD: "Dạ shop gửi bạn xem các mẫu tốt nhất ạ:").`,
-      messages,
-      maxSteps: 5,
-      tools: {
-        searchProducts: tool({
-          description: "Tìm và trả về danh sách sản phẩm.",
-          parameters: z.object({
-            keyword: z.string().optional(),
-            maxPrice: z.number().optional(),
-          }),
-          execute: async ({ keyword, maxPrice }) => {
-            let list = products;
-            if (keyword) {
-              const kw = keyword.toLowerCase();
-              list = list.filter((p) => p.name.toLowerCase().includes(kw));
-            }
-            if (maxPrice) {
-              list = list.filter((p) => p.price <= maxPrice);
-            }
-            return (list.length ? list : products).slice(0, 3).map((p) => ({
-              id: p.id,
-              name: p.name,
-              price: p.price,
-              url: `${site.url}/san-pham/${p.slug}`,
-              image: p.image,
-            }));
-          },
-        }),
-      },
+    if (!Array.isArray(messages) || messages.length === 0) {
+      return NextResponse.json({ error: "Thiếu thông tin tin nhắn." }, { status: 400 });
+    }
+
+    const lastUserMessage = messages[messages.length - 1].text.toLowerCase();
+
+    // Lọc sản phẩm trực tiếp từ kho dữ liệu
+    let matchedProducts = products.filter((p) =>
+      p.name.toLowerCase().includes(lastUserMessage) ||
+      (p.category && p.category.toLowerCase().includes(lastUserMessage))
+    );
+
+    // Nếu không tìm thấy theo keyword, lấy 3 sản phẩm nổi bật mặc định
+    if (matchedProducts.length === 0) {
+      matchedProducts = products.slice(0, 3);
+    } else {
+      matchedProducts = matchedProducts.slice(0, 3);
+    }
+
+    const formattedProducts = matchedProducts.map((p) => ({
+      id: p.id,
+      name: p.name,
+      price: p.price,
+      url: `${site.url}/san-pham/${p.slug}`,
+      image: p.image,
+    }));
+
+    return NextResponse.json({
+      reply: "Dạ shop gửi bạn danh sách sản phẩm phù hợp nhất ạ:",
+      products: formattedProducts,
     });
-
-    return result.toDataStreamResponse();
-  } catch (error) {
-    console.error("AI Route Error:", error);
-    return new Response(JSON.stringify({ error: "Lỗi kết nối AI" }), { status: 500 });
+  } catch (err) {
+    return NextResponse.json({ error: "Lỗi kết nối máy chủ." }, { status: 500 });
   }
 }
