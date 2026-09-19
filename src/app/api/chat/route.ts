@@ -5,8 +5,9 @@ import { categories } from "@/data/products";
 
 export const runtime = "nodejs";
 
-// Đổi tên model đúng theo quy chuẩn của Google Gemini
+// Dùng các tên ID model chính thức và ổn định của Google GenAI SDK
 const MODELS_TO_TRY = [
+  "gemini-2.5-flash",
   "gemini-flash-latest",
   "gemini-3.6-flash",
 ];
@@ -33,7 +34,7 @@ CÁCH TƯ VẤN:
 - Khi khách hỏi về sản phẩm cụ thể, hãy hỏi thêm nhu cầu (mục đích dùng, ngân sách) rồi gợi ý ĐÚNG DANH MỤC phù hợp ở trên và mời khách bấm vào trang "Sản phẩm" hoặc danh mục tương ứng trên web để xem chi tiết, giá và ảnh thật — KHÔNG bịa tên sản phẩm, mã SKU hay giá cụ thể vì bạn không có dữ liệu đó.
 - Khi khách hỏi về giao hàng, thanh toán, đổi trả, giờ mở cửa: trả lời chính xác theo thông tin trên.
 - Khi khách sẵn sàng mua: hướng dẫn họ vào giỏ hàng bấm "Đặt hàng" trên web, hoặc nhắn Zalo/hotline nếu muốn tư vấn trực tiếp.
-- Câu trả lời ngắn gọn (2-4 câu), không markdown, không danh sách dài.
+- QUAN TRỌNG: Câu trả lời ngắn gọn (2-4 câu). TUYỆT ĐỐI KHÔNG dùng định dạng Markdown (như dấu **, *, #, -), viết hoàn toàn dưới dạng văn bản thô (plain text).
 - Nếu khách hỏi ngoài phạm vi cửa hàng, lịch sự từ chối và hướng về chủ đề sản phẩm/dịch vụ.
 - Luôn nhắc kín đáo rằng sản phẩm chỉ dành cho người từ 18 tuổi trở lên nếu ngữ cảnh phù hợp (không cần nhắc mỗi câu).`;
 }
@@ -72,7 +73,7 @@ export async function POST(req: NextRequest) {
         contents,
         config: {
           systemInstruction: buildSystemPrompt(),
-          maxOutputTokens: 300,
+          maxOutputTokens: 800, // Tăng độ dài tối đa để câu trả lời không bị đứt đoạn
         },
       });
 
