@@ -24797,6 +24797,18 @@ export const products: Product[] = [
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/1959/1.jpg",
   },
+  {
+    slug: "trung-rung-mini-cao-cap-lelo-ako-originals-co-ket-noi-app",
+    sku: "DC82B",
+    name: "Trứng rung mini cao cấp Lelo AKO Originals có kết nối App",
+    category: "Dương Vật Giả Rung",
+    categorySlug: "duong-vat-gia-rung",
+    price: 1950000,
+    blurb: "AKO™ Originals là máy mát xa âm vật nhỏ gọn thuộc dòng LELO Originals, mang đến sự kích thích tập trung trong thiết kế k",
+    description: "AKO™ Originals là máy mát xa âm vật nhỏ gọn thuộc dòng LELO Originals, mang đến sự kích thích tập trung trong thiết kế kiểu dáng đẹp, tiện lợi khi di chuyển. Với giao diện ba nút bấm tích hợp khóa an toàn khi đi du lịch, máy mang lại những rung động sâu, thỏa mãn một cách kín đáo và dễ sử dụng. Được chế tạo từ silicone liền mạch, an toàn cho cơ thể với các chi tiết ABS tinh tế, AKO™ hoàn toàn không thấm nước, dễ vệ sinh và lý tưởng cho những khách hàng tìm kiếm sự sang trọng, tính di động và hiệu suất cao.\n\nSẴN SÀNG CHO MỌI CHUYẾN ĐI\nThiết kế nhỏ gọn và kín đáo cho phép tai nghe AKO™ Originals luôn bên cạnh bạn, dù bạn đi đến đâu.\n\n4 CHẾ ĐỘ RUNG MẠNH MẼ\nAKO™ Originals cung cấp 4 chế độ rung khác nhau, với cường độ từ tiếng rung nhẹ nhàng đến xung nhịp mạnh mẽ đầy thỏa mãn.\n\n4 THIẾT LẬP ĐỘC QUYỀN TRÊN ỨNG DỤNG\nBên cạnh bốn thiết lập cơ bản có sẵn mà không cần ứng dụng, bạn có thể mở khóa thêm bốn thiết lập khác, bao gồm hai chế độ thông thường và hai chế độ nâng cao - Kết liễu tôi và Mất kiểm soát.\n\n \n\nSạc USB & Chống nước hoàn toàn theo tiêu chuẩn IPX7.\nTận hưởng những khoái cảm bất tận mọi lúc mọi nơi, kể cả trong bồn tắm hoặc vòi sen.",
+    features: ["THÔNG SỐ KỸ THUẬT:", "Chất liệu: Silicone an toàn cho cơ thể, nhựa ABS", "Bề mặt: Mịn", "Kích thước: 117 x 35 x 37 mm / 4.6 x 1.4 x 1.5 inch", "Trọng lượng: 69 g / 2.4 oz", "Pin: Li-Ion 200 mAh", "Thời gian sạc: lên đến 2 giờ ở 5.0 V 200 mA", "Công suất định mức:", "Đầu vào: 5V 200 mA 1 W", "Đầu ra: 3.7 V 110 mA 0.4 W", "Thời gian sử dụng: Lên đến 2 giờ", "Thời gian chờ: ít nhất 90 ngày", "Tần số: 130 Hz", "Mức độ tiếng ồn tối đa: ≤ 63 dB", "Giao diện: 3 nút và 2 đèn LED"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
