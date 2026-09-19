@@ -1,83 +1,56 @@
-import { NextRequest, NextResponse } from "next/server";
-import { GoogleGenAI } from "@google/genai";
+import { google } from "@ai-sdk/google";
+import { streamText, tool } from "ai";
+import { z } from "zz";
 import { site } from "@/lib/site";
-import { categories } from "@/data/products";
+import { categories, products } from "@/data/products"; // Giả sử bạn có mảng products
 
-export const runtime = "nodejs";
+export const maxDuration = 30;
 
-const MODELS_TO_TRY = [
-  "gemini-2.5-flash",
-  "gemini-3.6-flash",
-  "gemini-flash-latest"
-];
+export async function POST(req: Request) {
+  const { messages } = await req.json();
 
-function buildSystemPrompt() {
-  const categoryList = categories
-    .map((c) => `- ${c.name}: ${site.url}/danh-muc/${c.slug || ""}`)
-    .join("\n");
+  const result = streamText({
+    model: google("gemini-3.6-flash"),
+    system: `Bạn là trợ lý tư vấn bán hàng của shop ${site.name} (${site.url}).
+    
+NHIỆM VỤ:
+- Khi khách hỏi tìm sản phẩm, tư vấn theo ngân sách hoặc tính năng, BẮT BỘC dùng tool \`searchProducts\` để tìm sản phẩm thực tế trong cửa hàng.
+- Sau khi tìm thấy, gợi ý 1-3 sản phẩm phù hợp nhất, nêu ngắn gọn điểm nổi bật.
+- Trả lời ngắn gọn, thân thiện (2-3 câu). Xưng "shop", gọi khách là "bạn".`,
+    messages,
+    tools: {
+      searchProducts: tool({
+        description: "Tìm kiếm sản phẩm theo từ khóa hoặc khoảng giá trong kho dữ liệu của shop.",
+        parameters: z.object({
+          keyword: z.string().optional().describe("Từ khóa tìm kiếm (ví dụ: trứng rung, bao cao su)"),
+          maxPrice: z.number().optional().describe("Mức giá tối đa khách yêu cầu (VND)"),
+        }),
+        execute: async ({ keyword, maxPrice }) => {
+          let filtered = products;
 
-  return `Bạn là trợ lý tư vấn bán hàng của ${site.name} (${site.url}).
+          if (keyword) {
+            const kw = keyword.toLowerCase();
+            filtered = filtered.filter(
+              (p) => p.name.toLowerCase().includes(kw) || p.category.toLowerCase().includes(kw)
+            );
+          }
 
-DANH MỤC SẢN PHẨM & LINK TRUY CẬP:
-${categoryList}
+          if (maxPrice) {
+            filtered = filtered.filter((p) => p.price <= maxPrice);
+          }
 
-QUY TẮC BẮT BỘC KHI TRẢ LỜI:
-1. Trả lời đầy đủ, hoàn chỉnh câu. Tuyệt đối không được bỏ dở câu giữa chừng.
-2. Khi khách hỏi liệt kê hoặc xem mẫu sản phẩm, hãy giới thiệu các loại nhóm sản phẩm (Ví dụ: dòng điều khiển từ xa, dòng kết nối app, dòng cao cấp) và gửi kèm link danh mục chuẩn dưới dạng Markdown [Tên danh mục](URL) để khách nhấp vào.
-   Ví dụ: "Shop có các dòng trứng rung điều khiển từ xa, kết nối app và cao cấp. Bạn nhấp vào [Trứng Rung Tình Yêu](${site.url}/danh-muc/trung-rung) để xem danh sách chi tiết kèm giá nhé!"
-3. Giữ câu trả lời súc tích (2-4 câu), thân thiện, tôn trọng.`;
-}
-
-export async function POST(req: NextRequest) {
-  const apiKey = process.env.GEMINI_API_KEY;
-
-  if (!apiKey) {
-    return NextResponse.json(
-      { error: "Chưa cấu hình GEMINI_API_KEY." },
-      { status: 500 }
-    );
-  }
-
-  const body = await req.json().catch(() => null);
-  const messages: { role: "user" | "model"; text: string }[] = body?.messages;
-
-  if (!Array.isArray(messages) || messages.length === 0) {
-    return NextResponse.json({ error: "Thiếu nội dung tin nhắn." }, { status: 400 });
-  }
-
-  const recent = messages.slice(-6);
-  const ai = new GoogleGenAI({ apiKey });
-  const contents = recent.map((m) => ({
-    role: m.role,
-    parts: [{ text: m.text }],
-  }));
-
-  let lastErr: unknown = null;
-
-  for (const model of MODELS_TO_TRY) {
-    try {
-      const res = await ai.models.generateContent({
-        model,
-        contents,
-        config: {
-          systemInstruction: buildSystemPrompt(),
-          maxOutputTokens: 1000, // Tăng lên 1000 token để AI không bao giờ bị cắt câu
+          // Trả về tối đa 4 sản phẩm phù hợp nhất
+          return filtered.slice(0, 4).map((p) => ({
+            id: p.id,
+            name: p.name,
+            price: p.price,
+            url: `${site.url}/san-pham/${p.slug}`,
+            image: p.image,
+          }));
         },
-      });
-
-      const text = res.text?.trim();
-      if (text) {
-        return NextResponse.json({ reply: text });
-      }
-    } catch (e) {
-      lastErr = e;
-    }
-  }
-
-  return NextResponse.json(
-    {
-      error: "Hệ thống AI đang bận, vui lòng thử lại sau giây lát!",
+      }),
     },
-    { status: 500 }
-  );
+  });
+
+  return result.toDataStreamResponse();
 }

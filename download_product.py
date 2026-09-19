@@ -14,8 +14,10 @@ Thiết kế ưu tiên: STABILITY > SPEED.
 import os
 import re
 import time
+import json
 import random
 import hashlib
+import tempfile
 from datetime import datetime
 from urllib.parse import urljoin, urlparse, urldefrag
 
@@ -46,6 +48,20 @@ PAGE_DELAY = 3.0            # delay sau mỗi page navigation (Playwright)
 PRODUCT_DELAY = 4.0         # delay sau khi xử lý xong 1 product
 IMAGE_DELAY = 1.5           # delay sau mỗi ảnh tải xong
 
+# Số lần tối đa RETRY 1 ảnh bị lỗi (vd http_404) qua các lần chạy khác
+# nhau trước khi CHỊU BỎ CUỘC với ảnh đó (để không lặp vô hạn nếu ảnh
+# đã thực sự bị xóa khỏi server). Ảnh bỏ cuộc vẫn được ghi rõ vào
+# failed_urls.txt để bạn xem lại thủ công.
+MAX_IMAGE_RETRY_ATTEMPTS = 3
+
+# Retry NGAY TRONG CUNG 1 LAN CHAY (khac voi MAX_IMAGE_RETRY_ATTEMPTS
+# o tren la retry O CAC LAN CHAY SAU). Nhieu loi http_404 thuc ra chi
+# la tam thoi (site chan bot/rate-limit tra ve 404 thay vi 429), nen
+# thu lai ngay vai lan truoc khi ghi la loi that su se giup vot lai
+# duoc phan lon cac truong hop nay.
+IMAGE_INLINE_RETRY_ATTEMPTS = 2     # so lan thu THEM ngay lap tuc (chua tinh lan dau)
+IMAGE_INLINE_RETRY_DELAY = 3.0      # giay, tang dan theo so lan (3s, 6s, ...)
+
 BATCH_SIZE = 15             # sau mỗi N URL/product thì nghỉ dài hơn
 BATCH_COOLDOWN_MIN = 15.0
 BATCH_COOLDOWN_MAX = 30.0
@@ -64,6 +80,52 @@ SESSION_HEALTH_CHECK_EVERY = 20  # kiểm tra lại session mỗi N URL đã cra
 # đi thẳng vào tải ảnh — tiết kiệm thời gian, giảm tải cho website.
 # Đặt False nếu muốn crawler tự khám phá lại từ đầu (sitemap + BFS) mỗi lần chạy.
 SKIP_CRAWL_IF_PRODUCTS_SEEDED = True
+
+# ---- Chỉ crawl sản phẩm, bỏ qua bài viết/tin tức --------------
+#
+# Các đoạn URL đặc trưng cho trang bài viết/tin tức/blog trên site.
+# BẤT KỲ URL nào có path chứa 1 trong các đoạn này sẽ bị BỎ QUA HOÀN
+# TOÀN (không enqueue, không gửi request, không tính vào visited).
+#
+# QUAN TRỌNG: đây là danh sách PHỎNG ĐOÁN theo cấu trúc phổ biến của
+# các site CMS tiếng Việt. Hãy mở thử MỘT bài viết thật trên
+# vipsextoy.net, xem URL của nó chứa đoạn nào (vd .../tin-tuc/ten-bai
+# -viet-p123.html) rồi sửa/thêm đúng đoạn đó vào danh sách bên dưới.
+ARTICLE_URL_PATTERNS = [
+    "/tin-tuc", "tin-tuc.html", "tin_tuc",
+    "/bai-viet", "bai-viet.html", "bai_viet",
+    "/blog", "/kinh-nghiem", "/cam-nang", "/kien-thuc",
+    "/hoi-dap", "/faq", "/tin-khuyen-mai", "/khuyen-mai",
+    # Xac nhan tu log thuc te cua ban (slug bai viet nam phang o root,
+    # khong co tien to /tin-tuc/ hay /blog/ nao ca):
+    "huong-dan", "kham-pha", "kho-am-dao", "khoa-hoc",
+    "lam-the-nao", "lien-he",
+]
+
+# Dau hieu "day la trang co ban hang" — neu trang co it nhat 1 trong
+# cac cum tu nay, GAN NHU CHAC CHAN khong phai bai viet du no dai bao
+# nhieu di nua (vd trang san pham co phan mo ta dai).
+_PRODUCT_CONTENT_SIGNALS = [
+    "giá:", "giá :", "giá bán", "liên hệ giá", "mua ngay",
+    "thêm vào giỏ", "thêm giỏ hàng", "đặt hàng", "đặt mua",
+    "mã sản phẩm", "mã số:", "mã sp", "sku",
+    "bảo hành", "size:", "kích thước:", "chất liệu:", "màu sắc:",
+]
+
+# Bai viet/blog thuong la van ban dai (nhieu doan van). Neu 1 trang
+# vua DAI vua KHONG co dau hieu ban hang nao -> rat co the la bai
+# viet, du URL/selector khong khop bat cu mau nao o tren. Day la lop
+# phong thu TONG QUAT, khong phu thuoc vao doan URL cu the nao.
+ARTICLE_MIN_WORD_COUNT = 350
+
+# Dấu hiệu NHẬN DIỆN QUA SELECTOR HTML (lớp phòng thủ bổ sung, phòng
+# khi site dùng 1 class CSS cố định cho khung bài viết).
+ARTICLE_HTML_SELECTORS = [
+    ".tin-tuc-chi-tiet", ".chi-tiet-tin-tuc", ".tin_tuc_chi_tiet",
+    ".news-detail", ".news_detail", ".chi-tiet-bai-viet",
+    ".detail-news", ".article-detail", ".post-detail",
+    "article.post", ".blog-detail", ".blog_detail",
+]
 
 # ---- Concurrency ---------------------------------------------
 #
@@ -974,11 +1036,82 @@ def is_product_page(soup):
 
 
 # ============================================================
+# NHAN DIEN / LOAI BO BAI VIET (chi crawl san pham)
+# ============================================================
+
+def is_article_url(url):
+    """
+    True neu URL trong giong trang bai viet/tin tuc/blog dua tren
+    ARTICLE_URL_PATTERNS. Dung de LOAI HOAN TOAN — khong enqueue,
+    khong gui request — ngay tu buoc kham pha URL (sitemap + BFS).
+    """
+    try:
+        path = urlparse(url).path.lower()
+    except Exception:
+        return False
+    return any(pattern in path for pattern in ARTICLE_URL_PATTERNS)
+
+
+def looks_like_long_form_article(soup):
+    """
+    Lop phong thu TONG QUAT, khong phu thuoc URL: bai viet/blog thuong
+    la van ban dai (nhieu tu), va KHONG co bat ky dau hieu ban hang
+    nao (gia, mua ngay, ma san pham...). Trang san pham du dai (mo ta
+    dai) hau nhu luon co it nhat 1 dau hieu trong _PRODUCT_CONTENT_SIGNALS.
+    """
+    try:
+        text = soup.get_text(" ", strip=True).lower()
+    except Exception:
+        return False
+
+    if len(text.split()) < ARTICLE_MIN_WORD_COUNT:
+        return False
+
+    if any(signal in text for signal in _PRODUCT_CONTENT_SIGNALS):
+        return False
+
+    return True
+
+
+def is_article_page(soup, url):
+    """
+    Lop phong thu thu 2, dua tren NOI DUNG HTML da tai ve — de bat cac
+    truong hop ARTICLE_URL_PATTERNS doan sai cau truc URL that. San
+    pham (is_product_page = True) LUON DUOC UU TIEN, khong bao gio bi
+    coi la bai viet du URL/HTML co trung dau hieu gi di nua.
+    """
+    if is_product_page(soup):
+        return False
+
+    if is_article_url(url):
+        return True
+
+    try:
+        og_type = soup.find("meta", attrs={"property": "og:type"})
+        if og_type and (og_type.get("content") or "").strip().lower() == "article":
+            return True
+
+        for selector in ARTICLE_HTML_SELECTORS:
+            if soup.select_one(selector):
+                return True
+
+        if looks_like_long_form_article(soup):
+            return True
+    except Exception:
+        pass
+
+    return False
+
+
+# ============================================================
 # SAFE DISCOVERY URL
 # ============================================================
 
 def is_safe_discovery_url(url):
     if not url or not same_domain(url):
+        return False
+
+    if is_article_url(url):
         return False
 
     parsed = urlparse(url)
@@ -1087,6 +1220,27 @@ def normalize_image_url(value, page_url):
 # ============================================================
 
 def extract_product_images(soup, page_url):
+    """
+    Lay anh gallery cua san pham.
+
+    QUAN TRONG (xac nhan tu thuc te site vipsextoy.net): trang co thoi
+    quen chen LAP LAI anh chinh (#anh_chitiet_sanpham) xuong phan "mo
+    ta chi tiet san pham" (khoi .dtct / .html201.dtct). Vi vay khoi
+    .dtct/.html201.dtct KHONG duoc dung lam nguon anh o day nua — no
+    chi con dung de nhan dien "day co phai trang san pham khong"
+    (is_product_page). Neu quet anh trong khoi mo ta, se vo tinh bat
+    lai dung ban sao bi chen lap, gay trung lap khi tai.
+
+    #anh_chitiet_sanpham co the xuat hien NHIEU LAN tren trang (moi
+    anh trong gallery dung CHUNG 1 id — khong chuan HTML nhung dung
+    thuc te cua site) nen phai lay TAT CA the co id nay bang find_all,
+    khong chi lay the dau tien bang select_one (neu chi lay 1 the se
+    bo sot cac anh gallery khac).
+
+    Co che hash-dedupe khi tai anh (download_and_dedupe_image) van duoc
+    giu lai o BUOC SAU nhu mot lop phong thu thu 2, phong truong hop
+    trung lap den tu nguon khac ngoai .dtct ma ta chua luong het.
+    """
     candidates = []
 
     def add(value):
@@ -1094,8 +1248,8 @@ def extract_product_images(soup, page_url):
         if url:
             candidates.append(url)
 
-    main = soup.select_one("#anh_chitiet_sanpham")
-    if main:
+    # Nguon anh chinh: TAT CA the co id="anh_chitiet_sanpham" (co the lap id).
+    for main in soup.find_all(id="anh_chitiet_sanpham"):
         for attr in ("data-large", "data-original", "data-src", "src"):
             add(main.get(attr))
 
@@ -1110,15 +1264,9 @@ def extract_product_images(soup, page_url):
             for attr in ("data-large", "data-original", "data-src", "src"):
                 add(img.get(attr))
 
-    for detail in soup.select(".html201.dtct, .dtct"):
-        for img in detail.find_all("img"):
-            for attr in ("data-large", "data-original", "data-src", "src"):
-                add(img.get(attr))
-
-    for detail in soup.select(".html201.dtct, .dtct"):
-        for source in detail.find_all("source"):
-            add(source.get("src"))
-            add(source.get("data-src"))
+    # KHONG quet .html201.dtct / .dtct (khoi mo ta chi tiet) de lay anh —
+    # day chinh la noi anh chinh bi chen lap lai, gay trung lap khi tai.
+    # (Truoc day co quet o day, la nguyen nhan chinh cua bug trung anh.)
 
     result = []
     seen = set()
@@ -1153,83 +1301,314 @@ def get_extension(url, content_type=""):
 
 
 # ============================================================
-# DOWNLOAD IMAGE
+# DEDUPE THEO NOI DUNG ANH (HASH) — thay cho dedupe theo URL
 # ============================================================
+#
+# Van de: cung MOT anh gallery duoc trang san pham nhung lai vao chinh
+# vung mo ta chi tiet (.dtct / .html201.dtct). URL trong .dtct co the
+# khac mot chut so voi URL goc (khac so thu muc /1/, khac hoa/thuong,
+# query string...) nen dedupe-theo-URL o ban truoc khong bat duoc.
+# Fix: tai anh vao memory, hash SHA-256 NOI DUNG FILE, so sanh voi cac
+# anh DA LUU CUA CUNG SAN PHAM (khong so sanh cheo giua cac san pham
+# khac nhau — hai san pham dung chung 1 anh stock la binh thuong).
 
-def download_image(image_url, folder, index):
-    global downloaded, skipped, failed
+IMAGE_LOG_FILENAME = "_image_log.jsonl"
+IMAGE_EXTS_ON_DISK = (".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif")
 
+
+def sha256_bytes(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def scan_folder_hashes(folder):
+    """
+    Hash tat ca anh DA CO san trong thu muc san pham (ke ca tai tu
+    lan chay truoc, truoc khi co co che dedupe nay). Dung de RESUME
+    dung: khong bao gio luu them 1 ban trung noi dung voi anh da co.
+    """
+    hashes = set()
+    if not os.path.isdir(folder):
+        return hashes
+
+    for fname in os.listdir(folder):
+        if fname.startswith("_") or fname.startswith("."):
+            continue
+        fpath = os.path.join(folder, fname)
+        if not os.path.isfile(fpath):
+            continue
+        if os.path.splitext(fname)[1].lower() not in IMAGE_EXTS_ON_DISK:
+            continue
+        try:
+            with open(fpath, "rb") as f:
+                hashes.add(sha256_bytes(f.read()))
+        except Exception:
+            pass
+
+    return hashes
+
+
+def next_available_index(folder):
+    """
+    So thu tu tiep theo de dat ten file moi, dua vao so LON NHAT da
+    dung trong thu muc (khong phai so luong file), de khong bao gio de
+    len file cu neu danh so co khoang trong (vd anh bi loai vi trung).
+    """
+    max_index = 0
+    if os.path.isdir(folder):
+        for fname in os.listdir(folder):
+            match = re.match(r"^(\d+)\.", fname)
+            if match:
+                max_index = max(max_index, int(match.group(1)))
+    return max_index + 1
+
+
+def load_image_log(folder):
+    """
+    Log rieng cho tung san pham, dang {url: {status, file, hash}}.
+    Dung de RESUME o CAP DO TUNG URL ANH — khong request lai qua
+    mang mot URL da tung xu ly, ke ca URL do da bi phat hien la
+    duplicate-noi-dung (khong tao ra file nao).
+    """
+    path = os.path.join(folder, IMAGE_LOG_FILENAME)
+    log_map = {}
+    if not os.path.exists(path):
+        return log_map
+
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    obj = json.loads(line)
+                    url = obj.get("url")
+                    if url:
+                        log_map[url] = obj
+                except Exception:
+                    continue
+    except Exception:
+        pass
+
+    return log_map
+
+
+def append_image_log(folder, url, status, extra=None):
+    os.makedirs(folder, exist_ok=True)
+    path = os.path.join(folder, IMAGE_LOG_FILENAME)
+    obj = {
+        "url": url,
+        "status": status,
+        "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    }
+    if extra:
+        obj.update(extra)
+    try:
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+    except Exception as e:
+        log("IMAGE LOG ERROR", str(e))
+
+
+def write_image_bytes_atomic(filepath, data):
+    """
+    Ghi file tam trong CUNG thu muc dich roi os.replace() sang ten
+    cuoi. Neu chuong trinh bi tat giua luc ghi, khong bao gio de lai
+    1 file anh hong dung ten that o vi tri cuoi.
+    """
+    folder = os.path.dirname(filepath)
     os.makedirs(folder, exist_ok=True)
 
-    # Kiểm tra file đã tồn tại trước — không cần request lại.
-    existing = [
-        f for f in os.listdir(folder)
-        if f.startswith(f"{index:02d}.")
-    ] if os.path.isdir(folder) else []
+    fd, tmp_path = tempfile.mkstemp(dir=folder, prefix=".tmp_img_")
+    try:
+        with os.fdopen(fd, "wb") as f:
+            f.write(data)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp_path, filepath)
+    except Exception:
+        try:
+            os.remove(tmp_path)
+        except Exception:
+            pass
+        raise
 
-    if existing:
-        skipped += 1
-        log("IMAGE", f"skip (đã tồn tại) {existing[0]}")
-        return True
 
+# ============================================================
+# TAI ANH VAO MEMORY (chua luu file)
+# ============================================================
+
+def fetch_image_bytes(image_url):
+    """Tra ve (data_bytes, content_type, error_reason)."""
     response = request(image_url, stream=True)
 
     if response is None or is_rate_limited(response):
-        failed += 1
-        mark_failed(image_url, "image_download_failed")
-        return False
+        return None, None, "image_download_failed"
 
     if response.status_code != 200:
-        failed += 1
-        mark_failed(image_url, f"http_{response.status_code}")
-        return False
+        reason = f"http_{response.status_code}"
+        try:
+            response.close()
+        except Exception:
+            pass
+        return None, None, reason
 
     content_type = response.headers.get("Content-Type", "")
 
     if "text/html" in content_type.lower():
-        log("ERROR", f"response là HTML, không phải ảnh: {image_url}")
-        failed += 1
-        mark_failed(image_url, "html_not_image")
-        response.close()
-        return False
-
-    extension = get_extension(image_url, content_type)
-    filepath = os.path.join(folder, f"{index:02d}{extension}")
+        try:
+            response.close()
+        except Exception:
+            pass
+        return None, None, "html_not_image"
 
     try:
-        with open(filepath, "wb") as f:
-            for chunk in response.iter_content(chunk_size=128 * 1024):
-                if chunk:
-                    f.write(chunk)
+        chunks = []
+        for chunk in response.iter_content(chunk_size=128 * 1024):
+            if chunk:
+                chunks.append(chunk)
         response.close()
+    except Exception as e:
+        return None, None, f"exception_on_read:{type(e).__name__}"
 
-        if os.path.getsize(filepath) < 500:
-            os.remove(filepath)
-            failed += 1
-            mark_failed(image_url, "file_too_small")
-            return False
+    data = b"".join(chunks)
 
-        downloaded += 1
-        log("IMAGE", f"OK {os.path.basename(filepath)}")
+    if len(data) < 500:
+        return None, None, "file_too_small"
+
+    return data, content_type, None
+
+
+# ============================================================
+# DOWNLOAD + DEDUPE THEO HASH (thay the download_image cu)
+# ============================================================
+
+def download_and_dedupe_image(image_url, folder, hash_state, log_map):
+    """
+    Tai anh vao memory -> hash noi dung -> so sanh voi cac anh DA LUU
+    cua CUNG san pham (hash_state["hashes"]).
+
+    - Trung noi dung -> KHONG tao file, chi ghi log "duplicate".
+    - Moi -> luu file voi so thu tu tiep theo, cap nhat hash_state.
+    - URL da tung duoc xu ly thanh cong (saved/duplicate) -> bo qua
+      hoan toan, khong goi mang lai (RESUME dung o cap do tung anh).
+    - URL bi loi (vd http_404) -> THU LAI NGAY toi da
+      IMAGE_INLINE_RETRY_ATTEMPTS lan trong CUNG lan chay nay (vi
+      nhieu 404 chi la tam thoi do site chan bot/rate-limit). Neu van
+      loi sau do -> SE DUOC TU DONG RETRY o lan chay sau (khong bi coi
+      la "done"), toi da MAX_IMAGE_RETRY_ATTEMPTS lan.
+      Qua so lan do van loi -> bo cuoc voi URL nay, ghi ro vao
+      failed_urls.txt de xem lai thu cong, nhung KHONG chan san pham
+      duoc danh dau hoan tat (tranh retry vo han voi link chet that).
+
+    Tra ve True neu URL nay KHONG con chan viec danh dau san pham la
+    "da tai xong" (tuc la: da luu thanh cong, trung noi dung, hoac da
+    bo cuoc sau qua nhieu lan loi). Tra ve False neu van con nen thu
+    lai o lan chay sau (chua bo cuoc).
+    """
+    global downloaded, skipped, failed
+
+    prev = log_map.get(image_url)
+
+    if prev is not None and prev.get("status") in ("saved", "duplicate"):
+        skipped += 1
+        log("IMAGE", f"resume bỏ qua ({prev.get('status')}) {image_url}")
         return True
 
-    except Exception as e:
-        log("ERROR", f"{image_url} ({e})")
+    attempts_so_far = prev.get("attempts", 0) if prev else 0
+
+    if prev is not None and prev.get("status") == "failed" and attempts_so_far >= MAX_IMAGE_RETRY_ATTEMPTS:
+        skipped += 1
+        log("IMAGE", f"bỏ cuộc (đã thử {attempts_so_far} lần vẫn lỗi) {image_url}")
+        return True
+
+    # Retry ngay trong lan chay nay (2 lan thu them, delay tang dan)
+    # truoc khi coi la "loi" va ghi vao bo dem attempts-qua-cac-lan-chay.
+    # Nhieu http_404 chi la tam thoi (site chan bot/rate-limit) nen
+    # phan lon se qua ngay o lan thu lai thu 2/3 nay.
+    data = content_type = error = None
+    total_inline_tries = IMAGE_INLINE_RETRY_ATTEMPTS + 1
+
+    for inline_try in range(1, total_inline_tries + 1):
+        data, content_type, error = fetch_image_bytes(image_url)
+        if error is None:
+            break
+        if inline_try < total_inline_tries:
+            wait_s = IMAGE_INLINE_RETRY_DELAY * inline_try
+            log(
+                "IMAGE RETRY",
+                f"lần {inline_try}/{IMAGE_INLINE_RETRY_ATTEMPTS} lỗi {error}, "
+                f"thử lại sau {wait_s:.1f}s: {image_url}",
+            )
+            sleep_with_log(wait_s, tag="RETRY WAIT")
+
+    if error is not None:
         failed += 1
-        mark_failed(image_url, "exception_on_write")
+        new_attempts = attempts_so_far + 1
+        append_image_log(folder, image_url, "failed", {"reason": error, "attempts": new_attempts})
+        log_map[image_url] = {"status": "failed", "reason": error, "attempts": new_attempts}
 
-        if os.path.exists(filepath):
-            try:
-                os.remove(filepath)
-            except Exception:
-                pass
+        if new_attempts >= MAX_IMAGE_RETRY_ATTEMPTS:
+            mark_failed(image_url, f"{error}_max_retries")
+            log("ERROR", f"{error} (đã thử {new_attempts}/{MAX_IMAGE_RETRY_ATTEMPTS} lần, bỏ cuộc): {image_url}")
+            return True
 
+        mark_failed(image_url, error)
+        log("ERROR", f"{error} (lần {new_attempts}/{MAX_IMAGE_RETRY_ATTEMPTS}, sẽ tự retry lần chạy sau): {image_url}")
         return False
+
+    file_hash = sha256_bytes(data)
+
+    if file_hash in hash_state["hashes"]:
+        skipped += 1
+        append_image_log(folder, image_url, "duplicate", {"hash": file_hash})
+        log_map[image_url] = {"status": "duplicate", "hash": file_hash}
+        log("IMAGE", f"trùng nội dung với ảnh đã lưu (cùng sản phẩm) — bỏ qua: {image_url}")
+        return True
+
+    extension = get_extension(image_url, content_type)
+    index = hash_state["next_index"]
+    filename = f"{index:02d}{extension}"
+    filepath = os.path.join(folder, filename)
+
+    try:
+        write_image_bytes_atomic(filepath, data)
+    except Exception as e:
+        failed += 1
+        new_attempts = attempts_so_far + 1
+        append_image_log(folder, image_url, "failed", {"reason": f"write_error:{type(e).__name__}", "attempts": new_attempts})
+        log_map[image_url] = {"status": "failed", "reason": "write_error", "attempts": new_attempts}
+        mark_failed(image_url, "write_error")
+        log("ERROR", f"ghi file lỗi {filepath}: {e}")
+        return new_attempts >= MAX_IMAGE_RETRY_ATTEMPTS
+
+    hash_state["hashes"].add(file_hash)
+    hash_state["next_index"] = index + 1
+
+    downloaded += 1
+    append_image_log(folder, image_url, "saved", {"hash": file_hash, "file": filename})
+    log_map[image_url] = {"status": "saved", "hash": file_hash, "file": filename}
+    log("IMAGE", f"OK {filename}")
+    return True
 
 
 # ============================================================
 # PROCESS PRODUCT
 # ============================================================
+
+def product_has_pending_failures(folder):
+    """
+    True neu thu muc san pham nay CON anh bi loi nhung CHUA het luot
+    retry (attempts < MAX_IMAGE_RETRY_ATTEMPTS). Dung de kiem tra lai
+    ngay ca voi san pham DA TUNG bi danh dau "downloaded" sai (tu ban
+    truoc khi co fix nay), de khong bo lo viec retry anh 404.
+    """
+    log_map = load_image_log(folder)
+    for entry in log_map.values():
+        if entry.get("status") == "failed" and entry.get("attempts", 0) < MAX_IMAGE_RETRY_ATTEMPTS:
+            return True
+    return False
+
 
 def process_product(url):
     log("PRODUCT", url)
@@ -1254,11 +1633,15 @@ def process_product(url):
 
     log("PRODUCT", f"code={code}")
 
-    if code in downloaded_products:
-        log("PRODUCT", f"code={code} đã tải trước đó — resume, bỏ qua.")
-        return True
-
     folder = os.path.join(OUTPUT_DIR, code)
+
+    if code in downloaded_products:
+        if not product_has_pending_failures(folder):
+            log("PRODUCT", f"code={code} đã tải trước đó — resume, bỏ qua.")
+            return True
+        log("PRODUCT", f"code={code} đã đánh dấu 'hoàn tất' trước đó nhưng còn ảnh lỗi "
+                        f"chưa hết lượt retry — kiểm tra lại.")
+
     images = extract_product_images(soup, url)
 
     log("PRODUCT", f"tìm thấy {len(images)} ảnh")
@@ -1267,12 +1650,30 @@ def process_product(url):
         log("PRODUCT", "không có ảnh")
         return False
 
+    # hash_state theo dung SAN PHAM NAY: nap hash cac anh da co san
+    # (tu lan chay truoc) + so thu tu tiep theo an toan de dat ten
+    # file, roi dedupe theo NOI DUNG khi tai tung anh trong danh sach.
+    hash_state = {
+        "hashes": scan_folder_hashes(folder),
+        "next_index": next_available_index(folder),
+    }
+    log_map = load_image_log(folder)
+
+    any_pending_failure = False
+
     for index, image_url in enumerate(images, start=1):
         log("IMAGE", f"{index}/{len(images)} {image_url}")
-        download_image(image_url, folder, index)
+        resolved = download_and_dedupe_image(image_url, folder, hash_state, log_map)
+        if not resolved:
+            any_pending_failure = True
         sleep_with_log(IMAGE_DELAY, tag="WAIT")
 
-    mark_product_downloaded(code)
+    if any_pending_failure:
+        log("PRODUCT", f"code={code}: còn ảnh lỗi chưa hết lượt retry — "
+                        f"CHƯA đánh dấu hoàn tất, sẽ tự thử lại ở lần chạy sau.")
+    else:
+        mark_product_downloaded(code)
+
     return True
 
 
@@ -1408,6 +1809,14 @@ def crawl():
             log("PRODUCT FOUND", url)
             mark_visited(url)
             processed_this_run += 1
+            batch_cooldown(processed_this_run)
+            continue
+
+        if is_article_page(soup, url):
+            log("ARTICLE SKIP", f"bài viết/tin tức — bỏ qua, không crawl tiếp: {url}")
+            mark_visited(url)
+            processed_this_run += 1
+            sleep_with_log(random.uniform(0.5, 1.5), tag="WAIT")
             batch_cooldown(processed_this_run)
             continue
 
