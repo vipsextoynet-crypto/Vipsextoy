@@ -77,8 +77,11 @@ export default async function ProductPage({
 
       <div className="grid gap-12 md:grid-cols-2">
         <ProductGallery
-          images={product.images}
-          fallbackImage={product.image}
+          images={
+            product.image
+              ? [product.image, ...(product.images || []).filter((u) => u !== product.image)]
+              : product.images
+          }
           icon={product.icon}
           name={product.name}
         />

@@ -17,7 +17,12 @@
 //   node scripts/upload-images-to-blob.mjs --apply --dry-run # xem truoc phan ghi products.ts
 //   node scripts/upload-images-to-blob.mjs --apply           # ghi link vao products.ts
 //
-// Tuy chon: --max-width=1200  --quality=80  --concurrency=5
+// Tuy chon: --max-width=1200  --quality=80  --concurrency=5  --max-per-sku=N
+//   --max-per-sku=1 : chi tai 1 anh dai dien cho moi SKU (tiet kiem luot tai len).
+//
+// LUU Y GOI HOBBY: Vercel Blob tinh moi anh tai len = 1 "Advanced Operation";
+// goi Hobby chi cho 2.000 luot/thang. Dung --dry-run de xem tong so anh, neu
+// vuot han muc thi dung --max-per-sku=1 (hoac tai lam nhieu dot theo --limit).
 //
 // AN TOAN
 //  - Chay lai bao nhieu lan cung duoc: SKU nao da tai xong (ghi trong
@@ -51,6 +56,7 @@ const LIMIT = parseInt(opt("limit", "0"), 10) || 0;
 const MAX_WIDTH = parseInt(opt("max-width", "1200"), 10);
 const QUALITY = parseInt(opt("quality", "80"), 10);
 const CONCURRENCY = Math.max(1, parseInt(opt("concurrency", "5"), 10) || 5);
+const MAX_PER_SKU = parseInt(opt("max-per-sku", "0"), 10) || 0;
 
 // ---------- tien ich ----------
 function loadEnvFiles() {
@@ -94,7 +100,8 @@ function scanFolders() {
       .readdirSync(dir)
       .filter((f) => VALID_EXT.has(path.extname(f).toLowerCase()))
       .sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
-    if (files.length) out.push({ sku: d.name.toLowerCase(), dir, files });
+    const picked = MAX_PER_SKU > 0 ? files.slice(0, MAX_PER_SKU) : files;
+    if (picked.length) out.push({ sku: d.name.toLowerCase(), dir, files: picked });
   }
   return out;
 }
@@ -120,7 +127,11 @@ async function retry(fn, times = 3) {
 async function uploadPhase() {
   const folders = scanFolders();
   const map = loadMap();
-  let todo = folders.filter((f) => !map[f.sku]?.done);
+  const isDone = (f) => {
+    const e = map[f.sku];
+    return !!e?.done && (e.expected ?? e.urls?.length ?? 0) >= f.files.length;
+  };
+  let todo = folders.filter((f) => !isDone(f));
   const totalFiles = folders.reduce((n, f) => n + f.files.length, 0);
   let originalBytes = 0;
   for (const f of folders) for (const file of f.files) originalBytes += fs.statSync(path.join(f.dir, file)).size;
@@ -128,6 +139,8 @@ async function uploadPhase() {
   console.log(`Tim thay ${folders.length} SKU, ${totalFiles} anh, tong ${fmtMB(originalBytes)}.`);
   console.log(`Da tai xong truoc do: ${folders.length - todo.length} SKU. Con lai: ${todo.length} SKU.`);
   if (LIMIT) todo = todo.slice(0, LIMIT);
+  const opsNeeded = todo.reduce((n, f) => n + f.files.length, 0);
+  console.log(`Se ton khoang ${opsNeeded} luot "Advanced Operation" (moi anh tai len = 1; goi Hobby: 2.000/thang).`);
 
   if (DRY) {
     console.log(`\n[XEM TRUOC] Se nen (toi da rong ${MAX_WIDTH}px, WebP chat luong ${QUALITY}) va tai ${todo.length} SKU.`);
@@ -197,7 +210,7 @@ async function uploadPhase() {
         }
       }
       if (urls.length) {
-        map[f.sku] = { urls, done: true };
+        map[f.sku] = { urls, done: true, expected: f.files.length };
         saveMap(map);
       }
       done++;

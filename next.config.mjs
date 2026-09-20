@@ -11,7 +11,7 @@ const nextConfig = {
       {
         // Anh upload qua trang admin (Vercel Blob) - domain dang *.public.blob.vercel-storage.com
         protocol: "https",
-        hostname: "*.public.blob.vercel-storage.com",
+        hostname: "qcxb98job7ykqv8o.public.blob.vercel-storage.com",
       },
     ],
     formats: ["image/avif", "image/webp"],
