@@ -26627,6 +26627,18 @@ export const products: Product[] = [
     image: "/anh1/DC82B/dc82b1.jpg",
     images: ["/anh1/DC82B/dc82b1.jpg", "/anh1/DC82B/dc82b2.jpg", "/anh1/DC82B/dc82b3.jpg", "/anh1/DC82B/dc82b4.jpg"],
   },
+  {
+    slug: "phich-hau-mon-rung-xoay-360-do",
+    sku: "HM37B",
+    name: "Phích hậu môn rung xoay 360 độ",
+    category: "Đồ Chơi Hậu Môn",
+    categorySlug: "do-choi-hau-mon",
+    price: 900000,
+    blurb: "",
+    description: "Chức năng : \n\nHỗ trợ thư giãn và giải tỏa căng thẳng\n\nMang lại trải nghiệm mới mẻ, chủ động kiểm soát\n\nPhù hợp sử dụng cá nhân hoặc trong không gian riêng tư\n\nDễ sử dụng, không yêu cầu thao tác phức tạp\n\nThiết kế kín đáo, dễ bảo quản.\n\nKích thước : 3,5x10cm",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
