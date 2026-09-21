@@ -1001,6 +1001,7 @@ export const products: Product[] = [
     features: ["Chất liệu an toàn", "Thiết kế đa dạng", "Đóng gói kín đáo", "Bảo hành chính hãng"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2803/1.jpg",
+    sensitive: true,
   },
   {
     slug: "dc69u-may-tap-duong-vat-luoge-lg110-tang-kich-co-cai-thien-sinh-ly-nam",
