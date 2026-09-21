@@ -109,7 +109,7 @@ export default async function ProductPage({
             </span>
           </div>
           <p className="mt-6 leading-relaxed text-muted">
-            {product.description}
+            {product.blurb}
           </p>
 
           <ul className="mt-6 flex flex-col gap-2">
@@ -159,9 +159,15 @@ export default async function ProductPage({
             <dd className="mt-1 text-ivory">3 tháng lỗi NSX</dd>
           </div>
         </dl>
+        <div className="mt-6 border-t border-line pt-5">
+          <p className="whitespace-pre-line text-sm leading-relaxed text-muted">
+            {product.description}
+          </p>
+        </div>
 
         <p className="mt-6 border-t border-line pt-5 text-sm text-muted">
           Cần thêm thông số (chất liệu, kích thước, dung tích pin...)? Nhắn
+
           hotline{" "}
           <a href={site.phoneHref} className="font-semibold text-gold">
             {site.phone}
