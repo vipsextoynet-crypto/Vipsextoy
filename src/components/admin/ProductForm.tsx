@@ -20,7 +20,6 @@ export default function ProductForm({
   const [categorySlug, setCategorySlug] = useState(initial?.categorySlug || categories[0]?.slug || "");
   const [price, setPrice] = useState(initial ? String(initial.price) : "");
   const [compareAt, setCompareAt] = useState(initial?.compareAt ? String(initial.compareAt) : "");
-  const [blurb, setBlurb] = useState(initial?.blurb || "");
   const [description, setDescription] = useState(initial?.description || "");
   const [features, setFeatures] = useState(initial?.features.join("\n") || "");
   const [icon, setIcon] = useState<typeof ICONS[number]>((initial?.icon as typeof ICONS[number]) || "wave");
@@ -58,7 +57,6 @@ export default function ProductForm({
           categorySlug,
           price: Number(price),
           compareAt: compareAt ? Number(compareAt) : undefined,
-          blurb: blurb.trim() || undefined,
           description: description.trim(),
           features: features
             .split("\n")
@@ -173,9 +171,6 @@ export default function ProductForm({
         </Field>
       </div>
 
-      <Field label="Mô tả ngắn (hiện ở thẻ sản phẩm, để trống tự lấy từ mô tả chi tiết)">
-        <input value={blurb} onChange={(e) => setBlurb(e.target.value)} className={inputCls} />
-      </Field>
 
       <Field label="Mô tả chi tiết *">
         <textarea

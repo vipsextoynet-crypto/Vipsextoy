@@ -43,7 +43,8 @@ export async function PUT(
     categorySlug: category.slug,
     price: Number(price),
     ...(compareAt ? { compareAt: Number(compareAt) } : {}),
-    blurb: blurb || description.slice(0, 120),
+    // De trong thi de trong (khong tu lay tu mo ta chi tiet)
+    blurb: (blurb || "").trim(),
     description,
     features: Array.isArray(features) && features.length > 0 ? features : existing.features,
     icon: icon || existing.icon,

@@ -42,7 +42,8 @@ export async function POST(req: NextRequest) {
     categorySlug: category.slug,
     price: Number(price),
     ...(body.compareAt ? { compareAt: Number(body.compareAt) } : {}),
-    blurb: blurb || description.slice(0, 120),
+    // De trong thi de trong (khong tu lay tu mo ta chi tiet)
+    blurb: (blurb || "").trim(),
     description,
     features: Array.isArray(features) && features.length > 0
       ? features
