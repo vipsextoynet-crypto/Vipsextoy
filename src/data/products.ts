@@ -349,6 +349,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44Y/01.jpg",
     images: ["/anh1/DV44Y/01.jpg", "/anh1/DV44Y/05.jpg", "/anh1/DV44Y/06.jpg"],
+    sensitive: true,
   },
   {
     slug: "bd09a-bao-don-den-braveman-co-rung-gai-gan-ho-tro-tang-kich-thuoc-va-tang-cam-giac",
