@@ -108,9 +108,11 @@ export default async function ProductPage({
               Mã sản phẩm: <span className="text-ivory">{product.sku}</span>
             </span>
           </div>
-          <p className="mt-6 leading-relaxed text-muted">
-            {product.blurb}
-          </p>
+            {product.blurb && (
+              <p className="mt-6 leading-relaxed text-muted">
+                {product.blurb}
+              </p>
+            )}
 
           <ul className="mt-6 flex flex-col gap-2">
             {product.features.map((f) => (
