@@ -26688,6 +26688,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "may-rung-bu-kich-thich-am-vat-cao-cap-womanizer-premium-2",
+    sku: "DC96A",
+    name: "Máy rung bú kích thích âm vật cao cấp Womanizer Premium 2",
+    category: "Máy Massage Cá Nhân",
+    categorySlug: "may-massage-ca-nhan",
+    price: 5950000,
+    blurb: "",
+    description: "Thông số kỹ thuật:   Máy rung bú kích thích âm vật cao cấp Womanizer Premium 2\n\nMàu sắc: Đen, Đỏ\n\nThời gian chạy240 phút\n\nThời gian sạc120 phút\n\nVật liệu đầuSilicone an toàn cho cơ thể\n\nNguyên vật liệuChất liệu silicone an toàn cho cơ thể, không chứa phthalates, BPA hoặc latex.\n\nCân nặng141,4 g\n\nKích thước155 mm x 50 mm x 35 mm",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
