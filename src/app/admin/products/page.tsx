@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { products } from "@/data/products";
 import ProductsListClient from "@/components/admin/ProductsListClient";
+import PublishButton from "@/components/admin/PublishButton";
 
 export const dynamic = "force-dynamic";
 
@@ -35,6 +36,10 @@ export default function AdminProductsPage() {
             + Thêm sản phẩm
           </Link>
         </div>
+      </div>
+
+      <div className="mb-6 border border-line bg-surface p-4">
+        <PublishButton />
       </div>
 
       <h1 className="mb-1 font-serif text-2xl text-ivory">Tất cả sản phẩm</h1>

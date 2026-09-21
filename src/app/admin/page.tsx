@@ -1,5 +1,6 @@
 import Link from "next/link";
 import LogoutButton from "@/components/admin/LogoutButton";
+import PublishButton from "@/components/admin/PublishButton";
 
 export const dynamic = "force-dynamic";
 
@@ -25,6 +26,14 @@ export default function AdminHomePage() {
           <h2 className="mb-1 font-serif text-lg text-ivory">Đơn hàng</h2>
           <p className="text-sm text-muted">Xem các đơn hàng khách đã đặt.</p>
         </Link>
+      </div>
+
+      <div className="mt-8 border border-line bg-surface p-5">
+        <h2 className="mb-1 font-serif text-lg text-ivory">Đăng lên web</h2>
+        <p className="mb-4 text-sm text-muted">
+          Thêm/sửa/xoá sản phẩm chỉ được lưu nháp. Bấm nút dưới khi đã xong để web cập nhật một lần.
+        </p>
+        <PublishButton />
       </div>
 
       <div className="mt-10">
