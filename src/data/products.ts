@@ -19,6 +19,7 @@ export type Product = {
   // Danh dau san pham co hinh anh qua nhay cam -> se bi che (18+) tren
   // trang chu va trang danh sach/danh muc, khach phai bam de xem anh thuc.
   sensitive?: boolean;
+  longDescription?: string;
 };
 
 export type Category = {
