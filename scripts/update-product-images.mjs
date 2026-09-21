@@ -1,34 +1,18 @@
 // scripts/update-product-images.mjs
 //
-// Cap nhat hang loat field "image" trong src/data/products.ts, lay anh THAT
-// tu thu muc ban da chuan bi san theo cau truc:
+// Cap nhat hang loat field "image" + "images" trong src/data/products.ts,
+// lay anh THAT tu thu muc ban da chuan bi san theo cau truc:
 //
-//   public/anh/<sku-viet-thuong>/  (vd: public/anh/dc89p/)
+//   public/anh1/<sku-viet-thuong>/  (vd: public/anh1/dc89p/)
 //     - chua 1 hoac nhieu anh cua dung SKU do (jpg/jpeg/png/webp)
 //
-// Cach hoat dong:
-// - Script quet toan bo thu muc con trong public/anh/
-// - Voi moi SKU trong products.ts, tim thu muc trung ten (KHONG phan biet
-//   hoa/thuong - vi Windows va Linux/Vercel xu ly khac nhau, script tu
-//   chuan hoa ve chu thuong de khop chinh xac)
-// - Neu thu muc co NHIEU anh, LAY ANH DAU TIEN (theo thu tu ten file) lam
-//   anh dai dien "image" cho san pham (schema hien tai chi co 1 anh/san
-//   pham). Cac anh con lai trong thu muc KHONG bi xoa, van nam san neu sau
-//   nay ban muon lam thu vien anh (gallery) nhieu anh/san pham.
-// - SKU nao KHONG co thu muc tuong ung se bi BO QUA (giu nguyen anh cu,
-//   khong xoa gi ca) - an toan, chay lai bao nhieu lan cung duoc.
+// Script nay ghi de CA field "image" (Blob URL cu, dang hong) lan "images"
+// bang duong dan noi bo /anh1/... - anh nam san trong repo, khong phu
+// thuoc dich vu ngoai nao, khong ton phi/luot thao tac nao ca.
 //
 // CACH DUNG
-// ---------
-// 1) Chuan bi xong thu muc public/anh/<sku>/... voi it nhat 1 anh moi SKU.
-// 2) Chay thu truoc voi che do XEM TRUOC (khong ghi gi ca, chi in ra man
-//    hinh se doi gi):
-//      node scripts/update-product-images.mjs --dry-run
-// 3) Ung y thi chay that:
-//      node scripts/update-product-images.mjs
-//
-// AN TOAN DU LIEU: tu dong sao luu ban goc thanh products.ts.bak-images
-// TRUOC KHI ghi de (neu file .bak nay chua ton tai).
+//   node scripts/update-product-images.mjs --dry-run   # xem truoc
+//   node scripts/update-product-images.mjs             # ghi that
 
 import fs from "node:fs";
 import path from "node:path";
@@ -36,15 +20,19 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PRODUCTS_PATH = path.join(ROOT, "src/data/products.ts");
-const BACKUP_PATH = path.join(ROOT, "src/data/products.ts.bak-images");
-const IMAGES_ROOT = path.join(ROOT, "public/anh");
+const BACKUP_PATH = path.join(ROOT, "src/data/products.ts.bak-local");
+const IMAGES_ROOT = path.join(ROOT, "public/anh1");
 
 const VALID_EXT = [".jpg", ".jpeg", ".png", ".webp"];
 
+function naturalCompare(a, b) {
+  return a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
+}
+
 function buildSkuToImageMap() {
-  const map = new Map(); // sku viet thuong -> duong dan public "/anh/<folder>/<file>"
+  const map = new Map();
   if (!fs.existsSync(IMAGES_ROOT)) {
-    console.error(`Khong tim thay thu muc ${IMAGES_ROOT}. Tao thu muc nay va bo anh vao truoc.`);
+    console.error(`Khong tim thay thu muc ${IMAGES_ROOT}.`);
     process.exit(1);
   }
   const folders = fs.readdirSync(IMAGES_ROOT, { withFileTypes: true }).filter((d) => d.isDirectory());
@@ -53,11 +41,10 @@ function buildSkuToImageMap() {
     const files = fs
       .readdirSync(folderPath)
       .filter((f) => VALID_EXT.includes(path.extname(f).toLowerCase()))
-      .sort();
+      .sort(naturalCompare);
     if (files.length === 0) continue;
-    const chosen = files[0];
     map.set(folder.name.toLowerCase(), {
-      publicPath: `/anh/${folder.name}/${chosen}`,
+      publicPaths: files.map((f) => `/anh1/${folder.name}/${f}`),
       totalImages: files.length,
     });
   }
@@ -81,11 +68,24 @@ function extractField(blockText, field) {
 }
 
 function setImageField(blockText, newPath) {
-  if (/image:\s*"(?:[^"\\]|\\.)*"/.test(blockText)) {
-    return blockText.replace(/image:\s*"(?:[^"\\]|\\.)*"/, `image: "${newPath}"`);
+  if (/(?<!s)image:\s*"(?:[^"\\]|\\.)*"/.test(blockText)) {
+    return blockText.replace(/(?<!s)image:\s*"(?:[^"\\]|\\.)*"/, `image: "${newPath}"`);
   }
-  // Chua co field image (hiem khi xay ra) -> them vao truoc dau "},\n" cuoi block
   return blockText.replace(/\n(  \},\n)$/, `\n    image: "${newPath}",\n$1`);
+}
+
+function setImagesField(blockText, paths) {
+  const arrayLiteral = `images: [${paths.map((p) => `"${p}"`).join(", ")}]`;
+  if (/images:\s*\[(?:[^\]]*)\]/.test(blockText)) {
+    return blockText.replace(/images:\s*\[(?:[^\]]*)\]/, arrayLiteral);
+  }
+  if (/(?<!s)image:\s*"(?:[^"\\]|\\.)*",?\n/.test(blockText)) {
+    return blockText.replace(
+      /((?<!s)image:\s*"(?:[^"\\]|\\.)*",?\n)/,
+      `$1    ${arrayLiteral},\n`
+    );
+  }
+  return blockText.replace(/\n(  \},\n)$/, `\n    ${arrayLiteral},\n$1`);
 }
 
 function main() {
@@ -99,12 +99,11 @@ function main() {
   let offsetShift = 0;
   let updated = 0;
   let skippedNoFolder = 0;
-
   const matchedLog = [];
 
   for (const block of blocks) {
     const sku = extractField(block.text, "sku");
-    if (!sku) continue; // block danh muc, khong phai san pham
+    if (!sku) continue;
 
     const found = skuMap.get(sku.toLowerCase());
     if (!found) {
@@ -112,12 +111,11 @@ function main() {
       continue;
     }
 
-    const newBlockText = setImageField(block.text, found.publicPath);
-    if (newBlockText === block.text) continue; // khong doi gi (da dung roi)
+    let newBlockText = setImageField(block.text, found.publicPaths[0]);
+    newBlockText = setImagesField(newBlockText, found.publicPaths);
+    if (newBlockText === block.text) continue;
 
-    matchedLog.push(
-      `${sku} -> ${found.publicPath}${found.totalImages > 1 ? ` (co ${found.totalImages} anh, dang dung anh dau tien)` : ""}`
-    );
+    matchedLog.push(`${sku} -> ${found.totalImages} anh (${found.publicPaths[0]})`);
 
     if (!dryRun) {
       const realStart = block.start + offsetShift;

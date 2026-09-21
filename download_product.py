@@ -21,8 +21,21 @@ import tempfile
 from datetime import datetime
 from urllib.parse import urljoin, urlparse, urldefrag
 
+import io
+
 import requests
 from bs4 import BeautifulSoup
+
+# Pillow dùng để so sánh ảnh theo HÌNH ẢNH (perceptual hash), bắt được cả
+# trường hợp cùng 1 ảnh nhưng khác kích thước / khác mức nén (SHA-256 không
+# bắt được). Không bắt buộc: thiếu Pillow thì chỉ còn dedupe SHA-256.
+# Cài bằng:  pip install pillow
+try:
+    from PIL import Image
+    PIL_AVAILABLE = True
+except ImportError:
+    Image = None
+    PIL_AVAILABLE = False
 
 
 # ============================================================
@@ -126,6 +139,24 @@ ARTICLE_HTML_SELECTORS = [
     ".detail-news", ".article-detail", ".post-detail",
     "article.post", ".blog-detail", ".blog_detail",
 ]
+
+# ---- Chống trùng ảnh -----------------------------------------
+#
+# Ảnh nằm TRONG các khối có class dưới đây là ảnh "mô tả chi tiết" (site hay
+# chèn lặp lại ảnh chính xuống đó) -> KHÔNG lấy. Kiểm tra theo TỔ TIÊN của
+# thẻ ảnh, nên dù ảnh có id/class giống ảnh gallery vẫn bị loại.
+# Nếu site còn khối mô tả nào khác gây trùng, thêm class của nó vào đây.
+DESCRIPTION_BLOCK_CLASSES = {
+    "dtct", "html201",
+    "product-description", "product-desc", "mo-ta-san-pham", "mota",
+}
+
+# So sánh ảnh theo hình (perceptual hash) sau khi tải. Khoảng cách Hamming
+# (trên 256 bit) <= ngưỡng này thì coi là CÙNG 1 ảnh. Cùng ảnh khác kích
+# thước/nén thường cách nhau < 10; 2 ảnh khác nhau thường > 60.
+# Tăng nếu vẫn còn trùng; giảm nếu thấy bị loại nhầm ảnh khác góc chụp.
+VISUAL_DEDUPE_ENABLED = True
+VISUAL_DEDUPE_MAX_DISTANCE = 12
 
 # ---- Concurrency ---------------------------------------------
 #
@@ -1219,39 +1250,73 @@ def normalize_image_url(value, page_url):
 # PRODUCT IMAGES
 # ============================================================
 
+IMAGE_URL_ATTRS = ("data-large", "data-original", "data-src", "src")
+
+
+def is_in_description_block(tag):
+    """
+    True neu the nam BEN TRONG khoi mo ta chi tiet (.dtct / .html201...).
+    Kiem tra ca chuoi to tien, nen du anh trong khoi mo ta co dung chung
+    id="anh_chitiet_sanpham" hay nam long trong .sanpham/.product-detail
+    thi van bi loai.
+    """
+    node = tag
+    while node is not None:
+        attrs = getattr(node, "attrs", None) or {}
+        classes = attrs.get("class") or []
+        if isinstance(classes, str):
+            classes = classes.split()
+        if any(c.lower() in DESCRIPTION_BLOCK_CLASSES for c in classes):
+            return True
+        node = node.parent
+    return False
+
+
 def extract_product_images(soup, page_url):
     """
-    Lay anh gallery cua san pham.
+    Lay anh gallery cua san pham, KHONG lay anh trong phan mo ta chi tiet.
 
-    QUAN TRONG (xac nhan tu thuc te site vipsextoy.net): trang co thoi
-    quen chen LAP LAI anh chinh (#anh_chitiet_sanpham) xuong phan "mo
-    ta chi tiet san pham" (khoi .dtct / .html201.dtct). Vi vay khoi
-    .dtct/.html201.dtct KHONG duoc dung lam nguon anh o day nua — no
-    chi con dung de nhan dien "day co phai trang san pham khong"
-    (is_product_page). Neu quet anh trong khoi mo ta, se vo tinh bat
-    lai dung ban sao bi chen lap, gay trung lap khi tai.
-
-    #anh_chitiet_sanpham co the xuat hien NHIEU LAN tren trang (moi
-    anh trong gallery dung CHUNG 1 id — khong chuan HTML nhung dung
-    thuc te cua site) nen phai lay TAT CA the co id nay bang find_all,
-    khong chi lay the dau tien bang select_one (neu chi lay 1 the se
-    bo sot cac anh gallery khac).
-
-    Co che hash-dedupe khi tai anh (download_and_dedupe_image) van duoc
-    giu lai o BUOC SAU nhu mot lop phong thu thu 2, phong truong hop
-    trung lap den tu nguon khac ngoai .dtct ma ta chua luong het.
+    3 nguyen nhan gay trung anh (da sua):
+    1. Trang chen lap lai anh chinh xuong khoi mo ta (.dtct/.html201).
+       Ban cu chi bo quet selector ".dtct" nhung van lay trung vi:
+         - find_all(id="anh_chitiet_sanpham") bat CA ban sao trong .dtct
+           (ban sao dung chung id), va
+         - cac selector rong (.sanpham img, .product-detail img...) co the
+           bao trum ca khoi mo ta.
+       -> Nay moi the anh deu bi kiem tra to tien; nam trong khoi mo ta
+          thi bo qua (is_in_description_block).
+    2. Moi the <img> ban cu them CA data-large lan src (2 URL khac nhau
+       cua cung 1 anh: ban lon + ban nho) -> tai 2 lan. Nay moi the chi
+       lay 1 URL tot nhat theo thu tu uu tien.
+    3. Trung khac kich thuoc/nen thi SHA-256 khong bat duoc -> xem
+       download_and_dedupe_image (perceptual hash).
     """
     candidates = []
+    fallback = []          # ban khong loc, chi dung neu loc xong bi rong
+    skipped_in_desc = 0
 
-    def add(value):
-        url = normalize_image_url(value, page_url)
-        if url:
-            candidates.append(url)
+    def best_url(tag):
+        # Moi the <img> chi lay 1 URL: thu tu uu tien data-large -> src.
+        for attr in IMAGE_URL_ATTRS:
+            url = normalize_image_url(tag.get(attr), page_url)
+            if url:
+                return url
+        return None
+
+    def consider(tag):
+        nonlocal skipped_in_desc
+        url = best_url(tag)
+        if not url:
+            return
+        fallback.append(url)
+        if is_in_description_block(tag):
+            skipped_in_desc += 1
+            return
+        candidates.append(url)
 
     # Nguon anh chinh: TAT CA the co id="anh_chitiet_sanpham" (co the lap id).
     for main in soup.find_all(id="anh_chitiet_sanpham"):
-        for attr in ("data-large", "data-original", "data-src", "src"):
-            add(main.get(attr))
+        consider(main)
 
     gallery_selectors = [
         ".anh_chitiet_sanpham img", ".product-gallery img", ".product-detail img",
@@ -1261,12 +1326,16 @@ def extract_product_images(soup, page_url):
 
     for selector in gallery_selectors:
         for img in soup.select(selector):
-            for attr in ("data-large", "data-original", "data-src", "src"):
-                add(img.get(attr))
+            consider(img)
 
-    # KHONG quet .html201.dtct / .dtct (khoi mo ta chi tiet) de lay anh —
-    # day chinh la noi anh chinh bi chen lap lai, gay trung lap khi tai.
-    # (Truoc day co quet o day, la nguyen nhan chinh cua bug trung anh.)
+    if skipped_in_desc:
+        log("PRODUCT", f"bỏ qua {skipped_in_desc} ảnh nằm trong phần mô tả chi tiết")
+
+    # Phong ho: neu loc xong khong con anh nao (site doi cau truc), van
+    # lay anh chinh dau tien de khong bo sot ca san pham.
+    if not candidates and fallback:
+        log("PRODUCT", "CẢNH BÁO: lọc xong không còn ảnh — dùng ảnh chính đầu tiên (kiểm tra lại cấu trúc HTML)")
+        candidates = fallback[:1]
 
     result = []
     seen = set()
@@ -1318,6 +1387,69 @@ IMAGE_EXTS_ON_DISK = (".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif")
 
 def sha256_bytes(data):
     return hashlib.sha256(data).hexdigest()
+
+
+def perceptual_hash(data):
+    """
+    dHash 16x16 (256 bit) tinh tu noi dung anh. Cung 1 anh nhung khac kich
+    thuoc / khac muc nen JPEG / khac dinh dang se cho hash gan nhau, nen
+    so sanh bang khoang cach Hamming. Tra ve int, hoac None neu khong doc
+    duoc anh / khong co Pillow.
+    """
+    if not (VISUAL_DEDUPE_ENABLED and PIL_AVAILABLE):
+        return None
+    try:
+        with Image.open(io.BytesIO(data)) as im:
+            resample = getattr(Image, "Resampling", Image).LANCZOS
+            im = im.convert("L").resize((17, 16), resample)
+            px = list(im.getdata())
+    except Exception:
+        return None
+
+    bits = 0
+    for row in range(16):
+        base = row * 17
+        for col in range(16):
+            bits = (bits << 1) | (1 if px[base + col] > px[base + col + 1] else 0)
+    return bits
+
+
+def find_similar_image(phash, known):
+    """
+    known: list[(phash, ten_file)]. Tra ve ten_file cua anh DA LUU giong
+    anh nay (khoang cach <= VISUAL_DEDUPE_MAX_DISTANCE), hoac None.
+    """
+    if phash is None:
+        return None
+    for other, name in known:
+        if bin(phash ^ other).count("1") <= VISUAL_DEDUPE_MAX_DISTANCE:
+            return name
+    return None
+
+
+def scan_folder_phashes(folder):
+    """Perceptual hash cua cac anh DA CO san trong thu muc (de resume dung)."""
+    result = []
+    if not (VISUAL_DEDUPE_ENABLED and PIL_AVAILABLE) or not os.path.isdir(folder):
+        return result
+
+    for fname in sorted(os.listdir(folder)):
+        if fname.startswith("_") or fname.startswith("."):
+            continue
+        fpath = os.path.join(folder, fname)
+        if not os.path.isfile(fpath):
+            continue
+        if os.path.splitext(fname)[1].lower() not in IMAGE_EXTS_ON_DISK:
+            continue
+        try:
+            with open(fpath, "rb") as f:
+                ph = perceptual_hash(f.read())
+            if ph is not None:
+                result.append((ph, fname))
+        except Exception:
+            pass
+
+    return result
 
 
 def scan_folder_hashes(folder):
@@ -1566,6 +1698,16 @@ def download_and_dedupe_image(image_url, folder, hash_state, log_map):
         log("IMAGE", f"trùng nội dung với ảnh đã lưu (cùng sản phẩm) — bỏ qua: {image_url}")
         return True
 
+    # Trung THEO HINH (cung anh nhung khac kich thuoc/nen -> SHA-256 khac).
+    phash = perceptual_hash(data)
+    similar_to = find_similar_image(phash, hash_state.get("phashes", []))
+    if similar_to:
+        skipped += 1
+        append_image_log(folder, image_url, "duplicate", {"hash": file_hash, "similar_to": similar_to})
+        log_map[image_url] = {"status": "duplicate", "hash": file_hash, "similar_to": similar_to}
+        log("IMAGE", f"giống ảnh {similar_to} (cùng hình, khác kích thước/nén) — bỏ qua: {image_url}")
+        return True
+
     extension = get_extension(image_url, content_type)
     index = hash_state["next_index"]
     filename = f"{index:02d}{extension}"
@@ -1584,6 +1726,8 @@ def download_and_dedupe_image(image_url, folder, hash_state, log_map):
 
     hash_state["hashes"].add(file_hash)
     hash_state["next_index"] = index + 1
+    if phash is not None:
+        hash_state.setdefault("phashes", []).append((phash, filename))
 
     downloaded += 1
     append_image_log(folder, image_url, "saved", {"hash": file_hash, "file": filename})
@@ -1655,6 +1799,7 @@ def process_product(url):
     # file, roi dedupe theo NOI DUNG khi tai tung anh trong danh sach.
     hash_state = {
         "hashes": scan_folder_hashes(folder),
+        "phashes": scan_folder_phashes(folder),
         "next_index": next_available_index(folder),
     }
     log_map = load_image_log(folder)
@@ -1901,6 +2046,10 @@ def main():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     load_state()
+
+    if VISUAL_DEDUPE_ENABLED and not PIL_AVAILABLE:
+        log("WARN", "Chưa cài Pillow -> chỉ chống trùng theo SHA-256 (không bắt được ảnh "
+                    "trùng khác kích thước). Cài bằng: pip install pillow")
 
     try:
         if not wait_for_manual_unlock():

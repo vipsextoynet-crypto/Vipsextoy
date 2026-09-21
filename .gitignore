@@ -28,4 +28,7 @@ public/anh/
 public/anh1/
 public/watermark/
 node_modules/
-.next/
+.next/_small-backup
+_dup-backup
+.vercel
+.env*
