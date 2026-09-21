@@ -26712,6 +26712,19 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "duong-vat-silicon-hit-dat-size-nho-dang-cong",
+    sku: "DV43G",
+    name: "Dương vật silicon hít đất size nhỏ dáng cong",
+    category: "Dương Vật Giả Rung",
+    categorySlug: "duong-vat-gia-rung",
+    price: 280000,
+    blurb: "",
+    description: "Thông số kỹ thuật : \n\nKích thước \n\nChiều dai : 16.5cm\n\nChiều dài sử dung : 13.5cm\n\nĐường kính : 3cm\n\nTrọng lượng  126 g\n\nChất liệu : silicon\n\nChống thấm nước : không thấm nước\n\nVới thiết kế cong tự nhiên, cu giả hít tường cong này mang đến ưu điểm vượt trội: độ mềm mại như da thịt thật, khả năng uốn dẻo theo mọi tư thế, và đế hút chân không siêu chắc chắn.",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+    sensitive: true,
+  },
 ];
 
 export function getProduct(slug: string) {
