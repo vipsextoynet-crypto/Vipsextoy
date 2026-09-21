@@ -344,6 +344,7 @@ export const products: Product[] = [
     categorySlug: "duong-vat-gia-rung",
     price: 1650000,
     blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
+<<<<<<< HEAD
     description: "Dương vật dựa trên thiết kế đầy đủ tính năng của một người đàn ông trưởng thành nên việc mô phỏng nó giống với dương vật thật cũng cực kỳ tinh xảo và bắt mắt. Chất liệu silicone mềm mịn cho độ kích thích và va chạm giống thật nhất vì thế tạo được khoái cảm nhiều hơn. Chức năng rung thụt  khiến cho \"cô bé\" liên tục tiết ra chất nhờn giúp cho cuộc yêu thực sự thăng hoa và quá đã.",
     features: ["Tính năng: Massage và kích thích âm vật, âm đạo cho nữ rất hiệu quả, giải tỏa stress thật tốt", "Đối tượng sử dụng: Nữ", "Chất liệu: Silicone cao cấp an toàn và lành tính", "Màu sắc: Màu da", "Chế độ: 3 chế độ : rung, thụt, bắn tinh", "Tần số rung :6 tần số", "Kích thước : 4x 29cm, chiều dai sử dụng : 16cm", "Pin: Sạc pin USB, sạc đầy trong 2h", "Chống thấm nước tuyệt đối", "Nhập khẩu: Hồng Kong"],
     icon: "wave",
@@ -351,6 +352,13 @@ export const products: Product[] = [
     images: ["/anh1/DV44Y/dv44y41.jpg", "/anh1/DV44Y/dv44y42.jpg", "/anh1/DV44Y/dv44y43.jpg"],
     sensitive: true,
   },
+=======
+    description: "",
+    features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
+    icon: "wave",
+    image: "/anh1/DV44Y/01.jpg",
+    images: ["/anh1/DV44Y/dv44y41.jpg", "/anh1/DV44Y/dv44y42.jpg", "/anh1/DV44Y/dv44y43.jpg, "/anh1/DV44Y/dv44y44.jpg", "/anh1/DV44Y/dv44y45.jpg"],},
+>>>>>>> a26d8feb (don rac: bo debug/state/log ra khoi git, van giu anh that)
   {
     slug: "bd09a-bao-don-den-braveman-co-rung-gai-gan-ho-tro-tang-kich-thuoc-va-tang-cam-giac",
     sku: "BD09A",
@@ -16446,20 +16454,6 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS20D/01.jpg",
     images: ["/anh1/MS20D/01.jpg", "/anh1/MS20D/05.jpg"],
-  },
-  {
-    slug: "dv44y-duong-vat-cao-cap-deepin-rung-liem-thut-cuc-sau",
-    sku: "DV44Y",
-    name: "Dương Vật Cao Cấp DeePin Rung Liếm Thụt Cực Sâu",
-    category: "Dương Vật Giả Rung",
-    categorySlug: "duong-vat-gia-rung",
-    price: 1800000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-    description: "Dương Vật Cao Cấp DeePin Rung Liếm Thụt Cực Sâu. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
-    icon: "wave",
-    image: "/anh1/DV44Y/01.jpg",
-    images: ["/anh1/DV44Y/01.jpg", "/anh1/DV44Y/05.jpg", "/anh1/DV44Y/06.jpg"],
   },
   {
     slug: "ms28k-duong-vat-joko-rung-song-bi-sieu-kich-thich",
