@@ -31,3 +31,6 @@ node_modules/
 _dup-backup
 .vercel
 .env*
+public/anh1/_debug/
+public/anh1/_state/
+_image_log.jsonl
