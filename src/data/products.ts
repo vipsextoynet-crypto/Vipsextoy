@@ -742,6 +742,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58Q/01.jpg",
     images: ["/anh1/DV58Q/01.jpg", "/anh1/DV58Q/07.jpg", "/anh1/DV58Q/08.jpg", "/anh1/DV58Q/09.jpg", "/anh1/DV58Q/10.jpg"],
+    sensitive: true,
   },
   {
     slug: "dv39g-dung-cu-massage-ca-nhan-prettylove-molly-rung-nhieu-che-do-thiet-ke-nho-gon",
