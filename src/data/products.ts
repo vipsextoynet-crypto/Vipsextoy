@@ -26664,6 +26664,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "may-rung-bu-mini-cao-cap-blenva-blyss",
+    sku: "DC95F",
+    name: "Máy rung bú mini cao cấp Blenva Blyss",
+    category: "Máy Massage Cá Nhân",
+    categorySlug: "may-massage-ca-nhan",
+    price: 1290000,
+    blurb: "",
+    description: "Thông số kỹ thuật sản phẩm\n\nChất liệu:  Silicone an toàn cho cơ thể\nĐường kính khoang âm vật:  1,1 cm\nChiều cao khoang âm vật:  1,65 cm\nĐộ sâu phần đầu:  5,2 cm\nTổng chiều dài:  14,5 cm\nChiều rộng tổng thể:  4,3 cm\nChế độ kích thích:  10 chế độ xung khí rung\nKhả năng chống nước:  IPX7\nSạc qua cổng  USB\nKích thước hộp:  11,0 × 20,0 × 5,0 cm",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
