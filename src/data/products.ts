@@ -953,6 +953,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV09A/01.jpg",
     images: ["/anh1/DV09A/01.jpg", "/anh1/DV09A/09.jpg", "/anh1/DV09A/10.jpg", "/anh1/DV09A/11.jpg", "/anh1/DV09A/12.jpg", "/anh1/DV09A/13.jpg", "/anh1/DV09A/14.jpg"],
+    sensitive: true,
   },
   {
     slug: "dc90gb-may-massage-diem-g-svakom-gabrielle-rung-thut-suoi-am-dieu-khien-tu-xa-cao-cap",
