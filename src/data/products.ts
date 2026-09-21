@@ -10605,7 +10605,7 @@ export const products: Product[] = [
     categorySlug: "do-choi-hau-mon",
     price: 2550000,
     blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-    description: "Thông số kỹ thuật: \n\nChất liệu: Silicone an toàn cho cơ thể, nhựa ABS\nBề mặt: Mịn\nKích thước: 103 x 96 x 34 mm / 4.1 x 3.8 x 1.3 in\nChiều dài có thể đưa vào: 77 mm / 3.0 in\nTrọng lượng: 71g / 2.5 oz\nPin: Li-Ion 200 mAh\nThời gian sạc: lên đến 2 giờ ở 5.0 V 200 mA\nCông suất định mức:\nĐầu vào: 5V 200mA 1 W\nĐầu ra: 3.7 V 110 mA 0.4 W\nThời gian sử dụng: Lên đến 2 giờ\nThời gian chờ: ít nhất 90 ngày\nTần số: 130 Hz\nMức độ tiếng ồn tối đa: ≤ 63 dB\n\nGiao diện: 1 nút bấm và 1 đèn LED",
+    description: "Thông số kỹ thuật: \n\nChất liệu: Silicone an toàn cho cơ thể, nhựa ABS\n\nBề mặt: Mịn\n\nKích thước: 103 x 96 x 34 mm / 4.1 x 3.8 x 1.3 in\n\nChiều dài có thể đưa vào: 77 mm / 3.0 in\n\nTrọng lượng: 71g / 2.5 oz\n\nPin: Li-Ion 200 mAh\n\nThời gian sạc: lên đến 2 giờ ở 5.0 V 200 mA\n\nCông suất định mức:\n\nĐầu vào: 5V 200mA 1 W\n\nĐầu ra: 3.7 V 110 mA 0.4 W\n\nThời gian sử dụng: Lên đến 2 giờ\n\nThời gian chờ: ít nhất 90 ngày\n\nTần số: 130 Hz\n\nMức độ tiếng ồn tối đa: ≤ 63 dB\n\nGiao diện: 1 nút bấm và 1 đèn LED",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC82A/dc82a3.jpg",
