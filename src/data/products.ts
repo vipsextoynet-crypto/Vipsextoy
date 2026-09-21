@@ -925,6 +925,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60K/01.jpg",
     images: ["/anh1/DV60K/01.jpg", "/anh1/DV60K/09.jpg", "/anh1/DV60K/10.jpg", "/anh1/DV60K/11.jpg", "/anh1/DV60K/12.jpg", "/anh1/DV60K/13.jpg", "/anh1/DV60K/14.jpg"],
+    sensitive: true,
   },
   {
     slug: "hm33a-may-massage-rung-da-nang-kem-vong-deo-dieu-khien-tu-xa-sac-usb-chong-nuoc",
