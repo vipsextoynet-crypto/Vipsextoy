@@ -26676,6 +26676,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "may-rung-2-dau-lovense-dolce-dieu-khien-tu-xa-qua-dien-thoai",
+    sku: "DC93DL",
+    name: "Máy rung 2 đầu Lovense Dolce điều khiển từ xa qua điện thoại",
+    category: "Trứng Rung Tình Yêu",
+    categorySlug: "trung-rung-tinh-yeu",
+    price: 4650000,
+    blurb: "",
+    description: "Những điểm nổi bật :\n\nThiết kế 2 đầu rung, hỗ trợ kích thích điểm G và âm vật.\n\nThân máy linh hoạt tăng giảm mở rộng hoặc khép lại\n\nKiểu dáng cong ôm sát cơ thể.\n\nSilicone mềm mại, an toàn cho cơ thể.\n\n7 chế độ rung điều khiển trực tiếp.\n\nKèm theo 3 chế độ rung khi khám phá qua APP\n\nTích hợp 1.000 cường độ rung từ nhẹ đến cực mạnh\n\nKết nối smartphone thông qua ứng dụng Lovense.\n\nHỗ trợ điều khiển từ xa dành cho các cặp đôi.\n\nCó thể tạo trải nghiệm rung tương tác theo âm thanh và âm nhạc.\n\nChuẩn chống nước IPX7.\n\nSạc từ tính tiện lợi.\n\nThời gian sử dụng khoảng 1,5–2 giờ sau mỗi lần sạc.\n\nXuất xứ: USA – Nhập khẩu: USA\n\nChất liệu: Silicon PE Body Safe\n\nĐường kính Φ 27.3mm x 38mm x 197mm",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
