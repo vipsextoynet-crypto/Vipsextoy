@@ -26725,6 +26725,18 @@ export const products: Product[] = [
     icon: "wave",
     sensitive: true,
   },
+  {
+    slug: "svakom-eria-plus-may-rung-thut-mini-gan-quan-chip-dieu-khien-qua-app",
+    sku: "DC90EP",
+    name: "Svakom Eria Plus- Máy rung thụt mini gắn quần chip điều khiển qua app",
+    category: "Trứng Rung Tình Yêu",
+    categorySlug: "trung-rung-tinh-yeu",
+    price: 2150000,
+    blurb: "",
+    description: "Svakom Eria Plus- Máy rung thụt mini gắn quần chip điều khiển qua app\n\nKích thước : 104.3mm x 91.3mm x 38.7mm\n\nChất liệu : Silicon an toàn \n\nChế độ rung : 11 chế độ  kết hợp với 5 cấp độ cường độ từ nhẹ nhàng đến mãnh liệt. Bạn có thể thoải mái điều chỉnh tùy theo tâm trạng và nhu cầu, mỗi lần sử dụng đều là một trải nghiệm hoàn toàn mới mẻ và không hề nhàm chán.",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
