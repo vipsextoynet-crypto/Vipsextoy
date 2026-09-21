@@ -1224,6 +1224,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC50R/01.jpg",
     images: ["/anh1/DC50R/01.jpg", "/anh1/DC50R/15.jpg", "/anh1/DC50R/16.jpg", "/anh1/DC50R/17.jpg", "/anh1/DC50R/18.jpg", "/anh1/DC50R/19.jpg", "/anh1/DC50R/20.jpg", "/anh1/DC50R/21.jpg", "/anh1/DC50R/22.jpg", "/anh1/DC50R/23.jpg", "/anh1/DC50R/24.jpg"],
+    sensitive: true,
   },
   {
     slug: "dv73e-duong-vat-2-dau-rung-bu-da-luoi-sieu-kich-thich-thu-dam-diem-g-cong-nghe-moi",
