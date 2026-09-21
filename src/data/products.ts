@@ -26652,6 +26652,18 @@ export const products: Product[] = [
     icon: "wave",
     sensitive: true,
   },
+  {
+    slug: "may-rung-diem-g-mini-cao-cap-blenva-bimmi",
+    sku: "DC95E",
+    name: "Máy rung điêm G mini cao cấp Blenva Bimmi",
+    category: "Máy Massage Cá Nhân",
+    categorySlug: "may-massage-ca-nhan",
+    price: 1050000,
+    blurb: "",
+    description: "Thông số kỹ thuật sản phẩm\n\nChất liệu:  Silicone an toàn cho cơ thể\nTổng chiều dài:  17,8 cm\nĐường kính:  3,3 cm\nTrọng lượng:  132 g (không bao gồm cáp USB)\nKích thước hộp:  9,1 × 15,5 × 5,0 cm\nChế độ rung:  3 tốc độ + 7 kiểu rung\nMức độ tiếng ồn:  Dưới 50 dB\nKhả năng chống nước:  IPX7\nPin:  Có thể sạc lại\nThời gian sạc:  Khoảng 120 phút\nThời gian chạy:\nTối đa 60 phút (ở chế độ cao nhất)\nTối đa 120 phút (ở chế độ thấp nhất)",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
