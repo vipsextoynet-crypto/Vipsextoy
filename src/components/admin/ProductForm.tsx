@@ -82,7 +82,7 @@ export default function ProductForm({
       }
 
       setSuccess(
-        `Đã lưu "${name}". Website sẽ cập nhật sau khi Vercel build lại xong (khoảng 1–2 phút).`
+        `Đã lưu nháp "${name}". Khi xong hết, vào trang quản trị bấm "Cập nhật lên web" để đăng lên website.`
       );
 
       if (mode === "create") {
@@ -90,7 +90,6 @@ export default function ProductForm({
         setSku("");
         setPrice("");
         setCompareAt("");
-        setBlurb("");
         setDescription("");
         setFeatures("");
         setBadge("");
