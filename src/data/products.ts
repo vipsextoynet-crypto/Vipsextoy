@@ -987,6 +987,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/BD49E/01.jpg",
     images: ["/anh1/BD49E/01.jpg", "/anh1/BD49E/10.jpg", "/anh1/BD49E/11.jpg", "/anh1/BD49E/12.jpg", "/anh1/BD49E/13.jpg", "/anh1/BD49E/14.jpg", "/anh1/BD49E/15.jpg"],
+    sensitive: true,
   },
   {
     slug: "duong-vat-dai-deo-rong-ruot-silicon-mem-mai",
