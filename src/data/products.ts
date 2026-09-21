@@ -968,7 +968,7 @@ export const products: Product[] = [
     categorySlug: "duong-vat-gia-rung",
     price: 1950000,
     blurb: "",
-    description: "Máy massage điểm G Svakom Gabrielle rung thụt, sưởi ấm, điều khiển từ xa cao cấp. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
+    description: "Thông tin chi tiết :\n\n- Công dụng: hỗ trợ quan hệ, giải tỏa sinh lý cho nữ giới\n- Chất liệu: silicon y tế, ABS + kim loại\n- Kích thước: 142mm x 105mm x 31mm\n- Trọng lượng: 126g\n- Tính năng: thụt hút 10 chế độ, sưởi ấm, điều khiển từ xa\n- Ưu điểm: tính năng đa dạng tác động cả bên trong và bên ngoài vùng kín, sưởi ấm tạo cảm giác chân thực\n- Nguồn điện: pin sạc Polymer Lithium 650mAh\n- Thời gian sạc tối đa: 2.5 giờ\n- Thời gian sử dụng: 30 phút\n- Chống nước tốt\n- Thương hiệu: Svakom - USA",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC90GB/dc90gb8.jpg",
