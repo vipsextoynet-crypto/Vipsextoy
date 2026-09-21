@@ -26700,6 +26700,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "may-rung-bu-cao-cap-lovense-fizz-dieu-khien-tu-xa-qua-app",
+    sku: "DC93FZ",
+    name: "Máy rung bú cao cấp Lovense Fizz điều khiển từ xa qua app",
+    category: "Máy Massage Cá Nhân",
+    categorySlug: "may-massage-ca-nhan",
+    price: 4000000,
+    blurb: "",
+    description: "Máy rung bú cao cấp Lovense Fizz điều khiển từ xa qua app\n\n Thương hiệu: Lovense\nXuất xứ : USA\nĐường kính Φ 40 mm\nChiều dài thân máy: 15.5cm\nThiết kế : 2 đầu hoạt động, vừa rung vừa hút\nChất liệu : Liquid Silicone, Food-grade silicone\nMàu sắc : Màu hồng\nĐộng cơ: Động cơ kép 2\nDòng pin sử dụng: Li-polymer battery\nNguồn Pin: 730mAh\nPin sử dụng : Pin sạc ( Sạc từ )\nThời gian sử dụng: Hoạt động được 120 phút cho một lần sạc đầy pin\nThời gian sạc pin: 60 phút\nChế độ rung: 10 chế độ rung khác nhau\nCường độ rung: 1.000 cường độ mạnh nhẹ khác nhau kết hợp theo chế độ rung\nĐiều khiển từ xa qua APP: Có\nRung theo nhạc: Có\nRung theo hình vẽ: Có\nGiới hạn: Không giới hạn khoảng cách\nNút nhấn vật lý: Có\nMức nước IPX6. Chống nước tốt 98%",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
