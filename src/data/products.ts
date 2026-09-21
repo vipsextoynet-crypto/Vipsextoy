@@ -1294,6 +1294,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV40K/01.jpg",
     images: ["/anh1/DV40K/01.jpg", "/anh1/DV40K/08.jpg", "/anh1/DV40K/09.jpg", "/anh1/DV40K/10.jpg", "/anh1/DV40K/11.jpg", "/anh1/DV40K/12.jpg"],
+    sensitive: true,
   },
   {
     slug: "dc90dg-duong-vat-da-nang-svakom-duoglow-2-trong-1-rung-thut-mut-suoi-am-va-dieu-khien-qua-app-toan-cau",
