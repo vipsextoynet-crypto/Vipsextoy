@@ -20,26 +20,47 @@
 
 import type { Order } from "./orders";
 
+// Chong chen ma HTML tu du lieu khach nhap vao noi dung email.
+function esc(v: unknown): string {
+  return String(v ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 export async function notifyOrderByEmail(order: Order): Promise<boolean> {
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.ORDER_NOTIFY_EMAIL;
   if (!apiKey || !to) return false;
 
+  const isBank = order.payment === "bank";
+  const totalText = `${order.total.toLocaleString("vi-VN")}đ`;
+
   const itemsHtml = order.items
     .map(
       (it) =>
-        `<tr><td style="padding:4px 8px">${it.name}</td><td style="padding:4px 8px">x${it.qty}</td><td style="padding:4px 8px">${it.price.toLocaleString("vi-VN")}đ</td></tr>`
+        `<tr><td style="padding:4px 8px">${esc(it.name)}</td><td style="padding:4px 8px">x${esc(it.qty)}</td><td style="padding:4px 8px">${it.price.toLocaleString("vi-VN")}đ</td></tr>`
     )
     .join("");
 
+  const bankBox = isBank
+    ? `<div style="border:2px solid #e6007e;padding:10px 14px;margin:10px 0">
+         <b>CHUYỂN KHOẢN — CẦN ĐỐI CHIẾU TRƯỚC KHI GIAO</b><br/>
+         Khách đã quét QR và bấm gửi đơn. Hãy kiểm tra app ngân hàng xem có khoản
+         <b>${totalText}</b> với nội dung <b>${esc(order.orderId)}</b> chưa.
+       </div>`
+    : "";
+
   const html = `
-    <h2>Đơn hàng mới: ${order.orderId}</h2>
-    <p><b>Khách hàng:</b> ${order.customer.name} - ${order.customer.phone}</p>
-    <p><b>Địa chỉ:</b> ${order.customer.address}</p>
-    ${order.customer.note ? `<p><b>Ghi chú:</b> ${order.customer.note}</p>` : ""}
-    <p><b>Thanh toán:</b> ${order.payment === "cod" ? "COD" : "Chuyển khoản"}</p>
+    <h2>Đơn hàng mới: ${esc(order.orderId)}</h2>
+    ${bankBox}
+    <p><b>Khách hàng:</b> ${esc(order.customer.name)} - ${esc(order.customer.phone)}</p>
+    <p><b>Địa chỉ:</b> ${esc(order.customer.address)}</p>
+    ${order.customer.note ? `<p><b>Ghi chú:</b> ${esc(order.customer.note)}</p>` : ""}
+    <p><b>Thanh toán:</b> ${isBank ? "Chuyển khoản (chờ đối chiếu)" : "COD"}</p>
     <table border="1" cellspacing="0">${itemsHtml}</table>
-    <p><b>Tổng cộng: ${order.total.toLocaleString("vi-VN")}đ</b></p>
+    <p><b>Tổng cộng: ${totalText}</b></p>
   `;
 
   try {
@@ -52,7 +73,7 @@ export async function notifyOrderByEmail(order: Order): Promise<boolean> {
       body: JSON.stringify({
         from: "Đơn hàng Vipsextoy <onboarding@resend.dev>",
         to: [to],
-        subject: `Đơn hàng mới #${order.orderId} - ${order.total.toLocaleString("vi-VN")}đ`,
+        subject: `${isBank ? "[CK - đối chiếu] " : "[COD] "}Đơn hàng mới #${order.orderId} - ${totalText}`,
         html,
       }),
     });

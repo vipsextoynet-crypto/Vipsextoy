@@ -15,7 +15,7 @@ import { notifyOrderByEmail } from "@/lib/notify-order";
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
-  const { items, customer, payment, total } = body ?? {};
+  const { items, customer, payment, total, orderId: clientOrderId } = body ?? {};
 
   if (!items?.length || !customer?.name || !customer?.phone || !customer?.address) {
     return NextResponse.json(
@@ -24,7 +24,12 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const orderId = `VX${Date.now().toString().slice(-8)}`;
+  // Chuyen khoan: dung ma don khach da thay trong QR (noi dung chuyen khoan) de
+  // shop doi chieu sao ke. Chi nhan dung dinh dang VX + 8 chu so, con lai tu sinh.
+  const orderId =
+    payment === "bank" && typeof clientOrderId === "string" && /^VX\d{8}$/.test(clientOrderId)
+      ? clientOrderId
+      : `VX${Date.now().toString().slice(-8)}`;
   const order = {
     orderId,
     createdAt: new Date().toISOString(),
