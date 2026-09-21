@@ -26639,6 +26639,19 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "may-mat-xa-da-nang-gan-duong-vat-tu-dong-bao-phe",
+    sku: "DC502",
+    name: "Máy mát xa đa năng gắn dương vật tự động bao phê",
+    category: "Máy Massage Cá Nhân",
+    categorySlug: "may-massage-ca-nhan",
+    price: 950000,
+    blurb: "",
+    description: "Súng mát xa đa năng gắn dương vật tự động \n\nChức năng:\n\n– Kích thích điểm G và âm vật, giải tỏa nhu cầu sinh lý nữ giới, là trợ thủ hỗ trợ đắc lực cho nam giới trong chuyện vợ chồng.\n\n- Màu sắc : Đen, Xanh, Xám, Đỏ\n\n– Trị liệu các cơn đau nhức, mỏi cơ nhanh chong\n– Phục hồi các nhóm cơ bị tổn thương, bị căng cơ.\n– Tăng khả năng tuần hoàn máu, lưu thông máu tốt hơn.\n– Kích thích các cơ giúp chống căng cơ, chuột rút.\n– Cải thiện phạm vi chuyển động của mô cơ trước và sau tập luyện.\n– Làm thư giãn các lớp mô cơ, màng bao cơ bị căng cứng\n\nCông dụng của 4 đầu massage:\n– Đầu chữ U: thích hợp để xoa bóp vai, cổ và 2 bên cột sống\n– Đầu phẳng: thích hợp để thư giãn và định hình cơ ngực, cơ tay, cơ chân\n– Đầu đạn: thích hợp để massage mô sâu như kinh tuyến, lòng bàn tay, lòng bàn chân\n– Đầu bóng tròn: thích hợp để xoa bóp vùng cơ lưng, mông, đùi, bắp tay bắp chân",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+    sensitive: true,
+  },
 ];
 
 export function getProduct(slug: string) {
