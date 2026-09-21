@@ -339,26 +339,23 @@ export const products: Product[] = [
   {
     slug: "dv44y-duong-vat-silicon-sieu-mem-rung-thut-sac-usb-thiet-ke-hien-dai-da-chuc-nang",
     sku: "DV44Y",
-    name: "Dương vật silicon siêu mềm rung thụt bắn tinh như thật",
+    name: "Dương Vật Silicon Siêu Mềm Rung Thụt Sạc USB Đa Chức Năng",
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 1650000,
     blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-<<<<<<< HEAD
-    description: "Dương vật dựa trên thiết kế đầy đủ tính năng của một người đàn ông trưởng thành nên việc mô phỏng nó giống với dương vật thật cũng cực kỳ tinh xảo và bắt mắt. Chất liệu silicone mềm mịn cho độ kích thích và va chạm giống thật nhất vì thế tạo được khoái cảm nhiều hơn. Chức năng rung thụt  khiến cho \"cô bé\" liên tục tiết ra chất nhờn giúp cho cuộc yêu thực sự thăng hoa và quá đã.",
-    features: ["Tính năng: Massage và kích thích âm vật, âm đạo cho nữ rất hiệu quả, giải tỏa stress thật tốt", "Đối tượng sử dụng: Nữ", "Chất liệu: Silicone cao cấp an toàn và lành tính", "Màu sắc: Màu da", "Chế độ: 3 chế độ : rung, thụt, bắn tinh", "Tần số rung :6 tần số", "Kích thước : 4x 29cm, chiều dai sử dụng : 16cm", "Pin: Sạc pin USB, sạc đầy trong 2h", "Chống thấm nước tuyệt đối", "Nhập khẩu: Hồng Kong"],
-    icon: "wave",
-    image: "/anh1/DV44Y/dv44y47.jpg",
-    images: ["/anh1/DV44Y/dv44y41.jpg", "/anh1/DV44Y/dv44y42.jpg", "/anh1/DV44Y/dv44y43.jpg"],
-    sensitive: true,
-  },
-=======
     description: "",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "/anh1/DV44Y/01.jpg",
-    images: ["/anh1/DV44Y/dv44y41.jpg", "/anh1/DV44Y/dv44y42.jpg", "/anh1/DV44Y/dv44y43.jpg, "/anh1/DV44Y/dv44y44.jpg", "/anh1/DV44Y/dv44y45.jpg"],},
->>>>>>> a26d8feb (don rac: bo debug/state/log ra khoi git, van giu anh that)
+    image: "/anh1/DV44Y/dv44y47.jpg",
+    images: [
+          "/anh1/DV44Y/dv44y41.jpg",
+          "/anh1/DV44Y/dv44y42.jpg",
+          "/anh1/DV44Y/dv44y43.jpg",
+          "/anh1/DV44Y/dv44y44.jpg",
+          "/anh1/DV44Y/dv44y45.jpg"
+        ],
+  },
   {
     slug: "bd09a-bao-don-den-braveman-co-rung-gai-gan-ho-tro-tang-kich-thuoc-va-tang-cam-giac",
     sku: "BD09A",
@@ -750,7 +747,6 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58Q/01.jpg",
     images: ["/anh1/DV58Q/01.jpg", "/anh1/DV58Q/07.jpg", "/anh1/DV58Q/08.jpg", "/anh1/DV58Q/09.jpg", "/anh1/DV58Q/10.jpg"],
-    sensitive: true,
   },
   {
     slug: "dv39g-dung-cu-massage-ca-nhan-prettylove-molly-rung-nhieu-che-do-thiet-ke-nho-gon",
@@ -933,7 +929,6 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60K/01.jpg",
     images: ["/anh1/DV60K/01.jpg", "/anh1/DV60K/09.jpg", "/anh1/DV60K/10.jpg", "/anh1/DV60K/11.jpg", "/anh1/DV60K/12.jpg", "/anh1/DV60K/13.jpg", "/anh1/DV60K/14.jpg"],
-    sensitive: true,
   },
   {
     slug: "hm33a-may-massage-rung-da-nang-kem-vong-deo-dieu-khien-tu-xa-sac-usb-chong-nuoc",
@@ -962,7 +957,6 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV09A/01.jpg",
     images: ["/anh1/DV09A/01.jpg", "/anh1/DV09A/09.jpg", "/anh1/DV09A/10.jpg", "/anh1/DV09A/11.jpg", "/anh1/DV09A/12.jpg", "/anh1/DV09A/13.jpg", "/anh1/DV09A/14.jpg"],
-    sensitive: true,
   },
   {
     slug: "dc90gb-may-massage-diem-g-svakom-gabrielle-rung-thut-suoi-am-dieu-khien-tu-xa-cao-cap",
