@@ -15968,18 +15968,6 @@ export const products: Product[] = [
     images: ["/anh1/MS15A/01.jpg", "/anh1/MS15A/05.jpg", "/anh1/MS15A/06.jpg"],
   },
   {
-    slug: "dv44d-duong-vat-silicon-gai-mem-elephant-heating-rung-ngoay-suoi-am",
-    sku: "DV44D",
-    name: "Dương vật silicon gai mềm Elephant Heating- Rung ngoáy sưởi ấm",
-    category: "Dương Vật Giả Rung",
-    categorySlug: "duong-vat-gia-rung",
-    price: 1190000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-    description: "Dương vật silicon gai mềm Elephant Heating- Rung ngoáy sưởi ấm. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
-    icon: "wave",
-  },
-  {
     slug: "dc50m-may-lam-tinh-tu-dong-cho-nu-dieu-khien-xa-cuc-dinh",
     sku: "DC50M",
     name: "Máy làm tình tự động cho nữ điều khiển xa cực đỉnh",
