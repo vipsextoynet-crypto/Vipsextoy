@@ -4,12 +4,25 @@ import ProductCard from "@/components/ProductCard";
 import Sidebar from "@/components/Sidebar";
 import Pagination from "@/components/Pagination";
 
-export const metadata: Metadata = {
-  title: "Cửa hàng đồ chơi người lớn",
-  description: `Hơn ${products.length} sản phẩm chăm sóc cá nhân tại Vipsextoy — đa dạng danh mục, chất liệu an toàn, đóng gói kín đáo, giao hàng nhanh toàn quốc.`,
-  alternates: { canonical: "/shop" },
-};
+export function generateMetadata({
+  searchParams,
+}: {
+  searchParams: { page?: string; q?: string };
+}): Metadata {
+  const hasQuery = Boolean(searchParams.q?.trim());
+  const page = parseInt(searchParams.page ?? "1", 10) || 1;
+  const shouldNoIndex = hasQuery || page > 1;
 
+  return {
+    title: "Cửa hàng",
+    description:
+      "Toàn bộ sản phẩm chăm sóc cá nhân tại Vipsextoy — đa dạng danh mục, chất liệu an toàn, giao hàng kín đáo toàn quốc.",
+    alternates: { canonical: "/shop" },
+    robots: shouldNoIndex
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
+  };
+}
 const PAGE_SIZE = 24;
 
 function normalize(s: string) {
@@ -69,8 +82,8 @@ export default async function ShopPage({
             <p className="text-muted">Không tìm thấy sản phẩm phù hợp.</p>
           ) : (
             <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
-              {list.map((p) => (
-                <ProductCard key={p.slug} product={p} />
+              {list.map((p, i) => (
+                <ProductCard key={p.slug} product={p} priority={page === 1 && !q && i < 4} />
               ))}
             </div>
           )}

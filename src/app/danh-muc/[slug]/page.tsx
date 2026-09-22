@@ -97,8 +97,8 @@ export default async function CategoryPage({
             <p className="text-muted">Sản phẩm đang được cập nhật cho danh mục này.</p>
           ) : (
             <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
-              {list.map((p) => (
-                <ProductCard key={p.slug} product={p} />
+              {list.map((p, i) => (
+                <ProductCard key={p.slug} product={p} priority={page === 1 && i < 4} />
               ))}
             </div>
           )}

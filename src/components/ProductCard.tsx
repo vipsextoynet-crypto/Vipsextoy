@@ -7,7 +7,13 @@ import ProductGlyph from "./ProductGlyph";
 import SensitiveOverlay from "./SensitiveOverlay";
 import { useCart } from "@/lib/cart-context";
 
-export default function ProductCard({ product }: { product: Product }) {
+export default function ProductCard({
+  product,
+  priority = false,
+}: {
+  product: Product;
+  priority?: boolean;
+}) {
   const { addItem } = useCart();
 
   return (
@@ -27,7 +33,8 @@ export default function ProductCard({ product }: { product: Product }) {
                 fill
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 className="object-contain p-1 transition group-hover:scale-105 sm:p-2"
-                loading="lazy"
+                loading={priority ? undefined : "lazy"}
+                priority={priority}
               />
             </SensitiveOverlay>
           ) : (

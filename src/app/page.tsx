@@ -21,13 +21,24 @@ export default function Home() {
       <section className="px-0 pb-10 pt-6">
         <HeroBanner />
       </section>
-
+      <section className="mx-auto max-w-6xl px-5 pt-4">
+        <p className="text-xs uppercase tracking-wide text-gold">Vipsextoy</p>
+        <h1 className="mt-2 font-serif text-2xl text-ivory md:text-3xl">
+          Chăm Sóc Cá Nhân Riêng Tư, Đóng Gói Kín Đáo
+        </h1>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+          Vipsextoy tuyển chọn sản phẩm chăm sóc cá nhân cao cấp cho người
+          trưởng thành — silicone y tế an toàn, đa dạng danh mục, đóng gói kín
+          đáo và giao hàng nhanh toàn quốc. Chỉ dành cho khách hàng từ 18 tuổi
+          trở lên.
+        </p>
+      </section>
       {/* Sidebar danh mục + từng danh mục 1 hàng sản phẩm */}
       <section className="mx-auto max-w-6xl px-5 py-14">
         <div className="flex flex-col gap-8 md:flex-row">
           <Sidebar />
           <div className="flex-1 flex-col gap-14 md:flex">
-            {homeCategories.map((c) => {
+            {homeCategories.map((c, catIndex) => {
               const catProducts = getProductsByCategory(c.slug).slice(
                 0,
                 PRODUCTS_PER_ROW
@@ -47,9 +58,9 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
-                    {catProducts.map((p) => (
-                      <ProductCard key={p.slug} product={p} />
-                    ))}
+                      {catProducts.map((p, i) => (
+                        <ProductCard key={p.slug} product={p} priority={catIndex === 0 && i < 4} />
+                      ))}
                   </div>
                 </div>
               );
