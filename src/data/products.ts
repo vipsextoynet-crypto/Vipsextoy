@@ -5734,7 +5734,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "/anh1/AD36U/01.jpg",
-    images: ["/anh1/AD36U/01.jpg", "/anh1/AD36U/06.png", "/anh1/AD36U/07.png", "/anh1/AD36U/08.png", "/anh1/AD36U/09.png", "/anh1/AD36U/10.png", "/anh1/AD36U/11.png", "/anh1/AD36U/12.png", "/anh1/AD36U/13.png", "/anh1/AD36U/14.png", "/anh1/AD36U/15.png", "/anh1/AD36U/16.png", "/anh1/AD36U/17.png", "/anh1/AD36U/18.png", "/anh1/AD36U/19.png"],
+    images: ["/anh1/AD36U/01.jpg", "/anh1/AD36U/07.png", "/anh1/AD36U/08.png", "/anh1/AD36U/09.png", "/anh1/AD36U/10.png", "/anh1/AD36U/11.png", "/anh1/AD36U/12.png", "/anh1/AD36U/13.png", "/anh1/AD36U/14.png", "/anh1/AD36U/15.png", "/anh1/AD36U/16.png", "/anh1/AD36U/17.png", "/anh1/AD36U/18.png", "/anh1/AD36U/19.png"],
   },
   {
     slug: "bd10m-bao-don-ro-treo-boc-quy-dau-gai-cho-chi-em-de-me-bd10m",
