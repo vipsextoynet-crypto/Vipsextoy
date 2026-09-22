@@ -6,15 +6,20 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "vipsextoy.net",
+        hostname: "vipsextoy.com",
       },
       {
         // Anh upload qua trang admin (Vercel Blob) - domain dang *.public.blob.vercel-storage.com
         protocol: "https",
-        hostname: "qcxb98job7ykqv8o.public.blob.vercel-storage.com",
+        hostname: "*.public.blob.vercel-storage.com",
       },
     ],
     formats: ["image/avif", "image/webp"],
+    // TAT tinh nang toi uu anh cua Vercel: gan 1.900 san pham vuot han
+    // muc mien phi (~1.000 luot toi uu/thang), Vercel tra ve loi 402 va
+    // chan toan bo anh. Anh van hien binh thuong, chi khong duoc Vercel
+    // resize/nen lai nua (nhieu anh da duoc nen san bang scripts/compress-images.mjs).
+    unoptimized: true,
   },
   compress: true,
 };
