@@ -108,11 +108,9 @@ export default async function ProductPage({
               Mã sản phẩm: <span className="text-ivory">{product.sku}</span>
             </span>
           </div>
-            {product.blurb && (
-              <p className="mt-6 leading-relaxed text-muted">
-                {product.blurb}
-              </p>
-            )}
+          <p className="mt-6 leading-relaxed text-muted">
+            {product.description}
+          </p>
 
           <ul className="mt-6 flex flex-col gap-2">
             {product.features.map((f) => (
@@ -132,17 +130,6 @@ export default async function ProductPage({
       {/* Chi tiết sản phẩm — đặt riêng, căn giữa trang, dưới cả 2 cột */}
       <div className="mx-auto mt-14 max-w-3xl border border-line bg-surface p-6 sm:p-8">
         <h2 className="font-serif text-xl text-ivory">Chi tiết sản phẩm</h2>
-        {product.longDescription && (
-  <div className="mt-5 flex flex-col gap-4 text-sm leading-relaxed text-muted">
-    {product.longDescription
-      .split(/\n\s*\n/)
-      .map((p) => p.trim())
-      .filter(Boolean)
-      .map((paragraph, i) => (
-        <p key={i}>{paragraph}</p>
-      ))}
-  </div>
-)}
         <dl className="mt-5 grid gap-4 border-t border-line pt-5 text-sm sm:grid-cols-2">
           <div>
             <dt className="text-muted">Danh mục</dt>
@@ -161,15 +148,9 @@ export default async function ProductPage({
             <dd className="mt-1 text-ivory">3 tháng lỗi NSX</dd>
           </div>
         </dl>
-        <div className="mt-6 border-t border-line pt-5">
-          <p className="whitespace-pre-line text-sm leading-relaxed text-muted">
-            {product.description}
-          </p>
-        </div>
 
         <p className="mt-6 border-t border-line pt-5 text-sm text-muted">
           Cần thêm thông số (chất liệu, kích thước, dung tích pin...)? Nhắn
-
           hotline{" "}
           <a href={site.phoneHref} className="font-semibold text-gold">
             {site.phone}
@@ -177,8 +158,7 @@ export default async function ProductPage({
           để được tư vấn chi tiết trước khi đặt hàng.
         </p>
         <p className="mt-3 text-sm text-muted">
-          Giao hàng kín đáo trong 2–4 ngày làm việc. Hỗ trợ kiểm tra hàng
-          trước khi thanh toán (COD) tại một số khu vực.
+          Giao nhanh 1–3 ngày. Ship COD toàn quốc.
         </p>
       </div>
     </div>

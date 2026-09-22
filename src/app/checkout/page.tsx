@@ -6,9 +6,10 @@ import Image from "next/image";
 import { useCart } from "@/lib/cart-context";
 import { formatPrice } from "@/data/products";
 import ProductGlyph from "@/components/ProductGlyph";
-import { bank, bankConfigured, vietQrUrl } from "@/lib/bank";
 
 const SHIPPING_FEE = 30000;
+// Tu 1.000.000d tro len duoc mien phi van chuyen.
+const FREE_SHIP_THRESHOLD = 1000000;
 
 export default function CheckoutPage() {
   const { items, subtotal, clear } = useCart();
@@ -24,19 +25,9 @@ export default function CheckoutPage() {
 
   const [error, setError] = useState<string | null>(null);
 
-  // Ma don hang tao san luc khach chon "Chuyen khoan" - dung lam NOI DUNG chuyen
-  // khoan trong QR va gui kem khi bam gui don, de shop doi chieu sao ke.
-  const [bankOrderId, setBankOrderId] = useState<string | null>(null);
-  const [qrFailed, setQrFailed] = useState(false);
-
-  const total = items.length ? subtotal + SHIPPING_FEE : 0;
-  const showQr = payment === "bank" && bankConfigured && total > 0 && !!bankOrderId;
-
-  function chooseBank() {
-    setPayment("bank");
-    setQrFailed(false);
-    setBankOrderId((cur) => cur ?? `VX${Date.now().toString().slice(-8)}`);
-  }
+  const freeShip = subtotal >= FREE_SHIP_THRESHOLD;
+  const shippingFee = items.length ? (freeShip ? 0 : SHIPPING_FEE) : 0;
+  const total = items.length ? subtotal + shippingFee : 0;
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -47,20 +38,14 @@ export default function CheckoutPage() {
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          items,
-          customer: form,
-          payment,
-          total,
-          orderId: payment === "bank" ? bankOrderId : undefined,
-        }),
+        body: JSON.stringify({ items, customer: form, payment, total, shippingFee }),
       });
       const data = await res.json().catch(() => null);
       if (!res.ok || !data?.orderId) {
         throw new Error(data?.error || "Không thể đặt hàng, vui lòng thử lại.");
       }
       clear();
-      router.push(`/success?order=${data.orderId}${payment === "bank" ? "&pay=bank" : ""}`);
+      router.push(`/success?order=${data.orderId}`);
     } catch (err) {
       setError(
         err instanceof Error
@@ -154,69 +139,20 @@ export default function CheckoutPage() {
                   type="radio"
                   name="payment"
                   checked={payment === "bank"}
-                  onChange={chooseBank}
+                  onChange={() => setPayment("bank")}
                 />
                 <span className="text-sm text-ivory">
                   Chuyển khoản ngân hàng
                 </span>
               </label>
             </div>
-
-            {showQr && (
-              <div className="mt-4 border border-gold bg-surface p-5 text-center">
-                <p className="text-sm text-ivory">
-                  Quét mã QR bằng app ngân hàng để chuyển khoản
-                </p>
-
-                {!qrFailed ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={vietQrUrl(total, bankOrderId!)}
-                    alt="Mã QR chuyển khoản"
-                    className="mx-auto mt-4 h-auto w-full max-w-[280px] bg-white"
-                    onError={() => setQrFailed(true)}
-                  />
-                ) : (
-                  <p className="mt-3 text-xs text-muted">
-                    Không tải được mã QR, bạn vui lòng chuyển khoản theo thông tin bên dưới.
-                  </p>
-                )}
-
-                <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-left text-sm">
-                  {bank.bankLabel && (
-                    <>
-                      <dt className="text-muted">Ngân hàng</dt>
-                      <dd className="text-ivory">{bank.bankLabel}</dd>
-                    </>
-                  )}
-                  <dt className="text-muted">Số tài khoản</dt>
-                  <dd className="text-ivory">{bank.accountNo}</dd>
-                  <dt className="text-muted">Chủ tài khoản</dt>
-                  <dd className="text-ivory">{bank.accountName}</dd>
-                  <dt className="text-muted">Số tiền</dt>
-                  <dd className="text-gold">{formatPrice(total)}</dd>
-                  <dt className="text-muted">Nội dung</dt>
-                  <dd className="font-medium text-gold">{bankOrderId}</dd>
-                </dl>
-
-                <p className="mt-4 text-xs leading-relaxed text-muted">
-                  Vui lòng giữ nguyên số tiền và nội dung chuyển khoản (chỉ gồm mã
-                  đơn hàng, không thể hiện sản phẩm). Chuyển xong, bấm nút bên dưới
-                  để gửi đơn hàng cho shop đối chiếu.
-                </p>
-              </div>
-            )}
           </div>
 
           <button
             disabled={loading}
             className="mt-4 bg-gold py-3.5 text-sm tracking-wide text-background transition hover:bg-ivory disabled:opacity-60"
           >
-            {loading
-              ? "Đang xử lý..."
-              : showQr
-                ? `Tôi đã chuyển khoản — Gửi đơn hàng`
-                : `Đặt hàng — ${formatPrice(total)}`}
+            {loading ? "Đang xử lý..." : `Đặt hàng — ${formatPrice(total)}`}
           </button>
           {error && (
             <p className="text-center text-sm font-medium text-red">
@@ -265,8 +201,20 @@ export default function CheckoutPage() {
             </div>
             <div className="flex justify-between text-muted">
               <span>Phí vận chuyển</span>
-              <span>{formatPrice(SHIPPING_FEE)}</span>
+              {freeShip ? (
+                <span className="flex items-center gap-2">
+                  <span className="text-muted line-through">{formatPrice(SHIPPING_FEE)}</span>
+                  <span className="text-gold">Miễn phí</span>
+                </span>
+              ) : (
+                <span>{formatPrice(SHIPPING_FEE)}</span>
+              )}
             </div>
+            {!freeShip && (
+              <p className="text-xs text-muted">
+                Miễn phí vận chuyển cho đơn từ {formatPrice(FREE_SHIP_THRESHOLD)}.
+              </p>
+            )}
             <div className="flex justify-between pt-2 text-base text-ivory">
               <span>Tổng cộng</span>
               <span className="text-gold">{formatPrice(total)}</span>
