@@ -26626,6 +26626,8 @@ export const products: Product[] = [
     description: "Chức năng : \n\nHỗ trợ thư giãn và giải tỏa căng thẳng\n\nMang lại trải nghiệm mới mẻ, chủ động kiểm soát\n\nPhù hợp sử dụng cá nhân hoặc trong không gian riêng tư\n\nDễ sử dụng, không yêu cầu thao tác phức tạp\n\nThiết kế kín đáo, dễ bảo quản.\n\nKích thước : 3,5x10cm",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/HM37B/hm37b.jpg",
+    images: ["/anh1/HM37B/hm37b.jpg", "/anh1/HM37B/hm37b3.jpg", "/anh1/HM37B/hm37b5.jpg"],
   },
   {
     slug: "may-mat-xa-da-nang-gan-duong-vat-tu-dong-bao-phe",
@@ -26639,6 +26641,8 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
     sensitive: true,
+    image: "/anh1/DC502/dc5043.jpg",
+    images: ["/anh1/DC502/dc5043.jpg", "/anh1/DC502/dc5044.jpg", "/anh1/DC502/dc5045.jpg", "/anh1/DC502/dc5046.jpg", "/anh1/DC502/dc5047.jpg", "/anh1/DC502/dc5048.jpg", "/anh1/DC502/dc5049.jpg"],
   },
   {
     slug: "may-rung-diem-g-mini-cao-cap-blenva-bimmi",
@@ -26651,6 +26655,8 @@ export const products: Product[] = [
     description: "Thông số kỹ thuật sản phẩm\n\nChất liệu:  Silicone an toàn cho cơ thể\nTổng chiều dài:  17,8 cm\nĐường kính:  3,3 cm\nTrọng lượng:  132 g (không bao gồm cáp USB)\nKích thước hộp:  9,1 × 15,5 × 5,0 cm\nChế độ rung:  3 tốc độ + 7 kiểu rung\nMức độ tiếng ồn:  Dưới 50 dB\nKhả năng chống nước:  IPX7\nPin:  Có thể sạc lại\nThời gian sạc:  Khoảng 120 phút\nThời gian chạy:\nTối đa 60 phút (ở chế độ cao nhất)\nTối đa 120 phút (ở chế độ thấp nhất)",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC95E/dc95e5.jpg",
+    images: ["/anh1/DC95E/dc95e5.jpg", "/anh1/DC95E/dc95e6.jpg", "/anh1/DC95E/dc95e7.jpg", "/anh1/DC95E/dc95e8.jpg", "/anh1/DC95E/dc95e9.jpg", "/anh1/DC95E/dc95e10.jpg", "/anh1/DC95E/dc95e13.jpg", "/anh1/DC95E/dc95e14.jpg", "/anh1/DC95E/dc95e15.jpg"],
   },
   {
     slug: "may-rung-bu-mini-cao-cap-blenva-blyss",
@@ -26663,6 +26669,8 @@ export const products: Product[] = [
     description: "Thông số kỹ thuật sản phẩm\n\nChất liệu:  Silicone an toàn cho cơ thể\nĐường kính khoang âm vật:  1,1 cm\nChiều cao khoang âm vật:  1,65 cm\nĐộ sâu phần đầu:  5,2 cm\nTổng chiều dài:  14,5 cm\nChiều rộng tổng thể:  4,3 cm\nChế độ kích thích:  10 chế độ xung khí rung\nKhả năng chống nước:  IPX7\nSạc qua cổng  USB\nKích thước hộp:  11,0 × 20,0 × 5,0 cm",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC95F/1.jpg",
+    images: ["/anh1/DC95F/1.jpg", "/anh1/DC95F/dc95f1.jpg", "/anh1/DC95F/dc95f2.jpg", "/anh1/DC95F/dc95f3.jpg", "/anh1/DC95F/dc95f4.jpg", "/anh1/DC95F/dc95f5.jpg", "/anh1/DC95F/dc95f7.jpg", "/anh1/DC95F/dc95f8.jpg", "/anh1/DC95F/dc95f9.jpg", "/anh1/DC95F/dc95f10.png", "/anh1/DC95F/dc95f11.png", "/anh1/DC95F/dc95f12.png", "/anh1/DC95F/dc95f13.png", "/anh1/DC95F/dc95f14.png", "/anh1/DC95F/dc95f15.png", "/anh1/DC95F/dc95f16.png", "/anh1/DC95F/dc95f17.png", "/anh1/DC95F/dc95f21.png"],
   },
   {
     slug: "may-rung-2-dau-lovense-dolce-dieu-khien-tu-xa-qua-dien-thoai",
@@ -26675,6 +26683,8 @@ export const products: Product[] = [
     description: "Những điểm nổi bật :\n\nThiết kế 2 đầu rung, hỗ trợ kích thích điểm G và âm vật.\n\nThân máy linh hoạt tăng giảm mở rộng hoặc khép lại\n\nKiểu dáng cong ôm sát cơ thể.\n\nSilicone mềm mại, an toàn cho cơ thể.\n\n7 chế độ rung điều khiển trực tiếp.\n\nKèm theo 3 chế độ rung khi khám phá qua APP\n\nTích hợp 1.000 cường độ rung từ nhẹ đến cực mạnh\n\nKết nối smartphone thông qua ứng dụng Lovense.\n\nHỗ trợ điều khiển từ xa dành cho các cặp đôi.\n\nCó thể tạo trải nghiệm rung tương tác theo âm thanh và âm nhạc.\n\nChuẩn chống nước IPX7.\n\nSạc từ tính tiện lợi.\n\nThời gian sử dụng khoảng 1,5–2 giờ sau mỗi lần sạc.\n\nXuất xứ: USA – Nhập khẩu: USA\n\nChất liệu: Silicon PE Body Safe\n\nĐường kính Φ 27.3mm x 38mm x 197mm",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC93DL/1.png",
+    images: ["/anh1/DC93DL/1.png", "/anh1/DC93DL/dc93dl3.jpg", "/anh1/DC93DL/dc93dl4.jpg", "/anh1/DC93DL/dc93dl6.jpg", "/anh1/DC93DL/dc93dl7.jpg", "/anh1/DC93DL/dc93dl8.jpg", "/anh1/DC93DL/dc93dl9.jpg", "/anh1/DC93DL/dc93dl10.jpg", "/anh1/DC93DL/dc93dl11.jpg"],
   },
   {
     slug: "may-rung-bu-kich-thich-am-vat-cao-cap-womanizer-premium-2",
@@ -26687,6 +26697,8 @@ export const products: Product[] = [
     description: "Thông số kỹ thuật:   Máy rung bú kích thích âm vật cao cấp Womanizer Premium 2\n\nMàu sắc: Đen, Đỏ\n\nThời gian chạy240 phút\n\nThời gian sạc120 phút\n\nVật liệu đầuSilicone an toàn cho cơ thể\n\nNguyên vật liệuChất liệu silicone an toàn cho cơ thể, không chứa phthalates, BPA hoặc latex.\n\nCân nặng141,4 g\n\nKích thước155 mm x 50 mm x 35 mm",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC96A/dc96a1.jpg",
+    images: ["/anh1/DC96A/dc96a1.jpg", "/anh1/DC96A/dc96a2.jpg", "/anh1/DC96A/dc96a3.jpg", "/anh1/DC96A/dc96a4.jpg", "/anh1/DC96A/dc96a5.jpg", "/anh1/DC96A/dc96a6.jpg", "/anh1/DC96A/dc96a7.jpg", "/anh1/DC96A/dc96a8.jpg", "/anh1/DC96A/dc96a9.jpg", "/anh1/DC96A/dc96a10.jpg", "/anh1/DC96A/dc96a11.jpg", "/anh1/DC96A/dc96a12.jpg", "/anh1/DC96A/dc96a14.jpg", "/anh1/DC96A/dc96a15.jpg", "/anh1/DC96A/dc96a16.png", "/anh1/DC96A/dc96a17.jpg", "/anh1/DC96A/dc96a18.jpg", "/anh1/DC96A/dc96a19.jpg", "/anh1/DC96A/dc96a20.jpg", "/anh1/DC96A/dc96a21.jpg"],
   },
   {
     slug: "may-rung-bu-cao-cap-lovense-fizz-dieu-khien-tu-xa-qua-app",
@@ -26699,6 +26711,8 @@ export const products: Product[] = [
     description: "Máy rung bú cao cấp Lovense Fizz điều khiển từ xa qua app\n\n Thương hiệu: Lovense\nXuất xứ : USA\nĐường kính Φ 40 mm\nChiều dài thân máy: 15.5cm\nThiết kế : 2 đầu hoạt động, vừa rung vừa hút\nChất liệu : Liquid Silicone, Food-grade silicone\nMàu sắc : Màu hồng\nĐộng cơ: Động cơ kép 2\nDòng pin sử dụng: Li-polymer battery\nNguồn Pin: 730mAh\nPin sử dụng : Pin sạc ( Sạc từ )\nThời gian sử dụng: Hoạt động được 120 phút cho một lần sạc đầy pin\nThời gian sạc pin: 60 phút\nChế độ rung: 10 chế độ rung khác nhau\nCường độ rung: 1.000 cường độ mạnh nhẹ khác nhau kết hợp theo chế độ rung\nĐiều khiển từ xa qua APP: Có\nRung theo nhạc: Có\nRung theo hình vẽ: Có\nGiới hạn: Không giới hạn khoảng cách\nNút nhấn vật lý: Có\nMức nước IPX6. Chống nước tốt 98%",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC93FZ/dc93fz1.jpg",
+    images: ["/anh1/DC93FZ/dc93fz1.jpg", "/anh1/DC93FZ/dc93fz2.jpg", "/anh1/DC93FZ/dc93fz3.jpg", "/anh1/DC93FZ/dc93fz4.jpg", "/anh1/DC93FZ/dc93fz5.jpg", "/anh1/DC93FZ/dc93fz6.jpg", "/anh1/DC93FZ/dc93fz7.jpg", "/anh1/DC93FZ/dc93fz8.png"],
   },
   {
     slug: "duong-vat-silicon-hit-dat-size-nho-dang-cong",
@@ -26712,6 +26726,8 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
     sensitive: true,
+    image: "/anh1/DV43G/01.jpg",
+    images: ["/anh1/DV43G/01.jpg", "/anh1/DV43G/07.jpg", "/anh1/DV43G/08.jpg", "/anh1/DV43G/09.jpg", "/anh1/DV43G/10.jpg"],
   },
   {
     slug: "svakom-eria-plus-may-rung-thut-mini-gan-quan-chip-dieu-khien-qua-app",
@@ -26724,6 +26740,8 @@ export const products: Product[] = [
     description: "Svakom Eria Plus- Máy rung thụt mini gắn quần chip điều khiển qua app\n\nKích thước : 104.3mm x 91.3mm x 38.7mm\n\nChất liệu : Silicon an toàn \n\nChế độ rung : 11 chế độ  kết hợp với 5 cấp độ cường độ từ nhẹ nhàng đến mãnh liệt. Bạn có thể thoải mái điều chỉnh tùy theo tâm trạng và nhu cầu, mỗi lần sử dụng đều là một trải nghiệm hoàn toàn mới mẻ và không hề nhàm chán.",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC90EP/dc90ep3.jpg",
+    images: ["/anh1/DC90EP/dc90ep3.jpg", "/anh1/DC90EP/dc90ep4.jpg", "/anh1/DC90EP/dc90ep5.jpg", "/anh1/DC90EP/dc90ep6.jpg", "/anh1/DC90EP/dc90ep7.jpg", "/anh1/DC90EP/dc90ep8.jpg", "/anh1/DC90EP/dc90ep9.jpg", "/anh1/DC90EP/dc90ep10.jpg", "/anh1/DC90EP/dc90ep11.jpg", "/anh1/DC90EP/svakom-erica-2.jpg", "/anh1/DC90EP/svakom-erica-3.jpg", "/anh1/DC90EP/svakom-erica-4.jpg", "/anh1/DC90EP/svakom-erica-5.jpg", "/anh1/DC90EP/svakom-erica-6.jpg"],
   },
 ];
 
