@@ -130,6 +130,17 @@ export default async function ProductPage({
       {/* Chi tiết sản phẩm — đặt riêng, căn giữa trang, dưới cả 2 cột */}
       <div className="mx-auto mt-14 max-w-3xl border border-line bg-surface p-6 sm:p-8">
         <h2 className="font-serif text-xl text-ivory">Chi tiết sản phẩm</h2>
+        {product.longDescription && (
+          <div className="mt-5 flex flex-col gap-4 text-sm leading-relaxed text-muted">
+            {product.longDescription
+              .split(/\n\s*\n/)
+              .map((p) => p.trim())
+              .filter(Boolean)
+              .map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
+          </div>
+        )}
         <dl className="mt-5 grid gap-4 border-t border-line pt-5 text-sm sm:grid-cols-2">
           <div>
             <dt className="text-muted">Danh mục</dt>
