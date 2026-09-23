@@ -18,46 +18,18 @@ import { categories, products } from "@/data/products";
 
 export const runtime = "nodejs";
 
-// Gemini model: giữ nguyên Google SDK @google/genai và model Gemini 3.6 Flash.
-const GEMINI_MODEL = "gemini-3.6-flash";
+// gemini-3.6-flash khong phai model that (da kiem tra lai) - thay bang
+// gemini-2.5-flash, model on dinh hien dang hoat dong, de model du phong
+// thuc su chay duoc thay vi loi ngay lap tuc.
+const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-2.5-flash"];
 
-// Có thể đặt nhiều API key trên Vercel:
-// GEMINI_API_KEY
-// GEMINI_API_KEY_2
-// GEMINI_API_KEY_3
-// GEMINI_API_KEY_4
-// GEMINI_API_KEY_5
-//
-// Request sẽ thử key lần lượt. Khi gặp lỗi quota/rate-limit/auth,
-// key hiện tại sẽ được bỏ qua và thử key tiếp theo.
-const GEMINI_KEY_ENV_NAMES = [
-  "GEMINI_API_KEY",
-  "GEMINI_API_KEY_2",
-  "GEMINI_API_KEY_3",
-  "GEMINI_API_KEY_4",
-  "GEMINI_API_KEY_5",
-] as const;
-
-function getGeminiApiKeys(): string[] {
-  return GEMINI_KEY_ENV_NAMES
-    .map((name) => process.env[name]?.trim())
-    .filter((key): key is string => Boolean(key));
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function shouldRotateGeminiKey(error: unknown): boolean {
-  const message = error instanceof Error ? error.message.toLowerCase() : String(error).toLowerCase();
-
-  return (
-    message.includes("429") ||
-    message.includes("quota") ||
-    message.includes("rate limit") ||
-    message.includes("resource exhausted") ||
-    message.includes("too many requests") ||
-    message.includes("api key") ||
-    message.includes("permission denied") ||
-    message.includes("unauthorized") ||
-    message.includes("forbidden")
-  );
+function isOverloadedError(e: unknown) {
+  const msg = e instanceof Error ? e.message : String(e);
+  return msg.includes("503") || msg.includes("UNAVAILABLE") || msg.includes("high demand");
 }
 
 // --- Chinh lai phan nay neu ten field trong data/products.ts khac ---
@@ -144,14 +116,11 @@ QUY TRÌNH TƯ VẤN (luôn theo đúng thứ tự):
 }
 
 export async function POST(req: NextRequest) {
-  const apiKeys = getGeminiApiKeys();
+  const apiKey = process.env.GEMINI_API_KEY;
 
-  if (apiKeys.length === 0) {
+  if (!apiKey) {
     return NextResponse.json(
-      {
-        error:
-          "Chatbot chưa được cấu hình. Hãy thêm GEMINI_API_KEY trên Vercel (có thể thêm GEMINI_API_KEY_2, _3, _4, _5 để dự phòng).",
-      },
+      { error: "Chatbot chưa được cấu hình (thiếu GEMINI_API_KEY trên Vercel)." },
       { status: 500 }
     );
   }
@@ -168,53 +137,40 @@ export async function POST(req: NextRequest) {
 
   const matchedProducts = findRelevantProducts(recent);
 
+  const ai = new GoogleGenAI({ apiKey });
   const contents = recent.map((m) => ({
     role: m.role,
     parts: [{ text: m.text }],
   }));
 
-  const systemPrompt = buildSystemPrompt(matchedProducts);
   let lastErr: unknown = null;
 
-  // Thử từng API key với cùng một model Gemini 3.6 Flash.
-  // Không dùng model fallback để đảm bảo đúng model mà bạn yêu cầu.
-  for (let i = 0; i < apiKeys.length; i++) {
-    const apiKey = apiKeys[i];
-
-    try {
-      const ai = new GoogleGenAI({ apiKey });
-
-      const res = await ai.models.generateContent({
-        model: GEMINI_MODEL,
-        contents,
-        config: {
-          systemInstruction: systemPrompt,
-          maxOutputTokens: 500,
-        },
-      });
-
-      const text = res.text?.trim();
-
-      if (text) {
-        return NextResponse.json({
-          reply: text,
+  for (const model of MODELS_TO_TRY) {
+    // Gemini bao 503 "qua tai" thuong chi tam thoi vai giay - thu lai 1 lan
+    // truoc khi chuyen sang model khac.
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const res = await ai.models.generateContent({
+          model,
+          contents,
+          config: {
+            systemInstruction: buildSystemPrompt(matchedProducts),
+            maxOutputTokens: 500,
+          },
         });
-      }
 
-      throw new Error("Gemini không trả về nội dung.");
-    } catch (e) {
-      lastErr = e;
-
-      console.error(
-        `[Gemini] Key ${i + 1}/${apiKeys.length} failed:`,
-        e instanceof Error ? e.message : String(e)
-      );
-
-      // Chỉ xoay key khi lỗi có khả năng liên quan quota/rate-limit/auth.
-      // Các lỗi khác cũng thử key tiếp theo để tăng khả năng phục hồi,
-      // nhưng vẫn giữ nguyên model Gemini 3.6 Flash.
-      if (!shouldRotateGeminiKey(e) && i === apiKeys.length - 1) {
-        break;
+        const text = res.text?.trim();
+        if (text) {
+          return NextResponse.json({ reply: text });
+        }
+        break; // khong co text, sang model tiep theo
+      } catch (e) {
+        lastErr = e;
+        if (attempt === 0 && isOverloadedError(e)) {
+          await sleep(1200);
+          continue; // thu lai cung model 1 lan
+        }
+        break; // loi khac hoac da thu lai - sang model tiep theo
       }
     }
   }
@@ -222,13 +178,8 @@ export async function POST(req: NextRequest) {
   return NextResponse.json(
     {
       error:
-        "AI đang bận hoặc API Gemini đã hết quota. Vui lòng thử lại sau hoặc liên hệ hotline/Zalo.",
-      detail:
-        process.env.NODE_ENV === "development"
-          ? lastErr instanceof Error
-            ? lastErr.message
-            : String(lastErr)
-          : undefined,
+        "AI đang bận, vui lòng thử lại sau hoặc liên hệ hotline/Zalo. Chi tiết: " +
+        (lastErr instanceof Error ? lastErr.message : String(lastErr)),
     },
     { status: 500 }
   );
