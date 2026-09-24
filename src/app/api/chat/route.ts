@@ -21,7 +21,7 @@ export const runtime = "nodejs";
 // gemini-3.6-flash khong phai model that (da kiem tra lai) - thay bang
 // gemini-2.5-flash, model on dinh hien dang hoat dong, de model du phong
 // thuc su chay duoc thay vi loi ngay lap tuc.
-const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-2.5-flash"];
+const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-3.6-flash"];
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
