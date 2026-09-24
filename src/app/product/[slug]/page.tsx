@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -7,6 +8,70 @@ import AddToCartButton from "@/components/AddToCartButton";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
 import { Check } from "lucide-react";
+
+// Data moi (sau khi chay script AI) la HTML thuan (<h2>, <p>, <ul>...).
+// Data cu (chua kip viet lai) van la text thuong voi "## "/"- ". Ham nay
+// tu nhan biet dinh dang de hien dung ca 2 truong hop trong luc migrate
+// dan 1913 san pham, khong can lam moi luc.
+function isHtmlContent(text: string) {
+  return /^\s*</.test(text);
+}
+
+function renderLongDescription(text: string) {
+  if (isHtmlContent(text)) {
+    return (
+      <div
+        className="flex flex-col gap-3 [&_h2]:mt-4 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:text-ivory [&_h3]:mt-3 [&_h3]:font-serif [&_h3]:text-base [&_h3]:text-ivory [&_p]:leading-relaxed [&_ul]:flex [&_ul]:flex-col [&_ul]:gap-1 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:marker:text-gold [&_a]:text-gold [&_a]:underline [&_a]:underline-offset-2 [&_a]:hover:text-ivory"
+        dangerouslySetInnerHTML={{ __html: text }}
+      />
+    );
+  }
+  return renderMarkdownLite(text);
+}
+
+// Parser markdown-nhe cho data CU: dong bat dau "## " -> tieu de phu (h3),
+// dong bat dau "- " -> gom thanh 1 danh sach <ul>, con lai la doan van <p>.
+function renderMarkdownLite(text: string) {
+  const lines = text
+    .split(/\n+/)
+    .map((l) => l.trim())
+    .filter(Boolean);
+
+  const blocks: ReactNode[] = [];
+  let currentList: string[] = [];
+
+  const flushList = () => {
+    if (currentList.length > 0) {
+      blocks.push(
+        <ul key={`ul-${blocks.length}`} className="flex flex-col gap-1 pl-5 list-disc marker:text-gold">
+          {currentList.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      );
+      currentList = [];
+    }
+  };
+
+  lines.forEach((line, i) => {
+    if (line.startsWith("## ")) {
+      flushList();
+      blocks.push(
+        <h3 key={`h-${i}`} className="mt-2 font-serif text-base text-ivory">
+          {line.replace(/^##\s*/, "")}
+        </h3>
+      );
+    } else if (line.startsWith("- ")) {
+      currentList.push(line.replace(/^-\s*/, ""));
+    } else {
+      flushList();
+      blocks.push(<p key={`p-${i}`}>{line}</p>);
+    }
+  });
+  flushList();
+
+  return blocks;
+}
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -131,14 +196,8 @@ export default async function ProductPage({
       <div className="mx-auto mt-14 max-w-3xl border border-line bg-surface p-6 sm:p-8">
         <h2 className="font-serif text-xl text-ivory">Chi tiết sản phẩm</h2>
         {product.longDescription && (
-          <div className="mt-5 flex flex-col gap-4 text-sm leading-relaxed text-muted">
-            {product.longDescription
-              .split(/\n\s*\n/)
-              .map((p) => p.trim())
-              .filter(Boolean)
-              .map((paragraph, i) => (
-                <p key={i}>{paragraph}</p>
-              ))}
+          <div className="mt-5 flex flex-col gap-3 text-sm leading-relaxed text-muted">
+            {renderLongDescription(product.longDescription)}
           </div>
         )}
         <dl className="mt-5 grid gap-4 border-t border-line pt-5 text-sm sm:grid-cols-2">
