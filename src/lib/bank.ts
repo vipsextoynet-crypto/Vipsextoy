@@ -12,7 +12,7 @@
 // De TRONG bankId/accountNo/accountName -> tinh nang QR tu tat, checkout van chay nhu cu.
 
 export const bank = {
-  bankId: "VCB",
+  bankId: "vcb",
   accountNo: "0251002765446",
   accountName: "NGO THANH TU",
   bankLabel: "Vietcombank",
