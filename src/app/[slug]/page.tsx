@@ -17,12 +17,43 @@ function isHtmlContent(text: string) {
   return /^\s*</.test(text);
 }
 
-function renderLongDescription(text: string) {
+// Chen anh vao ngay sau moi the <h2> (dung anh that cua san pham, khong
+// lap lai anh nao ca). Anh du (nhieu hon so luong h2) thi gom vao 1 dai
+// nho o cuoi bai, dam bao dung het toan bo anh co san.
+function interleaveImagesAfterH2(html: string, images: string[], altBase: string) {
+  if (!images || images.length === 0) return html;
+
+  let used = 0;
+  const withInline = html.replace(/<\/h2>/g, () => {
+    if (used >= images.length) return "</h2>";
+    const src = images[used];
+    used += 1;
+    return `</h2><figure class="my-1 overflow-hidden border border-line bg-surface"><img src="${src}" alt="${altBase} - hình minh họa ${used}" loading="lazy" width="800" height="800" class="aspect-square w-full object-contain" /></figure>`;
+  });
+
+  if (used >= images.length) return withInline;
+
+  const rest = images.slice(used);
+  const restHtml = rest
+    .map(
+      (src, i) =>
+        `<div class="aspect-square overflow-hidden border border-line bg-surface"><img src="${src}" alt="${altBase} - hình minh họa ${used + i + 1}" loading="lazy" width="400" height="400" class="h-full w-full object-contain" /></div>`
+    )
+    .join("");
+
+  return (
+    withInline +
+    `<div class="mt-2 grid grid-cols-2 gap-3 sm:grid-cols-3">${restHtml}</div>`
+  );
+}
+
+function renderLongDescription(text: string, images: string[], altBase: string) {
   if (isHtmlContent(text)) {
+    const html = interleaveImagesAfterH2(text, images, altBase);
     return (
       <div
-        className="flex flex-col gap-3 [&_h2]:mt-4 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:text-ivory [&_h3]:mt-3 [&_h3]:font-serif [&_h3]:text-base [&_h3]:text-ivory [&_p]:leading-relaxed [&_ul]:flex [&_ul]:flex-col [&_ul]:gap-1 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:marker:text-gold [&_a]:text-gold [&_a]:underline [&_a]:underline-offset-2 [&_a]:hover:text-ivory"
-        dangerouslySetInnerHTML={{ __html: text }}
+        className="flex flex-col gap-3 [&_h2]:mt-4 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:text-ivory [&_h3]:mt-3 [&_h3]:font-serif [&_h3]:text-base [&_h3]:text-ivory [&_p]:leading-relaxed [&_ul]:flex [&_ul]:flex-col [&_ul]:gap-1 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:marker:text-gold [&_a]:text-gold [&_a]:underline [&_a]:underline-offset-2 [&_a]:hover:text-ivory [&_figure]:my-1 [&_img]:rounded-none"
+        dangerouslySetInnerHTML={{ __html: html }}
       />
     );
   }
@@ -197,7 +228,13 @@ export default async function ProductPage({
         <h2 className="font-serif text-xl text-ivory">Chi tiết sản phẩm</h2>
         {product.longDescription && (
           <div className="mt-5 flex flex-col gap-3 text-sm leading-relaxed text-muted">
-            {renderLongDescription(product.longDescription)}
+            {renderLongDescription(
+              product.longDescription,
+              product.image
+                ? [product.image, ...(product.images || []).filter((u) => u !== product.image)]
+                : product.images || [],
+              product.name
+            )}
           </div>
         )}
         <dl className="mt-5 grid gap-4 border-t border-line pt-5 text-sm sm:grid-cols-2">
