@@ -2055,43 +2055,13 @@ export const products: Product[] = [
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 890000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
+    blurb: "",
     description: "Dụng Cụ Massage Cá Nhân Lovetoy Nature Cock 7.5” – Silicon 2 Lớp Cao Cấp. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DV58Q/01.jpg",
     images: ["/anh1/DV58Q/01.jpg", "/anh1/DV58Q/07.jpg", "/anh1/DV58Q/08.jpg", "/anh1/DV58Q/09.jpg", "/anh1/DV58Q/10.jpg"],
-    longDescription: `<p>Giới Thiệu Dụng Cụ Massage Cá Nhân Lovetoy Nature Cock 7.5” – Silicon 2 Lớp Cao Cấp</p>
-<p>Dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” – silicon 2 lớp cao cấp là giải pháp chăm sóc sức khỏe cá nhân hàng đầu, mang lại sự thư giãn tuyệt đối và giải tỏa căng thẳng hiệu quả. Nhờ ứng dụng công nghệ silicon 2 lớp tiên tiến, sản phẩm tái hiện sự mềm mại tự nhiên nhưng vẫn đảm bảo độ chắc chắn tối ưu trong suốt quá trình sử dụng. Để nâng cao sự mượt ái và an toàn, bạn nên kết hợp dùng cùng gel bôi trơn gốc nước chất lượng cao cũng như tham khảo bài viết cách chọn gel bôi trơn phù hợp.</p>
-<h2>Thông Số Kỹ Thuật Chi Tiết</h2>
-<p>Dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” sở hữu các thông số chuẩn xác, đáp ứng đầy đủ tiêu chí về chất lượng và tính tiện dụng:</p>
-<h2>- Tổng chiều dài: 19.5 cm</h2>
-<h2>- Chiều dài sử dụng: 14.5 cm</h2>
-<h2>- Đường kính thân: 3.7 cm</h2>
-<h2>- Đường kính đế hút: 6 cm</h2>
-<h2>- Chất liệu cấu thành: Silicon bạch kim 2 lớp cao cấp</h2>
-<h2>- Thiết kế chân đế: Tích hợp đế hút chân không cố định chắc chắn</h2>
-<h2>Thiết Kế Đột Phá Và Công Nghệ Silicon 2 Lớp</h2>
-<p>Dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” được chế tạo từ chất liệu silicon bạch kim y tế cao cấp, tuyệt đối an toàn và thân thiện với làn da nhạy cảm. Cấu trúc 2 lớp độc đáo với lõi bên trong định hình chắc chắn, được bao bọc bởi lớp silicon siêu mềm phía ngoài, tạo cảm giác vô cùng chân thật.</p>
-<p>Bề mặt thiết bị được hoàn thiện tỉ mỉ, trơn mịn giúp giảm ma sát tối đa, đem lại cảm giác thoải mái và thư thái trong mỗi liệu pháp massage cá nhân.</p>
-<h2>Ưu Điểm Nổi Bật Và Tính Năng Tiện Lợi</h2>
-<p>Sản phẩm không chỉ nổi bật về mặt chất liệu mà còn sở hữu nhiều tính năng tiện ích hỗ trợ người dùng:</p>
-<ul><li>- Đế hút chân không siêu bền: Dễ dàng dính chặt lên các bề mặt phẳng, cho phép trải nghiệm linh hoạt và hoàn toàn rảnh tay.</li><li>- Độ bền vượt trội: Silicon bạch kim có độ đàn hồi cao, chống rách và giữ phom dáng bền bỉ qua thời gian.</li><li>- Ứng dụng đa năng: Phù hợp cho nhu cầu thư giãn cá nhân độc lập hoặc dễ dàng kết hợp chung với các loại phụ kiện khác.</li><li>- Dễ dàng làm sạch: Chất liệu chống bám bẩn giúp việc rửa sạch và bảo quản sau khi sử dụng trở nên nhanh chóng.</li></ul>
-<h2>Hướng Dẫn Sử Dụng Và Bảo Quản Chuẩn Xác</h2>
-<p>Để đảm bảo an toàn vệ sinh sức khỏe và kéo dài tuổi thọ cho sản phẩm, bạn nên thực hiện theo quy trình sau:</p>
-<ul><li>- Vệ sinh kỹ bề mặt sản phẩm bằng nước ấm hoặc xà phòng dịu nhẹ trước và sau khi sử dụng.</li><li>- Kết hợp với gel bôi trơn gốc nước để gia tăng cảm giác êm ái, mượt mà khi trải nghiệm.</li><li>- Lau khô bằng khăn mềm không xơ và bảo quản thiết bị tại nơi khô ráo, thoáng mát, tránh tiếp xúc trực tiếp với ánh nắng mặt trời hay nhiệt độ cao.</li></ul>
-<h2>Cam Kết Bảo Hành Và Bảo Mật Đơn Hàng</h2>
-<p>Chúng tôi cam kết phân phối sản phẩm dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” chính hãng 100%, kiểm tra kỹ lưỡng trước khi giao. Mọi đơn hàng đều được che tên sản phẩm và đóng gói trong hộp carton kín đáo, đảm bảo sự riêng tư tuyệt đối cho khách hàng.</p>
-<h2>Câu Hỏi Thường Gặp (FAQ)</h2>
-<p>Dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” có an toàn cho da không?</p>
-<p>Sản phẩm được chế tạo hoàn toàn từ silicon bạch kim cao cấp đạt tiêu chuẩn y tế, hoàn toàn kháng khuẩn, không chứa phthalate và không gây kích ứng da.</p>
-<h2>Người mới bắt đầu có phù hợp sử dụng sản phẩm này không?</h2>
-<p>Có, với đường kính 3.7 cm cân đối cùng lớp silicon ngoài mềm mại, sản phẩm rất phù hợp cho cả người mới lần đầu trải nghiệm lẫn người đã có kinh nghiệm.</p>
-<h2>Làm thế nào để bảo quản thiết bị đúng cách?</h2>
-<p>Sau khi rửa sạch và lau khô hoàn toàn, bạn nên cất giữ sản phẩm trong túi vải sạch hoặc hộp đựng riêng ở nơi khô ráo, tránh để gần các vật sắc nhọn.</p>
-<h2>Bài Viết Liên Quan</h2>
-<h2>- Cách chọn gel bôi trơn phù hợp và an toàn nhất</h2>
-<h2>- Tư vấn sử dụng thiết bị massage cá nhân đúng chuẩn y tế</h2>`,
+    sensitive: true,
   },
   {
     slug: "dv39g-dung-cu-massage-ca-nhan-prettylove-molly-rung-nhieu-che-do-thiet-ke-nho-gon",
