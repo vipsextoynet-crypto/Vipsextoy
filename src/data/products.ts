@@ -853,6 +853,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC13F/01.jpg",
     images: ["/anh1/DC13F/01.jpg", "/anh1/DC13F/10.jpg", "/anh1/DC13F/11.jpg", "/anh1/DC13F/12.jpg", "/anh1/DC13F/13.jpg", "/anh1/DC13F/14.jpg", "/anh1/DC13F/15.jpg", "/anh1/DC13F/16.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm Đạo Giả Nam FLEX Xoắn Ốc Hút Chân Không – Trải Nghiệm Kích Thích Độc Đáo</p>
 <p>Âm đạo giả nam FLEX xoắn ốc hút chân không là giải pháp hỗ trợ giải tỏa nhu cầu cá nhân cao cấp dành riêng cho nam giới trưởng thành. Sản phẩm sở hữu cơ chế vận hành độc đáo, kết hợp giữa hiệu ứng hút chân không cùng bề mặt vân xoắn ốc tinh tế, mang đến cảm giác thoải mái và thư giãn vượt trội.</p>
 <p>Được sản xuất từ chất liệu đạt chuẩn y tế cao cấp, sản phẩm không chỉ an toàn tuyệt đối cho làn da mà còn đảm bảo độ bền bỉ trong suốt quá trình sử dụng. Đây là lựa chọn lý tưởng cho phái mạnh đang tìm kiếm một thiết bị chăm sóc sức khỏe cá nhân hiện đại, công năng và tiện lợi.</p>
@@ -1986,6 +1987,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD57/01.jpg",
     images: ["/anh1/AD57/01.jpg", "/anh1/AD57/17.jpg", "/anh1/AD57/18.jpg", "/anh1/AD57/19.jpg", "/anh1/AD57/20.jpg", "/anh1/AD57/27.jpg", "/anh1/AD57/28.jpg", "/anh1/AD57/29.jpg", "/anh1/AD57/30.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Âm Đạo Giả Silicon Mềm Cao Cấp – Thiết Kế Nhỏ Gọn, Cảm Giác Chân Thật Cho Nam (Mã AD57)</p>
 <p>Âm đạo giả silicon mềm cao cấp – Thiết kế nhỏ gọn, cảm giác chân thật cho nam (mã AD57) là giải pháp chăm sóc sức khỏe cá nhân cao cấp dành riêng cho phái mạnh. Sản phẩm nổi bật với thiết kế thông minh, tối ưu cảm giác tự nhiên nhằm hỗ trợ giải tỏa căng thẳng hiệu quả trong không gian riêng tư. Để đạt được sự mượt mà hoàn hảo, người dùng nên kết hợp cùng các dòng gel bôi trơn gốc nước chất lượng cao hoặc tìm hiểu thêm cách chọn gel bôi trơn phù hợp. Đây là sự lựa chọn lý tưởng cho cả người mới trải nghiệm cũng như những ai đang tìm kiếm sản phẩm chất lượng cao.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3112,6 +3114,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/NY19F/01.jpg",
     images: ["/anh1/NY19F/01.jpg", "/anh1/NY19F/08.jpg", "/anh1/NY19F/09.jpg", "/anh1/NY19F/10.jpg", "/anh1/NY19F/11.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Quần Silicon Có Âm Đạo Giả Cho Gay – Giải Pháp Hoàn Hảo Để Hóa Nữ Tự Nhiên Nhất</p>
 <p>Quần Silicon Có Âm Đạo Giả Cho Gay – Giải Pháp Hoàn Hảo Để Hóa Nữ Tự Nhiên Nhất là sản phẩm hỗ trợ định hình vóc dáng cao cấp, giúp người dùng trong cộng đồng LGBT+ tự tin thể hiện đường nét nữ tính đầy mềm mại và quyến rũ. Sản phẩm ứng dụng công nghệ silicon y tế thế hệ mới, mang lại độ chân thật vượt trội từ màu sắc đến độ đàn hồi như da thật. Để biết thêm bí quyết giữ gìn vẻ đẹp và duy trì sự tự tin, bạn có thể tham khảo các bài viết về hướng dẫn chăm sóc da cũng như cách làm đẹp cho nam giới từ các chuyên gia.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3242,6 +3245,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/G05D/01.jpg",
     images: ["/anh1/G05D/01.jpg", "/anh1/G05D/07.jpg", "/anh1/G05D/08.jpg", "/anh1/G05D/09.jpg", "/anh1/G05D/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Gel Se Khít Âm Đạo Shunga Hold Me Tight Nhật Bản – Tăng Khoái Cảm, Co Thắt Nhanh</p>
 <p>Gel Se Khít Âm Đạo Shunga Hold Me Tight Nhật Bản là dòng sản phẩm chăm sóc sức khỏe sinh lý cao cấp dành riêng cho phái đẹp. Sản phẩm giúp hỗ trợ phục hồi độ đàn hồi, tăng cường sự co thắt tự nhiên và đem lại cảm giác săn chắc tức thì. Bên cạnh việc tìm kiếm các bí quyết skincare cho da mụn để hoàn thiện vẻ đẹp bên ngoài, chị em cũng có thể áp dụng những cách tăng cường khoái cảm tinh tế để nuôi dưỡng ngọn lửa tự tin và hạnh phúc đôi lứa.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3416,6 +3420,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC53M/01.jpg",
     images: ["/anh1/DC53M/01.jpg", "/anh1/DC53M/08.jpg", "/anh1/DC53M/09.jpg", "/anh1/DC53M/10.jpg", "/anh1/DC53M/11.jpg", "/anh1/DC53M/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>Giới Thiệu Âm Đạo Giả Mông Silicon Khủng Rung Rên Bú 2 Lỗ Siêu Thật</h2>
 <p>Âm Đạo Giả Mông Silicon Khủng Rung Rên Bú 2 Lỗ Siêu Thật là giải pháp hỗ trợ chăm sóc sức khỏe sinh lý nam giới cao cấp, mang lại trải nghiệm thư giãn chân thực và hiện đại. Sản phẩm được mô phỏng đường nét đường cong tỉ mỉ, tích hợp đa dạng chế độ rung massage và mô phỏng âm thanh chân thực giúp phái mạnh giải tỏa căng thẳng hiệu quả. Bạn có thể xem thêm các bài viết về tìm hiểu về âm đạo giả và cách sử dụng âm đạo giả an toàn để áp dụng đúng phương pháp và bảo vệ sức khỏe cá nhân.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3461,6 +3466,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD19A/01.jpg",
     images: ["/anh1/AD19A/01.jpg", "/anh1/AD19A/15.jpg", "/anh1/AD19A/16.jpg", "/anh1/AD19A/17.jpg", "/anh1/AD19A/18.jpg", "/anh1/AD19A/19.jpg", "/anh1/AD19A/20.jpg", "/anh1/AD19A/21.jpg", "/anh1/AD19A/22.jpg", "/anh1/AD19A/23.jpg", "/anh1/AD19A/24.jpg", "/anh1/AD19A/25.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Âm Đạo 2 Đầu Có Miệng Mũi Như Thật – Silicon Mềm, 3 Lỗ Kích Thích</p>
 <p>Sản phẩm Âm Đạo 2 Đầu Có Miệng Mũi Như Thật – Silicon Mềm, 3 Lỗ Kích Thích là dòng thiết bị hỗ trợ sức khỏe sinh lý nam giới cao cấp, mang lại giải pháp thư giãn an toàn và riêng tư. Với thiết kế sáng tạo tích hợp 3 khoang trải nghiệm riêng biệt cùng chất liệu mềm mại, sản phẩm đem đến sự thoải mái tối đa cho phái mạnh. Quý khách có thể tham khảo thêm về các bài viết hướng dẫn sử dụng sextoy hiệu quả và mẹo chọn sextoy phù hợp để nâng cao chất lượng cuộc sống.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3503,6 +3509,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD38G/01.jpg",
     images: ["/anh1/AD38G/01.jpg", "/anh1/AD38G/08.jpg", "/anh1/AD38G/09.jpg", "/anh1/AD38G/10.jpg", "/anh1/AD38G/11.jpg", "/anh1/AD38G/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Ngực Silicon Khủng Kèm Âm Đạo – Silicon Siêu Mềm, Cực Phê Như Thật</p>
 <p>Ngực Silicon Khủng Kèm Âm Đạo – Silicon Siêu Mềm, Cực Phê Như Thật là dòng thiết bị cao cấp hỗ trợ chăm sóc sức khỏe sinh lý phái mạnh. Thiết kế tỉ mỉ kết hợp giữa đường nét bầu ngực nảy nở và cấu tạo mô phỏng tinh tế mang đến trải nghiệm thư giãn chân thực, giúp giải tỏa căng thẳng hiệu quả. Quý khách có thể tìm hiểu thêm các dòng sản phẩm cho nam giới cũng như áp dụng bí quyết sử dụng hiệu quả để nâng cao chất lượng trải nghiệm cá nhân.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3547,6 +3554,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33F1/01.jpg",
     images: ["/anh1/AD33F1/01.jpg", "/anh1/AD33F1/10.jpg", "/anh1/AD33F1/11.jpg", "/anh1/AD33F1/12.jpg", "/anh1/AD33F1/13.jpg", "/anh1/AD33F1/14.jpg", "/anh1/AD33F1/15.jpg", "/anh1/AD33F1/16.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Âm Đạo Tự Động Leten Zero Gravity – Rung Thụt, Sưởi Ấm 42°C Cao Cấp</p>
 <p>Âm Đạo Tự Động Leten Zero Gravity – Rung Thụt, Sưởi Ấm 42°C Cao Cấp (phiên bản Leten Zero Gravity XT8 Pro) là dòng thiết bị massage sinh lý tự động thông minh hàng đầu từ thương hiệu Leten (Nhật Bản). Nhờ việc ứng dụng thành tựu công nghệ tình dục tiên tiến và đáp ứng chuẩn mực chăm sóc sức khỏe giới tính, sản phẩm mang đến giải pháp thư giãn riêng tư, hiện đại và vô cùng êm ái cho nam giới.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3923,6 +3931,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/NY19E1/01.jpg",
     images: ["/anh1/NY19E1/01.jpg", "/anh1/NY19E1/14.jpg", "/anh1/NY19E1/15.jpg", "/anh1/NY19E1/16.jpg", "/anh1/NY19E1/17.jpg", "/anh1/NY19E1/18.jpg", "/anh1/NY19E1/19.jpg", "/anh1/NY19E1/20.jpg", "/anh1/NY19E1/21.jpg", "/anh1/NY19E1/22.jpg", "/anh1/NY19E1/23.jpg", "/anh1/NY19E1/24.jpg"],
+    sensitive: true,
     longDescription: `<p>Quần silicon có âm đạo giả cho Gay (nam giả nữ) là sản phẩm hỗ trợ hóa thân cao cấp được chế tạo từ chất liệu Silicone TPE co giãn, giúp mô phỏng đường nét vóc dáng nữ tính tự nhiên và mang lại cảm giác êm ái khi mặc.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Chất liệu Silicone TPE cao cấp: Bề mặt siêu mềm mại, độ đàn hồi linh hoạt, mô phỏng chân thực độ mịn màng của làn da tự nhiên.</p>
@@ -4441,6 +4450,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD02M/01.jpg",
     images: ["/anh1/AD02M/01.jpg", "/anh1/AD02M/06.jpg", "/anh1/AD02M/07.jpg", "/anh1/AD02M/08.jpg", "/anh1/AD02M/09.jpg", "/anh1/AD02M/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo silicon se khít gái tơ Sarah là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nam giới cao cấp đến từ thương hiệu Lovense, được thiết kế mô phỏng tinh xảo giúp giải tỏa căng thẳng hiệu quả, an toàn và kín đáo.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Cấu trúc bên trong se khít: Lòng ống thiết kế nhiều đường nếp nhăn tỉ mỉ, giúp ôm sát và massage dịu nhẹ mà không gây cảm giác đau rát.</p>
@@ -4476,6 +4486,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD14D/01.jpg",
     images: ["/anh1/AD14D/01.jpg", "/anh1/AD14D/10.jpg", "/anh1/AD14D/11.jpg", "/anh1/AD14D/12.jpg", "/anh1/AD14D/13.jpg", "/anh1/AD14D/14.jpg", "/anh1/AD14D/15.jpg", "/anh1/AD14D/16.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo silicon hình thiếu nữ gợi cảm là mẫu búp bê bán thân hỗ trợ chăm sóc sức khỏe sinh lý nam giới xuất xứ Hồng Kông, cung cấp hai đường trải nghiệm riêng biệt giúp giải tỏa căng thẳng hiệu quả và riêng tư.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Thiết kế hai lối trải nghiệm linh hoạt: Tích hợp cả đường âm đạo và hậu môn, đáp ứng đa dạng nhu cầu giải trí cá nhân.</li><li>- Cấu trúc rãnh sóng đa tầng: Hệ thống vân sóng nội bộ tạo độ ôm sát tự nhiên, gia tăng ma sát êm ái mà không gây khó chịu.</li><li>- Kích thước 21cm x 11cm x 9cm vừa vặn: Dáng búp bê bán thân nhỏ gọn, tối ưu cho nhu cầu cầm nắm và di chuyển nhẹ nhàng.</li><li>- Trọng lượng 810g linh hoạt: Nhẹ nhàng, dễ thao tác trong quá trình sử dụng cũng như tiện lợi khi lưu trữ kín đáo.</li><li>- Tạo hình hình thể nữ sinh động: Đường nét mềm mại mang đến sự hào hứng và trải nghiệm chân thực.</li></ul>
@@ -4595,6 +4606,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC53K/01.jpg",
     images: ["/anh1/DC53K/01.jpg", "/anh1/DC53K/17.jpg", "/anh1/DC53K/18.jpg", "/anh1/DC53K/19.jpg", "/anh1/DC53K/20.jpg", "/anh1/DC53K/21.jpg", "/anh1/DC53K/22.jpg", "/anh1/DC53K/23.jpg", "/anh1/DC53K/24.jpg", "/anh1/DC53K/25.jpg", "/anh1/DC53K/26.jpg", "/anh1/DC53K/27.jpg", "/anh1/DC53K/28.jpg", "/anh1/DC53K/29.jpg", "/anh1/DC53K/30.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm Đạo Silicon Cỡ Lớn – Vòng Ba Cực Quyến Rũ là dòng sản phẩm mô hình hỗ trợ sức khỏe sinh lý nam giới cao cấp, thiết kế phô diễn đường nét vòng ba sinh động nhằm đáp ứng nhu cầu giải tỏa cá nhân một cách an toàn, kín đáo và hiệu quả.</p>
 <h2>Vì sao nên chọn Âm Đạo Silicon Cỡ Lớn – Vòng Ba Cực Quyến Rũ</h2>
 <p>Sản phẩm ấn tượng bởi kiểu dáng mô phỏng vòng ba tự nhiên với đường nét đầm đặn, kết hợp cùng trọng lượng khoảng 3kg vững chắc giúp cố định tối ưu trên nhiều bề mặt. Khoang bên trong được tích hợp các đường gân và hạt đúc nổi đa điểm, gia tăng độ ôm sát cũng như ma sát dịu nhẹ cho phái mạnh. Đi cùng chất liệu silicon y tế cao cấp đàn hồi tốt, đây là giải pháp chăm sóc sức khỏe riêng tư vừa đảm bảo giá trị thẩm mỹ, vừa dễ dàng vệ sinh để sử dụng bền bỉ theo thời gian.</p>
@@ -4627,6 +4639,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD34N/01.jpg",
     images: ["/anh1/AD34N/01.jpg", "/anh1/AD34N/08.jpg", "/anh1/AD34N/09.jpg", "/anh1/AD34N/10.jpg", "/anh1/AD34N/11.jpg", "/anh1/AD34N/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả Dibe Ferrady rung sục tự động có sưởi ấm là thiết bị hỗ trợ sinh lý nam giới cao cấp, kết hợp công nghệ chuyển động tự động thông minh và cơ chế giữ nhiệt độ ấm áp nhằm hỗ trợ giải tỏa nhu cầu cá nhân an toàn, kín đáo.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Tính năng 4 trong 1: Tích hợp đa dạng cơ chế gồm rung nhiều tần số, sục tự động, ôm khít linh hoạt cùng khả năng tỏa nhiệt.</li><li>- Công nghệ sưởi ấm 39°C: Duy trì mức nhiệt lý tưởng khoảng 39°C, mang lại cảm giác ấm áp tự nhiên và thư thái tuyệt đối.</li><li>- Silicone cao cấp an toàn: Lớp tiếp xúc cực kỳ mềm mại, co giãn tốt, hoàn toàn lành tính cho vùng da nhạy cảm.</li><li>- Pin sạc tích hợp tiện lợi: Trang bị nguồn pin sạc bền bỉ, dễ dàng nạp năng lượng qua cáp nối mà không tốn chi phí thay pin.</li><li>- Kích thước 29 x 8.5 cm chuẩn chỉnh: Thân máy thiết kế chắc chắn, vừa vặn tay cầm giúp người dùng thao tác điều khiển mượt mà.</li></ul>
@@ -5593,6 +5606,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC49C/01.jpg",
     images: ["/anh1/DC49C/01.jpg", "/anh1/DC49C/09.jpg", "/anh1/DC49C/10.jpg", "/anh1/DC49C/11.jpg", "/anh1/DC49C/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Bộ bóng tập Kegel se khít âm đạo có rung là dụng cụ hỗ trợ tập luyện cơ sàn chậu cao cấp dành cho nữ giới, giúp gia tăng khả năng kiểm soát nhóm cơ vùng chậu, cải thiện độ đàn hồi và hỗ trợ phục hồi sức khỏe sinh lý sau sinh hiệu quả.</p>
 <h2>Vì sao nên chọn Bộ bóng tập Kegel se khít âm đạo có rung</h2>
 <p>Bộ bóng tập Kegel se khít âm đạo có rung sở hữu thiết kế phân cấp thông minh với 3 kích thước và độ nặng khác nhau, giúp phái đẹp dễ dàng thiết lập lộ trình tập luyện bài bản từ cơ bản đến nâng cao. Được chế tạo đạt tiêu chuẩn ISO 9001 từ chất liệu silicone y tế an toàn không chứa BPA, sản phẩm đảm bảo tính thân thiện tối đa với vùng da nhạy cảm. Bên cạnh đó, việc tích hợp thêm chế độ rung phụ trợ nhẹ nhàng không chỉ kích thích phản xạ co bóp cơ sàn chậu mà còn mang lại cảm giác thư thái, kết hợp khả năng chống nước toàn thân giúp khâu vệ sinh trở nên cực kỳ thuận tiện.</p>
@@ -5981,6 +5995,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD38E/01.jpg",
     images: ["/anh1/AD38E/01.jpg", "/anh1/AD38E/07.jpg", "/anh1/AD38E/08.jpg", "/anh1/AD38E/09.jpg", "/anh1/AD38E/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo silicon hình trái đào mũm mĩm là sản phẩm hỗ trợ giải tỏa nhu cầu sinh lý cá nhân dành cho nam giới, sở hữu thiết kế hình trái đào màu hồng nhỏ gọn cùng chất liệu silicone y tế cao cấp mang lại trải nghiệm êm ái và chân thật.</p>
 <p>Vì sao nên chọn Âm đạo silicon hình trái đào mũm mĩm – Thiết kế dễ thương, trải nghiệm chân thật</p>
 <p>Sản phẩm nổi bật với kiểu dáng quả đào màu hồng tự nhiên tươi tắn, xinh xắn và kín đáo. Được làm từ chất liệu silicone y tế an toàn, dụng cụ mang lại bề mặt siêu mềm mại, độ đàn hồi đa chiều ôm sát kết hợp cùng cấu trúc đường gân nổi linh hoạt bên trong giúp tăng cường độ cọ xát chân thực. Thiết kế vận hành cơ học 100% không dùng pin hay động cơ giúp thiết bị hoạt động hoàn toàn yên tĩnh, mang lại sự riêng tư tuyệt đối và có thể sử dụng bất cứ lúc nào mà không lo gián đoạn. Đặc biệt, shop đảm bảo quy trình đóng gói bảo mật kín đáo, che tên sản phẩm cẩn thận trên bao bì và giao hàng siêu tốc từ 15 phút đến 2 giờ tại TP.HCM &amp; Hà Nội.</p>
@@ -6416,6 +6431,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46P/01.jpg",
     images: ["/anh1/DC46P/01.jpg", "/anh1/DC46P/21.jpg", "/anh1/DC46P/22.jpg", "/anh1/DC46P/26.jpg", "/anh1/DC46P/27.jpg", "/anh1/DC46P/30.jpg", "/anh1/DC46P/31.jpg", "/anh1/DC46P/32.jpg", "/anh1/DC46P/34.jpg", "/anh1/DC46P/36.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm Đạo Silicon Cao Cấp Rung Rên Bú Sưởi Ấm – Cực Phẩm Cho Nam Giới là thiết bị massage cá nhân cao cấp dành riêng cho nam giới, tích hợp đa công nghệ hiện đại gồm rung nhiều chế độ, sưởi ấm nhiệt độ tự nhiên, phát âm thanh chân thực và chức năng hút tự động giúp giải tỏa căng thẳng hiệu quả.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Cấu tạo chắc chắn 3.3 kg: Trọng lượng đầm tay 3.3 kg cùng kích thước 25 x 24 x 15 cm mang lại độ vững chắc và ổn định tuyệt đối khi đặt trên mặt phẳng.</p>
@@ -7260,6 +7276,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD02K/01.jpg",
     images: ["/anh1/AD02K/01.jpg", "/anh1/AD02K/07.jpg", "/anh1/AD02K/08.jpg", "/anh1/AD02K/09.jpg", "/anh1/AD02K/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm Đạo Silicon Siêu Mềm Mịn Như Thật – Có Sưởi Ấm, Sạc Điện là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân cao cấp, được thiết kế để mang đến trải nghiệm giải tỏa căng thẳng an toàn, chân thực và thoải mái trong không gian riêng tư.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Công nghệ sưởi ấm thông minh: Tích hợp hệ thống làm ấm tự động giúp duy trì nhiệt độ bề mặt tự nhiên, gia tăng sự dễ chịu khi tiếp xúc.</p>
@@ -7577,6 +7594,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD19H/01.jpg",
     images: ["/anh1/AD19H/01.jpg", "/anh1/AD19H/15.jpg", "/anh1/AD19H/17.jpg", "/anh1/AD19H/18.jpg", "/anh1/AD19H/19.jpg", "/anh1/AD19H/20.jpg", "/anh1/AD19H/21.jpg", "/anh1/AD19H/22.jpg"],
+    sensitive: true,
     longDescription: `<p>Để giải quyết nhu cầu giải tỏa sinh lý cá nhân một cách an toàn và chủ động trong không gian riêng tư, Âm Đạo Giả Gắn Tường 2 Đầu – Tích Hợp Rung là dòng sản phẩm hỗ trợ sức khỏe sinh lý nam cao cấp đến từ thương hiệu Meng Make, sở hữu thiết kế đế hút gắn tường cố định kết hợp công nghệ rung đa tầng vượt trội.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Tên sản phẩm: Âm Đạo Giả Gắn Tường 2 Đầu – Tích Hợp Rung.</li><li>- Thương hiệu: Meng Make.</li><li>- Xuất xứ: Hồng Kông.</li><li>- Chất liệu: Nhựa ABS cao cấp kết hợp TPE sinh học đạt tiêu chuẩn an toàn y tế.</li><li>- Kích thước tổng thể: Chiều dài 19,4 cm x Chiều rộng 7 cm.</li><li>- Kích thước lòng trong: Chiều dài 18 cm.</li><li>- Trọng lượng: 400 gram.</li><li>- Tính năng nổi bật: Cấu trúc 2 đầu trải nghiệm, tích hợp motor rung đa chế độ, đế hút bám dính gắn tường.</li></ul>
@@ -7606,6 +7624,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD34K/01.jpg",
     images: ["/anh1/AD34K/01.jpg", "/anh1/AD34K/07.jpg", "/anh1/AD34K/08.jpg", "/anh1/AD34K/09.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới tìm kiếm thiết bị tự động hóa có khả năng mô phỏng nhịp điệu sinh lý tự nhiên, Âm Đạo Giả Robot – Tự Động Bú Mút, Cảm Giác Như Thật là dòng máy thủ dâm cao cấp kết hợp các chuyển động sục, co thắt và lực hút chân không để tối ưu hóa cảm giác tiếp xúc thực tế.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm cấu tạo gồm phần vỏ ngoài bọc khung cứng hiện đại cùng phần lõi âm đạo chế tạo từ silicon y khoa đạt chuẩn an toàn sinh học. Lớp silicon có đặc tính mềm dẻo, đàn hồi cao, khả năng truyền nhiệt nhanh và tiếp xúc êm ái với làn da nhạy cảm. Cấu trúc lòng trong tích hợp chuỗi gân gai và hệ thống khoang co thắt đa tầng kết hợp cơ chế hút chân không linh hoạt.</p>
@@ -8160,6 +8179,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD02D/01.jpg",
     images: ["/anh1/AD02D/01.jpg", "/anh1/AD02D/05.jpg", "/anh1/AD02D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo silicon cao cấp da nâu là dụng cụ hỗ trợ sinh lý chuyên dụng dành cho nam giới nhằm mục đích giải tỏa nhu cầu cá nhân an toàn và hiệu quả với cảm giác chân thực cao.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Chất liệu: 100% silicone cao cấp tiêu chuẩn y tế, mềm mại và đàn hồi tốt.</li><li>- Màu sắc: Màu da tự nhiên (da nâu/da người).</li><li>- Kích thước tổng thể: 16 cm (chiều dài) x 10 cm (chiều rộng) x 10 cm (chiều cao).</li><li>- Trọng lượng thực tế: 700 gram.</li><li>- Công dụng chính: Hỗ trợ giải tỏa sinh lý cá nhân cho nam giới.</li></ul>
@@ -8298,6 +8318,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33M2/01.jpg",
     images: ["/anh1/AD33M2/01.jpg", "/anh1/AD33M2/13.jpg", "/anh1/AD33M2/14.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm Đạo Giả Tự Động Leten Thunder Pro là dòng thiết bị cao cấp tự động hỗ trợ giải tỏa sinh lý nam, tập luyện độ bền và mang lại trải nghiệm khoái cảm sống động nhờ kết hợp đồng thời ba cơ chế sục, bú hút và sưởi ấm nhiệt độ.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Công nghệ tích hợp 3 trong 1: Kết hợp trơn tru giữa hành trình sục tự động, áp lực bú hút ôm sát và chế độ sưởi nhiệt, mang đến xúc giác thăng hoa chân thực đến kinh ngạc.</p>
@@ -8331,6 +8352,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33L/01.jpg",
     images: ["/anh1/AD33L/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới hiện đại muốn tận hưởng khoái cảm chân thực mà không cần tốn sức, Âm Đạo Tự Động Leten Submersible Aircraft là thiết bị giải tỏa sinh lý cao cấp hỗ trợ rảnh tay hoàn toàn với cơ chế vận hành tự động và âm thanh mô phỏng sống động.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm sở hữu kiểu dáng hình trụ vững chãi với tông màu đen nam tính, kích thước tổng thể 8.8 x 34 cm vừa vặn lòng bàn tay. Vỏ ngoài làm từ nhựa ABS bền bỉ kết hợp phần lõi TPE cao cấp, mang lại bề mặt mềm mại, co giãn tốt và tuyệt đối an toàn cho làn da nhạy cảm. Lớp ruột TPE có thể tháo rời hoàn toàn, kết hợp tiêu chuẩn chống nước IPX7 giúp quá trình vệ sinh sau khi dùng trở nên cực kỳ đơn giản.</p>
@@ -9812,6 +9834,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC06N/01.jpg",
     images: ["/anh1/DC06N/01.jpg", "/anh1/DC06N/08.jpg", "/anh1/DC06N/09.jpg", "/anh1/DC06N/10.jpg", "/anh1/DC06N/11.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt lớn nhất của sản phẩm so với các dòng cốc thủ dâm thông thường là thiết kế nguyên khối trần hai cổng vào linh hoạt, mô phỏng cả cấu trúc âm đạo và hậu môn với khối lượng silicone lên đến 850g. Đây là sản phẩm hỗ trợ sinh lý cá nhân dành cho nam giới, giúp giải tỏa nhu cầu an toàn, cải thiện sức khỏe tình dục và duy trì độ bền sử dụng lâu dài.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Cấu trúc nhị lỗ đa năng: Tích hợp hai đường dẫn riêng biệt mô phỏng âm đạo và hậu môn, hỗ trợ đa dạng góc độ trải nghiệm.</p>
@@ -10007,6 +10030,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD80BP/01.jpg",
     images: ["/anh1/AD80BP/01.jpg", "/anh1/AD80BP/13.jpg", "/anh1/AD80BP/15.jpg", "/anh1/AD80BP/17.jpg", "/anh1/AD80BP/21.jpg"],
+    sensitive: true,
     longDescription: `<p>Svakom SAM NEO 2 PRO là thiết bị âm đạo tự động cao cấp dành cho nam giới, được trang bị hệ thống rung, mút hút và nhiệt sưởi ấm thông minh kết hợp khả năng điều khiển qua ứng dụng di động. Sản phẩm đóng vai trò như một giải pháp hỗ trợ giải tỏa sinh lý và chăm sóc sức khỏe cá nhân hiện đại, giúp tái tạo cảm giác chân thật và mang lại sự thoải mái tối đa cho người dùng.</p>
 <h2>Ưu điểm chính</h2>
 <ul><li>- Công nghệ sưởi ấm thông minh: Tích hợp cơ chế tỏa nhiệt tự động giúp nâng nhiệt độ lòng ống lên mức ấm áp chân thực.</li><li>- Cơ chế rung và bú hút kết hợp: Động cơ đa chế độ mút hút dồn dập phối hợp nhịp nhàng cùng các tần số rung linh hoạt.</li><li>- Kết nối di động qua app Svakom: Tự do tùy chỉnh cường độ, nhịp điệu hoặc giao quyền điều khiển từ xa không giới hạn khoảng cách.</li><li>- Chất liệu an toàn sức khỏe: Lõi silicone cao cấp siêu mềm mại kết hợp khung vỏ nhựa ABS kháng lực, không chứa chất độc hại.</li><li>- Thông số thiết kế tối ưu: Kích thước 23cm x 8.7cm x 8.7cm cùng trọng lượng 708g đầm tay, tạo sự chắc chắn khi vận hành.</li></ul>
@@ -10036,6 +10060,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46N/01.jpg",
     images: ["/anh1/DC46N/01.jpg", "/anh1/DC46N/09.jpg", "/anh1/DC46N/10.jpg", "/anh1/DC46N/11.jpg", "/anh1/DC46N/12.jpg", "/anh1/DC46N/13.jpg", "/anh1/DC46N/14.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Âm đạo có bàn tay gợi cảm kèm lỗ nhị là thiết bị mô phỏng cơ quan sinh dục nữ dùng để hỗ trợ giải tỏa nhu cầu sinh lý cá nhân cho nam giới và rèn luyện kỹ năng kiểm soát phản xạ xuất tinh. Với thiết kế 2 đường trải nghiệm kết hợp chất liệu mềm mại, đây là giải pháp tập luyện và thư giãn đơn giản, cực kỳ phù hợp cho người mới bắt đầu.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Thiết kế tích hợp 2 đường trải nghiệm: Trang bị cả đường âm đạo và đường hậu môn trên cùng một khối mô phỏng, giúp đa dạng hóa mục đích sử dụng.</p>
@@ -10315,6 +10340,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD80E/01.jpg",
     images: ["/anh1/AD80E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu giải tỏa sinh lý nam giới với trải nghiệm tự động hóa và kết nối khoảng cách xa ngày càng gia tăng; Svakom Alex Neo 2 - Âm đạo giả tự động kết nối điều khiển qua ĐTDD ra đời như một giải pháp công nghệ cao cấp giúp tối ưu hóa sự thoải mái, an toàn và cá nhân hóa trải nghiệm. Sản phẩm sở hữu cơ chế thụt tự động đa tần số cùng khả năng điều khiển thông minh qua ứng dụng điện thoại, đáp ứng nghiêm ngặt các tiêu chuẩn chất liệu y tế.</p>
 <h2>Thông số kỹ thuật</h2>
 <p>- Thương hiệu &amp; Xuất xứ: Svakom (Mỹ).</p>
@@ -10612,6 +10638,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD36P/01.png",
     images: ["/anh1/AD36P/01.png", "/anh1/AD36P/05.png", "/anh1/AD36P/06.png"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả tự động Piston Melrose Cup là thiết bị hỗ trợ vệ sinh sinh lý và thư giãn cá nhân cho nam giới, vận hành bằng cơ chế tự động thụt piston kết hợp hệ thống chân đế hút tường cố định giúp giải phóng hoàn toàn đôi tay.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Easy Love Melrose Cup sở hữu thông số kích thước 275 mm x 90 mm cùng trọng lượng 860g đầm tay. Vỏ ngoài sản phẩm được gia công từ nhựa ABS chịu lực cao cấp, kết hợp chân đế hút xoay 145 độ linh hoạt giúp bám dính chắc chắn trên các bề mặt phẳng phẳng, hạn chế tối đa nguy cơ va đập hay rơi vỡ. Lõi tiếp xúc bên trong đúc hoàn toàn bằng silicon y tế nguyên khối đạt chuẩn an toàn sinh học. Bề mặt silicon mềm dẻo, kháng khuẩn tốt và có khả năng duy trì độ đàn hồi lâu dài, không bị biến dạng hay lão hóa dù qua nhiều lần tháo lắp vệ sinh.</p>
@@ -10999,6 +11026,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/AD02H/01.png",
     images: ["/anh1/AD02H/01.png", "/anh1/AD02H/06.png", "/anh1/AD02H/07.png", "/anh1/AD02H/08.png"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng cốc thủ dâm hay thiết bị thuôn dài thông thường, sản phẩm Âm đạo silicon hồng hào se khít như gái mới lớn được thiết kế dưới dạng khối đúc nguyên bản nặng tới 2kg, tích hợp hai đường cắm độc lập (âm đạo và hậu môn) cùng bộ phận tạo độ rung cơ học, dùng để hỗ trợ giải tỏa nhu cầu sinh lý và chăm sóc sức khỏe cá nhân nam giới một cách an toàn, bền bỉ.</p>
 <h2>Vì sao nên chọn Âm đạo silicon hồng hào se khít như gái mới lớn</h2>
 <p>Sản phẩm nổi bật nhờ kết cấu silicon y khoa đúc nguyên khối dày dặn, có khả năng chống nứt gãy và không bị biến dạng sau thời gian dài sử dụng. Trọng lượng đầm chắc 2kg giúp thiết bị tự cố định vững vàng trên mặt phẳng mà không lo xê dịch hay đổ ngã. Sự kết hợp giữa hai đường ống độc lập tích hợp sóng rung cơ học đem lại hiệu quả giải tỏa sinh lý cao, trong khi đặc tính chất liệu kháng bẩn giúp quá trình rửa sạch và bảo quản lâu dài trở nên vô cùng đơn giản.</p>
@@ -11377,6 +11405,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33Z2/01.png",
     images: ["/anh1/AD33Z2/01.png", "/anh1/AD33Z2/05.png", "/anh1/AD33Z2/06.png"],
+    sensitive: true,
     longDescription: `<p>Âm đạo bú mút tự động Leten THRUSTING-PRO dùng để phục vụ nhu cầu giải tỏa sinh lý cá nhân cho nam giới một cách tự động, an toàn tuyệt đối.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu đạt kiểm định y tế: Lõi silicone cao cấp vô trùng, đạt chuẩn an toàn sinh học, tuyệt đối không gây kích ứng da.</li><li>- Công nghệ thụt tịnh tiến: 5 cấp độ chuyển động dọc mượt mà, lực kéo ổn định và siêu êm.</li><li>- Áp suất âm bú mút: 10 chế độ co bóp hút chân không chân thực, ôm siết hoàn hảo.</li><li>- Tháo lắp vệ sinh dễ dàng: Lõi silicone tách rời hoàn toàn khỏi vỏ nhựa ABS chịu lực chỉ trong vài thao tác.</li></ul>
@@ -11714,6 +11743,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD34H/01.png",
     images: ["/anh1/AD34H/01.png", "/anh1/AD34H/06.png", "/anh1/AD34H/07.png", "/anh1/AD34H/08.png"],
+    sensitive: true,
     longDescription: `<p>Âm đạo gắn tường tự động xoay thụt cho anh em lên đỉnh (AD34H) được sử dụng để hỗ trợ giải tỏa nhu cầu sinh lý nam giới hoàn toàn rảnh tay nhờ cơ chế tự động xoay thụt kết hợp đế hút chân không gắn tường chắc chắn.</p>
 <p>Vì sao nên chọn Âm đạo gắn tường tự động xoay thụt cho anh em lên đỉnh (AD34H)</p>
 <p>Thiết bị mang đến giải pháp thư giãn hiện đại với chuyển động đa chiều mạnh mẽ và độ bền vượt trội. Cấu trúc vỏ ABS chịu lực kết hợp lõi silicone tháo rời giúp bạn dễ dàng bảo quản, vệ sinh nhanh chóng và duy trì tuổi thọ sản phẩm lâu dài qua nhiều năm sử dụng.</p>
@@ -11742,6 +11772,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD19G/01.png",
     images: ["/anh1/AD19G/01.png"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới đang tìm kiếm cảm giác giải tỏa ấm áp, sống động và chân thực như thật, Âm đạo 2 đầu rung rên tỏa nhiệt (AD19G) là thiết bị hỗ trợ sinh lý cao cấp tích hợp chế độ sưởi ấm 42°C cùng thiết bị rung đa tần linh hoạt.</p>
 <h2>Vì sao nên chọn Âm đạo 2 đầu rung rên tỏa nhiệt (AD19G)</h2>
 <p>Sản phẩm mang lại xúc cảm thăng hoa trọn vẹn nhờ sự kết hợp giữa mức nhiệt ấm áp 42°C và cấu trúc hai đầu trải nghiệm riêng biệt. Bạn sẽ lập tức cảm nhận được sự mềm mại, ôm siết êm ái cùng hơi ấm lan tỏa chân thực ngay khi vừa tiếp xúc, giúp mọi nhịp chuyển động trở nên vô cùng sống động.</p>
@@ -12276,6 +12307,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/AD02E/01.png",
     images: ["/anh1/AD02E/01.png", "/anh1/AD02E/06.png", "/anh1/AD02E/07.png", "/anh1/AD02E/08.png"],
+    sensitive: true,
     longDescription: `<p>Âm đạo silicon tròn múp rung rên như thật (AD02E) là thiết bị hỗ trợ giải tỏa sinh lý cao cấp dành cho nam giới, tích hợp 2 đường trải nghiệm riêng biệt cùng hiệu ứng âm thanh sống động và chế độ rung linh hoạt.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Thiết kế tròn múp 3kg đầm tay: Trọng lượng 3kg cùng kích thước 22cm x 13cm tạo cảm giác chắc chắn, chân thật khi tiếp xúc.</li><li>- Tích hợp 2 lối trải nghiệm: Cấu trúc song song gồm cổng âm đạo và cổng hậu môn, giúp đa dạng hóa cảm giác sử dụng.</li><li>- Hệ thống rung và âm thanh sống động: Cục rung linh hoạt kết hợp bộ phát âm thanh rên rỉ mô phỏng gia tăng tối đa cảm xúc.</li><li>- Khối silicon y khoa nguyên khối bền bỉ: Chất liệu dày dặn, chịu lực tốt, chống rách và giữ nguyên form dáng qua thời gian dài.</li></ul>
@@ -12799,6 +12831,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46M/01.jpg",
     images: ["/anh1/DC46M/01.jpg", "/anh1/DC46M/05.jpg", "/anh1/DC46M/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả cao cấp rung rên bú nút điều khiển từ xa (DC46M) là thiết bị hỗ trợ sinh lý nam chuyên sâu, tích hợp công nghệ hút co bóp, chế độ rung âm thanh sinh động cùng khả năng điều khiển không dây nhằm đáp ứng nhu cầu thư giãn cao cấp. Sản phẩm nổi bật với cấu trúc silicon bền bỉ, dễ dàng làm sạch và bảo quản lâu dài theo thời gian.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Kích thước tổng thể: 24.5 x 20 x 14 cm.</li><li>- Trọng lượng: 3.2 kg, mang lại độ đầm chắc vững chãi khi sử dụng.</li><li>- Chất liệu cao cấp: Silicon y tế mềm mại, chống bám bẩn, kháng khuẩn và cực kỳ bền màu.</li><li>- Chế độ vận hành: 5 cấp độ hút co bóp kết hợp 5 chế độ rung rên sinh động.</li><li>- Công nghệ sạc &amp; Chống nước: Sạc từ tính khép kín chống thấm nước, hỗ trợ tính năng xả rửa tự động.</li><li>- Phương thức điều khiển: Remote điều khiển từ xa không dây trực quan.</li></ul>
@@ -13021,6 +13054,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC06C/01.jpg",
     images: ["/anh1/DC06C/01.jpg", "/anh1/DC06C/05.jpg", "/anh1/DC06C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới đang tìm kiếm giải pháp giải tỏa sinh lý cá nhân vừa chân thực vừa đảm bảo an toàn tuyệt đối cho sức khỏe, âm đạo silicon cỡ lớn như thật giá rẻ là lựa chọn lý tưởng đáp ứng trọn vẹn sự riêng tư ngay tại nhà. Thiết bị mô phỏng kích thước và cảm giác như thật với thiết kế 2 đường trải nghiệm linh hoạt.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu silicon y tế đạt chuẩn kiểm định: Sản phẩm sử dụng dòng silicon cao cấp chuyên dùng trong y tế, tuyệt đối an toàn cho làn da nhạy cảm, không chứa chất độc hại, không bám mùi khó chịu và không gây dính.</p>
@@ -13053,6 +13087,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD02G/01.jpg",
     images: ["/anh1/AD02G/01.jpg", "/anh1/AD02G/07.jpg", "/anh1/AD02G/08.jpg", "/anh1/AD02G/09.jpg", "/anh1/AD02G/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một giải pháp giải tỏa nhu cầu sinh lý cá nhân vừa đảm bảo tiêu chuẩn vệ sinh an toàn sinh học vừa đáp ứng tiêu chí mô phỏng chi tiết, âm đạo giả 3D có lỗ nhị, hồng hào rung rên như thật (AD02G) chính là lựa chọn tối ưu. Sản phẩm thuộc thương hiệu JUAI, tích hợp mô phỏng cấu trúc vùng kín 3D cùng tính năng phát âm thanh sinh động và chế độ rung chuyên biệt.</p>
 <h2>Thông số kỹ thuật</h2>
 <p>- Thương hiệu sản xuất: JUAI.</p>
@@ -13087,6 +13122,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46K/01.jpg",
     images: ["/anh1/DC46K/01.jpg", "/anh1/DC46K/05.jpg", "/anh1/DC46K/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả cỡ lớn có đùi gợi cảm (DC46K) là thiết bị hỗ trợ nam giới giải tỏa nhu cầu sinh lý cá nhân riêng tư, an toàn và hiệu quả ngay tại nhà. Sản phẩm cao cấp đến từ thương hiệu JUAI sở hữu thiết kế tạo hình đặc trưng mô phỏng trọn vẹn nửa thân dưới nữ giới với vóc dáng căng tròn sống động.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Thiết kế tạo hình đúc nguyên khối độc đáo: Mô phỏng tỉ mỉ nửa thân dưới sắc nét với vòng ba căng tròn và phần đùi nảy nở, tạo cảm giác trực quan và chân thực vượt trội.</p>
@@ -13882,6 +13918,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD36U/01.jpg",
     images: ["/anh1/AD36U/01.jpg", "/anh1/AD36U/07.png", "/anh1/AD36U/08.png", "/anh1/AD36U/09.png", "/anh1/AD36U/10.png", "/anh1/AD36U/11.png", "/anh1/AD36U/12.png", "/anh1/AD36U/13.png", "/anh1/AD36U/14.png", "/anh1/AD36U/15.png", "/anh1/AD36U/16.png", "/anh1/AD36U/17.png", "/anh1/AD36U/18.png", "/anh1/AD36U/19.png"],
+    sensitive: true,
     longDescription: `<h2>Âm đạo giả tự động Easy Love Dream Cabin</h2>
 <h2>Thương hiệu : Easylove</h2>
 <h2>Chất liệu : ABS + TPE</h2>
@@ -14182,6 +14219,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33Q2/01.png",
     images: ["/anh1/AD33Q2/01.png"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết Âm đạo tự động Lenten A380 V.4 rung hấp thụ co nhiệt, Màn hình LCD cực đẹp.</p>
 <h2>Tính năng : Thụt - phát nhiệt - rên</h2>
 <h2>Intet mode : 10 mode</h2>
@@ -14312,6 +14350,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2439/1.png",
+    sensitive: true,
     longDescription: `<p>Chúng tôi muốn thay đổi thế giới để mọi người đều có thể cảm nhận được niềm vui khi làm việc, bất kể họ có khuyết tật hay không.</p>
 <p>Chúng tôi muốn chấp nhận thách thức mang lại sự thay đổi tốt hơn bằng bất cứ cách nào chúng tôi có thể.</p>
 <p>Một sáng kiến ​​mới ra đời từ suy nghĩ đó, đó là &quot;able! TENGA&quot;.</p>
@@ -14340,6 +14379,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2438/1.png",
+    sensitive: true,
   },
   {
     slug: "tenga-aero-am-dao-gia-tenga-aero-hang-japan",
@@ -14353,6 +14393,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2437/1.png",
+    sensitive: true,
   },
   {
     slug: "premium-1-am-dao-gia-premium-tenga-series",
@@ -14366,6 +14407,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2436/1.png",
+    sensitive: true,
   },
   {
     slug: "original-am-dao-gia-u-s-tenga-original-vacuum-cup",
@@ -14380,6 +14422,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/ORIGINAL/01.png",
     images: ["/anh1/ORIGINAL/01.png"],
+    sensitive: true,
     longDescription: `<h2>U.S .TENGA CÓ 3 MÀU CƠ BẢN</h2>
 <h2>Có 3 màu : Đỏ - Đen - Trắng</h2>
 <p>Màu Đen : Phiên bản này lõi cao su của cốc sẽ có độ co giãn, đàn hồi nhỏ nhất, phù hợp với những ai thích sự &quot; ôm chặt&quot; , &quot; bót&quot; hoặc có &quot; cậu bé khiêm tốn &quot;</p>
@@ -14403,6 +14446,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2434/1.png",
+    sensitive: true,
   },
   {
     slug: "moova-am-dao-gia-tenga-moova",
@@ -14417,6 +14461,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/MOOVA/01.png",
     images: ["/anh1/MOOVA/01.png"],
+    sensitive: true,
     longDescription: `<p>Cảm giác chìm đắm khó quên trong những cảm giác xoắn ốc!</p>
 <p>Được nâng cấp và cải tiến mới lại, mẫu NEW TENGA MOOVA  đem lại những trải nghiệm mới lạ hơn và chi tiết hơn trong từng hành động .</p>
 <p>Phần lõi cốc được thiết kế lại nhằm mang lại sự co bóp ôm xiết chân thực nhất. Cùng với phần vỏ cốc với màu sắc bắt mắt, tạo cho bạn cảm giác nhìn thôi cũng thấy sướng.</p>
@@ -14442,6 +14487,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/CUSHION/01.png",
     images: ["/anh1/CUSHION/01.png"],
+    sensitive: true,
     longDescription: `<p>NĂm 2020 , kỉ niệm 15 năm ra đời, hãng TENGA đã ra mắt thêm dòng sản phẩm TENGA AIR CUSHION CUP với 2 phiên bản :</p>
 <h2>TENGA AIR CUSHION CUP ( Đỏ)</h2>
 <h2>PREMIUM TENGA AIR CUSHION CUP ( Xanh )</h2>
@@ -14473,6 +14519,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/CRYSTA/01.png",
     images: ["/anh1/CRYSTA/01.png"],
+    sensitive: true,
     longDescription: `<p>Để đa dạng hóa sản phẩm và trải nghiệm tới người dùng. Hãng TENGA Nhật Bản tiếp tục ra mắt 1 dòng sản phẩm &quot;tự sướng&quot; cho nam giới với tên gọi: TENGA CRYSTA</p>
 <p>Với các hạt, gờ nổi trong lõi thân , tạo ra 1 sự ma sát, co sát, mát xa cho toàn bộ phần vùng kích thích. Tạo ra 1 cảm giác phấn khích mới lạ.</p>
 <p>Hãy tận hưởng hành động cầm nắm với một cảm giác xúc giác mới, khám phá những khoái cảm mới mỗi khi bạn sử dụng.</p>
@@ -14607,6 +14654,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2426/1.png",
+    sensitive: true,
   },
   {
     slug: "timing-am-dao-gia-tenga-timing-trainer-keep",
@@ -14621,6 +14669,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/TIMING/01.png",
     images: ["/anh1/TIMING/01.png"],
+    sensitive: true,
     longDescription: `<p>Xuất tinh sớm là một trong những rối loạn chức năng phổ biến nhất của nam giới, và người ta nói rằng khoảng 13 triệu nam giới ở Nhật Bản lo lắng về nó. (Nghiên cứu của TENGA Healthcare, 2018) Dòng TENGA FLIP chuyên để cải thiện &quot;Xuất Tinh Sớm&quot; được nghiên cứu &amp; ra mắt với tên gọi TIMING TRAINER -KEEP-  và kem dưỡng da đặc biệt cũng được bao gồm, giúp việc luyện tập trở nên dễ dàng và thoải mái hơn.</p>
 <p>Tiến sĩ Rodoriguez, chuyên gia điều trị xuất tinh sớm ở Tây Ban Nha, đã thực hiện một nghiên cứu về huấn luyện kiểm soát xuất tinh bằng cách tác động lên cơ sàn chậu bằng TENGA &quot;FLIP ZERO&quot;</p>
 <p>Dựa trên kết quả của nghiên cứu này, hình dạng bên trong và độ cứng của vật liệu đã được tối ưu hóa và &quot;TIMING TRAINER -KEEP-&quot; được phát triển dành riêng cho việc luyện tập xuất tinh sớm.</p>
@@ -14656,6 +14705,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2424/1.png",
+    sensitive: true,
   },
   {
     slug: "hard-soft-am-dao-gia-tenga-bobble-hard-soft",
@@ -14670,6 +14720,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/HARD-SOFT/01.png",
     images: ["/anh1/HARD-SOFT/01.png"],
+    sensitive: true,
     longDescription: `<h2>Phiên bản tiêu chuẩn</h2>
 <h2>Phiên Bản Giới Hạn ( Devil &amp; Angel )</h2>
 <p>Thuộc dòng TENGA HOLE mới nhất được công ty TENGA nghiên cứu và ra mắt với tên gọi : TENGA BOBBLE .</p>
@@ -14695,6 +14746,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BOBBLE/01.png",
     images: ["/anh1/BOBBLE/01.png"],
+    sensitive: true,
     longDescription: `<h2>TENGA BOBBLE là gì ?</h2>
 <p>Thuộc dòng TENGA HOLE mới nhất được công ty TENGA nghiên cứu và ra mắt với tên gọi : TENGA BOBBLE .</p>
 <p>Điểm đặc biệt &amp; sáng tạo nhất của TENGA BOBBLE là có các khối hạt vuông - tròn được cấy trong lõi cao su siêu mềm, tạo ra 1 cảm giác bùng nổ sung sướng tới không ngờ, đem lại 1 cảm giác kích thích mới lạ nhất chưa từng có .</p>
@@ -14799,6 +14851,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD80D/01.png",
     images: ["/anh1/AD80D/01.png"],
+    sensitive: true,
     longDescription: `<ul><li>Thông tin chi tiết của Máy thủ dâm tự động cho nam Svakom Hannes Neo AD80D hàng chính hãng.</li><li>Thể loại: Máy thủ dâm nam, Sextoy cho nam.</li><li>Tính năng: Kích thích, mát xa dương vật; giúp giải tỏa nhu cầu sinh lý hiệu quả.</li><li>Chất liệu: TPE, ABS, PC và Metals.</li></ul>
 <h2>Kích thước: 28,6 x 8.6 cm</h2>
 <p>Trọng lượng: 865g.</p>
@@ -15053,6 +15106,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/SAM/01.png",
     images: ["/anh1/SAM/01.png", "/anh1/SAM/04.png", "/anh1/SAM/05.png", "/anh1/SAM/06.png", "/anh1/SAM/07.png", "/anh1/SAM/08.png", "/anh1/SAM/10.png", "/anh1/SAM/11.png", "/anh1/SAM/12.png", "/anh1/SAM/13.png", "/anh1/SAM/16.png", "/anh1/SAM/17.png"],
+    sensitive: true,
     longDescription: `<h2>Mô tả sản phẩm</h2>
 <p>Âm đạo giả USA SVAKOM Sam Neo là một máy thủ dâm cao cấp thông minh cho nam. Sam Neo có 5 chế độ rung hút cực kỳ độc đáo, mô phỏng chân thực như một âm đạo thiếu nữ se khít và co thắt liên tục. Đặc biệt, công nghệ tương tác thông minh từ xa, tương tác kết nối videos 2D và webcam để bạn có thể dễ dàng trải nghiệm sự kích thích khoái cảm với bất kỳ đối tác nào mà bạn muốn.</p>
 <p>Âm đạo giả rung hút SVAKOM Sam Neo là một trong 6 sản phẩm thông minh mới ra của hãng SAVKOM USA thuộc dòng Connexion, dòng kết nối và tương tác đường dài.</p>
@@ -15096,6 +15150,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/NY19D/01.jpg",
     images: ["/anh1/NY19D/01.jpg", "/anh1/NY19D/05.jpg", "/anh1/NY19D/06.jpg", "/anh1/NY19D/07.jpg", "/anh1/NY19D/08.jpg"],
+    sensitive: true,
     longDescription: `<h2>Quần silicone giấu dương vật được thiết kế chi tiết “cô bé” của chị em</h2>
 <p>Sản phẩm quần giấu dương vật là dụng cụ hỗ trợ tình dục dành cho các bạn gay hay nam chuyển giới. Sản phẩm được thiết kế chi tiết như “cô bé” thật để bạn có thể cảm nhận được một phần của con gái khi sử dụng.</p>
 <p>Những chàng trai gay, hay những bạn nam chuyển giới muốn ngụy trang không muốn lộ “cậu nhỏ” thì quần mô phỏng âm đạo sẽ giúp bạn thực hiện điều đó. Với loại silicone y tế, mềm mại và vô cùng an toàn thì các bạn có thể sử dụng ở vùng nhạy cảm của mình.</p>
@@ -16141,6 +16196,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD34C/01.jpg",
     images: ["/anh1/AD34C/01.jpg", "/anh1/AD34C/05.jpg", "/anh1/AD34C/06.jpg", "/anh1/AD34C/07.jpg", "/anh1/AD34C/08.jpg", "/anh1/AD34C/09.jpg", "/anh1/AD34C/10.jpg", "/anh1/AD34C/11.jpg", "/anh1/AD34C/13.jpg", "/anh1/AD34C/14.jpg", "/anh1/AD34C/15.jpg", "/anh1/AD34C/16.jpg", "/anh1/AD34C/17.jpg", "/anh1/AD34C/18.jpg"],
+    sensitive: true,
     longDescription: `<h2>AD34C Âm đạo giả cao cấp chuyên hỗ trợ giải tỏa nhu cầu sinh lý nam</h2>
 <h2>Thông tin sản phẩm</h2>
 <p>* Thông tin chi tiết:</p>
@@ -16244,6 +16300,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC38H/01.jpg",
     images: ["/anh1/DC38H/01.jpg", "/anh1/DC38H/05.jpg", "/anh1/DC38H/06.jpg", "/anh1/DC38H/07.jpg", "/anh1/DC38H/08.jpg", "/anh1/DC38H/09.jpg", "/anh1/DC38H/10.jpg", "/anh1/DC38H/11.jpg", "/anh1/DC38H/12.jpg", "/anh1/DC38H/13.jpg", "/anh1/DC38H/14.jpg", "/anh1/DC38H/15.jpg", "/anh1/DC38H/16.jpg", "/anh1/DC38H/17.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC38H Quần lót rung cho nữ điều khiển từ xa cao cấp có sưởi ấm âm đạo</h2>
 <p>Thông tin quần lót rung cho nữ:</p>
 <h2>– Đối tượng sử dụng: Nữ tự sướng</h2>
@@ -16328,6 +16385,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD12A/01.jpg",
     images: ["/anh1/AD12A/01.jpg", "/anh1/AD12A/03.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả silicon trong suốt mô phỏng giống âm đạo phụ nữ với những đường gân trải suốt chiều dài phần trong sản phẩm. Được làm bằng chất liệu silicon TPE cực kỳ mềm mại vừa an toàn vừa mang lại cảm giác như đang làm tình với âm đạo của những em gái mới lớn.</p>
 <p>Mang đến cảm giác lên đỉnh tuyệt vời, kích thích cực độ cho dương vật.</p>
 <p>Giải tỏa ham muốn, mang đến những giây phút kích thích, đê mê.</p>
@@ -16808,6 +16866,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC53E/01.jpg",
     images: ["/anh1/DC53E/01.jpg", "/anh1/DC53E/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng sản phẩm hỗ trợ thông thường nhờ thiết kế mô phỏng vòng ba đầm chắc kèm tính năng hai đường vào riêng biệt, âm đạo giả cỡ lớn da đen Lovetoy Streetgirl (DC53E) mang đến giải pháp chăm sóc sức khỏe sinh lý nam chân thực nhưng vô cùng dễ sử dụng cho người mới bắt đầu. Với chất liệu TPE cao cấp an toàn và khả năng tự cố định vững vàng, thiết bị giúp bạn giải tỏa nhu cầu cá nhân một cách thoải mái và an toàn nhất.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Lovetoy Streetgirl (DC53E) sở hữu kiểu dáng mô phỏng chi tiết phần hông và vòng ba thực tế với tone màu đen cá tính, có kích thước tổng thể 21 x 17,5 x 13,5 cm cùng trọng lượng 2,4 kg. Sản phẩm được hoàn thiện từ 100% chất liệu TPE cao cấp đạt chuẩn an toàn cho cơ thể, không mùi khó chịu và không bết dính. Điểm cộng lớn cho người mới sử dụng là trọng lượng đầm chắc giúp thiết bị tự đứng vững vàng trên các mặt phẳng mà không cần lắp đặt phức tạp. Bên trong lòng ống được cấu tạo hai đường vào riêng biệt (âm đạo và hậu môn) với chất liệu co giãn linh hoạt, ôm khít tự nhiên giúp tạo lực hút cơ học vô cùng êm ái.</p>
@@ -17352,6 +17411,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/HM23A/01.jpg",
     images: ["/anh1/HM23A/01.jpg", "/anh1/HM23A/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho những người mới bắt đầu tìm kiếm giải pháp vệ sinh cá nhân an toàn và chuẩn xác, bình xịt rửa vòi mềm HM23A là dụng cụ thụt rửa âm đạo và hậu môn chuyên dụng giúp làm sạch sâu dễ dàng ngay tại nhà.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: HM23A</h2>
@@ -17721,6 +17781,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD20B/01.jpg",
     images: ["/anh1/AD20B/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Tính năng: thủ dâm cho nam giới, giải tỏa sinh lý hiệu quả</h2>
 <h2>Đối tượng sử dụng: Nam</h2>
 <h2>Chất liệu: Silicone TPR</h2>
@@ -19965,6 +20026,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD39B/01.jpg",
     images: ["/anh1/AD39B/01.jpg", "/anh1/AD39B/05.jpg", "/anh1/AD39B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả cao cấp AD39B của thương hiệu Chisa là dụng cụ hỗ trợ sinh lý nam giới cao cấp, được làm từ 100% silicone y tế an toàn, dùng để giải tỏa nhu cầu cá nhân và thư giãn tinh thần hiệu quả. Sản phẩm nổi bật với thiết kế tạo hình tay móc độc đáo, tích hợp chế độ rung kích thích mang lại trải nghiệm chân thực và an toàn cho làn da nhạy cảm.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu 100% silicone cao cấp: Đạt tiêu chuẩn an toàn sức khỏe, bề mặt mềm mịn, không gây kích ứng hay ảnh hưởng đến làn da nhạy cảm.</p>
@@ -19999,6 +20061,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD45H/01.jpg",
     images: ["/anh1/AD45H/01.jpg", "/anh1/AD45H/05.jpg", "/anh1/AD45H/06.jpg", "/anh1/AD45H/07.jpg", "/anh1/AD45H/08.jpg", "/anh1/AD45H/09.jpg", "/anh1/AD45H/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Tính năng: Giải tỏa sinh lý nam, thủ dâm cho nam hiệu quả</h2>
 <h2>Chất liệu: Silione ABS +TPE</h2>
 <h2>Kích thước sản phẩm: 22,3cm x .5cm</h2>
@@ -20066,6 +20129,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33Y/01.jpg",
     images: ["/anh1/AD33Y/01.jpg", "/anh1/AD33Y/07.jpg", "/anh1/AD33Y/08.jpg", "/anh1/AD33Y/09.jpg", "/anh1/AD33Y/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới đang tìm kiếm một thiết bị hỗ trợ chăm sóc sức khỏe sinh lý và tập luyện chuyên sâu, Âm đạo tự động cao cấp Leten Future thế hệ 3 (AD33Y) là dòng máy massage nam giới cao cấp tích hợp cơ chế thụt co bóp tự động, chế độ sưởi ấm và hệ thống âm thanh tương tác đa dạng. Sản phẩm mang đến giải pháp giải tỏa sinh lý an toàn, hỗ trợ rèn luyện sức bền hiệu quả và đảm bảo tiêu chuẩn vệ sinh cá nhân khắt khe.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Âm đạo tự động Leten Future thế hệ 3 sở hữu kết cấu khung vỏ nhựa ABS chắc chắn, tích hợp phần kê tay mềm chống trơn trượt giúp giảm mỏi khi sử dụng trong thời gian dài. Phần lõi mô phỏng bên trong được chế tạo từ chất liệu Silicone và TPE cao cấp, đạt chuẩn an toàn cho da, cho độ mềm mại và đàn hồi vượt trội. Điểm ấn tượng nhất về độ bền và khả năng bảo quản của Leten Future thế hệ 3 chính là phần lõi âm đạo có độ dài tối ưu, dễ dàng tháo rời hoàn toàn để vệ sinh sau mỗi lần dùng. Thiết bị còn được tích hợp chế độ tự làm khô và sấy sưởi vệ sinh chuyên dụng, giúp ngăn ngừa nấm mốc, giữ cho chất liệu luôn bền đẹp và duy trì tuổi thọ lâu dài. Ngoại hình máy được thiết kế ngụy trang trang trọng, trang bị màn hình LED hiển thị rõ ràng tần số và tốc độ vận hành.</p>
@@ -21280,6 +21344,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD38D/01.jpg",
     images: ["/anh1/AD38D/01.jpg", "/anh1/AD38D/05.jpg", "/anh1/AD38D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm là lựa chọn hoàn hảo cho quý nam giới đang tìm kiếm giải pháp thư giãn sinh lý đa năng hoặc các nhân sự, học viên phục vụ trong lớp dạy massage body. Âm đạo giả cho nam giới tự sướng bên trong vú giả thật mềm mại (AD38D) sở hữu thiết kế tích hợp 2 trong 1 thông minh, kết hợp giữa bầu ngực mô phỏng mềm mại để xoa bóp và cấu trúc âm đạo se khít bên trong giúp giải tỏa nhu cầu an toàn, chân thực.</p>
 <p>Vì sao nên chọn Âm đạo giả cho nam giới tự sướng bên trong vú giả thật mềm mại (AD38D)</p>
 <p>Điểm đặc biệt khiến mẫu AD38D được nhiều khách hàng ưa chuộng chính là cấu trúc độc đáo tích hợp kép hai chức năng trong cùng một thiết kế nhỏ gọn. Một mặt được tạo hình bầu ngực căng tròn với núm ti mềm mại cho phép bạn thoải mái xoa bóp thư giãn, mặt còn lại là đường nét âm đạo ôm sát mang đến cảm giác chân thực đầy hưng phấn. Sự kết hợp này mang lại trải nghiệm chăm sóc sức khỏe cá nhân toàn diện, vừa giúp giải tỏa căng thẳng hiệu quả vừa đảm bảo tính tiện lợi tối đa khi không lo biến dạng dù xoa bóp liên tục.</p>
@@ -21587,6 +21652,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC90MP/01.jpg",
     images: ["/anh1/DC90MP/01.jpg", "/anh1/DC90MP/05.jpg", "/anh1/DC90MP/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Để đáp ứng nhu cầu theo dõi sinh lý chuyên sâu và gia tăng trải nghiệm cá nhân một cách riêng tư, thanh rung Svakom Siime Plus có camera soi chiếu âm đạo (DC90MP) là thiết bị hỗ trợ sức khỏe tình dục cao cấp, tích hợp camera 1 megapixel và hệ thống chiếu sáng ẩn giúp quan sát chi tiết bên trong cơ thể.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Thanh rung Svakom Siime Plus (DC90MP) được chế tạo từ chất liệu silicone sinh học cao cấp, thân thiện với môi trường và tuyệt đối an toàn cho các vùng da nhạy cảm. Sản phẩm trải qua quy trình kiểm tra nghiêm ngặt nhằm đáp ứng các tiêu chuẩn chất lượng cao trước khi đưa ra thị trường, đảm bảo tính an toàn sinh học và không gây kích ứng. Thiết kế hoàn toàn không thấm nước kết hợp với hệ thống camera 1 megapixel và đèn LED chiếu sáng ẩn thông minh, cho phép kết nối truyền hình ảnh trực tiếp qua cáp đa năng tới điện thoại hoặc máy tính một cách ổn định.</p>
@@ -21618,6 +21684,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/AD80C/01.jpg",
     images: ["/anh1/AD80C/01.jpg", "/anh1/AD80C/07.jpg", "/anh1/AD80C/08.jpg", "/anh1/AD80C/09.jpg", "/anh1/AD80C/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo cao cấp có rung Svakom Robin (AD80C) vượt trội so với các dòng thông thường nhờ tích hợp màn hình điện tử thông minh và chế độ gia tốc Boost độc quyền, mang lại trải nghiệm ma sát sống động và chân thực nhất. Đây là thiết bị giải tỏa sinh lý nam cao cấp thuộc thương hiệu Svakom, giúp chăm sóc sức khỏe cá nhân một cách an toàn và đẳng cấp.</p>
 <h2>Vì sao nên chọn Âm đạo cao cấp có rung svakom robin (AD80C)</h2>
 <p>Svakom Robin mang đến cảm giác chạm đỉnh nhờ cấu trúc lõi silicone ôm sát kết hợp hệ thống gai bi nổi gồ ghề, mô phỏng trọn vẹn từng chuyển động ma sát sống động. Động cơ rung đa tần loại bỏ hoàn toàn cảm giác nhàm chán, kết hợp nút bấm Boost bứt phá giúp bạn dâng trào cảm xúc nhanh chóng. Thiết kế vỏ ABS cứng cáp chắc tay cùng màn hình LED hiển thị mức pin và chế độ giúp bạn hoàn toàn chủ động kiểm soát nhịp điệu theo ý muốn.</p>
@@ -21683,6 +21750,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD34G/01.jpg",
     images: ["/anh1/AD34G/01.jpg", "/anh1/AD34G/07.jpg", "/anh1/AD34G/08.jpg", "/anh1/AD34G/09.jpg", "/anh1/AD34G/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo gắn tường tự động GUIMI AD34G là thiết bị hỗ trợ sinh lý rảnh tay dành cho nam giới mong muốn tối ưu hóa trải nghiệm nhờ cơ chế rung thụt tự động kết hợp chân đế hút xoay 165 độ linh hoạt. Sản phẩm tích hợp 10 tần số chuyển động, hiệu ứng âm thanh sống động và lòng ống cấu tạo hạt bi nổi kích thích chuyên sâu.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: GUIMI</h2>
@@ -23878,6 +23946,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33F/01.jpg",
     images: ["/anh1/AD33F/01.jpg", "/anh1/AD33F/05.jpg", "/anh1/AD33F/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng cốc thủ dâm cơ học thông thường, âm đạo giả cao cấp Leten JAV 5 (mã AD33F) được trang bị động cơ tự động tích hợp 10 tần số rung, hệ thống co bóp 2 vùng riêng biệt và tính năng phát âm thanh rên mô phỏng. Thiết bị sử dụng chất liệu silicone cao cấp kết hợp vỏ nhựa ABS an toàn, đáp ứng nhu cầu giải tỏa sinh lý nam giới một cách hiệu quả và khoa học.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Thương hiệu Leten với kích thước tổng thể 8,9cm x 24,7cm, kết cấu gồm vỏ nhựa ABS bền bỉ và ruột silicone mềm an toàn cho sức khỏe.</p>
@@ -24562,6 +24631,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD38C/01.jpg",
     images: ["/anh1/AD38C/01.jpg", "/anh1/AD38C/05.jpg", "/anh1/AD38C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Ngực khủng kèm âm đạo và miệng cực phê (AD38C) là thiết bị hỗ trợ giải tỏa nhu cầu sinh lý cao cấp dành cho nam giới, tích hợp 3 vị trí trải nghiệm gồm ngực, âm đạo và miệng trong cùng một khối thiết bị silicone mềm mại.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: AD38C</h2>
@@ -24600,6 +24670,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD14C/01.jpg",
     images: ["/anh1/AD14C/01.jpg", "/anh1/AD14C/07.jpg", "/anh1/AD14C/08.jpg", "/anh1/AD14C/09.jpg", "/anh1/AD14C/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng cốc thủ dâm thông thường hoặc các mẫu búp bê kích thước lớn cồng kềnh, âm đạo giả thiếu nữ bán thân AD14C sở hữu thiết kế bán thân thu nhỏ gọn gàng (12,9cm x 20cm, trọng lượng 1,1kg), mang lại sự cân bằng hoàn hảo giữa tính tiện lợi và trải nghiệm mô phỏng chân thực. Sản phẩm không sử dụng động cơ rung, vận hành hoàn toàn tự nhiên, là lựa chọn tối ưu và cực kỳ dễ sử dụng cho nam giới mới bắt đầu tìm kiếm giải pháp chăm sóc sức khỏe sinh lý cá nhân.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm AD14C được chế tạo hoàn toàn từ chất liệu silicone cao cấp an toàn cho da, sở hữu tông màu da sáng tự nhiên cùng độ đàn hồi êm ái. Thiết kế nguyên khối đầm tay với trọng lượng 1,1kg giúp sản phẩm đứng vững chắc trong quá trình sử dụng, kết hợp với khả năng chống thấm nước 100% giúp việc làm sạch sau mỗi lần dùng trở nên vô cùng nhanh chóng. Cấu trúc lòng ống được tối ưu hóa độ se khít, mang lại cảm giác tiếp xúc êm ái, chân thật mà không đòi hỏi thao tác kĩ thuật phức tạp.</p>
@@ -24628,6 +24699,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46H/01.jpg",
     images: ["/anh1/DC46H/01.jpg", "/anh1/DC46H/06.jpg", "/anh1/DC46H/07.jpg", "/anh1/DC46H/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các mẫu đồ chơi cầm tay nhỏ gọn thông thường, âm đạo silicon siêu lớn DC46H là dòng mô hình bán thân cao cấp nguyên khối mang lại trải nghiệm chân thực vượt trội và cực kỳ dễ thao tác cho người mới bắt đầu. Sản phẩm giúp giải tỏa nhu cầu sinh lý an toàn, giảm stress hiệu quả nhờ thiết kế mô phỏng đường nét cơ thể tự nhiên và tích hợp hai cổng trải nghiệm linh hoạt.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Cấu trúc bán thân siêu thực: Kích thước 28cm x 25cm mô phỏng chi tiết phần cơ thể nữ giới, giúp bạn dễ dàng cố định và trải nghiệm nhiều tư thế linh hoạt như nằm ngửa, nằm sấp hay nằm nghiêng mà không bị mỏi tay.</p>
@@ -24662,6 +24734,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD56A/01.jpg",
     images: ["/anh1/AD56A/01.jpg", "/anh1/AD56A/05.jpg", "/anh1/AD56A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các mẫu thiết cụ hỗ trợ thông thường nhờ sự kết hợp giữa chất liệu TPR phủ silicone siêu mềm và cơ chế rung tự động, âm đạo giả cầm tay Hustler USA (AD56A) là giải pháp chăm sóc sức khỏe sinh lý nam giới giúp mô phỏng chân thực cảm giác co bóp và ôm khít tự nhiên.</p>
 <h2>Ưu điểm chính</h2>
 <ul><li>- Chất liệu TPR silicone cao cấp: Đạt tiêu chuẩn an toàn cho da, có độ đàn hồi cao, mềm mịn và hoàn toàn không tiết mùi hóa chất.</li><li>- Tính năng rung hỗ trợ: Tích hợp bộ phận rung giúp tăng cường phản hồi lực và kích thích xúc giác trong quá trình vận hành.</li><li>- Cấu trúc mô phỏng chi tiết: Thiết kế hình dáng và lòng trong ôm sát, tối ưu khả năng co giãn theo kích thước người dùng.</li><li>- Tiêu chuẩn thương hiệu Mỹ: Đảm bảo về độ bền cơ học của vật liệu và độ hoàn thiện chi tiết kỹ thuật.</li></ul>
@@ -24692,6 +24765,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/AD80B/01.jpg",
     images: ["/anh1/AD80B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khoảng cách địa lý thường tạo ra rào cản lớn trong việc duy trì sự gắn kết và tương tác thân mật của các cặp đôi. Âm đạo giả tự động Svakom SAM Neo (mã AD80B) là thiết bị hỗ trợ sinh lý nam cao cấp tích hợp công nghệ kết nối Internet từ xa, cho phép điều khiển qua ứng dụng thông minh và đồng bộ hóa với video tương tác.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Svakom</h2>
@@ -25256,6 +25330,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC90MP/01.jpg",
     images: ["/anh1/DC90MP/01.jpg", "/anh1/DC90MP/05.jpg", "/anh1/DC90MP/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Để đáp ứng nhu cầu theo dõi sinh lý chuyên sâu và gia tăng trải nghiệm cá nhân một cách riêng tư, thanh rung Svakom Siime Plus có camera soi chiếu âm đạo (DC90MP) là thiết bị hỗ trợ sức khỏe tình dục cao cấp, tích hợp camera 1 megapixel và hệ thống chiếu sáng ẩn giúp quan sát chi tiết bên trong cơ thể.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Thanh rung Svakom Siime Plus (DC90MP) được chế tạo từ chất liệu silicone sinh học cao cấp, thân thiện với môi trường và tuyệt đối an toàn cho các vùng da nhạy cảm. Sản phẩm trải qua quy trình kiểm tra nghiêm ngặt nhằm đáp ứng các tiêu chuẩn chất lượng cao trước khi đưa ra thị trường, đảm bảo tính an toàn sinh học và không gây kích ứng. Thiết kế hoàn toàn không thấm nước kết hợp với hệ thống camera 1 megapixel và đèn LED chiếu sáng ẩn thông minh, cho phép kết nối truyền hình ảnh trực tiếp qua cáp đa năng tới điện thoại hoặc máy tính một cách ổn định.</p>
@@ -25694,6 +25769,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/AD80A/01.jpg",
     images: ["/anh1/AD80A/01.jpg", "/anh1/AD80A/07.jpg", "/anh1/AD80A/08.png"],
+    sensitive: true,
     longDescription: `<p>Âm đạo tự động Svakom Alex Neo (AD80A) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nam cao cấp tích hợp công nghệ điều khiển từ xa qua ứng dụng di động, giúp giải tỏa nhu cầu cá nhân an toàn và duy trì sự kết nối tình cảm cho các cặp đôi dù ở khoảng cách xa.</p>
 <p>Vì sao nên chọn Âm đạo tự động Svakom Alex Neo-cho cặp đôi tương tác qua App từ xa (AD80A)</p>
 <p>Svakom Alex Neo nổi bật nhờ sự kết hợp giữa hệ thống vận hành 7 chế độ tự động đẩy và tính năng kết nối thông minh qua ứng dụng, mang đến trải nghiệm tương tác chân thực cho các cặp đôi yêu xa. Sản phẩm được thiết kế hướng tới giá trị sử dụng lâu dài với linh kiện cơ học chất lượng cao, dung lượng pin bền bỉ và cấu trúc dễ dàng làm sạch. Việc chú trọng vào độ bền và tính vệ sinh giúp bảo vệ sức khỏe cá nhân một cách tối ưu và bền vững theo thời gian.</p>
@@ -25760,6 +25836,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33E/01.jpg",
     images: ["/anh1/AD33E/01.jpg", "/anh1/AD33E/05.jpg", "/anh1/AD33E/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng sản phẩm hỗ trợ thông thường chỉ có cấu trúc silicone tĩnh, Âm đạo giả Leten 3D AD33E kết hợp hoàn hảo giữa khối silicone y tế 3D mềm mại cùng hệ thống mô-đun phát âm thanh và chế độ rung kép, giúp giải tỏa nhu cầu sinh lý một cách tự nhiên và an toàn. Đây là giải pháp chăm sóc sức khỏe tình dục nam giới hiện đại, cực kỳ tiện lợi và thân thiện với người mới bắt đầu.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chất liệu cao cấp &amp; an toàn: Cấu tạo từ Silicone y tế (Medical Silicone) mềm mịn kết hợp nhựa ABS an toàn, đảm bảo sự êm ái và lành tính cho làn da nhạy cảm.</p>
@@ -26691,6 +26768,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC73/01.png",
     images: ["/anh1/DC73/01.png"],
+    sensitive: true,
     longDescription: `<p>Nhiều nam giới gặp khó khăn trong việc tìm kiếm một giải pháp giải tỏa sinh lý cá nhân vừa an toàn, vừa mang lại trải nghiệm kích thích mới lạ hơn các phương pháp thông thường. Âm đạo giả - Cốc Tenga Rolling Head (DC73) là thiết bị hỗ trợ sinh lý cao cấp từ Nhật Bản, tích hợp công nghệ đầu xoay linh hoạt và chất liệu silicone an toàn giúp tối ưu hóa cảm giác chân thực và khoái cảm.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Cốc Tenga Rolling Head (DC73) có thông số kích thước 71 x 71 x 154 mm cùng trọng lượng nhẹ 148g, được tạo hình hình học kín đáo tương tự một lon nước giải khát. Phần lõi bên trong làm từ chất liệu silicone cao cấp, đạt độ mềm dẻo và đàn hồi cao. Điểm nhấn công nghệ của sản phẩm nằm ở cơ cấu kết nối linh hoạt, cho phép phần đầu cốc có thể bẻ gập sang trái, phải và xoay tròn tự do. Bề mặt bên trong lòng ống silicone được bố trí hệ thống hạt nổi nhỏ li ti kết hợp phần đầu lăn chuyên biệt, tạo ra áp lực ôm sát và ma sát đa chiều trong quá trình di chuyển mà không cần tháo rời cấu trúc ruột cốc.</p>
@@ -27091,6 +27169,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/G05B/01.jpg",
     images: ["/anh1/G05B/01.jpg", "/anh1/G05B/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Gel se khít âm đạo tự nhiên Ero (G05B) là sản phẩm hỗ trợ làm săn chắc và tăng độ đàn hồi vùng kín dạng gel bôi ngoài dung tích 30ml đến từ thương hiệu Ero (Áo), giúp phái nữ cải thiện phong độ tự nhiên và gia tăng sự tự tin.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Dung tích 30ml (trọng lượng 41g), thiết kế dạng gel bôi ngoài tiện lợi, dễ dàng thao tác cho người mới bắt đầu.</p>
@@ -27126,6 +27205,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/G05A/01.jpg",
     images: ["/anh1/G05A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng gel bôi trơn thông thường chỉ dừng lại ở khả năng tạo độ ẩm, Gel se khít âm đạo REVERSE của thương hiệu Doc Johnson (Mỹ) được điều chế với công thức thảo mộc đặc biệt giúp tăng cường lưu thông máu, hỗ trợ co thắt và làm săn chắc vùng cơ âm đạo một cách tự nhiên. Sản phẩm sở hữu trọng lượng 56g với thiết kế dạng gel bôi ngoài tiện dụng, là giải pháp đơn giản và an toàn cho người mới bắt đầu muốn cải thiện độ đàn hồi mô âm đạo mà không cần qua can thiệp phẫu thuật.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Hỗ trợ co thắt cơ âm đạo: Cơ chế thúc đẩy lưu lượng máu đến mạc mô giúp vùng kín săn chắc, tạo cảm giác thu hẹp và co bóp dẻo dai.</p>
@@ -28645,6 +28725,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC53A/01.jpg",
     images: ["/anh1/DC53A/01.jpg", "/anh1/DC53A/05.jpg", "/anh1/DC53A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới trưởng thành đang tìm kiếm giải pháp giải tỏa sinh lý an toàn và riêng tư tại nhà, Vòng 3 gắn âm đạo giả cao cấp (DC53A) là thiết bị hỗ trợ sức khỏe sinh lý mô phỏng trọn vẹn nửa thân dưới phái đẹp theo tỷ lệ 1:1 từ chất liệu silicone sinh học đạt chuẩn an toàn cho làn da.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Vòng 3 gắn âm đạo giả cao cấp (DC53A) sở hữu kích thước chuẩn 28cm x 22cm x 17cm cùng trọng lượng đầm tay 5.5kg, tái hiện trọn vẹn đường cong vòng ba tinh tế theo tỷ lệ thực tế 1:1. Điểm nổi bật nhất của sản phẩm nằm ở cấu tạo từ dòng silicone y tế cao cấp, trải qua các tiêu chuẩn kiểm định nghiêm ngặt về độ an toàn biểu bì, hoàn toàn không gây kích ứng hay phản ứng phụ nào cho vùng da nhạy cảm. Chất liệu này sở hữu độ đàn hồi vượt trội, mang lại bề mặt mịn màng tự nhiên đồng thời đảm bảo tính bền bỉ, không bị biến dạng qua thời gian dài sử dụng. Cấu trúc đúc nguyên khối tích hợp hai đường ống trải nghiệm riêng biệt giúp tối ưu hóa sự linh hoạt và đáp ứng trọn vẹn nhu cầu chăm sóc sức khỏe sinh lý cá nhân.</p>
@@ -28756,6 +28837,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC49A/01.jpg",
     images: ["/anh1/DC49A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Phụ nữ sau sinh hoặc chị em nữ giới muốn cải thiện độ đàn hồi cơ sàn chậu và kích thích điểm G có thể sử dụng bóng đôi mát xa DC49A từ hãng Prinkingsun (Hong Kong). Đây là thiết bị tập luyện và mát xa cá nhân được chế tạo từ silicone y tế cao cấp không mùi, với trọng lượng 100g và khả năng chống nước 100%, hỗ trợ săn chắc âm đạo an toàn và hiệu quả.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Bóng đôi DC49A sở hữu cấu trúc gồm 2 quả bóng nối liền với đường kính 3,7 cm, chiều dài mỗi quả là 4,5 cm và tổng chiều dài toàn bộ cấu trúc đạt 10 cm. Sản phẩm được sản xuất hoàn toàn từ chất liệu silicone cao cấp chuyên dụng cho y tế và chăm sóc cá nhân, đạt tiêu chuẩn an toàn sinh học, hoàn toàn không chứa BPA hay mùi hóa chất độc hại. Nhờ đặc tính mềm dẻo, đàn hồi cao và khả năng uốn cong linh hoạt, thiết kế này giảm thiểu tối đa ma sát tiêu cực, đảm bảo độ êm ái khi tiếp xúc trực tiếp với niêm mạc nhạy cảm. Bên cạnh đó, vỏ silicone đúc nguyên khối mang lại khả năng chống thấm nước 100%, giúp ngăn ngừa vi khuẩn xâm nhập và đơn giản hóa quá trình vệ sinh.</p>
@@ -28784,6 +28866,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC49B/01.jpg",
     images: ["/anh1/DC49B/01.jpg", "/anh1/DC49B/05.jpg", "/anh1/DC49B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng bóng tập thông thường, bóng silicon Hegel tập se khít âm đạo (DC49B) sở hữu hệ thống hai quả bóng kích thước linh hoạt làm từ silicone đạt tiêu chuẩn y tế khắt khe, giúp phục hồi và tăng cường sức mạnh cơ sàn chậu một cách an toàn tuyệt đối. Sản phẩm hỗ trợ cải thiện độ đàn hồi vùng kín, làm khít khao tự nhiên cho phụ nữ sau sinh và phòng ngừa hiệu quả tình trạng tiểu không tự chủ.</p>
 <h2>Vì sao nên chọn Bóng silicon Hegel tập se khít âm đạo (DC49B)</h2>
 <p>Bóng silicon Hegel (DC49B) là giải pháp tập luyện cơ sàn chậu chuẩn khoa học và tối ưu độ an toàn. Chất liệu đạt kiểm định tiêu chuẩn y tế giúp bảo vệ tuyệt đối làn da nhạy cảm, không gây kích ứng hay mùi hôi. Thiết kế bóng đôi linh hoạt hỗ trợ lộ trình tập từ cơ bản đến nâng cao. Đây là lựa chọn hàng đầu để phái đẹp chủ động lấy lại sự tự tin, săn chắc và nâng cao chất lượng cuộc sống lứa đôi.</p>
@@ -29067,6 +29150,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC30/01.jpg",
     images: ["/anh1/DC30/01.jpg", "/anh1/DC30/05.jpg", "/anh1/DC30/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một giải pháp hỗ trợ chăm sóc sức khỏe sinh lý cá nhân đơn giản, dễ thao tác và an toàn cho người mới bắt đầu, trứng rung tình yêu đôi DC30 là sự lựa chọn rất phù hợp. Sản phẩm sở hữu thiết kế hai đầu rung linh hoạt hỗ trợ massage thư giãn vùng nhạy cảm và điểm G một cách nhẹ nhàng, hiệu quả.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chất liệu an toàn: Cấu tạo từ silicone y tế cao cấp mềm mịn, êm ái và thân thiện với làn da nhạy cảm.</p>
@@ -29137,6 +29221,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC22H/01.jpg",
     images: ["/anh1/DC22H/01.jpg", "/anh1/DC22H/05.jpg", "/anh1/DC22H/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nữ giới đang tìm kiếm một thiết bị chăm sóc sức khỏe sinh lý cá nhân nhỏ gọn, an toàn và tinh tế, sản phẩm DC22H là giải pháp hỗ trợ massage điểm nhạy cảm giúp giải tỏa căng thẳng hiệu quả với 12 chế độ rung linh hoạt.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm DC22H được chế tạo từ chất liệu silicone cao cấp kết hợp nhựa ABS nguyên sinh, đáp ứng đầy đủ các tiêu chuẩn an toàn cho vùng da nhạy cảm. Bề mặt silicone mềm mịn, hoàn toàn không chứa phthalate hay các hóa chất gây kích ứng, bảo vệ tối đa sức khỏe người sử dụng. Cấu trúc thiết bị được tối ưu hóa cho các thao tác tác động nhẹ nhàng, kết hợp cùng hệ thống sạc USB tiện lợi giúp duy trì hiệu suất hoạt động ổn định và lâu dài.</p>
@@ -29467,6 +29552,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD60A/01.jpg",
     images: ["/anh1/AD60A/01.jpg", "/anh1/AD60A/05.jpg", "/anh1/AD60A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng cốc thủ dâm thông thường, Âm đạo giả cao cấp 2 đầu Masturbator mềm mịn như thật (AD60A) sở hữu thiết kế 2 đầu thông suốt kết hợp chất liệu TPR siêu mềm, mang lại cảm giác ôm sát chân thực như da thịt tự nhiên. Sản phẩm giúp phái mạnh giải tỏa nhu cầu sinh lý an toàn, gia tăng tối đa khoái cảm và sự hưng phấn trong từng nhịp chuyển động.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Chất liệu: Silicone TPR cao cấp, an toàn và thân thiện với làn da.</li><li>- Kích thước: Chiều dài 20.8 cm x Chiều rộng 8 cm.</li><li>- Cấu trúc: Thiết kế 2 đầu thông nhau, lớp ruột 4D tích hợp gân bi nổi.</li><li>- Chế độ rung: Không rung.</li><li>- Khả năng chống nước: Chống thấm nước hoàn toàn.</li></ul>
@@ -29564,6 +29650,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD54/01.jpg",
     images: ["/anh1/AD54/01.jpg", "/anh1/AD54/05.jpg", "/anh1/AD54/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo 2 đầu Lovetoy Double (AD54) là sản phẩm đồ chơi người lớn cao cấp dành cho nam giới, được thiết kế tích hợp 2 đầu trải nghiệm khác nhau giúp giải tỏa nhu cầu sinh lý và mang lại cảm giác chân thật như quan hệ thực tế.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Thiết kế 2 đầu đa năng: Tích hợp hai cổng trải nghiệm trong cùng một sản phẩm (mẫu A54 kết hợp âm đạo - miệng; mẫu A54A kết hợp âm đạo - hậu môn).</p>
@@ -31528,6 +31615,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD02C/01.jpg",
     images: ["/anh1/AD02C/01.jpg", "/anh1/AD02C/06.jpg", "/anh1/AD02C/07.jpg", "/anh1/AD02C/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng cốc tự sướng thông thường, Âm Đạo Giả Silicon AD02C sở hữu thiết kế đúc khối phỏng theo đường nét vùng bụng trước quyến rũ cùng hai cổng trải nghiệm riêng biệt (âm đạo và hậu môn). Đây là thiết bị hỗ trợ sinh lý nam cao cấp đến từ thương hiệu JiuAi (Hồng Kông), mang lại giải pháp giải tỏa căng thẳng an toàn, chân thực và đầy hứng khởi cho phái mạnh.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Cấu trúc trải nghiệm kép: Tích hợp cả hai đường vào âm đạo và hậu môn trên cùng một sản phẩm, mở ra lựa chọn khám phá đa dạng cho người dùng.</p>
@@ -31574,6 +31662,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD25A/01.jpg",
     images: ["/anh1/AD25A/01.jpg", "/anh1/AD25A/05.jpg", "/anh1/AD25A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo silicon mềm mại như thật giá rẻ (AD25A) là lựa chọn tối ưu cho nam giới muốn giải quyết nhu cầu sinh lý cá nhân an toàn, riêng tư và tiết kiệm chi phí. Sản phẩm được làm từ silicon nguyên khối không thấm nước, sở hữu các đường gân nổi nội khu và khả năng ôm sát linh hoạt, giúp mang lại trải nghiệm chân thực cùng độ bền bỉ cao theo thời gian.</p>
 <h2>Vì sao nên chọn Âm đạo silicon mềm mại như thật giá rẻ (AD25A)</h2>
 <p>Dòng sản phẩm AD25A nổi bật nhờ kết cấu silicon đúc dẻo dai, chống biến dạng hiệu quả dù sử dụng thường xuyên. Khả năng chống thấm nước tuyệt đối giúp người dùng dễ dàng làm sạch sản phẩm dưới vòi nước, đảm bảo vệ sinh tối đa và kéo dài tuổi thọ sử dụng. Đây là giải pháp chăm sóc sức khỏe sinh lý vừa túi tiền, bền bỉ và vô cùng kín đáo cho phái mạnh.</p>
@@ -31865,6 +31954,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC14T/01.jpg",
     images: ["/anh1/DC14T/01.jpg", "/anh1/DC14T/06.jpg", "/anh1/DC14T/07.jpg", "/anh1/DC14T/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng bao đôn đúc kín thông thường, Đôn rọ có quai đeo tăng cường ma sát kích thích âm đạo nữ (DC14T) sở hữu cấu trúc dạng rọ mắt lưới độc đáo kết hợp quai đeo cố định, vừa tăng cường ma sát kích thích điểm G vừa duy trì sự tiếp xúc chân thực cho nam giới.</p>
 <p>Vì sao nên chọn Đôn rọ có quai đeo tăng cường ma sát kích thích âm đạo nữ (DC14T)</p>
 <p>Sản phẩm đến từ thương hiệu Baile được thiết kế đột phá với các đường mắt lưới nổi kết hợp hạt bi tròn, giúp tối ưu hóa khả năng ma sát và tác động sâu vào niêm mạc âm đạo phái nữ. Điểm cộng lớn của đôn rọ DC14T là hệ thống quai đeo ôm sát gốc, giữ sản phẩm định vị chắc chắn, hoàn toàn không lo xê dịch trong quá trình sử dụng. Đồng thời, cấu trúc rọ thoáng giúp giảm bớt diện tích tiếp xúc trực tiếp, hỗ trợ nam giới kiểm soát sự nhạy cảm, từ đó kéo dài thời gian quan hệ hiệu quả mà vẫn giữ trọn vẹn cảm xúc tự nhiên.</p>
@@ -35434,6 +35524,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33N/01.jpg",
     images: ["/anh1/AD33N/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một giải pháp giải tỏa nhu cầu sinh lý cá nhân với cảm giác chân thật và ấm áp như cuộc yêu thực tế, âm đạo tự động Leten có âm thanh và sưởi ấm (AD33N) chính là sự lựa chọn hoàn hảo. Đây là thiết bị hỗ trợ sức khỏe sinh lý nam giới cao cấp với cơ chế thụt tự động nhiều tốc độ, tích hợp công nghệ làm ấm 38°C cùng hệ thống âm thanh sống động giúp mang lại trải nghiệm thư giãn tối đa.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm sở hữu kiểu dáng cầm tay hiện đại với kích thước 27.1cm x 8.5cm vừa vặn, phần vỏ ngoài bằng nhựa ABS chắc chắn giúp bạn dễ dàng thao tác ở nhiều tư thế khác nhau. Điểm nhấn đắt giá nằm ở phần ruột silicone cao cấp siêu mềm mại, độ đàn hồi linh hoạt và an toàn cho làn da nhạy cảm. Bên trong lòng ống được thiết kế các lớp tua gai mềm mịn bao bọc trọn vẹn, kết hợp tính năng sưởi ấm thông minh duy trì mức nhiệt 38°C tiệm cận nhiệt độ cơ thể, mang lại cảm giác ôm siết tự nhiên, ấm áp và vô cùng thư thái ngay khi tiếp xúc.</p>
@@ -38244,6 +38335,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD45/01.jpg",
     images: ["/anh1/AD45/01.jpg", "/anh1/AD45/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng cốc thủ dâm cầm tay thông thường, âm đạo gắn tường Crazy Bull Flora (AD45) sở hữu đế hút chân không xoay 120 độ chắc chắn kết hợp 12 chế độ rung, giúp các anh dễ dàng rảnh tay trải nghiệm nhiều tư thế linh hoạt ngay từ lần đầu sử dụng.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm được gia công từ chất liệu silicone cao cấp đạt chuẩn y tế, mang lại bề mặt mềm mại, an toàn tuyệt đối cho làn da nhạy cảm và rất dễ vệ sinh sau khi sử dụng. Với kích thước gọn gàng 28.3cm x 9.3cm cùng trọng lượng 666g, Crazy Bull Flora (AD45) nổi bật nhờ phần chân đế gắn tường thông minh tích hợp chốt khóa ốc vít chắc chắn, giúp cố định thiết bị lên bề mặt kính, gạch men hoặc sàn nhà mà không lo trơn trượt. Khớp xoay linh hoạt 120 độ cùng cổng sạc pin lithium bền bỉ mang đến sự tiện lợi tối đa, giúp người dùng dễ dàng điều chỉnh góc độ thư giãn phù hợp nhất.</p>
@@ -39573,6 +39665,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/BZ10/01.jpg",
     images: ["/anh1/BZ10/01.jpg", "/anh1/BZ10/05.jpg", "/anh1/BZ10/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bộ kẹp vú và bóng nhét âm đạo (BZ10) là thiết bị hỗ trợ kích thích giác quan dành cho các cặp đôi, tích hợp đồng thời kẹp định vị nhạy cảm và bóng nhét âm đạo làm từ hợp kim không gỉ sét. Sản phẩm được thiết kế để tạo ra lực ép vật lý liên tục cùng cường độ tác động mạnh mẽ, đáp ứng nhu cầu trải nghiệm cảm giác mới lạ trong sinh hoạt vợ chồng.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Tên sản phẩm: Bộ kẹp vú và bóng nhét âm đạo (BZ10)</h2>
@@ -41315,6 +41408,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD45A/01.jpg",
     images: ["/anh1/AD45A/01.jpg", "/anh1/AD45A/05.jpg", "/anh1/AD45A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm âm đạo gắn tường rung rên Crazy Bull Delia (AD45A) được sử dụng để hỗ trợ giải tỏa nhu cầu sinh lý nam giới một cách an toàn, đồng thời giúp các anh chủ động rèn luyện sự dẻo dai và làm chủ cảm xúc cá nhân. Thiết kế độc đáo kết hợp chân đế hút chân không cố định linh hoạt và 12 chế độ rung giải trí, mang đến giải pháp chăm sóc sức khỏe cá nhân tiện lợi ngay tại nhà.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu TPR và ABS cao cấp: Đạt tiêu chuẩn kiểm định an toàn cho sức khỏe, bề mặt êm ái, hoàn toàn thân thiện và không gây kích ứng cho làn da nhạy cảm.</p>
@@ -41498,6 +41592,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/MS14A/01.jpg",
     images: ["/anh1/MS14A/01.jpg", "/anh1/MS14A/05.jpg", "/anh1/MS14A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nữ giới đang tìm kiếm trải nghiệm chăm sóc sức khỏe sinh lý hiện đại và chân thực sẽ rất thích hợp với Máy rung bú âm đạo cực phê Romance 3 đầu hút (MS14A) đến từ thương hiệu Baile. Đây là thiết bị hỗ trợ cá nhân cao cấp kết hợp công nghệ hút không khí cùng chế độ rung kích thích điểm nhạy cảm, tích hợp 3 vòi hút thay thế cùng 12 nhịp điệu điều chỉnh linh hoạt.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Máy rung Romance MS14A gây ấn tượng mạnh nhờ thiết kế công nghệ kép độc đáo, tích hợp đồng thời cơ chế tạo lực hút không khí ở phía trên và tính năng rung mat-xa ở phía dưới. Sản phẩm được hoàn thiện từ chất liệu Silicon kết hợp nhựa ABS cao cấp, mang lại bề mặt mịn màng, êm ái khi tiếp xúc với làn da nhạy cảm và đáp ứng các tiêu chuẩn chất lượng như CE, ROHS, FDA. Với kiểu dáng thanh mảnh có chiều dài 72.7cm, đường kính 1.4cm và 1.9cm, thiết bị sở hữu tông màu tím sang trọng cùng cổng sạc USB tiện lợi, giúp bạn dễ dàng thao tác cũng như bảo quản trong suốt quá trình sử dụng.</p>
@@ -42446,6 +42541,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC10D/01.jpg",
     images: ["/anh1/DC10D/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Ngón tay siêu rung DC10D là thiết bị massage cá nhân dùng để kích thích điểm G, âm vật và thành âm đạo, hỗ trợ giải tỏa nhu cầu sinh lý an toàn cho phụ nữ. Sản phẩm chế tạo từ chất liệu cao cấp đạt tiêu chuẩn kiểm định, đảm bảo sự êm ái và an toàn tuyệt đối cho làn da nhạy cảm.</p>
 <h2>Vì sao nên chọn Ngón tay siêu rung DC10D</h2>
 <p>Thiết bị sở hữu thiết kế mô phỏng ngón tay tinh tế với hàng gai mềm đa kích thước, tối ưu hóa khả năng chạm đến các điểm nhạy cảm. Điểm vượt trội của sản phẩm nằm ở chất liệu silicone y tế cao cấp, không chứa độc hại và thân thiện hoàn toàn với cơ thể. Nhờ công nghệ rung đa tần số mạnh mẽ cùng nguồn pin dễ thay thế, sản phẩm đem lại sự tiện lợi và an tâm tối đa trong suốt quá trình sử dụng.</p>
@@ -42899,6 +42995,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC67G/01.jpg",
     images: ["/anh1/DC67G/01.jpg", "/anh1/DC67G/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Máy hút và kích thích âm đạo (DC67G) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ, được sử dụng để massage thư giãn, kích thích lưu thông máu và giải tỏa căng thẳng vùng nhạy cảm nhờ cơ chế kết hợp giữa lực hút nhẹ nhàng và tần số rung linh hoạt.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu nhựa cao cấp đạt tiêu chuẩn y tế, hoàn toàn an toàn cho vùng da nhạy cảm và tối ưu độ bền theo thời gian.</li><li>- Công nghệ tích hợp kép: vừa tạo lực hút nhịp nhàng vừa hỗ trợ chế độ rung đa tần giúp massage chuyên sâu.</li><li>- Thiết kế công học dạng đường cong ôm sát, mang lại sự êm ái và tối ưu hóa diện tích tiếp xúc khi vận hành.</li><li>- Vận hành bằng nguồn pin tiện lợi, dễ dàng thay thế và chủ động kiểm soát thời lượng sử dụng.</li><li>- Xuất xứ Hồng Kông với tiêu chuẩn hoàn thiện chắc chắn, tăng tuổi thọ sản phẩm khi được bảo quản đúng cách.</li></ul>
@@ -43166,6 +43263,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC30D/01.jpg",
     images: ["/anh1/DC30D/01.jpg", "/anh1/DC30D/05.jpg", "/anh1/DC30D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một giải pháp hỗ trợ chăm sóc sức khỏe sinh lý nhẹ nhàng, an toàn và dễ thao tác cho người mới bắt đầu? Trứng rung âm đạo kèm dương vật mini DC30D là thiết bị massage cá nhân chuyên biệt, giúp giải tỏa nhu cầu sinh lý nữ hiệu quả nhờ thiết kế nhỏ gọn, chất liệu đạt chuẩn y tế và cơ chế vận hành bằng pin AA vô cùng tiện lợi.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Thiết bị massage DC30D được chế tạo từ chất liệu Polymer cao cấp đạt tiêu chuẩn y tế, không chứa chất độc hại, đảm bảo an toàn tuyệt đối cho sức khỏe người sử dụng. Bề mặt sản phẩm được xử lý nhẵn mịn, hoàn toàn không gây tổn thương hay kích ứng cho những vùng da nhạy cảm. Về thông số kỹ thuật, bộ sản phẩm gồm phần trứng rung có chiều dài 55mm, đường kính 22mm và phần mô hình dương vật mini có chiều dài 90mm, đường kính 27mm. Thiết bị có xuất xứ từ Hồng Kông, vận hành bằng 2 viên pin AA thông dụng, mang lại sự chủ động và dễ dàng thay thế trong suốt quá trình sử dụng.</p>
@@ -46410,6 +46508,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD22E/01.jpg",
     images: ["/anh1/AD22E/01.jpg", "/anh1/AD22E/05.jpg", "/anh1/AD22E/06.jpg", "/anh1/AD22E/07.jpg", "/anh1/AD22E/08.jpg", "/anh1/AD22E/09.jpg", "/anh1/AD22E/10.jpg", "/anh1/AD22E/11.jpg", "/anh1/AD22E/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>AD22E Âm đạo giả gắn tường có rung làm tình siêu sướng cu cậu</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Tính năng: Nam thủ dâm, giải tỏa sinh lý hiệu quả, máy tập to dương vật</li></ul>
@@ -46681,6 +46780,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD44/01.jpg",
     images: ["/anh1/AD44/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <ul><li>- Tính năng: Nam thủ dâm, tự sướng giải tỏa sinh lý hiệu quả.</li></ul>
 <h2>- Chất liệu: Silicon mềm</h2>
@@ -47158,6 +47258,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33X/01.jpg",
     images: ["/anh1/AD33X/01.jpg", "/anh1/AD33X/15.jpg", "/anh1/AD33X/16.jpg", "/anh1/AD33X/17.jpg"],
+    sensitive: true,
     longDescription: `<h2>AD33X Âm đạo giả tự động cao cấp siêu phẩm làm tình cho quý ông</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Tính năng: Giải quyết nhu cầu sinh lý cho nam, giảm Stress, giúp điều hòa nội tiết, tăng kích thước dương vật, kìm hãm được chế độ xuất tinh sớm.</li></ul>
@@ -48467,6 +48568,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC46A/01.jpg",
     images: ["/anh1/DC46A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>CHI TIẾT:</p>
 <ul><li>Tính năng chính : Giải tỏa hiệu quả sinh lý .</li><li>Nguyên liệu: Silicone cao cấp, an toàn cho người dùng.</li></ul>
 <h2>Chức năng chính : rung</h2>
@@ -48525,6 +48627,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD06/01.jpg",
     images: ["/anh1/AD06/01.jpg", "/anh1/AD06/05.jpg", "/anh1/AD06/06.jpg", "/anh1/AD06/07.jpg", "/anh1/AD06/08.jpg", "/anh1/AD06/09.jpg", "/anh1/AD06/10.jpg", "/anh1/AD06/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>Âm đạo sillicon trần có rung sướng không tả hết</h2>
 <p>Thông tin chung của âm đạo giả:</p>
 <h2>MÃ SẢN PHẨM: AD06</h2>
@@ -48557,6 +48660,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD20/01.jpg",
     images: ["/anh1/AD20/01.jpg", "/anh1/AD20/06.jpg", "/anh1/AD20/07.jpg", "/anh1/AD20/08.jpg", "/anh1/AD20/09.jpg", "/anh1/AD20/10.jpg", "/anh1/AD20/11.jpg", "/anh1/AD20/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>AD20 Âm đạo silicon đẹp như bướm nàng có rung chơi cực thích</h2>
 <h2>Thông tin sản phẩm</h2>
 <h2>– Tính năng chính: Nam thủ dâm, giải tỏa hiệu sinh lý</h2>
@@ -48640,6 +48744,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46B/01.jpg",
     images: ["/anh1/DC46B/01.jpg", "/anh1/DC46B/05.jpg", "/anh1/DC46B/06.jpg", "/anh1/DC46B/07.jpg", "/anh1/DC46B/08.jpg", "/anh1/DC46B/09.jpg", "/anh1/DC46B/10.jpg", "/anh1/DC46B/11.jpg", "/anh1/DC46B/12.jpg", "/anh1/DC46B/13.jpg", "/anh1/DC46B/14.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC46B Sextoy dành cho nam âm đạo giả silicon nguyên khối cực phê</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Tính năng chính: Giải tỏa hiệu quả sinh lý .</li><li>– Nguyên liệu: Silicone cao cấp, không gây hại cho người dùng.</li></ul>
@@ -48775,6 +48880,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD39/01.jpg",
     images: ["/anh1/AD39/01.jpg", "/anh1/AD39/06.jpg", "/anh1/AD39/07.jpg", "/anh1/AD39/08.jpg"],
+    sensitive: true,
     longDescription: `<h2>AD39 Âm đạo giả giống thật cầm tay cho nam giới thủ dâm kích thích</h2>
 <p>Thông tin âm đạo giả giống thật cầm tay cho nam:</p>
 <ul><li>– Tính năng: Giải tỏa sinh lý hiệu quả.</li></ul>
@@ -48811,6 +48917,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD39A/01.jpg",
     images: ["/anh1/AD39A/01.jpg", "/anh1/AD39A/05.jpg", "/anh1/AD39A/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>AD39A Âm đạo giả silicone mini cho nam thỏa mãn sinh lý tình dục phê</h2>
 <p>Thông tin âm đạo giả silicone mini cho nam giới:</p>
 <ul><li>– Tính năng chính : Giải tỏa hiệu quả sinh lý .</li></ul>
@@ -48846,6 +48953,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46C/01.jpg",
     images: ["/anh1/DC46C/01.jpg", "/anh1/DC46C/06.jpg", "/anh1/DC46C/08.jpg", "/anh1/DC46C/09.jpg", "/anh1/DC46C/10.jpg", "/anh1/DC46C/11.jpg", "/anh1/DC46C/12.jpg", "/anh1/DC46C/13.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC46C Âm hộ giả như thật cho quý ông cảm giác đê mê như làm tình</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>Tính năng: Giải tỏa sinh lý hiệu quả.</li><li>Chất liệu: Silicone cao cấp, an toàn cho người sử dụng.</li></ul>
@@ -48883,6 +48991,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC46D/01.jpg",
     images: ["/anh1/DC46D/01.jpg", "/anh1/DC46D/05.jpg", "/anh1/DC46D/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC46D Đồ chơi tình dục nam giới âm đạo silicon như gái mới lớn</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Giải tỏa hiệu quả sinh lý .</li><li>Nguyênliệu: Silicone cao cấp, không gây hại cho người dùng.</li></ul>
@@ -48948,6 +49057,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC06D/01.jpg",
     images: ["/anh1/DC06D/01.jpg", "/anh1/DC06D/05.jpg", "/anh1/DC06D/06.jpg", "/anh1/DC06D/07.jpg", "/anh1/DC06D/08.jpg", "/anh1/DC06D/09.jpg", "/anh1/DC06D/10.jpg", "/anh1/DC06D/11.jpg", "/anh1/DC06D/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC06D Âm đạo giả bán thân như gái trinh đưa mông cho các anh thỏa mãn</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC06D</h2>
@@ -49038,6 +49148,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD06D/01.jpg",
     images: ["/anh1/AD06D/01.jpg", "/anh1/AD06D/05.jpg", "/anh1/AD06D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm Đạo Giả Cao Cấp 3D Nữ Sinh Nhật Bản Có Rung: Giải Tỏa Sinh Lý Và Kích Thích Tuyệt Vời Dành Cho Nam</p>
 <p>Thông Tin Chi Tiết Sản Phẩm AD06D:</p>
 <h2>- Mã sản phẩm: AD06D</h2>
@@ -49169,6 +49280,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD19C/01.jpg",
     images: ["/anh1/AD19C/01.jpg", "/anh1/AD19C/05.jpg", "/anh1/AD19C/06.jpg", "/anh1/AD19C/07.jpg", "/anh1/AD19C/08.jpg", "/anh1/AD19C/09.jpg"],
+    sensitive: true,
     longDescription: `<h2>AD19C Âm đạo giả chơi được 2 đầu siêu sướng cho nam thủ dâm</h2>
 <p>Thông tin sản phẩm :</p>
 <ul><li>Tính năng: Kích thích dương vật, gia tăng khoái cảm giúp nam thủ dâm hiệu quả</li></ul>
@@ -49210,6 +49322,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD02A/01.jpg",
     images: ["/anh1/AD02A/01.jpg", "/anh1/AD02A/05.jpg", "/anh1/AD02A/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>Âm Đạo Giả Mu Cao Như Thật, Size Lớn Siêu Kích Thích Jiuai (AD02A)</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>- Tính năng: Giúp giải tỏa sinh lý cho nam hiệu quả, tập luyện đều đặn kéo dài thời gian xuất tinh.</li><li>- Chất liệu: 100% silicon cao cấp, an toàn với người sử dụng.</li><li>- Rung: Không rung.</li></ul>
@@ -49284,6 +49397,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD41/01.jpg",
     images: ["/anh1/AD41/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Âm đạo ngụy trang hình chai bia- quà tặng cực độc (AD41)</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>Tính năng: Giải tỏa sinh lý nam hiệu quả.</li></ul>
@@ -49396,6 +49510,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD45G/01.jpg",
     images: ["/anh1/AD45G/01.jpg", "/anh1/AD45G/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm Đạo Giả Gắn Tường Có Rung Giá Rẻ, Nhỏ Gọn, Thỏa Mãn Sinh Lý Nam Giới</p>
 <h2>Thông Tin Sản Phẩm Âm Đạo Giả Gắn Tường Có Rung Giá Rẻ</h2>
 <ul><li>- Tính năng: Giải tỏa sinh lý hiệu quả, thủ dâm nam giới, giúp tăng cường khoái cảm.</li><li>- Chất liệu: Vỏ ABS bền bỉ, ruột âm đạo từ silicone cao cấp, mềm mại và an toàn cho da.</li><li>- Chiều dài sản phẩm: 20.5cm, thiết kế nhỏ gọn, dễ sử dụng.</li><li>- Chiều dài sử dụng: 16cm, phù hợp với mọi kích thước dương vật.</li><li>- Đường kính miệng cốc: 6.5cm, tạo cảm giác ôm chặt, tự nhiên.</li><li>- Đường kính đế: 8.3cm, giúp gắn tường chắc chắn.</li><li>- Màu sắc: Đen, Hồng, Trắng – lựa chọn đa dạng.</li><li>- Rung: Không có rung, nhưng vẫn mang lại cảm giác chân thật.</li><li>- Chống thấm nước: Hoàn toàn chống thấm nước, dễ dàng vệ sinh.</li><li>- Xuất xứ: Hồng Kông.</li></ul>
@@ -49420,6 +49535,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD19E/01.jpg",
     images: ["/anh1/AD19E/01.jpg", "/anh1/AD19E/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <ul><li>- Tính năng: gia tăng khoái cảm, kích thích dương vật,  giải quyết nhu cầu sinh lý thật hiệu quả, sảng khoái</li></ul>
 <h2>- Đối tượng sử dụng: Nam</h2>
@@ -49538,6 +49654,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC38K/01.jpg",
     images: ["/anh1/DC38K/01.jpg", "/anh1/DC38K/05.jpg", "/anh1/DC38K/08.jpg", "/anh1/DC38K/09.jpg", "/anh1/DC38K/10.jpg", "/anh1/DC38K/11.jpg", "/anh1/DC38K/12.jpg", "/anh1/DC38K/13.jpg", "/anh1/DC38K/14.jpg", "/anh1/DC38K/15.jpg", "/anh1/DC38K/16.jpg", "/anh1/DC38K/17.jpg", "/anh1/DC38K/18.jpg", "/anh1/DC38K/19.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC38K Chim giả có rung hình tai thỏ kích thích âm đạo nữ sướng phê</h2>
 <p>Thông tin mô tả chi tiết:</p>
 <h2>Chức năng: Mát xa điểm G, âm đạo, giải tỏa sinh lý nữ hiệu quả</h2>
@@ -52338,6 +52455,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/G05C/01.jpg",
     images: ["/anh1/G05C/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Kem se khít âm đạo và tăng khoái cảm cho phụ nữ nhập khẩu từ Mỹ - Sensuva ViviFi (G05C)</p>
 <p>Thông tin chi tiết:</p>
 <ul><li>Tính năng: làm co thắt âm đạo cổ tử cung, cảm giác cho cô bé khít hơn, giúp gia tăng khoái cảm cho chị em nhiều hơn</li><li>Đối tượng sử dụng; Phụ nữ sau sinh cửa mình rộng, phụ nữ trong thời kỳ mãn kinh, chị em lãnh cảm không ham muốn, không có cảm giác đạt đỉnh trong quan hệ tình dục.</li></ul>
@@ -52568,6 +52686,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/G05/01.jpg",
     images: ["/anh1/G05/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Gel Se Khít Âm Đạo Embrace (G05)</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>Tính năng : Embrace Là loại Gel bôi trơn âm đạo, giúp làm co thắt và se khít âm đạo lại, mang lại cho bạn cảm xúc không tưởng của một âm đạo khít và thắt chặt.</li></ul>
@@ -53844,6 +53963,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD36E/01.jpg",
     images: ["/anh1/AD36E/01.jpg", "/anh1/AD36E/05.jpg", "/anh1/AD36E/06.jpg", "/anh1/AD36E/07.jpg"],
+    sensitive: true,
     longDescription: `<p>AD36E Âm đạo giả tự động đồ chơi tình dục nam xoay rung bú mút dương vật</p>
 <p>Thông báo chi tiết:</p>
 <h2>Chất liệu: ABS và silicone cao cấp</h2>
@@ -53981,6 +54101,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC16/01.jpg",
     images: ["/anh1/DC16/01.jpg", "/anh1/DC16/05.jpg", "/anh1/DC16/06.jpg", "/anh1/DC16/07.jpg", "/anh1/DC16/08.jpg", "/anh1/DC16/09.jpg", "/anh1/DC16/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC16 Dụng cụ thủ dâm cao cấp nam giới siêu kín đáo riêng tư</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC16</h2>
@@ -54494,6 +54615,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC41C/01.jpg",
     images: ["/anh1/DC41C/01.jpg", "/anh1/DC41C/05.jpg", "/anh1/DC41C/07.jpg", "/anh1/DC41C/08.jpg", "/anh1/DC41C/10.jpg", "/anh1/DC41C/11.jpg", "/anh1/DC41C/12.jpg", "/anh1/DC41C/14.jpg", "/anh1/DC41C/15.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC41C Lưỡi liếm mini cao cấp mát xa âm đạo nữ sướng ra nước</h2>
 <p>Thông tin giới thiệu đồ chơi:</p>
 <ul><li>Tính năng: Giải tỏa sinh lý hiệu quả.</li><li>Chất liệu: silicone cao cấp, an toàn cho người sử dụng.</li></ul>
@@ -54880,6 +55002,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC17Y/01.jpg",
     images: ["/anh1/DC17Y/01.jpg", "/anh1/DC17Y/05.jpg", "/anh1/DC17Y/06.png", "/anh1/DC17Y/07.jpg", "/anh1/DC17Y/08.jpg", "/anh1/DC17Y/09.jpg", "/anh1/DC17Y/10.jpg", "/anh1/DC17Y/11.jpg", "/anh1/DC17Y/12.jpg", "/anh1/DC17Y/13.png", "/anh1/DC17Y/14.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC17Y Âm đạo giả silicon trong suốt Ice Fleshlight đê mê cảm xúc</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC17Y</h2>
@@ -55577,6 +55700,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC23B/01.jpg",
     images: ["/anh1/DC23B/01.jpg", "/anh1/DC23B/05.jpg", "/anh1/DC23B/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC23B Lưỡi rung âm đạo cao cấp – Dụng cụ thủ dâm âm đạo nữ</h2>
 <p>Thông tin chi tiết:</p>
 <h2>– Tác dụng: massge âm đạo, giải tỏa sinh lý nữ</h2>
@@ -55784,6 +55908,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC41A/06.jpg",
     images: ["/anh1/DC41A/06.jpg", "/anh1/DC41A/09.jpg", "/anh1/DC41A/10.jpg", "/anh1/DC41A/11.jpg", "/anh1/DC41A/12.jpg", "/anh1/DC41A/13.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC41A Máy liếm mát xa âm đạo giải tỏa sinh lý nữ sướng nhất</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Tính năng: Nữ giải tỏa hiệu quả sinh lý, mát xa điểm G, mát xa hậu môn</li></ul>
@@ -56622,6 +56747,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC81/01.jpg",
     images: ["/anh1/DC81/01.jpg", "/anh1/DC81/07.jpg", "/anh1/DC81/08.jpg", "/anh1/DC81/09.jpg", "/anh1/DC81/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <ul><li>-Tính năng: Massge điểm G, giảm nguy cơ tiểu không tự chủ, khắc phục tình trạng &quot;rộng&quot; sau sinh.............</li></ul>
 <h2>-Thể loại: Đồ chơi tình dục tốt</h2>
@@ -57492,6 +57618,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC90V/01.jpg",
     images: ["/anh1/DC90V/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Bộ bóng silicon tập se khít âm đạo Svakom Nova (DC90V)</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>Tính năng: Dụng cụ tập se khít âm đạo, thu hẹp âm đạo.</li><li>Đối tượng sử dụng: Chị em sau sinh, chị em cửa mình rộng không có khoái cảm hưng phấn trong quan hệ tình dục.</li><li>Chất liệu: Silicon y tế an toàn cho người.</li></ul>
@@ -62742,6 +62869,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46/01.jpg",
     images: ["/anh1/DC46/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi bạn cần tìm kiếm một giải pháp thư giãn cá nhân mang lại cảm giác chân thực và mới mẻ, Vòng 3 gắn âm đạo giả 2 (DC46) là thiết bị mô phỏng vòng 3 cao cấp tích hợp tính năng rung tiện lợi. Sản phẩm được thiết kế để đáp ứng nhu cầu trải nghiệm kín đáo, an toàn với các thông số kỹ thuật rõ ràng dành cho nam giới.</p>
 
 <h2>Ưu điểm chính</h2>
@@ -62782,6 +62910,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD02/01.jpg",
     images: ["/anh1/AD02/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả giả lập cấu trúc tự nhiên (AD02) là thiết bị hỗ trợ thư giãn cá nhân chuyên dụng dành cho nam giới, giúp giải tỏa căng thẳng và nâng cao chất lượng nghỉ ngơi thông qua thiết kế mô phỏng chân thực.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -62996,6 +63125,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC18/01.jpg",
     images: ["/anh1/DC18/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả hình quả trứng Tenga (DC18) là dòng đồ chơi nam dạng trứng nhỏ gọn, tiện lợi, được thiết kế chuyên dụng để hỗ trợ nam giới giải tỏa nhu cầu sinh lý và mang lại trải nghiệm thư giãn mới mẻ.</p>
 
 <h2>Ưu điểm chính</h2>
@@ -63032,6 +63162,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD12/01.jpg",
     images: ["/anh1/AD12/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo silicon trong suốt nhỏ gọn thủ dâm cực đã (AD12) là thiết bị hỗ trợ thư giãn cá nhân cao cấp, phù hợp nhất với những người dùng nam giới yêu thích sự kín đáo, tiện lợi và mong muốn tìm kiếm một trải nghiệm tự nhiên, an toàn.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul>
@@ -63073,6 +63204,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC53C/01.jpg",
     images: ["/anh1/DC53C/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của âm đạo giả - vòng ba khiêu khích siêu cao cấp DC53C so với các dòng thông thường chính là trọng lượng đầm chắc 3.5 kg kết hợp thiết kế mô phỏng vòng ba kích thước lớn 225 x 210 x 130 mm, mang lại độ ổn định tối đa và trải nghiệm chân thực, an toàn tuyệt đối cho người dùng.</p>
 
 <h2>Vì sao nên chọn Âm đạo giả - Vòng ba khiêu khích siêu cao cấp (DC53C)</h2>
@@ -63285,6 +63417,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC53/01.jpg",
     images: ["/anh1/DC53/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của Vòng 3 gắn âm đạo giả 03 (DC53) so với các dòng thông thường chính là thiết kế bán thân độc đáo cùng cấu trúc mô phỏng cơ thể cực kỳ chân thực, mang lại cảm giác gần gũi và tự nhiên tối đa cho người sử dụng. Thiết bị này giúp người dùng dễ dàng tận hưởng những phút giây thư giãn riêng tư trọn vẹn ngay tại nhà.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -63372,6 +63505,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD25/01.jpg",
     images: ["/anh1/AD25/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả silicon AD25 là thiết bị hỗ trợ thư giãn cá nhân dành cho nam giới, giúp giải tỏa căng thẳng và mang lại những phút giây riêng tư trọn vẹn nhờ thiết kế nhỏ gọn, dễ làm quen.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -63595,6 +63729,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC17/01.jpg",
     images: ["/anh1/DC17/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt lớn nhất của âm đạo giả DC17 so với các dòng thông thường nằm ở thiết kế dạng đèn pin cực kỳ kín đáo kết hợp tần suất rung mạnh mẽ lên đến khoảng 20.000 lần/phút, mang lại trải nghiệm thực tế vô cùng chân thực và mạnh mẽ cho nam giới.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -63682,6 +63817,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/52/1.gif",
+    sensitive: true,
     longDescription: `<p>Âm đạo gắn tường Spider có rung điều khiển xa (DC45B) là lựa chọn lý tưởng dành cho nam giới đang tìm kiếm một thiết bị thư giãn cá nhân gắn tường tiện lợi, chắc chắn và dễ dàng điều chỉnh từ xa.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -63725,6 +63861,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD14B/01.jpg",
     images: ["/anh1/AD14B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành riêng cho nam giới tìm kiếm giải pháp thư giãn cá nhân nhỏ gọn, kín đáo và tiện lợi, âm đạo giả mini CHISA AD14B mang lại trải nghiệm tự nhiên nhờ chất liệu cao cấp và thiết kế tối ưu.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -63766,6 +63903,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD38A/01.jpg",
     images: ["/anh1/AD38A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của âm đạo giả bán thân AD38A CHISA so với các dòng thông thường nằm ở thiết kế bán thân chắc chắn cùng sự kết hợp của chất liệu T-Skin và silicone cao cấp, mang lại độ bền vượt trội và cấu trúc ổn định lâu dài. Sản phẩm này là giải pháp hỗ trợ thư giãn cá nhân chuyên sâu cho nam giới, giúp tái hiện cảm giác chân thực và tự nhiên trong không gian riêng tư. Bạn cũng có thể xem thêm các mẫu <a href="https://vipsextoy.com/product/ny021-bikini-2-manh-sexy-kheu-goi">bikini 2 mảnh gợi cảm</a> để làm phong phú thêm trải nghiệm của mình.</p>
 
 <h2>Vì sao nên chọn Âm đạo 2 trong 1 cực phê (AD38A)</h2>
@@ -63935,6 +64073,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD45B/01.png",
     images: ["/anh1/AD45B/01.png"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả gắn tường kiểu hậu môn có rung chơi lỗ nhị cực phê cho nam giới (AD45B) là thiết bị hỗ trợ thư giãn cá nhân cao cấp dành cho nam, giúp mang lại trải nghiệm mô phỏng chân thật và giải tỏa căng thẳng hiệu quả tại nhà nhờ tính năng rung đa dạng cùng thiết kế gắn tường tiện lợi.</p>
 
 <h2>Thiết kế & chất liệu</h2>
@@ -64093,6 +64232,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD46/01.jpg",
     images: ["/anh1/AD46/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của âm đạo giả thổ dân châu Phi Lovetoy Alien's Pie (AD46) so với các dòng thông thường nằm ở cấu trúc mô phỏng độc đáo kết hợp cùng kích thước lớn vững chắc, mang đến trải nghiệm thư giãn cá nhân hoàn toàn mới mẻ và chuẩn mực.</p>
 
 <h2>Vì sao nên chọn Âm đạo giả thổ dân châu Phi Lovetoy Alien&#039;s Pie (AD46)</h2>
@@ -64173,6 +64313,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC45K/01.jpg",
     images: ["/anh1/DC45K/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành riêng cho nam giới tìm kiếm một giải pháp thư giãn cá nhân rảnh tay và bền bỉ tại nhà, Âm Đạo Giả Gắn Tường Có Rung (DC45K) mang đến trải nghiệm tiện lợi với thiết kế gắn tường chắc chắn cùng khả năng vận hành linh hoạt.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -64225,6 +64366,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD14A/01.jpg",
     images: ["/anh1/AD14A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng âm đạo giả thông thường, AD14A sở hữu thiết kế hình thiếu nữ nóng bỏng cùng cấu trúc nguyên khối nhỏ gọn mang lại cảm giác chân thực và ôm sát tuyệt đối trong từng chuyển động.</p>
 <h2>Vì sao nên chọn Âm đạo silicon hình thiếu nữ nóng bỏng (AD14A)</h2>
 <p>Sản phẩm này mang đến trải nghiệm thực tế vô cùng mượt mà và êm ái nhờ chất liệu silicone cao cấp, giúp người dùng dễ dàng tận hưởng những phút giây thư giãn trọn vẹn nhất. Đây là sự lựa chọn hoàn hảo cho những ai đang tìm kiếm sự kín đáo, tiện lợi nhưng vẫn đảm bảo cảm giác kích thích tự nhiên.</p>
@@ -64345,6 +64487,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD06B/01.jpg",
     images: ["/anh1/AD06B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với những bạn nam đang tìm kiếm một sản phẩm hỗ trợ thư giãn cá nhân đầu tay đơn giản và dễ làm quen, âm đạo silicon se khít mềm mịn có rung-Cô gái Nhật bản (AD06B) chính là sự lựa chọn vô cùng tiện lợi và thân thiện.</p>
 
 <h2>Thiết kế & chất liệu</h2>
@@ -64385,6 +64528,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC45N/01.jpg",
     images: ["/anh1/DC45N/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một giải pháp thư giãn cá nhân gắn tường vừa linh hoạt vừa đảm bảo an toàn tuyệt đối cho sức khỏe? Âm đạo gắn tường cao cấp ManMiao X3 (DC45N) chính là lựa chọn hoàn hảo thuộc danh mục đồ chơi cao cấp dành cho nam giới, mang lại trải nghiệm tinh tế nhờ thiết kế xoay 145 độ tiện lợi và chất liệu silicone cao cấp đạt tiêu chuẩn kiểm định khắt khe.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -64432,6 +64576,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD45D/01.jpg",
     images: ["/anh1/AD45D/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo đèn pin gắn tường có rung xoay 180 độ (AD45D) là thiết bị hỗ trợ thư giãn cá nhân cho nam giới, cho phép cố định chắc chắn lên bề mặt phẳng để trải nghiệm cảm giác rảnh tay hoàn toàn.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -64477,6 +64622,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "/anh/AD52A/01.jpg",
+    sensitive: true,
   },
   {
     slug: "ad53-am-dao-gia-bom-nuoc-doc-dao-cho-cam-giac-thang-hoa-khac-la-ad53",
@@ -64491,6 +64637,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/AD53/01.jpg",
     images: ["/anh1/AD53/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả bơm nước độc đáo cho cảm giác thăng hoa khác lạ (AD53) là lựa chọn lý tưởng dành cho nam giới hiện đại muốn tìm kiếm trải nghiệm thư giãn cá nhân mới lạ và có thể tự điều chỉnh theo sở thích riêng. Sản phẩm thương hiệu PERFECT LOVER mang lại sự bền bỉ, dễ dàng vệ sinh và bảo quản lâu dài trong suốt quá trình sử dụng.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -64535,6 +64682,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD06C/01.jpg",
     images: ["/anh1/AD06C/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của âm đạo giả silicon khêu gợi AD06C so với các dòng thông thường chính là thiết kế kích thước nhỏ gọn 15 x 8 cm với trọng lượng 285g tối ưu, mang lại sự linh hoạt và dễ dàng thao tác tối đa cho người dùng.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -64635,6 +64783,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD19D/01.jpg",
     images: ["/anh1/AD19D/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm đạo giả 2 đầu AD19D là thiết bị hỗ trợ thư giãn cá nhân dành cho nam giới, được thiết kế với cấu trúc 2 đầu độc đáo nhằm mang lại trải nghiệm linh hoạt, mới mẻ và chân thực trong không gian riêng tư.</p>
 
 <h2>Ưu điểm chính</h2>
@@ -64674,6 +64823,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/AD38B/01.jpg",
     images: ["/anh1/AD38B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của Ngực Giả Size Lớn Nóng Bỏng , Kết Hợp Với Âm Đạo Ướt Át (AD38B) so với các dòng thông thường chính là thiết kế liền khối kết hợp đa năng, mang lại trải nghiệm mô phỏng chân thực và sự tiện lợi tối đa cho người mới bắt đầu.</p>
 
 <h2>Thiết kế & chất liệu</h2>
@@ -64754,6 +64904,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC46G/01.jpg",
     images: ["/anh1/DC46G/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt lớn nhất của âm đạo silicon cỡ lớn DC46G JiuAi so với các dòng thông thường nằm ở kích thước lớn 28 x 25 x 15 cm cùng trọng lượng 4 kg, mang lại sự đầm chắc, ổn định và dễ dàng làm quen cho người mới bắt đầu. Sản phẩm thuộc phân khúc <a href="https://vipsextoy.com/product/bb12b-bup-be-silicon-ban-than-nam-size-lon-thoa-man-moi-cam-xuc">búp bê silicon bán thân nam size lớn</a> chính hãng thương hiệu JiuAi, đáp ứng nhu cầu thư giãn cá nhân trong không gian riêng tư một cách an toàn và kín đáo.</p>
 
 <h2>Ưu điểm chính</h2>
@@ -64795,6 +64946,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD02B/01.jpg",
     images: ["/anh1/AD02B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Âm Đạo Silicon Thật Như Gái Mới Lớn (AD02B) thuộc dòng đồ chơi cao cấp thương hiệu JiuAi, là giải pháp hỗ trợ thư giãn cá nhân chuyên biệt dành cho nam giới với thiết kế tiện lợi và thân thiện cho người mới bắt đầu trải nghiệm.</p>
 
 <h2>Vì sao nên chọn Âm Đạo Silicon Thật Như Gái Mới Lớn (AD02B)</h2>
