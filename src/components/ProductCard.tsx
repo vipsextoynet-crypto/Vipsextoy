@@ -18,7 +18,7 @@ export default function ProductCard({
 
   return (
     <div className="group flex flex-col border border-line bg-surface transition hover:border-gold/50 hover:shadow-md">
-      <Link href={`/product/${product.slug}`} className="block">
+      <Link href={`/${product.slug}`} className="block">
         <div className="relative flex aspect-square items-center justify-center overflow-hidden bg-surface2 p-3 sm:p-6">
           {product.badge && (
             <span className="absolute left-1.5 top-1.5 z-10 border border-gold/40 bg-surface px-1.5 py-0.5 text-[9px] tracking-wide text-gold sm:left-2 sm:top-2 sm:px-2 sm:py-1 sm:text-[10px]">
@@ -43,7 +43,7 @@ export default function ProductCard({
         </div>
       </Link>
       <div className="flex flex-1 flex-col gap-1.5 p-2.5 sm:gap-2 sm:p-4">
-        <Link href={`/product/${product.slug}`}>
+        <Link href={`/${product.slug}`}>
           <h3 className="line-clamp-2 min-h-[2.2em] text-xs text-ivory transition group-hover:text-gold sm:min-h-[2.6em] sm:text-sm">
             {product.name}
           </h3>

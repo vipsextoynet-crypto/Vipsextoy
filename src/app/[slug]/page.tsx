@@ -89,7 +89,7 @@ export async function generateMetadata({
   return {
     title: product.name,
     description: product.blurb,
-    alternates: { canonical: `/product/${product.slug}` },
+    alternates: { canonical: `/${product.slug}` },
     openGraph: {
       title: `${product.name} | ${site.name}`,
       description: product.blurb,
@@ -124,7 +124,7 @@ export default async function ProductPage({
             priceCurrency: "VND",
             price: product.price,
             availability: "https://schema.org/InStock",
-            url: `${site.url}/product/${product.slug}`,
+            url: `${site.url}/${product.slug}`,
           },
         }}
       />
