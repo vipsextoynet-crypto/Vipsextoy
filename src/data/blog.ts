@@ -1,3 +1,5 @@
+import generatedPosts from "./blog-posts.json";
+
 export type BlogPost = {
   slug: string;
   title: string;
@@ -7,9 +9,10 @@ export type BlogPost = {
   readTime: string;
   category: string;
   icon: "wave" | "orb" | "petal" | "spark" | "curve" | "drop" | "ring" | "bloom";
+  image?: string; // đường dẫn ảnh minh họa do AI sinh, vd "/blog/slug.jpg"
 };
 
-export const blogPosts: BlogPost[] = [
+const manualPosts: BlogPost[] = [
   {
     slug: "cach-chon-san-pham-cham-soc-ca-nhan-phu-hop",
     title: "Cách chọn sản phẩm chăm sóc cá nhân phù hợp với bạn",
@@ -75,6 +78,14 @@ export const blogPosts: BlogPost[] = [
     icon: "petal",
   },
 ];
+
+// Bài do pipeline AI tạo (scripts/generate-daily-post.mjs) được gộp cùng
+// bài viết thủ công, mới nhất lên đầu, loại trùng slug nếu có.
+const seen = new Set<string>();
+export const blogPosts: BlogPost[] = [
+  ...(generatedPosts as BlogPost[]),
+  ...manualPosts,
+].filter((p) => (seen.has(p.slug) ? false : (seen.add(p.slug), true)));
 
 export function getBlogPost(slug: string) {
   return blogPosts.find((p) => p.slug === slug);

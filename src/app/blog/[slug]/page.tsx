@@ -29,6 +29,7 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.date,
       url: `${site.url}/blog/${post.slug}`,
+      images: post.image ? [`${site.url}${post.image}`] : undefined,
     },
   };
 }
@@ -85,8 +86,16 @@ export default async function BlogPostPage({
         {formatDate(post.date)} · {post.readTime}
       </p>
 
-      <div className="my-10 flex aspect-[16/7] items-center justify-center bg-surface p-10">
-        <ProductGlyph type={post.icon} className="max-h-28 max-w-28" />
+      <div className="relative my-10 flex aspect-[16/7] items-center justify-center overflow-hidden bg-surface p-10">
+        {post.image ? (
+          <img
+            src={post.image}
+            alt={post.title}
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        ) : (
+          <ProductGlyph type={post.icon} className="max-h-28 max-w-28" />
+        )}
       </div>
 
       <div className="flex flex-col gap-5">

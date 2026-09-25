@@ -93,17 +93,29 @@ UNLOCK_STABILIZE_MAX = 10.0
 POST_SYNC_WAIT = 5.0
 
 # Khoi HTML chua noi dung "Chi tiet san pham" - thu lan luot tung selector
-# nay, dung selector DAU TIEN khop. Dua tren DESCRIPTION_BLOCK_CLASSES cua
-# download_product.py (".html201.dtct" la khoi mo ta chi tiet tren site).
-# Neu chay thu ma khong ra dung noi dung, mo 1 trang san pham that, F12 xem
-# khoi "Chi tiet" nam trong the nao roi them selector do vao DAU danh sach.
+# nay, dung selector DAU TIEN khop. Neu chay thu ma khong ra dung noi dung,
+# mo 1 trang san pham that, F12 xem khoi "Chi tiet" nam trong the nao roi
+# them selector do vao DAU danh sach.
 DETAIL_SELECTORS = [
+    # QUAN TRONG: class ".giatri" bi dung CHUNG cho nhieu cho khac nhau tren
+    # trang (vd 1 the nho chi chua ten san pham o dau trang). Neu chi tim
+    # ".giatri" suong, select_one() se vo tinh vo nham cai DAU TIEN gap tren
+    # trang (thuong la cai sai, chi co ten san pham). Phai gioi han ro no
+    # nam BEN TRONG khoi "noidungchitiet dtct" (dung cau truc thuc te:
+    # <div class="noidungchitiet dtct"><span class="giatri">...noi dung
+    # day du...</span></div>) thi moi chac chan lay dung khoi "Chi tiet".
+    ".noidungchitiet.dtct .giatri",
+    ".noidungchitiet .giatri",
     ".html201.dtct",
     ".dtct",
+    ".mota",               # chi co thong so ngan (Ten/Ma/Hang/Xuat xu) - dung
+                           # khi san pham KHONG co khoi noidungchitiet day du
     ".product-description",
     ".product-desc",
     ".mo-ta-san-pham",
-    ".mota",
+    # ".giatri" suong dung SAU CUNG (du phong), vi co the vo nham noi dung
+    # sai o dau trang nhu mo ta o tren - chi dung khi khong con lua chon nao.
+    ".giatri",
 ]
 
 
@@ -660,18 +672,69 @@ def extract_product_name(soup):
 # TRICH XUAT NOI DUNG "CHI TIET" (phan moi so voi download_product.py)
 # ============================================================
 
+# The BLOCK duoc coi la "ranh gioi dong/doan van". Van ban INLINE (strong,
+# a, span, text thuong...) trong CUNG 1 the block se duoc gop lien mach
+# thanh 1 dong duy nhat (khong bi tach vo ly giua "<strong>Nhan:</strong> mo
+# ta" thanh 2 dong) - chi khi GAP mot the block MOI thi moi xuong dong.
+_BLOCK_LEVEL_TAGS = {
+    "p", "div", "h1", "h2", "h3", "h4", "h5", "h6",
+    "ul", "ol", "li", "tr", "table", "section", "article",
+    "blockquote", "pre",
+}
+
+
+def _flatten_leaf_lines(node):
+    """The KHONG chua the block nao ben trong -> lay text INLINE cua no
+    thanh 1 (hoac vai, neu con dong moi do <br> de lai) dong, khong chen
+    them khoang trang gia tao giua cac the con (<strong>, <a>...)."""
+    text = node.get_text().replace(chr(13), "")
+    parts = [re.sub(r"[ \t]+", " ", ln).strip() for ln in text.split(chr(10))]
+    return [p for p in parts if p]
+
+
+def _extract_lines(node):
+    from bs4 import NavigableString, Tag
+
+    if isinstance(node, NavigableString):
+        t = re.sub(r"[ \t]+", " ", str(node)).strip()
+        return [t] if t else []
+    if not isinstance(node, Tag):
+        return []
+
+    has_block_child = any(isinstance(c, Tag) and c.name in _BLOCK_LEVEL_TAGS for c in node.children)
+
+    if not has_block_child:
+        leaf_lines = _flatten_leaf_lines(node)
+        if node.name == "li" and leaf_lines:
+            leaf_lines[0] = "- " + leaf_lines[0]
+        return leaf_lines
+
+    out = []
+    for child in node.children:
+        out.extend(_extract_lines(child))
+    return out
+
+
 def block_to_text(tag):
     """
-    Chuyen 1 khoi HTML thanh van ban thuan, GIU LAI xuong dong (tu <br>,
-    <p>, <div>...) vi mo ta san pham thuong co dang liet ke thong so moi
-    dong 1 muc (vd "Chat lieu: ...\\nKich thuoc: ..."). Gop nhieu dong
-    trong lien tiep thanh toi da 1 dong trong (ngan cach doan van).
+    Chuyen 1 khoi HTML (co the co tieu de <h2>/<h3>, doan <p>, danh sach
+    <ul><li>, chu in dam <strong> xen giua cau...) thanh van ban thuan de
+    doc, moi the block (p/h2/h3/li/...) tren 1 dong, danh sach co dau "- ".
+    Anh <img> chen giua bai duoc bo hoan toan (chi lay chu). Gop nhieu
+    dong trong lien tiep thanh toi da 1 dong trong (ngan cach doan van).
     """
-    for br in tag.find_all("br"):
-        br.replace_with("\n")
+    # Lam viec tren 1 ban sao (parse lai tu chuoi HTML) de KHONG dong vao
+    # cay soup goc dang duoc dung cho cac buoc khac (vd is_product_page).
+    tag_copy = BeautifulSoup(str(tag), "html.parser")
 
-    raw = tag.get_text("\n")
-    lines = [ln.strip() for ln in raw.split("\n")]
+    for img in tag_copy.find_all("img"):
+        img.decompose()
+    for br in tag_copy.find_all("br"):
+        br.replace_with(chr(10))
+
+    lines = []
+    for child in tag_copy.children:
+        lines.extend(_extract_lines(child))
 
     out = []
     blank_run = 0
@@ -684,8 +747,7 @@ def block_to_text(tag):
             blank_run = 0
             out.append(ln)
 
-    return "\n".join(out).strip()
-
+    return chr(10).join(out).strip()
 
 def extract_detail_text(soup):
     for selector in DETAIL_SELECTORS:
