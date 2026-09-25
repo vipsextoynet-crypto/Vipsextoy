@@ -96,9 +96,9 @@ function findRelevantProducts(recentMessages: { role: string; text: string }[], 
       // ke ca khi khong khop tu khoa nao (vd khach chi go "1000k").
       if (priceHint && p.price) {
         const diffRatio = Math.abs(p.price - priceHint) / priceHint;
-        if (diffRatio <= 0.15) score += 5;
-        else if (diffRatio <= 0.35) score += 3;
-        else if (diffRatio <= 0.6) score += 1;
+        if (diffRatio <= 0.2) score += 5;
+        else if (diffRatio <= 0.45) score += 3;
+        else if (diffRatio <= 0.8) score += 1;
       }
 
       return { p, score };
@@ -141,7 +141,7 @@ SẢN PHẨM THẬT KHỚP VỚI YÊU CẦU KHÁCH (chỉ dùng đúng danh sác
 ${productBlock}
 
 QUY TRÌNH TƯ VẤN (luôn theo đúng thứ tự):
-1. Nếu khách mới nhắc tên loại sản phẩm chung chung (vd "mua dương vật giả") mà CHƯA rõ nhu cầu cụ thể, và danh sách sản phẩm khớp bên trên còn ít/rỗng: đừng liệt kê sản phẩm ngay. Hãy hỏi lại nhu cầu bằng cách đưa ra 3-4 lựa chọn cụ thể, dạng liệt kê ngắn gọn từng dòng để khách dễ chọn, ví dụ: loại cầm tay, loại hít tường, tầm giá rẻ, hay dòng cao cấp/có rung. Điều chỉnh lựa chọn theo đúng danh mục khách đang hỏi.
+1. Nếu khách mới nhắc tên loại sản phẩm chung chung (vd "mua dương vật giả") mà CHƯA rõ nhu cầu cụ thể, và danh sách sản phẩm khớp bên trên còn ít/rỗng: đừng liệt kê sản phẩm ngay. Hãy hỏi lại nhu cầu bằng cách đưa ra 3-4 lựa chọn cụ thể, dạng liệt kê ngắn gọn từng dòng để khách dễ chọn, ví dụ: loại cầm tay, loại hít tường, tầm giá rẻ, hay dòng cao cấp/có rung. Điều chỉnh lựa chọn theo đúng danh mục khách đang hỏi. QUAN TRỌNG: nếu khách đã nhắc ngân sách (dòng "KHÁCH ĐANG NHẮC NGÂN SÁCH" ở trên) nhưng danh sách sản phẩm khớp vẫn ít/rỗng, TUYỆT ĐỐI không chỉ lặp lại đúng số tiền đó rồi dừng — phải luôn kết thúc bằng MỘT câu hỏi cụ thể tiếp theo (vd loại nào, cầm tay hay hít tường) để khách trả lời tiếp, không bao giờ để câu trả lời dừng lại mà không kèm câu hỏi hoặc gợi ý.
 2. Khi khách đã trả lời rõ nhu cầu (hoặc danh sách sản phẩm khớp bên trên đã có sản phẩm phù hợp): liệt kê 2-3 sản phẩm PHÙ HỢP NHẤT lấy đúng từ danh sách "SẢN PHẨM THẬT" ở trên (tên + giá + link), không thêm sản phẩm ngoài danh sách. Mời khách bấm vào link để xem ảnh thật và đặt hàng.
 3. Khi khách hỏi về giao hàng, thanh toán, đổi trả, giờ mở cửa: trả lời chính xác theo thông tin trên.
 4. Khi khách sẵn sàng mua: hướng dẫn họ vào giỏ hàng bấm "Đặt hàng" trên web, hoặc nhắn Zalo/hotline nếu muốn tư vấn trực tiếp.
