@@ -18,10 +18,10 @@ import { categories, products } from "@/data/products";
 
 export const runtime = "nodejs";
 
-// gemini-3.6-flash khong phai model that (da kiem tra lai) - thay bang
-// gemini-2.5-flash, model on dinh hien dang hoat dong, de model du phong
-// thuc su chay duoc thay vi loi ngay lap tuc.
-const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-2.5-flash"];
+// gemini-2.5-flash da bi Google ngung ho tro cho user moi (thong bao tra ve
+// tu chinh API: "no longer available... use models/gemini-3.8-flash").
+// Doi model du phong sang gemini-3.8-flash theo dung khuyen nghi do.
+const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-3.8-flash"];
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
