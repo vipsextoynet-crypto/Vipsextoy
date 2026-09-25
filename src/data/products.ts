@@ -140,6 +140,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC72E1/01.jpg",
     images: ["/anh1/DC72E1/01.jpg", "/anh1/DC72E1/07.jpg", "/anh1/DC72E1/08.jpg", "/anh1/DC72E1/09.jpg", "/anh1/DC72E1/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Vòng rung hỗ trợ tăng kích thước dương vật là sản phẩm chăm sóc đời sống cá nhân bằng silicone y tế, kết hợp thiết kế ôm gọn với chức năng rung. Sản phẩm được giới thiệu với khả năng hỗ trợ tạo cảm giác đầy đặn hơn, hỗ trợ kéo dài thời gian quan hệ và tăng kích thích cho bạn tình.</p>
 <h2>Ưu điểm chính</h2>
 <ul><li>- Hỗ trợ tăng kích thước và độ dày: thiết kế vòng ôm sát giúp tạo cảm giác đầy đặn hơn khi sử dụng.</li><li>- Tích hợp chức năng rung: hỗ trợ tạo thêm kích thích cho bạn tình trong quá trình sử dụng.</li><li>- Hỗ trợ kéo dài thời gian quan hệ: sản phẩm được giới thiệu với khả năng giảm độ nhạy cảm, từ đó hỗ trợ hạn chế xuất tinh sớm.</li><li>- Silicone y tế: chất liệu mềm mại và đàn hồi tốt theo thông tin sản phẩm.</li><li>- Thiết kế nhỏ gọn: thuận tiện sử dụng, vệ sinh và bảo quản.</li><li>- Có thể tái sử dụng: hỗ trợ tiết kiệm chi phí khi sử dụng lâu dài nếu được vệ sinh và bảo quản đúng cách.</li></ul>
@@ -450,6 +451,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC38L/01.jpg",
     images: ["/anh1/DC38L/01.jpg", "/anh1/DC38L/05.jpg", "/anh1/DC38L/06.jpg", "/anh1/DC38L/07.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm là thiết bị hỗ trợ đời sống cá nhân dành cho nữ giới, tích hợp chức năng rung và liếm với 7 chế độ. Thiết bị có 2 phiên bản điều khiển từ xa hoặc điều khiển qua App, pin sạc 300mAh, chuẩn chống nước IPX7 và thời gian sử dụng tối đa khoảng 2 giờ.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- 7 chế độ rung liếm: cung cấp nhiều lựa chọn cường độ và kiểu hoạt động theo thiết kế của sản phẩm.</li><li>- Hai phiên bản điều khiển: lựa chọn bản điều khiển từ xa hoặc bản điều khiển qua App.</li><li>- Điều khiển từ xa: khoảng cách tối đa 10 m trong điều kiện không có vật cản.</li><li>- Chống nước IPX7: đáp ứng tiêu chuẩn chống nước IPX7 theo thông số sản phẩm.</li><li>- Pin sạc 300mAh: sử dụng chân sạc nam châm, thuận tiện cho việc sạc lại.</li><li>- Thời gian sử dụng: khoảng 2 giờ theo thông tin được cung cấp.</li></ul>
@@ -493,6 +495,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44Z1/01.jpg",
     images: ["/anh1/DV44Z1/01.jpg", "/anh1/DV44Z1/05.jpg", "/anh1/DV44Z1/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon rung, thụt và sưởi ấm là thiết bị chăm sóc đời sống cá nhân tích hợp nhiều chức năng trong một sản phẩm, gồm rung 7 tần số, chuyển động thụt 3 cm và gia nhiệt lên đến 42°C. Sản phẩm có chiều dài 28 cm, đường kính 3,8 cm, sử dụng silicon kết hợp nhựa ABS và được sạc qua USB.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm kết hợp phần tay cầm bằng nhựa ABS với phần thân và nhánh phụ bằng silicon. Thiết kế cầm tay giúp người dùng dễ thao tác các nút điều khiển và tùy chỉnh từng chức năng theo nhu cầu.</p>
@@ -537,6 +540,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54P/01.jpg",
     images: ["/anh1/DV54P/01.jpg", "/anh1/DV54P/08.jpg", "/anh1/DV54P/09.jpg", "/anh1/DV54P/10.jpg", "/anh1/DV54P/11.jpg", "/anh1/DV54P/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon da đen là sản phẩm chăm sóc đời sống cá nhân có thiết kế kích thước lớn, sử dụng silicon mềm mại và không tích hợp chức năng rung. Sản phẩm có chiều dài 26,5 cm, chiều dài sử dụng 20,5 cm và trọng lượng 1.300 g.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm được làm từ silicon mềm mại, hướng đến cảm giác linh hoạt và dễ vệ sinh trong quá trình sử dụng. Thiết kế màu da đen tạo diện mạo nổi bật, phù hợp với người đang tìm kiếm một mẫu có kích thước lớn và cấu tạo đơn giản.</p>
@@ -576,6 +580,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV43G/01.jpg",
     images: ["/anh1/DV43G/01.jpg", "/anh1/DV43G/07.jpg", "/anh1/DV43G/08.jpg", "/anh1/DV43G/09.jpg", "/anh1/DV43G/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Cu giả hít tường cong là sản phẩm hỗ trợ chăm sóc đời sống cá nhân, nổi bật với thiết kế cong, chất liệu silicon và đế hút chân không giúp cố định trên bề mặt phù hợp. Sản phẩm có chiều dài 16,5 cm, chiều dài sử dụng 13,5 cm, đường kính 3 cm và trọng lượng 126 g.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Thiết kế cong tự nhiên tạo nên hình dáng linh hoạt, trong khi cấu trúc silicon 2 lớp kết hợp độ mềm mại của lớp ngoài với phần lõi có độ cứng vừa phải. Thiết kế này giúp sản phẩm giữ được form và có khả năng uốn cong linh hoạt.</p>
@@ -769,6 +774,7 @@ export const products: Product[] = [
           "/anh1/DV44Y/dv44y44.jpg",
           "/anh1/DV44Y/dv44y45.jpg"
         ],
+    sensitive: true,
     longDescription: `<p>Dành cho những phụ nữ đang tìm kiếm một giải pháp chăm sóc sức khỏe sinh lý cá nhân chuyên sâu, Dương Vật Cao Cấp DeePin Rung Liếm Thụt Cực Sâu (DV44Y) là thiết bị massage cao cấp kết hợp đồng thời công nghệ thụt tịnh tiến, tính năng rung đa chế độ và thiết kế kích thích điểm G vượt trội.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm nổi bật với kiểu dáng mô phỏng tinh xảo cùng tông màu da tự nhiên, được hoàn thiện từ chất liệu silicone cao cấp an toàn và êm ái cho làn da. Điểm nhấn công nghệ của thiết bị nằm ở cơ chế thụt tự động với hành trình di chuyển lên đến 3.8cm, giúp tác động sâu và chính xác. Bên cạnh đó, nhánh massage phụ được trang bị 3 gờ nhám tinh tế hỗ trợ tác động đa điểm. Thiết bị sở hữu khả năng chống thấm nước tuyệt đối và tích hợp pin sạc USB với thời gian sạc đầy nhanh chóng trong 2 giờ.</p>
@@ -936,6 +942,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC38Q/01.jpg",
     images: ["/anh1/DC38Q/01.jpg", "/anh1/DC38Q/16.jpg", "/anh1/DC38Q/17.jpg", "/anh1/DC38Q/18.jpg", "/anh1/DC38Q/19.jpg", "/anh1/DC38Q/20.jpg", "/anh1/DC38Q/21.jpg", "/anh1/DC38Q/22.jpg", "/anh1/DC38Q/23.jpg", "/anh1/DC38Q/24.jpg", "/anh1/DC38Q/25.jpg", "/anh1/DC38Q/26.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Mini Gắn Quần Chip Điều Khiển Rung Từ Xa – Thiết Kế Tinh Tế, Thư Giãn Tối Ưu</p>
 <p>Dương vật mini gắn quần chip điều khiển rung từ xa là dòng sản phẩm chăm sóc sức khỏe cá nhân cao cấp dành riêng cho phái đẹp. Sở hữu kiểu dáng nhỏ gọn, kín đáo cùng khả năng ôm sát linh hoạt, thiết bị mang tới trải nghiệm massage thư giãn êm ái, giúp giải tỏa mệt mỏi và nâng cao chất lượng cuộc sống lứa đôi một cách tinh tế.</p>
 <p>Sản phẩm kết hợp giữa công nghệ rung đa tần số và bộ điều khiển từ xa thông minh, cho phép người dùng dễ dàng tùy chỉnh theo nhu cầu. Sự êm ái từ chất liệu cao cấp cùng khả năng vận hành bền bỉ giúp thiết bị trở thành giải pháp chăm sóc cá nhân lý tưởng cho phái đẹp hiện đại.</p>
@@ -1526,6 +1533,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC93V/01.jpg",
     images: ["/anh1/DC93V/01.jpg", "/anh1/DC93V/09.jpg", "/anh1/DC93V/10.jpg", "/anh1/DC93V/11.png", "/anh1/DC93V/12.jpg", "/anh1/DC93V/13.jpg", "/anh1/DC93V/14.jpg", "/anh1/DC93V/15.jpg", "/anh1/DC93V/16.jpg", "/anh1/DC93V/17.jpg", "/anh1/DC93V/18.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Cao Cấp Lovense Velvo Rung Xoay Sóng Bi Kết Nối App (Velvo Gemini) – Đỉnh Cao Công Nghệ Chăm Sóc Sức Khỏe Sinh Lý</p>
 <p>Dương vật cao cấp Lovense Velvo rung xoay sóng bi kết nối app (Velvo Gemini) là dòng thiết bị massage chăm sóc sức khỏe sinh lý phái đẹp thuộc phân khúc cao cấp. Sản phẩm nổi bật với thiết kế hiện đại, tích hợp công nghệ NeoSpin tiên tiến giúp tác động kép đồng thời lên điểm G và âm vật. Đây là giải pháp hoàn hảo mang đến cho chị em trải nghiệm thư giãn tinh tế, chân thực và thăng hoa tuyệt đối.</p>
 <p>Sở hữu khả năng điều khiển thông minh qua ứng dụng cùng chất liệu chuẩn y tế, thiết bị không chỉ đáp ứng nhu cầu giải tỏa căng thẳng cá nhân mà còn tạo sự gắn kết tuyệt vời cho các cặp đôi. Dương vật cao cấp Lovense Velvo đại diện cho phong cách sống hiện đại, đẳng cấp và kín đáo.</p>
@@ -1768,6 +1776,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC70N/01.jpg",
     images: ["/anh1/DC70N/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Vòng Thắt Bìu Dương Vật Chơi Lâu Ra – Giải Pháp Tăng Cường Bản Lĩnh Nam Giới</p>
 <p>Vòng thắt bìu dương vật chơi lâu ra là phụ kiện hỗ trợ sinh lý nam giới cao cấp, sở hữu thiết kế tối giản nhưng mang lại hiệu quả vượt trội trong việc tối ưu hóa khả năng kiểm soát và kéo dài thời gian phong độ. Sản phẩm giúp phái mạnh lấy lại sự tự tin vốn có, nâng cao chất lượng đời sống cá nhân một cách an toàn và linh hoạt.</p>
 <p>Để lựa chọn dòng sản phẩm phù hợp nhất với nhu cầu cá nhân, quý khách có thể tham khảo thêm bài viết cách chọn vòng silicon hoặc sử dụng kết hợp cùng gel bôi trơn gốc nước để tăng cường trải nghiệm mượt mà.</p>
@@ -2055,13 +2064,44 @@ export const products: Product[] = [
     category: "Dương Vật Giả Rung",
     categorySlug: "duong-vat-gia-rung",
     price: 890000,
-    blurb: "",
+    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
     description: "Dụng Cụ Massage Cá Nhân Lovetoy Nature Cock 7.5” – Silicon 2 Lớp Cao Cấp. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DV58Q/01.jpg",
     images: ["/anh1/DV58Q/01.jpg", "/anh1/DV58Q/07.jpg", "/anh1/DV58Q/08.jpg", "/anh1/DV58Q/09.jpg", "/anh1/DV58Q/10.jpg"],
     sensitive: true,
+    longDescription: `<p>Giới Thiệu Dụng Cụ Massage Cá Nhân Lovetoy Nature Cock 7.5” – Silicon 2 Lớp Cao Cấp</p>
+<p>Dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” – silicon 2 lớp cao cấp là giải pháp chăm sóc sức khỏe cá nhân hàng đầu, mang lại sự thư giãn tuyệt đối và giải tỏa căng thẳng hiệu quả. Nhờ ứng dụng công nghệ silicon 2 lớp tiên tiến, sản phẩm tái hiện sự mềm mại tự nhiên nhưng vẫn đảm bảo độ chắc chắn tối ưu trong suốt quá trình sử dụng. Để nâng cao sự mượt ái và an toàn, bạn nên kết hợp dùng cùng gel bôi trơn gốc nước chất lượng cao cũng như tham khảo bài viết cách chọn gel bôi trơn phù hợp.</p>
+<h2>Thông Số Kỹ Thuật Chi Tiết</h2>
+<p>Dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” sở hữu các thông số chuẩn xác, đáp ứng đầy đủ tiêu chí về chất lượng và tính tiện dụng:</p>
+<h2>- Tổng chiều dài: 19.5 cm</h2>
+<h2>- Chiều dài sử dụng: 14.5 cm</h2>
+<h2>- Đường kính thân: 3.7 cm</h2>
+<h2>- Đường kính đế hút: 6 cm</h2>
+<h2>- Chất liệu cấu thành: Silicon bạch kim 2 lớp cao cấp</h2>
+<h2>- Thiết kế chân đế: Tích hợp đế hút chân không cố định chắc chắn</h2>
+<h2>Thiết Kế Đột Phá Và Công Nghệ Silicon 2 Lớp</h2>
+<p>Dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” được chế tạo từ chất liệu silicon bạch kim y tế cao cấp, tuyệt đối an toàn và thân thiện với làn da nhạy cảm. Cấu trúc 2 lớp độc đáo với lõi bên trong định hình chắc chắn, được bao bọc bởi lớp silicon siêu mềm phía ngoài, tạo cảm giác vô cùng chân thật.</p>
+<p>Bề mặt thiết bị được hoàn thiện tỉ mỉ, trơn mịn giúp giảm ma sát tối đa, đem lại cảm giác thoải mái và thư thái trong mỗi liệu pháp massage cá nhân.</p>
+<h2>Ưu Điểm Nổi Bật Và Tính Năng Tiện Lợi</h2>
+<p>Sản phẩm không chỉ nổi bật về mặt chất liệu mà còn sở hữu nhiều tính năng tiện ích hỗ trợ người dùng:</p>
+<ul><li>- Đế hút chân không siêu bền: Dễ dàng dính chặt lên các bề mặt phẳng, cho phép trải nghiệm linh hoạt và hoàn toàn rảnh tay.</li><li>- Độ bền vượt trội: Silicon bạch kim có độ đàn hồi cao, chống rách và giữ phom dáng bền bỉ qua thời gian.</li><li>- Ứng dụng đa năng: Phù hợp cho nhu cầu thư giãn cá nhân độc lập hoặc dễ dàng kết hợp chung với các loại phụ kiện khác.</li><li>- Dễ dàng làm sạch: Chất liệu chống bám bẩn giúp việc rửa sạch và bảo quản sau khi sử dụng trở nên nhanh chóng.</li></ul>
+<h2>Hướng Dẫn Sử Dụng Và Bảo Quản Chuẩn Xác</h2>
+<p>Để đảm bảo an toàn vệ sinh sức khỏe và kéo dài tuổi thọ cho sản phẩm, bạn nên thực hiện theo quy trình sau:</p>
+<ul><li>- Vệ sinh kỹ bề mặt sản phẩm bằng nước ấm hoặc xà phòng dịu nhẹ trước và sau khi sử dụng.</li><li>- Kết hợp với gel bôi trơn gốc nước để gia tăng cảm giác êm ái, mượt mà khi trải nghiệm.</li><li>- Lau khô bằng khăn mềm không xơ và bảo quản thiết bị tại nơi khô ráo, thoáng mát, tránh tiếp xúc trực tiếp với ánh nắng mặt trời hay nhiệt độ cao.</li></ul>
+<h2>Cam Kết Bảo Hành Và Bảo Mật Đơn Hàng</h2>
+<p>Chúng tôi cam kết phân phối sản phẩm dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” chính hãng 100%, kiểm tra kỹ lưỡng trước khi giao. Mọi đơn hàng đều được che tên sản phẩm và đóng gói trong hộp carton kín đáo, đảm bảo sự riêng tư tuyệt đối cho khách hàng.</p>
+<h2>Câu Hỏi Thường Gặp (FAQ)</h2>
+<p>Dụng cụ massage cá nhân Lovetoy Nature Cock 7.5” có an toàn cho da không?</p>
+<p>Sản phẩm được chế tạo hoàn toàn từ silicon bạch kim cao cấp đạt tiêu chuẩn y tế, hoàn toàn kháng khuẩn, không chứa phthalate và không gây kích ứng da.</p>
+<h2>Người mới bắt đầu có phù hợp sử dụng sản phẩm này không?</h2>
+<p>Có, với đường kính 3.7 cm cân đối cùng lớp silicon ngoài mềm mại, sản phẩm rất phù hợp cho cả người mới lần đầu trải nghiệm lẫn người đã có kinh nghiệm.</p>
+<h2>Làm thế nào để bảo quản thiết bị đúng cách?</h2>
+<p>Sau khi rửa sạch và lau khô hoàn toàn, bạn nên cất giữ sản phẩm trong túi vải sạch hoặc hộp đựng riêng ở nơi khô ráo, tránh để gần các vật sắc nhọn.</p>
+<h2>Bài Viết Liên Quan</h2>
+<h2>- Cách chọn gel bôi trơn phù hợp và an toàn nhất</h2>
+<h2>- Tư vấn sử dụng thiết bị massage cá nhân đúng chuẩn y tế</h2>`,
   },
   {
     slug: "dv39g-dung-cu-massage-ca-nhan-prettylove-molly-rung-nhieu-che-do-thiet-ke-nho-gon",
@@ -2076,6 +2116,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39G/01.jpg",
     images: ["/anh1/DV39G/01.jpg", "/anh1/DV39G/15.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Dụng Cụ Massage Cá Nhân Prettylove Molly Rung &amp; Nhiều Chế Độ</p>
 <p>Dụng cụ massage cá nhân Prettylove Molly rung &amp; nhiều chế độ – thiết kế nhỏ gọn là dòng sản phẩm chăm sóc sức khỏe cao cấp, mang lại giải pháp thư giãn và giải tỏa mệt mỏi tối ưu cho người dùng. Thiết bị sở hữu phom dáng tinh tế, tích hợp công nghệ hiện đại giúp nâng cao chất lượng cuộc sống cá nhân. Để quá trình trải nghiệm thêm phần mượt mà và êm ái, bạn có thể kết hợp cùng các loại gel bôi trơn gốc nước và tham khảo cẩm nang tư vấn chọn đồ chơi phù hợp với nhu cầu.</p>
 <h2>Thông Số Kỹ Thuật Dụng Cụ Massage Cá Nhân Prettylove Molly</h2>
@@ -2119,6 +2160,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV65G/01.jpg",
     images: ["/anh1/DV65G/01.jpg", "/anh1/DV65G/07.jpg", "/anh1/DV65G/08.jpg", "/anh1/DV65G/09.jpg", "/anh1/DV65G/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Giới Thiệu Dụng Cụ Hỗ Trợ Đeo Ngoài Lovetoy INGEN Silicon Cao Cấp</h2>
 <p>Dụng cụ hỗ trợ đeo ngoài Lovetoy INGEN silicon cao cấp – thiết kế linh hoạt là dòng sản phẩm chăm sóc sức khỏe cá nhân cao cấp, mang lại giải pháp tối ưu giúp nâng cao sự tự tin và chất lượng đời sống vợ chồng. Được sản xuất từ chất liệu silicon y tế đạt chuẩn, thiết bị đảm bảo tính an toàn, độ mềm mại tự nhiên và sự linh hoạt tối đa trong suốt quá trình sử dụng. Quý khách có thể kết hợp cùng gel bôi trơn gốc nước chất lượng cao và tham khảo thêm cách chọn gel bôi trơn phù hợp để tận hưởng sự thoải mái hoàn hảo nhất.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -2630,6 +2672,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60K/01.jpg",
     images: ["/anh1/DV60K/01.jpg", "/anh1/DV60K/09.jpg", "/anh1/DV60K/10.jpg", "/anh1/DV60K/11.jpg", "/anh1/DV60K/12.jpg", "/anh1/DV60K/13.jpg", "/anh1/DV60K/14.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Máy Massage Silicon Cao Cấp Rung Đa Chế Độ, Sưởi Ấm, Điều Khiển Từ Xa</p>
 <p>Máy massage silicon cao cấp rung đa chế độ, sưởi ấm, điều khiển từ xa, đế hút tiện lợi là thiết bị chăm sóc sức khỏe cá nhân hiện đại giúp xoa dịu căng thẳng và cải thiện thể trạng hiệu quả. Tích hợp nhiều tính năng tiên tiến như chuyển động nhịp nhàng, đa dạng tần số rung và chế độ sưởi ấm tự nhiên, sản phẩm mang tới trải nghiệm thư giãn tinh tế. Khách hàng nên kết hợp cùng gel bôi trơn gốc nước và tham khảo thêm hướng dẫn sử dụng máy massage chuyên nghiệp để đạt được hiệu quả tối ưu.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -2887,6 +2930,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69U/01.jpg",
     images: ["/anh1/DC69U/01.jpg", "/anh1/DC69U/13.jpg", "/anh1/DC69U/14.jpg", "/anh1/DC69U/15.jpg", "/anh1/DC69U/16.jpg", "/anh1/DC69U/17.jpg", "/anh1/DC69U/18.jpg", "/anh1/DC69U/19.jpg", "/anh1/DC69U/20.jpg", "/anh1/DC69U/21.jpg", "/anh1/DC69U/22.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Máy Tập Dương Vật Luoge LG110 – Tăng Kích Cỡ &amp; Cải Thiện Sinh Lý Nam</p>
 <p>Máy Tập Dương Vật Luoge LG110 – Tăng Kích Cỡ &amp; Cải Thiện Sinh Lý Nam là giải pháp chăm sóc sức khỏe nam giới hiện đại, hỗ trợ cải thiện vóc dáng, độ cứng cáp và sức bền sinh lý một cách khoa học. Sản phẩm ứng dụng công nghệ lực hút chân không kết hợp rung massage thế hệ mới, mang lại liệu trình rèn luyện an toàn và lành tính. Khách hàng có thể tìm hiểu thêm về cách chọn máy tập dương vật phù hợp cũng như nắm rõ cách sử dụng gel bôi trơn để tối ưu hóa sự mượt mà trong từng buổi luyện tập.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3017,6 +3061,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC90S/01.jpg",
     images: ["/anh1/DC90S/01.jpg", "/anh1/DC90S/08.jpg", "/anh1/DC90S/09.jpg", "/anh1/DC90S/10.jpg", "/anh1/DC90S/11.jpg", "/anh1/DC90S/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Dương Vật Svakom Selena Rung Thụt Sưởi Ấm Điều Khiển Qua App</p>
 <p>Dương Vật Svakom Selena Rung Thụt Sưởi Ấm Điều Khiển Qua App là thiết bị chăm sóc sức khỏe sinh lý cao cấp đến từ thương hiệu nổi tiếng Svakom (Mỹ). Được tích hợp trọn bộ công nghệ hiện đại gồm chế độ rung, thụt, sưởi ấm cùng khả năng kết nối ứng dụng thông minh, sản phẩm mang lại trải nghiệm thư giãn chân thực và tinh tế cho người dùng trưởng thành. Khách hàng có thể sử dụng kèm gel bôi trơn gốc nước chất lượng cao hoặc tìm hiểu thêm cách chọn đồ chơi phù hợp để nâng cao sự thoải mái khi luyện tập và chăm sóc cá nhân.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3242,6 +3287,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/AD01D/01.jpg",
     images: ["/anh1/AD01D/01.jpg", "/anh1/AD01D/13.jpg", "/anh1/AD01D/14.jpg", "/anh1/AD01D/15.jpg", "/anh1/AD01D/16.jpg", "/anh1/AD01D/17.jpg", "/anh1/AD01D/18.jpg", "/anh1/AD01D/19.jpg", "/anh1/AD01D/20.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Máy Mát Xa Tăng Kích Thước Dương Vật Yeain Man PowerUp – Hút Xoáy Mạnh, Silicone Cao Cấp</p>
 <p>Máy Mát Xa Tăng Kích Thước Dương Vật Yeain Man PowerUp – Hút Xoáy Mạnh, Silicone Cao Cấp là giải pháp chăm sóc sức khỏe sinh lý nam giới hàng đầu hiện nay. Sản phẩm được nghiên cứu chuyên sâu giúp phái mạnh chủ động rèn luyện bản lĩnh, hỗ trợ cải thiện phong độ và thư giãn tinh thần hiệu quả. Khái niệm này đồng hành cùng các phương pháp tập luyện dương vật khoa học cũng như các bước chăm sóc sinh lý nam giới toàn diện để duy trì sức khỏe tổng thể.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3598,6 +3644,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV73E/01.jpg",
     images: ["/anh1/DV73E/01.jpg", "/anh1/DV73E/11.jpg", "/anh1/DV73E/12.jpg", "/anh1/DV73E/13.jpg", "/anh1/DV73E/14.jpg", "/anh1/DV73E/15.jpg", "/anh1/DV73E/16.jpg", "/anh1/DV73E/17.jpg", "/anh1/DV73E/18.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Dương Vật 2 Đầu Rung Bú Đá Lưỡi Siêu Kích Thích – Thủ Dâm Điểm G Công Nghệ Mới</p>
 <p>Sản phẩm Dương Vật 2 Đầu Rung Bú Đá Lưỡi Siêu Kích Thích là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý phái đẹp cao cấp thuộc thương hiệu Mars. Với thiết kế tích hợp thông minh cùng công nghệ hiện đại, sản phẩm hỗ trợ thư giãn cơ thể và giải tỏa căng thẳng hiệu quả. Quý khách có thể tham khảo thêm các bài viết về bí quyết sử dụng thiết bị thủ dâm và cách chọn thiết bị thủ dâm cho nữ để trang bị thêm kiến thức chăm sóc bản thân an toàn.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3637,6 +3684,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55R/01.jpg",
     images: ["/anh1/DV55R/01.jpg", "/anh1/DV55R/07.jpg", "/anh1/DV55R/08.jpg", "/anh1/DV55R/09.jpg", "/anh1/DV55R/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Dương Vật Giả Lovetoy Sliding Skin Pro II 9” – Tuột Da Chân Thực, 10 Chế Độ Rung</p>
 <p>Dương vật giả Lovetoy Sliding Skin Pro II 9” – Tuột da chân thực, 10 chế độ rung là dòng thiết bị massage sinh lý thế hệ mới từ thương hiệu Lovetoy danh tiếng. Sản phẩm là lựa chọn hoàn hảo hỗ trợ chăm sóc sức khỏe sinh lý và nâng cao chất lượng đời sống tinh thần cá nhân. Nhờ tích hợp công nghệ trượt da tiên tiến, sản phẩm mang lại cảm giác tiếp xúc êm ái, tự nhiên và vô cùng ấn tượng. Quý khách có thể tìm hiểu thêm qua các bài viết về bí quyết chọn đồ chơi tình dục cũng như giá trị ứng dụng của công nghệ trượt da trong việc giải tỏa căng thẳng hiệu quả.</p>
 <h2>Thông Số Kỹ Thuật Sản Phẩm</h2>
@@ -3683,6 +3731,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC50S1/01.jpg",
     images: ["/anh1/DC50S1/01.jpg", "/anh1/DC50S1/20.jpg", "/anh1/DC50S1/21.jpg", "/anh1/DC50S1/22.jpg", "/anh1/DC50S1/23.jpg", "/anh1/DC50S1/24.jpg", "/anh1/DC50S1/25.jpg", "/anh1/DC50S1/26.jpg", "/anh1/DC50S1/27.jpg", "/anh1/DC50S1/28.jpg", "/anh1/DC50S1/29.jpg", "/anh1/DC50S1/30.jpg", "/anh1/DC50S1/31.jpg", "/anh1/DC50S1/32.jpg", "/anh1/DC50S1/33.jpg", "/anh1/DC50S1/34.jpg", "/anh1/DC50S1/35.jpg", "/anh1/DC50S1/36.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Dương Vật Cao Cấp Lovense Spinel – Rung Thụt Tỏa Nhiệt, Điều Khiển App, Gắn Tường Đa Năng</p>
 <p>Dương vật cao cấp Lovense Spinel là siêu phẩm công nghệ hàng đầu đến từ thương hiệu nổi tiếng Lovense, được thiết kế chuyên biệt nhằm mang lại trải nghiệm thư giãn và chăm sóc sức khỏe sinh lý đỉnh cao. Với sự kết hợp hoàn hảo giữa công nghệ rung, chuyển động thụt thông minh, tính năng tỏa nhiệt ấm áp và khả năng điều khiển không giới hạn qua ứng dụng, thiết bị giúp phái đẹp cá nhân hóa hành trình tận hưởng của riêng mình. Bạn đọc có thể tìm hiểu thêm về cách sử dụng dương vật cao cấp cũng như bí quyết tăng khoái cảm để có liệu trình chăm sóc bản thân hoàn hảo nhất.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết Sản Phẩm</h2>
@@ -3728,6 +3777,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC89UN/01.jpg",
     images: ["/anh1/DC89UN/01.jpg", "/anh1/DC89UN/11.jpg", "/anh1/DC89UN/12.jpg", "/anh1/DC89UN/13.jpg", "/anh1/DC89UN/14.jpg", "/anh1/DC89UN/15.jpg", "/anh1/DC89UN/16.jpg", "/anh1/DC89UN/17.jpg", "/anh1/DC89UN/18.jpg"],
+    sensitive: true,
     longDescription: `<p>Giới Thiệu Dương Vật Giả Cao Cấp Svakom UNECO – Rung, Bú, Đá Lưỡi Kích Điểm G Kết Nối App Thông Minh</p>
 <p>Dương vật giả cao cấp Svakom UNECO – Rung, bú, đá lưỡi kích điểm G kết nối App thông minh là một trong những sản phẩm chăm sóc sức khỏe sinh lý phái đẹp cao cấp hàng đầu từ thương hiệu Svakom nổi tiếng. Sự kết hợp giữa công nghệ điều khiển thông minh và thiết kế công học tinh tế giúp cá nhân hóa hoàn toàn trải nghiệm thư giãn riêng tư. Để trang bị thêm kiến thức chăm sóc bản thân đúng cách, quý khách có thể tìm đọc các bài viết hướng dẫn về sản phẩm dương vật giả và học hỏi cách sử dụng dương vật giả an toàn, hiệu quả.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -3808,6 +3858,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC90DG/01.jpg",
     images: ["/anh1/DC90DG/01.jpg", "/anh1/DC90DG/12.jpg", "/anh1/DC90DG/13.jpg", "/anh1/DC90DG/14.jpg", "/anh1/DC90DG/15.jpg", "/anh1/DC90DG/16.jpg", "/anh1/DC90DG/17.jpg", "/anh1/DC90DG/18.jpg", "/anh1/DC90DG/19.jpg", "/anh1/DC90DG/20.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật đa năng Svakom DuoGlow 2 trong 1 là dòng máy massage sức khỏe sinh lý cao cấp thuộc thương hiệu Svakom (Mỹ), tích hợp 5 công nghệ rung, thụt, bi xoay, xung động, mút cùng tính năng sưởi ấm 38°C và khả năng kết nối điều khiển không giới hạn khoảng cách qua SVAKOM App.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Đa năng 5 trong 1: Kết hợp hoàn hảo các công nghệ rung, thụt, bi xoay, xung động và mút trong cùng một sản phẩm.</p>
@@ -3936,6 +3987,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/BD10T/01.jpg",
     images: ["/anh1/BD10T/01.jpg", "/anh1/BD10T/05.jpg", "/anh1/BD10T/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bộ 3 vòng và 2 khúc đôn tăng kích thước dương vật là bộ sản phẩm hỗ trợ sức khỏe sinh lý nam giới cao cấp gồm 3 vòng đeo thắt siết và 2 khúc đôn chất liệu silicone y tế, giúp duy trì độ cứng, cải thiện kích thước tự nhiên và kéo dài thời gian quan hệ.</p>
 <h2>Vì sao nên chọn Bộ 3 vòng và 2 khúc đôn tăng kích thước dương vật</h2>
 <p>Bộ sản phẩm là giải pháp toàn diện giúp phái mạnh làm chủ phong độ một cách an toàn và tự nhiên. Sự kết hợp giữa các vòng thắt siết ôm sát giúp hạn chế lưu thông máu ngược, giữ độ căng cứng bền bỉ nhằm kéo dài thời gian cuộc yêu. Đồng thời, các khúc đôn đi kèm hỗ trợ gia tăng thể tích và kích thước rõ rệt, mang đến sự tự tin tuyệt đối cũng như tăng cường cảm xúc chân thực cho cả hai.</p>
@@ -4470,6 +4522,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD01C/01.jpg",
     images: ["/anh1/AD01C/01.jpg", "/anh1/AD01C/08.jpg", "/anh1/AD01C/09.jpg", "/anh1/AD01C/11.jpg", "/anh1/AD01C/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Máy mát xa dương vật tự động cầm tay giá rẻ thương hiệu Lovense là thiết bị hỗ trợ sức khỏe sinh lý nam giới hiện đại, được tích hợp cơ chế rung và co bóp tự động giúp giải tỏa căng thẳng và cải thiện sự tự tin cho phái mạnh một cách an toàn, riêng tư.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chuyển động rung co bóp tự động: Tích hợp đa dạng chế độ chuyển động linh hoạt, mô phỏng nhịp điệu chân thực giúp tăng cường hiệu quả thư giãn.</p>
@@ -4605,6 +4658,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44U/01.jpg",
     images: ["/anh1/DV44U/01.jpg", "/anh1/DV44U/17.jpg", "/anh1/DV44U/18.jpg", "/anh1/DV44U/19.jpg", "/anh1/DV44U/20.jpg", "/anh1/DV44U/21.jpg", "/anh1/DV44U/22.jpg", "/anh1/DV44U/23.jpg", "/anh1/DV44U/24.jpg", "/anh1/DV44U/25.jpg", "/anh1/DV44U/26.jpg", "/anh1/DV44U/27.jpg", "/anh1/DV44U/28.jpg", "/anh1/DV44U/29.jpg", "/anh1/DV44U/30.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Cao Cấp Dibe Rung Thụt Sưởi Ấm là thiết bị chăm sóc sức khỏe sinh lý cá nhân cao cấp xuất xứ Đài Loan, tích hợp công nghệ chuyển động thụt tịnh tiến, chế độ rung đa tần số và khả năng sưởi ấm tự động giúp phái đẹp giải tỏa nhu cầu an toàn, tinh tế.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Tính năng đa năng hiện đại: Tích hợp đồng thời 10 chế độ rung, 7 tần số vận hành kết hợp chuyển động thụt biên độ 3 cm linh hoạt.</p>
@@ -4640,6 +4694,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV36C/01.jpg",
     images: ["/anh1/DV36C/01.jpg", "/anh1/DV36C/17.jpg", "/anh1/DV36C/18.jpg", "/anh1/DV36C/19.jpg", "/anh1/DV36C/20.jpg", "/anh1/DV36C/21.jpg", "/anh1/DV36C/22.jpg", "/anh1/DV36C/23.jpg", "/anh1/DV36C/24.jpg", "/anh1/DV36C/25.jpg", "/anh1/DV36C/26.jpg", "/anh1/DV36C/27.jpg", "/anh1/DV36C/28.jpg", "/anh1/DV36C/29.jpg", "/anh1/DV36C/30.jpg"],
+    sensitive: true,
     longDescription: `<p>Mông Silicon Gắn Dương Vật 18x4,4cm là dòng dụng cụ hỗ trợ sức khỏe sinh lý nam giới cao cấp, được mô phỏng theo đường nét cơ thể tự nhiên giúp phái mạnh giải tỏa nhu cầu cá nhân một cách an toàn, kín đáo và chân thực.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Trọng lượng đầm chắc 3.6kg: Khối lượng 3.6kg vượt trội tạo độ bám dính cao, giữ sản phẩm cố định vững vàng trên các mặt phẳng và hạn chế xê dịch khi thao tác.</p>
@@ -5365,6 +5420,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV02D/01.jpg",
     images: ["/anh1/DV02D/01.jpg", "/anh1/DV02D/08.jpg", "/anh1/DV02D/09.jpg", "/anh1/DV02D/10.jpg", "/anh1/DV02D/11.jpg", "/anh1/DV02D/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Silicon Rung Thụt Sưởi Ấm Size Nhỏ – Cực Khoái Nhẹ Nhàng, Vừa Vặn Cho Phái Đẹp Châu Á là thiết bị hỗ trợ sức khỏe sinh lý và massage cá nhân cao cấp xuất xứ Hồng Kông, kết hợp đồng thời cơ chế rung đa chế độ, chuyển động thụt tự động, tính năng gia nhiệt sưởi ấm cùng điều khiển từ xa tiện lợi.</p>
 <p>Vì sao nên chọn Dương Vật Silicon Rung Thụt Sưởi Ấm Size Nhỏ – Cực Khoái Nhẹ Nhàng, Vừa Vặn Cho Phái Đẹp Châu Á</p>
 <p>Dương Vật Silicon Rung Thụt Sưởi Ấm Size Nhỏ là lựa chọn hoàn hảo cho phái đẹp nhờ thiết kế công thái học tối ưu với chiều dài tổng thể 18 cm, phần sử dụng 14 cm cùng đường kính 3.3 cm vừa vặn với vóc dáng phụ nữ Châu Á. Sự kết hợp giữa chế độ rung đa dạng, chuyển động thụt nhịp nhàng và tính năng sưởi ấm mô phỏng nhiệt độ cơ thể tự nhiên giúp giải tỏa căng thẳng toàn diện. Đi kèm remote điều khiển không dây thông minh và cổng sạc USB tiện lợi, sản phẩm đem lại trải nghiệm chăm sóc cá nhân linh hoạt và tinh tế ngay tại nhà.</p>
@@ -5393,6 +5449,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60H/01.jpg",
     images: ["/anh1/DV60H/01.jpg", "/anh1/DV60H/09.jpg", "/anh1/DV60H/10.jpg", "/anh1/DV60H/11.jpg", "/anh1/DV60H/12.jpg", "/anh1/DV60H/13.jpg", "/anh1/DV60H/14.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Silicon Rung – Thụt – Sưởi Ấm – Điều Khiển Từ Xa | Trải Nghiệm Thăng Hoa Chân Thật là thiết bị hỗ trợ sức khỏe sinh lý và massage cá nhân cao cấp xuất xứ Hồng Kông, kết hợp đồng thời khả năng rung đa chế độ, chuyển động thụt tịnh tiến tự động, tính năng gia nhiệt sưởi ấm cùng remote điều khiển không dây tiện lợi.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Công nghệ đa chức năng Rung – Thụt – Sưởi ấm: Tích hợp các chế độ rung mượt mà, chuyển động thụt nhịp nhàng và khả năng gia nhiệt tỏa ấm mô phỏng nhiệt độ cơ thể chân thật.</p>
@@ -5429,6 +5486,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54Q/01.jpg",
     images: ["/anh1/DV54Q/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Silicon Size Khủng Siêu Mềm – Cảm Giác Thật Như Thật, Thoả Mãn Mọi Tư Thế là dòng thiết bị hỗ trợ sức khỏe sinh lý và massage cá nhân không dùng pin, được chế tác từ silicone y tế nguyên khối siêu mềm với chân đế hút chân không gắn tường tiện lợi.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Hai lựa chọn kích thước đa dạng: Cung cấp phiên bản Size nhỏ (14.5 x 6.5 cm) và phiên bản Size lớn (22.5 x 10 cm), đáp ứng tốt nhu cầu cá nhân hóa trải nghiệm.</p>
@@ -5465,6 +5523,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV26D/01.jpg",
     images: ["/anh1/DV26D/01.jpg", "/anh1/DV26D/10.jpg", "/anh1/DV26D/11.jpg", "/anh1/DV26D/12.jpg", "/anh1/DV26D/13.jpg", "/anh1/DV26D/16.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Silicon Size Khủng Prettylove Archille là thiết bị hỗ trợ sức khỏe cá nhân cao cấp không dùng pin đến từ thương hiệu Pretty Love (Hồng Kông), chế tác từ silicone y tế mềm mại với kích thước lớn 22 x 5.2 cm cùng đế hút chân không tiện lợi cho nhu cầu thư giãn rảnh tay.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Kích thước chuẩn ấn tượng: Chiều dài tổng thể 22 cm, chiều dài sử dụng 19 cm cùng đường kính 5.2 cm mang lại sự đong đầy và ôm khít vượt trội.</p>
@@ -5501,6 +5560,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC09C/01.jpg",
     images: ["/anh1/DC09C/01.jpg", "/anh1/DC09C/16.jpg", "/anh1/DC09C/19.jpg", "/anh1/DC09C/20.jpg", "/anh1/DC09C/21.jpg", "/anh1/DC09C/22.jpg", "/anh1/DC09C/23.jpg", "/anh1/DC09C/24.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Gắn Đai Rung Bắn Tinh Như Thật – Cực Đỉnh Cho Cảm Giác Như Giao Hợp Thật Sự là sản phẩm đai đeo hỗ trợ sức khỏe cá nhân cao cấp từ thương hiệu Pretty Love (Hồng Kông), tích hợp hệ thống đai đeo cố định cùng cơ chế rung linh hoạt vận hành bằng 2 viên pin AA.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Hệ thống đai đeo cố định chắc chắn: Đai đeo thiết kế thông minh hỗ trợ tùy chỉnh linh hoạt, ôm sát cơ thể, giúp cố định thiết bị an toàn và vững chắc khi vận động.</p>
@@ -5639,6 +5699,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC93N2/01.jpg",
     images: ["/anh1/DC93N2/01.jpg", "/anh1/DC93N2/14.jpg", "/anh1/DC93N2/15.jpg", "/anh1/DC93N2/16.jpg", "/anh1/DC93N2/17.jpg", "/anh1/DC93N2/18.jpg", "/anh1/DC93N2/19.jpg", "/anh1/DC93N2/20.jpg", "/anh1/DC93N2/21.jpg", "/anh1/DC93N2/22.jpg", "/anh1/DC93N2/23.jpg", "/anh1/DC93N2/24.jpg"],
+    sensitive: true,
     longDescription: `<p>Máy Mát Xa Dương Vật Thông Minh Lovense Gush 2 – Kết Nối App, Rung Cực Phê, Đỉnh Cao Công Nghệ Tình Dục là thiết bị chăm sóc sức khỏe cá nhân cao cấp dành cho nam giới đến từ thương hiệu Lovense (Hoa Kỳ), nổi bật với công nghệ kết nối Bluetooth qua ứng dụng điện thoại cho phép tùy chỉnh các chế độ rung linh hoạt và điều khiển từ xa không giới hạn khoảng cách.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Điều khiển thông minh qua ứng dụng: Tương thích hoàn hảo với ứng dụng Lovense App trên hệ điều hành iOS và Android, hỗ trợ điều khiển trực tiếp hoặc kết nối tương tác từ xa qua Internet.</p>
@@ -5952,6 +6013,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68S/01.jpg",
     images: ["/anh1/DV68S/01.jpg", "/anh1/DV68S/07.jpg", "/anh1/DV68S/08.jpg", "/anh1/DV68S/09.jpg", "/anh1/DV68S/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật Lovetoy dual layered silicon siêu mềm size lớn 10.5&quot; là thiết bị hỗ trợ sức khỏe sinh lý cá nhân cao cấp từ thương hiệu Lovetoy, sở hữu cấu trúc hai lớp độc đáo kết hợp chất liệu silicone bạch kim giúp mang lại cảm giác mềm mại, đàn hồi linh hoạt và vô cùng chân thực.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Công nghệ đúc 2 lớp (Dual Layered): Cấu trúc đột phá gồm lõi bên trong chắc chắn giúp nâng đỡ đà đứng và lớp silicone bọc ngoài siêu mềm mại, tạo hiệu ứng mượt mà chân thật.</p>
@@ -5989,6 +6051,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68T/01.jpg",
     images: ["/anh1/DV68T/01.jpg", "/anh1/DV68T/07.jpg", "/anh1/DV68T/08.jpg", "/anh1/DV68T/09.jpg", "/anh1/DV68T/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật Lovetoy Platinum silicon 2 lớp size khủng 11.5&quot; là dụng cụ hỗ trợ sức khỏe sinh lý cao cấp không dùng điện dành cho người đã có kinh nghiệm, mang lại trải nghiệm thư giãn chân thực nhờ cấu trúc hai lớp đúc chuyên biệt cùng kích thước ấn tượng.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Kích thước cực khủng: Tổng chiều dài 29.5 cm (11.5 inches), độ dài khả dụng 23 cm và đường kính thân lớn 5.5 cm tối ưu sự đầy đặn.</p>
@@ -6389,6 +6452,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV73D/01.jpg",
     images: ["/anh1/DV73D/01.jpg", "/anh1/DV73D/15.jpg", "/anh1/DV73D/16.jpg", "/anh1/DV73D/17.jpg", "/anh1/DV73D/18.jpg", "/anh1/DV73D/19.jpg", "/anh1/DV73D/20.jpg", "/anh1/DV73D/21.jpg", "/anh1/DV73D/22.jpg", "/anh1/DV73D/23.jpg", "/anh1/DV73D/24.jpg", "/anh1/DV73D/25.jpg", "/anh1/DV73D/26.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả 3 Trong 1 Rung Bú Đá Lưỡi – Kích Thích Cực Khoái Toàn Diện Cho Nữ là thiết bị chăm sóc sức khỏe cá nhân cao cấp dành riêng cho phái đẹp, kết hợp đồng thời ba cơ chế rung đa tần số, hút sóng âm và chuyển động đầu massage phụ đá lưỡi giúp mang lại trải nghiệm thư giãn đa dạng.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Cơ chế 3 trong 1 độc đáo: Tích hợp đồng thời chức năng rung, bú hút sóng âm và đầu massage phụ chuyển động linh hoạt trong cùng một thân máy.</p>
@@ -6568,6 +6632,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC50U/01.jpg",
     images: ["/anh1/DC50U/01.jpg", "/anh1/DC50U/18.jpg", "/anh1/DC50U/19.jpg", "/anh1/DC50U/20.jpg", "/anh1/DC50U/21.jpg", "/anh1/DC50U/22.jpg", "/anh1/DC50U/23.jpg", "/anh1/DC50U/24.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Tự Động Rung Thụt Sưởi Ấm Nhỏ Gọn – Cực Sướng, Cực Tiện là thiết bị massage cá nhân cao cấp dành cho nữ giới và các cặp đôi, kết hợp đồng thời cơ chế rung đa chế độ, chuyển động thụt tự động thông minh cùng tính năng phát nhiệt sưởi ấm tự nhiên nhằm mang lại trải nghiệm thư giãn chân thực và an toàn.</p>
 <p>Vì sao nên chọn Dương Vật Giả Tự Động Rung Thụt Sưởi Ấm Nhỏ Gọn – Cực Sướng, Cực Tiện</p>
 <p>Sản phẩm ghi điểm tuyệt đối nhờ thiết kế nhỏ gọn với gam màu da tự nhiên trang nhã, mô phỏng tinh tế đem lại cảm giác êm ái và vô cùng chân thực. Sự phối hợp hoàn hảo giữa công nghệ chuyển động thụt tự động nhịp nhàng, đa dạng tần số rung cùng tính năng tỏa nhiệt làm ấm giúp tăng cường lưu thông máu và giải tỏa căng thẳng hiệu quả. Chế tạo hoàn toàn từ silicone y tế cao cấp mềm mại, có khả năng chống nước thuận tiện và tích hợp pin sạc USB tiết kiệm, thiết bị là giải pháp chăm sóc sức khỏe sinh lý cá nhân toàn diện và tiện lợi mỗi ngày.</p>
@@ -6603,6 +6668,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68Q/01.jpg",
     images: ["/anh1/DV68Q/01.jpg", "/anh1/DV68Q/07.jpg", "/anh1/DV68Q/08.jpg", "/anh1/DV68Q/09.jpg", "/anh1/DV68Q/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Lovetoy Nature Cock 9.5 Inch – Siêu Thật, Dài To, Kích Thích Cực Mạnh là sản phẩm dụng cụ massage sinh lý cá nhân cao cấp dành cho người trưởng thành, sử dụng chất liệu silicone bạch kim hai lớp mô phỏng chân thực kết hợp chân đế hút chân không siêu bám dính.</p>
 <p>Vì sao nên chọn Dương Vật Giả Lovetoy Nature Cock 9.5 Inch – Siêu Thật, Dài To, Kích Thích Cực Mạnh</p>
 <p>Lovetoy Nature Cock 9.5 Inch chinh phục người dùng nhờ kích thước ấn tượng với tổng chiều dài 24 cm (9.5 inch) cùng đường kính lớn nhất 6.5 cm (2.5 inch), đáp ứng trọn vẹn nhu cầu trải nghiệm cảm giác đong đầy. Điểm ưu việt của thiết bị nằm ở công nghệ silicone hai lớp (Dual Layer) độc đáo từ thương hiệu Lovetoy, sở hữu phần lõi cứng cáp giữ phom dáng kết hợp lớp vỏ silicone bạch kim siêu mềm mại, tạo độ đàn hồi tự nhiên như thật. Bên cạnh đó, chân đế hút chân không rộng 7 cm chắc chắn giúp cố định sản phẩm rảnh tay trên nhiều bề mặt phẳng, cùng cấu tạo cơ thuần túy không dùng pin giúp việc bảo quản và vệ sinh chống nước trở nên vô cùng đơn giản.</p>
@@ -6636,6 +6702,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68R/01.jpg",
     images: ["/anh1/DV68R/01.jpg", "/anh1/DV68R/07.jpg", "/anh1/DV68R/08.jpg", "/anh1/DV68R/09.jpg", "/anh1/DV68R/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Siêu Khủng Lovetoy Platinum Silicone Cock 12.5 Inch – Cực Đại, Siêu Thật, Đỉnh Khoái Cảm là dòng thiết bị hỗ trợ sức khỏe sinh lý cá nhân cao cấp dành cho người trưởng thành, sở hữu kích thước khủng 30 cm, chất liệu silicone bạch kim hai lớp mềm mại cùng chân đế hút chân không siêu bám dính.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Kích thước King Size cực đại: Tổng chiều dài đạt 30 cm (12.5 inch) và đường kính lên tới 8.3 cm, đáp ứng trọn vẹn nhu cầu trải nghiệm không gian căng đầy tối đa.</p>
@@ -6671,6 +6738,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55XS/01.jpg",
     images: ["/anh1/DV55XS/01.jpg", "/anh1/DV55XS/07.jpg", "/anh1/DV55XS/08.jpg", "/anh1/DV55XS/09.jpg", "/anh1/DV55XS/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Dán Tường Mini Lovetoy Enduro Blaste 5 Inch – Gọn Nhẹ, Cực Kỳ Kích Thích là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân cao cấp dành cho người trưởng thành, sở hữu thiết kế gọn nhẹ làm từ silicone bạch kim hai lớp an toàn kết hợp chân đế hút chân không rảnh tay tiện lợi.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Thiết kế mini gọn nhẹ: Kiểu dáng nhỏ gọn linh hoạt, dễ mang theo và cất giữ riêng tư mà vẫn mang lại hiệu quả giải tỏa căng thẳng tối ưu.</p>
@@ -6706,6 +6774,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV75A/01.jpg",
     images: ["/anh1/DV75A/01.jpg", "/anh1/DV75A/20.jpg", "/anh1/DV75A/21.jpg", "/anh1/DV75A/22.jpg", "/anh1/DV75A/23.jpg", "/anh1/DV75A/25.jpg", "/anh1/DV75A/26.jpg", "/anh1/DV75A/27.jpg", "/anh1/DV75A/28.jpg", "/anh1/DV75A/29.jpg", "/anh1/DV75A/30.jpg", "/anh1/DV75A/31.jpg", "/anh1/DV75A/33.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Đa Năng Yeain Hot Wheel – Rung Thụt Xoay Liếm &amp; Tỏa Nhiệt Cực Mạnh là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân cao cấp dành cho người trưởng thành, tích hợp đồng thời cơ chế rung, chuyển động thụt, đầu xoay 360° cùng chức năng tỏa nhiệt làm ấm 38°C giúp thư giãn toàn diện.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Vận hành đa năng 4 trong 1: Kết hợp hoàn hảo các chức năng rung đa tần số, chuyển động thụt tự động, đầu xoay 360° linh hoạt cùng khả năng tạo cảm giác massage chân thực.</p>
@@ -6742,6 +6811,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV70B/01.jpg",
     images: ["/anh1/DV70B/01.jpg", "/anh1/DV70B/13.jpg", "/anh1/DV70B/14.jpg", "/anh1/DV70B/15.jpg", "/anh1/DV70B/16.jpg", "/anh1/DV70B/17.jpg", "/anh1/DV70B/18.jpg", "/anh1/DV70B/19.jpg", "/anh1/DV70B/20.jpg", "/anh1/DV70B/21.jpg", "/anh1/DV70B/22.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Đai Đeo 2 Đầu Rung Thụt – Điều Khiển Từ Xa Cực Mạnh Mẽ thương hiệu Yeain là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân cao cấp dành cho các cặp đôi, tích hợp cơ chế rung thụt tự động hai đầu kết hợp remote điều khiển không dây rảnh tay tiện lợi.</p>
 <p>Vì sao nên chọn Dương Vật Đai Đeo 2 Đầu Rung Thụt – Điều Khiển Từ Xa Cực Mạnh Mẽ</p>
 <p>Sản phẩm ấn tượng nhờ thiết kế đai đeo ergonomics ôm sát chắc chắn, hỗ trợ tùy chỉnh linh hoạt phù hợp với nhiều vóc dáng cơ thể. Thiết kế hai nhánh kích thước riêng biệt tích hợp tính năng rung và chuyển động thụt đa chế độ giúp gia tăng cảm giác thư giãn và kết nối tình cảm cho các cặp đôi. Đặc biệt, bộ điều khiển từ xa bằng remote không dây mang lại sự tiện lợi rảnh tay tối đa, kết hợp chất liệu silicone y tế an toàn sinh học tuyệt đối cho làn da nhạy cảm.</p>
@@ -7030,6 +7100,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV21A/01.jpg",
     images: ["/anh1/DV21A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Đa Năng Rung Ngoáy Giá Rẻ – Khoái Cảm Mạnh Mẽ, Giá Tốt là thiết bị massage cá nhân chuyên biệt dành cho người trưởng thành, sở hữu cơ chế xoay đảo chiều 360 độ kết hợp 6 chế độ rung đa dạng giúp chăm sóc sức khỏe sinh lý và giải tỏa căng thẳng hiệu quả trong không gian riêng tư.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chuyển động đa chiều 360° linh hoạt: Tích hợp cơ chế xoay tròn đảo chiều thông minh phối hợp cùng 6 chế độ rung tùy chỉnh, đáp ứng hoàn hảo từ nhịp massage dịu nhẹ đến kích thích chuyên sâu.</p>
@@ -7063,6 +7134,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44F/01.jpg",
     images: ["/anh1/DV44F/01.jpg", "/anh1/DV44F/05.jpg", "/anh1/DV44F/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một thiết bị massage cá nhân nhỏ gọn nhưng vẫn sở hữu lực rung mạnh mẽ để giải tỏa căng thẳng hiệu quả? Dương Vật Silicon Mini Siêu Rung 69 Ecstasy chính là giải pháp hoàn hảo với thiết kế silicone lỏng siêu mềm và động cơ 10 chế độ rung linh hoạt, đáp ứng trọn vẹn nhu cầu kích thích điểm G tối ưu.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Kích thước: 13.1 x 3.2 cm</h2>
@@ -7221,6 +7293,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55S/01.jpg",
     images: ["/anh1/DV55S/01.jpg", "/anh1/DV55S/07.jpg", "/anh1/DV55S/08.jpg", "/anh1/DV55S/09.jpg", "/anh1/DV55S/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với những cá nhân đang tìm kiếm giải pháp đáp ứng nhu cầu trải nghiệm kích thước lớn và mong muốn cố định thiết bị để thao tác linh hoạt, Dương vật Lovetoy siêu khủng – Cực đại, siêu chân thật chính là sản phẩm chuyên dụng mang lại sự đáp ứng trọn vẹn và an toàn.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Kiểu dáng cực đại chuẩn xác: Tổng chiều dài đạt 26.8 cm (chiều dài sử dụng 24.6 cm) kết hợp đường kính 6 cm giúp đáp ứng hoàn hảo nhu cầu trải nghiệm kích thước lớn.</p>
@@ -7597,6 +7670,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC501/01.jpg",
     images: ["/anh1/DC501/01.jpg", "/anh1/DC501/08.jpg", "/anh1/DC501/09.jpg", "/anh1/DC501/10.jpg", "/anh1/DC501/11.jpg", "/anh1/DC501/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều chị em phụ nữ thường gặp khó khăn trong việc tìm kiếm một thiết bị thư giãn cá nhân vừa đáp ứng hiệu quả kích thích sinh lý vừa giữ được sự riêng tư tuyệt đối, và Dương Vật Giả Ngụy Trang – Rung Thụt Cực Cute chính là giải pháp hỗ trợ chăm sóc sức khỏe ân ái tối ưu với thiết kế ngụy trang tinh tế cùng cơ chế chuyển động linh hoạt.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Chiều dài tổng thể: 22 cm.</li><li>- Chiều dài sử dụng: 13.5 cm.</li><li>- Đường kính: 2.8 cm.</li><li>- Trọng lượng: 250 g.</li><li>- Chất liệu: Silicone y tế cao cấp, bề mặt phủ mịn, an toàn sinh học.</li><li>- Màu sắc: Hồng dịu nhẹ.</li><li>- Cơ chế hoạt động: Rung thụt đa cấp độ, tùy chỉnh linh hoạt.</li><li>- Nguồn điện: Pin sạc USB tích hợp tiện lợi.</li></ul>
@@ -7721,6 +7795,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC89FR/01.jpg",
     images: ["/anh1/DC89FR/01.jpg", "/anh1/DC89FR/14.jpg", "/anh1/DC89FR/15.jpg", "/anh1/DC89FR/16.jpg", "/anh1/DC89FR/17.jpg", "/anh1/DC89FR/18.jpg", "/anh1/DC89FR/19.jpg", "/anh1/DC89FR/20.jpg", "/anh1/DC89FR/21.jpg", "/anh1/DC89FR/22.jpg", "/anh1/DC89FR/23.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng máy rung thụt thông thường, Dương Vật Giả Svakom Frederica sở hữu sự kết hợp đột phá giữa 3 cơ chế vận hành độc lập: rung, thụt tự động và hút kích thích. Sản phẩm mang đến trải nghiệm giải tỏa nhu cầu sinh lý đỉnh cao, đáp ứng trọn vẹn tiêu chuẩn thẩm mỹ và an toàn sức khỏe.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Chất liệu cao cấp: Silicone y tế kháng khuẩn siêu mịn, kết hợp khung nhựa ABS chắc chắn.</li><li>- Kích thước chuẩn: 211mm x 85.9mm x 32.5mm, tối ưu hóa cho cảm giác tiếp xúc chân thực.</li><li>- Cơ chế tác động: Tích hợp đồng thời 3 tính năng: Rung, Thụt và Hút.</li><li>- Chế độ vận hành: 7 chế độ rung thụt linh hoạt kết hợp 10 chế độ hút chuyên sâu.</li><li>- Nguồn điện &amp; Pin: Pin sạc Polymer Lithium, sạc nhanh trong 1 giờ, thời gian dùng liên tục 1 - 1.5 giờ.</li><li>- Khả năng chống nước: Chuẩn chống nước 100%, an toàn tối đa và dễ dàng làm sạch.</li><li>- Xuất xứ thương hiệu: Svakom (Mỹ).</li></ul>
@@ -8114,6 +8189,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV33E/01.jpg",
     images: ["/anh1/DV33E/01.jpg", "/anh1/DV33E/11.jpg", "/anh1/DV33E/12.jpg", "/anh1/DV33E/13.jpg", "/anh1/DV33E/15.jpg", "/anh1/DV33E/16.jpg", "/anh1/DV33E/17.jpg", "/anh1/DV33E/18.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị đơn thuần trên thị trường, Dương vật silicon 2 da siêu mềm Prettylove Kable sở hữu công nghệ mô phỏng cấu trúc 2 lớp cao cấp với phần da bên ngoài có khả năng trượt cơ học linh hoạt, mang đến trải nghiệm tiếp xúc chân thực và tối ưu hóa sự an toàn cho sức khỏe sinh lý cá nhân.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Công nghệ trượt 2 lớp độc đáo: Lớp da TPE silicone bên ngoài trượt nhịp nhàng trên lõi trục bên trong, mô phỏng chuyển động tự nhiên nhằm giảm thiểu ma sát cọ xát trực tiếp lên thành âm đạo.</p>
@@ -8146,6 +8222,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV74C/01.jpg",
     images: ["/anh1/DV74C/01.jpg", "/anh1/DV74C/11.jpg", "/anh1/DV74C/12.jpg", "/anh1/DV74C/13.jpg", "/anh1/DV74C/14.jpg", "/anh1/DV74C/15.jpg", "/anh1/DV74C/16.jpg", "/anh1/DV74C/17.jpg", "/anh1/DV74C/18.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật rồng trong suốt là thiết bị hỗ trợ sinh lý chuyên biệt dùng để tăng kích thước, tạo gân gai kích thích mạnh mẽ và giúp nam giới kéo dài thời gian thăng hoa khi quan hệ.</p>
 <h2>Vì sao nên chọn Dương vật rồng trong suốt</h2>
 <p>Sản phẩm nổi bật với thiết kế vân gân nổi độc đáo kết hợp chất liệu silicone cao cấp đã qua kiểm định an toàn nghiêm ngặt. Lớp silicone y tế trong suốt không chỉ mang lại hiệu ứng thẩm mỹ tinh tế mà còn đảm bảo độ lành tính tuyệt đối, không gây kích ứng cho làn da nhạy cảm. Với 3 tùy chọn kích cỡ từ S đến L, bạn dễ dàng chọn được phiên bản vừa vặn nhất với thể trạng cá nhân.</p>
@@ -8174,6 +8251,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DV65G/01.jpg",
     images: ["/anh1/DV65G/01.jpg", "/anh1/DV65G/07.jpg", "/anh1/DV65G/08.jpg", "/anh1/DV65G/09.jpg", "/anh1/DV65G/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Giới Thiệu Dụng Cụ Hỗ Trợ Đeo Ngoài Lovetoy INGEN Silicon Cao Cấp</h2>
 <p>Dụng cụ hỗ trợ đeo ngoài Lovetoy INGEN silicon cao cấp – thiết kế linh hoạt là dòng sản phẩm chăm sóc sức khỏe cá nhân cao cấp, mang lại giải pháp tối ưu giúp nâng cao sự tự tin và chất lượng đời sống vợ chồng. Được sản xuất từ chất liệu silicon y tế đạt chuẩn, thiết bị đảm bảo tính an toàn, độ mềm mại tự nhiên và sự linh hoạt tối đa trong suốt quá trình sử dụng. Quý khách có thể kết hợp cùng gel bôi trơn gốc nước chất lượng cao và tham khảo thêm cách chọn gel bôi trơn phù hợp để tận hưởng sự thoải mái hoàn hảo nhất.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -8349,6 +8427,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60F/01.jpg",
     images: ["/anh1/DV60F/01.jpg", "/anh1/DV60F/12.jpg", "/anh1/DV60F/13.jpg", "/anh1/DV60F/14.jpg", "/anh1/DV60F/15.jpg", "/anh1/DV60F/16.jpg", "/anh1/DV60F/17.jpg", "/anh1/DV60F/18.jpg", "/anh1/DV60F/19.jpg", "/anh1/DV60F/20.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu chị em đang muốn tìm kiếm một thiết bị hỗ trợ thư giãn sinh lý vừa mang lại cảm giác ấm áp chân thật, vừa sở hữu cơ chế vận hành tự động rảnh tay linh hoạt thì Dương Vật Silicone Rung Thụt Sưởi Ấm NX Toys chính là lựa chọn hoàn hảo đáp ứng trọn vẹn mong muốn đó.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Thương hiệu: NX Toys (Xuất xứ Hong Kong).</li><li>- Chất liệu chính: Silicone sinh học mềm mại, đạt chuẩn an toàn cho làn da nhạy cảm.</li><li>- Tổng chiều dài: 21.5 cm.</li><li>- Chiều dài sử dụng: 16.5 cm.</li><li>- Đường kính thân: 4.0 cm (tối ưu chuẩn phom dáng phụ nữ Châu Á).</li><li>- Trọng lượng: 435 g.</li><li>- Tính năng công nghệ: Rung đa tần, cơ chế thụt tự động, tỏa nhiệt sưởi ấm 42°C và đi kèm remote điều khiển từ xa.</li><li>- Nguồn điện: Pin sạc từ tính USB tiện lợi, thời gian sạc đầy khoảng 60 phút.</li><li>- Thiết kế chân đế: Đế hút vặn chân không bám dính chắc chắn trên bề mặt phẳng như gạch men, kính, bàn gỗ.</li></ul>
@@ -8502,6 +8581,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS45C/01.jpg",
     images: ["/anh1/MS45C/01.jpg", "/anh1/MS45C/09.jpg", "/anh1/MS45C/10.jpg", "/anh1/MS45C/11.jpg", "/anh1/MS45C/12.jpg", "/anh1/MS45C/13.jpg", "/anh1/MS45C/14.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt với các mẫu thiết bị rung đơn thuần trên thị trường, Dương Vật Xoáy Rung Lilo Judy tích hợp cơ chế xoay 360 độ tự động đồng thời với hệ thống rung 10 tần số, tối ưu hóa khả năng tác động lực cơ học đa điểm lên mô âm đạo và điểm G.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Lilo Judy có tổng chiều dài 200 mm và đường kính 38 mm, được nghiên cứu kích thước dựa trên cấu trúc sinh học của nữ giới Châu Á. Lớp vỏ ngoài bao bọc bằng silicone y khoa siêu mềm đạt tiêu chuẩn kiểm định an toàn sinh học, hoàn toàn trơn mịn, không chứa phthalate hay hóa chất gây kích ứng niêm mạc. Phần lõi chịu lực bên trong cấu tạo từ nhựa ABS nguyên sinh bền bỉ, giúp duy trì chuyển động xoay 360 độ ổn định. Thiết bị hỗ trợ hai tùy chọn màu sắc là hồng và xanh, vận hành bằng nguồn pin lithium sạc USB tiện lợi và duy trì độ ồn dưới ngưỡng 50 dB.</p>
@@ -8533,6 +8613,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV36K/01.jpg",
     images: ["/anh1/DV36K/01.jpg", "/anh1/DV36K/05.jpg", "/anh1/DV36K/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật giả kèm âm đạo 2 trong 1 là lựa chọn tối ưu cho nam giới, các cặp đôi hoặc người dùng cộng đồng LGBT muốn đa dạng hóa hình thức giải tỏa sinh lý và gia tăng kích thước tự nhiên.</p>
 <h2>Vì sao nên chọn Dương vật giả kèm âm đạo 2 trong 1</h2>
 <p>Sản phẩm sở hữu cấu trúc đa năng không dùng động cơ rung, loại bỏ hoàn toàn rủi ro hư hỏng vi mạch hay suy giảm tuổi thọ do nước. Cấu tạo từ silicon y khoa đúc nguyên khối mang lại độ đàn hồi cao, chống rách dãn và có khả năng chịu lực tối ưu. Đây là khoản đầu tư lâu dài nhờ tính bền bỉ vượt trội và quy trình làm sạch vô cùng đơn giản.</p>
@@ -8599,6 +8680,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV40H/01.jpg",
     images: ["/anh1/DV40H/01.jpg", "/anh1/DV40H/12.jpg", "/anh1/DV40H/13.jpg", "/anh1/DV40H/14.jpg", "/anh1/DV40H/15.jpg", "/anh1/DV40H/16.jpg", "/anh1/DV40H/17.jpg", "/anh1/DV40H/18.jpg", "/anh1/DV40H/19.jpg", "/anh1/DV40H/20.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn là người mới đang tìm kiếm một giải pháp chăm sóc sức khỏe sinh lý an toàn, dễ thao tác và mang lại cảm giác vô cùng chân thật thì Dương vật giả Yeain rung ngoáy sưởi ấm điều khiển xa chính là người bạn đồng hành hoàn hảo.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Công nghệ tỏa nhiệt 42°C: Tự động làm ấm lên đến 42°C, tạo cảm giác ấm áp chân thật như hơi ấm cơ thể tự nhiên.</p>
@@ -8634,6 +8716,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV56E/01.jpg",
     images: ["/anh1/DV56E/01.jpg", "/anh1/DV56E/06.jpg", "/anh1/DV56E/07.jpg", "/anh1/DV56E/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật siêu khủng Lovetoy 2 lớp rung thụt điều khiển xa là thiết bị hỗ trợ sức khỏe sinh lý cao cấp thích hợp cho người dùng đang tìm kiếm dòng sản phẩm kích thước lớn đi kèm tiêu chuẩn an toàn y tế khắt khe. Sản phẩm kết hợp cơ chế chuyển động rung thụt tự động và bộ điều khiển không dây tiện lợi.</p>
 <p>Vì sao nên chọn Dương vật siêu khủng Lovetoy 2 lớp rung thụt điều khiển xa</p>
 <p>Đối với các thiết bị tiếp xúc trực tiếp với vùng nhạy cảm của cơ thể, tiêu chí an toàn chất liệu luôn được đặt lên hàng đầu. Sản phẩm ứng dụng công nghệ đúc silicone bạch kim hai lớp hoàn toàn tinh khiết, không chứa Phthalate hay Latex, đảm bảo tính sinh học an toàn và chống kích ứng da. Kết cấu hai lớp thông minh gồm lớp vỏ ngoài mềm mại mô phỏng bề mặt biểu bì và lớp lõi bên trong săn chắc, mang đến sự kết hợp hoàn hảo giữa yếu tố y khoa và trải nghiệm thực tế.</p>
@@ -8662,6 +8745,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58P/01.jpg",
     images: ["/anh1/DV58P/01.jpg", "/anh1/DV58P/07.jpg", "/anh1/DV58P/08.jpg", "/anh1/DV58P/09.jpg", "/anh1/DV58P/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả Lovetoy 7.5&quot; silicon siêu mềm 2 lớp là thiết bị hỗ trợ sinh lý được sử dụng để kích thích điểm G và vùng hậu môn, hỗ trợ đáp ứng nhu cầu giải tỏa cá nhân hoặc giải trí đôi lứa.</p>
 <h2>Vì sao nên chọn Dương vật giả Lovetoy 7.5&quot; silicon siêu mềm 2 lớp</h2>
 <p>Sản phẩm nổi bật với cấu trúc bề mặt vật liệu không xốp (non-porous), giúp ngăn chặn hoàn toàn sự tích tụ của vi khuẩn và nấm mốc trong quá trình sử dụng. Cấu trúc đúc Silicone Platinum hai lớp duy trì độ đàn hồi ổn định, không bị biến dạng hay thoái hóa liên kết polymer qua thời gian dài. Tính chất kháng hóa chất của vật liệu cao cấp này cho phép sản phẩm chịu được các quy trình làm sạch thường xuyên, kéo dài tối đa tuổi thọ thiết bị.</p>
@@ -8697,6 +8781,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68N/01.jpg",
     images: ["/anh1/DV68N/01.jpg", "/anh1/DV68N/07.jpg", "/anh1/DV68N/08.jpg", "/anh1/DV68N/09.jpg", "/anh1/DV68N/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật Lovetoy 7&quot; silicon 2 lớp siêu mềm là thiết bị hỗ trợ sức khỏe sinh lý cá nhân phù hợp cho cả nam và nữ nhu cầu kích thích điểm G hoặc mát-xa tuyến tiền liệt an toàn. Sản phẩm sở hữu kết cấu đúc kép thông minh giúp tái hiện chính xác hình thái sinh học tự nhiên.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Kích thước chuẩn y tế: Tổng chiều dài 7.0 inch (~17.8 cm), chiều rộng 2.2 inch (~5.6 cm) phù hợp cho nhiều nhu cầu sử dụng.</p>
@@ -8768,6 +8853,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65Z/01.jpg",
     images: ["/anh1/DC65Z/01.jpg", "/anh1/DC65Z/11.jpg", "/anh1/DC65Z/12.jpg", "/anh1/DC65Z/13.jpg", "/anh1/DC65Z/14.jpg", "/anh1/DC65Z/15.jpg", "/anh1/DC65Z/16.jpg", "/anh1/DC65Z/17.jpg", "/anh1/DC65Z/18.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với các cặp đôi đồng tính nữ hoặc nam giới gặp khó khăn về khả năng cương cứng, việc tìm kiếm giải pháp hỗ trợ sinh lý vừa an toàn vừa đem lại cảm giác tự nhiên là nhu cầu vô cùng thiết thực. Quần Gắn Dương Vật Giả Juai là sản phẩm hỗ trợ sức khỏe sinh lý chuyên biệt, được thiết kế dưới dạng quần đùi ôm sát tích hợp phần thân silicon đặc ruột giúp duy trì sự tự tin và tối ưu hóa trải nghiệm thân mật cho người sử dụng.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chất liệu đạt chuẩn y tế: Sản xuất từ 100% silicone y tế cao cấp, đảm bảo tính sinh học an toàn, không chứa chất độc hại và hoàn toàn dịu nhẹ với da nhạy cảm.</p>
@@ -8928,6 +9014,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC48K/01.jpg",
     images: ["/anh1/DC48K/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều nam giới thường gặp rào cản về độ nhạy cảm quá mức hoặc mong muốn cải thiện chất lượng đời sống cá nhân một cách đơn giản, và vòng silicon đeo đầu dương vật chính là giải pháp hỗ trợ an toàn, dễ ứng dụng hàng đầu hiện nay. Sản phẩm giúp hỗ trợ duy trì thời gian, tăng cường ma sát và tạo điểm nhấn kích thích nhẹ nhàng mà không gây áp lực hay khó chịu khi vận hành.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Chất liệu: Silicone y tế cao cấp, mềm mại, trong suốt và an toàn cho làn da nhạy cảm.</li><li>- Kiểu dáng: Thiết kế dạng vòng tròn ôm sát, tích hợp các cấu trúc gờ và bi nổi hỗ trợ massage.</li><li>- Độ đàn hồi: Khả năng co giãn linh hoạt, dễ dàng thích ứng với mọi kích thước thể trạng.</li><li>- Tính năng: Tăng cường cảm giác ma sát và hỗ trợ kiểm soát sự hưng phấn cho nam giới.</li></ul>
@@ -8956,6 +9043,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC48C/01.jpg",
     images: ["/anh1/DC48C/01.jpg", "/anh1/DC48C/07.jpg", "/anh1/DC48C/08.jpg", "/anh1/DC48C/09.jpg", "/anh1/DC48C/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành riêng cho những ai muốn tìm kiếm cảm giác mới lạ và gia tăng sự phấn khích một cách an toàn, vòng lông ngựa kèm khúc đôn bi đeo đầu dương vật là phụ kiện hỗ trợ độc đáo giúp đổi mới đời sống cá nhân vô cùng hiệu quả. Sản phẩm kết hợp hoàn hảo giữa độ va chạm êm ái của dải lông mềm và hiệu ứng massage từ các hạt bi, mang đến trải nghiệm khác biệt rõ rệt mà vẫn cực kỳ dễ thao tác.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Điểm giá trị nhất tạo nên sự khác biệt của sản phẩm nằm ở kiến trúc kết hợp đa chất liệu cao cấp. Vòng lông ngựa kèm khúc đôn bi đeo đầu dương vật được cấu thành từ silicone y tế đạt chuẩn an toàn, độ đàn hồi cao giúp ôm sát tự nhiên theo mọi kích thước thể trạng. Phần viền trang trí sử dụng sợi lông mềm mịn không gây châm chích, kết hợp cùng các hạt bi kim loại không gỉ được đính kết chắc chắn quanh khúc đôn. Sự phối hợp này tạo nên cơ chế tác động kép: vừa tận dụng ma sát êm dịu từ lớp lông, vừa gia tăng lực ép nhẹ nhàng từ các hạt bi massage trong suốt quá trình vận hành.</p>
@@ -8984,6 +9072,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC48H/01.jpg",
     images: ["/anh1/DC48H/01.jpg", "/anh1/DC48H/07.jpg", "/anh1/DC48H/08.jpg", "/anh1/DC48H/09.jpg", "/anh1/DC48H/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Vòng lông ngựa gắn bi đeo đầu dương vật là phụ kiện y tế hỗ trợ sinh lý nam giới, được dùng để gia tăng ma sát kích thích và tạo áp lực đè nhẹ tự nhiên nhằm nâng cao chất lượng trải nghiệm cá nhân. Sản phẩm kết hợp cấu trúc viền lông nhân tạo mềm mại cùng các hạt bi kim loại không gỉ, giúp cải thiện độ nhạy cảm và hỗ trợ kiểm soát sự hưng phấn an toàn.</p>
 <h2>Ưu điểm chính</h2>
 <ul><li>- Thiết kế đa vật liệu chuyên biệt: Sự kết hợp giữa lông nhân tạo êm ái và bi kim loại không gỉ tạo hiệu ứng tác động kép độc đáo.</li><li>- Cơ chế đè nặng vật lý: Viên bi kim loại tạo sức nặng vừa phải, hỗ trợ duy trì độ săn chắc và kéo dài thời gian trải nghiệm.</li><li>- An toàn cho da nhạy cảm: Vật liệu cao cấp không gây châm chích, kích ứng hay ảnh hưởng tiêu cực tới vùng da sử dụng.</li><li>- Linh hoạt và vừa vặn: Kích thước tiêu chuẩn phù hợp với nhiều thể trạng, thao tác lồng đeo và tháo lắp nhanh chóng.</li><li>- Tính năng chống nước: Dễ dàng vệ sinh sạch sẽ sau mỗi lần dùng nhờ đặc tính vật liệu chống thấm.</li></ul>
@@ -9141,6 +9230,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV74B/01.jpg",
     images: ["/anh1/DV74B/01.jpg", "/anh1/DV74B/07.jpg", "/anh1/DV74B/08.jpg", "/anh1/DV74B/09.jpg", "/anh1/DV74B/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng mô hình silicon thông thường, Dương vật chó siêu mềm size khủng từ thương hiệu FAAK sở hữu tạo hình gân guốc độc đáo cùng chất liệu silicon đúc nguyên khối siêu bền, đáp ứng trọn vẹn nhu cầu giải tỏa và trải nghiệm cảm giác mạnh. Sản phẩm cung cấp hai tùy chọn kích cỡ linh hoạt, chống thấm nước tuyệt đối và cực kỳ dễ dàng vệ sinh bảo quản lâu dài.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm đến từ thương hiệu FAAK (Đài Loan) được chế tác từ silicon cao cấp đúc nguyên khối, mang lại bề mặt siêu mềm mại, đàn hồi tốt và hoàn toàn an toàn cho da. Tạo hình độc đáo kết hợp sắc đỏ hồng cùng các đường gân nổi tinh tế, đem lại cảm giác tiếp xúc chân thực. Cấu trúc đúc nguyên khối không góc khuất giúp chất liệu chống bám bẩn, chống ăn mòn và giữ độ đàn hồi nguyên vẹn sau thời gian dài sử dụng. Sản phẩm có 2 phiên bản kích thước cụ thể:</p>
@@ -9312,6 +9402,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV33D/01.png",
     images: ["/anh1/DV33D/01.png"],
+    sensitive: true,
     longDescription: `<p>Bạn muốn làm mới không gian riêng tư và tìm kiếm cảm giác chân thực đầy ấn tượng trong bóng tối? Dương Vật Silicon Phát Sáng Magical Nightfall của thương hiệu Prettylove chính là lựa chọn hoàn hảo nhờ khả năng dạ quang phát sáng độc đáo cùng chất liệu TPE mềm mại, mang lại sự thỏa mãn tối đa cho cả cá nhân lẫn cặp đôi.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Khả năng phát sáng dạ quang: Tự động phát sáng trong đêm, tạo hiệu ứng thị giác huyền ảo và mới lạ.</li><li>- Chất liệu TPE mềm mại: Bề mặt êm ái, đàn hồi tốt, đạt chuẩn an toàn cho làn da nhạy cảm.</li><li>- Mô phỏng kích thước chuẩn: Chiều dài 17cm, đường kính 3.3cm cùng trọng lượng 189g tạo độ đầm tay và lấp đầy chân thực.</li><li>- Kháng nước tuyệt đối: Thiết kế nguyên khối chống thấm nước 100%, dễ dàng sử dụng và vệ sinh.</li><li>- Màu sắc nổi bật: Tùy chọn gam màu xanh hoặc cam rực rỡ, thu hút ngay từ ánh nhìn đầu tiên.</li></ul>
@@ -9340,6 +9431,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC77U/01.jpg",
     images: ["/anh1/DC77U/01.jpg", "/anh1/DC77U/20.jpg", "/anh1/DC77U/21.jpg", "/anh1/DC77U/22.jpg", "/anh1/DC77U/23.jpg", "/anh1/DC77U/24.jpg", "/anh1/DC77U/25.jpg", "/anh1/DC77U/26.jpg", "/anh1/DC77U/27.jpg", "/anh1/DC77U/28.png", "/anh1/DC77U/29.png", "/anh1/DC77U/30.png", "/anh1/DC77U/31.png", "/anh1/DC77U/32.png", "/anh1/DC77U/33.png", "/anh1/DC77U/34.png", "/anh1/DC77U/35.png", "/anh1/DC77U/36.png"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng máy massage thông thường chỉ có vài nhịp rung đơn điệu, Dương Vật Prettylove Elemental nổi bật nhờ hệ thống 30 chế độ rung phong phú cùng cấu trúc mềm mại từ silicone y tế an toàn. Đây là giải pháp hoàn hảo giúp hỗ trợ giải tỏa sinh lý nữ, kích thích chuyên sâu điểm G và làm mới cảm xúc cho các cặp đôi.</p>
 <h2>Ưu điểm chính</h2>
 <p>- 30 tần số rung đa dạng: Chuyển đổi linh hoạt từ các nhịp rung nhẹ nhàng mượt mà đến nhịp dồn dập mạnh mẽ, dễ dàng chiều lòng mọi cấp độ cảm xúc.</p>
@@ -9372,6 +9464,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC65T/01.jpg",
     images: ["/anh1/DC65T/01.jpg", "/anh1/DC65T/14.jpg", "/anh1/DC65T/15.jpg", "/anh1/DC65T/16.jpg", "/anh1/DC65T/17.jpg", "/anh1/DC65T/18.jpg", "/anh1/DC65T/19.jpg", "/anh1/DC65T/20.jpg", "/anh1/DC65T/21.jpg", "/anh1/DC65T/22.jpg", "/anh1/DC65T/23.jpg", "/anh1/DC65T/24.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Đai Đeo Rỗng Ruột Có Rung Màu Nâu - PRETTYLOVE HARNESS BRIEFS là sản phẩm hỗ trợ tăng cường kích thước và kéo dài thời gian quan hệ, tích hợp thêm động cơ rung nhiều tần số giúp nâng tầm cảm xúc cho cả nam và nữ. Với cấu trúc đai đeo thông minh cùng phần thân rỗng ruột dễ mang vào, đây là giải pháp lý tưởng giúp người mới bắt đầu dễ dàng thao tác mà vẫn đảm bảo sự tự nhiên, chắc chắn.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Thiết kế rỗng ruột linh hoạt: Đường kính trong 3.5cm giúp lồng ghép ôm sát hoàn hảo, tăng cường kích thước ngoài lên 17.5x4.3cm cho cảm giác đầy đặn.</p>
@@ -9500,6 +9593,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC91H/01.jpg",
     images: ["/anh1/DC91H/01.jpg", "/anh1/DC91H/14.jpg", "/anh1/DC91H/15.jpg", "/anh1/DC91H/16.jpg", "/anh1/DC91H/17.jpg", "/anh1/DC91H/18.jpg", "/anh1/DC91H/19.jpg", "/anh1/DC91H/20.jpg", "/anh1/DC91H/21.jpg", "/anh1/DC91H/22.jpg", "/anh1/DC91H/23.jpg", "/anh1/DC91H/24.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một thiết bị kích thích nhỏ gọn nhưng vẫn đòi hỏi lực tác động mạnh mẽ và chuyển động chân thực, Dương Vật Mini Rung Thụt Fun PETITE chính là giải pháp hoàn hảo. Đây là dòng thiết bị massage hỗ trợ sức khỏe sinh lý cá nhân cao cấp xuất xứ từ Đức, kết hợp giữa cơ chế tự động thụt tịnh tiến và các tần số rung đa dạng trong một kích thước tối ưu.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Cơ chế rung thụt kép linh hoạt: Tích hợp 7 chế độ chuyển động khác nhau, tạo lực đẩy tịnh tiến cùng nhịp rung sâu giúp tối ưu hóa cảm giác kích thích.</p>
@@ -9532,6 +9626,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC87D/01.jpg",
     images: ["/anh1/DC87D/01.jpg", "/anh1/DC87D/17.jpg", "/anh1/DC87D/18.jpg", "/anh1/DC87D/19.jpg", "/anh1/DC87D/20.jpg", "/anh1/DC87D/21.jpg", "/anh1/DC87D/22.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Cao Cấp Lelo Soraya Wave được sử dụng để kích thích điểm G và vùng nhạy cảm thông qua công nghệ sóng chuyển động cơ học kết hợp hệ thống rung kép. Sản phẩm hỗ trợ chăm sóc sức khỏe sinh lý cá nhân cao cấp, đem lại thao tác điều khiển đơn giản cùng trải nghiệm an toàn, phù hợp cho cả người mới bắt đầu.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Lelo Soraya Wave sở hữu cấu trúc kích thước chuẩn gồm chiều dài tổng thể 220 mm, chiều dài sử dụng 150 mm và đường kính 36 mm, trọng lượng đạt 225 g. Thân máy chế tạo hoàn toàn từ silicone y tế đạt chuẩn an toàn sinh học, bề mặt mịn không chứa chất độc hại, thân thiện với làn da. Đường cong thiết kế dạng công thái học tối ưu khả năng tiếp xúc khu vực nhạy cảm mà không yêu cầu kỹ thuật thao tác phức tạp từ người sử dụng.</p>
@@ -9684,6 +9779,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC93M/01.jpg",
     images: ["/anh1/DC93M/01.jpg", "/anh1/DC93M/16.jpg", "/anh1/DC93M/17.jpg", "/anh1/DC93M/18.jpg", "/anh1/DC93M/19.jpg", "/anh1/DC93M/20.jpg", "/anh1/DC93M/21.jpg", "/anh1/DC93M/22.jpg", "/anh1/DC93M/23.jpg", "/anh1/DC93M/24.jpg", "/anh1/DC93M/25.jpg", "/anh1/DC93M/26.jpg", "/anh1/DC93M/27.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả đa năng Lovense Gravity là thiết bị chăm sóc sức khỏe cá nhân cao cấp phù hợp nhất cho người dùng cá nhân hoặc các cặp đôi yêu xa muốn trải nghiệm công nghệ điều khiển từ xa thông minh. Sản phẩm tích hợp đồng thời cơ chế rung và thụt tự động, kết nối trực tiếp qua ứng dụng di động Lovense.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Kích thước tổng thể: 20 cm x 4.5 cm</h2>
@@ -9752,6 +9848,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC93N/01.jpg",
     images: ["/anh1/DC93N/01.jpg", "/anh1/DC93N/15.jpg", "/anh1/DC93N/16.jpg", "/anh1/DC93N/17.jpg", "/anh1/DC93N/18.jpg", "/anh1/DC93N/19.jpg", "/anh1/DC93N/20.jpg", "/anh1/DC93N/21.jpg", "/anh1/DC93N/22.jpg", "/anh1/DC93N/23.jpg", "/anh1/DC93N/24.jpg", "/anh1/DC93N/25.jpg", "/anh1/DC93N/26.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một phương pháp hỗ trợ thư giãn sinh lý nam giới hiện đại, có độ bền vượt trội và cực kỳ tiện lợi để chăm sóc sức khỏe cá nhân hàng ngày, Lovense Gush chính là giải pháp hoàn hảo dành cho bạn. Lovense Gush là máy rung mát xa dương vật thông minh cao cấp từ thương hiệu Lovense, được thiết kế để mang lại kích thích đa dạng nhờ kết nối trực tiếp với ứng dụng điều khiển di động.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Lovense Gush sở hữu kiểu dáng cực kỳ gọn nhẹ với kích thước 72mm x 50mm x 60mm cùng trọng lượng chỉ 133g, mang lại cảm giác cầm nắm đầm tay và thao tác hoàn toàn linh hoạt. Bao bọc toàn bộ phần thân thiết bị là lớp silicone y tế cao cấp với bề mặt mềm mại, hoàn toàn không chứa chất độc hại, cam kết không gây kích ứng ngay cả với những vùng da nhạy cảm nhất.</p>
@@ -10042,6 +10139,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV02B/01.jpg",
     images: ["/anh1/DV02B/01.jpg", "/anh1/DV02B/09.jpg", "/anh1/DV02B/10.jpg", "/anh1/DV02B/11.jpg", "/anh1/DV02B/12.jpg", "/anh1/DV02B/13.jpg", "/anh1/DV02B/14.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho phái đẹp hoặc các cặp đôi đang tìm kiếm một thiết bị hỗ trợ giải tỏa sinh lý rèn luyện sự dẻo dai với khả năng cố định linh hoạt, Dương vật giả dán tường Royal Ares size 8&quot; là giải pháp chăm sóc sức khỏe cá nhân cao cấp đáp ứng trọn vẹn nhu cầu trải nghiệm đa dạng. Sản phẩm sở hữu thiết kế chân thực cùng lớp silicone đúc chịu lực tốt, mang lại độ bền cơ học cao và đặc tính dễ dàng bảo quản vệ sinh lâu dài.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Hai tùy chọn vận hành linh hoạt: Cung cấp phiên bản cơ học tiêu chuẩn và phiên bản nâng cấp tích hợp 12 chế độ rung ngoáy cùng cổng sạc USB tiện lợi (pin 700 mAh sử dụng liên tục đến 2 giờ).</p>
@@ -10080,6 +10178,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV02C/01.jpg",
     images: ["/anh1/DV02C/01.jpg", "/anh1/DV02C/07.jpg", "/anh1/DV02C/08.jpg", "/anh1/DV02C/09.jpg", "/anh1/DV02C/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Thích hợp cho phái đẹp hoặc các cặp đôi đang tìm kiếm một thiết bị hỗ trợ giải tỏa sinh lý và kích thích điểm G có kích thước vừa vặn, Dương vật giả dán tường Royal Ares size 7.5&quot; là lựa chọn tối ưu giúp đáp ứng nhu cầu cá nhân một cách an toàn. Sản phẩm tích hợp công nghệ rung ngoáy đa tần số, đáp ứng đầy đủ các tiêu chuẩn an toàn về y tế đối với các thiết bị chăm sóc sức khỏe thân thể.</p>
 <h2>Vì sao nên chọn Dương vật giả dán tường Royal Ares size 7.5&quot;</h2>
 <p>Dương vật giả dán tường Royal Ares size 7.5&quot; nổi bật nhờ việc sử dụng nguồn nguyên liệu silicone sinh học tinh khiết, đã qua kiểm định khắt khe nhằm đảm bảo tính trung tính và không gây dị ứng cho vùng mô niêm mạc nhạy cảm. Thiết kế đúc gân sóng tự nhiên kết hợp phần đầu trơn mịn giúp giảm thiểu tối đa ma sát thô ráp, đem lại sự êm ái tuyệt đối trong quá trình vận hành. Bên cạnh đó, khả năng kháng nước tiêu chuẩn giúp người dùng dễ dàng làm sạch hoàn toàn vi khuẩn, duy trì sự an toàn lâu dài cho sức khỏe phụ khoa.</p>
@@ -10113,6 +10212,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV43C/01.jpg",
     images: ["/anh1/DV43C/01.jpg", "/anh1/DV43C/06.jpg", "/anh1/DV43C/07.jpg", "/anh1/DV43C/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các mẫu mô phỏng cầm tay thông thường, Dương vật giả hít đất mềm mại, giá rẻ được trang bị phần chân đế hút chân không đa năng chịu lực, cho phép cố định chắc chắn trên các mặt phẳng để người dùng hoàn toàn rảnh tay khi trải nghiệm. Đây là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân chuyên sâu đến từ hãng Bill Toy (Hong Kong), giúp hỗ trợ kích thích âm đạo và điểm G an toàn, hiệu quả cho phụ nữ hoặc các cặp đôi.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Cơ chế hút chân không cố định bề mặt: Thiết kế chân đế thông minh giúp bám dính vững chắc trên các bề mặt phẳng láng, giải phóng đôi tay để bạn thoải mái massage các vùng nhạy cảm khác.</p>
@@ -10610,6 +10710,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC48G/01.png",
     images: ["/anh1/DC48G/01.png", "/anh1/DC48G/04.png"],
+    sensitive: true,
     longDescription: `<p>Bạn muốn gia tăng ma sát cọ xát tự nhiên và đổi mới cảm giác cho đối phương mà không gây chèn ép gò bó? Vòng đeo dương vật nhiều lông siêu kích thích chính là giải pháp lý tưởng giúp ôm sát vị trí đầu khấc, tạo luồng quét dịu nhẹ và bứt phá khoái cảm trong mỗi cuộc yêu.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Chất liệu cấu thành: Silicon TPE cao cấp, độ đàn hồi vượt trội, an toàn sinh học.</li><li>- Thiết kế bề mặt đặc trưng: Tích hợp dải lông mềm mại quét nhẹ quanh thân vòng, tăng ma sát tự nhiên.</li><li>- Mẫu Mẫu A: Thiết kế dải lông thẳng với đường kính 2,0 cm.</li><li>- Mẫu Mẫu B: Thiết kế dải lông cong với đường kính 2,2 cm.</li><li>- Khả năng co giãn: Tự điều chỉnh ôm sát theo kích thước thực tế, không chèn ép gấy đau.</li><li>- Độ bền &amp; Tái sử dụng: Kết cấu dẻo dai, chịu lực cơ học tốt, tái sử dụng bền bỉ nhiều lần.</li></ul>
@@ -10766,6 +10867,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC89MR/01.png",
     images: ["/anh1/DC89MR/01.png", "/anh1/DC89MR/05.png", "/anh1/DC89MR/06.png"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một giải pháp thư giãn cá nhân hiện đại, dễ thao tác ngay từ lần đầu sử dụng mà vẫn đem lại hiệu quả tối ưu thì Svakom Mora Neo - Dương vật giả cao cấp rung thụt chạy bi điều khiển từ xa qua App chính là lựa chọn hoàn hảo. Đây là thiết bị hỗ trợ sức khỏe cá nhân cao cấp tích hợp động cơ kép kết hợp tính năng điều khiển thông minh qua ứng dụng di động.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Thao tác siêu đơn giản: Giao diện nút bấm trực quan trên thân máy giúp người mới bắt đầu dễ dàng làm quen và điều khiển ngay lập tức.</p>
@@ -10926,6 +11028,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC33K/01.png",
     images: ["/anh1/DC33K/01.png", "/anh1/DC33K/05.png", "/anh1/DC33K/06.png"],
+    sensitive: true,
     longDescription: `<p>Máy rung liếm dương vật mini OmiSky Omysky Lasting Man được dùng để hỗ trợ massage tập luyện, giúp tăng cường độ bền bỉ và kiểm soát sự cương cứng cho nam giới một cách hiệu quả và an toàn.</p>
 <h2>Vì sao nên chọn Máy rung liếm dương vật mini OmiSky Omysky Lasting Man</h2>
 <p>Sản phẩm cực kỳ đáng mua nhờ kết cấu chống nước hoàn hảo và độ bền vượt trội theo thời gian. Sự phối hợp giữa silicone y tế siêu mềm cùng nhựa ABS cao cấp giúp thiết bị luôn giữ vững phom dáng cá voi xanh nhỏ gọn, không lo hư hỏng hay biến dạng khi sử dụng thường xuyên. Khả năng vệ sinh dễ dàng dưới vòi nước và cổng sạc từ tính hiện đại cũng giúp kéo dài tuổi thọ máy tối đa, cực kỳ tiết kiệm cho bạn.</p>
@@ -10988,6 +11091,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV20/01.png",
     images: ["/anh1/DV20/01.png", "/anh1/DV20/05.png", "/anh1/DV20/06.png"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một thiết bị massage cá nhân đa năng nhưng ngại các thao tác phức tạp? Dương vật giả xoay ngoáy kèm nhánh rung kích thích hậu môn chính là giải pháp hoàn hảo giúp bạn dễ dàng tận hưởng trải nghiệm thư giãn đa điểm cực kỳ đơn giản và an toàn.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Thiết bị sở hữu kích thước lý tưởng 21 x 3 cm cùng chiều dài sử dụng 14 cm rất vừa vặn, tạo cảm giác cầm nắm chắc chắn và dễ thao tác ngay lần đầu. Thân máy làm từ silicone y tế mịn màng kết hợp polymer cao cấp, hoàn toàn an toàn cho vùng da nhạy cảm và kháng nước vượt trội.</p>
@@ -11021,6 +11125,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV10C/01.png",
     images: ["/anh1/DV10C/01.png", "/anh1/DV10C/06.png", "/anh1/DV10C/07.png", "/anh1/DV10C/08.png"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật silicon gai mềm có rung phù hợp nhất cho người mới bắt đầu hoặc các cá nhân đang tìm kiếm một thiết bị massage cá nhân an toàn, dễ thao tác để giải tỏa nhu cầu sinh lý và chăm sóc sức khỏe riêng tư.</p>
 <h2>Vì sao nên chọn Dương vật silicon gai mềm có rung</h2>
 <p>Dương vật silicon gai mềm có rung là lựa chọn lý tưởng cho người mới nhờ thiết kế tối giản, dễ tiếp cận và vận hành mượt mà ngay từ lần dùng đầu tiên. Thân máy có đường kính chuẩn 3,8cm cùng hệ thống gai mềm đúc liền khối giúp thao tác sử dụng diễn ra tự nhiên, không gây cảm giác chớm e ngại. Bên cạnh đó, việc vận hành bằng nguồn pin AAA phổ thông cùng cơ chế điều chỉnh nút bấm đơn giản ở phần đuôi giúp bất kỳ ai cũng có thể chủ động kiểm soát và làm quen nhanh chóng.</p>
@@ -11079,6 +11184,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60G/01.png",
     images: ["/anh1/DV60G/01.png", "/anh1/DV60G/06.png", "/anh1/DV60G/07.png", "/anh1/DV60G/08.png"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng máy thông thường chỉ có một chức năng đơn điệu, Dương vật giả châu phi rung thụt sưởi ấm điều khiển xa tích hợp đồng thời cơ chế tự động gia nhiệt, rung, thụt, ngoáy cùng chân đế hút chân không rảnh tay cực kỳ dễ dùng.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Dễ dùng rảnh tay với chân đế hút: Chân đế hút chân không siêu bám dính chắc chắn trên mặt phẳng, giúp bạn thoải mái trải nghiệm mà không cần dùng tay giữ.</p>
@@ -11112,6 +11218,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV43D/01.png",
     images: ["/anh1/DV43D/01.png", "/anh1/DV43D/06.png", "/anh1/DV43D/07.png", "/anh1/DV43D/08.png"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Có Rung Gân Gai Khủng YEAIN Enduro Blaster vượt trội hoàn toàn so với các thiết bị thông thường nhờ chất liệu TPE đạt tiêu chuẩn y tế nghiêm ngặt, mang đến sự an toàn tuyệt đối cho làn da nhạy cảm cùng cảm giác chân thực vượt trội.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>YEAIN Enduro Blaster sở hữu kích thước chuẩn mực 19 x 4 cm, tạo áp lực vừa phải và mang lại cảm giác lấp đầy trọn vẹn. Thân máy đúc từ TPE y tế cao cấp đã qua kiểm định khắt khe, đạt độ mềm dẻo tuyệt đối, không gây kích ứng hay tổn thương niêm mạc. Cấu trúc gân gai đúc nổi xếp lớp từ gốc đến đầu khấc giúp gia tăng ma sát. Ngoài ra, phần chân đế hút chân không siêu bám dính chắc chắn trên các bề mặt phẳng, cho phép người dùng thoải mái thay đổi nhiều góc độ.</p>
@@ -11140,6 +11247,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC79Q/01.png",
     images: ["/anh1/DC79Q/01.png", "/anh1/DC79Q/05.png", "/anh1/DC79Q/06.png"],
+    sensitive: true,
     longDescription: `<p>Dương vật 2 đầu Baile được sử dụng để kích thích đồng thời cả hai vùng nhạy cảm âm đạo và hậu môn, hoặc làm công cụ hỗ trợ trải nghiệm sinh hoạt riêng tư cho các cặp đôi.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm do thương hiệu Baile sản xuất, sở hữu chiều dài tổng thể 48 cm với hai đầu có đường kính khác biệt lần lượt là 2,5 cm và 4,5 cm. Toàn bộ thiết bị được đúc từ silicone y tế nguyên khối cao cấp, đạt tiêu chuẩn an toàn sinh học và có đặc tính kháng khuẩn bề mặt cao. Kết cấu silicone có độ bền cơ học tốt, chống rách đứt và không bị thoái hóa chất liệu theo thời gian.</p>
@@ -11206,6 +11314,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC38P/01.png",
     images: ["/anh1/DC38P/01.png"],
+    sensitive: true,
     longDescription: `<p>Nhiều người dùng khi mới tiếp cận các thiết bị hỗ trợ sinh lý thường cảm thấy bất tiện với các thao tác cầm nắm thủ công phức tạp hoặc chất liệu không đạt chuẩn an toàn. Dương vật gắn quần chip rung thụt nhiệt điều khiển xa giải quyết triệt để vấn đề này nhờ thiết kế rảnh tay thông minh, tích hợp công nghệ gia nhiệt vi mô 40°C cùng hệ thống điều khiển không dây tầm xa tiện lợi.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Kích thước tổng thể: Chiều dài 13 cm, đường kính 3.5 cm, tỉ lệ phù hợp cho cả vùng âm đạo và hậu môn.</li><li>- Chất liệu cấu tạo: Silicon y tế nguyên khối siêu mềm, đạt chuẩn an toàn sinh học đối với niêm mạc nhạy cảm.</li><li>- Công nghệ vận hành: 7 chế độ rung thụt kết hợp chức năng tự động tỏa nhiệt mô phỏng thân nhiệt 40°C.</li><li>- Cơ chế điều khiển: Remote không dây sử dụng sóng vô tuyến với khoảng cách kết nối từ 5m đến 10m.</li><li>- Nguồn điện &amp; Chống nước: Pin sạc tích hợp qua cổng USB tiêu chuẩn; chuẩn chống thấm nước toàn phần hỗ trợ vệ sinh an toàn.</li></ul>
@@ -11334,6 +11443,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC93F/01.png",
     images: ["/anh1/DC93F/01.png", "/anh1/DC93F/05.png", "/anh1/DC93F/06.png"],
+    sensitive: true,
     longDescription: `<p>Những cặp đôi đồng tính nữ hoặc các đôi lứa tìm kiếm giải pháp xâm nhập đôi đồng thời thường gặp bất tiện với các loại dây đeo (harness) cồng kềnh, lồng cồng. Dương vật giả 2 đầu siêu rung Lovense Lapis điều khiển qua app giải quyết trọn vẹn vấn đề này nhờ thiết kế đối trọng công học không dây đeo hiện đại, kết hợp hệ thống 3 động cơ độc lập cùng công nghệ kết nối không dây tầm xa thông minh.</p>
 <h2>Thông số kỹ thuật</h2>
 <p>- Kích thước tổng thể: Tổng chiều dài 230mm x 120mm, trọng lượng nhẹ 315g đảm bảo sự linh hoạt khi vận hành.</p>
@@ -11941,6 +12051,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC38M/01.png",
     images: ["/anh1/DC38M/01.png", "/anh1/DC38M/05.png", "/anh1/DC38M/06.png"],
+    sensitive: true,
     longDescription: `<p>Dương vật mini gắn trong quần chip rung thụt bú điều khiển xa (DC38M) dùng để giải tỏa căng thẳng và kích thích vùng nhạy cảm của phái đẹp một cách kín đáo, nhỏ gọn nhờ khả năng gài ẩn trong trang phục cá nhân.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Thiết kế nhỏ gọn dễ bảo quản: Kích thước phom dáng chỉ 3.5cm x 11cm giúp gài ẩn mịn màng trong quần lót và cực kỳ tiện cất giữ lâu dài.</p>
@@ -11972,6 +12083,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54F/01.png",
     images: ["/anh1/DV54F/01.png", "/anh1/DV54F/06.png", "/anh1/DV54F/07.png", "/anh1/DV54F/08.png"],
+    sensitive: true,
     longDescription: `<p>Dương vật da đen khủng, cong (DV54F) dùng để hỗ trợ kích thích sâu, giải tỏa căng thẳng sinh lý và mang lại cảm giác lấp đầy chân thực cho người sử dụng nhờ thiết kế cơ học đúc nguyên khối chống thấm nước tuyệt đối.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Phom dáng cong lượn độc đáo: Chiều dài 20cm x đường kính 4cm cùng gân nổi dặn dặn giúp chạm đúng các điểm nhạy cảm bên trong.</p>
@@ -12003,6 +12115,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV73C/01.png",
     images: ["/anh1/DV73C/01.png", "/anh1/DV73C/05.png", "/anh1/DV73C/06.png"],
+    sensitive: true,
     longDescription: `<p>Dương vật đa năng rung thụt xoay liếm và sóng bi (DV73C) Esther được thiết kế để hỗ trợ chăm sóc sức khỏe sinh lý và kích thích chuyên sâu cho nữ giới nhờ sự kết hợp đa chế độ giữa chuyển động cơ học và nhiệt sưởi ấm mô phỏng cơ thể.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm Esther (DV73C) sở hữu kích thước chuẩn phom với chiều dài tổng thể 21cm và đường kính 3.5cm, phù hợp với cấu trúc sinh lý tự nhiên. Toàn bộ phần thân được bọc bằng chất liệu silicon y tế cao cấp mềm mại, không thấm nước và đã qua kiểm định độ an toàn tuyệt đối cho vùng da nhạy cảm. Kiểu dáng sắc hồng tinh tế tích hợp cùng cổng sạc USB tiện lợi, hỗ trợ vận hành êm ái và tối ưu sự thoải mái trong suốt quá trình sử dụng.</p>
@@ -12035,6 +12148,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC79P/01.png",
     images: ["/anh1/DC79P/01.png", "/anh1/DC79P/07.png", "/anh1/DC79P/08.png", "/anh1/DC79P/09.png", "/anh1/DC79P/10.png"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn hoặc đối phương đang muốn tìm một giải pháp kết nối thân mật nhưng chưa biết bắt đầu từ đâu hay e ngại các thiết bị quá phức tạp, Dương vật Lovetoy Lumino 2 đầu trong suốt cho Less (DC79P) chính là lựa chọn lý tưởng giúp bạn dễ dàng làm quen ngay từ lần đầu trải nghiệm.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Hai đầu kích thước tiện dụng: Thiết kế 1 đầu nhỏ (9cm x 2.7cm) phù hợp cho người mới bắt đầu lót dạ và 1 đầu lớn hơn (13.5cm x 3cm) giúp linh hoạt điều chỉnh theo cấp độ.</p>
@@ -12067,6 +12181,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55Q/01.png",
     images: ["/anh1/DV55Q/01.png", "/anh1/DV55Q/07.png", "/anh1/DV55Q/08.png", "/anh1/DV55Q/09.png", "/anh1/DV55Q/10.png"],
+    sensitive: true,
     longDescription: `<p>Khác biệt lớn nhất của Dương vật Lovetoy REAL SOFTEE siêu mềm rung đa tần (DV55Q) so với các dòng thiết bị thông thường chính là công nghệ chất liệu silicone y tế siêu mềm tiêu chuẩn Mỹ, mang đến sự êm ái tối đa và bảo vệ an toàn cho niêm mạc nhạy cảm.</p>
 <h2>Thông số kỹ thuật</h2>
 <p>- Kích thước tiêu chuẩn: Chiều dài tổng thể 22.8cm, đường kính 4cm cùng trọng lượng 255g cho cảm giác đầm tay, tự nhiên.</p>
@@ -12099,6 +12214,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58N/01.png",
     images: ["/anh1/DV58N/01.png", "/anh1/DV58N/07.png", "/anh1/DV58N/08.png", "/anh1/DV58N/09.png", "/anh1/DV58N/10.png"],
+    sensitive: true,
     longDescription: `<p>Dương vật Lovetoy silicon tự nhiên siêu mềm 2 lớp như thật (DV58N) dùng để hỗ trợ giải tỏa nhu cầu sinh lý cá nhân và kích thích điểm G hiệu quả mà không cần đến động cơ rung hay các nút điều khiển phức tạp.</p>
 <p>Vì sao nên chọn Dương vật Lovetoy silicon tự nhiên siêu mềm 2 lớp như thật (DV58N)</p>
 <p>Sản phẩm là lựa chọn hoàn hảo cho những ai ưu tiên sự an toàn sức khỏe hàng đầu. Lovetoy DV58N đạt các tiêu chuẩn kiểm định chất lượng khắt khe nhờ chất liệu silicon cao cấp, tuyệt đối dịu nhẹ với niêm mạc nhạy cảm. Công nghệ đúc 2 lớp độc đáo tạo nên độ đàn hồi vừa phải, giúp người dùng hoàn toàn yên tâm trải nghiệm mà không lo kích ứng hay gãy gập.</p>
@@ -12127,6 +12243,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68M/01.png",
     images: ["/anh1/DV68M/01.png", "/anh1/DV68M/07.png", "/anh1/DV68M/08.png", "/anh1/DV68M/09.png", "/anh1/DV68M/10.png"],
+    sensitive: true,
     longDescription: `<p>Đối với những người mới bắt đầu muốn tìm kiếm một thiết bị giải tỏa sinh lý có cách vận hành đơn giản, không phức tạp bởi nút bấm hay động cơ điện tử, Dương vật Lovetoy 2 lớp tuột da lên xuống như thật (DV68M) là giải pháp tối ưu đáp ứng trọn vẹn nhu cầu này.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Kích thước chuẩn vừa vặn: Chiều dài tổng thể 18.3cm và đường kính 3.5cm, tỉ lệ vàng giúp người mới dễ dàng tiếp cận và làm quen.</p>
@@ -12219,6 +12336,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC33G/01.png",
     images: ["/anh1/DC33G/01.png", "/anh1/DC33G/05.png", "/anh1/DC33G/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một giải pháp tự động hóa giúp giải tỏa căng thẳng sinh lý và mang lại cảm giác thư giãn toàn thân chân thật nhất, Bao mát xa dương vật 5 điểm rung (DC33G) chính là sự lựa chọn tuyệt vời dành cho bạn.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm sở hữu kiểu dáng hiện đại với phần vỏ bao làm từ silicon y tế cao cấp, bề mặt mịn màng cực kỳ mượt mà khi tiếp xúc trực tiếp. Điểm đặc trưng trong thiết kế chính là cấu trúc tháo lắp thông minh, giúp ôm sát linh hoạt theo từng đường nét tự nhiên mà không gây áp lực hay căng tức. Từng chi tiết nhỏ đều được hoàn thiện tỉ mỉ nhằm tạo ra cảm giác êm ái, chân thật và dễ chịu nhất trong suốt quá trình trải nghiệm.</p>
@@ -12428,6 +12546,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC93D/01.jpg",
     images: ["/anh1/DC93D/01.jpg", "/anh1/DC93D/05.jpg", "/anh1/DC93D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một giải pháp thư giãn chuyên sâu vừa có thể chạm tới điểm G chính xác, vừa sở hữu công nghệ kết nối thông minh để giữ lửa tình yêu khi xa nhau? Dương vật rung ngoáy cao cấp Lovense Nora điều khiển qua app (DC93D) chính là câu trả lời hoàn hảo dành cho bạn nhờ sự kết hợp độc đáo giữa cơ chế xoay ngoáy điểm G và công nghệ điều khiển từ xa không giới hạn khoảng cách.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Thương hiệu: Lovense.</li><li>- Kích thước tổng thể: 240mm x 35mm (chiều dài sử dụng 120mm, tay cầm 80mm).</li><li>- Chất liệu cao cấp: Silicone y tế kháng khuẩn mềm như da thật kết hợp khung nhựa ABS siêu bền.</li><li>- Công nghệ xoay ngoáy điểm G: 3 mức độ xoay từ nhẹ nhàng đến chuyên sâu.</li><li>- Chế độ rung đa tầng: 7 tần số rung mạnh mẽ ở nhánh phụ kích thích âm vật đồng thời.</li><li>- Kết nối thông minh: Tương thích ứng dụng Lovense Remote (điều khiển từ xa không giới hạn, rung theo nhạc, đồng bộ đôi).</li><li>- Chuẩn chống nước: IPX6 an toàn khi vệ sinh dưới vòi nước và sử dụng trong nhà tắm.</li><li>- Dung lượng pin: Sạc từ tính USB trong 2.5 giờ, vận hành liên tục lên tới 4 giờ.</li></ul>
@@ -13061,6 +13180,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV43B/01.jpg",
     images: ["/anh1/DV43B/01.jpg", "/anh1/DV43B/08.jpg", "/anh1/DV43B/09.jpg", "/anh1/DV43B/10.jpg", "/anh1/DV43B/11.jpg", "/anh1/DV43B/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Thiết bị phù hợp cho phái đẹp hoặc các cặp đôi đang tìm kiếm giải pháp hỗ trợ sinh lý cá nhân an toàn, linh hoạt với cảm giác tiếp xúc mô phỏng cơ thể tự nhiên. Dương vật giả Dildo Realistic có thể uốn cong (DV43B) đến từ thương hiệu NV Toys (Hong Kong) đáp ứng đầy đủ tiêu chí về an toàn sinh học và khả năng tùy chỉnh góc độ tác động.</p>
 <h2>Vì sao nên chọn Dương vật giả Dildo Realistic có thể uốn cong (DV43B)</h2>
 <p>Điểm khác biệt cốt lõi của thiết bị nằm ở công nghệ lõi định hình linh hoạt ẩn bên trong lớp silicon y tế dẻo mịn. Khác với các dòng sản phẩm thân cứng cố định, DV43B cho phép người dùng chủ động điều chỉnh độ cong của thân máy theo nhu cầu sinh lý cá nhân, giúp đầu tiếp xúc dễ dàng tiếp cận và tác động chính xác vào vùng điểm G cũng như các điểm nhạy cảm bên trong thành âm đạo mà không gây áp lực ma sát thô ráp.</p>
@@ -13186,6 +13306,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV65A/01.jpg",
     images: ["/anh1/DV65A/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Kích thước sản phẩm: 15x 3,3cm</h2>
 <h2>Trọng lượng sản phẩm: 0,216kg</h2>
 <h2>Dây đeo : Hoàn toàn có thể điều chỉnh, Không chứa Phthalates,</h2>
@@ -13335,6 +13456,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BD10N/01.jpg",
     images: ["/anh1/BD10N/01.jpg", "/anh1/BD10N/05.jpg", "/anh1/BD10N/06.jpg", "/anh1/BD10N/07.jpg", "/anh1/BD10N/08.jpg", "/anh1/BD10N/09.jpg", "/anh1/BD10N/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Vòng treo dương vật Prettylove Sling</h2>
 <p>Chức năng :</p>
 <h2>Chức năng rung : 12</h2>
@@ -13391,6 +13513,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC39K/01.jpg",
     images: ["/anh1/DC39K/01.jpg", "/anh1/DC39K/06.jpg", "/anh1/DC39K/07.jpg", "/anh1/DC39K/08.jpg", "/anh1/DC39K/09.jpg", "/anh1/DC39K/10.jpg", "/anh1/DC39K/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả lưỡi Prettylove Antoine rung ngoáy</h2>
 <p>Chức năng : 12 chức năng rung, 4 chức năng xoay.</p>
 <h2>Sạc : 4 pin AAA</h2>
@@ -13415,6 +13538,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV30C/01.png",
     images: ["/anh1/DV30C/01.png", "/anh1/DV30C/05.png", "/anh1/DV30C/06.png", "/anh1/DV30C/07.png", "/anh1/DV30C/08.png", "/anh1/DV30C/09.png", "/anh1/DV30C/10.png"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả như thật rung thụt điều khiển từ xa chơi là sướng</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Đối tượng sử dụng: Nữ tự sướng, các cặp đôi.</li><li>– Tính năng: Kích thích âm vật, âm đạo, điểm G, giúp giải quyết nhu cầu sinh lý.</li></ul>
@@ -13448,6 +13572,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV72E/01.jpg",
     images: ["/anh1/DV72E/01.jpg", "/anh1/DV72E/08.jpg", "/anh1/DV72E/10.jpg", "/anh1/DV72E/12.jpg", "/anh1/DV72E/13.jpg", "/anh1/DV72E/14.jpg", "/anh1/DV72E/15.jpg", "/anh1/DV72E/16.jpg", "/anh1/DV72E/17.jpg", "/anh1/DV72E/18.jpg", "/anh1/DV72E/19.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả Leten Sucking Vibrator Photon rung sưởi ấm kích thích điểm G và hột le</p>
 <h2>Tăng gel Lenten</h2>
 <h2>Chất liệu : Silicon + ABS</h2>
@@ -13478,6 +13603,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV72D/01.png",
     images: ["/anh1/DV72D/01.png", "/anh1/DV72D/05.png", "/anh1/DV72D/06.png", "/anh1/DV72D/07.png", "/anh1/DV72D/08.png"],
+    sensitive: true,
     longDescription: `<p>Leten Dream Thrusting Vibrator rung thụt kết lợp lưỡi rung nhánh mềm mịn uốn cong Tặng kèm gel lenten.</p>
 <h2>Chất liệu : Silico + TPE</h2>
 <h2>Chức năng : Rung : 10 chế độ , Thụt: 10 tần số, Liếm</h2>
@@ -13512,6 +13638,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39K/01.jpg",
     images: ["/anh1/DV39K/01.jpg", "/anh1/DV39K/07.jpg", "/anh1/DV39K/08.jpg", "/anh1/DV39K/09.jpg", "/anh1/DV39K/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả lưỡi Prettylove Antoine rung ngoáy</h2>
 <p>Chức năng : 12 chức năng rung, 4 chức năng xoay.</p>
 <h2>Sạc : 4 pin AAA</h2>
@@ -13536,6 +13663,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC77Q/01.jpg",
     images: ["/anh1/DC77Q/01.jpg", "/anh1/DC77Q/07.jpg", "/anh1/DC77Q/08.jpg", "/anh1/DC77Q/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả Prettylove Easter Bunny</h2>
 <p>Chất liệu: ABS + Silicone y tế an toàn, mềm mịn.</p>
 <h2>Kích thước sản phẩm: 17cm x 3cm</h2>
@@ -13583,6 +13711,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD33V/01.png",
     images: ["/anh1/AD33V/01.png", "/anh1/AD33V/07.png", "/anh1/AD33V/08.png"],
+    sensitive: true,
     longDescription: `<h2>Máy bú dương vật Leten TurboJet- 20 siêu sướng Tặng kèm gel Lenten</h2>
 <h2>Chất liệu : ABS + TPE</h2>
 <p>Chức năng : Rung : 10 chế độ , rên, hút: 10 chế độ, thổi.</p>
@@ -15106,6 +15235,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54B/01.jpg",
     images: ["/anh1/DV54B/01.jpg", "/anh1/DV54B/07.jpg", "/anh1/DV54B/08.jpg", "/anh1/DV54B/09.jpg", "/anh1/DV54B/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả siêu khủng Lovetoy King size 11&quot;</h2>
 <p>- Tính năng: Kích thích điểm G, âm vật, giải uyết nhu cầu sinh lý hiệu quả</p>
 <h2>- Đối tượng: Nữ, chị em thích hàng khủng</h2>
@@ -15139,6 +15269,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54C/01.jpg",
     images: ["/anh1/DV54C/01.jpg", "/anh1/DV54C/08.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả size bự Lovetoy King size 10&quot;</h2>
 <p>- Tính năng: Kích thích điểm G, âm vật, giải uyết nhu cầu sinh lý hiệu quả</p>
 <h2>- Đối tượng: Nữ, chị em thích hàng khủng</h2>
@@ -15174,6 +15305,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV30E/01.jpg",
     images: ["/anh1/DV30E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật đa năng  siêu mềm, siêu khỏe rung thụt liếm điều khiển xa.</p>
 <h2>- Dùng cho nữ giới giải tỏa sinh lý</h2>
 <p>- Tính năng: rung, ngoáy, thụt nhiều cấp độ, tỏa nhiệt, bi xoay 360 độ, không thấm nước, có đế hít tường, điều khiển không dây</p>
@@ -15634,6 +15766,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60E/01.jpg",
     images: ["/anh1/DV60E/01.jpg", "/anh1/DV60E/07.jpg", "/anh1/DV60E/08.jpg", "/anh1/DV60E/09.jpg", "/anh1/DV60E/10.jpg", "/anh1/DV60E/13.jpg"],
+    sensitive: true,
     longDescription: `<p>Chức năng: Kích thích điểm G, giải tỏa sinh lý nữ hiệu quả, Rung, xoay, thụt, tỏa nhiệt, điều khiển từ xa.</p>
 <h2>Chất liệu: Silicone TPE mềm mại, không kích ứng da</h2>
 <h2>Kích thước sản phẩm: 23cm x 3,8cm</h2>
@@ -15662,6 +15795,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV74A/01.jpg",
     images: ["/anh1/DV74A/01.jpg", "/anh1/DV74A/05.jpg", "/anh1/DV74A/06.jpg", "/anh1/DV74A/07.jpg", "/anh1/DV74A/08.jpg", "/anh1/DV74A/09.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật ngựa ô khủng siêu mềm mịn như thật uốn được.</p>
 <h2>Chất liệu : TPE y tế</h2>
 <h2>Kích thước : 23x5 cm</h2>
@@ -15805,6 +15939,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC89A/01.jpg",
     images: ["/anh1/DC89A/01.jpg", "/anh1/DC89A/06.jpg", "/anh1/DC89A/07.jpg", "/anh1/DC89A/08.jpg", "/anh1/DC89A/09.jpg", "/anh1/DC89A/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật  đa năng  cao cấp svakom avery với chế độ rung thụt cực mạnh giúp cho bạn dễ dàng đạt được khoái cảm. Đầu rung kép có thể hoạt động riêng lẻ hoặc cùng lúc , 5 chế độ thụt kết hợp với 5 chế độ rung và tốc độ khác nhau đưa bạn đến những cảm xúc đê mê . Sản phẩm không thấm nước vì vậy bạn có thể mang đi bất cứ nơi đâu.</p>
 <p>Thông số kỹ thuật  :</p>
 <h2>Chất liệu: Silicone</h2>
@@ -15833,6 +15968,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC94/01.jpg",
     images: ["/anh1/DC94/01.jpg", "/anh1/DC94/05.jpg", "/anh1/DC94/06.jpg", "/anh1/DC94/07.jpg", "/anh1/DC94/08.jpg", "/anh1/DC94/09.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết dương vật giả rung ngoáy cánh thiên thần Michisio Nhật Bản</p>
 <p>- Chủng loại: dương vật giả, dương vật giả rung ngoáy.</p>
 <p>- Chức năng: rung, ngoáy.</p>
@@ -15867,6 +16003,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44Z/01.jpg",
     images: ["/anh1/DV44Z/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Chức năng: Rung thụt, lưỡi liếm kích thích điểm G</h2>
 <h2>Thể loại: Dương vật giả cầm tay</h2>
 <h2>Chất liệu: Silicone siêu mềm</h2>
@@ -15889,6 +16026,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44P/01.jpg",
     images: ["/anh1/DV44P/01.jpg", "/anh1/DV44P/05.jpg", "/anh1/DV44P/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương Vật Cao Cấp Cầm Tay Rung Thục Cực Đỉnh</h2>
 <p>Thông Số Kỹ Thuật:</p>
 <p>Tính năng chính:</p>
@@ -16698,6 +16836,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55P/01.jpg",
     images: ["/anh1/DV55P/01.jpg", "/anh1/DV55P/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Người dùng đang tìm kiếm giải pháp giải tỏa căng thẳng sinh lý và kích thích vùng chậu hiệu quả nhưng lo ngại các thiết bị massage thông thường chỉ tạo độ rung đơn điệu. Dương vật giả siêu mềm Lovetoy Rotator rung ngoáy điều khiển xa (mã sản phẩm DV55P) là thiết bị hỗ trợ sức khỏe sinh lý cao cấp, kết hợp cơ chế xoay ngoáy đa chiều cùng 10 tần số rung động và bộ điều khiển không dây, đáp ứng hoàn hảo nhu cầu thư giãn cá nhân hoặc tạo bước khởi động cho các cặp đôi.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu TPE 2 lớp chuẩn y tế: Cấu trúc mô phỏng mô cơ sinh học mềm mại, an toàn tuyệt đối cho da và bề mặt chống thấm nước.</p>
@@ -16916,6 +17055,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV74/01.png",
     images: ["/anh1/DV74/01.png", "/anh1/DV74/09.jpg", "/anh1/DV74/10.png", "/anh1/DV74/11.png", "/anh1/DV74/12.png"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng đồ chơi truyền thống nhờ cấu trúc hình học đặc thù mô phỏng dáng chó độc đáo, Dương vật chó siêu mềm mịn (DV74) là sản phẩm giải tỏa sinh lý và kích thích chuyên sâu thuần cơ học cho nữ giới. Thiết kế không động cơ giúp sản phẩm đạt độ bền vật lý vượt trội, không lo hỏng hóc linh kiện hay gián đoạn trải nghiệm do hết pin.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Độ bền vật lý tối ưu: Thiết kế vận hành cơ học không dùng động cơ hay pin, loại bỏ hoàn toàn rủi ro chập cháy linh kiện, kéo dài tuổi thọ sử dụng vượt trội.</p>
@@ -17283,6 +17423,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68B/01.jpg",
     images: ["/anh1/DC68B/01.jpg", "/anh1/DC68B/05.jpg", "/anh1/DC68B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các thiết bị tự động khó kiểm soát áp suất, Máy tập dương vật bơm tay cao cấp (DC68B) sử dụng hệ thống hút chân không cơ học kết hợp đồng hồ đo áp suất, cho phép người dùng chủ động điều chỉnh lực hút chính xác theo nhu cầu thể trạng. Đây là giải pháp hỗ trợ tập luyện cải thiện kích thước và tăng cường lưu thông máu an toàn, hiệu quả cho nam giới.</p>
 <h2>Vì sao nên chọn Máy tập dương vật bơm tay cao cấp (DC68B)</h2>
 <p>Thiết bị hoạt động dựa trên nguyên lý áp suất chân không cơ học, hỗ trợ kích thích lưu thông máu đến các mô cơ quan sinh dục nam. Với cơ chế bơm tay kết hợp vòng đệm silicone cao cấp đàn hồi tốt, sản phẩm đảm bảo độ kín khí tuyệt đối, giảm thiểu ma sát và tối ưu hóa lực hút mà không gây tổn thương mô mềm trong suốt quá trình tập luyện.</p>
@@ -17315,6 +17456,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68K/01.jpg",
     images: ["/anh1/DV68K/01.jpg", "/anh1/DV68K/05.jpg", "/anh1/DV68K/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một sản phẩm hỗ trợ đời sống cá nhân sở hữu kích thước ấn tượng cùng cảm giác chạm chân thực nhất để giải tỏa nhu cầu thầm kín? Dương vật siêu khủng siêu mềm Lovetoy 11&quot; Dual Layered Nature Cock XXL (DV68K) chính là giải pháp hoàn hảo với công nghệ silicone hai lớp độc đáo, mang đến trải nghiệm mềm mại bên ngoài nhưng vẫn giữ được độ chắc chắn bên trong.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Lovetoy</h2>
@@ -17632,6 +17774,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/HM06C/01.jpg",
     images: ["/anh1/HM06C/01.jpg", "/anh1/HM06C/06.jpg", "/anh1/HM06C/07.jpg", "/anh1/HM06C/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật hình trái khổ qua (HM06C) từ thương hiệu Baile là lựa chọn hoàn hảo cho những ai đang tìm kiếm trải nghiệm kích thích thô giáp, mới lạ và ưu tiên sản phẩm có độ bền cao, dễ dàng vệ sinh. Với kích thước 17cm x 3.5cm cùng trọng lượng 164g, thiết kế mô phỏng vỏ khổ qua độc đáo giúp tối ưu hóa cảm giác khi kích thích âm đạo, điểm G hay vùng hậu môn.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Tạo hình bề mặt gồ ghề: Cấu trúc gai nhấp nhô mô phỏng trái khổ qua tăng ma sát, chạm sâu tới điểm G và các vùng nhạy cảm.</li><li>- Đế gắn tường chắc chắn: Tích hợp chân đế cố định linh hoạt trên bề mặt nhẵn, giúp giải phóng hoàn toàn đôi tay khi sử dụng.</li><li>- Cơ chế hoạt động bền bỉ: Thiết kế không rung loại bỏ hoàn toàn linh kiện điện tử, giúp tăng tối đa tuổi thọ sản phẩm.</li><li>- Ứng dụng đa năng: Phù hợp cho nhu cầu kích thích âm đạo lẫn mát xa giải tỏa sinh lý vùng hậu môn.</li><li>- Khả năng chống nước tuyệt đối: Kết cấu nguyên khối cho phép tiếp xúc thoải mái với nước mà không lo hư hỏng.</li></ul>
@@ -18881,6 +19024,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/XTS10Z/01.jpg",
     images: ["/anh1/XTS10Z/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một giải pháp an toàn và hiệu quả để cải thiện phong độ, tăng cường sự tự tin cũng như kích thích phát triển kích thước &quot;cậu nhỏ&quot;, kem bôi Developpe Sex II (Mã XTS10Z) chính là lựa chọn đáng tin cậy dành cho bạn. Có xuất xứ từ Pháp với dung tích 50ml, sản phẩm sở hữu công thức thảo dược tự nhiên chứa Fenugreek Oil, Vitamin A, Allantoin giúp thúc đẩy lưu thông máu, hỗ trợ làm to dài dương vật và nâng cao khả năng cương cứng mạnh mẽ.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Nguồn gốc chính hãng từ Pháp: Dung tích 50ml, được trải qua quy trình nghiên cứu và kiểm nghiệm nghiêm ngặt, đảm bảo độ an toàn cao khi sử dụng.</p>
@@ -18913,6 +19057,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/XTS22A/01.jpg",
     images: ["/anh1/XTS22A/01.jpg", "/anh1/XTS22A/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Gel bôi Black Man từ Nga (mã XTS22A) là sản phẩm hỗ trợ nam giới cải thiện kích thước &quot;cậu nhỏ&quot; lên tới 40% và kéo dài thời gian quan hệ hiệu quả khi sử dụng trước 10 phút. Nhờ công thức lành tính đạt tiêu chuẩn kiểm định tại Nga, sản phẩm không gây tác dụng phụ, mang lại sự an tâm tuyệt đối và giúp phái mạnh lấy lại tự tin trong đời sống chăn gối.</p>
 <p>Vì sao nên chọn Gel bôi làm tăng kích thước dương vật Black Man từ Nga (XTS22A)</p>
 <p>Nếu bạn đang tìm kiếm một giải pháp cải thiện phong độ an toàn và không xâm lấn, gel bôi Black Man xuất xứ từ Nga chính là người bạn đồng hành lý tưởng. Điểm nổi bật nhất của dòng sản phẩm này chính là sự an toàn vượt trội, đã qua quá trình kiểm định chất lượng khắt khe và ghi nhận hoàn toàn không có tác dụng phụ. Với cơ chế giãn mạch tự nhiên, gel thúc đẩy lưu lượng máu đến các mô cơ thể hang, giúp &quot;cậu bé&quot; đạt được kích thước lý tưởng, duy trì sự cứng cáp và tăng cường khoái cảm cho cả hai trong mỗi cuộc yêu.</p>
@@ -19416,6 +19561,7 @@ export const products: Product[] = [
     features: ["Chính hãng, còn hạn sử dụng", "Đạt chuẩn kiểm định", "Đa dạng mẫu mã", "Đóng gói kín đáo"],
     icon: "ring",
     image: "https://vipsextoy.net/files/sanpham/2248/1.jpg",
+    sensitive: true,
   },
   {
     slug: "dc14q-bao-don-den-sieu-mong-nhieu-gai-tao-nhieu-khoai-cam-tinh-duc",
@@ -19466,6 +19612,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV03E/01.jpg",
     images: ["/anh1/DV03E/01.jpg", "/anh1/DV03E/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi các kích thước cố định thông thường không đáp ứng đủ nhu cầu cá nhân hóa hoặc hỗ trợ giải tỏa sinh lý hiệu quả, dương vật bơm hơi màu đen BAILE (DV03E) là giải pháp chăm sóc sức khỏe tình dục linh hoạt giúp điều chỉnh đường kính sản phẩm trực tiếp theo mong muốn người dùng. Với khả năng thay đổi kích cỡ linh hoạt nhờ hệ thống bóng bóp tiện lợi, sản phẩm đem lại sự thoải mái, an toàn và tối ưu trải nghiệm cá nhân.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Khả năng tùy chỉnh kích thước linh hoạt: Tích hợp hệ thống bóng bóp cơ học giúp người dùng chủ động bơm hơi làm tăng đường kính phần thân, tạo sự vừa vặn tối ưu với nhu cầu cá nhân.</p>
@@ -19531,6 +19678,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV15B/01.jpg",
     images: ["/anh1/DV15B/01.jpg", "/anh1/DV15B/05.jpg", "/anh1/DV15B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho những nữ giới đang tìm kiếm giải pháp massage xoa dịu nhu cầu sinh lý cá nhân và hỗ trợ chăm sóc sức khỏe vùng kín, thiết bị DV15B là dòng sản phẩm đa năng tích hợp cơ chế rung, xoay và thụt tự động linh hoạt. Với 8 tần số kết hợp 36 biến thể chuyển động cùng chất liệu silicone đạt chuẩn, sản phẩm mang lại liệu pháp thư giãn an toàn và hỗ trợ cân bằng nội tiết hiệu quả.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Đa dạng chế độ vận hành: Tích hợp 8 tần số rung ngoáy và 36 nấc biến thể chuyển động, cho phép điều chỉnh đa dạng theo nhu cầu thư giãn cá nhân.</p>
@@ -19635,6 +19783,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44M/01.jpg",
     images: ["/anh1/DV44M/01.jpg", "/anh1/DV44M/05.jpg", "/anh1/DV44M/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm dành riêng cho phái đẹp muốn tìm kiếm cảm giác chân thật tuyệt đối khi giải tỏa sinh lý và chăm sóc sức khỏe cá nhân. Dương vật cao cấp Joker DV44M từ thương hiệu Letten (Nhật Bản) tích hợp công nghệ uốn cong linh hoạt, khả năng tỏa nhiệt ấm áp đến 42°C cùng 7 chế độ rung êm ái dưới 40dB.</p>
 <p>Vì sao nên chọn DƯƠNG VẬT CAO CẤP JOKER SIÊU MỀM UỐN ĐƯỢC CÓ TỎA NHIỆT (DV44M)</p>
 <p>Joker DV44M đột phá với thiết kế gân nổi cộm và bao quy đầu mềm mại, đem lại sự tiếp xúc vô cùng tự nhiên. Khả năng uốn cong linh hoạt cho phép thiết bị chạm chính xác tới mọi điểm nhạy cảm theo ý muốn. Đặc biệt, tính năng sưởi ấm 42°C duy trì hơi ấm như làn da thật, kết hợp động cơ 7 chế độ rung giải tỏa nhanh căng thẳng và mang lại khoảnh khắc thư giãn đỉnh cao.</p>
@@ -19663,6 +19812,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD17B/01.jpg",
     images: ["/anh1/AD17B/01.jpg", "/anh1/AD17B/05.jpg", "/anh1/AD17B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu giải tỏa sinh lý an toàn và nâng cao chất lượng cuộc sống cá nhân ở nam giới ngày càng được quan tâm, đặc biệt khi các phương pháp truyền thống chưa mang lại cảm giác chân thực. Âm đạo giả tự động massage AD17B là thiết bị hỗ trợ sức khỏe sinh lý nam cao cấp từ Hồng Kông, tích hợp cơ chế xoay 5 chế độ kết hợp chức năng rung tự động, mang đến sự thư giãn chuyên sâu và đáp ứng tốt nhu cầu giải tỏa sinh lý hiệu quả.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chất liệu cao cấp: Thân máy cấu tạo từ nhựa ABS chắc chắn, phần lõi âm đạo làm bằng silicone y tế mềm mại, đảm bảo độ an toàn tối đa cho vùng da nhạy cảm.</p>
@@ -19876,6 +20026,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV73B/01.jpg",
     images: ["/anh1/DV73B/01.jpg", "/anh1/DV73B/05.jpg", "/anh1/DV73B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt lớn nhất của Dương vật giả rung thụt bú Penetrator (DV73B) so với các dòng thiết bị truyền thống là sự tích hợp đồng thời ba cơ chế cơ học độc lập: thụt tịnh tiến tự động, rung đa tần số và hút áp suất sóng âm. Sản phẩm được thiết kế chuyên biệt cho nhu cầu giải tỏa sinh lý nữ, hỗ trợ kích thích đồng thời cả điểm G lẫn âm vật nhờ cấu trúc hai nhánh tác động kép.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Dido</h2>
@@ -19980,6 +20131,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC60Q/01.jpg",
     images: ["/anh1/DC60Q/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới đang tìm kiếm giải pháp cải thiện thời gian quan hệ an toàn và tự nhiên, vòng đeo dương vật hình số 8 (DC60Q) là thiết bị hỗ trợ bằng silicone cao cấp giúp kiểm soát khả năng xuất tinh và duy trì sự bền bỉ cho phái mạnh.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu silicone mềm trong suốt đạt tiêu chuẩn an toàn cho sức khỏe cá nhân, tuyệt đối không gây kích ứng hay tổn thương da.</li><li>- Cấu trúc vòng kép hình số 8 thông minh, ôm sát gốc dương vật giúp duy trì khả năng cương cứng bền bỉ.</li><li>- Độ co giãn và đàn hồi cực cao, chịu lực tốt, giữ nguyên hình dạng sau nhiều lần tái sử dụng.</li><li>- Kích thước chuẩn 8.9cm x 2.5cm nhỏ gọn, dễ mang theo và thao tác nhanh chóng.</li><li>- Sản phẩm nhập khẩu Hồng Kông, hoàn thiện chỉn chu, đảm bảo chất lượng và sự bền bỉ.</li></ul>
@@ -20116,6 +20268,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV03/01.jpg",
     images: ["/anh1/DV03/01.jpg", "/anh1/DV03/05.jpg", "/anh1/DV03/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng đồ chơi truyền thống nhờ cơ chế bơm hơi linh hoạt thay đổi kích thước, dương vật giả DV03 sở hữu chức năng kép vừa rung vừa làm phình to giúp giải tỏa nhu cầu sinh lý hiệu quả. Sản phẩm xuất xứ Hong Kong, chế tạo từ chất liệu Silicone và Polymer cao cấp, đảm bảo an toàn tuyệt đối cho sức khỏe người dùng khi sử dụng cá nhân hoặc đôi lứa.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Cơ chế bơm hơi độc đáo: Cho phép tùy chỉnh làm phình to hoặc thu nhỏ kích cỡ phần thân dễ dàng theo mong muốn.</li><li>- Chế độ rung đa cấp: Tích hợp các nhịp rung linh hoạt giúp tăng cường kích thích và tạo cảm giác mới lạ.</li><li>- Kích thước chuẩn: Chiều dài 18.8 cm cùng đường kính 4.3 cm phù hợp với vóc dáng người Việt.</li><li>- Nguồn điện tiện lợi: Sử dụng 2 viên pin AAA dễ dàng thay thế, giúp bạn chủ động trong mọi trải nghiệm.</li></ul>
@@ -20144,6 +20297,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65D/01.jpg",
     images: ["/anh1/DC65D/01.jpg", "/anh1/DC65D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu tìm kiếm một thiết bị hỗ trợ tình dục cặp đôi vừa mang lại trải nghiệm chân thực cho người tiếp nhận, vừa tạo sự thỏa mãn đồng thời cho người đeo là bài toán khó của nhiều người dùng. Dương vật đai đeo 2 đầu có rung tuột da như thật (DC65D) từ thương hiệu Baile là giải pháp kỹ thuật chuyên dụng với thiết kế hai nhánh độc lập, cơ chế lớp da co giãn trượt linh hoạt cùng hệ thống rung điều chỉnh tốc độ, đáp ứng trọn vẹn nhu cầu giải tỏa sinh lý và tăng cường gắn kết.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Cấu trúc hai đầu chuyên biệt: Nhánh chính kích thước 16cm x 4cm (chiều dài sử dụng 13.5cm) phục vụ đối phương và nhánh phụ 10.5cm x 3cm (chiều dài sử dụng 9cm) tác động trực tiếp lên người đeo.</p>
@@ -20353,6 +20507,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV13/01.jpg",
     images: ["/anh1/DV13/01.jpg", "/anh1/DV13/05.jpg", "/anh1/DV13/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả rung ngoáy và điều chỉnh nhiệt độ DV13 là giải pháp giải tỏa sinh lý lý tưởng cho phái đẹp muốn tìm kiếm cảm giác chân thực nhờ công nghệ sưởi ấm 48 độ C kết hợp chuyển động xoay lắc đa chiều. Sản phẩm chế tạo từ polymer y tế an toàn, hỗ trợ kích thích sâu và mang lại sự thư giãn trọn vẹn cho vùng nhạy cảm.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Tính năng sưởi ấm thông minh lên tới 48 độ C, mô phỏng nồng ấm tự nhiên như nhiệt độ cơ thể người.</p>
@@ -20386,6 +20541,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/DC11B/01.jpg",
     images: ["/anh1/DC11B/01.jpg", "/anh1/DC11B/05.jpg", "/anh1/DC11B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng chất liệu mềm thông thường, máy rung niệu đạo nam DC11B sở hữu cấu tạo từ thép không gỉ cao cấp kết hợp nhựa ABS, mang lại độ bền vượt trội, khả năng tiệt trùng tối ưu và phản hồi lực rung sâu lắng. Đây là thiết bị hỗ trợ chăm sóc sinh lý nam giới chuyên sâu với 10 chế độ rung đa dạng cùng thiết kế chống thấm nước hoàn toàn.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC11B</h2>
@@ -20552,6 +20708,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68F/01.jpg",
     images: ["/anh1/DV68F/01.jpg", "/anh1/DV68F/06.jpg", "/anh1/DV68F/07.jpg", "/anh1/DV68F/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị cá nhân kích thước tiêu chuẩn, Dương vật Lovetoy siêu khủng có rung (DV68F) sở hữu đường kính ấn tượng lên tới 6.36cm kết hợp hệ thống rung đa tần số tích hợp qua bộ điều khiển rời. Sản phẩm chế tạo từ chất liệu Silicone PVC cao cấp cùng cấu trúc đế hút chân không bám dính chắc chắn, đáp ứng hiệu quả nhu cầu giải tỏa sinh lý cho phái đẹp.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Tên sản phẩm: Dương vật Lovetoy siêu khủng có rung (DV68F)</h2>
@@ -20591,6 +20748,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/PK018/01.jpg",
     images: ["/anh1/PK018/01.jpg", "/anh1/PK018/06.jpg", "/anh1/PK018/07.jpg", "/anh1/PK018/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn với các mẫu phụ kiện cố định thô cứng thông thường, Bộ đai đeo dương vật da cao cấp Lovetoy (PK018) sở hữu thiết kế siêu nhẹ chỉ 73g làm từ vải Polyester mềm mại kết hợp dây co giãn linh hoạt, giúp bạn dễ dàng gắn các loại dương vật giả và thoải mái vận động mà không hề có cảm giác gò bó.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Chào bạn, nếu bạn đang tìm kiếm một phụ kiện hỗ trợ vừa chắc chắn lại vừa dễ chịu cho làn da thì mẫu đai đeo Lovetoy PK018 chính là sự lựa chọn vô cùng tuyệt vời. Thương hiệu Lovetoy đã tối ưu hóa thiết kế với trọng lượng cực kỳ khiêm tốn chỉ 73g, ứng dụng chất liệu Polyester mềm mại, lành tính và hoàn toàn không gây kích ứng da. Điểm cộng lớn nhất nằm ở phần khóa dán mềm cùng hệ thống dây vải co giãn thông minh, cho phép tùy chỉnh kích thước vòng eo linh hoạt từ 60,1cm đến 142cm, ôm sát cơ thể một cách hoàn hảo mà vẫn giữ được sự êm ái.</p>
@@ -20619,6 +20777,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/PK010/01.jpg",
     images: ["/anh1/PK010/01.jpg", "/anh1/PK010/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Quần short gắn dương vật Lovetoy (PK010) là phụ kiện nội y chuyên dụng được thiết kế để hỗ trợ giữ cố định các thiết bị sinh lý hoặc phụ kiện đi kèm, đáp ứng nhu cầu chăm sóc sức khỏe tình dục an toàn cho cả nam và nữ. Với sự kết hợp giữa chất liệu vải thấm hút tốt và cấu trúc may chắc chắn, sản phẩm mang lại sự thoải mái tối đa cũng như đảm bảo độ bền bỉ trong suốt quá trình sử dụng lâu dài.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu vải cao cấp và thoáng khí: Cấu tạo từ 95% cotton tự nhiên kết hợp 5% spandex giúp bề mặt vải mềm mại, thấm hút mồ hôi hiệu quả và không gây bí bách cho làn da.</p>
@@ -20685,6 +20844,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC48E/01.jpg",
     images: ["/anh1/DC48E/01.jpg", "/anh1/DC48E/07.jpg", "/anh1/DC48E/08.jpg", "/anh1/DC48E/09.jpg", "/anh1/DC48E/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn là nam giới đang tìm kiếm một giải pháp an toàn để duy trì độ cương cứng, kéo dài thời gian yêu và mang lại trải nghiệm mới lạ cho bạn tình, thì vòng gai silicone đeo dương vật DC48E là lựa chọn vô cùng phù hợp. Đây là phụ kiện hỗ trợ sinh lý nam xuất xứ Hong Kong, được chế tạo từ silicone y tế TPE cao cấp nhằm gia tăng ma sát và trì hoãn xuất tinh một cách tự nhiên.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu đạt tiêu chuẩn y tế: Chế tạo từ silicone y tế TPE cao cấp, sản phẩm sở hữu đặc tính kháng khuẩn, mềm mại, hoàn toàn không gây kích ứng cho các vùng da nhạy cảm.</p>
@@ -20953,6 +21113,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DV36H/01.jpg",
     images: ["/anh1/DV36H/01.jpg", "/anh1/DV36H/08.jpg", "/anh1/DV36H/09.jpg", "/anh1/DV36H/10.jpg", "/anh1/DV36H/11.jpg", "/anh1/DV36H/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Búp bê bán thân nam kèm dương vật khủng (DV36H) là lựa chọn tối ưu cho nữ giới và người dùng đồng tính nam (Gay), đặc biệt là người mới bắt đầu nhờ thiết kế bán thân gọn nhẹ, dễ thao tác và lưu trữ. Với chất liệu silicone nguyên khối an toàn có kích thước dương vật 17cm x 4.5cm, sản phẩm giải quyết triệt để nhu cầu trải nghiệm thực tế mà không gây chiếm diện tích hay khó khăn trong quá trình bảo quản.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu an toàn: Được chế tạo từ silicone nguyên khối cao cấp, mềm mại, lành tính và có độ bền cơ học cao trong quá trình sử dụng.</p>
@@ -21147,6 +21308,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44X/01.jpg",
     images: ["/anh1/DV44X/01.jpg", "/anh1/DV44X/05.jpg", "/anh1/DV44X/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả rung thụt cầm tay có sưởi ấm Aimersie (DV44X) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ, được thiết kế để kích thích âm đạo và điểm G nhờ cơ chế thụt tự động, rung 7 tần số cùng tính năng tỏa nhiệt ấm áp như cơ thể thật.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Thương hiệu chính hãng: Sản phẩm Aimersie chính hãng, xuất xứ Hồng Kông với tiêu chuẩn hoàn thiện cao.</p>
@@ -21182,6 +21344,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44K/01.jpg",
     images: ["/anh1/DV44K/01.jpg", "/anh1/DV44K/05.jpg", "/anh1/DV44K/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật đa năng rung thụt ngoáy Lovingworld (DV44K) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ cao cấp, được thiết kế để giải tỏa nhu cầu cá nhân nhờ cơ chế xoay thụt tự động kết hợp nhánh rung kích thích điểm G và điểm nhạy cảm bên ngoài. Sản phẩm đáp ứng đầy đủ các tiêu chuẩn an toàn y tế, vận hành bằng pin sạc Lithium hiện đại và cung cấp nhiều chế độ điều khiển linh hoạt.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Cơ chế vận hành đa chức năng: Tích hợp 3 tốc độ xoay thụt với hành trình thò thụt 2.5cm, kết hợp 2 vòng bi xoay nội bộ và 7 tần số rung ở nhánh thỏ phụ.</p>
@@ -21217,6 +21380,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV26C/01.jpg",
     images: ["/anh1/DV26C/01.jpg", "/anh1/DV26C/05.jpg", "/anh1/DV26C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một phương pháp giải tỏa nhu cầu sinh lý vừa mang lại cảm giác chân thật như bạn đời, vừa tuyệt đối an toàn cho vùng nhạy cảm? Dương vật giả da nâu mềm mại tuột da lên xuống Baile (DV26C) là giải pháp hoàn hảo sở hữu chất liệu silicone 2 lớp đạt chuẩn kiểm định an toàn, tích hợp cơ chế tuột da độc đáo giúp kích thích sâu vùng điểm G và đem lại sự thăng hoa trọn vẹn.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Baile</h2>
@@ -21254,6 +21418,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV73A/01.jpg",
     images: ["/anh1/DV73A/01.jpg", "/anh1/DV73A/05.jpg", "/anh1/DV73A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật giả đa năng rung thụt bú mút sưởi ấm (DV73A) là giải pháp hỗ trợ sinh lý toàn diện rất phù hợp cho những ai đang tìm kiếm trải nghiệm giải tỏa nhu cầu cá nhân đa chức năng, kết hợp đồng thời khả năng thụt tự động, kích thích điểm G, bú mút điểm nhạy cảm ngoại vi cùng tính năng tỏa nhiệt 42 độ C chân thực.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu an toàn: Cấu tạo từ Silicone kết hợp nhựa ABS cao cấp, đạt chuẩn lành tính, mang lại cảm giác êm ái và an toàn tuyệt đối cho làn da nhạy cảm.</p>
@@ -21290,6 +21455,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV69A/01.jpg",
     images: ["/anh1/DV69A/01.jpg", "/anh1/DV69A/05.jpg", "/anh1/DV69A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả đa sắc Lovetoy Prider 7&quot; (DV69A) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ cơ học (không sử dụng động cơ rung), được thiết kế với độ cong sinh học giúp kích thích điểm G và giải tỏa nhu cầu cá nhân một cách nhẹ nhàng, an toàn.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu silicone bạch kim y tế cao cấp, tuyệt đối an toàn cho làn da nhạy cảm, kháng khuẩn, chống bám bẩn và có độ bền cao.</li><li>- Kích thước chuẩn xác 18.5cm x 3.2-3.6cm cùng trọng lượng nhẹ 200g, phù hợp với vóc dáng phụ nữ Á Đông.</li><li>- Thiết kế mô phỏng đường gân nổi tinh tế kết hợp độ uốn dẻo linh hoạt, giúp cọ xát tự nhiên và chính xác vào điểm G.</li><li>- Chân đế hút chân không bám dính chắc chắn trên bề mặt phẳng, hỗ trợ trải nghiệm rảnh tay linh hoạt.</li><li>- Cơ chế cơ học không rung giúp người dùng hoàn toàn chủ động kiểm soát nhịp độ và không gây ra tiếng ồn.</li></ul>
@@ -21318,6 +21484,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65Q/01.jpg",
     images: ["/anh1/DC65Q/01.jpg", "/anh1/DC65Q/07.jpg", "/anh1/DC65Q/08.jpg", "/anh1/DC65Q/09.jpg", "/anh1/DC65Q/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt lớn nhất của dương vật giả Lovetoy (DC65Q) so với các dòng thông thường là cấu trúc tháo rời linh hoạt giữa phần thân TPE đặc ruột và đai đeo da PU cao cấp, giúp tối ưu độ bền vượt trội cùng khả năng vệ sinh dễ dàng. Sản phẩm là giải pháp hỗ trợ sinh lý không rung chuyên dụng, đem lại trải nghiệm chân thực, an toàn và bền bỉ theo thời gian.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Lovetoy DC65Q sở hữu phần thân làm từ chất liệu silicone TPE mềm mại, khả năng uốn cong linh hoạt nhưng vẫn giữ được độ săn chắc nhờ cấu trúc đặc ruột. Kích thước chuẩn 18cm x 3.6cm với các đường gân nổi mô phỏng chân thực, tăng khả năng tiếp xúc và kích thích. Đi kèm là đai đeo làm bằng da PU cao cấp bền bỉ, không lo bong tróc, trang bị khóa dán tùy chỉnh linh hoạt phù hợp cho vòng bụng từ 61cm đến 142cm. Nhờ thiết kế tách rời thông minh, người dùng có thể dễ dàng tháo rời phần thân để chùi rửa và bảo quản, giữ cho chất liệu luôn mới và kéo dài tuổi thọ sản phẩm.</p>
@@ -21346,6 +21513,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68G/01.jpg",
     images: ["/anh1/DV68G/01.jpg", "/anh1/DV68G/05.jpg", "/anh1/DV68G/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả cao cấp Lovetoy size khủng (DV68G) là sản phẩm hỗ trợ sinh lý nữ chuyên biệt, dùng để kích thích điểm G, tăng cường khoái cảm âm đạo và giải tỏa nhu cầu cá nhân hiệu quả. Với kích thước lớn 27cm x 5.3cm cùng chất liệu silicone 2 lớp chắc chắn, sản phẩm mang lại cảm giác lấp đầy chân thực và độ bền vượt trội qua thời gian.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Lovetoy</h2>
@@ -21382,6 +21550,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68H/01.jpg",
     images: ["/anh1/DV68H/01.jpg", "/anh1/DV68H/05.jpg", "/anh1/DV68H/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho phụ nữ mới bắt đầu tìm hiểu thiết bị hỗ trợ cá nhân hoặc người muốn tìm kiếm cảm giác chân thực an toàn tại nhà, dương vật giả Lovetoy Cumming (DV68H) là dòng sản phẩm không rung cao cấp tích hợp tính năng mô phỏng xuất tinh bằng bóng bóp cơ học tiện lợi. Thiết bị giúp giải tỏa nhu cầu sinh lý nữ một cách nhẹ nhàng, dễ kiểm soát và tự nhiên.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Lovetoy</h2>
@@ -21928,6 +22097,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68B/01.jpg",
     images: ["/anh1/DV68B/01.jpg", "/anh1/DV68B/05.jpg", "/anh1/DV68B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với người mới bắt đầu tìm kiếm một thiết bị hỗ trợ cá nhân đơn giản, không phức tạp về kỹ thuật và dễ thao tác, sản phẩm Dương vật Lovetoy da đen 2 lớp tuột da như thật (DV68B) là sự lựa chọn tối ưu. Đây là dòng sản phẩm thiết kế cơ học hoàn toàn, mô phỏng cấu trúc mô cơ thể thực tế với lớp da TPE trượt linh hoạt và chân đế cố định tiện lợi.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Cấu trúc da 2 lớp linh hoạt: Lớp da TPE bên ngoài có khả năng co giãn và trượt lên xuống cơ học, tạo chuyển động tự nhiên mà không cần điều khiển bằng mạch điện.</p>
@@ -22029,6 +22199,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DV55M/01.jpg",
     images: ["/anh1/DV55M/01.jpg", "/anh1/DV55M/05.jpg", "/anh1/DV55M/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng đồ chơi truyền thống nhờ thiết kế trong suốt như pha lê, sản phẩm Dương vật silicon trong suốt Lovetoy (DV55M) là thiết bị hỗ trợ sinh lý đúc nguyên khối từ chất liệu TPE đạt chuẩn an toàn sức khỏe tuyệt đối. Sản phẩm đáp ứng nhu cầu giải tỏa sinh lý lành mạnh, mang lại cảm giác chân thật và tự nhiên cho người sử dụng.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu TPE cao cấp: Thân thiện với làn da, không chứa hóa chất độc hại, đạt chuẩn an toàn sức khỏe khi tiếp xúc trực tiếp.</p>
@@ -22061,6 +22232,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://vipsextoy.net/files/sanpham/2151/1.jpg",
+    sensitive: true,
   },
   {
     slug: "bd47-bao-don-size-nho-co-quay-deo-nhanh-tho",
@@ -22205,6 +22377,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/DC79N/01.jpg",
     images: ["/anh1/DC79N/01.jpg", "/anh1/DC79N/07.jpg", "/anh1/DC79N/08.jpg", "/anh1/DC79N/09.jpg", "/anh1/DC79N/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật 2 đầu trong suốt Lovetoy DC79N là thiết bị hỗ trợ tình dục cao cấp chuyên dùng cho các cặp đôi nữ (LES) hoặc cá nhân muốn trải nghiệm cảm giác kích thích kép cùng lúc. Với chiều dài 30 cm, đường kính 3.5 cm từ chất liệu TPE mềm dẻo, sản phẩm mang đến sự gắn kết chân thực và thăng hoa trọn vẹn.</p>
 <h2>Ưu điểm chính</h2>
 <ul><li>- Thiết kế hai đầu xuyên thấu: Dáng thân trong suốt độc đáo, cho phép kết nối hai người đồng thời hoặc linh hoạt sử dụng cá nhân.</li><li>- Chất liệu TPE cao cấp: Bề mặt êm ái, độ đàn hồi cao, dễ dàng uốn cong theo mọi góc độ mà không biến dạng.</li><li>- Kích thước chuẩn xác: Chiều dài 30 cm và đường kính 3.5 cm đáp ứng tốt nhu cầu giải tỏa và tạo sự thoải mái khi sử dụng.</li><li>- Chống thấm nước tuyệt đối: Thiết kế đúc nguyên khối không động cơ, an toàn tuyệt đối khi dùng trong môi trường ẩm ướt.</li><li>- Vệ sinh nhanh chóng: Không chứa linh kiện điện tử, giúp việc làm sạch sau khi dùng trở nên đơn giản và bền bỉ.</li></ul>
@@ -22274,6 +22447,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/XTS10/01.jpg",
     images: ["/anh1/XTS10/01.jpg", "/anh1/XTS10/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Kem bôi làm to dương vật DeveloppeSex (XTS10) là giải pháp chăm sóc nam khoa cao cấp dành cho nam giới muốn cải thiện kích thước cậu nhỏ và kéo dài thời gian quan hệ một cách an toàn, tự nhiên. Sản phẩm sở hữu công nghệ thẩm thấu thảo dược tiên tiến từ Pháp, hỗ trợ kích thích mô tế bào và tăng cường lưu thông máu vùng nhạy cảm mà không cần can thiệp phẫu thuật.</p>
 <p>Vì sao nên chọn Kem bôi làm to dương vật, kéo dài thời gian xuất tinh DeveloppeSex (XTS10)</p>
 <p>DeveloppeSex (XTS10) ứng dụng công nghệ điều chế sinh học từ Pháp với chất kem mỏng nhẹ, giúp thẩm thấu tối đa vào từng tế bào mô vùng nhạy cảm. Công thức chiết xuất 100% thảo dược thiên nhiên thúc đẩy tuần hoàn máu và kích thích sự phát triển mô tự nhiên. Dòng kem này không chỉ hỗ trợ cải thiện kích thước từ 2-4cm sau 2-4 tuần sử dụng đều đặn mà còn tích hợp khả năng kiểm soát độ nhạy cảm, giúp nam giới chống xuất tinh sớm và chủ động thời gian cuộc yêu.</p>
@@ -22913,6 +23087,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC60G/01.jpg",
     images: ["/anh1/DC60G/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với quý ông đang tìm kiếm giải pháp đơn giản, dễ tiếp cận để hỗ trợ kéo dài thời gian quan hệ và gia tăng sự thăng hoa cho cả hai, Bộ 3 vòng bi đeo dương vật DC60G là sự lựa chọn hỗ trợ cá nhân linh hoạt và tiện lợi. Sản phẩm bao gồm 3 vòng đeo bằng chất liệu silicon y tế mềm mại với kích thước lần lượt là 1.8 cm, 2 cm và 2.1 cm, giúp tạo lực thắt nhẹ nhàng để hạn chế xuất tinh sớm, đồng thời gia tăng cọ xát kích thích điểm G của người phụ nữ.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu silicon y tế an toàn: Chất liệu siêu mềm, đạt chuẩn an toàn sức khỏe cá nhân, co giãn tốt và không gây kích ứng da, mang lại cảm giác dễ chịu ngay cả với người mới bắt đầu.</p>
@@ -23239,6 +23414,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC60X/01.jpg",
     images: ["/anh1/DC60X/01.jpg", "/anh1/DC60X/05.jpg", "/anh1/DC60X/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Vòng đeo dương vật Rope Ring độc đáo (DC60X) của thương hiệu CHISA là giải pháp hỗ trợ sức khỏe sinh lý lý tưởng dành cho nam giới muốn duy trì sự dẻo dai, hỗ trợ kiểm soát tình trạng xuất tinh sớm và nâng cao chất lượng đời sống đôi lứa. Sản phẩm được chế tác từ chất liệu silicon y tế cao cấp với thiết kế dây thừng độc đáo, mang lại khả năng tái sử dụng bền bỉ và đảm bảo an toàn tuyệt đối cho làn da nhạy cảm.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu silicon y tế cao cấp: Đạt tiêu chuẩn an toàn sức khỏe, mềm dẻo, không gây kích ứng da và sở hữu độ bền cơ học vượt trội qua nhiều lần sử dụng.</p>
@@ -23429,6 +23605,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BD10B/01.jpg",
     images: ["/anh1/BD10B/01.jpg", "/anh1/BD10B/05.jpg", "/anh1/BD10B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn với các dòng vòng đeo đơn hay bao bọc kín thông thường, khóa đôi CHISA BD10B sở hữu thiết kế hở hai đầu thông minh kết hợp quai kép ôm sát gốc, giúp tăng độ dày tự nhiên và duy trì độ cứng bền bỉ mà vẫn giữ trọn cảm xúc tiếp xúc da thịt chân thật nhất. Sản phẩm là giải pháp hỗ trợ nam giới gia tăng kích thước tức thì, kéo dài thời gian sung sức và mang lại hưng phấn mãnh liệt cho đối phương.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu TPE cao cấp: Đảm bảo độ êm ái, co giãn linh hoạt, màu sắc trong suốt tinh tế và an toàn tuyệt đối cho làn da nhạy cảm.</p>
@@ -23566,6 +23743,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC48A/01.jpg",
     images: ["/anh1/DC48A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Vòng đeo dương vật gai bi lông SexBy (DC48A) là phụ kiện hỗ trợ sức khỏe tình dục được thiết kế nhằm giúp nam giới duy trì độ cương cứng, kéo dài thời gian quan hệ, đồng thời tăng cường sự kích thích vật lý cho đối phương nhờ cấu tạo bề mặt đặc biệt. Sản phẩm hoạt động theo cơ chế thắt nhẹ đơn giản, rất dễ sử dụng và cực kỳ phù hợp cho những ai mới bắt đầu tìm hiểu về các dòng vòng hỗ trợ cá nhân.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm đến từ thương hiệu SexBy (Hồng Kong) được chế tạo hoàn toàn từ chất liệu silicone y tế mềm mại, không mùi và an toàn lành tính với làn da nhạy cảm. Cấu trúc của vòng DC48A nổi bật với sự kết hợp linh hoạt giữa các chi tiết bi, gai và sợi lông silicon mềm trên bề mặt. Với đặc tính không thấm nước cùng khả năng co giãn linh hoạt, chiếc vòng này mang lại sự thoải mái tối đa khi đeo, giúp quá trình thao tác tháo lắp hay vệ sinh sau khi dùng trở nên vô cùng nhanh chóng và tiện lợi.</p>
@@ -23594,6 +23772,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC70M/01.jpg",
     images: ["/anh1/DC70M/01.jpg", "/anh1/DC70M/05.jpg", "/anh1/DC70M/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều nam giới gặp khó khăn trong việc duy trì thời gian quan hệ và mong muốn tìm kiếm một giải pháp mang lại cảm giác săn chắc, kích thích mạnh mẽ hơn. Vòng hợp kim đeo dương vật DC70M là phụ kiện hỗ trợ sức khỏe sinh lý nam cao cấp, được đúc từ hợp kim nguyên khối nặng 170g - 192g, giúp thắt nhẹ vùng gốc để duy trì độ cương cứng, kéo dài thời gian và tạo sức ép vật lý đằm tay, mát lạnh đầy khác biệt trong suốt cuộc yêu.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Hỗ trợ kéo dài thời gian: Cơ chế ôm siết nhẹ nhàng tại gốc dương vật hoặc vùng bìu giúp hạn chế máu rút về sớm, từ đó cải thiện thời gian quan hệ và ngăn ngừa tình trạng xuất tinh sớm.</p>
@@ -23772,6 +23951,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC60F/01.jpg",
     images: ["/anh1/DC60F/01.jpg", "/anh1/DC60F/05.jpg", "/anh1/DC60F/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bộ vòng đeo dương vật giúp kéo dài thời gian yêu (DC60F) là giải pháp hỗ trợ tuyệt vời dành cho nam giới đang gặp vấn đề về xuất tinh sớm hoặc mong muốn nâng cao sự bền bỉ trong mỗi cuộc yêu. Sản phẩm sở hữu thiết kế 3 vòng dính kết làm từ silicone y tế an toàn, hoạt động theo cơ chế thắt nhẹ nhàng ở gốc dương vật và bìu để duy trì trạng thái cương cứng, trì hoãn thời gian xuất tinh và mang lại sự tự tin tối đa cho phái mạnh.</p>
 <h2>Thông số kỹ thuật</h2>
 <p>- Tên sản phẩm: Bộ vòng đeo dương vật giúp kéo dài thời gian yêu (DC60F)</p>
@@ -23839,6 +24019,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC70Q/01.jpg",
     images: ["/anh1/DC70Q/01.jpg", "/anh1/DC70Q/05.jpg", "/anh1/DC70Q/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Để khắc phục tình trạng xuất tinh sớm và nâng cao chất lượng đời sống lứa đôi một cách an toàn, nhiều nam giới tìm kiếm các giải pháp hỗ trợ sinh lý lành tính không dùng thuốc. Vòng đeo dương vật inox 4 bi (DC70Q) là thiết bị hỗ trợ sức khỏe cá nhân cao cấp được chế tạo từ hợp kim thép không gỉ, giúp nam giới duy trì độ cương cứng, kiểm soát thời gian quan hệ và gia tăng kích thích tự nhiên cho đối phương.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC70Q</h2>
@@ -24210,6 +24391,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/BD10E/01.jpg",
     images: ["/anh1/BD10E/01.jpg", "/anh1/BD10E/12.jpg", "/anh1/BD10E/13.jpg", "/anh1/BD10E/14.jpg", "/anh1/BD10E/15.jpg", "/anh1/BD10E/16.jpg", "/anh1/BD10E/17.jpg", "/anh1/BD10E/18.jpg", "/anh1/BD10E/19.jpg", "/anh1/BD10E/20.jpg"],
+    sensitive: true,
     longDescription: `<p>Bộ đôn silicon nối dài dương vật - Endurance Sets (BD10E) từ thương hiệu JEUSN là bộ phụ kiện cao cấp dùng để gia tăng kích thước chiều dài một cách tự nhiên và nâng cao khoái cảm trong mỗi cuộc yêu. Với thiết kế linh hoạt gồm 2 bao đôn silicon êm ái (7cm x 4cm) cùng 1 vòng gai kích thích đi kèm, sản phẩm giúp nam giới nhanh chóng lấy lại sự tự tin và mang đến cho bạn đời cảm giác lấp đầy chân thực, thăng hoa.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Bộ sản phẩm 3 trong 1 đa năng: Trọn bộ gồm 2 bao đôn nối dài (kích thước 7cm x 4cm, đường kính trong 2.5cm) mang thiết kế khác nhau cùng 1 vòng gai 4cm, giúp bạn dễ dàng thay đổi trải nghiệm qua mỗi lần sử dụng.</p>
@@ -24564,6 +24746,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV10/01.jpg",
     images: ["/anh1/DV10/01.jpg", "/anh1/DV10/05.jpg", "/anh1/DV10/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng máy massage cầm tay truyền thống, Dương vật giả rung đeo ngón tay (DV10) sở hữu thiết kế xỏ ngón linh hoạt giúp người dùng dễ dàng chủ động điều phối lực chạm và tiếp cận chính xác các điểm nhạy cảm. Đây là thiết bị chăm sóc sức khỏe sinh lý cá nhân sở hữu kích thước chuẩn 14.2cm x 3cm, được nghiên cứu vừa vặn với cơ địa phụ nữ Châu Á.</p>
 <h2>Vì sao nên chọn Dương vật giả rung đeo ngón tay (DV10)</h2>
 <p>Sản phẩm mang đến cảm giác tiếp xúc chân thực và êm ái nhờ lớp silicone y tế cao cấp bao bọc bên ngoài, kết hợp cùng các đường gân gờ tinh tế trên bề mặt. Thiết kế đeo ngón tay độc đáo giúp loại bỏ cảm giác vướng víu, cho phép bạn điều hướng chuyển động một cách tự nhiên và nhịp nhàng nhất. Bên cạnh khả năng rung giải tỏa căng thẳng sinh lý, DV10 còn hỗ trợ kích thích tuần hoàn, điều hòa nội tiết và mang lại sự tự tin, thư thái cho phái đẹp.</p>
@@ -24633,6 +24816,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44A/01.jpg",
     images: ["/anh1/DV44A/01.jpg", "/anh1/DV44A/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng đồ chơi người lớn thông thường chỉ có chức năng rung đơn thuần, dương vật đa năng DV44A tích hợp công nghệ thụt xoay kết hợp tính năng sưởi ấm điều chỉnh nhiệt độ chân thực như cơ thể người. Đây là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cao cấp, mang lại trải nghiệm thư giãn toàn diện, êm ái và tự nhiên nhất cho chị em.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu Polymer y tế bền bỉ: Được làm từ Polymer y tế cao cấp theo công nghệ Nhật Bản, đạt độ bền cao, kháng khuẩn tự nhiên, ít bám bụi và hoàn toàn an toàn cho làn da nhạy cảm.</p>
@@ -24667,6 +24851,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54N/01.jpg",
     images: ["/anh1/DV54N/01.jpg", "/anh1/DV54N/05.jpg", "/anh1/DV54N/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị hỗ trợ thông thường nhờ kích thước siêu khủng dài đến 42cm cùng tạo hình độc đáo, Dương Vật Ngựa Siêu Khủng (DV54N) là sản phẩm chăm sóc sức khỏe sinh lý cá nhân dành riêng cho nữ giới muốn tìm kiếm cảm giác mới lạ và giải tỏa nhu cầu hiệu quả. Sản phẩm được chế tác hoàn toàn từ chất liệu silicone cao cấp đã qua kiểm định, đảm bảo sự an toàn tuyệt đối cho vùng nhạy cảm.</p>
 <h2>Vì sao nên chọn Dương Vật Ngựa Siêu Khủng (DV54N)</h2>
 <p>Nếu bạn đang muốn tìm kiếm một giải pháp tự chăm sóc bản thân với cảm giác chân thực nhưng vẫn đặt yếu tố an toàn sức khỏe lên hàng đầu, DV54N là lựa chọn rất đáng cân nhắc. Điểm cộng lớn nhất của sản phẩm nằm ở chất liệu silicone cao cấp đạt tiêu chuẩn y tế, mềm mại và lành tính cho làn da. Kết hợp cùng kiểu dáng gân nổi ấn tượng và khả năng chống nước 100%, sản phẩm mang đến sự an tâm tối đa trong suốt quá trình sử dụng cũng như khâu vệ sinh hàng ngày.</p>
@@ -24702,6 +24887,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39C/01.jpg",
     images: ["/anh1/DV39C/01.jpg", "/anh1/DV39C/05.jpg", "/anh1/DV39C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>PrettyLove Will (DV39C) là dòng máy massage kích thích điểm G kiêm điểm nhạy cảm bên ngoài hoàn hảo dành riêng cho những cô nàng mới bắt đầu làm quen với đồ chơi người lớn hoặc yêu thích sự gọn nhẹ, tinh tế. Sở hữu kiểu dáng nhỏ nhắn cùng 30 chế độ rung siêu mạnh mẽ, sản phẩm giúp phái đẹp dễ dàng giải tỏa nhu cầu sinh lý và tận hưởng những khoảnh khắc thư giãn tuyệt vời nhất.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: PrettyLove</h2>
@@ -24739,6 +24925,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44G/01.jpg",
     images: ["/anh1/DV44G/01.jpg", "/anh1/DV44G/05.jpg", "/anh1/DV44G/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho phụ nữ đang tìm kiếm một thiết bị hỗ trợ sinh lý an toàn tuyệt đối và mang lại trải nghiệm chân thật, dương vật silicon DV44G là giải pháp massage cao cấp tích hợp 12 chế độ rung cùng khả năng sưởi ấm 42°C vượt trội. Sản phẩm đạt đầy đủ tiêu chuẩn kiểm định an toàn Châu Âu, bảo vệ tối đa sức khỏe vùng nhạy cảm cho người sử dụng.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật silicon DV44G được chế tạo từ chất liệu silicone y tế cao cấp, cam kết không mùi, không độc hại và hoàn toàn không chứa chất gây ảnh hưởng đến sức khỏe. Sản phẩm đến từ thương hiệu Letten (Nhật Bản), đáp ứng các tiêu chuẩn kiểm định an toàn nghiêm ngặt của Châu Âu. Bề mặt sản phẩm đạt độ mềm mịn tối ưu, khả năng uốn dẻo linh hoạt kết hợp đường nét siêu gân tinh tế, mang lại sự êm ái và an toàn tuyệt đối cho làn da mỏng manh.</p>
@@ -24767,6 +24954,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV52A/01.jpg",
     images: ["/anh1/DV52A/01.jpg", "/anh1/DV52A/05.jpg", "/anh1/DV52A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một thiết bị hỗ trợ nhu cầu sinh lý vừa đem lại cảm giác kích thích chân thực, vừa đảm bảo tiêu chuẩn vệ sinh tuyệt đối và có độ bền lâu dài? Dương Vật Giả Thủy Tinh (DV52A) là giải pháp chăm sóc sức khỏe cá nhân cao cấp, giúp giải tỏa căng thẳng và kích thích điểm G hiệu quả cho cả nam lẫn nữ.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Cấu trúc gân sóng nổi: Thân sản phẩm tạo hình các dải sóng gia tăng ma sát, mang lại cảm giác kích thích mạnh mẽ và mới lạ.</li><li>- Kích thước tối ưu: Chiều dài 20,5 cm cùng đường kính 2,3 cm giúp thao tác dễ dàng, thích hợp cho cả khu vực âm đạo lẫn hậu môn.</li><li>- Độ cứng ổn định: Chất liệu cứng cáp cho lực tác động rõ ràng, hỗ trợ tiếp cận chính xác các điểm kích thích.</li><li>- Hoàn toàn không mùi: Không chứa chất phụ gia gây mùi khó chịu, đảm bảo an toàn cho vùng da sensitive.</li><li>- Ứng dụng linh hoạt: Thiết kế đa năng phục vụ hiệu quả cho nhu cầu massage và thư giãn cá nhân của cả hai giới.</li></ul>
@@ -24798,6 +24986,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44S/01.jpg",
     images: ["/anh1/DV44S/01.jpg", "/anh1/DV44S/05.jpg", "/anh1/DV44S/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả Evo Mars rung thụt liếm sưởi ấm (DV44S) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ chuyên sâu, được thiết kế để giải tỏa nhu cầu sinh lý cá nhân thông qua cơ chế kích thích đa điểm kết hợp giữa chuyển động thụt tự động, xoay liếm điểm G và tỏa nhiệt sưởi ấm chân thực.</p>
 <p>Vì sao nên chọn Dương vật giả Evo Mars rung thụt liếm sưởi ấm- chiến binh sao hỏa (DV44S)</p>
 <p>Điểm vượt trội ở Evo Mars nằm ở khả năng tái tạo cảm giác tiếp xúc tự nhiên nhờ tích hợp công nghệ gia nhiệt chủ động, giúp mô phỏng chính xác nhiệt độ cơ thể người. Kết hợp cùng chất liệu silicone y tế mềm mịn và các đường gân nổi tinh tế, sản phẩm mang lại sự êm ái, giảm thiểu tối đa độ ma sát gây khó chịu trong quá trình sử dụng. Nhánh liếm bên ngoài với 5 tốc độ điều chỉnh linh hoạt tác động trực tiếp vào vùng nhạy cảm, phối hợp nhịp nhàng với nhịp thụt ra vào bên trong, mang đến trải nghiệm thư giãn sâu sắc và đáp ứng trọn vẹn sự hài lòng về mặt sinh lý.</p>
@@ -24826,6 +25015,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58M/01.jpg",
     images: ["/anh1/DV58M/01.jpg", "/anh1/DV58M/05.jpg", "/anh1/DV58M/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Mini Siêu Mềm (DV58M) thương hiệu Lovetoy là lựa chọn lý tưởng dành cho phái đẹp mới bắt đầu trải nghiệm sản phẩm hỗ trợ sức khỏe sinh lý hoặc những ai tìm kiếm kích thước nhỏ gọn, vừa vặn với cơ địa người Á Đông. Sản phẩm được chế tạo từ chất liệu silicone cao cấp siêu mềm, thiết kế không rung tự nhiên, chống nước 100% và trang bị chân đế hút chân không tiện lợi cho việc sử dụng linh hoạt.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV58M</h2>
@@ -24863,6 +25053,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55D/01.jpg",
     images: ["/anh1/DV55D/01.jpg", "/anh1/DV55D/05.jpg", "/anh1/DV55D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật Lovetoy Real Softee (mã DV55D) là thiết bị hỗ trợ giải tỏa nhu cầu sinh lý cá nhân dành cho nữ giới và các cặp đôi đồng tính nữ, được thiết kế mô phỏng chi tiết cấu trúc tự nhiên với phần chân đế hít tường chắc chắn. Sản phẩm mang lại trải nghiệm tiếp xúc êm ái nhờ chất liệu silicone cao cấp, hỗ trợ tập luyện hoặc tự chăm sóc sức khỏe tình dục an toàn tại nhà.</p>
 <p>Vì sao nên chọn Dương vật Lovetoy Real Softee siêu mềm dài 10 in (23cm) với 10 tần số rung (DV55D)</p>
 <p>Sản phẩm ghi điểm nhờ thiết kế mô phỏng hình dáng tự nhiên với các đường gân nổi tinh tế, đem lại cảm giác chân thực và kích thích rõ rệt trong quá trình di chuyển. Phần đế hút chân không đường kính 7cm có khả năng bám dính chắc chắn trên các bề mặt phẳng như gạch men hay kính, giúp người dùng linh hoạt thay đổi tư thế và chủ động điều chỉnh góc độ sử dụng theo nhu cầu cá nhân.</p>
@@ -24899,6 +25090,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC50B/01.jpg",
     images: ["/anh1/DC50B/01.jpg", "/anh1/DC50B/05.jpg", "/anh1/DC50B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật tự động rung thụt điều khiển xa DC50B là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân cao cấp, giúp giải tỏa nhu cầu thư giãn an toàn và mang lại cảm giác chân thực nhờ tích hợp chế độ rung, thụt tự động kết hợp sưởi ấm nhiệt độ cơ thể. Sản phẩm được thiết kế tối ưu với tính năng điều khiển từ xa vô cùng dễ thao tác, rất thích hợp cho những người mới bắt đầu trải nghiệm.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Chất liệu: Silicone y tế cao cấp, bề mặt mềm mịn, an toàn cho da.</li><li>- Kích thước: Đường kính 3.8 cm, hành trình chuyển động thụt 3.5 cm.</li><li>- Chế độ vận hành: 10 tần số rung kết hợp 10 chế độ thụt tự động linh hoạt.</li><li>- Tính năng đặc biệt: Tự động tỏa nhiệt sưởi ấm lên tới 45°C, chân đế gắn tường hút chắc chắn, điều khiển từ xa tiện lợi.</li><li>- Chuẩn chống nước: Kháng nước tuyệt đối 100%.</li><li>- Cổng sạc: Sạc pin chân nam châm chống thấm nước qua cổng USB.</li></ul>
@@ -24929,6 +25121,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65K/01.jpg",
     images: ["/anh1/DC65K/01.jpg", "/anh1/DC65K/05.jpg", "/anh1/DC65K/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng sản phẩm thông thường, Dương vật đai đeo Lovetoy rỗng ruột (DC65K) sở hữu thiết kế rỗng lòng độc đáo giúp bao bọc và hỗ trợ tăng kích thước trực tiếp cho phái mạnh, kết hợp đai đeo Unisex linh hoạt phù hợp cho cả nam và nữ. Sản phẩm được chế tác từ chất liệu an toàn đạt tiêu chuẩn y tế, đem lại sự tự tin trọn vẹn và giải pháp cải thiện trải nghiệm riêng tư cho các cặp đôi.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chất liệu đạt tiêu chuẩn y tế: Sử dụng TPE/Silicone cao cấp siêu mềm mịn, không chứa chất độc hại, đảm bảo an toàn tuyệt đối và không gây kích ứng cho vùng da nhạy cảm.</p>
@@ -24962,6 +25155,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV27D/06.jpg",
     images: ["/anh1/DV27D/06.jpg", "/anh1/DV27D/07.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu tìm kiếm giải pháp giải tỏa sinh lý an toàn, giải phóng đôi tay và tối ưu hóa khả năng kích thích điểm G tại nhà là lý do nhiều phụ nữ quan tâm đến các thiết bị hỗ trợ chuyên dụng. Dương vật giả dán tường rung ngoáy Barbara (DV27D) là sản phẩm hỗ trợ sức khỏe sinh lý cá nhân cao cấp từ thương hiệu Baile, tích hợp đế hút chân không chắc chắn cùng cơ chế rung ngoáy điều chỉnh linh hoạt, mang lại trải nghiệm thư giãn tự nhiên và trọn vẹn.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu Silicone TPR và nhựa ABS cao cấp, bề mặt mềm mại, độ đàn hồi cao, an toàn tuyệt đối cho làn da nhạy cảm.</li><li>- Kích thước chuẩn phom dáng châu Á (15cm x 3.5cm) kết hợp đường cong sinh học và hệ gân gờ hỗ trợ tiếp cận sâu vùng điểm G.</li><li>- Đế hút chân không bám dính chắc chắn trên bề mặt phẳng, hỗ trợ cố định thiết bị để sử dụng linh hoạt ở nhiều góc độ.</li><li>- Bộ điều khiển dây nối tiện lợi với 1 chế độ rung ngoáy cho phép tùy chỉnh tốc độ mạnh nhẹ tùy theo nhu cầu.</li><li>- Trọng lượng vừa phải 212g cùng thiết kế phần đệm gốc đầy đặn, tạo cảm giác va chạm êm ái và chân thực khi trải nghiệm.</li></ul>
@@ -24994,6 +25188,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01P/01.jpg",
     images: ["/anh1/DV01P/01.jpg", "/anh1/DV01P/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon rung ngoáy DV01P là giải pháp chăm sóc sức khỏe sinh lý cá nhân lý tưởng dành cho phụ nữ độc thân hoặc các cặp đôi muốn hâm nóng tình cảm. Sản phẩm làm từ silicon cao cấp đạt chuẩn an toàn cho da, kết hợp tính năng rung và xoay ngoáy đa chiều giúp giải tỏa nhu cầu hiệu quả và kín đáo.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV01P</h2>
@@ -26334,6 +26529,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/BI-014788/01.jpg",
     images: ["/anh1/BI-014788/01.jpg", "/anh1/BI-014788/16.jpg", "/anh1/BI-014788/18.jpg", "/anh1/BI-014788/19.jpg", "/anh1/BI-014788/20.jpg", "/anh1/BI-014788/21.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với những người mới bắt đầu tìm hiểu thiết bị hỗ trợ sức khỏe cá nhân và ưu tiên sự đơn giản khi thao tác, Dương vật giả Rung, Liếm Pretty Love (BI-014788) là sự lựa chọn phù hợp nhờ tích hợp hai cơ chế chuyển động rung và liếm trong một thiết kế thân thiện, dễ sử dụng.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Pretty Love</h2>
@@ -26367,6 +26563,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV02A/01.jpg",
     images: ["/anh1/DV02A/01.jpg", "/anh1/DV02A/05.jpg", "/anh1/DV02A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Phù hợp cho phái nữ muốn giải tỏa nhu cầu sinh lý cá nhân hoặc các cặp đôi tìm kiếm trải nghiệm mới lạ trong khúc dạo đầu, Dương vật giả Siêu mềm Rung Thụt Tỏa nhiệt (DV02A) là thiết bị chăm sóc sức khỏe cá nhân cao cấp xuất xứ từ Hồng Kông. Sản phẩm sở hữu tính năng rung thụt tự động, tích hợp khả năng sưởi ấm 42 độ C cùng chất liệu silicon an toàn, mang đến sự thư giãn và thăng hoa hiệu quả.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật giả DV02A chế tạo từ chất liệu silicon cao cấp siêu mềm màu da, không gây kích ứng và hoàn toàn an toàn cho vùng da nhạy cảm. Với kích thước 4cm x 22cm, sản phẩm mô phỏng đường nét tinh tế như phần đầu khấc rõ ràng, đường gân nổi ấn tượng và bầu săn chắc. Đặc biệt, lớp silicon chất lượng cao cho khả năng chống bám bẩn tốt, cực kỳ dễ dàng vệ sinh sạch sẽ bằng nước hoặc dung dịch dịu nhẹ. Kết hợp chân đế hút chân không chắc chắn giúp cố định linh hoạt trên bề mặt phẳng, đảm bảo độ bền bỉ và tuổi thọ sử dụng lâu dài theo thời gian.</p>
@@ -26683,6 +26880,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/PK015/01.jpg",
     images: ["/anh1/PK015/01.jpg", "/anh1/PK015/05.jpg", "/anh1/PK015/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt lớn nhất của đai đeo Lovetoy (PK015) so với các bộ đai dính liền thông thường chính là khả năng tách rời linh hoạt, cho phép bạn tùy chọn kết hợp với nhiều phụ kiện khác nhau nhờ vòng đeo đường kính 4cm tiện lợi. Đến từ thương hiệu Lovetoy, sản phẩm giúp bạn dễ dàng điều chỉnh vừa vặn theo vóc dáng, đồng thời sở hữu độ bền vượt trội cùng khả năng vệ sinh vô cùng đơn giản trong quá trình sử dụng lâu dài.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Đai đeo Lovetoy PK015 được chế tác từ chất liệu da cao cấp kết hợp cùng hệ thống dây chun co giãn linh hoạt, mang lại sự êm ái khi tiếp xúc với da và độ chịu lực đáng tin cậy. Tông màu đen nhã nhặn kết hợp cùng đường nét tối giản giúp đai vừa thẩm mỹ vừa duy trì được vẻ mới đẹp theo thời gian. Nhờ chất liệu da bền bỉ, sản phẩm rất dễ lau chùi và bảo quản sau mỗi lần sử dụng; bạn chỉ cần vệ sinh đúng cách là đai sẽ luôn giữ được độ đàn hồi và độ sáng đẹp như mới mà không lo bong tróc.</p>
@@ -26749,6 +26947,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54M/01.jpg",
     images: ["/anh1/DV54M/01.jpg", "/anh1/DV54M/05.jpg", "/anh1/DV54M/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon siêu khủng - Thổ dân Tây Phi (DV54M) là thiết bị hỗ trợ sinh lý nữ cá nhân chuyên dùng để kích thích sâu âm đạo và điểm G, đáp ứng nhu cầu trải nghiệm dòng sản phẩm có kích thước lớn. Sản phẩm sở hữu chiều dài tổng thể 35cm (chiều dài khả dụng 30cm) cùng đường kính 5,5cm, được đúc nguyên khối từ chất liệu silicone TPE mềm dẻo và có khả năng chống thấm nước 100%.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Kích thước kỹ thuật: Chiều dài tổng thể 35cm, chiều dài sử dụng 30cm và đường kính rộng 5,5cm.</p>
@@ -26785,6 +26984,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39H/01.jpg",
     images: ["/anh1/DV39H/01.jpg", "/anh1/DV39H/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu giải tỏa sinh lý cá nhân hoặc làm mới đời sống tình cảm đôi lứa một cách riêng tư đòi hỏi các thiết bị hỗ trợ phải đạt chuẩn an toàn và sở hữu tính năng đa dạng. Dương vật giả mini PrettyLove Dorathy (mã DV39H) là dòng sản phẩm hỗ trợ sức khỏe sinh lý nữ cao cấp, kết hợp đồng thời công nghệ rung đa tần, cơ chế thụt tự động cùng nhánh kích thích phụ bên ngoài.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: PrettyLove</h2>
@@ -27057,6 +27257,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dv44e/01.webp",
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị hỗ trợ kích thước lớn thông thường, dương vật giả Leten DV44E sở hữu kiểu dáng gọn nhẹ linh hoạt với chiều dài sử dụng 10.5cm và đường kính 3.2cm, là giải pháp chăm sóc sức khỏe sinh lý cá nhân an toàn, tiện lợi và vô cùng dễ thao tác dành cho người mới bắt đầu. Sản phẩm tích hợp 5 chế độ rung chuyển đổi cùng khả năng chống thấm nước tuyệt đối, đáp ứng nhu cầu giải tỏa sinh lý hiệu quả mọi lúc mọi nơi.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Thiết kế nhỏ gọn với tổng chiều dài 18.5cm, chiều dài sử dụng 10.5cm và đường kính 3.2cm, rất phù hợp với cơ địa phụ nữ Á Đông và thuận tiện bỏ túi mang theo.</p>
@@ -27299,6 +27500,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS20B/01.jpg",
     images: ["/anh1/MS20B/01.jpg", "/anh1/MS20B/05.jpg", "/anh1/MS20B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các thiết bị rung đơn thuần truyền thống, dương vật silicon cao cấp MS20B từ thương hiệu Baile tích hợp đồng thời cơ chế rung, ngoáy và thụt tự động kết hợp nhánh phụ kích thích bên ngoài, mang lại giải pháp hỗ trợ sinh lý toàn diện và tiện lợi.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật silicon MS20B sở hữu kích thước tổng thể 27cm x 3.5cm, kèm theo nhánh kích thích phụ dài 7.6cm. Sản phẩm được chế tạo từ chất liệu silicon cao cấp kết hợp nhựa ABS an toàn cho sức khỏe cá nhân, mang lại bề mặt mềm mịn và êm ái. Toàn bộ thiết bị có tông màu tím hiện đại, đạt tiêu chuẩn chống thấm nước 100% giúp việc sử dụng và làm sạch trở nên đơn giản. MS20B vận hành bằng pin sạc qua chân cắm USB tiện lợi, trang bị đèn LED hiển thị trạng thái và bảng điều khiển phím bấm tối giản, hỗ trợ tối đa cho người mới thao tác dễ dàng.</p>
@@ -27363,6 +27565,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC88H/01.jpg",
     images: ["/anh1/DC88H/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị giải tỏa thông thường chỉ hỗ trợ khả năng rung đơn điệu, dương vật giả rung thụt cao cấp Dora (DC88H) từ thương hiệu EASYLOVE Nhật Bản kết hợp nhịp nhàng giữa cơ chế thụt tự động bền bỉ và các chế độ rung đa tốc độ, giúp chăm sóc nhu cầu sinh lý nữ một cách trọn vẹn, tự nhiên và thăng hoa nhất.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Công nghệ vận hành đôi: Tích hợp đồng thời chức năng rung đa dạng và thụt tự động linh hoạt, dễ dàng tùy chỉnh tăng giảm tốc độ theo sở thích cá nhân.</p>
@@ -27783,6 +27986,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65F/01.jpg",
     images: ["/anh1/DC65F/01.jpg", "/anh1/DC65F/05.jpg", "/anh1/DC65F/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang lo lắng vì chưa mang lại sự viên mãn trọn vẹn cho bạn đời do kích thước khiêm tốn hoặc khó kiểm soát thời gian cuộc yêu? Dương vật dây đeo rỗng ruột size nhỏ cho nam (DC65F) từ thương hiệu Baile chính là giải pháp hỗ trợ hoàn hảo, giúp phái mạnh tăng kích thước tức thì, kéo dài thời gian quan hệ và lấy lại sự tự tin một cách nhẹ nhàng, dễ sử dụng nhất.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC65F</h2>
@@ -27823,6 +28027,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC65U/01.jpg",
     images: ["/anh1/DC65U/01.jpg", "/anh1/DC65U/05.jpg", "/anh1/DC65U/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật dây đeo rỗng ruột có rung DC65U được sử dụng để hỗ trợ nam giới tăng kích thước tức thì, kéo dài thời gian quan hệ và hỗ trợ các trường hợp yếu sinh lý hay xuất tinh sớm. Sản phẩm được chế tạo hoàn toàn từ chất liệu đạt chuẩn y tế, đảm bảo độ an toàn tuyệt đối cho sức khỏe làn da người dùng.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Thiết kế rỗng ruột 2/3: Giúp ôm sát cậu nhỏ, tạo cảm giác chân thật và hỗ trợ tăng kích thước hiệu quả.</li><li>- Đầu rung kích thích: Thiết kế 1/3 phần đầu cứng cáp tích hợp bộ phận rung giúp gia tăng khoái cảm tối đa.</li><li>- Bộ điều khiển linh hoạt: Dễ dàng điều chỉnh các chế độ rung từ nhẹ đến mạnh theo ý muốn.</li><li>- Dây đeo co giãn thông minh: Chất liệu da phối chun co giãn tốt, phù hợp linh hoạt với nhiều kích cỡ vòng bụng.</li><li>- Mô phỏng gân sóng tự nhiên: Tăng độ ma sát, tạo điểm nhấn nam tính và chân thực khi chuyển động.</li></ul>
@@ -27853,6 +28058,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65V/01.jpg",
     images: ["/anh1/DC65V/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật dây đeo rỗng ruột rung đầu (DC65V) thương hiệu Baile là giải pháp hỗ trợ sinh lý chuyên biệt dành cho nam giới gặp khó khăn về khả năng duy trì độ cương, xuất tinh sớm hoặc các cặp đôi mong muốn nâng cao chất lượng đời sống phòng the. Sản phẩm kết hợp cấu trúc rỗng ruột nâng đỡ cùng cơ chế rung tập trung ở đầu, mang lại sự tự tin và cảm giác thoải mái trong suốt quá trình sử dụng.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Baile (Hồng Kong)</h2>
@@ -27892,6 +28098,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC65C/01.jpg",
     images: ["/anh1/DC65C/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật dây đeo rỗng ruột có rung Blackman (DC65C) là sản phẩm hỗ trợ tăng kích thước chiều dài, cải thiện độ cứng và kéo dài thời gian cho nam giới, giúp phái đẹp dễ dàng đạt được sự thăng hoa. Với thiết kế rỗng ruột thông minh kết hợp cùng hệ thống dây đeo ôm sát và bộ điều khiển rung tùy chỉnh, sản phẩm mang đến giải pháp nâng cao chất lượng cuộc yêu một cách tự nhiên và an toàn.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Hỗ trợ kích thước và phong độ: Thiết kế rỗng ruột giúp phái mạnh gia tăng chiều dài lên tới 17.3 cm và đường kính 4.1 cm, hỗ trợ duy trì sự cứng cáp và tự tin bền bỉ.</p>
@@ -27953,6 +28160,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC64B/01.jpg",
     images: ["/anh1/DC64B/01.jpg", "/anh1/DC64B/05.jpg", "/anh1/DC64B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon Tease mỏ vịt (DC64B) thương hiệu Baile là thiết bị hỗ trợ giải tỏa sinh lý cá nhân dành cho nữ giới, được thiết kế để kích thích điểm G âm đạo và âm vật nhờ cơ chế rung kết hợp với cấu trúc đầu uốn cong dạng mỏ vịt.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Thiết kế đầu mỏ vịt tối ưu: Cấu trúc đầu uốn cong dạng mỏ vịt hỗ trợ tiếp cận chính xác vùng điểm G âm đạo và kích thích các điểm nhạy cảm phía ngoài.</p>
@@ -27987,6 +28195,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC61B/01.jpg",
     images: ["/anh1/DC61B/01.jpg", "/anh1/DC61B/05.jpg", "/anh1/DC61B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một giải pháp thư giãn toàn thân có khả năng tác động đồng thời lên nhiều điểm nhạy cảm để giải tỏa căng thẳng hiệu quả, bộ mát xa cao cấp Dương vật giả kèm 2 trứng rung có kẹp ngực (DC61B) từ thương hiệu Baile chính là lựa chọn tuyệt vời dành cho bạn. Sản phẩm là thiết bị massage đa năng kết hợp giữa thanh thâm nhập chuyên sâu điểm G và hệ thống trứng rung kẹp ngực, mang lại cảm giác thư thái toàn diện và chân thật nhất.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Bộ mát xa đa năng DC61B của Baile gây ấn tượng bởi sự hoàn thiện chỉn chu với trọng lượng 268g vừa vặn, tạo cảm giác đầm tay và dễ dàng điều khiển. Toàn bộ bề mặt sản phẩm được gia công từ chất liệu Polymer cao cấp nhẵn mịn, có độ cứng vừa phải nhằm đảm bảo sự êm ái và an toàn tuyệt đối cho những vùng da nhạy cảm. Thanh rung thâm nhập có kích thước 17,5 x 2,5 cm kết hợp cùng cặp trứng rung kẹp ngực kích thước 5,5 x 2,5 cm nhỏ gọn. Thiết bị hoạt động nhờ 2 viên pin tiểu 1.5V tiện lợi và sở hữu khả năng chống thấm nước 100%, giúp bạn luôn an tâm trong suốt quá trình trải nghiệm cũng như làm sạch.</p>
@@ -28237,6 +28446,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/DC57X/01.jpg",
     images: ["/anh1/DC57X/01.jpg", "/anh1/DC57X/05.jpg", "/anh1/DC57X/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Vòng khóa dương vật DC57X là thiết bị hỗ trợ sinh lý dành cho nam giới gặp khó khăn trong việc kiểm soát thời gian quan hệ hoặc muốn gia tăng cảm giác săn chắc khi sử dụng. Sản phẩm hoạt động theo cơ chế vật lý giúp giữ lượng máu lưu thông tại vùng gốc, hỗ trợ duy trì độ cứng cáp và kéo dài thời gian xuất tinh hiệu quả.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Vòng khóa dương vật DC57X được cấu tạo từ 5 vòng tròn chất liệu thép không gỉ cao cấp kết hợp cùng hệ thống dây da chắc chắn. Sự liên kết giữa kim loại kiên cố và dây da có độ dẻo êm giúp cố định sản phẩm chắc chắn tại vị trí sử dụng. Thiết kế phân bổ lực ép đồng đều quanh thân, mang lại cảm giác ôm siết tự nhiên, chân thật mà không gây cản trở các chuyển động thực tế.</p>
@@ -28265,6 +28475,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/DC57Q/01.jpg",
     images: ["/anh1/DC57Q/01.jpg", "/anh1/DC57Q/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Trái ngược với các loại roi da truyền thống chỉ có tay cầm đơn giản, Roi da chuôi dương vật cực độc (DC57Q) sở hữu thiết kế đột phá kết hợp giữa phần chuôi cầm hình dương vật kích thước 18cm x 4cm và phần tua roi dài, chế tạo từ chất liệu PVC và PU đạt tiêu chuẩn an toàn cho da. Sản phẩm được sử dụng để kích thích giác quan, gia tăng cảm giác hưng phấn và hỗ trợ các cặp đôi nhanh chóng đạt trạng thái thăng hoa trong trải nghiệm thân mật.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC57Q</h2>
@@ -28363,6 +28574,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC55D/05.jpg",
     images: ["/anh1/DC55D/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một giải pháp giải tỏa sinh lý hiệu quả và mang lại cảm giác thăng hoa chân thực như khi có bạn đời bên cạnh? Dương vật đa năng Nalone Idol Plus (DC55D) chính là thiết bị hỗ trợ sinh lý nữ cao cấp từ thương hiệu Nalone, tích hợp đồng thời 4 chức năng rung, thụt, xoay và liếm giúp kích thích toàn diện cả âm đạo lẫn điểm G và âm vật.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Chuyển động thụt tự động nhịp nhàng với độ dãi cử động lên đến 5cm, tái hiện sống động cảm giác thâm nhập sâu và chạm tới điểm G đầy đặn.</p>
@@ -28502,6 +28714,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC50G/01.jpg",
     images: ["/anh1/DC50G/01.jpg", "/anh1/DC50G/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật tự động cầm tay DC50G là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ, được thiết kế để giải quyết nhu cầu giải tỏa sinh lý và kích thích các điểm nhạy cảm nhờ cơ chế chuyển động rung và thụt tự động. Sản phẩm sử dụng nguồn điện cắm trực tiếp 110V - 220V, cung cấp lực nhấp ổn định với 5 chế độ tùy chỉnh linh hoạt cho người sử dụng.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC50G</h2>
@@ -28638,6 +28851,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC38B/01.jpg",
     images: ["/anh1/DC38B/01.jpg", "/anh1/DC38B/05.jpg", "/anh1/DC38B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu giải tỏa sinh lý rảnh tay hoặc nâng cao trải nghiệm cho các cặp đôi đồng tính nữ đòi hỏi một thiết bị hỗ trợ linh hoạt và cố định chắc chắn. Sản phẩm Dương vật giả có dây đeo DC38B là thiết bị massage sinh lý làm từ polymer và silicone y tế cao cấp, tích hợp hệ thống dây đeo điều chỉnh, nhánh phụ kích thích bên ngoài cùng bộ điều khiển nối dây với nhiều chế độ rung tùy chọn.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC38B</h2>
@@ -28816,6 +29030,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC30A/01.jpg",
     images: ["/anh1/DC30A/01.jpg", "/anh1/DC30A/05.jpg", "/anh1/DC30A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho phụ nữ đang tìm kiếm một thiết bị chăm sóc sức khỏe sinh lý cá nhân đa năng, bền bỉ và dễ dàng làm sạch, trứng rung đôi Inox hình dương vật (DC30A) là dòng sản phẩm hỗ trợ kích thích điểm G và vùng nhạy cảm nhờ cấu trúc hai đầu phát sóng rung linh hoạt. Thiết bị sử dụng chất liệu nhựa ABS mạ inox kết hợp silicone y tế cao cấp, đảm bảo tính vệ sinh tối đa cùng khả năng bảo quản lâu dài.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Cấu tạo hai đầu linh hoạt: Đầu rung hình dương vật (15.2cm x 3.2cm) hỗ trợ tác động sâu bên trong và đầu rung bầu dục nhỏ (6.5cm x 2.6cm) giúp massage các điểm nhạy cảm bên ngoài.</p>
@@ -28950,6 +29165,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC14F/11.jpg",
     images: ["/anh1/DC14F/11.jpg", "/anh1/DC14F/12.jpg", "/anh1/DC14F/13.jpg", "/anh1/DC14F/14.jpg", "/anh1/DC14F/15.jpg", "/anh1/DC14F/16.jpg", "/anh1/DC14F/17.jpg", "/anh1/DC14F/18.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều nam giới thường cảm thấy thiếu tự tin vì kích thước khiêm tốn hoặc mong muốn tìm kiếm một giải pháp đơn giản để làm mới đời sống đôi lứa. Bao cao su đôn dên DC14F của thương hiệu Baile là dòng sản phẩm hỗ trợ tăng chiều dài thêm 6cm, kết hợp chế độ rung đầu độc đáo giúp cánh mày râu dễ dàng trải nghiệm cảm giác mới mẻ ngay từ lần đầu sử dụng.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Bao cao su đôn dên DC14F được thiết kế tối giản nhằm mang lại sự tiện lợi cao nhất cho người dùng mới. Sản phẩm có chiều dài tổng thể 18cm, đường kính 2cm cùng trọng lượng 120g vừa vặn, giúp việc mang vào hay tháo ra diễn ra rất mượt mà. Được nhập khẩu từ Hồng Kông bởi hãng Baile, sản phẩm sử dụng chất liệu nhựa dẻo TPR (Thermoplastic Rubber) cao cấp với đặc tính mềm mại, màu sắc chân thật như làn da tự nhiên và độ co giãn tốt. Điểm nhấn của DC14F nằm ở bộ động cơ rung mini gắn tại phần đầu bao, vận hành bằng 2 viên pin LR1130 phổ biến, cho thao tác khởi động nhanh chóng mà không cần các bước cài đặt cầu kỳ.</p>
@@ -29144,6 +29360,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC05A/01.jpg",
     images: ["/anh1/DC05A/01.jpg", "/anh1/DC05A/05.jpg", "/anh1/DC05A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm dương vật silicon nhún nhảy trên đệm hơi (DC05A) được sử dụng để hỗ trợ massage cá nhân và giải tỏa nhu cầu sinh lý nữ giới hiệu quả thông qua chuyển động thụt tịnh tiến kết hợp chế độ rung đa tần số. Với thiết kế đệm hơi chịu lực và bộ điều khiển đơn giản, đây là giải pháp chăm sóc sức khỏe tình dục tiện lợi, rất dễ tiếp cận và thao tác cho người mới bắt đầu.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC05A</h2>
@@ -29532,6 +29749,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV72A/01.jpg",
     images: ["/anh1/DV72A/01.jpg", "/anh1/DV72A/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một thiết bị chăm sóc sức khỏe cá nhân cao cấp vừa tích hợp công nghệ rung thụt tự động, vừa đảm bảo tiêu chuẩn an toàn tuyệt đối cho làn da nhạy cảm? Dương vật rung thụt sưởi ấm Leten strong thrusting vibrator (DV72A) chính là giải pháp hoàn hảo đáp ứng trọn vẹn nhu cầu thư giãn chuyên sâu với chất liệu đạt chuẩn kiểm định y tế.</p>
 <p>Vì sao nên chọn Dương vật rung thụt sưởi ấm Leten strong thrusting vibrator (DV72A)</p>
 <p>Dương vật rung thụt sưởi ấm Leten strong thrusting vibrator (DV72A) chinh phục người dùng nhờ chất liệu cao cấp an toàn sinh học tuyệt đối cùng hiệu năng vận hành mạnh mẽ. Thiết kế góc cong 23.5 độ tối ưu hóa điểm tiếp xúc, kết hợp chức năng sưởi ấm lan tỏa giúp mang lại cảm giác dễ chịu, chân thực. Từng chi tiết sản phẩm được chế tạo tỉ mỉ từ nhà máy Leten, cam kết không mùi, không tác dụng phụ và dịu nhẹ cho mọi làn da.</p>
@@ -29570,6 +29788,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV70A/01.jpg",
     images: ["/anh1/DV70A/01.jpg", "/anh1/DV70A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nam giới có kích thước &quot;cậu nhỏ&quot; khiêm tốn, gặp tình trạng yếu sinh lý hoặc xuất tinh sớm là đối tượng phù hợp nhất với Dương vật dây đeo rỗng ruột (DV70A) từ thương hiệu Aphorodisia. Đây là thiết kế bọc ngoài rỗng ruột chuyên biệt, giúp tăng kích thước tức thì, duy trì độ cứng cáp và kéo dài thời gian quan hệ để cánh mày râu hoàn toàn làm chủ cuộc yêu.</p>
 <h2>Vì sao nên chọn Dương vật dây đeo rỗng ruột (DV70A)</h2>
 <p>Dương vật dây đeo rỗng ruột (DV70A) mang đến giải pháp cải thiện kích cỡ nhanh chóng, giúp phái mạnh lấy lại sự tự tin vốn có. Thiết kế rỗng ruột ôm sát giúp tăng độ dày và chiều dài, tạo cảm giác va chạm đầy đặn, chân thực và đầy hưng phấn. Hệ thống dây đeo cố định linh hoạt mang lại sự thoải mái tự nhiên như một chiếc quần lót thông thường, không lo xô lệch khi chuyển động.</p>
@@ -29607,6 +29826,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV70/01.jpg",
     images: ["/anh1/DV70/01.jpg", "/anh1/DV70/05.jpg", "/anh1/DV70/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi sự suy giảm phong độ hoặc kích thước khiến nam giới thiếu tự tin và làm ảnh hưởng đến chất lượng đời sống vợ chồng, việc tìm kiếm giải pháp hỗ trợ an toàn là điều rất cần thiết. Sản phẩm dương vật dây đeo rỗng ruột có rung điều khiển xa (DV70) thương hiệu Aphrodisia là thiết bị hỗ trợ sức khỏe tình dục được thiết kế chuyên biệt, giúp tăng kích thước, kéo dài thời gian và gia tăng kích thích cho cả hai nhờ 10 chế độ rung kết hợp điều khiển từ xa linh hoạt.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Aphrodisia</h2>
@@ -29643,6 +29863,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV66/01.jpg",
     images: ["/anh1/DV66/01.jpg", "/anh1/DV66/05.jpg", "/anh1/DV66/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều phụ nữ gặp khó khăn trong việc giải tỏa căng thẳng sinh lý hoặc duy trì cảm xúc thăng hoa khi thiếu vắng bạn đời hay gặp áp lực cuộc sống. Dương vật Leten nhỏ xinh rung siêu mạnh (DV66) là thiết bị hỗ trợ sức khỏe sinh lý cá nhân cao cấp từ thương hiệu Leten, tích hợp công nghệ động cơ rung kép với 7 tần số khác nhau giúp kích thích điểm G và cân bằng nhu cầu sinh lý nữ một cách an toàn, tinh tế.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm sở hữu kiểu dáng thon gọn với kích thước trung bình từ 18.7cm đến 19cm chiều dài và 3.5cm đường kính, đặc biệt phù hợp với hình thể của phụ nữ Châu Á. Sản phẩm được hoàn thiện từ chất liệu silicone y tế cao cấp, bề mặt mềm mại, không gây kích ứng và đảm bảo an toàn cho các mô nhạy cảm. Thương hiệu Leten đã nghiên cứu và cho ra mắt 3 phiên bản thiết kế bề mặt độc đáo tương ứng với các màu sắc xanh, tím, hồng: từ bề mặt trơn mịn thon gọn, dải gân vằn tăng ma sát, đến tạo hình đầu ôm sát mô phỏng chân thực. Tối ưu hơn về mặt công nghệ, thiết bị tích hợp cổng sạc USB nằm ẩn gọn gàng phía trong tay cầm, giúp tăng tính thẩm mỹ và bảo vệ linh kiện khỏi tác động bên ngoài.</p>
@@ -29673,6 +29894,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV65Q/01.jpg",
     images: ["/anh1/DV65Q/01.jpg", "/anh1/DV65Q/05.jpg", "/anh1/DV65Q/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm quần chip gắn dương vật DV65Q phù hợp cho nữ giới cá nhân hoặc các cặp đôi đồng tính nữ đang tìm kiếm giải pháp giải tỏa nhu cầu sinh lý an toàn và tiện lợi. Đây là mẫu lót tích hợp phần dương vật giả đặc ruột bằng chất liệu TPR y tế kích thước 11cm x 3cm, hỗ trợ kích thích cơ thể một cách tự nhiên mà không cần cầm nắm thủ công.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu TPR đạt chuẩn y tế: Phần dương vật giả được chế tạo hoàn toàn từ cao su nhựa nhiệt dẻo (TPR) cao cấp, không chứa chất độc hại, không mùi, đảm bảo an toàn sinh học và không gây kích ứng cho các vùng da nhạy cảm.</p>
@@ -29706,6 +29928,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV65P/01.jpg",
     images: ["/anh1/DV65P/01.jpg", "/anh1/DV65P/05.jpg", "/anh1/DV65P/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật dây đeo rỗng ruột DV65P là sản phẩm hỗ trợ sức khỏe cá nhân dành cho nam giới, giúp cải thiện kích thước chiều dài và đường kính khi quan hệ nhờ thiết kế rỗng lồng bên ngoài kết hợp dây đeo cố định linh hoạt, vô cùng dễ thao tác kể cả với người mới bắt đầu.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV65P</h2>
@@ -29746,6 +29969,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV65K/12.jpg",
     images: ["/anh1/DV65K/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng sản phẩm thông thường, Dương vật dây đeo rỗng ruột siêu mềm Lovetoy Rodeo (DV65K) sở hữu thiết kế lõi rỗng thông minh kết hợp hệ dây đeo tùy chỉnh, giúp nam giới tăng kích thước tức thì, kéo dài thời gian quan hệ và hỗ trợ cải thiện tình trạng xuất tinh sớm một cách tự nhiên.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Thiết kế rỗng ruột thông minh: Bao bọc trọn vẹn bên trong, tăng chiều dài sử dụng lên 17.5 cm và đường kính ngoài 4.5 cm, mang lại vẻ ngoài phong độ đỉnh cao.</p>
@@ -29778,6 +30002,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV65S/01.jpg",
     images: ["/anh1/DV65S/01.jpg", "/anh1/DV65S/05.jpg", "/anh1/DV65S/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng đai đeo hỗ trợ có kích thước lớn thông thường, dương vật đai đeo DV65S sở hữu thiết kế mini tối giản với chiều dài 11cm x 2cm cùng khả năng vặn tháo rời phần thân linh hoạt. Đây là sản phẩm hỗ trợ nhu cầu sinh lý cá nhân dành cho các cặp đôi đồng giới nữ (Les), giúp mang lại trải nghiệm chân thực và điều khiển tự nhiên mà không gây cảm giác vướng víu.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm DV65S được cấu tạo từ chất liệu silicone cao cấp chuyên dụng, đảm bảo tính an toàn cho da, bề mặt mềm mịn và sở hữu gam màu da tự nhiên. Với kích thước tổng thể 11cm chiều dài và 2cm đường kính, mẫu thiết kế này đạt độ nhỏ gọn tối ưu, thuận tiện cho việc cất giữ. Điểm nâng cấp cơ học quan trọng của DV65S nằm ở phần khớp nối dạng ren vặn, cho phép tháo rời phần thân silicone ra khỏi hệ thống đai đeo một cách nhanh chóng. Đồng thời, hệ thống dây đeo đi kèm có khả năng tùy chỉnh kích thước linh hoạt, giúp cố định vừa vặn với nhiều số đo vòng bụng khác nhau mà vẫn đảm bảo sự chắc chắn khi vận động.</p>
@@ -29810,6 +30035,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58E/01.jpg",
     images: ["/anh1/DV58E/01.jpg", "/anh1/DV58E/05.jpg", "/anh1/DV58E/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng đồ chơi thông thường, Dương vật Lovetoy Nature 2 thớ siêu mềm mịn 8 inch (DV58E) sở hữu công nghệ cấu tạo 2 lớp mô phỏng tinh tế cùng chất liệu TPE và silicone cao cấp, mang lại cảm giác tiếp xúc êm ái, chân thật như da thịt mà không cần đến chế độ rung. Sản phẩm hỗ trợ nữ giới giải tỏa nhu cầu sinh lý tự nhiên, kích thích điểm G hiệu quả với kích thước sử dụng 18cm x 3.6cm vừa vặn.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Cấu tạo 2 thớ siêu mềm mịn kết hợp chất liệu TPE và silicone cao cấp không độc hại, tạo độ dẻo dai vượt trội và cảm giác mịn màng tự nhiên.</p>
@@ -29843,6 +30069,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55B/01.jpg",
     images: ["/anh1/DV55B/01.jpg", "/anh1/DV55B/05.jpg", "/anh1/DV55B/06.jpg", "/anh1/DV55B/07.jpg", "/anh1/DV55B/08.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV55B Dương vật giả có rung thay đổi cực khoái cho nữ sướng đến đỉnh</h2>
 <p>Mô tả &amp; giới thiệu chi tiết:</p>
 <h2>Mã hàng: DV55B</h2>
@@ -29879,6 +30106,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55A/01.jpg",
     images: ["/anh1/DV55A/01.jpg", "/anh1/DV55A/05.jpg", "/anh1/DV55A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật Lovetoy Real Feel gân guốc mềm mịn như thật (DV55A) được dùng để hỗ trợ phái nữ giải tỏa nhu cầu sinh lý an toàn, mang đến những giây phút thư giãn và thăng hoa nhờ cảm giác chân thực cùng chế độ rung đa tần số linh hoạt.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV55A</h2>
@@ -29918,6 +30146,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55H/01.jpg",
     images: ["/anh1/DV55H/01.jpg", "/anh1/DV55H/05.jpg", "/anh1/DV55H/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật Realfeel có rung gân nổi mạnh mẽ (DV55H) thương hiệu Lovetoy là thiết bị hỗ trợ sinh lý cá nhân chuyên dùng để kích thích điểm G, âm vật và giải tỏa nhu cầu sinh lý cho nữ giới hoặc hỗ trợ các cặp đôi hâm nóng tình cảm. Với thiết kế mô phỏng chân thật cùng tính năng rung tùy chỉnh, sản phẩm mang đến giải pháp thư giãn an toàn và bền bỉ theo thời gian.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật Realfeel DV55H đến từ thương hiệu Lovetoy (Hồng Kông) được chế tạo hoàn toàn từ chất liệu silicone y tế cao cấp, sở hữu tông màu da tự nhiên cùng độ dẻo dai và đàn hồi vượt trội. Sản phẩm có kích thước thực tế 22cm x 4cm, trọng lượng 158g vô cùng đằm tay, giúp bạn dễ dàng thao tác khi sử dụng. Thân sản phẩm nổi bật với cấu trúc gân sóng to trải dài kết hợp cùng các chi tiết mẩn mịn ở vùng quy đầu, mang lại cảm giác chạm chân thực. Nhờ sử dụng chất liệu silicone chuẩn y tế chống nứt rách và động cơ dùng 2 viên pin AA tối giản, thiết bị đạt độ bền rất cao, ít hư hỏng vặt và cực kỳ dễ bảo vệ qua nhiều năm tháng.</p>
@@ -29946,6 +30175,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54K/01.jpg",
     images: ["/anh1/DV54K/01.jpg", "/anh1/DV54K/05.jpg", "/anh1/DV54K/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Sói Biển Dũng Mãnh (DV54K) là sản phẩm chơi giải tỏa nhu cầu sinh lý cá nhân dành cho nữ giới, hỗ trợ kích thích âm đạo tự nhiên và đạt khoái cảm mà không cần sử dụng chế độ rung. Được chế tạo từ chất liệu silicone cao cấp đã qua kiểm định an toàn cho vùng nhạy cảm, sản phẩm mang đến sự êm ái, chống nước tuyệt đối và bảo vệ tối đa cho sức khỏe người sử dụng.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu silicone cao cấp mềm mại, dẻo dai, đạt tiêu chuẩn an toàn cho da và không gây kích ứng vùng nhạy cảm.</li><li>- Kích thước chuẩn (đường kính 3,3 cm, chiều dài 20 cm, trọng lượng 250g) cùng sắc đen dũng mãnh, cầm rất vừa tay.</li><li>- Thiết kế mô phỏng chân thực với các gân nổi sinh động, giúp gia tăng khả năng chạm tới điểm G sâu bên trong.</li><li>- Khả năng chống nước hoàn hảo, giúp chị em dễ dàng trải nghiệm linh hoạt trong nhiều không gian khác nhau.</li><li>- Thiết kế cơ bản không động cơ rung, mang đến trải nghiệm làm chủ nhịp điệu hoàn toàn chủ động và bền bỉ.</li></ul>
@@ -29974,6 +30204,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54H/01.jpg",
     images: ["/anh1/DV54H/01.jpg", "/anh1/DV54H/05.jpg", "/anh1/DV54H/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Châu Phi X-Men, Kích Thước Siêu Khủng (DV54H) là thiết bị hỗ trợ giải tỏa sinh lý cá nhân dành cho phụ nữ, được thiết kế với kích thước ấn tượng 6cm x 26cm cùng chất liệu silicone an toàn nhằm mang lại trải nghiệm chân thực và cảm giác lấp đầy mạnh mẽ.</p>
 <p>Vì sao nên chọn Dương Vật Giả Châu Phi X-Men, Kích Thước Siêu Khủng (DV54H)</p>
 <p>Nếu bạn đang tìm kiếm một cảm giác vô cùng trọn vẹn và kích thích thị giác lẫn vị giác, sản phẩm này chắc chắn sẽ mang lại sự hài lòng ngay từ lần thử đầu tiên. Dòng X-Men nổi bật với tone màu đen cuốn hút, bề mặt phác họa chi tiết các đường gân nổi cùng phần đầu nở rộng, giúp chạm đến từng điểm nhạy cảm và mang lại cảm giác giải tỏa sâu sắc. Thêm vào đó, thiết kế chân đế hút chân không siêu bám giúp bạn thoải mái cố định trên nhiều mặt phẳng để biến tấu các tư thế trải nghiệm mới lạ mà không bị tốn quá nhiều sức.</p>
@@ -30010,6 +30241,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV36D/01.jpg",
     images: ["/anh1/DV36D/01.jpg", "/anh1/DV36D/05.jpg", "/anh1/DV36D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả kèm hậu môn Baile DV36D là thiết bị hỗ trợ giải tỏa nhu cầu sinh lý cá nhân và làm phong phú đời sống tình dục cho cả nam và nữ. Sản phẩm sở hữu thiết kế tích hợp mô phỏng đa năng cùng cấu trúc lõi rỗng linh hoạt, đáp ứng hiệu quả cho nhiều hình thức sử dụng khác nhau.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Baile</h2>
@@ -30045,6 +30277,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV24A/01.jpg",
     images: ["/anh1/DV24A/01.jpg", "/anh1/DV24A/05.jpg", "/anh1/DV24A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng thiết bị giải tỏa sinh lý thông thường, dương vật mini gai mềm có rung Cryscal Jelly (DV24A) sở hữu bề mặt phủ hệ thống gai mềm chuyên biệt cùng chất liệu Silicone kết hợp nhựa ABS đạt tiêu chuẩn an toàn, không mùi và không gây kích ứng cho làn da nhạy cảm. Sản phẩm hỗ trợ giải quyết nhu cầu cá nhân hiệu quả thông qua cơ chế rung tùy chỉnh cường độ linh hoạt trong một thiết kế thu nhỏ gọn gàng 16.2cm x 3cm.</p>
 <h2>Thông số kỹ thuật</h2>
 <ul><li>- Chất liệu cấu tạo: Silicone cao cấp kết hợp nhựa ABS mềm mại.</li><li>- Tiêu chuẩn an toàn: Không mùi, không gây kích ứng da, an toàn cho vùng niêm mạc nhạy cảm.</li><li>- Kích thước sản phẩm: 16.2 cm (chiều dài) x 3 cm (đường kính).</li><li>- Chức năng vận hành: Cơ chế rung ở phần đầu với khả năng điều chỉnh mức độ mạnh nhẹ.</li><li>- Thiết kế bề mặt: Tích hợp các gờ gai mềm tăng cường ma sát tiếp xúc.</li><li>- Nguồn điện sử dụng: 02 viên pin AA.</li><li>- Xuất xứ: Hồng Kông.</li></ul>
@@ -30073,6 +30306,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV15A/01.jpg",
     images: ["/anh1/DV15A/01.jpg", "/anh1/DV15A/05.jpg", "/anh1/DV15A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả rung ngoáy cực đỉnh DV15A là thiết bị hỗ trợ sức khỏe sinh lý nữ, được thiết kế để giải tỏa nhu cầu cá nhân và kích thích điểm G hiệu quả nhờ công nghệ rung ngoáy 8 tần số. Sản phẩm chế tạo từ chất liệu cao cấp đạt tiêu chuẩn EU, đảm bảo an toàn tuyệt đối cho vùng da nhạy cảm.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV15A</h2>
@@ -30145,6 +30379,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV13E/01.jpg",
     images: ["/anh1/DV13E/01.jpg", "/anh1/DV13E/05.jpg", "/anh1/DV13E/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật đa năng rung ngoáy sưởi ấm (DV13E) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ cao cấp từ thương hiệu LIBO, được thiết kế để giải tỏa nhu cầu sinh lý tự nhiên và massage kích thích đồng thời điểm G lẫn âm vật. Sản phẩm tích hợp công nghệ rung thụt tự động kết hợp khả năng tỏa nhiệt sưởi ấm lên đến 40°C, giúp đem lại cảm giác chân thực, ấm áp và thư giãn tối đa cho phái đẹp.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Công nghệ động cơ kép: Tích hợp 2 động cơ hoạt động độc lập, đảm nhiệm chức năng xoay thụt tự động ở trục chính và rung kích thích điểm nhạy cảm bên ngoài ở nhánh uốn hình thiên nga.</p>
@@ -30245,6 +30480,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01A/01.jpg",
     images: ["/anh1/DV01A/01.jpg", "/anh1/DV01A/05.jpg", "/anh1/DV01A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị thông thường nhờ chất liệu silicone y tế đạt chuẩn an toàn cho da nhạy cảm, Dương vật silicon rung Rokin Dong (DV01A) là giải pháp hỗ trợ sức khỏe sinh lý cá nhân cao cấp, kết hợp cơ chế rung đa tốc độ tập trung ở phần đầu và thân giúp giải tỏa căng thẳng một cách an toàn và hiệu quả.</p>
 <h2>Vì sao nên chọn Dương vật silicon rung Rokin Dong (DV01A)</h2>
 <p>Sản phẩm được các chuyên gia sức khỏe khuyên dùng nhờ tuân thủ nghiêm ngặt các tiêu chuẩn an toàn chất liệu. Chất liệu silicone y tế chuyên dụng bảo đảm tuyệt đối không gây kích ứng, bảo vệ toàn diện màng niêm mạc nhạy cảm của cơ thể. Bên cạnh yếu tố an toàn vệ sinh được đặt lên hàng đầu, thiết bị sở hữu đường nét công học mềm mại, điểm xuyết các đường gân nổi chân thực cùng phối màu trang nhã. Hệ thống rung linh hoạt tập trung ở phần thân và đầu giúp người dùng dễ dàng chủ động điều chỉnh mức độ giải tỏa theo nhu cầu cá nhân.</p>
@@ -30277,6 +30513,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55/01.jpg",
     images: ["/anh1/DV55/01.jpg", "/anh1/DV55/05.jpg", "/anh1/DV55/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả Lovetoy Real Feel (DV55) là thiết bị hỗ trợ sinh lý cá nhân phù hợp cho phái nữ hoặc các cặp đôi đang tìm kiếm một sản phẩm hỗ trợ có chất liệu silicone y tế mềm mại, tích hợp cơ chế rung điều chỉnh linh hoạt và có độ bền cao trong quá trình sử dụng lâu dài.</p>
 <h2>Vì sao nên chọn Dương vật giả Lovetoy Real Feel (DV55)</h2>
 <p>Sản phẩm nổi bật với kết cấu silicone y tế kháng khuẩn, giữ độ đàn hồi ổn định và không bị biến dạng qua nhiều lần vệ sinh. Động cơ vận hành bằng 2 pin AAA cung cấp lực rung đồng đều, kết hợp với cấu trúc tháo lắp linh hoạt giúp việc chăm sóc, khử trùng và bảo quản thiết bị trở nên đơn giản, đảm bảo duy trì tuổi thọ sản phẩm tối ưu.</p>
@@ -30313,6 +30550,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC55E/01.jpg",
     images: ["/anh1/DC55E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho các chị em hoặc cặp đôi đang tìm kiếm giải pháp chăm sóc sức khỏe sinh lý toàn diện và cao cấp, Dương vật đa năng rung thụt liếm Nalone T-may (DC55E) là thiết bị hỗ trợ xoa bóp đa chức năng tích hợp đồng thời các chế độ rung, thụt, liếm và sưởi ấm giúp kích thích nhẹ nhàng cả bên trong lẫn bên ngoài.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Tên sản phẩm: Dương vật đa năng rung thụt liếm Nalone T-may (DC55E)</h2>
@@ -30389,6 +30627,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01U/01.jpg",
     images: ["/anh1/DV01U/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật silicon cong có rung (DV01U) từ thương hiệu Baile là thiết bị hỗ trợ sức khỏe sinh lý cá nhân, được thiết kế chuyên biệt nhằm kích thích điểm G và giải tỏa nhu cầu sinh lý an toàn cho phái đẹp hoặc hỗ trợ các cặp đôi hâm nóng tình cảm.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu silicon mềm mại: Mang lại bề mặt tiếp xúc êm ái, nâng niu các vùng da nhạy cảm và đạt độ đàn hồi linh hoạt khi sử dụng.</p>
@@ -30738,6 +30977,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV65X/01.jpg",
     images: ["/anh1/DV65X/01.jpg", "/anh1/DV65X/05.jpg", "/anh1/DV65X/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả liền quần da cao cấp DV65X là thiết bị hỗ trợ quan hệ cá nhân và cặp đôi, được sử dụng để đáp ứng nhu cầu giải tỏa sinh lý và tăng cường sự gắn kết thân mật. Sản phẩm kết hợp giữa phần thân silicone mềm mịn kích thước 15cm x 4cm và phần quần da cố định chắc chắn, giúp trải nghiệm sử dụng trở nên thuận tiện, an toàn và tự nhiên.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm DV65X sở hữu sự kết hợp tinh tế giữa chất liệu silicone y tế cao cấp và phần khung quần da mềm mại, mang lại độ bền cơ học cao cùng khả năng bảo quản lâu dài. Phần thân giả định được đúc từ silicone siêu mềm với độ đàn hồi tối ưu, mô phỏng sinh động các đường gân sần cùng màu sắc hồng tự nhiên. Điểm cải tiến quan trọng của dòng DV65X là thiết kế quần da gắn liền chắc chắn, loại bỏ các sợi dây đeo phức tạp, tạo cảm giác êm ái khi tiếp xúc với làn da đùi và hông. Với đặc tính chống thấm nước 100%, sản phẩm tạo điều kiện tối đa cho việc vệ sinh khử khuẩn sau mỗi lần sử dụng, ngăn ngừa nguy cơ tích tụ vi khuẩn và bảo vệ sức khỏe sinh sản toàn diện.</p>
@@ -30766,6 +31006,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV40G/01.jpg",
     images: ["/anh1/DV40G/01.jpg", "/anh1/DV40G/05.jpg", "/anh1/DV40G/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Bạn đang tìm kiếm một thiết bị hỗ trợ sinh lý vừa mang lại cảm giác chân thực vừa đảm bảo vệ sinh và độ bền lâu dài? Dương vật giả cao cấp Mike Cock (DV40G) chính là giải pháp hoàn hảo tích hợp công nghệ sưởi ấm, rung ngoáy đa cấp cùng điều khiển từ xa tiện lợi.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Tên sản phẩm: Dương vật giả cao cấp Mike Cock (Mã: DV40G)</h2>
@@ -30933,6 +31174,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/ms42/01.webp",
+    sensitive: true,
     longDescription: `<p>Dành cho nữ giới tìm kiếm thiết bị chăm sóc sức khỏe sinh lý cao cấp hoặc các cặp đôi muốn làm phong phú khúc dạo đầu, dương vật giả Leten Fairy (MS42) là dòng đồ chơi người lớn cao cấp sở hữu công nghệ sưởi ấm nhiệt độ cơ thể kết hợp chế độ rung và thụt thông minh. Sản phẩm được chế tạo từ chất liệu silicone và nhựa ABS siêu mềm mại, đáp ứng hoàn hảo nhu cầu giải tỏa căng thẳng và kích thích điểm G hiệu quả.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Công nghệ sưởi ấm thông minh tạo cảm giác ấm áp chân thật như nhiệt độ cơ thể.</li><li>- Chất liệu silicone cao cấp kết hợp ABS siêu mềm, an toàn tuyệt đối cho làn da nhạy cảm.</li><li>- Kích thước chuẩn 3.5 cm x 18.6 cm linh hoạt, phù hợp nhiều nhu cầu trải nghiệm.</li><li>- Đa dạng tùy chọn vận hành: chuyển động rung thụt (Mẫu A), bề mặt trơn êm ái (Mẫu B) hoặc gân nổi tăng ma sát (Mẫu C).</li><li>- Cổng sạc tiện lợi qua chuẩn USB cùng động cơ vận hành êm ái, hạn chế tiếng ồn tối đa.</li></ul>
@@ -30962,6 +31204,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV65Y/01.jpg",
     images: ["/anh1/DV65Y/01.jpg", "/anh1/DV65Y/05.jpg", "/anh1/DV65Y/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều cá nhân và cặp đôi gặp rào cản trong đời sống tình cảm do vấn đề suy giảm khả năng cương cứng hoặc thiếu công cụ hỗ trợ phù hợp. Quần silicon gắn dương vật giả DV65Y của thương hiệu JiuAI là giải pháp hỗ trợ chuyên dụng dạng mặc trực tiếp, được chế tạo từ 100% silicon y tế mềm mịn mang lại trải nghiệm tiếp xúc chân thực cho cả nam giới và các cặp đôi nữ đồng giới.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm DV65Y được tạo hình dưới dạng quần lót ôm sát cơ thể với tổng trọng lượng đạt 750g, tạo sự chắc chắn và đầm tay khi sử dụng. Chất liệu sản xuất là 100% silicon cao cấp sở hữu màu da tự nhiên, bề mặt mô phỏng chi tiết cấu trúc giải phẫu gồm các đường gân nổi và phần đầu khấc mở rộng nhằm tối ưu ma sát. Quần có khả năng co giãn linh hoạt với đường kính vòng eo từ 22cm đến 31cm tùy từng phiên bản, giúp cố định sản phẩm vững chắc vào cơ thể, hạn chế xê dịch và mang lại cảm giác êm ái trong suốt quá trình vận động.</p>
@@ -30993,6 +31236,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC91D/01.jpg",
     images: ["/anh1/DC91D/01.jpg", "/anh1/DC91D/05.jpg", "/anh1/DC91D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật rung thụt cao cấp Fun Stronic Real (DC91D) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý và kích thích đa điểm (âm vật, điểm G) dành cho cá nhân hoặc các cặp đôi, hoạt động dựa trên cơ chế rung kết hợp thụt tự động chuẩn xác từ thương hiệu Fun (Đức).</p>
 <h2>Vì sao nên chọn Dương vật rung thụt cao cấp Fun Stronic Real (DC91D)</h2>
 <p>Sản phẩm nổi bật nhờ sự kết hợp giữa công nghệ chuyển động thụt tự động và 10 tần số rung đa dạng, giúp tối ưu hóa khả năng tác động lên vùng nhạy cảm. Được nghiên cứu và sản xuất bởi thương hiệu Fun tại Đức, thiết bị chú trọng hàng đầu đến tiêu chuẩn an toàn y tế và mức độ thân thiện với làn da người dùng. Đi kèm với khả năng vận hành êm ái không phát ra tiếng ồn, đây là giải pháp đáp ứng hoàn hảo cả về mặt kỹ thuật lẫn tiêu chuẩn an toàn sức khỏe.</p>
@@ -31394,6 +31638,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC33/06.jpg",
     images: ["/anh1/DC33/06.jpg", "/anh1/DC33/07.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng bao đôn đúc nguyên khối kéo dài toàn thân thông thường, bao rung quy đầu DC33 sở hữu thiết kế dạng chụp nhỏ gọn 6.2cm x 3.2cm tập trung trực tiếp vào khu vực quy đầu, mang lại giải pháp chăm sóc và giải tỏa sinh lý tiện lợi, dễ tiếp cận cho người mới bắt đầu. Sản phẩm được chế tạo từ chất liệu polymer y tế an toàn, tích hợp cơ chế rung sử dụng 2 pin AAA có thể điều chỉnh linh hoạt, giúp phái mạnh chủ động trải nghiệm cảm giác thư giãn một cách nhẹ nhàng và tinh tế.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Kích thước chuẩn xác 6.2cm x 3.2cm ôm sát quy đầu, hỗ trợ đôn tăng kích thước nhẹ nhàng và thao tác mang vào cực kỳ đơn giản.</li><li>- Chất liệu polymer y tế cao cấp, mềm mại và an toàn cho vùng da nhạy cảm, không gây kích ứng trong quá trình tiếp xúc.</li><li>- Tích hợp bộ máy rung có thể tùy chỉnh các mức độ rung mạnh hay nhẹ, giúp người dùng dễ dàng kiểm soát theo nhu cầu cá nhân.</li><li>- Vận hành bằng 2 viên pin AAA phổ thông, dễ tháo lắp và thay thế mà không tốn nhiều thời gian chuẩn bị.</li><li>- Xuất xứ Hồng Kông với quy trình hoàn thiện chỉn chu, tối ưu cho nhu cầu giải tỏa sinh lý nam giới một cách riêng tư.</li></ul>
@@ -31788,6 +32033,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BD10C/01.jpg",
     images: ["/anh1/BD10C/01.jpg", "/anh1/BD10C/06.jpg", "/anh1/BD10C/07.jpg", "/anh1/BD10C/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng bao đôn nguyên thân thông thường, Bộ đôn khúc silicon tăng kích thước dương vật (BD10C) là giải pháp hỗ trợ dạng đoạn ngắn đeo từng phần, giúp gia tăng chu vi tập trung và kiềm chế độ nhạy cảm tại điểm tiếp xúc mà vẫn giữ trọn cảm giác tự nhiên. Sản phẩm được chế tạo từ chất liệu TPE mềm dẻo cao cấp, mang lại độ bền cơ học vượt trội và khả năng tái sử dụng an toàn trong thời gian dài nếu được vệ sinh đúng quy chuẩn y tế.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Quy cách đóng gói đa dạng: Hộp 2 chiếc gồm hai kích thước khác nhau (5.5cm x 2.9cm và 4.4cm x 2.6cm), giúp người dùng dễ dàng lựa chọn cấp độ tăng chu vi phù hợp.</p>
@@ -31985,6 +32231,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BD10G/01.jpg",
     images: ["/anh1/BD10G/01.jpg", "/anh1/BD10G/06.jpg", "/anh1/BD10G/07.jpg", "/anh1/BD10G/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng vòng đeo đơn thuần trên thị trường, bộ khóa dương vật BD10G nổi bật nhờ thiết kế tích hợp quai đeo ôm sát gốc dương vật, giúp cố định chắc chắn và duy trì trạng thái cương cứng bền bỉ để kéo dài thời gian quan hệ cho nam giới.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Bộ khóa BD10G sở hữu kiểu dáng tối ưu với kích thước gọn gàng 7cm x 2.8cm x 4.8cm cùng gam màu đen trong suốt tinh tế. Điểm nhấn trong công nghệ chế tạo của sản phẩm chính là chất liệu silicone y tế cao cấp nhập khẩu từ Hồng Kông – rất mềm dẻo, co giãn linh hoạt và an toàn tuyệt đối cho làn da nhạy cảm. Cấu trúc quai đeo đặc biệt giúp ôm giữ chắc chắn tại vị trí gốc mà không gây đau rát, đồng thời khả năng chống thấm nước 100% giúp bạn dễ dàng lau rửa và luôn yên tâm trong suốt quá trình sử dụng.</p>
@@ -32239,6 +32486,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC14R/01.jpg",
     images: ["/anh1/DC14R/01.jpg", "/anh1/DC14R/05.jpg", "/anh1/DC14R/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với các cặp đôi đang tìm kiếm giải pháp cải thiện thời gian quan hệ và gia tăng sự gắn kết sinh lý một cách an toàn, việc lựa chọn sản phẩm hỗ trợ có cấu trúc chuyên biệt là rất cần thiết. Bao đôn dạng lưới rung đầu và kích thích gốc dương vật (DC14R) xuất xứ Hong Kong là thiết bị chăm sóc sức khỏe cá nhân cao cấp làm từ cao su y tế tổng hợp, tích hợp hệ thống rung đôi ở đầu và gốc cùng thiết kế gân nổi giúp nâng cao chất lượng đời sống tình dục cho cả hai người.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu cao su y tế tổng hợp đạt chuẩn an toàn, sở hữu kích thước chiều dài 13cm và đường kính 3.5cm.</li><li>- Công nghệ rung đôi đồng thời: mắt thần rung đầu tác động lên nữ giới và bộ phận rung gốc kích thích nam giới.</li><li>- Cấu trúc dạng lưới kết hợp bề mặt vằn gân nổi dọc thân, gia tăng ma sát tự nhiên khi tiếp xúc.</li><li>- Thiết kế ôm bo sát giúp cố định chắc chắn, hạn chế trơn tuột và có thể sử dụng thay thế bao cao su.</li><li>- Quy cách đóng gói tinh tế, sang trọng, phù hợp làm quà tặng cải thiện tình cảm đôi lứa.</li></ul>
@@ -32429,6 +32677,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC14C/01.jpg",
     images: ["/anh1/DC14C/01.jpg", "/anh1/DC14C/05.jpg", "/anh1/DC14C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới mong muốn cải thiện kích thước nhanh chóng và nâng cao trải nghiệm chăn gối an toàn, bao cao su trong suốt làm to dài dương vật DC14C là giải pháp hỗ trợ sinh lý từ chất liệu silicone đạt chuẩn y tế với thiết kế rỗng co giãn vượt trội. Sản phẩm giúp tăng độ dài 14cm và đường kính 3.9cm, mang lại sự tự tin tối đa cho phái mạnh.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm sở hữu thiết kế rỗng thông minh cùng gam màu trong suốt tinh tế, mô phỏng chân thực đường nét tự nhiên. Được sản xuất tại Hong Kong từ chất liệu silicone cao cấp đạt tiêu chuẩn kiểm định y tế, DC14C đảm bảo độ mềm mại, mịn màng và an toàn tuyệt đối cho làn da nhạy cảm. Độ đàn hồi cao giúp sản phẩm ôm sát vừa vặn, co giãn dễ dàng mà không gây biến dạng hay kích ứng trong suốt quá trình sử dụng.</p>
@@ -32457,6 +32706,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC14D/01.jpg",
     images: ["/anh1/DC14D/01.jpg", "/anh1/DC14D/05.jpg", "/anh1/DC14D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nam giới đang tìm kiếm giải pháp cải thiện kích thước và kéo dài thời gian cuộc yêu một cách tự nhiên, bao đôn lưới DC14D là phụ kiện hỗ trợ sức khỏe tình dục được làm từ silicone y tế cao cấp với thiết kế rỗng và độ co giãn vượt trội. Sản phẩm giúp tăng chiều dài, hỗ trợ giải quyết nhu cầu sinh lý và mang lại sự tự tin tối đa cho phái mạnh.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu silicone y tế cao cấp: Bề mặt cực kỳ mịn màng, mềm mại, bền bỉ và an toàn cho da.</li><li>- Cấu trúc đôn lưới rỗng lòng: Thiết kế dạng lưới thông minh giúp ôm sát, tăng chiều dài và mang lại vẻ ngoài đầy quyến rũ.</li><li>- Độ đàn hồi ấn tượng: Lực co giãn tốt giúp việc đeo vào dễ dàng, linh hoạt phù hợp với nhiều kích thước.</li><li>- Thông số thiết kế chuẩn: Chiều dài 13cm và tổng đường kính 3.6cm, tạo phom dáng tự nhiên.</li><li>- Nguồn gốc uy tín: Sản phẩm nhập khẩu từ Hồng Kông với tông màu hồng lãng mạn, tinh tế.</li></ul>
@@ -32521,6 +32771,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC14B/01.jpg",
     images: ["/anh1/DC14B/01.jpg", "/anh1/DC14B/06.jpg", "/anh1/DC14B/07.jpg", "/anh1/DC14B/08.jpg", "/anh1/DC14B/09.jpg", "/anh1/DC14B/10.jpg", "/anh1/DC14B/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC14B Bao cao su tăng độ lớn dương vật nam có rung và trong suốt</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC14B</h2>
@@ -32808,6 +33059,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BD35/01.jpg",
     images: ["/anh1/BD35/01.jpg", "/anh1/BD35/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Bao đôn quai đeo có rung BD35 thương hiệu Cobiiy là thiết bị hỗ trợ cải thiện chiều dài và chu vi dương vật lập tức, giúp tăng độ ma sát và mang lại cảm giác khít khao đầy đặn trong suốt quá trình đồng điệu.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Tăng kích cỡ tức thì: Gia tăng độ dài và chu vi nhanh chóng, mang lại cảm giác lấp đầy chân thực và sự tự tin tuyệt đối cho phái mạnh.</p>
@@ -32876,6 +33128,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BD10D/01.jpg",
     images: ["/anh1/BD10D/01.jpg", "/anh1/BD10D/08.jpg", "/anh1/BD10D/09.jpg", "/anh1/BD10D/10.jpg", "/anh1/BD10D/11.jpg", "/anh1/BD10D/12.jpg"],
+    sensitive: true,
     longDescription: `<p>Khóa dương vật 3 vòng BD10D là phụ kiện hỗ trợ nam giới duy trì độ cương cứng và kéo dài thời gian quan hệ, đồng thời tích hợp mắt rung giúp gia tăng tối đa cảm giác hưng phấn cho bạn tình trong từng nhịp yêu. Sản phẩm sở hữu thiết kế 3 vòng ôm sát giúp kiểm soát nhịp độ hiệu quả, kết hợp cùng các điểm ma sát đầy đặn mang đến trải nghiệm thăng hoa trọn vẹn cho cả hai.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Thiết kế 3 vòng ôm thít: Bó sát vừa vặn vào thân dương vật, hỗ trợ làm chậm quá trình xuất tinh và giữ độ bền bỉ lâu hơn để cặp đôi tận hưởng trọn vẹn cuộc yêu.</p>
@@ -33218,6 +33471,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BD19/01.jpg",
     images: ["/anh1/BD19/01.jpg", "/anh1/BD19/10.jpg", "/anh1/BD19/11.jpg", "/anh1/BD19/12.jpg", "/anh1/BD19/13.jpg", "/anh1/BD19/14.jpg", "/anh1/BD19/15.jpg", "/anh1/BD19/16.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với bao cao su thông thường, đôn dên BD19 giúp gia tăng kích thước dương vật tức thì lên đến 30% cả về chiều dài lẫn chu vi. Sản phẩm là giải pháp hỗ trợ cải thiện vóc dáng &quot;cậu nhỏ&quot;, mang lại cảm giác ôm sát chân thật và tối ưu hoá kích thích cho cả hai trong mỗi nhịp chuyển động.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Tăng kích thước toàn diện lên đến 30% cả chiều dài lẫn bề ngang.</li><li>- Thiết kế ôm sát, truyền nhiệt tốt cho cảm giác vô cùng chân thật.</li><li>- Gia tăng ma sát và kích thích mạnh mẽ các điểm nhạy cảm của bạn tình.</li><li>- Thao tác đeo nhanh chóng, bám dính chắc chắn không lo trơn trượt khi sử dụng.</li></ul>
@@ -33639,6 +33893,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC14N/01.jpg",
     images: ["/anh1/DC14N/01.jpg", "/anh1/DC14N/05.jpg", "/anh1/DC14N/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Cảm giác tự ti về kích thước khiêm tốn khiến nhiều nam giới thiếu tự tin và khó mang lại sự hài lòng tuyệt đối cho đối phương. Sản phẩm đôn dên khúc đầu dương vật nam DC14N của thương hiệu Baily là giải pháp hỗ trợ tăng chiều dài tức thì thêm 4.5 cm nhờ thiết kế khúc đầu đúc đặc cao cấp, giúp nam giới lấy lại bản lĩnh và kéo dài thời gian thăng hoa.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Tăng chiều dài tức thì: Thiết kế phần đầu đúc đặc 4.5 cm giúp &quot;ăn gian&quot; kích thước hiệu quả ngay khi sử dụng.</li><li>- Kéo dài thời gian quan hệ: Giảm diện tích tiếp xúc trực tiếp của quy đầu, hỗ trợ giảm độ nhạy cảm và kiểm soát nhịp độ tốt hơn.</li><li>- Tăng cảm giác ôm khít: Đường kính ngoài 3.5 cm cùng đường kính trong 2.5 cm giúp vừa vặn, gia tăng sự kích thích cho đối phương.</li><li>- Tái sử dụng bền bỉ: Sản phẩm dùng được nhiều lần, giữ nguyên phom dáng và tiết kiệm chi phí tối đa.</li><li>- Chống thấm nước 100%: An toàn tuyệt đối khi tiếp xúc với chất bôi trơn và cực kỳ dễ dàng làm sạch.</li></ul>
@@ -33808,6 +34063,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44V/01.jpg",
     images: ["/anh1/DV44V/01.jpg", "/anh1/DV44V/05.jpg", "/anh1/DV44V/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi nhu cầu tìm kiếm giải pháp giải tỏa sinh lý và đổi mới cảm xúc trong đời sống cá nhân hoặc vợ chồng ngày càng được quan tâm, phái đẹp cần những thiết bị hỗ trợ chuyên sâu vừa an toàn vừa hiệu quả. Dương Vật Cầm Tay Cao Cấp Lush Rung Thục (DV44V) là sản phẩm chăm sóc sức khỏe sinh lý nữ thuộc thương hiệu Chisa, tích hợp cơ chế thục tự động 7 cấp độ kết hợp 7 chế độ rung kích thích điểm G và âm vật, mang lại trải nghiệm thư giãn tối đa và thăng hoa cảm xúc.</p>
 <h2>Vì sao nên chọn Dương Vật Cầm Tay Cao Cấp Lush Rung Thục (DV44V)</h2>
 <p>Dương Vật Cầm Tay Cao Cấp Lush (DV44V) sở hữu ưu thế vượt trội nhờ sự kết hợp giữa công nghệ chuyển động kép và thiết kế nhân văn. Sản phẩm được trang bị 7 chế độ thục tịnh tiến ra vào mạnh mẽ kết hợp cùng 7 tần số rung ở nhánh phụ kích thích bên ngoài, giúp tác động đồng thời lên điểm G và vùng nhạy cảm. Đầu sản phẩm uốn cong nhẹ nhàng hỗ trợ tiếp xúc chính xác điểm G, cùng các đường gân nổi tăng ma sát tự nhiên. Đặc biệt, phần tay cầm tích hợp vòng xỏ ngón tay chắc chắn, chống trượt hiệu quả và giúp người dùng linh hoạt điều khiển trong quá trình sử dụng.</p>
@@ -34324,6 +34580,7 @@ export const products: Product[] = [
     icon: "ring",
     image: "/anh1/DC14E/01.jpg",
     images: ["/anh1/DC14E/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC14E Bao cao su đôn dài dương vật 6 phân quá đỉnh cho nam giới</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC14E</h2>
@@ -35323,6 +35580,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV33/01.jpg",
     images: ["/anh1/DV33/01.jpg", "/anh1/DV33/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật siêu mềm mịn, siêu khủng, siêu rung (DV33) được sử dụng để hỗ trợ giải tỏa nhu cầu sinh lý cá nhân cho nữ giới hoặc giúp các cặp đôi đổi mới trải nghiệm phòng the một cách an toàn nhờ chất liệu silicone y tế đạt chuẩn lành tính cho cơ thể.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Tên sản phẩm: Dương vật siêu mềm mịn, siêu khủng, siêu rung (DV33)</h2>
@@ -35398,6 +35656,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV16/01.jpg",
     images: ["/anh1/DV16/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng dildo cầm tay thông thường, Dương vật gắn tường siêu rung ngoáy - Super Man (DV16) sở hữu đế hút chân không chắc chắn giúp giải phóng đôi tay, kết hợp cơ chế xoay ngoáy đảo chiều linh hoạt mang lại trải nghiệm tiện lợi và vô cùng dễ sử dụng cho người mới bắt đầu.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu silicone cao cấp siêu mềm mại, đạt độ dẻo lý tưởng, an toàn tuyệt đối cho làn da nhạy cảm.</li><li>- Đế hít tường chân không bám dính cực tốt, hỗ trợ trải nghiệm rảnh tay linh hoạt ở nhiều góc độ.</li><li>- Tính năng rung kết hợp ngoáy xoay sâu, hỗ trợ đảo chiều và điều chỉnh nhiều tốc độ nhanh - chậm dễ dàng.</li><li>- Thiết kế mô phỏng tự nhiên với màu da chân thật, chi tiết gân nổi nhẹ dọc thân tăng cường khả năng cọ xát.</li><li>- Sử dụng nguồn điện từ 3 viên pin AAA phổ thông, tháo lắp nhanh chóng và dễ dàng thay thế.</li></ul>
@@ -35426,6 +35685,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV33B/01.jpg",
     images: ["/anh1/DV33B/01.jpg", "/anh1/DV33B/05.jpg", "/anh1/DV33B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều cá nhân và cặp đôi tìm kiếm một giải pháp hỗ trợ sinh lý an toàn, lành tính với làn da nhạy cảm nhưng vẫn đảm bảo kích thước chuẩn và tính linh hoạt trong quá trình sử dụng. Dương vật silicon siêu mềm có rung cỡ bự (DV33B) là thiết bị hỗ trợ sức khỏe sinh lý cao cấp từ thương hiệu Baile, được chế tác từ chất liệu silicon y tế không mùi, giúp mang lại trải nghiệm thư giãn an toàn và hiệu quả.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu silicon siêu mềm an toàn: Cấu tạo từ chất liệu silicon cao cấp không mùi, đạt tiêu chuẩn an toàn cho vùng da nhạy cảm, bề mặt mềm mịn và có thể uốn cong linh hoạt theo ý muốn.</p>
@@ -35457,6 +35717,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV34A/01.jpg",
     images: ["/anh1/DV34A/01.jpg", "/anh1/DV34A/05.jpg", "/anh1/DV34A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị thư giãn truyền thống chỉ có chế độ rung đơn thuần, Dương vật silicon siêu gân rung ngoáy DV34A nổi bật nhờ tích hợp công nghệ chuyển động ngoáy linh hoạt ở phần đầu kết hợp cùng chân đế hút chân không rảnh tay tiện lợi. Sản phẩm là giải pháp chăm sóc sức khỏe sinh lý cá nhân cao cấp, giúp phái đẹp và các cặp đôi giải tỏa căng thẳng cũng như chủ động nâng cao chất lượng đời sống riêng tư một cách an toàn, tinh tế.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV34A</h2>
@@ -35494,6 +35755,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV57/01.jpg",
     images: ["/anh1/DV57/01.jpg", "/anh1/DV57/05.jpg", "/anh1/DV57/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm dương vật Lovetoy mềm mịn DV57 là giải pháp giải tỏa sinh lý cá nhân lý tưởng dành riêng cho phái đẹp mới bắt đầu tìm hiểu thiết bị hỗ trợ sức khỏe tình dục. Với thiết kế mô phỏng chân thực, kích thước chuẩn cùng chất liệu mềm mịn, sản phẩm mang đến trải nghiệm tự nhiên, dễ sử dụng và hoàn toàn an toàn cho người dùng.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật Lovetoy DV57 sở hữu kiểu dáng mô phỏng chân thực với kích thước nhỏ gọn gồm chiều dài tổng thể 17,5 cm, chiều dài sử dụng 13,5 cm và đường kính 3,7 cm. Sản phẩm được chế tạo từ chất liệu PVC kết hợp silicone y tế cao cấp, đảm bảo độ mềm mịn, an toàn và thân thiện với làn da nhạy cảm. Đây là dòng sản phẩm không dùng pin, không có chế độ rung, tập trung vào sự đơn giản và dễ thao tác cho người mới. Điểm cộng lớn của DV57 là phần chân đế hít đất chắc chắn, hỗ trợ gắn chặt lên các bề mặt phẳng trơn để giải phóng đôi tay linh hoạt khi trải nghiệm.</p>
@@ -35522,6 +35784,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV56A/01.jpg",
     images: ["/anh1/DV56A/01.jpg", "/anh1/DV56A/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả Lovetoy DV56A là thiết bị hỗ trợ sinh lý cao cấp thích hợp cho nữ giới cá nhân hoặc các cặp đôi có nhu cầu trải nghiệm kích thước lớn và chức năng rảnh tay nhờ chân đế hít tường chân không. Thiết bị sở hữu chiều dài tổng thể 22.5 cm (chiều dài sử dụng 17 cm), đường kính thân 4.7 cm cùng động cơ rung 3 tần số vận hành bằng 3 viên pin AAA.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Kích thước và kết cấu bề mặt: Chiều dài sử dụng 17 cm, đường kính thân 4.7 cm và đường kính đầu 3.5 cm kết hợp đường gân nổi sống động giúp tối ưu hóa khả năng tiếp xúc.</p>
@@ -35554,6 +35817,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV56/01.jpg",
     images: ["/anh1/DV56/01.jpg", "/anh1/DV56/05.jpg", "/anh1/DV56/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Giống Thật Gắn Tường: Trải Nghiệm Hoàn Hảo Giải Tỏa Sinh Lý Cho Nữ</p>
 <p>Thông Tin Sản Phẩm Dương Vật Giả DV56:</p>
 <h2>- Mã sản phẩm: DV56</h2>
@@ -35602,6 +35866,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV57A/01.jpg",
     images: ["/anh1/DV57A/01.jpg", "/anh1/DV57A/05.jpg", "/anh1/DV57A/06.jpg", "/anh1/DV57A/07.jpg", "/anh1/DV57A/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin sản phẩm:</p>
 <h2>Dương Vật Giả Realistic Cock Kích Thước Như Thật Rung 7 Chế Độ</h2>
 <p>Tính năng chính:</p>
@@ -35638,6 +35903,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV64/01.jpg",
     images: ["/anh1/DV64/01.jpg", "/anh1/DV64/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon siêu rung ngoáy Inferno (DV64) là thiết bị hỗ trợ sinh lý và massage cá nhân dành cho nữ giới đang tìm kiếm giải pháp kích thích đa chiều an toàn tuyệt đối. Sản phẩm sử dụng chất liệu silicon y tế đạt chuẩn kiểm định sinh học, tích hợp cơ chế xoay ngoáy 360 độ với 5 tốc độ rung cùng thiết kế đế hút chân không tiện lợi.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật Inferno (DV64) được chế tạo từ 100% silicon cao cấp mềm mịn, đáp ứng đầy đủ các tiêu chuẩn kiểm định về độ an toàn cho sức khỏe và tính thân thiện với môi trường. Bề mặt chất liệu xử lý hoàn hảo, không chứa phthalate hay độc tố, đảm bảo tuyệt đối không gây kích ứng khi tiếp xúc với các vùng niêm mạc nhạy cảm. Sản phẩm mô phỏng hình dáng tự nhiên với tông màu da, kết cấu đúc nguyên khối chống thấm nước 100%. Thiết bị được sản xuất với hai tùy chọn thông số kỹ thuật rõ ràng: bản nhỏ (kích thước 15 cm x 3 cm, chiều dài sử dụng 11.5 cm) và bản lớn (kích thước 17.5 cm x 4 cm, chiều dài sử dụng 15.5 cm). Tích hợp ở phần chân đế là phễu hút chân không lực bám cao, hỗ trợ gắn chặt lên các bề mặt phẳng trơn như gạch men hay kính.</p>
@@ -35669,6 +35935,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV40A/01.jpg",
     images: ["/anh1/DV40A/01.jpg", "/anh1/DV40A/05.jpg", "/anh1/DV40A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật cyberskin như thật siêu rung- sạc pin (DV40A) là thiết bị hỗ trợ sức khỏe sinh lý cá nhân lý tưởng dành cho phụ nữ đơn thân hoặc các cặp đôi muốn làm mới đời sống phòng the một cách an toàn và tinh tế. Với thiết kế mô phỏng tự nhiên từ chất liệu Cyberskin mềm mại cùng cơ chế siêu rung đa tần số, sản phẩm giúp giải tỏa nhu cầu sinh lý một cách hiệu quả và đem lại sự thăng hoa trọn vẹn.</p>
 <p>Vì sao nên chọn Dương vật cyberskin như thật siêu rung- sạc pin (DV40A)</p>
 <p>Dương vật cyberskin như thật siêu rung- sạc pin (DV40A) được chú trọng đầu tư về độ an toàn sinh học nhờ cấu tạo từ chất liệu PCS phối hợp silicone cao cấp, hoàn toàn không mùi và đạt tiêu chuẩn kiểm định an toàn cho vùng da nhạy cảm. Thiết kế bề mặt Cyberskin mô phỏng độ đàn hồi tự nhiên cùng các chi tiết gân guốc mềm mại, vừa đảm bảo tính chân thực vừa giữ sự dịu nhẹ tối đa khi tiếp xúc. Bên cạnh đó, thiết bị sở hữu hệ thống vận hành ưu việt với 8 tốc độ rung, 12 chế độ chuyển đổi linh hoạt, khả năng chống nước 100% và cơ chế sạc pin USB hiện đại, mang lại sự bền bỉ và yên tâm tuyệt đối cho người sử dụng.</p>
@@ -35706,6 +35973,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV56C/01.jpg",
     images: ["/anh1/DV56C/01.jpg", "/anh1/DV56C/05.jpg", "/anh1/DV56C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn là người mới bắt đầu tìm hiểu thiết bị hỗ trợ hoặc là các cặp đôi muốn đổi gió phòng the một cách đơn giản, Dương vật silicon Lovetoy thuôn dài siêu rung dũng mãnh (DV56C) chính là lựa chọn hoàn hảo dành cho bạn. Đây là dòng sản phẩm chăm sóc sức khỏe cá nhân cao cấp từ thương hiệu Lovetoys (Mỹ), giúp giải tỏa nhu cầu sinh lý và thăng hoa cảm xúc nhờ thiết kế thuôn dài chân thực cùng 3 chế độ rung mạnh mẽ vô cùng dễ thao tác.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Kích thước tối ưu dễ dùng: Chiều dài tổng thể 24cm, chiều dài sử dụng 18.5cm cùng đường kính 3.8cm, vừa đủ để kích thích sâu mà vẫn mang lại cảm giác thoải mái, không gây ngợp cho người mới trải nghiệm.</p>
@@ -35743,6 +36011,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV27A/01.jpg",
     images: ["/anh1/DV27A/01.jpg", "/anh1/DV27A/05.jpg", "/anh1/DV27A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Để giải tỏa nhu cầu sinh lý cá nhân một cách rảnh tay và chân thực nhất, người dùng cần một thiết bị hỗ trợ có khả năng cố định vững chắc cùng tính năng tỏa nhiệt mô phỏng cơ thể. Dương vật gắn tường siêu rung ngoáy điều chỉnh nhiệt độ (DV27A) từ thương hiệu Baile là sản phẩm hỗ trợ sức khỏe sinh lý cao cấp, kết hợp công nghệ xoay ngoáy đa chế độ, tính năng làm ấm bề mặt và chân đế hút chân không 8.2cm giúp gắn cố định linh hoạt trên nhiều mặt phẳng.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm DV27A của hãng Baile (nhập khẩu Hồng Kông) được sản xuất từ chất liệu silicon cao cấp mềm mại, mang màu da tự nhiên và đạt khả năng chống thấm nước 100%. Về thông số kích thước, thiết bị có chiều dài tổng thể 20.4cm, chiều dài sử dụng thực tế 16.2cm, đường kính thân 3.5cm và trọng lượng đạt 320g. Điểm nhấn công nghệ của sản phẩm nằm ở chân đế hút chân không đường kính 8.2cm tạo lực bám dính cao trên các bề mặt phẳng nhẵn như kính, gạch men, bàn gỗ. Thiết bị tích hợp hệ thống tỏa nhiệt làm ấm cùng động cơ rung ngoáy bên trong, được vận hành thông qua bộ điều khiển thông minh nối dây dùng 4 viên pin AA.</p>
@@ -35771,6 +36040,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55C/01.jpg",
     images: ["/anh1/DV55C/01.jpg", "/anh1/DV55C/05.jpg", "/anh1/DV55C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật hít đất Lovetoy (DV55C) là lựa chọn hoàn hảo cho phái đẹp hoặc người mới bắt đầu muốn trải nghiệm cảm giác giải tỏa sinh lý đơn giản và tiện lợi nhất. Sản phẩm chế tác từ silicone y tế an toàn, tích hợp đế hít chân không linh hoạt giúp cố định dễ dàng trên các bề mặt phẳng, mang lại sự riêng tư và thoải mái tối đa.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV55C</h2>
@@ -35805,6 +36075,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV33C/01.jpg",
     images: ["/anh1/DV33C/01.jpg", "/anh1/DV33C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một giải pháp chăm sóc sức khỏe sinh lý cá nhân dễ thao tác, phù hợp cho người mới bắt đầu mà không lo kích thước quá cỡ hay độ cứng gây khó chịu, sản phẩm dương vật giả uốn điều chỉnh linh hoạt Baile DV33C chính là lựa chọn tối ưu. Sản phẩm sở hữu chiều dài 21cm, đường kính 3.5cm, được chế tạo từ chất liệu TPR an toàn và tích hợp phần xương đốt linh hoạt cho phép định hình góc uốn tùy thích theo nhu cầu sử dụng.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật giả Baile DV33C được nghiên cứu tối ưu nhằm mang lại sự tiện lợi và cảm giác thoải mái tối đa cho người dùng. Sản phẩm được sản xuất từ chất liệu nhựa dẻo y tế TPR cao cấp với đặc tính mềm mịn, đàn hồi tốt, an toàn tuyệt đối cho cơ thể và đạt khả năng chống nước 100%. Điểm nổi bật trong thiết kế của DV33C là phần cấu trúc xương đốt bên trong cho phép người dùng bẻ cong, điều chỉnh và giữ nguyên hình dáng ở nhiều góc độ khác nhau. Bên cạnh đó, phần chân đế hút chân không chắc chắn hỗ trợ cố định thiết bị lên các bề mặt phẳng như gạch men, kính hoặc gỗ, giúp quá trình thao tác rảnh tay trở nên đơn giản và không tốn nhiều sức.</p>
@@ -35833,6 +36104,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV61/01.jpg",
     images: ["/anh1/DV61/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật siêu mềm ruột hạt bi sục được như thật - chiến binh Spartacus (DV61) khác biệt hoàn toàn so với các loại dương vật giả thông thường nhờ kết cấu ruột chứa hạt bi và lớp da Silicon/TPR có khả năng di chuyển linh hoạt, mô phỏng chính xác chuyển động trượt của bao quy đầu thật. Đây là dòng sản phẩm hỗ trợ nhu cầu sinh lý cá nhân không tích hợp bộ rung, tập trung tối đa vào việc tái tạo cảm giác tiếp xúc chân thực, êm ái và tự nhiên nhất cho người sử dụng.</p>
 <p>Vì sao nên chọn Dương vật siêu mềm ruột hạt bi sục được như thật- chiến binh Spartacus (DV61)</p>
 <p>Sản phẩm mang lại trải nghiệm cơ học khác biệt nhờ sự kết hợp giữa độ dẻo mềm của chất liệu cao cấp và cơ chế trượt linh hoạt. Các hạt bi phía bên trong kết hợp với lớp vỏ silicon dẻo tạo ra lực ma sát lăn tinh tế, giúp tăng cường kích thích mà không gây cảm giác thô ráp hay đau rát. Bên cạnh đó, phần đế hút chân không chắc chắn cho phép gá đặt vững vàng trên các bề mặt phẳng cứng như gạch men, kính hay gỗ láng, giúp người dùng linh hoạt thay đổi góc độ và tư thế trải nghiệm mà không cần cầm nắm liên tục.</p>
@@ -35870,6 +36142,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60A/01.jpg",
     images: ["/anh1/DV60A/01.jpg", "/anh1/DV60A/05.jpg", "/anh1/DV60A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều phái đẹp khi mới bắt đầu tìm hiểu thiết bị hỗ trợ sinh lý thường gặp khó khăn trong việc thao tác rảnh tay hoặc chọn góc độ trải nghiệm thoải mái. Sản phẩm dương vật silicon siêu rung gắn tường xoay 180 độ CHISA (mã DV60A) là giải pháp chăm sóc sức khỏe cá nhân cao cấp, tích hợp đế hút chân không điều chỉnh góc linh hoạt cùng 10 chế độ rung giúp giải tỏa nhu cầu sinh lý và kích thích điểm G hiệu quả.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm DV60A đến từ thương hiệu CHISA (Hồng Kông) sở hữu chiều dài tổng thể 24 cm cùng đường kính 3.4 cm vừa vặn, tạo cảm giác dễ chịu và không gây áp lực cho người sử dụng. Phần thân được cấu tạo từ chất liệu T-Skin cao cấp kết hợp nhựa ABS an toàn cho sức khỏe và làn da nhạy cảm, mang lại bề mặt mềm mại và êm ái. Điểm nhấn tiện lợi của thiết kế là phần đế hút gắn tường chắc chắn tích hợp khớp xoay 180 độ có chốt khóa cố định, cho phép tùy chỉnh đa dạng góc độ trên các bề mặt phẳng như gạch men, kính hay mặt bàn.</p>
@@ -35901,6 +36174,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV59B/01.jpg",
     images: ["/anh1/DV59B/01.jpg", "/anh1/DV59B/06.jpg", "/anh1/DV59B/07.jpg", "/anh1/DV59B/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật Lovetoy Real Extreme DV59B là thiết bị hỗ trợ sinh lý nữ cá nhân không rung, được thiết kế với phần đế hút chân không cố định mặt phẳng và kết cấu gân nổi mô phỏng sinh học, giúp giải tỏa nhu cầu cá nhân và kích thích điểm G một cách an toàn, tiện lợi cho người mới bắt đầu.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Lovetoy (Mỹ)</h2>
@@ -35936,6 +36210,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://vipsextoy.net/files/sanpham/1462/1.jpg",
+    sensitive: true,
   },
   {
     slug: "dv68dv58g-duong-vat-sieu-mem-co-rung-lovetoy-nature-cock-leo",
@@ -35950,6 +36225,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68DV58G/01.jpg",
     images: ["/anh1/DV68DV58G/01.jpg", "/anh1/DV68DV58G/05.jpg", "/anh1/DV68DV58G/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm dương vật siêu mềm có rung Lovetoy Nature Cock Leo (DV58G) là lựa chọn hoàn hảo cho những ai đang tìm kiếm một thiết bị hỗ trợ cá nhân cao cấp, sở hữu kích thước ấn tượng cùng công nghệ rung cảm biến âm thanh thông minh. Được chế tạo từ silicon 2 lớp siêu mềm đạt chuẩn kiểm định an toàn cho sức khỏe, sản phẩm giúp mang lại cảm giác chân thật và kích thích điểm G hiệu quả mà vẫn đảm bảo sự dịu nhẹ tuyệt đối cho làn da nhạy cảm.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu cao cấp an toàn: Sử dụng chất liệu silicon 2 lớp siêu mềm mại, đạt tiêu chuẩn kiểm định nghiêm ngặt, đảm bảo hoàn toàn thân thiện với cơ thể và không gây kích ứng da.</p>
@@ -35984,6 +36260,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68/01.jpg",
     images: ["/anh1/DV68/01.jpg", "/anh1/DV68/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon siêu mềm có rung Lovetoy Ultra Soft Dude 7.5&quot; (DV68) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân cao cấp, được sử dụng nhằm hỗ trợ giải tỏa nhu cầu sinh lý an toàn cho nữ giới hoặc tăng cường trải nghiệm gắn kết cho các cặp đôi. Với thiết kế chân đế hút chân không chắc chắn cùng 10 chế độ rung linh hoạt, sản phẩm mang lại sự chủ động và thoải mái trong quá trình thư giãn và cân bằng đời sống tinh thần.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chất liệu TPE y tế cao cấp siêu mềm mịn, an toàn tuyệt đối cho làn da nhạy cảm và sở hữu độ đàn hồi, độ bền cơ học vượt trội.</p>
@@ -36020,6 +36297,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68A/01.jpg",
     images: ["/anh1/DV68A/01.jpg", "/anh1/DV68A/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon cong mềm có rung Lovetoy Ultra Soft Dude 8.5&quot; (DV68A) là thiết bị chăm sóc sức khỏe cá nhân lý tưởng cho người mới bắt đầu nhờ chất liệu TPE siêu mềm mịn, thiết kế độ cong tự nhiên giúp dễ dàng tiếp cận điểm G và phần đế hít tường tiện lợi. Sản phẩm tích hợp 10 chế độ rung linh hoạt vận hành bằng 2 pin AAA, mang đến trải nghiệm thư giãn an toàn và hoàn toàn dễ kiểm soát.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu TPE êm ái: Sử dụng chất liệu TPE siêu mềm mịn, hoàn toàn không mùi, mang lại cảm giác dễ chịu và thân thiện với làn da.</p>
@@ -36051,6 +36329,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://vipsextoy.net/files/sanpham/1458/1.jpg",
+    sensitive: true,
   },
   {
     slug: "dv57b-duong-vat-lovetoy-real-extreme-nho-xinh-sieu-rung",
@@ -36065,6 +36344,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV57B/01.jpg",
     images: ["/anh1/DV57B/01.jpg", "/anh1/DV57B/06.jpg", "/anh1/DV57B/07.jpg", "/anh1/DV57B/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật Lovetoy Real Extreme (DV57B) là thiết bị hỗ trợ sinh lý nữ cao cấp, được thiết kế để kích thích các vùng nhạy cảm, điểm G và giải tỏa nhu cầu cá nhân một cách tự nhiên. Sản phẩm tích hợp 3 tốc độ rung vượt trội cùng chân đế hút tường tiện lợi, mang lại trải nghiệm chân thực và linh hoạt cho phái đẹp.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Kích thước chuẩn Á Đông: Chiều dài 18cm và đường kính 3.5cm vừa vặn, tạo cảm giác ôm khít và thoải mái tối đa khi sử dụng.</li><li>- 3 chế độ rung mạnh mẽ: Cho phép tùy chỉnh dễ dàng theo từng cấp độ hưng phấn thông qua điều khiển nối dây tiện lợi.</li><li>- Chân đế hút tường linh hoạt: Khả năng bám dính chắc chắn trên bề mặt phẳng, hỗ trợ thử nghiệm nhiều tư thế độc đáo.</li><li>- Kiểu dáng mô phỏng chân thực: Thiết kế chi tiết từng đường gân nổi và vân liti, gia tăng ma sát và cảm giác chân thật tuyệt đối.</li><li>- Đa dạng màu sắc: Tùy chọn 3 gam màu chân thực gồm màu da tự nhiên, màu nâu và màu đen phong cách.</li></ul>
@@ -36093,6 +36373,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV56B/01.jpg",
     images: ["/anh1/DV56B/01.jpg", "/anh1/DV56B/06.jpg", "/anh1/DV56B/07.jpg", "/anh1/DV56B/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật có rung size bự Lovetoy Extrem 8.5 inch (DV56B) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân dành cho nữ giới, được sử dụng để giải tỏa căng thẳng sinh lý và kích thích khoái cảm an toàn tại nhà. Sản phẩm sở hữu thiết kế hình dáng cong tự nhiên cùng chân đế hít chắc chắn, cho phép người dùng linh hoạt trải nghiệm mà không cần dùng tay giữ.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Kích thước chuẩn y khoa: Chiều dài tổng thể 22 cm, chiều dài sử dụng 18 cm cùng đường kính 4 cm, hỗ trợ giải tỏa nhu cầu sinh lý hiệu quả cho nữ giới.</p>
@@ -36128,6 +36409,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV59C/01.jpg",
     images: ["/anh1/DV59C/01.jpg", "/anh1/DV59C/06.jpg", "/anh1/DV59C/07.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Siêu Rung Có Thể Hít Đất: Lựa Chọn Hoàn Hảo Cho Nữ Giới Tự Sướng</p>
 <p>Thông Tin Sản Phẩm DV59C:</p>
 <h2>- Mã sản phẩm: DV59C</h2>
@@ -36177,6 +36459,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68C/01.jpg",
     images: ["/anh1/DV68C/01.jpg", "/anh1/DV68C/05.jpg", "/anh1/DV68C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật Lovetoy siêu mềm tuột da uốn cong được (DV68C) là giải pháp chăm sóc sức khỏe sinh lý tối ưu dành cho cá nhân và các cặp đôi mong muốn trải nghiệm cảm giác mô phỏng cơ học tự nhiên, an toàn. Sản phẩm đến từ thương hiệu Lovetoy (Mỹ), sở hữu thiết kế da silicone 2 lớp trượt di động cùng khả năng uốn cong định hình và đế hít chân không tiện lợi.</p>
 <p>Vì sao nên chọn Dương vật Lovetoy siêu mềm tuột da uốn cong được (DV68C)</p>
 <p>Dòng sản phẩm DV68C đáp ứng các tiêu chuẩn kiểm định nghiêm ngặt về an toàn chất liệu dành cho thiết bị hỗ trợ cá nhân. Kết cấu silicone/TPE 2 lớp tách biệt cho phép lớp da bên ngoài trượt mịn màng trên phần lõi chịu lực, mô phỏng chuyển động thực tế mà không cần đến động cơ rung. Khả năng chống thấm nước hoàn toàn kết hợp cùng đặc tính uốn cong uốn nắn góc độ linh hoạt giúp người dùng hoàn toàn chủ động và an tâm về độ lành tính đối với cơ thể.</p>
@@ -36205,6 +36488,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV40E/01.jpg",
     images: ["/anh1/DV40E/01.jpg", "/anh1/DV40E/05.jpg", "/anh1/DV40E/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với những người mới bắt đầu muốn tìm kiếm một giải pháp giải tỏa nhu cầu sinh lý an toàn và dễ sử dụng tại nhà, việc lựa chọn một thiết bị có kích thước chuẩn cùng thao tác đơn giản là yếu tố quan trọng hàng đầu. Sản phẩm Dương vật Loving siêu rung mềm mại size châu Á (DV40E) là thiết bị hỗ trợ sức khỏe cá nhân cao cấp, sở hữu kích thước 18 x 3.5 cm phù hợp với thể trạng người Việt, kết hợp chân đế hít chắc chắn giúp người dùng dễ dàng thao tác và làm quen ngay từ lần đầu tiên.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Kích thước chuẩn châu Á: Với chiều dài 18 cm và đường kính 3.5 cm cùng tone màu da tự nhiên, sản phẩm mang lại cảm giác vừa vặn, vô cùng thích hợp cho người mới bắt đầu.</p>
@@ -36240,6 +36524,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58F/01.jpg",
     images: ["/anh1/DV58F/01.jpg", "/anh1/DV58F/06.jpg", "/anh1/DV58F/07.jpg", "/anh1/DV58F/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon 2 thớ siêu mềm mịn có rung size nhỏ Lovetoy Jame (DV58F) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân dành cho nữ giới hoặc các cặp đôi, giúp kích thích khoái cảm và giải tỏa nhu cầu thăng hoa an toàn nhờ công nghệ mô phỏng chân thật.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Cấu trúc silicon 2 thớ siêu mềm đạt chuẩn an toàn, tạo cảm giác tiếp xúc êm ái và mềm mại như da thật.</li><li>- Mô phỏng thiết kế chi tiết với đường gân và múi cơ tự nhiên, tối ưu hóa khả năng cọ xát kích thích điểm G.</li><li>- Kích thước chuẩn nhỏ gọn 18cm x 3.6cm, hoàn toàn phù hợp với cơ địa người phụ nữ Việt Nam.</li><li>- Trang bị động cơ 10 chế độ rung đa dạng, tùy chỉnh linh hoạt qua bộ điều khiển nối dây dùng 2 pin AAA.</li></ul>
@@ -36331,6 +36616,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV72B/01.jpg",
     images: ["/anh1/DV72B/01.jpg", "/anh1/DV72B/05.jpg", "/anh1/DV72B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho phụ nữ đang tìm kiếm thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cao cấp với khả năng mô phỏng nhịp điệu sinh học chân thực, sản phẩm Leten DV72B là giải pháp cá nhân toàn diện nhờ sự kết hợp giữa chuyển động thụt tự động, công nghệ tỏa nhiệt 40°C và thiết kế kích thích kép.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: Leten DV72B</h2>
@@ -36367,6 +36653,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV66C/01.jpg",
     images: ["/anh1/DV66C/01.jpg", "/anh1/DV66C/05.jpg", "/anh1/DV66C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho nữ giới muốn trải nghiệm cảm giác chăm sóc cá nhân đa điểm hoặc các cặp đôi tìm kiếm sự mới mẻ, máy rung liếm Leten DV66C là thiết bị massage cao cấp kết hợp đồng thời cơ chế rung, bú liếm mềm mại và khả năng tỏa nhiệt sưởi ấm 37 độ C chân thực.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Leten</h2>
@@ -36404,6 +36691,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV34/01.jpg",
     images: ["/anh1/DV34/01.jpg", "/anh1/DV34/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon siêu khủng (DV34) là thiết bị hỗ trợ giải tỏa sinh lý cao cấp dành cho nữ giới và các cặp đôi, giúp kích thích thấu sâu nhờ chế độ rung ngoáy linh hoạt. Với thiết kế thân thiện, chất liệu mượt mà và thao tác lắp pin đơn giản, sản phẩm mang lại sự tiện lợi tối đa cho người mới bắt đầu sử dụng.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu silicon mềm mại: Thân thiện với làn da, độ đàn hồi linh hoạt, mang lại cảm giác mượt mà và an toàn ngay từ lần dùng đầu tiên.</p>
@@ -36952,6 +37240,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54D/01.jpg",
     images: ["/anh1/DV54D/01.jpg", "/anh1/DV54D/05.jpg", "/anh1/DV54D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều người dùng khi mới tiếp cận các sản phẩm hỗ trợ cá nhân thường gặp khó khăn trong việc lựa chọn một thiết bị dễ thao tác, chất liệu an toàn và có độ linh hoạt cao. Dương vật silicon da đen nổi gân (DV54D) từ thương hiệu CHISA là giải pháp đáp ứng trọn vẹn nhu cầu này nhờ thiết kế silicon mềm mại, tích hợp đế hút chân không tiện lợi cùng thông số kích thước 22.5cm x 3.8cm chuẩn mực.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu silicone cao cấp có tính năng kháng khuẩn, bề mặt mềm dẻo và an toàn cho vùng da nhạy cảm.</li><li>- Kích thước tổng thể 22.5cm x 3.8cm, trọng lượng 0.427kg mang lại độ đầm chắc khi cầm nắm hoặc cố định.</li><li>- Thiết kế bề mặt mô phỏng gân nổi chi tiết, hỗ trợ gia tăng ma sát và kích thích điểm G hiệu quả.</li><li>- Phụ kiện chân đế hút chân không giúp bám dính chắc chắn trên các bề mặt phẳng như kính, gạch men, gỗ.</li><li>- Khả năng chống thấm nước 100%, thuận tiện cho việc sử dụng trong nhiều không gian và dễ dàng rửa sạch.</li></ul>
@@ -36981,6 +37270,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39D/01.jpg",
     images: ["/anh1/DV39D/01.jpg", "/anh1/DV39D/05.jpg", "/anh1/DV39D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi nhu cầu giải tỏa căng thẳng sinh lý và cân bằng nội tiết tố cá nhân ngày càng được quan tâm, việc tìm kiếm một thiết bị hỗ trợ sức khỏe sinh sản an toàn và đa chức năng là ưu tiên hàng đầu của nhiều chị em. Dương vật đa năng cao cấp rung thụt sóng bi siêu đỉnh (DV39D) từ thương hiệu Baile là giải pháp chăm sóc sức khỏe cá nhân cao cấp dành cho nữ giới, kết hợp đồng thời công nghệ thụt tự động, cuộn bi dọc thân và 12 chế độ rung giúp giải tỏa nhu cầu sinh lý an toàn và hiệu quả.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Cơ chế thụt tự động kết hợp hệ thống nhíp lò xo cơ học, tạo chuyển động tịnh tiến nhịp nhàng và chân thực.</li><li>- Tích hợp 4 tần số cuộn bi chạy dọc thân, gia tăng điểm tiếp xúc và tác động sâu tới các vùng nhạy cảm.</li><li>- Trang bị 12 chế độ rung linh hoạt, cho phép người dùng dễ dàng điều chỉnh cường độ phù hợp với nhu cầu cá nhân.</li><li>- Thiết kế nhánh thỏ phụ hỗ trợ kích thích kép đồng thời cả bên trong và khu vực âm vật bên ngoài.</li><li>- Thông số kích thước chuẩn xác: Chiều dài tổng thể 26.7cm, chiều dài sử dụng 16.1cm, đường kính 3.4cm và trọng lượng 279g.</li><li>- Tích hợp nguồn pin sạc qua cổng USB tiện lợi, tiết kiệm và tối ưu cho mỗi lần sử dụng.</li></ul>
@@ -37374,6 +37664,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44H/01.jpg",
     images: ["/anh1/DV44H/01.jpg", "/anh1/DV44H/05.jpg", "/anh1/DV44H/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon rung thụt ngoáy sưởi ấm (DV44H) thương hiệu Letten là sản phẩm hỗ trợ chăm sóc sức khỏe sinh lý nữ cao cấp, được sử dụng để giải tỏa nhu cầu cá nhân và kích thích đồng thời cả âm đạo lẫn âm vật nhờ tích hợp các chế độ rung, thụt, ngoáy tự động cùng chức năng sưởi ấm.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm DV44H gây ấn tượng với thiết kế chuẩn mực gồm chiều dài tổng thể 25cm, đường kính 3.5cm vừa vặn và một nhánh rung phụ dài 6cm chuyên biệt. Toàn bộ phần thân được chế tác từ silicone y tế cao cấp, không độc tính, mang lại cảm giác vô cùng mềm mại và an toàn cho làn da nhạy cảm. Điểm cộng lớn của chất liệu này là khả năng chống bám bẩn và chống nước tốt, giúp bề mặt không bị ăn mòn hay xơ cứng theo thời gian. Bạn có thể dễ dàng làm sạch sản phẩm sau mỗi lần sử dụng mà không tốn nhiều công sức, đảm bảo độ bền đẹp và vệ sinh lâu dài.</p>
@@ -37402,6 +37693,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44N/01.jpg",
     images: ["/anh1/DV44N/01.jpg", "/anh1/DV44N/05.jpg", "/anh1/DV44N/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi nhu cầu chăm sóc sức khỏe sinh lý cá nhân đòi hỏi một thiết bị hỗ trợ vừa hiệu quả vừa an toàn, thiết bị dương vật silicon Joker siêu mềm rung thụt sưởi ấm (DV44N) chính là giải pháp tối ưu. Đây là sản phẩm cao cấp đến từ thương hiệu Joker (Mỹ), kết hợp công nghệ sưởi ấm 45°C, hành trình thụt 3cm cùng 7 tần số rung và 10 chế độ vận hành giúp thư giãn và giải tỏa căng thẳng hiệu quả.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Chuyển động thụt linh hoạt: Hành trình thụt lên xuống 3cm kết hợp 10 chế độ thụt và 7 tần số rung massage, hỗ trợ kích thích điểm G và massage âm vật chuyên sâu.</p>
@@ -37622,6 +37914,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV72D/01.png",
     images: ["/anh1/DV72D/01.png", "/anh1/DV72D/05.png", "/anh1/DV72D/06.png", "/anh1/DV72D/07.png", "/anh1/DV72D/08.png"],
+    sensitive: true,
     longDescription: `<p>Leten Dream Thrusting Vibrator rung thụt kết lợp lưỡi rung nhánh mềm mịn uốn cong Tặng kèm gel lenten.</p>
 <h2>Chất liệu : Silico + TPE</h2>
 <h2>Chức năng : Rung : 10 chế độ , Thụt: 10 tần số, Liếm</h2>
@@ -38109,6 +38402,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS28H/01.jpg",
     images: ["/anh1/MS28H/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả cao cấp Nano Jeuplay (MS28H)</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>Tính năng: Mát xa âm vật, kích thích điểm G, cân bằng nội tiết, giải tỏa sinh lý hiệu quả</li></ul>
@@ -38146,6 +38440,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC78B/01.jpg",
     images: ["/anh1/DC78B/01.jpg", "/anh1/DC78B/05.jpg", "/anh1/DC78B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Phù hợp cho phụ nữ và các cặp đôi đang tìm kiếm giải pháp kích thích kép mạnh mẽ, Dương vật gai rung ngoáy - chiến binh sa mạc (DC78B) là thiết bị hỗ trợ massage cá nhân cao cấp từ thương hiệu Baile, tích hợp công nghệ rung ngoáy điểm G cùng nhánh thỏ tác động vùng nhạy cảm phía ngoài.</p>
 <h2>Vì sao nên chọn Dương vật gai rung ngoáy- chiến binh sa mạc (DC78B)</h2>
 <p>Dương vật gai rung ngoáy - chiến binh sa mạc (DC78B) nổi bật với thiết kế kết cấu gai nhám nổi trên thân, giúp gia tăng ma sát tối đa trong quá trình di chuyển. Công nghệ chuyển động ngoáy xoáy linh hoạt phối hợp cùng nhánh thỏ rung ngoại vi mang tới tác động kép đồng thời. Sản phẩm sở hữu phần tay cầm nhỏ gọn, chắc chắn, giúp người dùng dễ dàng thao tác và làm chủ mọi nhịp điệu.</p>
@@ -38183,6 +38478,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV71/01.jpg",
     images: ["/anh1/DV71/01.jpg", "/anh1/DV71/05.jpg", "/anh1/DV71/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt lớn nhất của dương vật silicon Leten (DV71) so với các dòng thông thường chính là khả năng uốn cong linh hoạt theo cơ địa kết hợp cùng công nghệ sưởi ấm nhiệt độ cơ thể, mang lại giải pháp chăm sóc sức khỏe sinh lý an toàn và cực kỳ dễ thao tác cho người mới bắt đầu. Sản phẩm tích hợp 2 động cơ rung cùng nhánh kích thích ngoài, hỗ trợ giải tỏa nhu cầu sinh lý nữ giới và giúp các cặp đôi đôi làm mới đời sống riêng tư một cách tinh tế, nhẹ nhàng.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Thiết kế dạng đốt thông minh từ thương hiệu Leten, cho phép uốn cong nhẹ nhàng theo đường cong cơ thể mà không lo biến dạng.</li><li>- Công nghệ sưởi ấm tạo nhiệt độ ấm áp tự nhiên, mô phỏng chân thực cảm giác tiếp xúc da thịt.</li><li>- Hệ thống 2 động cơ rung độc lập với 7 tần số rung đa dạng, đáp ứng tốt nhiều cấp độ trải nghiệm.</li><li>- Nhánh phụ thiết kế chuyên biệt hỗ trợ tác động nhẹ nhàng vùng âm vật, tạo tác động kép đồng thời inside và outside.</li><li>- Khả năng vận hành siêu êm với độ ồn dưới 45dB, giữ trọn sự kín đáo và riêng tư.</li><li>- Trang bị pin sạc tiện lợi, thời gian sạc từ 2-3 giờ cho thời gian sử dụng liên tục lên đến 1 giờ.</li></ul>
@@ -38215,6 +38511,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS20D/01.jpg",
     images: ["/anh1/MS20D/01.jpg", "/anh1/MS20D/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật cao cấp Prettylove Byron (MS20D) là lựa chọn hoàn hảo cho chị em phụ nữ hoặc các cặp đôi đang tìm kiếm giải pháp chăm sóc sức khỏe sinh lý an toàn, hỗ trợ massage kích thích đa điểm và giải tỏa căng thẳng hiệu quả. Sản phẩm kết hợp 7 chế độ rung cùng 4 chế độ bi cuộn thông minh, mang đến trải nghiệm thư giãn chuyên sâu và tinh tế.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Prettylove</h2>
@@ -38252,6 +38549,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS28K/01.jpg",
     images: ["/anh1/MS28K/01.jpg", "/anh1/MS28K/05.jpg", "/anh1/MS28K/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nữ giới hoặc các cặp đôi đang tìm kiếm giải pháp hỗ trợ sinh lý tích hợp công nghệ kép sẽ phù hợp với sản phẩm Dương vật Joko rung sóng bi siêu kích thích (MS28K). Đây là dòng máy massage cao cấp đến từ thương hiệu JOKO (Hồng Kông), kết hợp đồng thời 10 chế độ rung ở nhánh phụ và 3 tần số chuyển động sóng bi ở thân chính giúp kích thích toàn diện các điểm nhạy cảm.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Công nghệ sóng bi 3 chế độ: Thân chính tích hợp dải bi chuyển động lượn sóng dọc theo trục, hỗ trợ massage chuyên sâu cho thành âm đạo và điểm G.</p>
@@ -38284,6 +38582,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC01D/01.jpg",
     images: ["/anh1/DC01D/01.jpg", "/anh1/DC01D/05.jpg", "/anh1/DC01D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị hỗ trợ cá nhân thông thường, dương vật cao cấp Libo (mã DC01D) tích hợp đồng thời ba cơ chế vận hành độc lập gồm rung, thụt và ngoáy, kết hợp cùng hệ thống đèn flash chiếu sáng và chất liệu nhựa nhiệt dẻo TPR đạt tiêu chuẩn an toàn cho sức khỏe. Sản phẩm được thiết kế tối ưu cho nhu cầu chăm sóc sức khỏe sinh lý nữ giới với khả năng kháng nước tuyệt đối và nguồn pin sạc tiện lợi.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC01D</h2>
@@ -38327,6 +38626,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC01E/01.jpg",
     images: ["/anh1/DC01E/01.jpg", "/anh1/DC01E/06.jpg", "/anh1/DC01E/07.jpg", "/anh1/DC01E/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành riêng cho phái đẹp và các cặp đôi mong muốn tìm kiếm giải pháp giải tỏa căng thẳng và thăng hoa cảm xúc, thiết bị massage Dương vật đa năng rung thụt ngoáy Mr Rabit (DC01E) của thương hiệu Baile là sản phẩm hỗ trợ chăm sóc sức khỏe sinh lý cao cấp với khả năng kết hợp đa chế độ rung, xoay 360 độ và thụt tự động. Sản phẩm sở hữu thiết kế thông minh tích hợp nhánh thỏ kích thích điểm G cùng khu vực nhạy cảm bên ngoài, mang lại trải nghiệm thư giãn toàn diện và an toàn tuyệt đối.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Công nghệ vận hành đa năng 3 trong 1: Tích hợp đồng thời cơ chế rung, tự động thụt lên xuống nhờ hệ thống nhíp lò xo và xoay ngoáy 360 độ nhờ ruột bi bên trong.</p>
@@ -38360,6 +38660,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC01G/01.jpg",
     images: ["/anh1/DC01G/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho những chị em mới bắt đầu tìm hiểu thiết bị hỗ trợ sức khỏe sinh lý cá nhân, sản phẩm Dương vật đa năng cao cấp Libo Phượng Hoàng (DC01G) là lựa chọn lý tưởng nhờ thiết kế thân thiện, dễ thao tác và tích hợp đồng thời hai vị trí kích thích. Thiết bị sử dụng chất liệu silicone TPE y tế mềm mại, vận hành êm ái, mang lại trải nghiệm thư giãn an toàn và nhẹ nhàng ngay từ lần đầu sử dụng.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Chất liệu y tế an toàn: Chế tạo từ Silicon TPE mềm mại, lành tính, không gây kích ứng da, đảm bảo tiêu chuẩn an toàn cho sức khỏe cá nhân.</p>
@@ -38668,6 +38969,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44U/01.jpg",
     images: ["/anh1/DV44U/01.jpg", "/anh1/DV44U/17.jpg", "/anh1/DV44U/18.jpg", "/anh1/DV44U/19.jpg", "/anh1/DV44U/20.jpg", "/anh1/DV44U/21.jpg", "/anh1/DV44U/22.jpg", "/anh1/DV44U/23.jpg", "/anh1/DV44U/24.jpg", "/anh1/DV44U/25.jpg", "/anh1/DV44U/26.jpg", "/anh1/DV44U/27.jpg", "/anh1/DV44U/28.jpg", "/anh1/DV44U/29.jpg", "/anh1/DV44U/30.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Cao Cấp Dibe Rung Thụt Sưởi Ấm là thiết bị chăm sóc sức khỏe sinh lý cá nhân cao cấp xuất xứ Đài Loan, tích hợp công nghệ chuyển động thụt tịnh tiến, chế độ rung đa tần số và khả năng sưởi ấm tự động giúp phái đẹp giải tỏa nhu cầu an toàn, tinh tế.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Tính năng đa năng hiện đại: Tích hợp đồng thời 10 chế độ rung, 7 tần số vận hành kết hợp chuyển động thụt biên độ 3 cm linh hoạt.</p>
@@ -38765,6 +39067,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60B/01.jpg",
     images: ["/anh1/DV60B/01.jpg", "/anh1/DV60B/05.jpg", "/anh1/DV60B/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của Dương vật silicon hít đất rung thụt ngoáy (DV60B) so với các dòng thông thường là sự kết hợp hoàn hảo giữa công nghệ chuyển động tự động 3 trong 1 (rung, thụt, ngoáy) và phần đế hít chắc chắn, giúp tối ưu hóa sự tiện lợi và giải phóng hoàn toàn đôi tay khi sử dụng. Sản phẩm thiết kế chuyên biệt để hỗ trợ giải tỏa nhu cầu sinh lý và chăm sóc sức khỏe cá nhân cho phái đẹp một cách an toàn, hiệu quả.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm DV60B có xuất xứ từ Hồng Kông, được chế tạo từ chất liệu silicone cao cấp màu da mềm mại, không mùi, mang đến bề mặt tiếp xúc êm ái tương tự da thật và đạt chuẩn an toàn cho sức khỏe người dùng. Thiết bị sở hữu chiều dài 17cm, chiều dài sử dụng 15cm cùng đường kính 3cm, được tính toán vừa vặn với cơ địa phụ nữ Châu Á. Bên trong sản phẩm tích hợp hệ thống nhíp lò xo hỗ trợ chuyển động thụt nhịp nhàng cùng động cơ vận hành êm ái, hạn chế tối đa tiếng ồn. Thiết bị sử dụng 2 viên pin AA tích hợp qua bộ điều khiển dạng núm xoay tiện lợi có đèn LED hiển thị, kết hợp khả năng chống thấm nước 100% giúp việc sử dụng và vệ sinh trở nên cực kỳ đơn giản.</p>
@@ -38795,6 +39098,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60C/01.jpg",
     images: ["/anh1/DV60C/01.jpg", "/anh1/DV60C/05.jpg", "/anh1/DV60C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Dương vật hít đất rung thụt xoay cực phê (DV60C) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ và giải tỏa nhu cầu cá nhân an toàn, hiệu quả dành cho chị em hoặc các cặp đôi muốn đổi mới không gian riêng tư. Với thiết kế chân đế hít tường thông minh cùng hệ thống điều khiển rời đơn giản, sản phẩm giúp những người mới bắt đầu dễ dàng làm quen và tận hưởng trọn vẹn cảm giác thư giãn êm ái ngay tại nhà.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV60C</h2>
@@ -38876,6 +39180,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/XTS10B/01.jpg",
     images: ["/anh1/XTS10B/01.jpg", "/anh1/XTS10B/04.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành riêng cho nam giới mong muốn nâng cao sự tự tin, cải thiện kích thước và độ dẻo dai trong đời sống vợ chồng, Gel Titan Nga (XTS10B) là dòng sản phẩm cao cấp nhập khẩu trực tiếp từ Nga với dung tích 50ml. Sản phẩm hỗ trợ chăm sóc sức khỏe nam giới, giúp tối ưu hóa chiều dài và gia tăng sức bền bỉ một cách an toàn, hiệu quả.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Nguồn gốc xuất xứ chính hãng từ Nga, thuộc thương hiệu Titan uy tín.</li><li>- Công thức dạng gel an toàn, thẩm thấu nhanh và không gây tác dụng phụ.</li><li>- Dung tích 50ml tiện lợi, phù hợp cho liệu trình chăm sóc hàng ngày.</li><li>- Hỗ trợ tăng độ dài cậu nhỏ và kéo dài thời gian dẻo dai khi thân mật.</li><li>- Tuýp nhựa cao cấp giúp bảo quản chất lượng gel lâu dài, chống biến chất.</li></ul>
@@ -39302,6 +39607,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/BZ12A/01.jpg",
     images: ["/anh1/BZ12A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn với các mẫu khóa kim loại cố định kích thước thông thường, Khóa dương vật bằng nhựa trong (BZ12A) là thiết bị hỗ trợ giữ trinh tiết nam sở hữu 5 vòng đeo tùy chỉnh linh hoạt, giúp kiểm soát xuất tinh sớm và gia tăng hưng phấn cho cuộc yêu. Được chế tạo từ nhựa y tế trong suốt cao cấp, sản phẩm nổi bật với độ bền vượt trội, khả năng kháng khuẩn cao và rất dễ dàng vệ sinh, bảo quản lâu dài.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Tên sản phẩm: Khóa dương vật bằng nhựa trong (BZ12A)</h2>
@@ -39341,6 +39647,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/BZ12B/01.jpg",
     images: ["/anh1/BZ12B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm giải pháp kiểm soát xuất tinh sớm và nâng cao trải nghiệm lứa đôi nhưng e ngại các thiết bị dạng cứng gây khó chịu, khóa dương vật bằng silicon mềm (BZ12B) là lựa chọn khởi đầu hoàn hảo. Đây là sản phẩm hỗ trợ sức khỏe sinh lý nam giới xuất xứ từ Hồng Kông, được thiết kế chuyên biệt để giúp duy trì thời gian quan hệ, hạn chế xuất tinh sớm và mang lại cảm giác êm ái tối đa cho người sử dụng.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Thiết kế thân thiện cho người mới: Nhờ tính chất mềm mại và độ co giãn tốt, sản phẩm giúp người dùng lần đầu dễ dàng tiếp cận mà không gặp cảm giác cấn thắt hay đau rát.</p>
@@ -40597,6 +40904,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV11A/01.jpg",
     images: ["/anh1/DV11A/01.jpg", "/anh1/DV11A/05.jpg", "/anh1/DV11A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật rung ngoáy 2 nhánh Pretty Bunny (DV11A) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý nữ cao cấp, được sử dụng để giải tỏa nhu cầu cá nhân, massage âm đạo và hỗ trợ cân bằng nội tiết nhờ cơ chế rung ngoáy đa chiều kết hợp kích thích đồng thời các điểm nhạy cảm.</p>
 <h2>Vì sao nên chọn Dương vật rung ngoáy 2 nhánh Pretty Bunny (DV11A)</h2>
 <p>Nếu bạn đang tìm kiếm một giải pháp chăm sóc sức khỏe cá nhân vừa đa năng vừa đạt tiêu chuẩn an toàn cao, Pretty Bunny (DV11A) chính là sự lựa chọn rất đáng cân nhắc. Điểm cộng lớn nhất của sản phẩm nằm ở việc sử dụng hoàn toàn chất liệu silicone và polymer cao cấp đã qua kiểm định, đảm bảo sự lành tính và an toàn tuyệt đối cho những vùng da nhạy cảm nhất.</p>
@@ -40672,6 +40980,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC77M/01.jpg",
     images: ["/anh1/DC77M/01.jpg", "/anh1/DC77M/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu chăm sóc sức khỏe sinh lý cá nhân an toàn và kín đáo ngày càng trở nên quan trọng đối với phái đẹp, đặc biệt là khi gặp tình trạng căng thẳng hay xa cách bạn đời. Thiết bị massage Pretty Love Snappy (DC77M) là giải pháp hỗ trợ giải tỏa sinh lý cao cấp, được chế tạo từ silicone y tế đạt chuẩn an toàn sinh học, kết hợp cấu trúc nhánh kép cùng 30 chế độ rung linh hoạt giúp kích thích điểm G và âm vật một cách dịu nhẹ, hiệu quả.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Pretty Love</h2>
@@ -40711,6 +41020,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44B/01.jpg",
     images: ["/anh1/DV44B/01.jpg", "/anh1/DV44B/05.jpg", "/anh1/DV44B/06.jpg", "/anh1/DV44B/10.jpg", "/anh1/DV44B/11.jpg", "/anh1/DV44B/12.jpg", "/anh1/DV44B/13.jpg", "/anh1/DV44B/14.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV44B Dương vật giả silicon siêu mềm mịn, rung thụt phê lâng cô bé</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Kích thích âm vật, điểm G, giải tỏa ham muốn tình dục và sinh lý nữ hiệu quả</li></ul>
@@ -40758,6 +41068,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58D/01.jpg",
     images: ["/anh1/DV58D/01.jpg", "/anh1/DV58D/05.jpg", "/anh1/DV58D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon 2 thớ siêu mềm mịn Mr Luca (DV58D) thương hiệu Lovetoy là thiết bị hỗ trợ sinh lý cá nhân phù hợp nhất cho nữ giới có nhu cầu tìm kiếm dòng sản phẩm kích thước nhỏ gọn, vừa vặn với thể trạng người Châu Á. Sản phẩm được chế tạo từ chất liệu silicon lỏng 2 lớp cao cấp, đáp ứng đầy đủ các tiêu chuẩn kiểm định an toàn sức khỏe, tích hợp cơ chế rung 7 tần số và chân đế hít tường chắc chắn.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DV58D</h2>
@@ -40796,6 +41107,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54/01.jpg",
     images: ["/anh1/DV54/01.jpg", "/anh1/DV54/05.jpg", "/anh1/DV54/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật silicon Chisa Explore (DV54) là thiết bị hỗ trợ giải tỏa nhu cầu sinh lý cá nhân cao cấp, giúp phái đẹp dễ dàng tự do thăng hoa ngay tại nhà. Với thiết kế mô phỏng chân thực và chân đế hút tường chắc chắn, sản phẩm mang lại sự tiện lợi tối đa cho người mới bắt đầu trải nghiệm.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Sản phẩm sở hữu kích thước chuẩn 17.8cm x 3.7cm cùng trọng lượng 228g, tạo cảm giác đầm tay và vừa vặn. Chisa Explore (DV54) được chế tạo từ chất liệu silicon siêu mềm, đạt tiêu chuẩn kháng khuẩn y tế và chống nước hiệu quả. Phần đế hút chân không bám dính cực kỳ chắc chắn trên các bề mặt phẳng, cho phép bạn cố định thiết bị linh hoạt và thao tác hoàn toàn rảnh tay mà không trơn trượt.</p>
@@ -40852,6 +41164,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV40C/01.jpg",
     images: ["/anh1/DV40C/01.jpg", "/anh1/DV40C/05.jpg", "/anh1/DV40C/06.jpg", "/anh1/DV40C/07.jpg", "/anh1/DV40C/08.jpg", "/anh1/DV40C/09.jpg", "/anh1/DV40C/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV40C Max Vibro: Cao Cấp Với Rung Ngoáy Cực Mạnh, Điều Khiển Từ Xa</h2>
 <p>Thông tin sản phẩm:</p>
 <p>Tính năng:</p>
@@ -40963,6 +41276,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58H/01.jpg",
     images: ["/anh1/DV58H/01.jpg", "/anh1/DV58H/07.jpg", "/anh1/DV58H/08.jpg", "/anh1/DV58H/09.jpg", "/anh1/DV58H/10.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu tìm kiếm một thiết bị hỗ trợ cá nhân mang lại cảm giác chân thực cùng khả năng vận hành rảnh tay đa dạng đang ngày càng phổ biến, và dương vật silicon siêu mềm rung ngoáy Lovetoy Nature Cock Liam (DV58H) là giải pháp đáp ứng trọn vẹn tiêu chí này. Sản phẩm sở hữu cấu trúc silicone hai lớp mô phỏng cơ thể sống kết hợp động cơ 5 chế độ rung và 5 chế độ xoay ngoáy, chuyên biệt cho mục đích kích thích điểm G và giải tỏa nhu cầu sinh lý an toàn.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Lovetoy (Mỹ)</h2>
@@ -41033,6 +41347,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV44C/01.jpg",
     images: ["/anh1/DV44C/01.jpg", "/anh1/DV44C/05.jpg", "/anh1/DV44C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật cyberskin siêu rung chiến binh Leggy (DV44C) là thiết bị hỗ trợ sinh lý cá nhân cao cấp từ thương hiệu Leten (Nhật Bản), được thiết kế đặc biệt cho phụ nữ tìm kiếm trải nghiệm kích thích điểm G và âm vật với lực ma sát chân thật. Với chiều dài sử dụng 10.5 cm, đường kính 3.2 cm cùng bề mặt gân nổi, sản phẩm đáp ứng hiệu quả nhu cầu giải tỏa sinh lý và tối ưu khoái cảm cho người dùng.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu silicone mềm mịn mô phỏng độ đàn hồi tự nhiên, an toàn cho vùng da nhạy cảm.</li><li>- Cấu trúc bề mặt dập nổi chuỗi gân guốc giúp tăng diện tích tiếp xúc và gia tăng lực ma sát.</li><li>- Kích thước kỹ thuật tiêu chuẩn: Tổng chiều dài 18.5 cm, chiều dài khả dụng 10.5 cm, đường kính 3.2 cm.</li><li>- Động cơ vận hành 5 tần số rung chuyển đổi linh hoạt, sử dụng cổng sạc chuẩn USB.</li><li>- Khả năng chống thấm nước 100% kết hợp chân đế hít tường hỗ trợ cố định thiết bị chắc chắn.</li></ul>
@@ -41133,6 +41448,7 @@ export const products: Product[] = [
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dc38g/01.webp",
+    sensitive: true,
     longDescription: `<h2>DC38G Dương vật giả vỏ sò rung cực mạnh sướng phê chim</h2>
 <p>Thông tin giới thiệu chi tiết sản phẩm:</p>
 <h2>Chức năng: Rung, kích thích điểm G, Âm vật, giải tỏa sinh lý hiệu quả</h2>
@@ -41210,6 +41526,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55E/01.jpg",
     images: ["/anh1/DV55E/01.jpg", "/anh1/DV55E/05.jpg", "/anh1/DV55E/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Những người mới bắt đầu tìm hiểu thiết bị hỗ trợ cá nhân thường gặp khó khăn trong việc chọn lựa sản phẩm có kích thước phù hợp và cách vận hành đơn giản. Dương vật silicon Realfeel DV55E thương hiệu Love toy là thiết bị hỗ trợ sinh lý nữ được chế tạo từ chất liệu TPR silicon y tế cao cấp, tích hợp chế độ rung điều chỉnh linh hoạt bằng 2 pin AAA, giúp giải quyết nhu cầu cá nhân một cách an toàn và thuận tiện.</p>
 <h2>Tính năng nổi bật</h2>
 <p>- Kích thước tối ưu cho người mới: Thông số chiều dài 20cm, đường kính 3.9cm và trọng lượng 170g vừa vặn, phù hợp với hình thể phụ nữ Châu Á.</p>
@@ -41329,6 +41646,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65/01.jpg",
     images: ["/anh1/DC65/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả dây đeo đặc ruột DC65 là thiết bị hỗ trợ tình dục cao cấp dùng để hỗ trợ giải tỏa sinh lý và tăng cường trải nghiệm phòng the cho các cặp đôi. Sản phẩm kết hợp dây đeo điều chỉnh linh hoạt cùng cơ chế rung ngoáy ở phần đầu, mang lại sự kích thích sâu sắc và đầy đặn cho đối phương.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Tên sản phẩm: Dương vật giả dây đeo đặc ruột rung ngoáy ở đầu (DC65)</h2>
@@ -41469,6 +41787,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC79A/01.jpg",
     images: ["/anh1/DC79A/01.jpg", "/anh1/DC79A/05.jpg", "/anh1/DC79A/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhiều cá nhân và cặp đôi đang tìm kiếm giải pháp hỗ trợ sinh lý an toàn, đa năng để gia tăng sợi dây gắn kết cũng như giải tỏa nhu cầu cá nhân một cách lành mạnh. Sản phẩm dương vật giả hai đầu DC79A là thiết bị hỗ trợ sức khỏe tình dục được chế tác từ chất liệu silicon y tế không độc hại, sở hữu thiết kế hai đầu linh hoạt giúp tối ưu hóa trải nghiệm giải tỏa sinh lý cho cả cá nhân độc thân, cặp đôi nam - nữ và cặp đôi nữ - nữ.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu đạt tiêu chuẩn an toàn: Sử dụng silicon cao cấp không độc hại, đã qua kiểm định không chứa phụ gia gây hại, đảm bảo an toàn tuyệt đối cho bề mặt niêm mạc nhạy cảm.</p>
@@ -41503,6 +41822,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65B/01.jpg",
     images: ["/anh1/DC65B/01.jpg", "/anh1/DC65B/06.jpg", "/anh1/DC65B/07.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu tìm kiếm một giải pháp hỗ trợ sinh lý đeo hông vừa chắc chắn vừa dễ thao tác thường khiến nhiều người mới bắt đầu cảm thấy băn khoăn. Dương vật dây đeo có rung (DC65B) là dòng sản phẩm chăm sóc sức khỏe tình dục cao cấp, kết hợp giữa thân silicone đặc ruột êm ái, bộ đai đeo bằng da điều chỉnh linh hoạt và tính năng rung giải tỏa nhu cầu hiệu quả, mang lại sự tiện lợi tối đa trong quá trình sử dụng.</p>
 <h2>Vì sao nên chọn Dương vật dây đeo có rung (DC65B)</h2>
 <p>Đối với người lần đầu tiếp cận dòng thiết bị dây đeo, sự thoải mái và tính dễ sử dụng luôn là ưu tiên hàng đầu. Dương vật dây đeo có rung (DC65B) đáp ứng hoàn hảo yêu cầu này nhờ thiết kế dây đai bằng da mềm mại, ôm sát cơ thể và có thể tùy chỉnh kích thước theo vóc dáng người mặc. Phần thân chất liệu silicone đặc ruột với độ dài 165 x 37mm vừa vặn, kết hợp cùng bộ điều khiển rung đơn giản giúp người dùng thao tác mượt mà, nhanh chóng làm quen mà không gặp bất kỳ rào cản kỹ thuật nào.</p>
@@ -41598,6 +41918,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65X/01.jpg",
     images: ["/anh1/DC65X/01.jpg", "/anh1/DC65X/05.jpg", "/anh1/DC65X/06.jpg", "/anh1/DC65X/07.jpg", "/anh1/DC65X/08.jpg", "/anh1/DC65X/09.jpg", "/anh1/DC65X/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Tính năng: Giải tỏa sinh lý cho nữ, tăng kích thích ham muốn</h2>
 <h2>Đối tượng sử dụng: Các cặp đôi đồng tính nữ (LES)</h2>
 <h2>Chất liệu: Silicon PVC siêu mềm mịn, có thể uốn được</h2>
@@ -41629,6 +41950,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC63A/01.jpg",
     images: ["/anh1/DC63A/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC63A Dương vật giả siêu gai ngụy trang rung tê tái âm đạo chị em gái</h2>
 <p>Thông tin dương vật giả gai siêu rung:</p>
 <ul><li>-Tính năng: Giải tỏa sinh lý hiệu quả.</li></ul>
@@ -41668,6 +41990,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC79B/01.jpg",
     images: ["/anh1/DC79B/01.jpg", "/anh1/DC79B/06.jpg", "/anh1/DC79B/07.jpg", "/anh1/DC79B/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác với các dòng sản phẩm đơn điểm thông thường, dương vật silicon hai đầu Baile DC79B sở hữu thiết kế dạng đôi đối xứng dài 36cm linh hoạt, hỗ trợ giải tỏa sinh lý cá nhân hoặc dùng chung cho các cặp đôi một cách tiện lợi. Đây là thiết bị hỗ trợ sức khỏe cá nhân từ chất liệu silicon không độc hại, tối ưu thao tác sử dụng đơn giản phù hợp cho cả người mới bắt đầu.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Thiết kế hai đầu đa năng: Chiều dài tổng thể 36 cm với cấu trúc uốn dẻo linh hoạt giúp người mới sử dụng dễ dàng cầm nắm, điều chỉnh góc độ và điểm tác động theo nhu cầu.</p>
@@ -41702,6 +42025,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC79C/01.jpg",
     images: ["/anh1/DC79C/01.jpg", "/anh1/DC79C/06.jpg", "/anh1/DC79C/07.jpg", "/anh1/DC79C/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng đơn truyền thống, Dương vật silicon 2 đầu mềm và dài (DC79C) sở hữu thiết kế hai đầu uốn cong linh hoạt với chiều dài ấn tượng 45cm, đem lại sự tiện lợi tối đa cho người mới bắt đầu lẫn các cặp đôi. Sản phẩm là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý cá nhân an toàn, giúp giải tỏa nhu cầu tự nhiên hoặc đồng hành cùng các cặp đôi nữ - nữ và nam - nữ trong hành trình tìm kiếm cảm xúc thăng hoa.</p>
 <h2>Điểm nổi bật</h2>
 <p>- Thiết kế 2 đầu linh hoạt: Cho phép sử dụng linh hoạt khi thăng hoa cá nhân hoặc chia sẻ khoảnh khắc ngọt ngào cùng đối phương.</p>
@@ -41794,6 +42118,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DV65D/01.jpg",
     images: ["/anh1/DV65D/01.jpg", "/anh1/DV65D/05.jpg", "/anh1/DV65D/06.jpg", "/anh1/DV65D/07.jpg", "/anh1/DV65D/08.jpg", "/anh1/DV65D/09.jpg"],
+    sensitive: true,
     longDescription: `<p>DV65D Dương vật giả có dây đeo dành cho les quan hệ đồng tính nữ trao yêu thương trọn vẹn</p>
 <p>Thông tin mô tả chi tiết:</p>
 <h2>– Mã hàng: DV65D</h2>
@@ -41831,6 +42156,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DV65E/01.jpg",
     images: ["/anh1/DV65E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Đối với các cặp đôi đồng tính nữ hoặc các cặp đôi mong muốn đổi mới trải nghiệm phòng the, việc lựa chọn một thiết bị hỗ trợ có khả năng cố định chắc chắn và tạo kích thích kép là nhu cầu rất phổ biến. Sản phẩm dương vật dây đeo siêu rung DV65E đến từ thương hiệu Aphrodisia (Hong Kong) đáp ứng chính xác nhu cầu này nhờ thiết kế dây đeo tùy chỉnh kích thước, tích hợp 10 chế độ rung điều khiển qua dây nối và nhánh thỏ hỗ trợ kích thích điểm G hiệu quả.</p>
 <h2>Tính năng nổi bật</h2>
 <ul><li>- Tích hợp bộ điều khiển có dây nối trực tiếp, cho phép tùy chỉnh linh hoạt 10 chế độ rung khác nhau.</li><li>- Hệ thống dây đeo bằng da chắc chắn, hỗ trợ điều chỉnh kích thước ôm sát hông phù hợp với nhiều vóc dáng.</li><li>- Cấu tạo dạng đặc ruột gia tăng độ đầm, bề mặt mô phỏng chi tiết các đường gân nổi giúp tăng lực ma sát.</li><li>- Thiết kế đa năng bổ sung nhánh thỏ phụ, hỗ trợ kích thích đồng thời cả điểm G và âm vật.</li><li>- Vận hành bằng nguồn 2 viên pin AAA dễ dàng thay thế và sử dụng ở mọi nơi.</li></ul>
@@ -41895,6 +42221,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC79F/01.jpg",
     images: ["/anh1/DC79F/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Các cặp đôi đồng tính nữ thường gặp khó khăn trong việc tìm kiếm giải pháp hỗ trợ đơn giản, an toàn và mang lại sự hòa hợp cùng lúc cho cả hai. Dương vật 2 đầu cho Les (DC79F) là lựa chọn tối ưu với chất liệu silicon y tế mềm mại, thiết kế hai đầu chuyên biệt (13.5cm x 3.5cm và 10cm x 2.5cm) giúp bạn dễ dàng làm quen và thăng hoa ngay từ lần đầu sử dụng.</p>
 <h2>Điểm nổi bật</h2>
 <ul><li>- Chất liệu silicon y tế cao cấp, an toàn tuyệt đối cho da nhạy cảm và hoàn toàn không thấm nước.</li><li>- Thiết kế hai đầu tiện lợi với kích thước tối ưu: đầu dài (13.5cm x 3.5cm) và đầu ngắn (10cm x 2.5cm).</li><li>- Bề mặt trơn bóng, nhẵn mịn giúp mọi chuyển động trở nên trơn tru và êm ái.</li><li>- Cơ chế không rung đơn giản, dễ dàng kiểm soát nhịp độ, cực kỳ phù hợp cho người mới bắt đầu.</li><li>- Tông màu Tím - Hồng trong suốt tinh tế, thẩm mỹ và hiện đại.</li></ul>
@@ -41957,6 +42284,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DV03D/01.jpg",
     images: ["/anh1/DV03D/01.jpg", "/anh1/DV03D/05.jpg", "/anh1/DV03D/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho các cặp đôi đồng tính nữ, người gặp hạn chế về chức năng sinh lý nam hoặc các cá nhân muốn nâng cao chất lượng đời sống tình dục, dương vật dây đeo bơm hơi tự động (DV03D) từ thương hiệu Baile là thiết bị hỗ trợ sức khỏe cá nhân được chế tạo từ chất liệu silicone y tế đạt chuẩn an toàn cao. Sản phẩm tích hợp cơ chế bơm hơi điều chỉnh kích thước linh hoạt và chế độ rung chuyên sâu, giúp đáp ứng nhu cầu giải tỏa sinh lý một cách tự nhiên, lành tính và không gây kích ứng da.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật dây đeo bơm hơi tự động (DV03D) của thương hiệu Baile (xuất xứ Hồng Kông) chú trọng đặc biệt đến tiêu chuẩn an toàn sức khỏe người dùng nhờ sử dụng 100% chất liệu silicone y tế cao cấp. Chất liệu này đã qua kiểm định về tính sinh học, sở hữu độ mềm mịn và đàn hồi tự nhiên, đảm bảo không gây dị ứng hay bất kỳ tác dụng phụ nào khi tiếp xúc trực tiếp với các vùng da nhạy cảm. Với kích thước chuẩn 15cm x 4.5cm, trọng lượng 370g cùng gam màu đen tinh tế, sản phẩm mang lại cảm giác ôm sát chắc chắn. Hệ thống dây đeo cao cấp có độ bền cao, kết hợp cùng khả năng chống thấm nước 100% và cơ chế vận hành bằng 3 viên pin AA, giúp toàn bộ thiết bị hoạt động ổn định và dễ dàng vệ sinh sau mỗi lần sử dụng.</p>
@@ -41988,6 +42316,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC65N/01.jpg",
     images: ["/anh1/DC65N/01.jpg", "/anh1/DC65N/06.jpg", "/anh1/DC65N/07.jpg", "/anh1/DC65N/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật dây đeo size nhỏ siêu mềm (DC65N) thương hiệu Baile là giải pháp hỗ trợ sinh lý tối ưu dành riêng cho các cặp đôi đồng tính nữ và những người mới bắt đầu muốn trải nghiệm cảm giác ân ái nhẹ nhàng, chân thật. Sản phẩm sở hữu thiết kế dây đeo tùy chỉnh ôm sát cơ thể cùng hai thân dương vật silicon tháo rời linh hoạt với kích thước nhỏ gọn.</p>
 <h2>Vì sao nên chọn Dương vật dây đeo size nhỏ siêu mềm (DC65N)</h2>
 <p>DC65N nổi bật nhờ thiết kế mô-đun tháo rời thông minh, cho phép người dùng dễ dàng chuyển đổi giữa hai kích thước thân silicon siêu mềm mại. Dây đeo kết hợp da cao cấp và dây chun co giãn giúp cố định sản phẩm chắc chắn, ôm sát vòng hông mà không gây khó chịu hay xô lệch khi vận động. Nhờ cấu trúc phân tách tiện lợi, việc vệ sinh và bảo quản sau mỗi lần sử dụng trở nên dễ dàng, triệt để hơn hẳn các dòng đúc nguyên khối.</p>
@@ -42023,6 +42352,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC79G/01.jpg",
     images: ["/anh1/DC79G/01.jpg", "/anh1/DC79G/05.jpg", "/anh1/DC79G/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn và đối phương đang tìm kiếm một giải pháp thăng hoa tự nhiên, an toàn và dễ thao tác mà không muốn gặp rắc rối với các thiết bị cơ khí phức tạp, dương vật silicon 2 đầu mềm mịn cho chị em (DC79G) thương hiệu Love Toy chính là sự lựa chọn vô cùng thích hợp. Sản phẩm sở hữu thiết kế hai đầu uốn cong linh hoạt từ chất liệu silicon PVC dẻo dai dài 36.5cm, giúp các cá nhân hoặc cặp đôi nữ dễ dàng giải tỏa nhu cầu sinh lý một cách mượt mà và tiện lợi ngay từ lần đầu sử dụng.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu silicon PVC mềm mại: Bề mặt cực kỳ êm ái, có khả năng uốn cong hoặc vặn xoắn linh hoạt mà không lo bị biến dạng hay xẹp lép.</p>
@@ -42632,6 +42962,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC04C/01.jpg",
     images: ["/anh1/DC04C/01.jpg", "/anh1/DC04C/05.jpg", "/anh1/DC04C/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Nhu cầu đa dạng hóa trải nghiệm thư giãn cá nhân và giải tỏa sinh lý an toàn luôn là yếu tố quan trọng trong việc chăm sóc sức khỏe tinh thần cũng như thể chất. Trứng rung 2 đầu DC04C là thiết bị hỗ trợ chuyên sâu được làm từ chất liệu nhựa ABS cao cấp, tích hợp cơ chế rung - xoay linh hoạt giúp tác động hiệu quả và an toàn lên các vùng nhạy cảm của cơ thể.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Mã sản phẩm: DC04C</h2>
@@ -44132,6 +44463,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV36A/01.jpg",
     images: ["/anh1/DV36A/01.jpg", "/anh1/DV36A/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Sản phẩm Âm đạo giả và dương vật giả (DV36A) là thiết bị hỗ trợ sinh lý đa năng tích hợp cả hai bộ phận mô phỏng nam và nữ trên cùng một cấu trúc, được sử dụng để giải tỏa nhu cầu sinh lý cá nhân hoặc tăng trải nghiệm mới lạ cho các cặp đôi.</p>
 <h2>Vì sao nên chọn Âm đạo giả và dương vật giả (DV36A)</h2>
 <p>Thiết bị DV36A nổi bật nhờ thiết kế tích hợp độc đáo 2-trong-1, phục vụ linh hoạt cho cả nam giới, nữ giới và các cặp tình nhân. Điểm mạnh cốt lõi của sản phẩm nằm ở mức độ an toàn vật liệu khi ứng dụng thành phần silicone và Polymer cao cấp đã qua kiểm định không độc hại. Cấu trúc vật liệu có độ co duỗi cao, mềm mại và mịn màng, giúp đảm bảo an toàn tuyệt đối cho các vùng da nhạy cảm trong suốt quá trình sử dụng.</p>
@@ -44662,6 +44994,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/BD24/01.jpg",
     images: ["/anh1/BD24/01.jpg", "/anh1/BD24/06.jpg", "/anh1/BD24/07.jpg", "/anh1/BD24/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành cho các cặp đôi đang tìm kiếm làn gió mới để hâm nóng tình cảm hoặc những ai muốn trải nghiệm cảm giác kích thích đôi đầy ấn tượng, dương vật phụ quai đeo Chisa (BD24) là giải pháp hỗ trợ hoàn hảo nhờ thiết kế ôm sát chắc chắn cùng động cơ rung tích hợp linh hoạt.</p>
 <h2>Thông số kỹ thuật</h2>
 <h2>- Thương hiệu: Chisa (Nhập khẩu Hồng Kông)</h2>
@@ -45055,6 +45388,7 @@ export const products: Product[] = [
     icon: "bloom",
     image: "/anh1/HM17D/01.jpg",
     images: ["/anh1/HM17D/01.jpg", "/anh1/HM17D/06.jpg", "/anh1/HM17D/07.jpg", "/anh1/HM17D/08.jpg"],
+    sensitive: true,
     longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị thông thường nhờ chất liệu T-Skin siêu bền cùng thiết kế cấu trúc xoắn độc đáo, Dương vật mini xoắn mềm đa năng (HM17D) là giải pháp hỗ trợ chăm sóc sức khỏe sinh lý và massage kích thích vùng nhạy cảm một cách an toàn, dễ dàng vệ sinh và bảo quản lâu dài.</p>
 <h2>Thiết kế &amp; chất liệu</h2>
 <p>Dương vật mini xoắn mềm đa năng (HM17D) sở hữu kích thước nhỏ gọn 9.3cm x 2.5cm với hai tùy chọn kích cỡ linh hoạt, đáp ứng trọn vẹn nhu cầu sử dụng cá nhân. Sản phẩm được hoàn thiện từ chất liệu T-Skin cao cấp không mùi, có đặc tính mềm mại, đàn hồi vượt trội và khả năng kháng tổn hại bề mặt tốt, duy trì độ bền ổn định theo thời gian. Bề mặt sản phẩm nổi bật với tông màu da tự nhiên kết hợp các đường vân xoắn liti tinh xảo, đi kèm phần đế hút gắn tường chắc chắn giúp việc thao tác sử dụng cũng như công đoạn vệ sinh, phơi khô bảo quản trở nên vô cùng thuận tiện.</p>
@@ -45302,6 +45636,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/HM17E/01.jpg",
     images: ["/anh1/HM17E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Chức năng: Mát xa khu vực hậu môn, âm đạo, giải tỏa sinh lý hiệu quả.</p>
 <h2>Đối tượng sử dụng: Nam - nữ, cặp đôi đồng tính nam</h2>
 <h2>Chất liệu: Silicone TPE mềm mại</h2>
@@ -45468,6 +45803,7 @@ export const products: Product[] = [
     icon: "orb",
     image: "/anh1/HM31/01.jpg",
     images: ["/anh1/HM31/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Tính năng: Mát xa hậu môn, giải tỏa sinh lý nam hiệu quả</h2>
 <h2>Đối tượng sử dụng: Nam giới, các cặp vợ chồng</h2>
 <h2>Chất liệu: Nhựa ABS + kim loại</h2>
@@ -46457,6 +46793,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "/anh/AD33B/01.jpg",
+    sensitive: true,
   },
   {
     slug: "ad33c-may-thu-dam-tu-dong-leten-a380-bu-mut-cuc-dinh-ad33c",
@@ -46594,6 +46931,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD40B/01.jpg",
     images: ["/anh1/AD40B/01.jpg", "/anh1/AD40B/05.jpg", "/anh1/AD40B/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>Máy Bú Mút Dương Vật Tự Động Làm Ấm, Sướng Phê Cậu Nhỏ</h2>
 <h2>Thông Tin Sản Phẩm Máy Bú Mút Dương Vật Tự Động</h2>
 <ul><li>- Tính năng: Kích thích gia tăng khoái cảm cho nam giới, giúp cải thiện khả năng sinh lý và mang lại cảm giác như thật.</li><li>- Chất liệu: TPE và ABS cao cấp, an toàn cho người sử dụng.</li><li>- Kích thước: 22.5 cm x 6 cm, thiết kế nhỏ gọn dễ sử dụng.</li><li>- Chức năng chính: Rung, bú mút, âm thanh kích thích, sưởi ấm, đế hít tường giúp cố định máy vững vàng.</li><li>- Chế độ rung: 7 chế độ rung, mang đến trải nghiệm phong phú.</li><li>- Nguồn: Sạc pin USB tiện lợi, dễ dàng sử dụng.</li><li>- Thời gian sạc: 3 giờ.</li><li>- Thời gian sử dụng: 1.5 giờ liên tục.</li><li>- Khả năng chịu nước: Không thấm nước, dễ dàng vệ sinh.</li><li>- Thương hiệu: Ailighter.</li><li>- Xuất xứ: Nhật Bản.</li></ul>
@@ -46945,6 +47283,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69D/01.jpg",
     images: ["/anh1/DC69D/01.jpg", "/anh1/DC69D/05.jpg", "/anh1/DC69D/06.jpg", "/anh1/DC69D/07.jpg", "/anh1/DC69D/08.jpg", "/anh1/DC69D/09.jpg", "/anh1/DC69D/10.jpg", "/anh1/DC69D/11.jpg", "/anh1/DC69D/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69D Máy tập dương vật tự động cải thiện kích thước chim quý ông to</h2>
 <p>* Thông tin chi tiết:</p>
 <ul><li>– Chức năng chính: làm to dương vật cho nam giới.</li></ul>
@@ -46967,6 +47306,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68/01.jpg",
     images: ["/anh1/DC68/01.jpg", "/anh1/DC68/05.jpg", "/anh1/DC68/06.jpg", "/anh1/DC68/07.jpg", "/anh1/DC68/08.jpg", "/anh1/DC68/09.jpg", "/anh1/DC68/10.jpg", "/anh1/DC68/11.jpg", "/anh1/DC68/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68 Máy tập làm to dương vật giúp nam giới cải thiện cậu nhỏ</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Tăng cường khả năng sinh lý, giúp “cậu nhỏ” to hơn, dài hơn, giải tỏa sinh lý hiệu quả</li></ul>
@@ -47000,6 +47340,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69/01.jpg",
     images: ["/anh1/DC69/01.jpg", "/anh1/DC69/05.jpg", "/anh1/DC69/06.jpg", "/anh1/DC69/07.jpg", "/anh1/DC69/08.jpg", "/anh1/DC69/09.jpg", "/anh1/DC69/10.jpg", "/anh1/DC69/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69 Máy tập dương vật làm to và dài chim nam giới tự nhiên nhất</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>-Tính năng: Tăng cường khả năng sinh lý, giúp “cậu nhỏ” to hơn, dài hơn, giải tỏa hiệu quả sinh lý</li></ul>
@@ -47030,6 +47371,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC03A/01.jpg",
     images: ["/anh1/DC03A/01.jpg", "/anh1/DC03A/04.jpg", "/anh1/DC03A/05.jpg", "/anh1/DC03A/06.jpg", "/anh1/DC03A/07.jpg", "/anh1/DC03A/08.jpg", "/anh1/DC03A/09.jpg", "/anh1/DC03A/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC03A Máy tập làm to dương vật nam bóp hơi Handsome Up cao cấp</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC03A</h2>
@@ -47064,6 +47406,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC03C/01.jpg",
     images: ["/anh1/DC03C/01.jpg", "/anh1/DC03C/04.jpg", "/anh1/DC03C/05.jpg", "/anh1/DC03C/06.jpg", "/anh1/DC03C/07.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC03C Máy tập hút chân không Lovetoy làm tăng kích cỡ dương vật</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC03C</h2>
@@ -47095,6 +47438,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC03B/01.jpg",
     images: ["/anh1/DC03B/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC03B Máy tập làm to dương vật nam giới dạng ống Max Xtender</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC03B</h2>
@@ -47124,6 +47468,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69A/01.jpg",
     images: ["/anh1/DC69A/01.jpg", "/anh1/DC69A/05.jpg", "/anh1/DC69A/06.jpg", "/anh1/DC69A/07.jpg", "/anh1/DC69A/08.jpg", "/anh1/DC69A/09.jpg", "/anh1/DC69A/10.jpg", "/anh1/DC69A/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69A Máy tập dương vật tự động dễ dàng trong thao tác tập luyện</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Tính năng: Giải tỏa sinh lý hiệu quả, kéo dài và tăng kích thước dương vật, điều chỉnh nội tiết, hỗ trợ điều trị liệt dương.</li><li>– Chất liệu: Silicone và polymer cao cấp, an toàn cho người sử dụng.</li><li>– Chức năng: Kéo, đẩy.</li></ul>
@@ -47163,6 +47508,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC03/01.jpg",
     images: ["/anh1/DC03/01.jpg", "/anh1/DC03/09.jpg", "/anh1/DC03/11.jpg", "/anh1/DC03/12.png", "/anh1/DC03/13.jpg", "/anh1/DC03/14.jpg", "/anh1/DC03/15.jpg", "/anh1/DC03/16.jpg", "/anh1/DC03/17.jpg", "/anh1/DC03/18.jpg", "/anh1/DC03/19.jpg", "/anh1/DC03/20.jpg", "/anh1/DC03/21.jpg", "/anh1/DC03/23.jpg", "/anh1/DC03/24.jpg", "/anh1/DC03/25.jpg", "/anh1/DC03/26.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC03 Máy tập tăng kích cỡ dương vật Pro Extender tiêu chuẩn Mỹ</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC03</h2>
@@ -47230,6 +47576,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68C/01.jpg",
     images: ["/anh1/DC68C/01.jpg", "/anh1/DC68C/05.jpg", "/anh1/DC68C/06.jpg", "/anh1/DC68C/07.jpg", "/anh1/DC68C/08.jpg", "/anh1/DC68C/09.jpg", "/anh1/DC68C/10.jpg", "/anh1/DC68C/11.jpg", "/anh1/DC68C/12.jpg", "/anh1/DC68C/13.jpg", "/anh1/DC68C/14.jpg", "/anh1/DC68C/15.jpg", "/anh1/DC68C/16.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68C Máy tập dương vật bơm tự động cao cấp Louge giúp cậu nhỏ to</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Giải tỏa sinh lý hiệu quả, tăng kích thước dương vật, điều trị rối loạn cương dương, tập luyện trị xuất tinh sớm ở nam giới</li><li>Chất liệu: ABS+ PC+Silicone cao cấp, đạt chuẩn y tế, an toàn cho người sử dụng.</li></ul>
@@ -47273,6 +47620,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69B/01.jpg",
     images: ["/anh1/DC69B/01.jpg", "/anh1/DC69B/06.jpg", "/anh1/DC69B/07.jpg", "/anh1/DC69B/08.jpg", "/anh1/DC69B/09.jpg", "/anh1/DC69B/10.jpg", "/anh1/DC69B/11.jpg", "/anh1/DC69B/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69B Dụng cụ máy tập hỗ trợ làm to dài dương vật nam giới hiệu quả</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>– Tính năng: Giải tỏa sinh lý, làm dương vật dài và to hơn, hỗ trợ điều trị liệt dương, rối loạn chức năng cương dương.</li></ul>
@@ -47309,6 +47657,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68A/01.jpg",
     images: ["/anh1/DC68A/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68A Máy tập làm to dương vật nâng cấp chim nam giới chuẩn size</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>-Tính năng: hỗ trợ cậu bé to và dài hơn, điều chỉnh nội tiết, giải tỏa hiệu quả sinh lý.</li><li>-Nguyên liệu: Nhựa và silicone cao cấp, an toàn cho người sử dụng.</li></ul>
@@ -47336,6 +47685,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69G/01.jpg",
     images: ["/anh1/DC69G/01.jpg", "/anh1/DC69G/05.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69G Máy tập dương vật tự động cao cấp sạc pin có màn hình</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Chức năng : Tăng độ dài cậu bé ở Nam giới, giải tỏa sinh lý cho Nam.</li></ul>
@@ -47380,6 +47730,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/PK001/01.jpg",
     images: ["/anh1/PK001/01.jpg", "/anh1/PK001/05.jpg"],
+    sensitive: true,
     longDescription: `<h2>Miếng lót silicon cao cấp cho máy tập dương vật (PK001)</h2>
 <p>Thông tin chi tiết:</p>
 <h2>Công dụng: Miếng lót cho máy tập dương vật</h2>
@@ -47402,6 +47753,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69H/01.jpg",
     images: ["/anh1/DC69H/01.jpg", "/anh1/DC69H/05.jpg", "/anh1/DC69H/06.jpg", "/anh1/DC69H/07.jpg", "/anh1/DC69H/08.jpg", "/anh1/DC69H/09.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69H Máy tập dương vật tự động REVO Penis Pum làm to chim nhanh</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Chức năng : Tăng độ dài cậu nhỏ ở Nam giới, giải tỏa sinh lý cho Nam.</li></ul>
@@ -47430,6 +47782,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68G/01.jpg",
     images: ["/anh1/DC68G/01.jpg", "/anh1/DC68G/05.jpg", "/anh1/DC68G/06.jpg", "/anh1/DC68G/07.jpg", "/anh1/DC68G/08.jpg", "/anh1/DC68G/09.jpg", "/anh1/DC68G/10.jpg", "/anh1/DC68G/11.jpg", "/anh1/DC68G/12.jpg", "/anh1/DC68G/13.jpg", "/anh1/DC68G/14.jpg", "/anh1/DC68G/15.jpg", "/anh1/DC68G/16.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68G Máy tập dương vật Semo Penis Pump kích thích chiều dài cậu nhỏ</h2>
 <p>Đặc điểm:</p>
 <ul><li>Chức năng: Tăng kích thước cậu nhỏ, cải thiện tình trạng xuất tinh sớm nam giới</li></ul>
@@ -47468,6 +47821,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69M/01.jpg",
     images: ["/anh1/DC69M/01.jpg", "/anh1/DC69M/05.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69M Máy tập dương vật Hercule II cải thiện ngoại hình cậu bé to</h2>
 <p>Thông tin sản phẩm:</p>
 <h2>Tính năng: Tăng Kích thước cậu nhỏ, giải quyết nhu cầu sinh lý</h2>
@@ -47494,6 +47848,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68E/01.jpg",
     images: ["/anh1/DC68E/01.jpg", "/anh1/DC68E/05.jpg", "/anh1/DC68E/07.jpeg", "/anh1/DC68E/08.jpg", "/anh1/DC68E/09.jpg", "/anh1/DC68E/10.jpg", "/anh1/DC68E/11.jpg", "/anh1/DC68E/12.jpg", "/anh1/DC68E/13.jpg", "/anh1/DC68E/14.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68E Máy tập làm to dương vật bằng nước Hydromax dùng là lên</h2>
 <p>THÔNG SỐ KỸ THUẬT:</p>
 <h2>• Kích thước chiều dài chưa nén: 29 cm</h2>
@@ -47540,6 +47895,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69K/01.jpg",
     images: ["/anh1/DC69K/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69K Máy tập dương vật tự động sạc pin cách giúp cậu to dài an toàn</h2>
 <h2>Thông tin sản phẩm</h2>
 <p>* CHI TIẾT:</p>
@@ -47585,6 +47941,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC03D/01.jpg",
     images: ["/anh1/DC03D/01.jpg", "/anh1/DC03D/05.jpg", "/anh1/DC03D/06.jpg", "/anh1/DC03D/07.jpg", "/anh1/DC03D/08.jpg", "/anh1/DC03D/10.jpg", "/anh1/DC03D/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC03D Máy tập kéo dài dương vật hút chân không Hight Vacuum</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DC03D</h2>
@@ -47622,6 +47979,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68M/01.jpg",
     images: ["/anh1/DC68M/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68M Máy tâp dương vật LoveToy hút công xuất mạnh hiệu quả cao</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Tính năng: hỗ trợ cậu nhỏ to và dài hơn, điều chỉnh nội tiết, giải tỏa sinh lý hiệu quả.</li><li>– Nguyên liệu: Nhựa ABS và silicone cao cấp, an toàn cho người sử dụng.</li><li>– sextoy đi kèm: Miếng lót cô bé silicon, vòng silicon giữ cương cứng và gel trơn tru</li></ul>
@@ -47660,6 +48018,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68H/01.jpg",
     images: ["/anh1/DC68H/01.jpg", "/anh1/DC68H/05.jpg", "/anh1/DC68H/06.jpg", "/anh1/DC68H/07.jpg", "/anh1/DC68H/08.jpg", "/anh1/DC68H/09.jpg", "/anh1/DC68H/10.jpg", "/anh1/DC68H/11.jpg", "/anh1/DC68H/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68H Máy tập làm to dương vật cho nam giới tự nhiên hiệu quả</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Tính năng: hỗ trợ dương vật to và dài hơn, thay đổi nội tiết, giải tỏa sinh lý hiệu quả.</li><li>– Nguyên liệu: Nhựa ABS và silicone cao cấp, an toàn cho người sử dụng.</li></ul>
@@ -47697,6 +48056,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68K/01.jpg",
     images: ["/anh1/DC68K/01.jpg", "/anh1/DC68K/05.jpg", "/anh1/DC68K/06.jpg", "/anh1/DC68K/07.jpg", "/anh1/DC68K/08.jpg", "/anh1/DC68K/09.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68K Máy tập dương vật siêu đẹp mang hiệu quả cao cho quý ông</h2>
 <p>* Thông tin chi tiết:</p>
 <ul><li>Tính năng: Máy tập làm tăng kích thước cậu nhỏ, hỗ trợ cương cứng lâu hơn</li></ul>
@@ -47732,6 +48092,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69T/01.jpg",
     images: ["/anh1/DC69T/01.jpg", "/anh1/DC69T/05.jpg", "/anh1/DC69T/06.jpg", "/anh1/DC69T/07.jpg", "/anh1/DC69T/08.jpg", "/anh1/DC69T/09.jpg", "/anh1/DC69T/10.jpg", "/anh1/DC69T/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69T Máy tập làm to dương vật đàn ông cao cấp tự động Big Man</h2>
 <p>Thông tin sản phẩm:</p>
 <p>Thông tin chi tiết:</p>
@@ -47774,6 +48135,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69P/01.jpg",
     images: ["/anh1/DC69P/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69P Máy tập to dương vật chạy pin Electric Vacuum Pump hút cực êm</h2>
 <p>Thông tin chi tiết:</p>
 <h2>Tính năng: Máy tập tăng kích thước dương vật</h2>
@@ -47848,6 +48210,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69N/01.jpg",
     images: ["/anh1/DC69N/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69N Máy tập làm to dương vật thông minh có màn hiển thị LCD</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>Tính năng: Máy tập làm tăng kích thước dương vật, làm mới đời sống phòng the</li></ul>
@@ -47881,6 +48244,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68P/01.jpg",
     images: ["/anh1/DC68P/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68P Máy tập to dương vật giả giá siêu rẻ rất hiệu quả lại tiện lợi</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Chức năng: Tăng kích thước dương vật, giúp kéo dài thời gian và tăng sự bền vững cho cậu nhỏ</li></ul>
@@ -47916,6 +48280,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68X/01.jpg",
     images: ["/anh1/DC68X/01.jpg", "/anh1/DC68X/06.jpg", "/anh1/DC68X/07.jpg", "/anh1/DC68X/08.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68X Máy tập dương vật bằng nước Hydromax Xtreme X30 tập là to</h2>
 <p>Thông tin sản phẩm:</p>
 <p>Máy tập dương vật bằng nước Hydromax Xtreme X3 với phụ kiện đi kèm bao gồm:</p>
@@ -47997,6 +48362,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC68N/01.jpg",
     images: ["/anh1/DC68N/01.jpg", "/anh1/DC68N/05.jpg", "/anh1/DC68N/06.jpg", "/anh1/DC68N/07.jpg", "/anh1/DC68N/08.jpg", "/anh1/DC68N/09.jpg", "/anh1/DC68N/10.jpg", "/anh1/DC68N/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC68N Máy tập dương vật cho nam giới nhỏ gọn hiệu quả cao</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>– Tính năng: Giúp dương vật to và dài hơn so với ban đầu, điều chỉnh nội tiết, giải tỏa sinh lý, tập đều sẽ giúp kéo dài thời gian quan hệ, bản lĩnh đàn ông được thể hiện.</li><li>– Chất liệu: Nhựa và silicon cao cấp, an toàn cho người sử dụng.</li></ul>
@@ -48031,6 +48397,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC69Q/01.jpg",
     images: ["/anh1/DC69Q/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC69Q Máy tập dương vật bơm hút tự động kích thích cậu nhỏ to ra</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Làm to và tăng kích thước dương vật trong một khoảng thời gian ngắn</li><li>Chất liệu sản phẩm: Nhựa ABS + Silicone TPE an toàn, không mùi và không gây hại cho sức khỏe</li><li>Đảm bảo: Hiệu quả sau khi tập luyện, hàng chính hãng đảm bảo chất lượng sản phẩm</li></ul>
@@ -48338,6 +48705,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DV35/01.jpg",
     images: ["/anh1/DV35/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Búp bê tình dục cho nữ với dương vật giả khủng (DV35)</h2>
 <p>Thông tin chi tiết:</p>
 <p>Thông tin sản phẩm:</p>
@@ -48615,6 +48983,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/AD48/01.jpg",
     images: ["/anh1/AD48/01.jpg", "/anh1/AD48/05.jpg", "/anh1/AD48/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>AD48 Âm hộ giả cho nam kiểu hậu môn kích thích dương vật cực phê</h2>
 <p>Thông tin đồ chơi cho nam hậu môn silicone cao cấp:</p>
 <h2>Tính năng: Thủ dâm cho nam. giải quyết nhu cầu sinh lý hiệu quả</h2>
@@ -49125,6 +49494,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS09/01.jpg",
     images: ["/anh1/MS09/01.jpg", "/anh1/MS09/05.jpg", "/anh1/MS09/06.jpg"],
+    sensitive: true,
     longDescription: `<p>MS09 Đồ chơi tình yêu hình trái chuối siêu rung sướng tê ngụy trang cho nữ</p>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Kích thích âm vật, Massage điểm G, Giải tỏa sinh lý hiệu quả.</li></ul>
@@ -49308,6 +49678,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV73/01.jpg",
     images: ["/anh1/DV73/01.jpg", "/anh1/DV73/05.jpg", "/anh1/DV73/06.jpg", "/anh1/DV73/07.jpg", "/anh1/DV73/08.jpg", "/anh1/DV73/09.jpg", "/anh1/DV73/10.jpg", "/anh1/DV73/11.jpg", "/anh1/DV73/12.jpg", "/anh1/DV73/13.jpg", "/anh1/DV73/14.jpg", "/anh1/DV73/15.jpg", "/anh1/DV73/16.jpg", "/anh1/DV73/17.jpg", "/anh1/DV73/18.jpg", "/anh1/DV73/19.jpg"],
+    sensitive: true,
     longDescription: `<p>DV73 Dương vật giả rung thụt cao cấp cho nữ sướng như quan hệ tình dục nam nữ</p>
 <p>Thông tin chi tiết:</p>
 <ul><li>Tính năng: Kích thích âm vật, mát xa âm đạo, tăng kích thích và gia tăng khoái cảm cho nữ</li></ul>
@@ -49343,6 +49714,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC77N/01.jpg",
     images: ["/anh1/DC77N/01.jpg", "/anh1/DC77N/05.jpg", "/anh1/DC77N/07.jpg", "/anh1/DC77N/08.jpg", "/anh1/DC77N/09.jpg", "/anh1/DC77N/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>Tính năng: Tăng Kích thích âm vật, điểm G, gia tăng khoái cảm cho nữ</h2>
 <h2>Chất liệu: Silicone ABS</h2>
 <h2>Kích thước sản phẩm: 20cm x3 cm</h2>
@@ -49398,6 +49770,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC88M/01.jpg",
     images: ["/anh1/DC88M/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Tên sản phẩm: Doreen</h2>
 <h2>Tính năng: Mát xa âm vật, kích thích điểm G, giải tỏa sinh lý hiệu quả</h2>
 <h2>Chất liệu: Silicone ABS an toàn và lành tính</h2>
@@ -49567,6 +49940,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55K/01.jpg",
     images: ["/anh1/DV55K/01.jpg", "/anh1/DV55K/05.jpg", "/anh1/DV55K/06.jpg", "/anh1/DV55K/07.jpg", "/anh1/DV55K/08.jpg", "/anh1/DV55K/09.jpg", "/anh1/DV55K/10.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV55K Dương vật giả cho nữ tự sướng cho les quan hệ đồng tính cực phê</h2>
 <p>Thông tin chi tiết &amp; mô tả:</p>
 <h2>Mã hàng : DV55K</h2>
@@ -49671,6 +50045,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39E/01.jpg",
     images: ["/anh1/DV39E/01.jpg", "/anh1/DV39E/08.jpg", "/anh1/DV39E/09.jpg", "/anh1/DV39E/10.jpg", "/anh1/DV39E/11.jpg", "/anh1/DV39E/12.jpg", "/anh1/DV39E/13.jpg", "/anh1/DV39E/14.jpg", "/anh1/DV39E/15.jpg", "/anh1/DV39E/16.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV39E Dương vật giả silicon siêu rung bắn tinh vào âm đạo nữ như thật</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Kích thích điểm G, tăng khoái cảm, giải quyết nhu cầu sinh lý cho nữ</li></ul>
@@ -53493,6 +53868,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC88D/01.jpg",
     images: ["/anh1/DC88D/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <ul><li>Tính năng: Giải tỏa hiệu quả sinh lý , Massager  kích thích điểm G, âm vật, thủ dâm nữ.</li></ul>
 <h2>Đối tượng dùng: Nữ</h2>
@@ -53844,6 +54220,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC91B/01.jpg",
     images: ["/anh1/DC91B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>* Thông tin chi tiết:</p>
 <ul><li>- Tính năng: Giải tỏa sinh lý hiệu quả.</li><li>- Chất liệu: 100% silicone cao cấp.</li></ul>
 <h2>- Chiều dài sản phẩm: 21.9cm</h2>
@@ -53877,6 +54254,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC91C/01.jpg",
     images: ["/anh1/DC91C/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật cao cấp rung giật cực đỉnh Fun Pulsador (DC91D)</h2>
 <p>Thông tin chi tiết:</p>
 <h2>Tính năng: Kích thích điểm G, âm đạo, giải tỏa sinh lý nữ hiệu quả</h2>
@@ -53912,6 +54290,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC91C/01.jpg",
     images: ["/anh1/DC91C/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật cao cấp rung giật cực đỉnh Fun Pulsador (DC91D)</h2>
 <p>Thông tin chi tiết:</p>
 <h2>Tính năng: Kích thích điểm G, âm đạo, giải tỏa sinh lý nữ hiệu quả</h2>
@@ -54321,6 +54700,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV40/01.jpg",
     images: ["/anh1/DV40/01.jpg", "/anh1/DV40/06.jpg", "/anh1/DV40/08.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV40 Dương vật giả siêu cao cấp Cyber Skin 2 in 1 siêu phẩm tình dục</h2>
 <p>* Thông tin chi tiết:</p>
 <ul><li>– Chức năng chính : Đồ chơi tình dục cho nữ thủ dâm ở âm đạo hoặc các cặp nam – nữ,.làm mới đời sống phòng the</li></ul>
@@ -55115,6 +55495,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS19/01.jpg",
     images: ["/anh1/MS19/01.jpg", "/anh1/MS19/06.jpg", "/anh1/MS19/07.jpg", "/anh1/MS19/08.jpg", "/anh1/MS19/09.jpg", "/anh1/MS19/10.jpg", "/anh1/MS19/11.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <ul><li>Chức năng: mua về nữ,giải tỏa hiệu quả sinh lý.</li><li>Đối tượng dùng: Nữ, những cặp đôi dùng để thực hiện mới đời sống phòng the.</li></ul>
 <h2>Số lần dùng: Nhiều lần</h2>
@@ -55226,6 +55607,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS21/01.jpg",
     images: ["/anh1/MS21/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <ul><li>- Chức năng: Thủ dâm nữ,giải tỏa sinh lý hiệu quả.</li><li>- Đối tượng sử dụng: Nữ, các cặp đôi dùng để làm mới đời sống phòng the.</li></ul>
 <h2>- Số lần sử dụng: Nhiều lần</h2>
@@ -55254,6 +55636,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC38C/01.jpg",
     images: ["/anh1/DC38C/01.jpg", "/anh1/DC38C/07.jpg", "/anh1/DC38C/08.jpg", "/anh1/DC38C/09.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC38C Dương vật giả có rung – Cách kích thích âm đạo nữ sướng nhất</h2>
 <p>Thông tin mô tả chi tiết sản phẩm:</p>
 <h2>Tính năng: Massage điểm G, giải tỏa sinh lý hiệu quả</h2>
@@ -55357,6 +55740,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC38F/01.jpg",
     images: ["/anh1/DC38F/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DC38F Quần lót có rung điều khiển từ xa dương vật giả tự sướng siêu độc đáo</p>
 <p>Thông tin chi tiết:</p>
 <h2>Tính năng: Kích thích âm đạo, âm vật, giải tỏa sinh lý nữ hiệu quả</h2>
@@ -55742,6 +56126,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC54B/08.jpg",
     images: ["/anh1/DC54B/08.jpg", "/anh1/DC54B/09.jpg", "/anh1/DC54B/10.jpg", "/anh1/DC54B/11.jpg", "/anh1/DC54B/12.jpg", "/anh1/DC54B/13.jpg", "/anh1/DC54B/14.jpg", "/anh1/DC54B/15.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC54B Dương vật giả cao cấp Nano có rung cầm tay tự sướng âm đạo</h2>
 <p>Thông tin chi tiết:</p>
 <h2>-Tính năng: Giải tỏa sinh lý hiệu quả</h2>
@@ -55942,6 +56327,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC55A/01.jpg",
     images: ["/anh1/DC55A/01.jpg", "/anh1/DC55A/05.jpg", "/anh1/DC55A/06.jpg", "/anh1/DC55A/07.jpg", "/anh1/DC55A/08.jpg", "/anh1/DC55A/09.jpg", "/anh1/DC55A/10.jpg", "/anh1/DC55A/11.jpg", "/anh1/DC55A/12.jpg", "/anh1/DC55A/13.jpg", "/anh1/DC55A/14.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC55A Dương vật giả siêu rung sưởi ấm âm đạo sướng ra nước</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Gia tăng khoái cảm âm đạo, Điểm G, kích thích âm vật siêu sướng, giải tỏa sinh lý tuyệt vời.</li><li>Đối tượng sử dụng: Nữ, cặp vợ chồng, cặp đôi muốn thay đổi không khí yêu mãnh liệt hơn.</li><li>Chất liệu: Silicon ABS siêu mịn, mềm.</li><li>Đảm bảo: Được kiểm định của FDA Hoa kỳ không gây kích ứng và không chứa chất gây ung thu.</li></ul>
@@ -57688,6 +58074,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC63/01.jpg",
     images: ["/anh1/DC63/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DC63 Dương vật gai siêu rung cho nữ cảm giác được lên đỉnh nhiều lần nhất</p>
 <p>Thông tin dương vật giả gai ngụy trang:</p>
 <ul><li>Tính năng: kích thích vùng kín nữ.</li></ul>
@@ -57724,6 +58111,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC64/01.jpg",
     images: ["/anh1/DC64/01.jpg", "/anh1/DC64/06.jpg", "/anh1/DC64/07.jpg", "/anh1/DC64/08.jpg", "/anh1/DC64/09.jpg", "/anh1/DC64/10.jpg", "/anh1/DC64/11.jpg", "/anh1/DC64/12.jpg", "/anh1/DC64/13.jpg", "/anh1/DC64/14.jpg"],
+    sensitive: true,
     longDescription: `<p>DC64 Dương vật giả rung đa năng kích thích âm đạo nữ hột le và hậu môn – đỉnh cao làm sướng tình dục</p>
 <p>Chi tiết dương vật giả rung đa năng cho nữ:</p>
 <ul><li>-Tính năng: Giải tỏa sinh lý hiệu quả.</li></ul>
@@ -57756,6 +58144,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC05/01.jpg",
     images: ["/anh1/DC05/01.jpg", "/anh1/DC05/04.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả-trái bóng êm ái (DC05)</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>Đây là sản phẩm dương vật giả đặc biệt dành cho nữ. Quả bóng được bơm bơi chắc chắn, tải được trọng lượng hơn 100 cân. Đồ chơi người lớn “Dương vật giả 02” sẽ giúp chị em những lúc cô đơn.</li><li>Chất liệu tốt mềm mại, do choi tinh duc này có độ cứng và đường gân giúp chị em dễ dàng lên được đỉnh, đạt được hạnh phúc. Có thể nói Dương vật giả 02 là người bạn tình thân thiết với chị em một mình, hoặc thử  cảm giác mới lạ.</li><li>Quả bóng có độ đàn hồi “nhún nhảy” sẽ càng kích thích được chị em.</li></ul>`,
@@ -57843,6 +58232,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://vipsextoy.net/files/sanpham/305/1.jpg",
+    sensitive: true,
   },
   {
     slug: "dv54e-duong-vat-gia-silicon-hang-khung-trai-nghiem-manh-me",
@@ -57857,6 +58247,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54E/01.jpg",
     images: ["/anh1/DV54E/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV54E Dương Vật Giả Silicon Hàng Khủng – Trải Nghiệm Cực Đã</h2>
 <h2>DV54E Dương Vật Giả Silicon Hàng Khủng – Trải Nghiệm Mạnh Mẽ</h2>
 <p>DV54E là dòng dương vật giả cao cấp dành cho nữ với kích thước lớn, thiết kế chân thực giúp tăng khoái cảm và cải thiện đời sống tình dục.</p>
@@ -57904,6 +58295,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC50/01.jpg",
     images: ["/anh1/DC50/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương Vật Giả Mini Đa Năng Rung Thụt Sưởi Ấm – Nhỏ Gọn Tiện Lợi</h2>
 <h2>Dương Vật Giả Mini Đa Năng – Rung, Thụt, Sưởi Ấm</h2>
 <p>Sản phẩm thuộc dòng dương vật giả cao cấp với thiết kế nhỏ gọn, hiện đại, tích hợp nhiều tính năng như rung, thụt và sưởi ấm giúp mang lại trải nghiệm chân thật.</p>
@@ -57952,6 +58344,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC51/01.jpg",
     images: ["/anh1/DC51/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC51 Dương Vật Giả Cao Cấp Rung Xoay 360 Độ – Trải Nghiệm Đỉnh Cao</h2>
 <h2>DC51 Dương Vật Giả Cao Cấp Rung Xoay 360°</h2>
 <p>DC51 là dòng dương vật giả cao cấp tích hợp công nghệ rung và xoay hiện đại, mang lại trải nghiệm chân thật và mạnh mẽ.</p>
@@ -58095,6 +58488,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC77/01.jpg",
     images: ["/anh1/DC77/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả 30 chế độ rung cao cấp – Sextoy kích thích điểm G</h2>
 <h2>Dương vật giả 30 chế độ rung cao cấp – Trải nghiệm kích thích đỉnh cao</h2>
 <p>Sản phẩm dương vật giả cao cấp được thiết kế hiện đại với 30 chế độ rung mạnh mẽ, giúp kích thích điểm G và mang lại khoái cảm tối đa cho người dùng. Đây là lựa chọn hoàn hảo cho những ai muốn giải tỏa nhu cầu sinh lý an toàn và hiệu quả.</p>
@@ -58135,6 +58529,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC09A/01.jpg",
     images: ["/anh1/DC09A/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC09A Dương vật giả hít tường rung phóng tinh – Sextoy cao cấp</h2>
 <h2>DC09A Dương vật giả hít tường có rung phóng tinh siêu đỉnh</h2>
 <p>DC09A dương vật giả rung phóng tinh là dòng đồ chơi tình dục cao cấp mang lại trải nghiệm chân thật và mới lạ. Sản phẩm được thiết kế tinh tế với chất liệu silicone mềm mại, giúp người dùng đạt khoái cảm tối đa.</p>
@@ -58225,6 +58620,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65A/01.jpg",
     images: ["/anh1/DC65A/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC65A Dương vật giả dây đeo 2 đầu – Sextoy cho cặp đôi nữ</h2>
 <p>DC65A Dương vật giả có dây đeo 2 đầu – Trải nghiệm thăng hoa cho cả hai</p>
 <p>DC65A dương vật giả dây đeo 2 đầu là sản phẩm đồ chơi tình dục cao cấp được thiết kế dành riêng cho các cặp đôi nữ, giúp cả hai cùng tận hưởng khoảnh khắc thăng hoa một cách tự nhiên và trọn vẹn.</p>
@@ -58267,6 +58663,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC78A/01.jpg",
     images: ["/anh1/DC78A/01.jpg", "/anh1/DC78A/06.jpg", "/anh1/DC78A/08.jpg", "/anh1/DC78A/09.jpg"],
+    sensitive: true,
     longDescription: `<p>*  Thông tin chi tiết:</p>
 <h2>- Tính năng chính: Giải tỏa sinh lý hiệu quả</h2>
 <p>- Thể loại: Đồ chơi tình dục tốt.</p>
@@ -58298,6 +58695,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV02/01.jpg",
     images: ["/anh1/DV02/01.jpg", "/anh1/DV02/05.jpg", "/anh1/DV02/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Chức năng: Kích thích âm vật, điểm G, gia tăng cực khoái cho các nàng, hỗ trợ các nàng thủ dâm</p>
 <h2>Chất liệu: Silicone cao cấp mềm mại, không mùi</h2>
 <h2>Màu sắc: màu da</h2>
@@ -58325,6 +58723,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV03A/06.jpg",
     images: ["/anh1/DV03A/06.jpg", "/anh1/DV03A/07.jpg", "/anh1/DV03A/08.jpg", "/anh1/DV03A/09.jpg", "/anh1/DV03A/10.jpg", "/anh1/DV03A/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV03A Dương vật giả bơm có gắn tường giúp giải tỏa sinh lý phụ nữ</h2>
 <h2>Thông tin chi tiết;</h2>
 <h2>MÃ SẢN PHẨM: DV03A</h2>
@@ -58355,6 +58754,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV08/01.jpg",
     images: ["/anh1/DV08/01.jpg", "/anh1/DV08/05.jpg", "/anh1/DV08/06.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Silicon Siêu Rung Sưởi Ấm Crazy Fire (DV08) – Đỉnh Cao Cảm Xúc Cho Chị Em</p>
 <p>Thông Tin Sản Phẩm:</p>
 <ul><li>- Tính năng chính: Hỗ trợ giải tỏa sinh lý, điều chỉnh nội tiết hiệu quả.</li><li>- Chất liệu: Silicone y tế cao cấp, mềm mại, an toàn tuyệt đối cho sức khỏe.</li></ul>
@@ -58444,6 +58844,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV06A/01.jpg",
     images: ["/anh1/DV06A/01.jpg", "/anh1/DV06A/05.jpg", "/anh1/DV06A/06.jpg", "/anh1/DV06A/08.jpg", "/anh1/DV06A/09.jpg", "/anh1/DV06A/10.jpg", "/anh1/DV06A/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV06A Dương vật giả điều khiển từ xa mạnh mẽ và xoay 360 độ</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DV06A</h2>
@@ -58482,6 +58883,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV22/01.jpg",
     images: ["/anh1/DV22/01.jpg", "/anh1/DV22/05.jpg", "/anh1/DV22/06.jpg", "/anh1/DV22/07.jpg", "/anh1/DV22/08.jpg", "/anh1/DV22/09.jpg", "/anh1/DV22/10.jpg", "/anh1/DV22/11.jpg", "/anh1/DV22/12.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV22 Dương vật giả silicon gắn tường giá rẻ chơi siêu sướng</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>– Chức năng: Nữ thủ dâm ở âm đạo hoặc hậu môn. Các cặp nam – nữ, nữ – nữ,…làm mới đời sống phòng the</li></ul>
@@ -58523,6 +58925,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01B/01.jpg",
     images: ["/anh1/DV01B/01.jpg", "/anh1/DV01B/06.jpg", "/anh1/DV01B/08.jpg", "/anh1/DV01B/09.jpg", "/anh1/DV01B/10.jpg", "/anh1/DV01B/11.jpg", "/anh1/DV01B/12.jpg", "/anh1/DV01B/13.jpg", "/anh1/DV01B/14.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV01B Dương vật giả có gai siêu rung tăng giảm cảm giác tùy thích</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DV01B</h2>
@@ -58564,6 +58967,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01D/01.jpg",
     images: ["/anh1/DV01D/01.jpg", "/anh1/DV01D/06.jpg", "/anh1/DV01D/07.jpg", "/anh1/DV01D/08.jpg", "/anh1/DV01D/09.jpg", "/anh1/DV01D/10.jpg", "/anh1/DV01D/11.jpg", "/anh1/DV01D/12.jpg", "/anh1/DV01D/13.jpg", "/anh1/DV01D/14.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV01D Dương vật giả rẻ y như thật kích thích âm đạo sướng điên</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DV01D</h2>
@@ -58602,6 +59006,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV29/01.jpg",
     images: ["/anh1/DV29/01.jpg", "/anh1/DV29/05.jpg", "/anh1/DV29/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương Vật Giả Silicon Hình Thiếu Nữ Nóng Bỏng (DV29)</h2>
 <p>Thông Tin Chi Tiết:</p>
 <p>Chức năng:</p>
@@ -58652,6 +59057,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC77D/01.jpg",
     images: ["/anh1/DC77D/01.jpg", "/anh1/DC77D/05.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <h2>- Tính năng: Nữ thủ dâm, mát xa điểm G, làm mới đời sống phòng the</h2>
 <h2>- Đối tượng : Nữ, Nam, các cặp đôi làm mới đời sống phòng the</h2>
@@ -58693,6 +59099,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV28/01.jpg",
     images: ["/anh1/DV28/01.jpg", "/anh1/DV28/05.jpg", "/anh1/DV28/06.jpg", "/anh1/DV28/07.jpg", "/anh1/DV28/08.jpg", "/anh1/DV28/09.jpg", "/anh1/DV28/10.jpg", "/anh1/DV28/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV28 Chim giả đàn ông silicon hít đất 2 nhánh thủ dâm sướng thôi rồi</h2>
 <p>Thông tin sản phẩm:</p>
 <ul><li>Tính năng: Kích thích âm đạo, điểm G, gia tăng khoái cảm, giải tỏa sinh lý hiệu quả</li></ul>
@@ -58728,6 +59135,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC91A/01.jpg",
     images: ["/anh1/DC91A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <ul><li>-  Tính năng: Giải tỏa sinh lý hiệu quả.</li><li>-  Chất liệu: 100% silicone cao cấp.</li></ul>
 <h2>-  Chiều dài sản phẩm: 23.9cm</h2>
@@ -58765,6 +59173,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01/01.jpg",
     images: ["/anh1/DV01/01.jpg", "/anh1/DV01/12.jpg", "/anh1/DV01/13.jpg"],
+    sensitive: true,
     longDescription: `<h2>Đồ chơi người lớn giá tốt rung siêu đã màu da nâu</h2>
 <h2>Mã sản phẩm: DV01</h2>
 <ul><li>- Tính năng: Hỗ trợ cân bằng nội tiết, giải tỏa tâm lý hiệu quả.</li><li>- Chất liệu: Cao su và silicone cao cấp, đảm bảo an toàn.</li><li>- Chức năng: Rung.</li></ul>
@@ -58872,6 +59281,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS22/01.jpg",
     images: ["/anh1/MS22/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Thông tin chi tiết:</p>
 <ul><li>- Tính năng chính: Thủ dâm nữ,giải tỏa sinh lý hiệu quả.</li><li>- Đối tượng : Nữ, các cặp đôi dùng để làm mới đời sống phòng the.</li></ul>
 <h2>- Lần sử dụng: Nhiều lần</h2>
@@ -58940,6 +59350,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/MS23/01.jpg",
     images: ["/anh1/MS23/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương vật giả Silicon đa năng cao cấp Passion (MS23)</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>Chức năng: Thủ dâm nữ,giải tỏa sinh lý hiệu quả.</li><li>Đối tượng sử dụng: Nữ, các cặp đôi dùng để làm mới đời sống phòng the.</li></ul>
@@ -59018,6 +59429,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV03B/01.jpg",
     images: ["/anh1/DV03B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV03B Dương Vật Giả Bơm Hơi Tự Động – Tùy Chỉnh Kích Thước Linh Hoạt, Trải Nghiệm Mới Lạ</p>
 <h2>Thông tin chi tiết sản phẩm DV03B</h2>
 <h2>- Mã sản phẩm: DV03B</h2>
@@ -59065,6 +59477,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC77E/01.jpg",
     images: ["/anh1/DC77E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Silicone Cao Cấp 30 Chế Độ Rung – Thiết Kế Nhỏ Gọn, Êm Ái</p>
 <h2>Thông tin chi tiết sản phẩm</h2>
 <h2>- Tính năng: Hỗ trợ thư giãn và giải tỏa nhu cầu cá nhân</h2>
@@ -59113,6 +59526,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC38A/01.jpg",
     images: ["/anh1/DC38A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DC38A Dương Vật Giả Dây Đeo Có Rung – Thiết Kế Linh Hoạt Cho Trải Nghiệm Cặp Đôi</p>
 <h2>Thông tin chi tiết sản phẩm DC38A</h2>
 <h2>- Mã sản phẩm: DC38A</h2>
@@ -59161,6 +59575,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65E/01.jpg",
     images: ["/anh1/DC65E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Dây Đeo Rỗng Ruột Có Rung – Hỗ Trợ Tăng Kích Thước &amp; Cải Thiện Trải Nghiệm</p>
 <h2>Thông tin chi tiết sản phẩm</h2>
 <h2>- Đối tượng sử dụng: Nam giới</h2>
@@ -59212,6 +59627,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV41/01.jpg",
     images: ["/anh1/DV41/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV41 Dương Vật Giả 2 Nhánh Siêu Rung – Vũ Công Tình Ái</h2>
 <h2>DV41 – Dương Vật Giả 2 Nhánh Siêu Rung “Vũ Công Tình Ái”</h2>
 <p>DV41 là dòng dương vật giả cao cấp được thiết kế với 2 nhánh độc đáo, mang lại trải nghiệm hoàn toàn mới cho người dùng. Sản phẩm giúp kích thích đa điểm, hỗ trợ giải tỏa nhu cầu sinh lý hiệu quả và nâng cao cảm xúc cá nhân.</p>
@@ -59301,6 +59717,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV42/01.jpg",
     images: ["/anh1/DV42/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương Vật Giả Silicon Mini Uốn Cong Linh Hoạt – Nhỏ Gọn Dễ Dùng</h2>
 <h2>Dương Vật Giả Silicon Mini Uốn Cong – Nhỏ Gọn, Linh Hoạt, Dễ Sử Dụng</h2>
 <p>Dòng dương vật giả silicon mini được thiết kế nhỏ gọn, dễ sử dụng và phù hợp với nhiều nhu cầu khác nhau. Sản phẩm mang đến trải nghiệm linh hoạt nhờ khả năng uốn cong theo ý muốn, giúp tăng cảm giác tự nhiên khi sử dụng.</p>
@@ -59347,6 +59764,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV22A/01.jpg",
     images: ["/anh1/DV22A/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV22A Dương Vật Giả Gắn Tường Mini – Nhỏ Gọn, Dễ Dùng Cho Người Mới</h2>
 <h2>DV22A – Dương Vật Giả Gắn Tường Mini Dành Cho Người Mới Trải Nghiệm</h2>
 <p>DV22A là dòng dương vật giả mini được thiết kế tối ưu cho người mới bắt đầu. Với kích thước nhỏ gọn, chất liệu mềm mại và khả năng gắn tường tiện lợi, sản phẩm mang lại cảm giác dễ chịu và an toàn khi sử dụng.</p>
@@ -59399,6 +59817,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65R/01.jpg",
     images: ["/anh1/DC65R/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Dây Đeo Có Rung Hai Đầu – Tăng Cường Trải Nghiệm Cho Cặp Đôi</p>
 <p>Sản phẩm dương vật giả dây đeo với thiết kế hai đầu linh hoạt, mang lại sự kết nối và trải nghiệm mới mẻ cho các cặp đôi. Đây là lựa chọn phù hợp để làm phong phú thêm đời sống tình cảm và khám phá cảm xúc theo cách riêng.</p>
 <h2>Thông Tin Sản Phẩm</h2>
@@ -59448,6 +59867,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65L/01.jpg",
     images: ["/anh1/DC65L/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC65L Dương Vật Giả Rỗng Ruột Cho Nam – Tăng Khoái Cảm Vợ Chồng</h2>
 <h2>DC65L Dương Vật Giả Siêu Mềm Rỗng Ruột – Giải Pháp Cho Nam Giới</h2>
 <p>DC65L là dòng dương vật giả cao cấp được thiết kế dành riêng cho nam giới muốn cải thiện đời sống tình dục, đặc biệt là các cặp vợ chồng.</p>
@@ -59493,6 +59913,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC01B/01.jpg",
     images: ["/anh1/DC01B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DC01B Dương Vật Giả Rung Thụt Đa Năng – Kết Hợp Nhánh Bướm Kích Thích Hiệu Quả</p>
 <p>DC01B là dòng dương vật giả rung đa năng tích hợp nhiều chức năng hiện đại như rung, xoay và thụt, mang đến trải nghiệm mới mẻ cho người dùng muốn khám phá cảm giác đa chiều.</p>
 <h2>Thông Số Kỹ Thuật DC01B</h2>
@@ -59545,6 +59966,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01X/01.jpg",
     images: ["/anh1/DV01X/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV01X Dương Vật Giả Silicon Mềm Có Rung – Thiết Kế Gân Nổi Kích Thích Tối Ưu</p>
 <p>DV01X là dòng dương vật giả có rung được thiết kế với bề mặt gân nổi và chất liệu silicon mềm mại, mang lại cảm giác tự nhiên và hỗ trợ kích thích hiệu quả cho người dùng.</p>
 <h2>Thông Số Kỹ Thuật DV01X</h2>
@@ -59596,6 +60018,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65M/01.jpg",
     images: ["/anh1/DC65M/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương Vật Giả Dây Đeo Hai Đầu Có Rung – Thiết Kế Linh Hoạt Cho Cặp Đôi</h2>
 <p>Sản phẩm dương vật giả dây đeo rung hai đầu là lựa chọn phù hợp cho người dùng muốn trải nghiệm mới mẻ và tăng sự kết nối trong đời sống riêng tư. Thiết kế hai đầu linh hoạt kết hợp chế độ rung giúp mang lại cảm giác đa dạng và dễ sử dụng.</p>
 <h2>Thông Tin Sản Phẩm</h2>
@@ -59650,6 +60073,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV27/01.jpg",
     images: ["/anh1/DV27/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Gắn Tường Có Rung Mini – Thiết Kế Nhỏ Gọn, Kích Thích Hiệu Quả</p>
 <p>Sản phẩm dương vật giả gắn tường có rung là lựa chọn phù hợp cho người dùng tìm kiếm thiết bị nhỏ gọn, dễ sử dụng nhưng vẫn mang lại trải nghiệm đa dạng. Thiết kế tối ưu giúp tăng khả năng tiếp cận các điểm nhạy cảm một cách hiệu quả.</p>
 <h2>Thông Tin Sản Phẩm</h2>
@@ -59704,6 +60128,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV25/01.jpg",
     images: ["/anh1/DV25/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV25 Dương Vật Giả Gắn Tường Silicon Như Thật – Trải Nghiệm Linh Hoạt Mọi Tư Thế</p>
 <p>DV25 là dòng dương vật giả gắn tường được thiết kế tối ưu cho nhu cầu thư giãn cá nhân và làm mới đời sống phòng the. Với kiểu dáng chân thực, chất liệu silicon mềm mại cùng khả năng bám dính chắc chắn trên nhiều bề mặt, sản phẩm mang lại trải nghiệm linh hoạt và tiện lợi cho người sử dụng.</p>
 <h2>Thông Tin Sản Phẩm DV25</h2>
@@ -59740,6 +60165,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV23/01.jpg",
     images: ["/anh1/DV23/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV23 Dương Vật Giả Silicon Rung 10 Chế Độ – Thiết Kế Gân Nổi Kích Thích Điểm G</p>
 <p>DV23 là dòng dương vật giả cao cấp với thiết kế hiện đại, tích hợp nhiều chế độ rung giúp tăng trải nghiệm cá nhân. Sản phẩm phù hợp cho nhu cầu thư giãn riêng tư và hỗ trợ các cặp đôi làm mới cảm xúc một cách nhẹ nhàng, tinh tế.</p>
 <h2>Thông Tin Chi Tiết DV23</h2>
@@ -59778,6 +60204,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65G/01.jpg",
     images: ["/anh1/DC65G/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DC65G Dương Vật Giả Dây Đeo Có Rung 7 Chế Độ – Thiết Kế Linh Hoạt Cho Cặp Đôi</p>
 <p>DC65G là dòng dương vật giả dây đeo cao cấp tích hợp chế độ rung đa dạng, mang lại trải nghiệm mới mẻ cho các cặp đôi. Thiết kế thông minh kết hợp phần rung phụ trợ giúp tăng cảm giác kích thích một cách tự nhiên và linh hoạt.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DC65G</h2>
@@ -59817,6 +60244,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV24/01.jpg",
     images: ["/anh1/DV24/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Mini Silicon Cao Cấp – Thiết Kế Xoắn Độc Đáo, 10 Chế Độ Rung</p>
 <p>Dòng dương vật giả mini silicon được thiết kế hiện đại với kiểu dáng xoắn sáng tạo, mang lại trải nghiệm mới mẻ và linh hoạt. Sản phẩm tích hợp nhiều chế độ rung cùng động cơ mạnh mẽ, phù hợp cho nhu cầu thư giãn cá nhân và khám phá cảm giác theo cách riêng tư, tinh tế.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm</h2>
@@ -59854,6 +60282,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC01/01.jpg",
     images: ["/anh1/DC01/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC01 Dương Vật Giả Rung Thụt Tự Động – Thiết Kế Đa Năng, 7 Chế Độ Rung</h2>
 <p>DC01 là dòng sản phẩm đa chức năng với thiết kế hiện đại, tích hợp nhiều cơ chế hoạt động như rung, xoay và chuyển động linh hoạt. Sản phẩm phù hợp cho nhu cầu thư giãn cá nhân, mang đến trải nghiệm đa dạng và tiện lợi trong quá trình sử dụng.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DC01</h2>
@@ -59890,6 +60319,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39/01.jpg",
     images: ["/anh1/DV39/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV39 Dương Vật Giả Mini Silicon Rung 10 Chế Độ – Nhỏ Gọn, Tiện Lợi</h2>
 <p>DV39 là dòng sản phẩm mini với thiết kế nhỏ gọn, dễ sử dụng, phù hợp cho nhu cầu thư giãn cá nhân và làm mới cảm xúc. Với nhiều chế độ rung linh hoạt cùng chất liệu silicon mềm mại, sản phẩm mang lại trải nghiệm nhẹ nhàng và tiện lợi.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DV39</h2>
@@ -59925,6 +60355,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV36B/01.jpg",
     images: ["/anh1/DV36B/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương Vật Giả 3 Chức Năng Rung, Ngoáy, Âm Thanh Chân Thực DV36B</h2>
 <p>DV36B là sản phẩm đa năng tích hợp 3 chức năng hiện đại gồm rung, ngoáy và âm thanh mô phỏng chân thực. Thiết kế tối ưu cùng chất liệu cao cấp giúp mang lại trải nghiệm mới mẻ, hỗ trợ thư giãn và cải thiện cảm xúc cá nhân hiệu quả.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DV36B</h2>
@@ -59959,6 +60390,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01K/01.jpg",
     images: ["/anh1/DV01K/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV01K Dương Vật Giả Silicon Gai Rung – Thiết Kế Mạnh Mẽ, Trải Nghiệm Khác Biệt</p>
 <p>DV01K là dòng sản phẩm được thiết kế với bề mặt gai độc đáo kết hợp chế độ rung mạnh mẽ, mang đến trải nghiệm mới lạ. Sản phẩm phù hợp cho nhu cầu thư giãn cá nhân và hỗ trợ làm mới cảm xúc một cách kín đáo, tiện lợi.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DV01K</h2>
@@ -59994,6 +60426,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV04/01.jpg",
     images: ["/anh1/DV04/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV04 Dương Vật Giả Silicon Rung Gắn Tường – Thiết Kế Linh Hoạt, Dễ Sử Dụng</p>
 <p>DV04 là dòng sản phẩm thiết kế gắn tường tiện lợi, kết hợp chế độ rung mạnh mẽ giúp hỗ trợ thư giãn và mang lại trải nghiệm mới mẻ. Với chất liệu silicon cao cấp cùng độ đàn hồi tốt, sản phẩm phù hợp cho nhu cầu sử dụng cá nhân một cách kín đáo.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DV04</h2>
@@ -60029,6 +60462,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV06/01.jpg",
     images: ["/anh1/DV06/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV06 Dương Vật Giả Rung Ngoáy 8 Chế Độ – Thiết Kế Đa Năng Hiện Đại</h2>
 <p>DV06 là dòng sản phẩm đa năng tích hợp rung và ngoáy linh hoạt, mang đến trải nghiệm mới mẻ và hỗ trợ thư giãn hiệu quả. Với thiết kế hiện đại cùng chất liệu cao cấp, sản phẩm phù hợp cho nhu cầu cá nhân trong không gian riêng tư.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DV06</h2>
@@ -60097,6 +60531,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC01C/01.jpg",
     images: ["/anh1/DC01C/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DC01C Dương Vật Giả Rung Ngoáy Thụt Sạc USB – Đa Năng, Kích Thích Mạnh Mẽ</p>
 <p>DC01C là dòng sản phẩm đa năng cao cấp với các chức năng rung, ngoáy và thụt tự động, mang lại trải nghiệm chân thực và mạnh mẽ. Thiết kế hiện đại, tiện lợi cùng khả năng sạc USB giúp người dùng sử dụng linh hoạt và tiết kiệm chi phí.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DC01C</h2>
@@ -60135,6 +60570,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC79E/01.jpg",
     images: ["/anh1/DC79E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả 2 Đầu Silicone Rung 30 Chế Độ – Cao Cấp, Sạc Pin Tiện Lợi</p>
 <p>Sản phẩm dương vật giả 2 đầu rung được thiết kế hiện đại với khả năng rung mạnh mẽ lên tới 30 chế độ, phù hợp cho nhu cầu thư giãn cá nhân hoặc sử dụng cùng bạn tình. Chất liệu silicone mềm mại mang lại cảm giác thoải mái và an toàn khi sử dụng.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm</h2>
@@ -60170,6 +60606,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dv13b/01.webp",
+    sensitive: true,
     longDescription: `<h2>DV13B Dương Vật Giả Rung Ngoáy Tỏa Nhiệt – Trải Nghiệm Ấm Áp Chân Thực</h2>
 <p>DV13B là dòng sản phẩm cao cấp tích hợp nhiều tính năng hiện đại như rung, ngoáy và tạo nhiệt độ ấm áp. Thiết kế thông minh giúp mang lại cảm giác gần gũi, phù hợp cho nhu cầu thư giãn cá nhân và nâng cao trải nghiệm riêng tư.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DV13B</h2>
@@ -60207,6 +60644,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV50A/01.jpg",
     images: ["/anh1/DV50A/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Dương Vật Giả Rung Gắn Tường 6 Chế Độ – Nhỏ Gọn, Chống Nước</h2>
 <p>Sản phẩm dương vật giả rung gắn tường được thiết kế nhỏ gọn, tiện lợi với khả năng rung mạnh mẽ và chống nước hoàn toàn. Phù hợp cho nhu cầu thư giãn cá nhân, mang lại trải nghiệm linh hoạt trong nhiều không gian khác nhau.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm</h2>
@@ -60241,6 +60679,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dv40b/01.webp",
+    sensitive: true,
     longDescription: `<h2>DV40B Dương Vật Giả Cyberskin Rung Ngoáy 8 Chế Độ – Mềm Mịn, Sạc USB</h2>
 <p>DV40B là dòng sản phẩm cao cấp với chất liệu Cyberskin mềm mại, kết hợp tính năng rung ngoáy đa chế độ, mang lại trải nghiệm thư giãn cá nhân hiệu quả. Thiết kế hiện đại, tiện lợi và dễ sử dụng phù hợp cho nhiều nhu cầu khác nhau.</p>
 <h2>Thông Tin Chi Tiết Sản Phẩm DV40B</h2>
@@ -60278,6 +60717,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV53/01.jpg",
     images: ["/anh1/DV53/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV53 Dương Vật Giả Cao Cấp Siêu Rung – Thiết Bị Massage Cá Nhân Đa Chế Độ</p>
 <p>DV53 là thiết bị massage cá nhân cao cấp với nhiều chế độ rung linh hoạt, thiết kế hiện đại giúp mang lại cảm giác thư giãn và thoải mái trong không gian riêng tư.</p>
 <h2>🔹 Thông tin sản phẩm</h2>
@@ -60335,6 +60775,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV53A/01.jpg",
     images: ["/anh1/DV53A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật rung ngoáy 360 độ kèm thỏ rung – Kích thích đa điểm, trải nghiệm linh hoạt</p>
 <p>Thông tin chi tiết:</p>
 <h2>- Tính năng: Hỗ trợ thư giãn, kích thích điểm G và vùng nhạy cảm</h2>
@@ -60427,6 +60868,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01R/01.jpg",
     images: ["/anh1/DV01R/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV01R Dương Vật Giả Silicon Có Rung – Nhỏ Gọn, Uốn Cong Linh Hoạt</h2>
 <p>DV01R là dòng sản phẩm hỗ trợ thư giãn dành cho nữ với thiết kế nhỏ gọn, mềm mại và khả năng uốn cong linh hoạt. Sản phẩm phù hợp cho cá nhân hoặc các cặp đôi muốn làm mới trải nghiệm một cách an toàn và tiện lợi.</p>
 <h2>Thông Tin Sản Phẩm</h2>
@@ -60529,6 +60971,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39A/01.jpg",
     images: ["/anh1/DV39A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV39A Dương vật giả mini rung 10 chế độ – Nhỏ gọn, tiện lợi, dễ sử dụng</p>
 <p>Thông tin chi tiết:</p>
 <h2>- Chức năng: Hỗ trợ thư giãn, kích thích nhẹ nhàng</h2>
@@ -60577,6 +61020,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC65P/01.jpg",
     images: ["/anh1/DC65P/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Dây Đeo Silicon – Thiết Kế Mềm Mại, Linh Hoạt, Dễ Sử Dụng</p>
 <p>Sản phẩm dương vật giả dây đeo được thiết kế dành cho nữ và các cặp đôi muốn trải nghiệm mới mẻ. Với chất liệu cao cấp cùng thiết kế linh hoạt, sản phẩm mang lại sự tiện lợi và thoải mái trong quá trình sử dụng.</p>
 <h2>Thông Tin Sản Phẩm</h2>
@@ -60613,6 +61057,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54A/01.jpg",
     images: ["/anh1/DV54A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV54A Dương Vật Giả Silicon Kích Thước Lớn – Trải Nghiệm Mạnh Mẽ &amp; Khác Biệt</p>
 <p>DV54A là thiết bị massage cá nhân dành cho nữ với thiết kế kích thước lớn, mang đến trải nghiệm mới mẻ, phù hợp cho những ai muốn khám phá cảm giác mạnh mẽ và đa dạng hơn trong không gian riêng tư.</p>
 <h2>🔹 Thông tin sản phẩm</h2>
@@ -60667,6 +61112,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV48A/01.jpg",
     images: ["/anh1/DV48A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV48A Dương vật rung thụt đa chế độ – Thiết kế hiện đại, trải nghiệm linh hoạt</p>
 <p>Thông tin sản phẩm:</p>
 <h2>- Tính năng: Hỗ trợ thư giãn và kích thích đa điểm</h2>
@@ -60709,6 +61155,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01H/01.jpg",
     images: ["/anh1/DV01H/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV01H Dương Vật Giả Silicon Có Rung – Thiết Kế Linh Hoạt, Dễ Sử Dụng</h2>
 <p>DV01H là sản phẩm hỗ trợ thư giãn dành cho nữ với thiết kế mềm mại, dễ sử dụng và tích hợp chức năng rung. Phù hợp cho cá nhân hoặc các cặp đôi muốn làm mới trải nghiệm một cách an toàn và tiện lợi.</p>
 <h2>Thông Tin Sản Phẩm</h2>
@@ -60749,6 +61196,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58/01.jpg",
     images: ["/anh1/DV58/01.jpg", "/anh1/DV58/05.jpg", "/anh1/DV58/06.jpg"],
+    sensitive: true,
     longDescription: `<h2>================== SEO PRODUCT PAGE: DV58 ==================</h2>
 <h2>DV58 Dương Vật Giả Siêu To Gắn Tường Lovetoy | Kích Thích Điểm G Mạnh</h2>
 <h2>================== CONTENT ==================</h2>
@@ -60800,6 +61248,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58A/01.jpg",
     images: ["/anh1/DV58A/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>================== SEO PRODUCT PAGE: DV58A ==================</h2>
 <p>DV58A Dương Vật Giả Cong Gắn Tường | Cyber Skin Mềm Mịn Kích Thích Điểm G</p>
 <h2>================== CONTENT ==================</h2>
@@ -60854,6 +61303,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV59/01.jpg",
     images: ["/anh1/DV59/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>================== SEO PRODUCT PAGE: DV59 ==================</h2>
 <p>DV59 – Dương Vật Giả Gân Guốc Kích Thích Tự Nhiên Cho NữKhông phải ai cũng cần kích thước lớn. DV59 được thiết kế theo hướng cân bằng giữa kích thước, độ mềm và khả năng kích thích, giúp mang lại trải nghiệm dễ chịu nhưng vẫn đủ mạnh để tạo cảm giác rõ rệt.</p>
 <h2>🔍 Điểm khác biệt của DV59</h2>
@@ -60902,6 +61352,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39B/01.jpg",
     images: ["/anh1/DV39B/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>Mô tả sản phẩm DV39B</h2>
 <p>DV39B là dòng dương vật giả mini cao cấp thuộc thương hiệu Pretty Love, nổi bật với thiết kế nhỏ gọn nhưng tích hợp tới 30 chế độ rung mạnh mẽ. Sản phẩm phù hợp cho nữ giới và các cặp đôi muốn nâng cao trải nghiệm, kích thích điểm G nhanh chóng và hiệu quả.</p>
 <p>Với kích thước chỉ 12.5cm, DV39B dễ sử dụng, dễ mang theo và đặc biệt phù hợp cho người mới bắt đầu hoặc yêu thích sự tinh tế, kín đáo.</p>
@@ -60942,6 +61393,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV59A/01.jpg",
     images: ["/anh1/DV59A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả DV59A Gắn Tường Có Rung – 3 Chế Độ Mạnh, Kích Thích Điểm G Hiệu Quả</p>
 <h2>Giới thiệu sản phẩm DV59A</h2>
 <p>DV59A là dòng dương vật giả cao cấp tích hợp chức năng rung và đế hít tường chắc chắn, mang đến trải nghiệm linh hoạt và chân thực cho người dùng. Với thiết kế gân nổi tinh tế cùng 3 chế độ rung mạnh mẽ, sản phẩm giúp kích thích nhanh chóng vùng nhạy cảm và điểm G.</p>
@@ -60986,6 +61438,7 @@ export const products: Product[] = [
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dv27b/01.webp",
+    sensitive: true,
     longDescription: `<h2>Dương Vật Giả DV27B Có Rung Ngoáy – Gắn Tường, Kích Thích Mạnh Điểm G</h2>
 <h2>Giới thiệu sản phẩm DV27B</h2>
 <p>DV27B là dòng dương vật giả cao cấp tích hợp chức năng rung kết hợp chuyển động ngoáy, mang đến trải nghiệm chân thực và mới lạ cho người dùng. Thiết kế có đế hút chân không giúp cố định chắc chắn trên nhiều bề mặt, hỗ trợ linh hoạt trong quá trình sử dụng.</p>
@@ -61033,6 +61486,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC77K/01.jpg",
     images: ["/anh1/DC77K/01.jpg"],
+    sensitive: true,
     longDescription: `<p>PrettyLove Uriah – Dương Vật Giả Rung Cảm Ứng Âm Thanh, Kích Thích Điểm G Hiệu Quả</p>
 <h2>Giới thiệu sản phẩm PrettyLove Uriah</h2>
 <p>PrettyLove Uriah là dòng dương vật giả cao cấp tích hợp công nghệ rung cảm ứng âm thanh hiện đại, mang đến trải nghiệm mới lạ và linh hoạt. Sản phẩm có thiết kế hai đầu rung giúp kích thích đồng thời điểm G và vùng nhạy cảm bên ngoài.</p>
@@ -61075,6 +61529,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV13A/01.jpg",
     images: ["/anh1/DV13A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV13A Dương Vật Giả Như Thật Có Rung, Xoay Và Sưởi Ấm Âm Đạo – Đỉnh Cao Trải Nghiệm</p>
 <p>Thông Tin Chi Tiết Sản Phẩm:</p>
 <h2>- Mã sản phẩm: DV13A</h2>
@@ -61121,6 +61576,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58B/01.jpg",
     images: ["/anh1/DV58B/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV58B – Dương Vật Giả Gắn Tường Cao Cấp Siêu Mềm, 3 Size Lựa Chọn</h2>
 <h2>Thông tin sản phẩm DV58B</h2>
 <h2>- Mã sản phẩm: DV58B</h2>
@@ -61176,6 +61632,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV13D/01.jpg",
     images: ["/anh1/DV13D/01.jpg"],
+    sensitive: true,
     longDescription: `<p>DV13D – Dương Vật Giả Rung Ngoáy Có Sưởi Ấm, Kích Thích Điểm G Hiệu Quả</p>
 <p>Nếu bạn đang tìm một sản phẩm tích hợp nhiều công nghệ hiện đại, hãy tham khảo ngay dương vật giả cao cấp DV13D với khả năng rung, xoay và tỏa nhiệt chân thực.</p>
 <h2>Thông tin sản phẩm DV13D</h2>
@@ -61227,6 +61684,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC39/01.jpg",
     images: ["/anh1/DC39/01.jpg"],
+    sensitive: true,
     longDescription: `<h2>DC39 Đồ chơi tình dục có rung thỏa mãn nhu cầu sinh lý nữ mạnh</h2>
 <p>* Thông tin chi tiết:</p>
 <ul><li>– Tính năng: Giải tỏa sinh lý hiệu quả.</li><li>– Chất liệu: Silicone y tế, mềm mại, không độc hại.</li></ul>
@@ -61262,6 +61720,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV15/01.jpg",
     images: ["/anh1/DV15/01.jpg", "/anh1/DV15/05.jpg", "/anh1/DV15/06.jpg", "/anh1/DV15/07.jpg", "/anh1/DV15/08.jpg", "/anh1/DV15/09.jpg", "/anh1/DV15/10.jpg", "/anh1/DV15/11.jpg"],
+    sensitive: true,
     longDescription: `<h2>DV15 Dương vật giả mạ kim cao cấp 36 cấp độ siêu ngoáy âm đạo</h2>
 <p>Thông tin chi tiết:</p>
 <h2>MÃ SẢN PHẨM: DV15</h2>
@@ -61304,6 +61763,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV55G/01.jpg",
     images: ["/anh1/DV55G/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của dương vật silicon 2 thớ siêu mềm mịn (DV55G) thuộc thương hiệu Lovetoy so với các dòng thông thường chính là sự kết hợp hoàn hảo giữa hai lớp chất liệu cao cấp, mang lại cấu trúc đàn hồi vững chắc bên trong nhưng vẫn giữ được độ êm ái tuyệt đối bên ngoài. Đây là dòng <a href="https://vipsextoy.com/product/dv39k-duong-vat-gia-luoi-prettylove-antoine-rung-ngoay-dv39k">dương vật giả lưỡi Prettylove Antoine rung ngoáy</a> lý tưởng cho những ai đang tìm kiếm sự an toàn tuyệt đối và trải nghiệm chân thực trong danh mục Dương Vật Giả Rung.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -61347,6 +61807,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58C/01.jpg",
     images: ["/anh1/DV58C/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của dương vật silicon 2 lớp mềm mịn y như thật (DV58C) so với các dòng thông thường nằm ở cấu trúc kết hợp giữa TPE và silicone cao cấp đạt chuẩn kiểm định an toàn, mang lại độ đàn hồi và cảm giác chân thực tối ưu. Sản phẩm thiết kế gắn tường chuyên dụng, giúp người dùng chủ động trải nghiệm cảm giác mới mẻ và thư giãn hiệu quả.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -61397,6 +61858,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV52B/01.jpg",
     images: ["/anh1/DV52B/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Giả Thủy Tinh DV52B Có Bi Massage là sản phẩm chăm sóc sức khỏe cá nhân cao cấp dùng để kích thích điểm G và mang lại trải nghiệm khám phá cơ thể mới lạ nhờ thiết kế bi nổi độc đáo. Sản phẩm này giúp người dùng dễ dàng thư giãn, giải tỏa căng thẳng và tăng cường cảm xúc thăng hoa trong các khoảnh khắc riêng tư.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -61445,6 +61907,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV29A/01.jpg",
     images: ["/anh1/DV29A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của dương vật silicon tự nhiên mềm mịn Color Pure Nature (DV29A) so với các dòng sản phẩm thông thường nằm ở thiết kế uốn lượn sóng độc đáo kết hợp chất liệu silicon kháng khuẩn cao cấp, mang lại trải nghiệm mô phỏng chân thực và sự an tâm tối đa về độ bền cũng như khả năng vệ sinh lâu dài.</p>
 
 <h2>Vì sao nên chọn Dương vật silicon tự nhiên mềm mịn Color Pure Nature (DV29A)</h2>
@@ -61486,6 +61949,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV28A/01.jpg",
     images: ["/anh1/DV28A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi bạn đang tìm kiếm một giải pháp để nâng tầm trải nghiệm cá nhân với sự mới lạ và đa dạng trong cảm giác, Dương Vật Giả 2 Nhánh Silicon Có Rung DV28A chính là câu trả lời hoàn hảo cho nhu cầu khám phá các điểm chạm tinh tế nhất. Thuộc phân khúc <a href="https://vipsextoy.com/product/dv68g-duong-vat-gia-cao-cap-lovetoy-size-khung">dòng sản phẩm mini cùng thương hiệu</a> Baile, thiết bị này mang đến sự linh hoạt tối đa nhờ cấu trúc độc đáo.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -61531,6 +61995,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV01E/01.jpg",
     images: ["/anh1/DV01E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả DV01E là thiết bị hỗ trợ chăm sóc sức khỏe cá nhân và giải tỏa căng thẳng, giúp người dùng tận hưởng trải nghiệm thư giãn linh hoạt nhờ thiết kế xoắn độc đáo kết hợp động cơ rung đa dạng. Sản phẩm mang lại sự chủ động hoàn toàn trong việc khám phá cảm xúc cá nhân một cách an toàn và kín đáo.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -61621,6 +62086,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV13C/01.jpg",
     images: ["/anh1/DV13C/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Nếu bạn đang tìm kiếm một thiết bị nâng tầm trải nghiệm cá nhân với cảm giác chân thực và sống động như thật, dương vật giả rung thụt xoay có gia nhiệt 48°C (mã DV13C) chính là giải pháp hoàn hảo để giải tỏa mọi khao khát thầm kín. Sản phẩm này là dòng đồ chơi tình dục cao cấp đa chức năng, chuyên dùng để kích thích toàn diện điểm G và các vùng nhạy cảm nhờ cơ chế rung, thụt, xoay kết hợp gia nhiệt ấm áp. Không những thế, nếu bạn muốn khám phá thêm các lựa chọn nhỏ gọn khác cho vùng cửa hậu, bạn có thể tham khảo thêm <a href="https://vipsextoy.com/product/hm17e-bo-duong-vat-silicon-mini-cho-cua-hau-hot-storm-hm17e">bộ dương vật silicon mini cho cửa hậu- Hot Storm (HM17E)</a> hoặc trải nghiệm dòng <a href="https://vipsextoy.com/product/ms41h-may-rung-diem-g-bu-hat-le-cuc-phe-leten-sucking-massager">máy rung điểm G, bú hạt lẹ cực phê Leten sucking massager</a> vô cùng độc đáo.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -61669,6 +62135,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV39G/01.jpg",
     images: ["/anh1/DV39G/01.jpg", "/anh1/DV39G/15.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật giả rung đa chế độ Prettylove Molly là dụng cụ chăm sóc sức khỏe cá nhân cao cấp dùng để hỗ trợ thư giãn, giải tỏa căng thẳng và mang lại những trải nghiệm êm ái, trọn vẹn cho người dùng. Với thiết kế nhỏ gọn, sản phẩm là người bạn đồng hành lý tưởng, đặc biệt phù hợp và cực kỳ dễ sử dụng cho những ai mới bắt đầu tìm hiểu các thiết bị hỗ trợ cá nhân.</p>
 
 <h2>Điểm nổi bật</h2>
@@ -61714,6 +62181,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV36E/01.jpg",
     images: ["/anh1/DV36E/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi người dùng đang tìm kiếm một thiết bị hỗ trợ chăm sóc sức khỏe cá nhân và nâng cao đời sống tình dục với kích thước lớn, việc đảm bảo an toàn tuyệt đối cho làn da nhạy cảm luôn là ưu tiên hàng đầu. Dương vật giả Strongerman 2 in 1 (DV36E) là giải pháp đáp ứng trọn vẹn nhu cầu này nhờ thiết kế đa năng kết hợp công nghệ rung kích thích hiện đại, giúp mang lại những trải nghiệm thăng hoa, mới mẻ và an toàn.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -61758,6 +62226,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV71A/01.jpg",
     images: ["/anh1/DV71A/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của dương vật giả DV71A so với các dòng thông thường chính là sự kết hợp đồng thời giữa tính năng rung, thụt tự động và công nghệ sưởi ấm 37 độ C, mang lại trải nghiệm thư giãn cá nhân vô cùng chân thực và bền bỉ theo thời gian.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -61806,6 +62275,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV36G/01.jpg",
     images: ["/anh1/DV36G/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi bạn đang tìm kiếm một giải pháp thư giãn toàn diện, giúp giải tỏa căng thẳng và khám phá những cung bậc cảm xúc mới mẻ, sản phẩm Dương Vật Kèm Hậu Môn Mềm Mịn Như Thật DV36G chính là lựa chọn hoàn hảo đáp ứng trọn vẹn nhu cầu đó. Đây là dòng sản phẩm đồ chơi người giữ cao cấp với thiết kế 2 trong 1 độc đáo, mang lại trải nghiệm êm ái, chân thực và an toàn tuyệt đối cho người sử dụng.</p>
 
 <h2>Vì sao nên chọn Dương Vật Kèm Hậu Môn Mềm Mịn Như Thật, Dành Cho Các Anh Gay, Chị Em Thích Dương Vật Nhỏ (DV36G)</h2>
@@ -61846,6 +62316,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV40D/01.jpg",
     images: ["/anh1/DV40D/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Silicon Siêu Mềm Rung Ngoáy, Điều Khiển Xa (DV40D) là thiết bị massage cá nhân cao cấp dùng để hỗ trợ thư giãn, giải tỏa căng thẳng và mang lại trải nghiệm linh hoạt nhờ tính năng rung kết hợp chuyển động linh hoạt điều khiển từ xa. Sản phẩm giúp đa dạng hóa cảm xúc cá nhân hoặc kết nối cùng <a href="https://vipsextoy.com/product/dv06-duong-vat-gia-rung-ngoay-8-che-do-thiet-ke-da-nang-hien-dai">dòng sản phẩm mini cùng thương hiệu</a> một cách an toàn và riêng tư.</p>
 
 <h2>Vì sao nên chọn Dương Vật Silicon Siêu Mềm Rung Ngoáy, Điều Khiển Xa (DV40D)</h2>
@@ -61891,6 +62362,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV58K/01.jpg",
     images: ["/anh1/DV58K/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Khi bạn đang tìm kiếm một giải pháp để giải tỏa sinh lý và khám phá những trải nghiệm mới lạ tại nhà, việc lựa chọn một sản phẩm kích thước lớn nhưng vẫn đảm bảo sự êm ái là điều vô cùng quan trọng. Sản phẩm dương vật Lovetoy Silicon Tự Nhiên Siêu Khủng, Siêu Mềm (DV58K) thuộc danh mục dương vật giả rung là thiết bị hỗ trợ cá nhân chuyên dụng, mang lại cảm giác chân thực và giúp người dùng thư giãn hiệu quả nhờ thiết kế tối ưu cho người mới bắt đầu.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -61936,6 +62408,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV60D/01.jpg",
     images: ["/anh1/DV60D/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương Vật Silicon Siêu Mềm Mịn, Rung Thụt, Sưởi Ấm, Điều Khiển Xa (DV60D) là thiết bị massage cá nhân cao cấp phù hợp cho người dùng đang tìm kiếm một sản phẩm tích hợp nhiều công nghệ vận hành tự động, mang đến giải pháp thư giãn toàn diện và bền bỉ theo thời gian.</p>
 
 <h2>Thông số kỹ thuật</h2>
@@ -61984,6 +62457,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV54G/01.jpg",
     images: ["/anh1/DV54G/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dương vật hít đất siêu nhỏ Mini Traveller (DV54G) là dụng cụ chăm sóc sức khỏe cá nhân cao cấp dùng để hỗ trợ kích thích các vùng nhạy cảm một cách linh hoạt, phù hợp cho cả nam và nữ.</p>
 <h2>Thiết kế & chất liệu</h2>
 <p>Sản phẩm mang mã DV54G thuộc thương hiệu Chisa, xuất xứ từ Mỹ và nhập khẩu Hồng Kông. Dương vật giả mini sở hữu kích thước gọn gàng 14cm x 2.5cm cùng trọng lượng nhẹ 76g, được chế tạo hoàn toàn từ chất liệu silicone cao cấp an toàn, thân thiện với cơ thể và có khả năng chống thấm nước hiệu quả để thuận tiện cho việc vệ sinh.</p>
@@ -62017,6 +62491,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DV68D/01.jpg",
     images: ["/anh1/DV68D/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Dành riêng cho nữ giới và các cặp đôi đang tìm kiếm một trải nghiệm mạnh mẽ, khác biệt với kích thước lớn, dương vật hít đất khổng lồ Lovetoy Chubby (DV68D) mang lại cảm giác chân thực và sự thăng hoa mới mẻ trong không gian riêng tư.</p>
 
 <h2>Tính năng nổi bật</h2>
@@ -64239,6 +64714,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC33C/01.jpg",
     images: ["/anh1/DC33C/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của đồ chơi tình dục nam giới siêu cốc thủ dâm có rung mát xa dương vật (DC33C) so với các dòng cốc thông thường chính là sự kết hợp thông minh của hệ thống trứng rung 2 vị trí tại đầu và cạnh cùng chất liệu cao cấp được kiểm định nghiêm ngặt. Đây là thiết bị hỗ trợ chăm sóc sức khỏe cá nhân cao cấp thuộc danh mục <a href="https://vipsextoy.com/product/dc74f-coc-massage-nam-cao-cap-tenga-flip-orb-pastaio-thiet-ke-tach-doi-tien-loi-cam-giac-chan-that">dòng sản phẩm mini cùng thương hiệu</a>, mang lại trải nghiệm thư giãn tối ưu cho nam giới. Bạn cũng có thể kết hợp trải nghiệm với <a href="https://vipsextoy.com/product/orb-pastaio-tenga-flip-orb-pastaio-nhap-truc-tiep-t-japan">thiết bị nhập khẩu chính hãng từ Nhật Bản</a> để làm phong phú thêm bộ sưu tập cá nhân của mình.</p>
 
 <h2>Ưu điểm chính</h2>
@@ -64360,6 +64836,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/PK008/01.jpg",
     images: ["/anh1/PK008/01.jpg"],
+    sensitive: true,
     longDescription: `<p>Điểm khác biệt lớn nhất của miếng lót dành cho máy tập dương vật Baile (PK008) so với các dòng phụ kiện thông thường nằm ở việc cung cấp tới ba tùy chọn kích thước đường kính trong khác nhau trên cùng một chất liệu silicone TPE cao cấp, tối ưu hóa độ kín khít và độ bền bỉ trong suốt quá trình sử dụng lâu dài.</p>
 
 <h2>Ưu điểm chính</h2>
