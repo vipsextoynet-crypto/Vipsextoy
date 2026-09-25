@@ -21,7 +21,7 @@ export const runtime = "nodejs";
 // gemini-3.6-flash khong phai model that (da kiem tra lai) - thay bang
 // gemini-2.5-flash, model on dinh hien dang hoat dong, de model du phong
 // thuc su chay duoc thay vi loi ngay lap tuc.
-const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-3.6-flash"];
+const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-2.5-flash"];
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -47,6 +47,26 @@ function formatPrice(price?: number) {
   return price.toLocaleString("vi-VN") + "đ";
 }
 
+// Cac tu qua chung chung, xuat hien trong hau het san pham -> bo qua khi
+// tinh diem so khop, tranh lam nhieu ket qua.
+const STOPWORDS = new Set([
+  "mua", "mẫu", "của", "và", "các", "một", "cho", "là", "có", "muốn",
+  "cần", "xin", "shop", "sản", "phẩm", "loại", "cái", "con", "này",
+  "đó", "với", "được", "shop", "cửa", "hàng", "tư", "vấn", "giúp", "ạ",
+]);
+
+// Nhan dien khach co nhac gia/ngan sach khong, vd "1000k", "650k", "1 triệu",
+// "1tr" -> tra ve so tien VND thuc te, hoac null neu khong co.
+function parsePriceHint(text: string): number | null {
+  const kMatch = text.match(/(\d+(?:[.,]\d+)?)\s*k\b/i);
+  if (kMatch) return parseFloat(kMatch[1].replace(",", ".")) * 1000;
+
+  const trMatch = text.match(/(\d+(?:[.,]\d+)?)\s*(triệu|trieu|tr)\b/i);
+  if (trMatch) return parseFloat(trMatch[1].replace(",", ".")) * 1_000_000;
+
+  return null;
+}
+
 // Loc san pham theo tu khoa nguoi dung vua go (lay tu 1-2 tin nhan gan nhat)
 function findRelevantProducts(recentMessages: { role: string; text: string }[], limit = 12): Product[] {
   const userText = recentMessages
@@ -57,18 +77,30 @@ function findRelevantProducts(recentMessages: { role: string; text: string }[], 
 
   if (!userText.trim()) return [];
 
-  // Tach tu khoa co nghia (bo qua tu qua ngan)
+  const priceHint = parsePriceHint(userText);
+
+  // Tach tu khoa co nghia (bo qua tu qua ngan VA tu qua chung chung)
   const keywords = userText
     .split(/[\s,.!?]+/)
     .map((w) => w.trim())
-    .filter((w) => w.length >= 2);
+    .filter((w) => w.length >= 2 && !STOPWORDS.has(w));
 
-  if (keywords.length === 0) return [];
+  if (keywords.length === 0 && !priceHint) return [];
 
   const scored = (products as Product[])
     .map((p) => {
       const haystack = `${p.name} ${p.category ?? ""} ${p.shortDescription ?? ""}`.toLowerCase();
-      const score = keywords.reduce((acc, kw) => (haystack.includes(kw) ? acc + 1 : acc), 0);
+      let score = keywords.reduce((acc, kw) => (haystack.includes(kw) ? acc + 2 : acc), 0);
+
+      // Neu khach co nhac gia/ngan sach, uu tien san pham co gia gan dung -
+      // ke ca khi khong khop tu khoa nao (vd khach chi go "1000k").
+      if (priceHint && p.price) {
+        const diffRatio = Math.abs(p.price - priceHint) / priceHint;
+        if (diffRatio <= 0.15) score += 5;
+        else if (diffRatio <= 0.35) score += 3;
+        else if (diffRatio <= 0.6) score += 1;
+      }
+
       return { p, score };
     })
     .filter((x) => x.score > 0)
@@ -77,7 +109,7 @@ function findRelevantProducts(recentMessages: { role: string; text: string }[], 
   return scored.slice(0, limit).map((x) => x.p);
 }
 
-function buildSystemPrompt(matchedProducts: Product[]) {
+function buildSystemPrompt(matchedProducts: Product[], priceHint: number | null) {
   const categoryList = categories.map((c) => `- ${c.name}: ${c.shortDescription}`).join("\n");
 
   const productBlock =
@@ -86,6 +118,10 @@ function buildSystemPrompt(matchedProducts: Product[]) {
           .map((p) => `- ${p.name}${p.price ? ` | ${formatPrice(p.price)}` : ""} | link: ${site.url}/san-pham/${p.slug}`)
           .join("\n")
       : "(chưa có sản phẩm khớp — hãy hỏi thêm nhu cầu trước khi gợi ý)";
+
+  const budgetLine = priceHint
+    ? `\nKHÁCH ĐANG NHẮC NGÂN SÁCH KHOẢNG: ${formatPrice(priceHint)} — ưu tiên gợi ý sản phẩm có giá gần mức này trong danh sách trên.\n`
+    : "";
 
   return `Bạn là nhân viên tư vấn bán hàng của ${site.name} (${site.url}), một cửa hàng
 sản phẩm chăm sóc cá nhân dành cho người trưởng thành tại Việt Nam.
@@ -100,7 +136,7 @@ ${site.description}
 
 DANH MỤC SẢN PHẨM ĐANG CÓ:
 ${categoryList}
-
+${budgetLine}
 SẢN PHẨM THẬT KHỚP VỚI YÊU CẦU KHÁCH (chỉ dùng đúng danh sách này, KHÔNG được bịa thêm sản phẩm/giá/SKU khác):
 ${productBlock}
 
@@ -136,6 +172,13 @@ export async function POST(req: NextRequest) {
   const recent = messages.slice(-10);
 
   const matchedProducts = findRelevantProducts(recent);
+  const priceHint = parsePriceHint(
+    recent
+      .filter((m) => m.role === "user")
+      .slice(-2)
+      .map((m) => m.text.toLowerCase())
+      .join(" ")
+  );
 
   const ai = new GoogleGenAI({ apiKey });
   const contents = recent.map((m) => ({
@@ -154,7 +197,7 @@ export async function POST(req: NextRequest) {
           model,
           contents,
           config: {
-            systemInstruction: buildSystemPrompt(matchedProducts),
+            systemInstruction: buildSystemPrompt(matchedProducts, priceHint),
             maxOutputTokens: 500,
           },
         });
