@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { MessageCircle, X, Send } from "lucide-react";
+import { MessageCircle, X, Send, ExternalLink } from "lucide-react";
 
 type ChatMessage = { role: "user" | "model"; text: string };
 
@@ -9,6 +9,37 @@ const GREETING: ChatMessage = {
   role: "model",
   text: "Chào bạn 👋 Mình là trợ lý tư vấn của shop. Bạn đang tìm sản phẩm cho nhu cầu gì để mình gợi ý phù hợp nhé?",
 };
+
+// Nhan dien link san pham (URL that) nam trong cau tra loi cua AI va bien
+// thanh nut bam duoc, thay vi hien nguyen chuoi URL dai gay roi mat. Van
+// giu nguyen phan chu (ten + gia) truoc do tren cung 1 dong.
+const SPLIT_URL_REGEX = /(https?:\/\/[^\s]+)/g;
+const IS_URL_REGEX = /^https?:\/\//; // dung regex RIENG, khong co co "g", de kiem tra tung phan an toan
+
+function renderMessageText(text: string) {
+  return text.split("\n").map((line, lineIndex) => {
+    const parts = line.split(SPLIT_URL_REGEX);
+    return (
+      <div key={lineIndex}>
+        {parts.map((part, i) =>
+          IS_URL_REGEX.test(part) ? (
+            <a
+              key={i}
+              href={part}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 inline-flex items-center gap-1 text-gold underline underline-offset-2 hover:opacity-80"
+            >
+              Xem sản phẩm <ExternalLink size={12} />
+            </a>
+          ) : (
+            <span key={i}>{part}</span>
+          )
+        )}
+      </div>
+    );
+  });
+}
 
 export default function AiChatWidget() {
   const [open, setOpen] = useState(false);
@@ -72,7 +103,7 @@ export default function AiChatWidget() {
                     : "bg-surface2 text-ivory"
                 }`}
               >
-                {m.text}
+                {m.role === "model" ? renderMessageText(m.text) : m.text}
               </div>
             ))}
             {loading && (

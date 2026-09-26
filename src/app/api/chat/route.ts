@@ -115,7 +115,7 @@ function buildSystemPrompt(matchedProducts: Product[], priceHint: number | null)
   const productBlock =
     matchedProducts.length > 0
       ? matchedProducts
-          .map((p) => `- ${p.name}${p.price ? ` | ${formatPrice(p.price)}` : ""} | link: ${site.url}/san-pham/${p.slug}`)
+          .map((p) => `- ${p.name}${p.price ? ` | ${formatPrice(p.price)}` : ""} | link: ${site.url}/${p.slug}`)
           .join("\n")
       : "(chưa có sản phẩm khớp — hãy hỏi thêm nhu cầu trước khi gợi ý)";
 
