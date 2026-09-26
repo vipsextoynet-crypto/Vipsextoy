@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { blogPosts, getBlogPost } from "@/data/blog";
-import ProductGlyph from "@/components/ProductGlyph";
+import BlogCardImage from "@/components/BlogCardImage";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
 
@@ -94,15 +94,12 @@ export default async function BlogPostPage({
       </p>
 
       <div className="relative my-10 flex aspect-[16/7] items-center justify-center overflow-hidden bg-surface p-10">
-        {post.image ? (
-          <img
-            src={post.image}
-            alt={post.title}
-            className="absolute inset-0 h-full w-full object-cover"
-          />
-        ) : (
-          <ProductGlyph type={post.icon} className="max-h-28 max-w-28" />
-        )}
+        <BlogCardImage
+          image={post.image}
+          icon={post.icon}
+          alt={post.title}
+          glyphClassName="max-h-28 max-w-28"
+        />
       </div>
 
       <div className="flex flex-col gap-5">
