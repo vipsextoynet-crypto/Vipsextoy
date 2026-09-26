@@ -59,6 +59,15 @@ export default function BlogForm({
         }),
       });
 
+      const contentType = res.headers.get("content-type") || "";
+      if (!contentType.includes("application/json")) {
+        // Middleware admin chuyen huong ve trang login (tra ve HTML) khi
+        // phien dang nhap het han - khong phai loi mang that.
+        setError("Phiên đăng nhập admin có thể đã hết hạn — vui lòng tải lại trang, đăng nhập lại rồi thử lưu lại.");
+        setLoading(false);
+        return;
+      }
+
       const data = await res.json();
 
       if (!res.ok) {
