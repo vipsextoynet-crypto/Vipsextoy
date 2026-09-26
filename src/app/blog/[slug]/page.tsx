@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { blogPosts, getBlogPost } from "@/data/blog";
 import BlogCardImage from "@/components/BlogCardImage";
+import { resolveBlogImage } from "@/lib/blog-image";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
 
@@ -95,7 +96,7 @@ export default async function BlogPostPage({
 
       <div className="relative my-10 flex aspect-[16/7] items-center justify-center overflow-hidden bg-surface p-10">
         <BlogCardImage
-          image={post.image}
+          image={resolveBlogImage(post.image)}
           icon={post.icon}
           alt={post.title}
           glyphClassName="max-h-28 max-w-28"

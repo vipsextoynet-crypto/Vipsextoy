@@ -174,15 +174,15 @@ export default function BlogForm({
             ))}
           </select>
         </Field>
-        <Field label="Link ảnh minh hoạ (để trống nếu dùng biểu tượng)">
+        <Field label="Thư mục hoặc link ảnh minh hoạ (để trống nếu dùng biểu tượng)">
           <input
             value={image}
             onChange={(e) => setImage(e.target.value)}
-            placeholder="/anhblog/ten-thu-muc/01.jpg"
+            placeholder="/anhblog/ten-thu-muc"
             className={inputCls}
           />
           <span className="mt-1 block text-xs text-muted">
-            Ảnh đặt trong public/anhblog/&lt;tên thư mục&gt;/ — nhập đúng đường dẫn bắt đầu bằng "/", khớp chính xác hoa/thường với tên thư mục thật.
+            Chỉ cần nhập đường dẫn THƯ MỤC (vd /anhblog/ten-thu-muc) — hệ thống tự lấy ảnh đầu tiên trong đó (sắp xếp theo tên). Muốn chỉ định đúng 1 ảnh thì nhập cả tên file (vd /anhblog/ten-thu-muc/01.jpg). Thư mục đặt trong public/anhblog/, khớp chính xác hoa/thường với tên thật trên máy.
           </span>
         </Field>
       </div>

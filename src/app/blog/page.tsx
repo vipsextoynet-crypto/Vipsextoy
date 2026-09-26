@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { blogPosts } from "@/data/blog";
 import BlogCardImage from "@/components/BlogCardImage";
+import { resolveBlogImage } from "@/lib/blog-image";
 
 export const metadata: Metadata = {
   title: "Blog chăm sóc cá nhân",
@@ -38,7 +39,7 @@ export default function BlogPage() {
             className="group flex flex-col border border-line bg-surface transition hover:border-gold/50"
           >
             <div className="relative flex aspect-[16/10] items-center justify-center overflow-hidden bg-surface2 p-10">
-              <BlogCardImage image={post.image} icon={post.icon} alt={post.title} />
+              <BlogCardImage image={resolveBlogImage(post.image)} icon={post.icon} alt={post.title} />
             </div>
             <div className="flex flex-1 flex-col gap-2 p-5">
               <div className="flex items-center justify-between text-xs text-muted">
