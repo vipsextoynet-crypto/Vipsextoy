@@ -14,22 +14,7 @@ export type BlogPost = {
 // AI (blog-posts.json) - neu con file scripts/generate-daily-post.mjs hoac cron
 // job goi no, nen xoa/tat luon de tranh chay vo ich.
 export const blogPosts: BlogPost[] = [
-  {
-    slug: "cach-chon-san-pham-cham-soc-ca-nhan-phu-hop",
-    title: "Cách chọn sản phẩm chăm sóc cá nhân phù hợp với bạn",
-    excerpt:
-      "Từ chất liệu, kích thước đến chế độ vận hành — đây là những yếu tố nên cân nhắc trước khi chọn mua sản phẩm đầu tiên.",
-    content: [
-      "Chọn sản phẩm chăm sóc cá nhân lần đầu có thể khiến bạn bối rối trước quá nhiều lựa chọn. Điều quan trọng nhất là bắt đầu từ nhu cầu thực tế của bản thân thay vì chạy theo tính năng phức tạp.",
-      "Về chất liệu, hãy ưu tiên silicone y tế cao cấp — mềm mại, không mùi, an toàn cho da nhạy cảm và dễ vệ sinh. Tránh các sản phẩm không rõ nguồn gốc chất liệu.",
-      "Về kích thước và công suất, người mới nên bắt đầu với thiết kế nhỏ gọn, ít chế độ để làm quen dần, sau đó mới cân nhắc các dòng sản phẩm cao cấp hơn với nhiều chức năng.",
-      "Cuối cùng, hãy chọn nơi bán uy tín, có chính sách đổi trả rõ ràng và đóng gói kín đáo — điều này đảm bảo trải nghiệm mua sắm thoải mái và riêng tư từ đầu đến cuối.",
-    ],
-    date: "2026-08-12",
-    readTime: "4 phút đọc",
-    category: "Hướng dẫn",
-    icon: "wave",
-  },
+
   {
     slug: "ve-sinh-va-bao-quan-dung-cach",
     title: "Vệ sinh và bảo quản sản phẩm đúng cách để dùng bền lâu",
