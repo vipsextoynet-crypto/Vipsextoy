@@ -15,22 +15,7 @@ export type BlogPost = {
 // job goi no, nen xoa/tat luon de tranh chay vo ich.
 export const blogPosts: BlogPost[] = [
 
-  {
-    slug: "ve-sinh-va-bao-quan-dung-cach",
-    title: "Vệ sinh và bảo quản sản phẩm đúng cách để dùng bền lâu",
-    excerpt:
-      "Một vài thói quen đơn giản giúp sản phẩm của bạn luôn sạch sẽ, an toàn và có tuổi thọ lâu dài hơn.",
-    content: [
-      "Vệ sinh sau mỗi lần sử dụng là bước không nên bỏ qua. Sử dụng dung dịch vệ sinh chuyên dụng, có độ pH cân bằng, tránh dùng xà phòng thông thường vì có thể làm khô hoặc hỏng chất liệu silicone.",
-      "Sau khi vệ sinh, để sản phẩm khô tự nhiên ở nơi thoáng mát trước khi cất vào túi đựng riêng — tránh ánh nắng trực tiếp và nhiệt độ cao.",
-      "Với sản phẩm dùng pin sạc, nên sạc đầy trước khi cất giữ lâu ngày và kiểm tra lại pin định kỳ mỗi vài tháng để đảm bảo tuổi thọ pin.",
-      "Bảo quản trong hộp hoặc túi kín đáo, tránh để chung với các vật dụng có thể làm trầy xước bề mặt, giúp sản phẩm luôn như mới.",
-    ],
-    date: "2026-07-28",
-    readTime: "3 phút đọc",
-    category: "Hướng dẫn",
-    icon: "drop",
-  },
+
   {
     slug: "giao-hang-kin-dao-hoat-dong-nhu-the-nao",
     title: "Giao hàng kín đáo tại Vipsextoy hoạt động như thế nào?",
