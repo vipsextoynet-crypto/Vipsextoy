@@ -109,6 +109,44 @@ function findRelevantProducts(recentMessages: { role: string; text: string }[], 
   return scored.slice(0, limit).map((x) => x.p);
 }
 
+
+function looksTruncated(text: string): boolean {
+  const value = text.trim();
+  if (!value) return true;
+
+  // Các trường hợp rõ ràng cho thấy model dừng giữa câu.
+  const trailingWordPattern = /(?:^|\s)(và|hoặc|với|cho|để|từ|khoảng|dưới|trên|có|là|một|những|các|nếu|khi|nhưng|vì|nên|theo|về|trong|ngoài|tại|vào|đến|bằng|giúp|phù hợp|tham khảo|bạn có thể|shop có thể)$/iu;
+  if (trailingWordPattern.test(value)) return true;
+
+  // Nếu kết thúc bằng một số tiền/đơn vị bị bỏ dở, rất dễ là output bị cắt.
+  if (/(?:\d[\d.,]*\s*(?:k|tr|triệu)?|\d[\d.,]*)$/iu.test(value)) {
+    const lastSentence = value.split(/[.!?。！？]/).pop()?.trim() || value;
+    if (lastSentence.length >= 8 && !/[.!?。！？]$/.test(value)) {
+      // Các câu kết thúc bằng số vẫn có thể hợp lệ; chỉ đánh dấu khi số đứng sau
+      // một cụm từ thường báo hiệu câu còn dang dở.
+      if (/(?:khoảng|tầm|giá|ngân sách|từ|dưới|trên|khoảng giá)\s+\d[\d.,]*$/iu.test(lastSentence)) {
+        return true;
+      }
+    }
+  }
+
+  // Câu cuối quá ngắn và không có dấu kết thúc thường là dấu hiệu bị cắt.
+  if (!/[.!?。！？]$/.test(value)) {
+    const sentences = value.split(/[.!?。！？]+/).map((s) => s.trim()).filter(Boolean);
+    const last = sentences.at(-1) || value;
+    const wordCount = last.split(/\s+/).filter(Boolean).length;
+    if (sentences.length >= 2 && wordCount <= 4) return true;
+  }
+
+  return false;
+}
+
+const TRUNCATED_RETRY_INSTRUCTION =
+  "Hãy trả lời lại từ đầu. Câu trả lời phải hoàn chỉnh, không được kết thúc giữa câu hoặc giữa một con số/giá. Luôn kết thúc bằng một câu hoàn chỉnh hoặc một câu hỏi cụ thể. Giữ câu trả lời ngắn gọn 3-5 câu.";
+
+const FALLBACK_REPLY =
+  "Shop có thể tư vấn sản phẩm phù hợp theo nhu cầu và ngân sách của bạn. Bạn cho shop biết khoảng ngân sách và bạn muốn loại cầm tay, hít tường hay dòng cao cấp nhé?";
+
 function buildSystemPrompt(matchedProducts: Product[], priceHint: number | null) {
   const categoryList = categories.map((c) => `- ${c.name}: ${c.shortDescription}`).join("\n");
 
@@ -193,19 +231,35 @@ export async function POST(req: NextRequest) {
     // truoc khi chuyen sang model khac.
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
+        const systemInstruction = buildSystemPrompt(matchedProducts, priceHint);
+        const retryingTruncated = attempt > 0;
+
         const res = await ai.models.generateContent({
           model,
           contents,
           config: {
-            systemInstruction: buildSystemPrompt(matchedProducts, priceHint),
+            systemInstruction: retryingTruncated
+              ? `${systemInstruction}\n\nYÊU CẦU BẮT BUỘC CHO LẦN TRẢ LỜI NÀY:\n${TRUNCATED_RETRY_INSTRUCTION}`
+              : systemInstruction,
             maxOutputTokens: 500,
           },
         });
 
         const text = res.text?.trim();
         if (text) {
+          if (looksTruncated(text)) {
+            lastErr = new Error(`Gemini returned a truncated response on ${model}, attempt ${attempt + 1}`);
+            console.warn("[Chat] Truncated response detected, retrying:", { model, attempt: attempt + 1 });
+            if (attempt === 0) {
+              await sleep(700);
+              continue;
+            }
+            break; // vẫn bị cắt -> thử model tiếp theo
+          }
+
           return NextResponse.json({ reply: text });
         }
+        lastErr = new Error(`Gemini returned empty response on ${model}, attempt ${attempt + 1}`);
         break; // khong co text, sang model tiep theo
       } catch (e) {
         lastErr = e;
@@ -218,12 +272,11 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  return NextResponse.json(
-    {
-      error:
-        "AI đang bận, vui lòng thử lại sau hoặc liên hệ hotline/Zalo. Chi tiết: " +
-        (lastErr instanceof Error ? lastErr.message : String(lastErr)),
-    },
-    { status: 500 }
-  );
+  // Không để khách thấy lỗi kỹ thuật hoặc một câu trả lời dở dang.
+  // Nếu tất cả model đều thất bại/truncated, trả về một câu hỏi hoàn chỉnh.
+  console.error("[Chat] All Gemini attempts failed or returned truncated output:", lastErr);
+
+  return NextResponse.json({
+    reply: FALLBACK_REPLY,
+  });
 }
