@@ -16,22 +16,7 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
 
 
-  {
-    slug: "giao-hang-kin-dao-hoat-dong-nhu-the-nao",
-    title: "Giao hàng kín đáo tại Vipsextoy hoạt động như thế nào?",
-    excerpt:
-      "Giải đáp chi tiết về cách đóng gói, tên hiển thị trên đơn hàng và quy trình giao nhận để bạn hoàn toàn yên tâm.",
-    content: [
-      "Nhiều khách hàng còn e ngại khi mua sắm sản phẩm chăm sóc cá nhân vì lo lắng về sự riêng tư. Tại Vipsextoy, mọi đơn hàng đều được đóng gói trong hộp carton trung lập, không in tên thương hiệu hay hình ảnh sản phẩm bên ngoài.",
-      "Tên người gửi trên vận đơn cũng được hiển thị trung lập, không liên quan đến tên cửa hàng, giúp bạn thoải mái nhận hàng tại nhà hoặc nơi làm việc.",
-      "Khi thanh toán bằng chuyển khoản hoặc thẻ, nội dung giao dịch hiển thị trên sao kê ngân hàng cũng được đặt trung lập, không thể hiện thông tin sản phẩm.",
-      "Đơn hàng được giao trong 2–4 ngày làm việc trên toàn quốc, hỗ trợ kiểm tra hàng trước khi thanh toán (COD) tại nhiều khu vực.",
-    ],
-    date: "2026-07-10",
-    readTime: "3 phút đọc",
-    category: "Về Vipsextoy",
-    icon: "orb",
-  },
+
   {
     slug: "loi-ich-cua-viec-cham-soc-ban-than",
     title: "Lợi ích của việc dành thời gian chăm sóc bản thân",
