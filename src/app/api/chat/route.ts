@@ -32,6 +32,26 @@ function isOverloadedError(e: unknown) {
   return msg.includes("503") || msg.includes("UNAVAILABLE") || msg.includes("high demand");
 }
 
+// Gemini doi khi CAT NGANG cau tra loi giua chung (thuong do bo loc an toan
+// noi dung cua Google can thiep voi chu de nhay cam, du cau chua noi gi sai)
+// - finishReason luc do la "SAFETY"/"OTHER"/"RECITATION" thay vi "STOP".
+// Tuyet doi KHONG hien nhung cau bi cat nay cho khach - phai coi la that
+// bai va thu lai, giong nhu loi qua tai.
+function isBadFinish(finishReason: string | undefined) {
+  return !!finishReason && finishReason !== "STOP";
+}
+
+// Kiem tra bo sung: cau tra loi "trong" hop ly phai ket thuc bang dau cau,
+// so hoac ky tu Viet Nam thong thuong. Neu ket thuc dot ngot bang dau phay,
+// gach ngang, hoac 1 tu chua hoan chinh (khong dau cau) -> nhieu kha nang
+// da bi cat, du finishReason bao la "STOP" (Google doi khi bao sai).
+function looksTruncated(text: string) {
+  const trimmed = text.trim();
+  if (trimmed.length < 15) return true;
+  const lastChar = trimmed.at(-1) ?? "";
+  return !/[.!?…đ)"'”]/i.test(lastChar);
+}
+
 // --- Chinh lai phan nay neu ten field trong data/products.ts khac ---
 // Gia dinh moi san pham co dang: { name, slug, price, category (ten hoac slug danh muc), shortDescription? }
 type Product = {
@@ -54,6 +74,20 @@ const STOPWORDS = new Set([
   "cần", "xin", "shop", "sản", "phẩm", "loại", "cái", "con", "này",
   "đó", "với", "được", "shop", "cửa", "hàng", "tư", "vấn", "giúp", "ạ",
 ]);
+
+// Bo dau tieng Viet + ha chu thuong, de so khop CHU KHONG DAU (khach hay go
+// tat, vd "cam tay" phai khop duoc voi "Cầm Tay" trong ten san pham) va CA
+// chu co dau voi nhau it bi lech do go sai Unicode dung san (NFC vs NFD).
+function normalizeVi(s: string): string {
+  return s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
+    .toLowerCase();
+}
+
+const STOPWORDS_NORMALIZED = new Set(Array.from(STOPWORDS).map(normalizeVi));
 
 // Nhan dien khach co nhac gia/ngan sach khong, vd "1000k", "650k", "1 triệu",
 // "1tr" -> tra ve so tien VND thuc te, hoac null neu khong co.
@@ -82,14 +116,14 @@ function findRelevantProducts(recentMessages: { role: string; text: string }[], 
   // Tach tu khoa co nghia (bo qua tu qua ngan VA tu qua chung chung)
   const keywords = userText
     .split(/[\s,.!?]+/)
-    .map((w) => w.trim())
-    .filter((w) => w.length >= 2 && !STOPWORDS.has(w));
+    .map((w) => normalizeVi(w.trim()))
+    .filter((w) => w.length >= 2 && !STOPWORDS_NORMALIZED.has(w));
 
   if (keywords.length === 0 && !priceHint) return [];
 
   const scored = (products as Product[])
     .map((p) => {
-      const haystack = `${p.name} ${p.category ?? ""} ${p.shortDescription ?? ""}`.toLowerCase();
+      const haystack = normalizeVi(`${p.name} ${p.category ?? ""} ${p.shortDescription ?? ""}`);
       let score = keywords.reduce((acc, kw) => (haystack.includes(kw) ? acc + 2 : acc), 0);
 
       // Neu khach co nhac gia/ngan sach, uu tien san pham co gia gan dung -
@@ -108,44 +142,6 @@ function findRelevantProducts(recentMessages: { role: string; text: string }[], 
 
   return scored.slice(0, limit).map((x) => x.p);
 }
-
-
-function looksTruncated(text: string): boolean {
-  const value = text.trim();
-  if (!value) return true;
-
-  // Các trường hợp rõ ràng cho thấy model dừng giữa câu.
-  const trailingWordPattern = /(?:^|\s)(và|hoặc|với|cho|để|từ|khoảng|dưới|trên|có|là|một|những|các|nếu|khi|nhưng|vì|nên|theo|về|trong|ngoài|tại|vào|đến|bằng|giúp|phù hợp|tham khảo|bạn có thể|shop có thể)$/iu;
-  if (trailingWordPattern.test(value)) return true;
-
-  // Nếu kết thúc bằng một số tiền/đơn vị bị bỏ dở, rất dễ là output bị cắt.
-  if (/(?:\d[\d.,]*\s*(?:k|tr|triệu)?|\d[\d.,]*)$/iu.test(value)) {
-    const lastSentence = value.split(/[.!?。！？]/).pop()?.trim() || value;
-    if (lastSentence.length >= 8 && !/[.!?。！？]$/.test(value)) {
-      // Các câu kết thúc bằng số vẫn có thể hợp lệ; chỉ đánh dấu khi số đứng sau
-      // một cụm từ thường báo hiệu câu còn dang dở.
-      if (/(?:khoảng|tầm|giá|ngân sách|từ|dưới|trên|khoảng giá)\s+\d[\d.,]*$/iu.test(lastSentence)) {
-        return true;
-      }
-    }
-  }
-
-  // Câu cuối quá ngắn và không có dấu kết thúc thường là dấu hiệu bị cắt.
-  if (!/[.!?。！？]$/.test(value)) {
-    const sentences = value.split(/[.!?。！？]+/).map((s) => s.trim()).filter(Boolean);
-    const last = sentences.at(-1) || value;
-    const wordCount = last.split(/\s+/).filter(Boolean).length;
-    if (sentences.length >= 2 && wordCount <= 4) return true;
-  }
-
-  return false;
-}
-
-const TRUNCATED_RETRY_INSTRUCTION =
-  "Hãy trả lời lại từ đầu. Câu trả lời phải hoàn chỉnh, không được kết thúc giữa câu hoặc giữa một con số/giá. Luôn kết thúc bằng một câu hoàn chỉnh hoặc một câu hỏi cụ thể. Giữ câu trả lời ngắn gọn 3-5 câu.";
-
-const FALLBACK_REPLY =
-  "Shop có thể tư vấn sản phẩm phù hợp theo nhu cầu và ngân sách của bạn. Bạn cho shop biết khoảng ngân sách và bạn muốn loại cầm tay, hít tường hay dòng cao cấp nhé?";
 
 function buildSystemPrompt(matchedProducts: Product[], priceHint: number | null) {
   const categoryList = categories.map((c) => `- ${c.name}: ${c.shortDescription}`).join("\n");
@@ -231,36 +227,32 @@ export async function POST(req: NextRequest) {
     // truoc khi chuyen sang model khac.
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
-        const systemInstruction = buildSystemPrompt(matchedProducts, priceHint);
-        const retryingTruncated = attempt > 0;
-
         const res = await ai.models.generateContent({
           model,
           contents,
           config: {
-            systemInstruction: retryingTruncated
-              ? `${systemInstruction}\n\nYÊU CẦU BẮT BUỘC CHO LẦN TRẢ LỜI NÀY:\n${TRUNCATED_RETRY_INSTRUCTION}`
-              : systemInstruction,
+            systemInstruction: buildSystemPrompt(matchedProducts, priceHint),
             maxOutputTokens: 500,
           },
         });
 
+        const finishReason = res.candidates?.[0]?.finishReason;
         const text = res.text?.trim();
-        if (text) {
-          if (looksTruncated(text)) {
-            lastErr = new Error(`Gemini returned a truncated response on ${model}, attempt ${attempt + 1}`);
-            console.warn("[Chat] Truncated response detected, retrying:", { model, attempt: attempt + 1 });
-            if (attempt === 0) {
-              await sleep(700);
-              continue;
-            }
-            break; // vẫn bị cắt -> thử model tiếp theo
-          }
 
+        if (text && !isBadFinish(finishReason) && !looksTruncated(text)) {
           return NextResponse.json({ reply: text });
         }
-        lastErr = new Error(`Gemini returned empty response on ${model}, attempt ${attempt + 1}`);
-        break; // khong co text, sang model tiep theo
+
+        // Cau tra loi rong, bi chan, hoac bi cat cut -> KHONG tra ve cho
+        // khach, coi nhu that bai va thu lai (giong loi qua tai).
+        lastErr = new Error(
+          `Câu trả lời không hợp lệ (finishReason=${finishReason ?? "?"}, text=${JSON.stringify(text?.slice(0, 60))})`
+        );
+        if (attempt === 0) {
+          await sleep(800);
+          continue; // thu lai cung model 1 lan
+        }
+        break; // da thu lai roi - sang model tiep theo
       } catch (e) {
         lastErr = e;
         if (attempt === 0 && isOverloadedError(e)) {
@@ -272,11 +264,13 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // Không để khách thấy lỗi kỹ thuật hoặc một câu trả lời dở dang.
-  // Nếu tất cả model đều thất bại/truncated, trả về một câu hỏi hoàn chỉnh.
-  console.error("[Chat] All Gemini attempts failed or returned truncated output:", lastErr);
+  console.error("Chatbot: mọi model đều thất bại.", lastErr);
 
   return NextResponse.json({
-    reply: FALLBACK_REPLY,
+    reply:
+      "Xin lỗi bạn, hiện shop đang xử lý hơi chậm 🙏 Bạn có thể nhắn cụ thể hơn giúp shop " +
+      "(ví dụ loại sản phẩm, tầm giá) hoặc liên hệ trực tiếp hotline/Zalo " +
+      site.phone +
+      " để được tư vấn nhanh nhất nhé.",
   });
 }
