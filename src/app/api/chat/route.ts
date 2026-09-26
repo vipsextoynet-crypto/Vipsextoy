@@ -21,7 +21,7 @@ export const runtime = "nodejs";
 // gemini-2.5-flash da bi Google ngung ho tro cho user moi (thong bao tra ve
 // tu chinh API: "no longer available... use models/gemini-3.8-flash").
 // Doi model du phong sang gemini-3.8-flash theo dung khuyen nghi do.
-const MODELS_TO_TRY = ["gemini-flash-latest", "gemini-3.8-flash"];
+const MODELS_TO_TRY = ["gemini-flash-lite", "gemini-3.8-flash"];
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
