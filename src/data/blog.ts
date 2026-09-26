@@ -17,22 +17,7 @@ export const blogPosts: BlogPost[] = [
 
 
 
-  {
-    slug: "loi-ich-cua-viec-cham-soc-ban-than",
-    title: "Lợi ích của việc dành thời gian chăm sóc bản thân",
-    excerpt:
-      "Chăm sóc bản thân đúng cách không chỉ giúp thư giãn mà còn góp phần cải thiện tâm trạng và chất lượng cuộc sống.",
-    content: [
-      "Dành thời gian chăm sóc bản thân là một phần quan trọng của sức khoẻ tổng thể, giúp giảm căng thẳng và cải thiện tâm trạng sau những giờ làm việc mệt mỏi.",
-      "Việc hiểu rõ cơ thể và nhu cầu của bản thân cũng góp phần xây dựng sự tự tin và kết nối tốt hơn trong các mối quan hệ.",
-      "Không có gì phải ngại ngùng khi tìm hiểu và đầu tư vào những sản phẩm chăm sóc cá nhân chất lượng — đây là một lựa chọn chăm sóc sức khoẻ hoàn toàn bình thường và riêng tư.",
-      "Hãy lắng nghe cơ thể, chọn sản phẩm phù hợp và cho phép bản thân những khoảnh khắc thư giãn xứng đáng.",
-    ],
-    date: "2026-06-22",
-    readTime: "3 phút đọc",
-    category: "Góc chia sẻ",
-    icon: "petal",
-  },
+
   {
     slug: "top-7-may-rung-song-am-air-pulse-duoc-san-lung-nhieu-nhat-30-ngay-qua",
     title: "Top 7 Máy Rung Sóng Âm (Air-Pulse) Được Săn Lùng Nhiều Nhất 30 Ngày Qua",
