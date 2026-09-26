@@ -42,6 +42,13 @@ function formatDate(d: string) {
   });
 }
 
+// Bai viet moi (viet qua /admin/blog) luu nguyen 1 khoi HTML trong
+// content[0]. Bai cu (4 bai viet tay truoc do) van la mang nhieu doan van
+// ban thuong - ham nay tu nhan dien tung phan tu de hien dung ca 2 kieu.
+function isHtmlContent(text: string) {
+  return /^\s*</.test(text);
+}
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -99,11 +106,19 @@ export default async function BlogPostPage({
       </div>
 
       <div className="flex flex-col gap-5">
-        {post.content.map((para, i) => (
-          <p key={i} className="leading-relaxed text-muted">
-            {para}
-          </p>
-        ))}
+        {post.content.map((part, i) =>
+          isHtmlContent(part) ? (
+            <div
+              key={i}
+              className="flex flex-col gap-4 leading-relaxed text-muted [&_h2]:mt-4 [&_h2]:font-serif [&_h2]:text-xl [&_h2]:text-ivory [&_h3]:mt-3 [&_h3]:font-serif [&_h3]:text-lg [&_h3]:text-ivory [&_ul]:flex [&_ul]:flex-col [&_ul]:gap-1 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:marker:text-gold [&_a]:text-gold [&_a]:underline [&_a]:underline-offset-2 [&_a:hover]:text-ivory [&_strong]:text-ivory"
+              dangerouslySetInnerHTML={{ __html: part }}
+            />
+          ) : (
+            <p key={i} className="leading-relaxed text-muted">
+              {part}
+            </p>
+          )
+        )}
       </div>
 
       {related.length > 0 && (

@@ -18,7 +18,7 @@ export default function BlogForm({
   const [title, setTitle] = useState(initial?.title || "");
   const [excerpt, setExcerpt] = useState(initial?.excerpt || "");
   const [category, setCategory] = useState(initial?.category || "");
-  const [content, setContent] = useState(initial?.content.join("\n\n") || "");
+  const [content, setContent] = useState(initial?.content.join("\n") || "");
   const [icon, setIcon] = useState<typeof ICONS[number]>((initial?.icon as typeof ICONS[number]) || "wave");
   const [image, setImage] = useState(initial?.image || "");
   const [date, setDate] = useState(initial?.date || new Date().toISOString().slice(0, 10));
@@ -33,12 +33,9 @@ export default function BlogForm({
     setError("");
     setSuccess(null);
 
-    const paragraphs = content
-      .split(/\n\s*\n/)
-      .map((p) => p.trim())
-      .filter(Boolean);
+    const html = content.trim();
 
-    if (!title.trim() || !excerpt.trim() || !category.trim() || paragraphs.length === 0) {
+    if (!title.trim() || !excerpt.trim() || !category.trim() || !html) {
       setError("Vui lòng điền: tiêu đề, mô tả ngắn, danh mục, nội dung.");
       return;
     }
@@ -54,7 +51,7 @@ export default function BlogForm({
         body: JSON.stringify({
           title: title.trim(),
           excerpt: excerpt.trim(),
-          content: paragraphs,
+          content: [html],
           category: category.trim(),
           icon,
           image: image.trim() || undefined,
@@ -144,13 +141,13 @@ export default function BlogForm({
         </Field>
       </div>
 
-      <Field label="Nội dung * (mỗi đoạn văn cách nhau 1 dòng trống)">
+      <Field label="Nội dung * (dán trực tiếp mã HTML — thẻ h2, h3, p, ul, li, a...)">
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
-          rows={12}
-          placeholder={"Đoạn văn thứ nhất...\n\nĐoạn văn thứ hai...\n\nĐoạn văn thứ ba..."}
-          className={inputCls}
+          rows={16}
+          placeholder={`<p>Đoạn mở đầu...</p>\n<h2>Tiêu đề phụ</h2>\n<p>Nội dung...</p>\n<ul>\n  <li>Ý thứ nhất</li>\n  <li>Ý thứ hai</li>\n</ul>`}
+          className={`${inputCls} font-mono text-xs`}
         />
       </Field>
 
@@ -169,7 +166,15 @@ export default function BlogForm({
           </select>
         </Field>
         <Field label="Link ảnh minh hoạ (để trống nếu dùng biểu tượng)">
-          <input value={image} onChange={(e) => setImage(e.target.value)} className={inputCls} />
+          <input
+            value={image}
+            onChange={(e) => setImage(e.target.value)}
+            placeholder="/anhblog/ten-thu-muc/01.jpg"
+            className={inputCls}
+          />
+          <span className="mt-1 block text-xs text-muted">
+            Ảnh đặt trong public/anhblog/&lt;tên thư mục&gt;/ — nhập đúng đường dẫn bắt đầu bằng "/", khớp chính xác hoa/thường với tên thư mục thật.
+          </span>
         </Field>
       </div>
 
