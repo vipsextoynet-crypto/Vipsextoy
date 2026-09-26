@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 phút đọc",
     category: "Góc Chia Sẽ",
     icon: "wave",
-    image: "G:\\vipextoy\\public\\anhblog\\top-7-may-rung-song-am-air-pulse-duoc-san-lung-nhieu-nhat-hinh-anh",
+    image: "G:\vipextoy\public\anhblog\top-7-may-rung-song-am-air-pulse-duoc-san-lung-nhieu-nhat-hinh-anh",
   },
 ];
 
