@@ -24,7 +24,6 @@ export type Product = {
   // trang chu va trang danh sach/danh muc, khach phai bam de xem anh thuc.
   sensitive?: boolean;
   longDescription?: string;
-  group?: string;
 };
 
 export type Category = {
@@ -785,7 +784,7 @@ export const products: Product[] = [
     description: "",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "/anh1/DV44Y/dv44y47.jpg",
+    image: "/anh1/DV44Y/dv44y47.jpg",npm run build
     images: [
           "/anh1/DV44Y/dv44y41.jpg",
           "/anh1/DV44Y/dv44y42.jpg",
