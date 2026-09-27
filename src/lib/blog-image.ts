@@ -18,8 +18,17 @@ const IMAGE_EXT = /\.(jpe?g|png|webp|gif|avif)$/i;
 // sang icon).
 export function resolveBlogImage(image?: string): string | undefined {
   if (!image) return undefined;
-  const trimmed = image.trim();
+  let trimmed = image.trim();
   if (!trimmed) return undefined;
+
+  // Tha thu lo go nham duong dan Windows (vd "G:\vipextoy\public\anhblog\abc"):
+  // doi \ thanh /, roi neu co doan ".../public/..." thi chi giu phan SAU no.
+  trimmed = trimmed.replace(/\\/g, "/");
+  const publicIdx = trimmed.toLowerCase().lastIndexOf("/public/");
+  if (publicIdx !== -1) {
+    trimmed = trimmed.slice(publicIdx + "/public/".length);
+  }
+  if (!trimmed.startsWith("/")) trimmed = "/" + trimmed;
 
   if (IMAGE_EXT.test(trimmed)) return trimmed;
 
