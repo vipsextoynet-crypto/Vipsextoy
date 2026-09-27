@@ -4,6 +4,10 @@ export type Product = {
   name: string;
   category: string;
   categorySlug: string;
+  // Cac danh muc PHU khac ma san pham nay cung duoc gan vao (ngoai
+  // categorySlug chinh o tren). Dung khi 1 san pham thuoc nhieu hon 1
+  // danh muc, vd vua la "trung-rung-tinh-yeu" vua la "may-massage-ca-nhan".
+  extraCategorySlugs?: string[];
   price: number;
   compareAt?: number;
   blurb: string;
