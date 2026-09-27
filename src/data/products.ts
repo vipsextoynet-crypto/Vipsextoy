@@ -32,6 +32,10 @@ export type Category = {
   name: string;
   shortDescription: string;
   seoDescription: string;
+  // Ten nhom hien thi tren menu (vd gom nhieu danh muc con vao chung 1 nhom
+  // hien thi). Neu khong dat, groupCategories() se coi danh muc do la 1
+  // nhom rieng chi co chinh no (dung ten cua no lam ten nhom).
+  group?: string;
 };
 
 export const categories: Category[] = [
