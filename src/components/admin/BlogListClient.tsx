@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
@@ -8,6 +8,7 @@ type Row = {
   title: string;
   category: string;
   date: string;
+  image?: string;
 };
 
 const PAGE_SIZE = 30;
@@ -20,22 +21,37 @@ function formatDate(d: string) {
   });
 }
 
-export default function BlogListClient({ posts }: { posts: Row[] }) {
+export default function BlogListClient({
+  posts,
+}: {
+  posts: Row[];
+}) {
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
+
     if (!q) return posts;
+
     return posts.filter(
       (p) =>
-        p.title.toLowerCase().includes(q) || p.category.toLowerCase().includes(q)
+        p.title.toLowerCase().includes(q) ||
+        p.category.toLowerCase().includes(q)
     );
   }, [posts, query]);
 
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const totalPages = Math.max(
+    1,
+    Math.ceil(filtered.length / PAGE_SIZE)
+  );
+
   const currentPage = Math.min(page, totalPages);
-  const pageItems = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+  const pageItems = filtered.slice(
+    (currentPage - 1) * PAGE_SIZE,
+    currentPage * PAGE_SIZE
+  );
 
   return (
     <div>
@@ -50,7 +66,8 @@ export default function BlogListClient({ posts }: { posts: Row[] }) {
       />
 
       <p className="mb-3 text-xs text-muted">
-        Tìm thấy {filtered.length} bài viết — trang {currentPage}/{totalPages}
+        Tìm thấy {filtered.length} bài viết — trang{" "}
+        {currentPage}/{totalPages}
       </p>
 
       <div className="flex flex-col divide-y divide-line border border-line bg-surface">
@@ -60,34 +77,68 @@ export default function BlogListClient({ posts }: { posts: Row[] }) {
             href={`/admin/blog/${p.slug}/edit`}
             className="flex items-center gap-4 px-4 py-3 transition hover:bg-surface2"
           >
-            <div className="flex-1">
-              <p className="text-sm text-ivory">{p.title}</p>
+            {p.image ? (
+              <div className="h-16 w-24 shrink-0 overflow-hidden border border-line bg-surface2">
+                <img
+                  src={p.image}
+                  alt=""
+                  className="h-full w-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+            ) : (
+              <div className="flex h-16 w-24 shrink-0 items-center justify-center border border-line bg-surface2 text-xs text-muted">
+                Không có ảnh
+              </div>
+            )}
+
+            <div className="min-w-0 flex-1">
+              <p className="truncate text-sm text-ivory">
+                {p.title}
+              </p>
+
               <p className="text-xs text-muted">
                 {p.category} · {formatDate(p.date)}
               </p>
+
+              {p.image && (
+                <p className="mt-1 truncate text-[11px] text-muted">
+                  {p.image}
+                </p>
+              )}
             </div>
           </Link>
         ))}
 
         {pageItems.length === 0 && (
-          <p className="px-4 py-8 text-center text-sm text-muted">Không tìm thấy bài viết nào.</p>
+          <p className="px-4 py-8 text-center text-sm text-muted">
+            Không tìm thấy bài viết nào.
+          </p>
         )}
       </div>
 
       {totalPages > 1 && (
         <div className="mt-4 flex items-center justify-center gap-2">
           <button
-            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            onClick={() =>
+              setPage((p) => Math.max(1, p - 1))
+            }
             disabled={currentPage <= 1}
             className="border border-line px-3 py-1 text-sm text-ivory disabled:opacity-40"
           >
             ← Trước
           </button>
+
           <span className="text-sm text-muted">
             {currentPage} / {totalPages}
           </span>
+
           <button
-            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+            onClick={() =>
+              setPage((p) =>
+                Math.min(totalPages, p + 1)
+              )
+            }
             disabled={currentPage >= totalPages}
             className="border border-line px-3 py-1 text-sm text-ivory disabled:opacity-40"
           >
