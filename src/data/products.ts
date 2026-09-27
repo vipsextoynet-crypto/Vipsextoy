@@ -24,6 +24,7 @@ export type Product = {
   // trang chu va trang danh sach/danh muc, khach phai bam de xem anh thuc.
   sensitive?: boolean;
   longDescription?: string;
+  group?: string;
 };
 
 export type Category = {
@@ -123,7 +124,22 @@ export const categories: Category[] = [
 export function getCategory(slug: string) {
   return categories.find((c) => c.slug === slug);
 }
-
+/** Gom danh sach categories theo "group" (ten nhom hien thi tren thanh
+ *  mau hong trong menu). Danh muc khong co group (vd "Nước Hoa") duoc
+ *  coi la 1 nhom rieng chi co dung no. Dung chung cho Header + Sidebar. */
+export function groupCategories(list: Category[]) {
+  const order: string[] = [];
+  const map = new Map<string, Category[]>();
+  for (const c of list) {
+    const key = c.group ?? c.name;
+    if (!map.has(key)) {
+      order.push(key);
+      map.set(key, []);
+    }
+    map.get(key)!.push(c);
+  }
+  return order.map((group) => ({ group, items: map.get(group)! }));
+}
 export const products: Product[] = [
   {
     slug: "dc72e1-vong-rung-luoi-liem-don-day-duong-vat-dieu-khien-xa",
@@ -65420,7 +65436,9 @@ export function getProduct(slug: string) {
 }
 
 export function getProductsByCategory(categorySlug: string) {
-  return products.filter((p) => p.categorySlug === categorySlug);
+  return products.filter(
+    (p) => p.categorySlug === categorySlug || p.extraCategorySlugs?.includes(categorySlug)
+  );
 }
 
 export function formatPrice(price: number) {

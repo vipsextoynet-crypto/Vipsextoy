@@ -22,6 +22,29 @@ const nextConfig = {
     unoptimized: true,
   },
   compress: true,
+
+  // Cac slug danh muc CU da bi tach/doi ten khi lam lai cau truc menu
+  // 2 tang. Redirect 301 sang danh muc moi gan nhat de khong mat index
+  // Google, khong tao redirect chain (moi dong day chi redirect 1 lan).
+  async redirects() {
+    return [
+      {
+        source: "/danh-muc/do-choi-cao-cap",
+        destination: "/danh-muc/do-choi-cao-cap-nu",
+        permanent: true,
+      },
+      {
+        source: "/danh-muc/gel-boi-tron-cao-cap",
+        destination: "/danh-muc/gel-boi-tron-am-dao",
+        permanent: true,
+      },
+      {
+        source: "/danh-muc/do-choi-cho-lgbt",
+        destination: "/danh-muc/do-choi-cho-gay",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

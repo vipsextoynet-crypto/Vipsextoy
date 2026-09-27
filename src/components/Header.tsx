@@ -5,7 +5,7 @@ import { ShoppingBag, Menu, X, Home, ChevronDown, Search } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
-import { categories, formatPrice } from "@/data/products";
+import { categories, groupCategories, formatPrice } from "@/data/products";
 import { site } from "@/lib/site";
 
 export default function Header() {
@@ -29,7 +29,7 @@ export default function Header() {
             href="/"
             className="font-serif text-lg font-bold tracking-wide text-gold sm:text-xl"
           >
-            {site.name.toUpperCase()}.COM
+            {site.name.toUpperCase()}
           </Link>
 
           <button
@@ -103,15 +103,23 @@ export default function Header() {
               <ChevronDown size={14} />
             </button>
             {catOpen && (
-              <div className="absolute left-0 top-full w-[560px] border border-line bg-surface p-6 normal-case shadow-xl">
-                <div className="grid grid-cols-2 gap-x-8 gap-y-4">
-                  {categories.map((c) => (
-                    <Link key={c.slug} href={`/danh-muc/${c.slug}`} className="group/item">
-                      <p className="text-sm font-normal text-ivory transition group-hover/item:text-gold">
-                        {c.name}
+              <div className="absolute left-0 top-full max-h-[70vh] w-[640px] overflow-y-auto border border-line bg-surface p-6 normal-case shadow-xl">
+                <div className="grid grid-cols-2 gap-x-8 gap-y-5">
+                  {groupCategories(categories).map(({ group, items }) => (
+                    <div key={group}>
+                      <p className="mb-2 bg-rose/90 px-2.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-white">
+                        {group}
                       </p>
-                      <p className="mt-0.5 text-xs font-normal text-muted">{c.shortDescription}</p>
-                    </Link>
+                      <div className="flex flex-col gap-2">
+                        {items.map((c) => (
+                          <Link key={c.slug} href={`/danh-muc/${c.slug}`} className="group/item">
+                            <p className="text-sm font-normal text-ivory transition group-hover/item:text-gold">
+                              {c.name}
+                            </p>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
                   ))}
                 </div>
                 <Link
@@ -155,15 +163,22 @@ export default function Header() {
               Hướng dẫn mua hàng
             </Link>
             <p className="mt-2 text-xs uppercase tracking-wide text-muted">Danh mục</p>
-            {categories.map((c) => (
-              <Link
-                key={c.slug}
-                href={`/danh-muc/${c.slug}`}
-                onClick={() => setMenuOpen(false)}
-                className="pl-2"
-              >
-                {c.name}
-              </Link>
+            {groupCategories(categories).map(({ group, items }) => (
+              <div key={group} className="flex flex-col gap-2">
+                <p className="mt-1 bg-rose/90 px-2.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-white">
+                  {group}
+                </p>
+                {items.map((c) => (
+                  <Link
+                    key={c.slug}
+                    href={`/danh-muc/${c.slug}`}
+                    onClick={() => setMenuOpen(false)}
+                    className="pl-2"
+                  >
+                    {c.name}
+                  </Link>
+                ))}
+              </div>
             ))}
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="mt-2">
               Blog

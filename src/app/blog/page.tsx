@@ -20,6 +20,13 @@ function formatDate(d: string) {
 }
 
 export default function BlogPage() {
+  // Bai moi nhat (theo truong "date") hien len dau, bai cu hon xep xuong duoi.
+  // Dung [...blogPosts] de khong lam thay doi thu tu goc cua mang blogPosts
+  // (mang goc van giu nguyen thu tu theo luc them vao data/blog.ts).
+  const sortedPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+
   return (
     <div className="mx-auto max-w-6xl px-5 py-14">
       <div className="mb-12">
@@ -32,7 +39,7 @@ export default function BlogPage() {
       </div>
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {blogPosts.map((post) => (
+        {sortedPosts.map((post) => (
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
