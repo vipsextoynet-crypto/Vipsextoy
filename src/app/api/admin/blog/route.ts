@@ -3,6 +3,7 @@ import { BlogPost, blogPosts } from "@/data/blog";
 import { getFile, commitFile } from "@/lib/github-commit";
 import { slugify } from "@/lib/product-serialize";
 import { blogPostToTs, insertBlogPostIntoSource } from "@/lib/blog-serialize";
+import { normalizeBlogImageInput } from "@/lib/blog-image";
 
 const BLOG_PATH = "src/data/blog.ts";
 const ICONS = ["wave", "orb", "petal", "spark", "curve", "drop", "ring", "bloom"] as const;
@@ -38,6 +39,8 @@ export async function POST(req: NextRequest) {
       n++;
     }
 
+    const normalizedImage = normalizeBlogImageInput(image);
+
     const post: BlogPost = {
       slug,
       title,
@@ -47,7 +50,7 @@ export async function POST(req: NextRequest) {
       readTime: estimateReadTime(content),
       category,
       icon: (ICONS as readonly string[]).includes(icon) ? icon : "wave",
-      ...(image ? { image } : {}),
+      ...(normalizedImage ? { image: normalizedImage } : {}),
     };
 
     const { content: source, sha } = await getFile(BLOG_PATH);

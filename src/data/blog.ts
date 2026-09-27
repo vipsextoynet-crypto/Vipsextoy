@@ -42,7 +42,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "14 phút đọc",
     category: "Góc Chia Sẽ",
     icon: "wave",
-    image: "anhblog\\5-dau-hieu-phan-biet-shop-sextoy-uy-tin-che-ten-that-su-hinh-anh",
+    image: "/anhblog/5-dau-hieu-phan-biet-shop-sextoy-uy-tin-che-ten-that-su-hinh-anh",
   },
 ];
 
