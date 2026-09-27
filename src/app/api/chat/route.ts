@@ -41,15 +41,14 @@ function isBadFinish(finishReason: string | undefined) {
   return !!finishReason && finishReason !== "STOP";
 }
 
-// Kiem tra bo sung: cau tra loi "trong" hop ly phai ket thuc bang dau cau,
-// so hoac ky tu Viet Nam thong thuong. Neu ket thuc dot ngot bang dau phay,
-// gach ngang, hoac 1 tu chua hoan chinh (khong dau cau) -> nhieu kha nang
-// da bi cat, du finishReason bao la "STOP" (Google doi khi bao sai).
+// (Da bo ham kiem tra "ket thuc bang dau cau gi" - qua khat khe, cau tra
+// loi tieng Viet binh thuong hay ket thuc bang "...nhe", "...a" khong co
+// dau cham, bi bat nham la "bi cat" oan. Chi con dua vao finishReason that
+// su tu Google (isBadFinish) de phat hien truong hop bi chan/cat that.)
 function looksTruncated(text: string) {
-  const trimmed = text.trim();
-  if (trimmed.length < 15) return true;
-  const lastChar = trimmed.at(-1) ?? "";
-  return !/[.!?…đ)"'”]/i.test(lastChar);
+  // Chi coi la bat thuong neu QUA NGAN mot cach kho hieu (< 8 ky tu) - con
+  // lai tin tuong finishReason la du.
+  return text.trim().length < 8;
 }
 
 // --- Chinh lai phan nay neu ten field trong data/products.ts khac ---
