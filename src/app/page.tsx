@@ -5,6 +5,7 @@ import ProductCard from "@/components/ProductCard";
 import ProductGlyph from "@/components/ProductGlyph";
 import Sidebar from "@/components/Sidebar";
 import HeroBanner from "@/components/HeroBanner";
+import HomeSearch from "@/components/HomeSearch";
 
 // Số sản phẩm hiển thị cho mỗi danh mục trên trang chủ, và số danh mục hiện ra
 // trước khi phải bấm "Xem tất cả danh mục" (tránh trang chủ quá dài với 15 danh mục).
@@ -22,16 +23,7 @@ export default function Home() {
         <HeroBanner />
       </section>
       <section className="mx-auto max-w-6xl px-5 pt-4">
-        <p className="text-xs uppercase tracking-wide text-gold">Vipsextoy</p>
-        <h1 className="mt-2 font-serif text-2xl text-ivory md:text-3xl">
-          Chăm Sóc Cá Nhân Riêng Tư, Đóng Gói Kín Đáo
-        </h1>
-        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
-          Vipsextoy tuyển chọn sản phẩm chăm sóc cá nhân cao cấp cho người
-          trưởng thành — silicone y tế an toàn, đa dạng danh mục, đóng gói kín
-          đáo và giao hàng nhanh toàn quốc. Chỉ dành cho khách hàng từ 18 tuổi
-          trở lên.
-        </p>
+        <HomeSearch />
       </section>
       {/* Sidebar danh mục + từng danh mục 1 hàng sản phẩm */}
       <section className="mx-auto max-w-6xl px-5 py-14">
