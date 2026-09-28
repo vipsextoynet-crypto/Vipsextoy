@@ -14711,20 +14711,7 @@ export const products: Product[] = [
 <h2>Hãng SX : TENGA</h2>
 <p>Đây là sp sử dụng lại được nhiều lần  . SP chỉ dành cho người từ 18t trở lên</p>`,
   },
-  {
-    slug: "flip-0-ev-am-dao-gia-tenga-flip-0-zero-gravity-electronic-vibration",
-    sku: "FLIP 0 EV",
-    name: "Âm Đạo Giả TENGA FLIP 0 (ZERO) GRAVITY ELECTRONIC VIBRATION",
-    category: "Đồ Chơi Nam",
-    categorySlug: "do-choi-cao-cap-nam",
-    price: 5600000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Âm Đạo Giả TENGA FLIP 0 (ZERO) GRAVITY ELECTRONIC VIBRATION. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2424/1.png",
-    sensitive: true,
-  },
+
   {
     slug: "hard-soft-am-dao-gia-tenga-bobble-hard-soft",
     sku: "HARD-SOFT",
