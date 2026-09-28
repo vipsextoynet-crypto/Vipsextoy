@@ -4,6 +4,7 @@ import { blogPosts } from "@/data/blog";
 import ProductCard from "@/components/ProductCard";
 import ProductGlyph from "@/components/ProductGlyph";
 import Sidebar from "@/components/Sidebar";
+import CategoryCircles from "@/components/CategoryCircles";
 import HeroBanner from "@/components/HeroBanner";
 import HomeSearch from "@/components/HomeSearch";
 
@@ -19,14 +20,27 @@ export default function Home() {
   return (
     <div>
       {/* Banner — thay ảnh thật trong src/components/HeroBanner.tsx */}
-      <section className="px-0 pb-10 pt-6">
+      <section className="px-0 pb-4 pt-4 md:pb-10 md:pt-6">
         <HeroBanner />
       </section>
+
+      {/* Ô tìm kiếm: chỉ hiện trên mobile (PC đã có ô tìm kiếm ở header),
+          thu vào cùng bề ngang với banner và danh mục. */}
+      <div className="mx-auto max-w-6xl px-5 pb-5 md:hidden">
         <HomeSearch />
-      {/* Sidebar danh mục + từng danh mục 1 hàng sản phẩm */}
-      <section className="mx-auto max-w-6xl px-5 py-14">
+      </div>
+
+      {/* Danh mục: mobile = ô tròn danh mục cha, PC = Sidebar bên trái.
+          Danh mục chỉ xuất hiện ở trang chủ. */}
+      <section className="mx-auto max-w-6xl px-5 py-4 md:py-14">
+        <div className="mb-8 md:hidden">
+          <CategoryCircles />
+        </div>
+
         <div className="flex flex-col gap-8 md:flex-row">
-          <Sidebar />
+          <div className="hidden shrink-0 md:block">
+            <Sidebar />
+          </div>
           <div className="flex-1 flex-col gap-14 md:flex">
             {homeCategories.map((c, catIndex) => {
               const catProducts = getProductsByCategory(c.slug).slice(
@@ -61,7 +75,7 @@ export default function Home() {
                 href="/shop"
                 className="inline-block border border-line px-7 py-3 text-sm tracking-wide text-ivory transition hover:border-gold hover:text-gold"
               >
-                Xem toàn bộ {categories.length} danh mục sản phẩm →
+                Xem toàn bộ sản phẩm →
               </Link>
             </div>
           </div>

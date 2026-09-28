@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import { products } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
-import Sidebar from "@/components/Sidebar";
 import Pagination from "@/components/Pagination";
 
-export function generateMetadata({
+// Next.js 15+/16: searchParams la Promise, phai await moi doc duoc.
+export async function generateMetadata({
   searchParams,
 }: {
-  searchParams: { page?: string; q?: string };
-}): Metadata {
-  const hasQuery = Boolean(searchParams.q?.trim());
-  const page = parseInt(searchParams.page ?? "1", 10) || 1;
+  searchParams: Promise<{ page?: string; q?: string }>;
+}): Promise<Metadata> {
+  const sp = await searchParams;
+  const hasQuery = Boolean(sp.q?.trim());
+  const page = parseInt(sp.page ?? "1", 10) || 1;
   const shouldNoIndex = hasQuery || page > 1;
 
   return {
@@ -34,7 +35,6 @@ function normalize(s: string) {
     .toLowerCase();
 }
 
-// Next.js 15+/16: searchParams la Promise, phai await moi doc duoc.
 export default async function ShopPage({
   searchParams,
 }: {
@@ -63,33 +63,24 @@ export default async function ShopPage({
   const basePath = q ? `/shop?q=${encodeURIComponent(q)}` : "/shop";
 
   return (
-    <div className="mx-auto max-w-6xl px-5 py-14">
-      <div className="mb-10">
-        <p className="text-xs uppercase tracking-wide text-gold">Cửa hàng</p>
-        <h1 className="mt-2 font-serif text-3xl text-ivory">
+    <div className="mx-auto max-w-6xl px-5 py-8 md:py-14">
+      <div className="mb-8">
+        <h1 className="font-serif text-2xl text-ivory md:text-3xl">
           {q ? `Kết quả cho “${q}”` : "Toàn bộ sản phẩm"}
         </h1>
-        <p className="mt-3 max-w-xl text-muted">
-          {filtered.length} sản phẩm — duyệt theo danh mục bên trái để tìm
-          nhanh hơn.
-        </p>
+        <p className="mt-2 text-xs text-muted">{filtered.length} sản phẩm</p>
       </div>
 
-      <div className="flex flex-col gap-8 md:flex-row">
-        <Sidebar />
-        <div className="flex-1">
-          {list.length === 0 ? (
-            <p className="text-muted">Không tìm thấy sản phẩm phù hợp.</p>
-          ) : (
-            <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
-              {list.map((p, i) => (
-                <ProductCard key={p.slug} product={p} priority={page === 1 && !q && i < 4} />
-              ))}
-            </div>
-          )}
-          <Pagination basePath={basePath} currentPage={page} totalPages={totalPages} />
+      {list.length === 0 ? (
+        <p className="text-muted">Không tìm thấy sản phẩm phù hợp.</p>
+      ) : (
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-5 lg:grid-cols-4">
+          {list.map((p, i) => (
+            <ProductCard key={p.slug} product={p} priority={page === 1 && !q && i < 4} />
+          ))}
         </div>
-      </div>
+      )}
+      <Pagination basePath={basePath} currentPage={page} totalPages={totalPages} />
     </div>
   );
 }
