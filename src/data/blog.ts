@@ -69,6 +69,8 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 phút đọc",
     category: "Review",
     icon: "wave",
+    image: "/anhblog/review-coc-thu-dam-nam-bo-tui-duoi-600k-cho-tan-binh-hinh-anh",
+
   },
 ];
 
