@@ -54073,7 +54073,7 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "/anh1/AD36G/01.jpg",
-    images: ["/anh1/AD36G/05.jpg", "/anh1/AD36G/06.jpg", "/anh1/AD36G/07.jpg", "/anh1/AD36G/08.jpg", "/anh1/AD36G/09.jpg", "/anh1/AD36G/10.jpg", "/anh1/AD36G/12.jpg", "/anh1/AD36G/17.jpg", "/anh1/AD36G/18.jpg", "/anh1/AD36G/20.jpg"],
+    images: ["/anh1/AD36G/06.jpg", "/anh1/AD36G/07.jpg", "/anh1/AD36G/08.jpg", "/anh1/AD36G/09.jpg", "/anh1/AD36G/10.jpg", "/anh1/AD36G/12.jpg", "/anh1/AD36G/17.jpg", "/anh1/AD36G/18.jpg", "/anh1/AD36G/20.jpg"],
   },
   {
     slug: "ad36e-am-dao-gia-tu-dong-rung-liem-co-bop-nhu-that-ad36e",
