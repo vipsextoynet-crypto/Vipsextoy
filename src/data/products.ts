@@ -11787,19 +11787,7 @@ export const products: Product[] = [
 <p>Đơn hàng TENGA FLIP 0 ELECTRONIC VIBROTATION được giao tới có đảm bảo kín đáo không?</p>
 <p>Mọi đơn hàng đều được đóng gói bảo mật trong hộp giấy trơn niêm phong kín đáo, không hiển thị tên sản phẩm hay thông tin sensitive bên ngoài. Dịch vụ giao hàng hỏa tốc hỗ trợ nhận hàng từ 15 phút đến 2 giờ tại TP.HCM, Hà Nội và từ 1 đến 2 ngày đối với các tỉnh thành khác.</p>`,
   },
-  {
-    slug: "f0-rung-tenga-flip-0-zero-electronic-vibrotation-co-rung-tu-dong-nhap-truc-tiep-japan",
-    sku: "F0 Rung",
-    name: "TENGA FLIP 0 (ZERO) ELECTRONIC VIBROTATION (Có Rung Tự Động) Nhập Trực Tiếp Japan",
-    category: "Sản Phẩm Khác",
-    categorySlug: "chua-phan-loai",
-    price: 8500000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "TENGA FLIP 0 (ZERO) ELECTRONIC VIBROTATION (Có Rung Tự Động) Nhập Trực Tiếp Japan. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2533/1.png",
-  },
+
   {
     slug: "gel-trainer-lotion-nhap-japan",
     sku: "GEL-TRAINER-LOTION-NHAP-JAPAN",
