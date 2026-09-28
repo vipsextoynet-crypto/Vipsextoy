@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div>
       {/* Banner — thay ảnh thật trong src/components/HeroBanner.tsx */}
-      <section className="px-0 pb-4 pt-4 md:pb-10 md:pt-6">
+      <section className="px-0 pb-4 pt-4 md:pb-5 md:pt-6">
         <HeroBanner />
       </section>
 
@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Danh mục: mobile = ô tròn danh mục cha, PC = Sidebar bên trái.
           Danh mục chỉ xuất hiện ở trang chủ. */}
-      <section className="mx-auto max-w-6xl px-5 py-4 md:py-14">
+      <section className="mx-auto max-w-6xl px-5 py-4 md:pb-14 md:pt-0">
         <div className="mb-8 md:hidden">
           <CategoryCircles />
         </div>

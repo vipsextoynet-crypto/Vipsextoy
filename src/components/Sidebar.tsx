@@ -13,7 +13,7 @@ export default function Sidebar({ activeSlug }: { activeSlug?: string }) {
         <nav className="flex flex-col">
           {grouped.map(({ group, items }) => (
             <div key={group}>
-              <p className="bg-rose/90 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white">
+              <p className="border-b border-line border-l-4 border-l-gold bg-gold/10 px-3 py-2 text-xs font-bold uppercase tracking-wide text-gold-dark">
                 {group}
               </p>
               {items.map((c) => (
