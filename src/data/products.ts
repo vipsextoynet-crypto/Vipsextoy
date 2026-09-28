@@ -54068,54 +54068,12 @@ export const products: Product[] = [
     category: "Đồ Chơi Nam",
     categorySlug: "do-choi-cao-cap-nam",
     price: 2450000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
+    blurb: "",
     description: "Máy thủ dâm tự động Telescopic Sweetheart II (AD36G). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
-    image: "/anh1/AD36G/05.jpg",
+    image: "/anh1/AD36G/01.jpg",
     images: ["/anh1/AD36G/05.jpg", "/anh1/AD36G/06.jpg", "/anh1/AD36G/07.jpg", "/anh1/AD36G/08.jpg", "/anh1/AD36G/09.jpg", "/anh1/AD36G/10.jpg", "/anh1/AD36G/12.jpg", "/anh1/AD36G/17.jpg", "/anh1/AD36G/18.jpg", "/anh1/AD36G/20.jpg"],
-    longDescription: `<p>AD36G Dụng cụ tình dục nam tự sướng máy tự động xoay thụt tê tái cậu nhỏ</p>
-<p>Thông tin sản phẩm:</p>
-<ul><li>Tính năng: Massager dương vật, Kích thích thủ dâm cho nam, Giải tỏa sinh lý hiệu quả</li></ul>
-<h2>Đối tượng sử dụng: nam giới</h2>
-<h2>Chất liệu: ABS + TPE</h2>
-<h2>Mùi: Không Mùi</h2>
-<h2>Đảm bảo: Không kích ứng da</h2>
-<h2>Kiểm định: Bởi tổ chức y tế thế giới, CE Châu Âu</h2>
-<h2>Chiều dài máy tính đến đế: 34cm</h2>
-<h2>Chiều dài máy: 27cm</h2>
-<h2>Đường kính: 9cm</h2>
-<h2>Đặc điểm: Âm đạo dạng tua gai mềm, miệng âm đạo mô phỏng hình môi</h2>
-<h2>Hoạt động: Đèn flash nhấy nháy</h2>
-<h2>Chế độ: 10 chế độ rung, thụt, xoay</h2>
-<h2>Chế độ thụt: Lên xuống 4cm</h2>
-<h2>Nguồn điện: Sạc pin USB</h2>
-<h2>Vệ sinh: Bằng cồn y tế. Các bộ phận có thể tháo rời để vệ sinh dễ dàng</h2>
-<h2>Sản phẩm sử dụng kèm: Bao cao su siêu mỏng, gel bôi trơn</h2>
-<h2>Thương hiệu: EASYLOVE</h2>
-<h2>Xuất xứ: Nhật Bản</h2>
-<h2>Sản xuất: Tại nhà máy EASYLOVE</h2>
-<p>Máy thủ dâm tự động Telescopic Sweetheart II thuộc dòng máy thủ dâm cao cấp và hiện đại đến từ thương hiệu nổi tiếng của Nhật Bản.</p>
-<p>Dòng sản phẩm mang đầy đủ tính năng đặc biệt của một máy thủ dâm cao cấp có thể tự động rung, thụt lên xuống, xoay ngoáy điên đảo khiến cho “cậu nhỏ” gào thét vì quá giống với việc làm tình với nàng bằng miệng.</p>
-<p>Miệng âm đạo mô phỏng với hình môi chúm chím của cô gái, bên trong ruột âm đạo giả, thiết kế gồm các tua gai mềm mại sẽ chà miết lên thân cậu nhỏ khiến các anh râm ran và hừng hực sảng khoái.</p>
-<p>Máy thủ dâm không chỉ thiết kế khả năng tự động giống như một người tình thực thụ mà còn tích hợp khả năng thông minh có thể gắn tường, xoay tới 145 độ cho các anh tha hồ tạo tư thế giống như các tư thế quan hệ với nàng.</p>
-<p>Kiểu dáng sang trọng đẳng cấp được làm hoàn toàn từ chất liệu ABS và TPE cao cấp có mức độ đàn hồi cao.</p>
-<p>Nên cảm giác ngay khi các anh chạm tới cực kỳ kích thích và viên mãn vì quá đỗi sung sướng và giống thật.</p>
-<p>Cảm giác được “nàng ORALSEX ” thật sự thăng hoa và việc lên đỉnh của các anh chỉ còn trong tích tắc mà thôi.</p>
-<p>Ngoài ra khi “cô nàng” hoạt động có kèm cả đèn Flash nhấp nháy nhìn vô cùng đẹp mắt đặc biệt trong đêm những tín hiệu phát sáng khiến các chàng càng bị mê hoặc, bị kích thích khả năng làm tình nhanh và mạnh mẽ hơn rất nhiều.</p>
-<p>Việc tích hợp tới 10 cường độ rung, thụt xoay khiến cho các anh trải qua các cung bậc tình yêu sung sướng đê mê.</p>
-<p>Cảm giác được liếm mút nhẹ nhàng, được mơn chớn râm ran cho tới khi cảm giác lên tới đỉnh điểm của sự thăng hoa và thỏa mãn.</p>
-<p>Một kiệt tác hơn cả một người tình chung thủy, sự bền bỉ dẻo dai không phải người tình nào của các anh cũng có thể tìm được.</p>
-<p>Chỉ tới khi làm tình với Máy thủ dâm tự động Telescopic Sweetheart II các anh mới có thể cảm nhận một đêm thăng hoa thực sự.</p>
-<p>Với những ưu điểm không thể bỏ qua của dòng máy cao cấp này:</p>
-<ul><li>– Thương hiệu nổi tiếng đến từ Nhật Bản, Bảo đảm tuyệt đối an toàn cho người sử dụng.</li><li>– Tự động thụt lên xuống, xoay ngoáy giống như khi quan hệ với nàng.</li><li>– Sự dẻo dai, bền bỉ hơn cả một người tình.</li><li>– Sạc pin cao cấp cho hoạt động dài hơi và thỏa mãn được cuộc vui.</li><li>– Gắn tường và xoay 145 độtạo được nhiều tư thế quan hệ hơn.</li></ul>
-<p>Cách sử dụng:</p>
-<ul><li>– Bạn cần vệ sinh sạch sẽ sản phẩm trước và sau khi sử dụng bằng cồn y tế và xà bông sát khuẩn</li></ul>
-<h2>– Sạc đầy pin trước khi sử dụng</h2>
-<p>– Thêm gel bôi trơn hoặc sử dụng bao cao su cho dương vật để tăng độ trơn tru tránh bị khô rát để đạt cảm xúc thăng hoa</p>
-<p>– Trong khi thao tác bật nút khởi động nguồn. bật các nút F, F2, F3 để khởi động chế đô rung, thụt, và phím chức năng tăng cường chế độ. Nút R/S bật để khởi động chức năng xoay ngoáy và đảo chiều của âm đạo giả.</p>
-<p>– Sau khi thỏa mãn với máy thủ dâm. Mở vỏ máy và tháo rời từng bộ phận để vệ sinh, để khô hoặc dùng khăn bông khô trước khi bảo quản</p>
-<p>– Để nơi khô thoáng, tránh bụi bẩn và nơi có nhiệt độ cao.</p>`,
   },
   {
     slug: "ad36e-am-dao-gia-tu-dong-rung-liem-co-bop-nhu-that-ad36e",
