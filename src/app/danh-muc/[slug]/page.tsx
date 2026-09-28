@@ -7,6 +7,7 @@ import Sidebar from "@/components/Sidebar";
 import Pagination from "@/components/Pagination";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
+import { buildMetadata } from "@/lib/seo";
 
 const PAGE_SIZE = 24;
 
@@ -16,23 +17,36 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  const { page: pageParam } = await searchParams;
   const category = getCategory(slug);
   if (!category) return {};
 
-  return {
-    title: category.name,
-    description: category.seoDescription,
-    alternates: { canonical: `/danh-muc/${category.slug}` },
-    openGraph: {
-      title: `${category.name} | ${site.name}`,
-      description: category.seoDescription,
-      url: `${site.url}/danh-muc/${category.slug}`,
-    },
-  };
+  const all = getProductsByCategory(category.slug);
+  const totalPages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
+  const page = Math.min(
+    totalPages,
+    Math.max(1, parseInt(pageParam ?? "1", 10) || 1)
+  );
+
+  const basePath = `/danh-muc/${category.slug}`;
+
+  // Moi trang phan trang tu tro ve chinh no (canonical rieng) va co tieu de
+  // rieng, tranh Google coi trang 2, 3... la ban trung cua trang 1.
+  return buildMetadata({
+    title: page > 1 ? `${category.name} - Trang ${page}` : category.name,
+    description:
+      page > 1
+        ? `${category.seoDescription} (Trang ${page}/${totalPages})`
+        : category.seoDescription,
+    path: page > 1 ? `${basePath}?page=${page}` : basePath,
+    image: all[0]?.image,
+  });
 }
 
 export default async function CategoryPage({

@@ -3,13 +3,14 @@ import Link from "next/link";
 import { blogPosts } from "@/data/blog";
 import BlogCardImage from "@/components/BlogCardImage";
 import { resolveBlogImage } from "@/lib/blog-image";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Blog chăm sóc cá nhân",
   description:
     "Góc chia sẻ của Vipsextoy — hướng dẫn chọn mua, vệ sinh, bảo quản sản phẩm chăm sóc cá nhân và những câu chuyện chăm sóc bản thân.",
-  alternates: { canonical: "/blog" },
-};
+  path: "/blog",
+});
 
 function formatDate(d: string) {
   return new Date(d).toLocaleDateString("vi-VN", {

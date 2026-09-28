@@ -7,7 +7,15 @@ import ProductGallery from "@/components/ProductGallery";
 import AddToCartButton from "@/components/AddToCartButton";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
+import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { Check } from "lucide-react";
+
+// Ngay het han gia cho JSON-LD Offer (Google khuyen nghi co truong nay).
+// Tinh 1 lan luc build = ngay build + 1 nam; web build lai thuong xuyen
+// (moi lan dang blog) nen luon la ngay trong tuong lai.
+const PRICE_VALID_UNTIL = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000)
+  .toISOString()
+  .slice(0, 10);
 
 // Data moi (sau khi chay script AI) la HTML thuan (<h2>, <p>, <ul>...).
 // Data cu (chua kip viet lai) van la text thuong voi "## "/"- ". Ham nay
@@ -117,16 +125,15 @@ export async function generateMetadata({
   const product = getProduct(slug);
   if (!product) return {};
 
-  return {
+  // Truoc day og:url tro sai sang /product/<slug> (khong ton tai) va khong
+  // co og:image. Gio dung chung helper: canonical, og:url deu la /<slug>,
+  // anh chia se la anh san pham.
+  return buildMetadata({
     title: product.name,
     description: product.blurb,
-    alternates: { canonical: `/${product.slug}` },
-    openGraph: {
-      title: `${product.name} | ${site.name}`,
-      description: product.blurb,
-      url: `${site.url}/product/${product.slug}`,
-    },
-  };
+    path: `/${product.slug}`,
+    image: product.image ?? product.images?.[0],
+  });
 }
 
 export default async function ProductPage({
@@ -138,25 +145,57 @@ export default async function ProductPage({
   const product = getProduct(slug);
   if (!product) return notFound();
 
+  const productUrl = `${site.url}/${product.slug}`;
+  // Tat ca anh cua san pham (bo trung), doi sang URL tuyet doi cho JSON-LD.
+  const jsonLdImages = Array.from(
+    new Set(
+      [product.image, ...(product.images || [])].filter(
+        (u): u is string => !!u
+      )
+    )
+  ).map(absoluteUrl);
+
   return (
     <div className="mx-auto max-w-6xl px-5 py-14">
       <JsonLd
         data={{
           "@context": "https://schema.org",
           "@type": "Product",
+          "@id": `${productUrl}#product`,
           name: product.name,
           description: product.description,
           category: product.category,
           sku: product.sku,
+          url: productUrl,
           brand: { "@type": "Brand", name: site.name },
-          image: product.image ? [product.image] : undefined,
+          image: jsonLdImages.length > 0 ? jsonLdImages : undefined,
           offers: {
             "@type": "Offer",
             priceCurrency: "VND",
             price: product.price,
+            priceValidUntil: PRICE_VALID_UNTIL,
+            itemCondition: "https://schema.org/NewCondition",
             availability: "https://schema.org/InStock",
-            url: `${site.url}/${product.slug}`,
+            url: productUrl,
+            seller: { "@type": "Organization", name: site.name, url: site.url },
           },
+        }}
+      />
+
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Trang chủ", item: site.url },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: product.category,
+              item: `${site.url}/danh-muc/${product.categorySlug}`,
+            },
+            { "@type": "ListItem", position: 3, name: product.name, item: productUrl },
+          ],
         }}
       />
 

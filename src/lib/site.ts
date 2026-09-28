@@ -17,4 +17,10 @@ export const site = {
     facebook: "https://facebook.com/vipsextoy",
     instagram: "https://instagram.com/vipsextoy",
   },
+  // Logo cho JSON-LD Organization (nen la anh vuong, toi thieu 112x112px).
+  logo: "/icon.png",
+  // Anh chia se mac dinh khi dan link len Facebook/Zalo (trang nao khong co
+  // anh rieng se dung anh nay). Nen thay bang banner 1200x630 khi co - chi
+  // can doi url/width/height o day.
+  ogImage: { url: "/icon.png", width: 512, height: 512 },
 };
