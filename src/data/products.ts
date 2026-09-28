@@ -11693,19 +11693,7 @@ export const products: Product[] = [
     image: "https://vipsextoy.net/files/sanpham/2540/1.png",
   },
 
-  {
-    slug: "f0-zero-tenga-flip-0-zero-nhap-truc-tiep-tu-nhat-ban",
-    sku: "F0 Zero",
-    name: "TENGA FLIP 0 ( ZERO ) (Nhập Trực Tiếp Từ Nhật Bản)",
-    category: "Sản Phẩm Khác",
-    categorySlug: "chua-phan-loai",
-    price: 2800000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "TENGA FLIP 0 ( ZERO ) (Nhập Trực Tiếp Từ Nhật Bản). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2536/1.png",
-  },
+
   {
     slug: "f1-tenga-flip-0-zero-electronic-vibration-nhap-truc-tiep-nhat-ban",
     sku: "F1",
