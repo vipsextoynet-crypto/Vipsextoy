@@ -14438,20 +14438,7 @@ export const products: Product[] = [
     image: "https://vipsextoy.net/files/sanpham/2438/1.png",
     sensitive: true,
   },
-  {
-    slug: "tenga-aero-am-dao-gia-tenga-aero-hang-japan",
-    sku: "TENGA AERO",
-    name: "Âm Đạo Giả TENGA AERO Hàng JAPAN",
-    category: "Âm Đạo Giả",
-    categorySlug: "am-dao-gia",
-    price: 1500000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Âm Đạo Giả TENGA AERO Hàng JAPAN. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2437/1.png",
-    sensitive: true,
-  },
+
   {
     slug: "premium-1-am-dao-gia-premium-tenga-series",
     sku: "PREMIUM 1",
