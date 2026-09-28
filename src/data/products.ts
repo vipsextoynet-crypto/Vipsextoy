@@ -14673,20 +14673,7 @@ export const products: Product[] = [
 <h2>Hạn sử dụng: 5 năm từ ngày sản xuất in trên thân chai</h2>
 <h2>Lưu ý: SP dành cho người 18+</h2>`,
   },
-  {
-    slug: "dual-feel-am-dao-gia-tenga-dual-feel-cup-extremes",
-    sku: "DUAL FEEL",
-    name: "Âm Đạo Giả TENGA DUAL FEEL CUP EXTREMES",
-    category: "Âm Đạo Giả",
-    categorySlug: "am-dao-gia",
-    price: 800000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Âm Đạo Giả TENGA DUAL FEEL CUP EXTREMES. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2426/1.png",
-    sensitive: true,
-  },
+
   {
     slug: "timing-am-dao-gia-tenga-timing-trainer-keep",
     sku: "TIMING",
