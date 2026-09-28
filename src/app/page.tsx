@@ -22,9 +22,7 @@ export default function Home() {
       <section className="px-0 pb-10 pt-6">
         <HeroBanner />
       </section>
-      <section className="mx-auto max-w-6xl px-5 pt-4">
         <HomeSearch />
-      </section>
       {/* Sidebar danh mục + từng danh mục 1 hàng sản phẩm */}
       <section className="mx-auto max-w-6xl px-5 py-14">
         <div className="flex flex-col gap-8 md:flex-row">
