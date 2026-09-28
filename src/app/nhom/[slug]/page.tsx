@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import ProductCard from "@/components/ProductCard";
@@ -54,6 +54,10 @@ export default async function GroupPage({
   const { page: pageParam } = await searchParams;
   const group = getGroup(slug);
   if (!group) return notFound();
+  // Nhóm chỉ có 1 danh mục con: trùng nội dung với trang danh mục, chuyển thẳng sang đó.
+  if (group.items.length === 1) {
+    permanentRedirect(`/danh-muc/${group.items[0].slug}`);
+  }
 
   const all = getProductsByGroup(group.items);
   const totalPages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));

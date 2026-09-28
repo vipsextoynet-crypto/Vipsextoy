@@ -15,7 +15,11 @@ export default function CategoryCircles() {
         return (
           <Link
             key={g.slug}
-            href={`/nhom/${g.slug}`}
+            href={
+              g.items.length === 1
+                ? `/danh-muc/${g.items[0].slug}`
+                : `/nhom/${g.slug}`
+            }
             className="group flex flex-col items-center gap-2 text-center"
           >
             <span className="relative block h-20 w-20 overflow-hidden rounded-full border-2 border-gold/40 bg-surface2 transition group-active:scale-95">
