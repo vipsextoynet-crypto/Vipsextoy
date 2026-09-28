@@ -35,7 +35,11 @@ public/anh1/_debug/
 public/anh1/_state/
 _image_log.jsonl
 
+<<<<<<< HEAD
 public/anh1/_chrome_profile/
 public/anh1/_debug/
 public/anh1/_state/
 __pycache__/
+
+
+src/data/*.backup-*
