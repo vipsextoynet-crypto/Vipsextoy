@@ -11665,19 +11665,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2543/1.png",
   },
-  {
-    slug: "orb-pastaio-tenga-flip-orb-pastaio-nhap-truc-tiep-tu-japan",
-    sku: "ORB PASTAIO",
-    name: "TENGA FLIP ORB PASTAIO (Nhập Trực Tiếp Từ Japan)",
-    category: "Sản Phẩm Khác",
-    categorySlug: "chua-phan-loai",
-    price: 2600000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "TENGA FLIP ORB PASTAIO (Nhập Trực Tiếp Từ Japan). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2542/1.png",
-  },
+
   {
     slug: "trung-rung-nhat-ban-gpro-rotor-rolling",
     sku: "TRUNG-RUNG-NHAT-BAN-GPRO-ROTOR-ROLLING",
