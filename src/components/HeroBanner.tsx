@@ -34,7 +34,7 @@ const SLIDES = [
     href: "/shop",
     label: "Xem chương trình khuyến mãi banner 1",
     gradient: "",
-    image: "/banners/banner-1.png",
+    image: "/banners/banner-1.webp",
     hasOwnText: true,
   },
   {
@@ -43,7 +43,7 @@ const SLIDES = [
     href: "/shop",
     label: "Xem chương trình khuyến mãi banner 2",
     gradient: "",
-    image: "/banners/banner-2.png",
+    image: "/banners/banner-2.webp",
     hasOwnText: true,
   },
   {
@@ -52,7 +52,7 @@ const SLIDES = [
     href: "/shop",
     label: "Xem chương trình khuyến mãi banner 3",
     gradient: "",
-    image: "/banners/banner-3.png",
+    image: "/banners/banner-3.webp",
     hasOwnText: true,
   },
 ];
@@ -82,7 +82,7 @@ export default function HeroBanner() {
               <>
                 <Image
                   src={s.image}
-                  alt={s.title}
+                  alt={s.label}
                   fill
                   priority={i === 0}
                   className="object-cover"
