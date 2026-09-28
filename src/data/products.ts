@@ -14543,20 +14543,7 @@ export const products: Product[] = [
 <p>- Nên dùng Gel bôi trơn Nhật Bản khi sử dụng để đảm bảo hiệu quả &quot; phê &quot; nhất , và đảm bảo độ bền của cốc Tenga</p>
 <h2>Hãng SX: TENGA Nhật Bản</h2>`,
   },
-  {
-    slug: "moova-new-am-dao-gia-new-tenga-moova",
-    sku: "MOOVA NEW",
-    name: "Âm Đạo Giả NEW TENGA MOOVA",
-    category: "Âm Đạo Giả",
-    categorySlug: "am-dao-gia",
-    price: 1300000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Âm Đạo Giả NEW TENGA MOOVA. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2434/1.png",
-    sensitive: true,
-  },
+
   {
     slug: "moova-am-dao-gia-tenga-moova",
     sku: "MOOVA",
