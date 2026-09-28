@@ -34,3 +34,8 @@ _dup-backup
 public/anh1/_debug/
 public/anh1/_state/
 _image_log.jsonl
+
+public/anh1/_chrome_profile/
+public/anh1/_debug/
+public/anh1/_state/
+__pycache__/
