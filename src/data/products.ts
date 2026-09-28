@@ -14423,35 +14423,7 @@ export const products: Product[] = [
 <h2>Xuất xứ SP : TENGA - Nhật Bản</h2>
 <h2>Sản phẩm chỉ dành cho người từ 18t trở lên</h2>`,
   },
-  {
-    slug: "able-am-dao-gia-able-tenga-japan",
-    sku: "able",
-    name: "Âm Đạo Giả able! TENGA JAPAN",
-    category: "Âm Đạo Giả",
-    categorySlug: "am-dao-gia",
-    price: 750000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Âm Đạo Giả able! TENGA JAPAN. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2439/1.png",
-    sensitive: true,
-    longDescription: `<p>Chúng tôi muốn thay đổi thế giới để mọi người đều có thể cảm nhận được niềm vui khi làm việc, bất kể họ có khuyết tật hay không.</p>
-<p>Chúng tôi muốn chấp nhận thách thức mang lại sự thay đổi tốt hơn bằng bất cứ cách nào chúng tôi có thể.</p>
-<p>Một sáng kiến ​​mới ra đời từ suy nghĩ đó, đó là &quot;able! TENGA&quot;.</p>
-<p>able! TENGA được thành lập tại &quot;able! FACTORY&quot;, một cơ sở hỗ trợ độc lập dành cho người khuyết tật do TENGA điều hành.</p>
-<p>Người khuyết tật thực hiện quấn màng co trong quy trình cuối cùng.</p>
-<p>Chúng tôi sẽ hỗ trợ những người khuyết tật khác bằng doanh số mà chúng tôi có được khi làm việc.</p>
-<p>Cảm giác rằng &quot;tôi đang đóng góp cho xã hội&quot; dẫn đến &quot;niềm vui của công việc&quot;.</p>
-<p>Không giống như trước đây, ables! TENGA sẽ quyên góp 100 yên để hỗ trợ người khuyết tật cho mỗi sản phẩm bán ra</p>
-<p>Sự tham gia của bạn sẽ mang lại rất nhiều nụ cười.</p>
-<p>Sử dụng TENGA sẽ dẫn đến nụ cười của người khác.</p>
-<p>Các khoản đóng góp do có thể! TENGA, được tạo ra thông qua sự hợp tác với tất cả mọi người, sẽ được sử dụng một cách hiệu quả để hỗ trợ và hỗ trợ người khuyết tật.</p>
-<p>Đây là phiên bản Đặc Biệt - giới hạn của TENGA . Sản phẩm có tính năng tương tự Cốc TENGA ORIGINAL VACUUM CUP</p>
-<h2>Hàng order trực tiếp từ nhật bản</h2>
-<h2>Sản phẩm dành cho người từ 18 tuổi trở lên</h2>
-<h2>Hãng SX: TENGA - MADE IN JAPAN</h2>`,
-  },
+
   {
     slug: "extra-soft-hard-am-dao-gia-tenga-extra-soft-hard-cup",
     sku: "EXTRA SOFT & HARD",
