@@ -11704,19 +11704,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2540/1.png",
   },
-  {
-    slug: "f0-gravity-tenga-flip-0-zero-gravity-nhap-truc-tiep-tu-japan",
-    sku: "F0 GRAVITY",
-    name: "TENGA FLIP 0 ( ZERO ) GRAVITY (Nhập trực tiếp từ JAPAN)",
-    category: "Sản Phẩm Khác",
-    categorySlug: "chua-phan-loai",
-    price: 3000000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "TENGA FLIP 0 ( ZERO ) GRAVITY (Nhập trực tiếp từ JAPAN). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2537/1.png",
-  },
+
   {
     slug: "f0-zero-tenga-flip-0-zero-nhap-truc-tiep-tu-nhat-ban",
     sku: "F0 Zero",
