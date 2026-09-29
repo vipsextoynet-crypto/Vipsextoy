@@ -12586,20 +12586,7 @@ export const products: Product[] = [
 <p>Cần lưu ý điều gì khi vệ sinh để bảo đảm độ bền cho chất liệu da và xích mạ vàng?</p>
 <p>Bạn chỉ nên dùng khăn mềm ẩm lau sạch phần da và dùng khăn khô lau các chi tiết kim loại. Tránh ngâm trực tiếp sản phẩm vào nước hoặc dùng hóa chất tẩy rửa mạnh để bảo vệ chất lượng da và lớp mạ.</p>`,
   },
-  {
-    slug: "thanh-rung-2-dau-co-luoi-liem-vibrator-sm-vibe-hang-nhat-ban",
-    sku: "THANH-RUNG-2-DAU-CO-LUOI-LIEM-VIBRATOR-SM-VIBE-HANG-NHAT-BAN",
-    name: "Thanh Rung 2 Đầu Có Lưỡi Liếm Vibrator SM+ Vibe Hàng Nhật Bản",
-    category: "Lưỡi Liếm Âm Đạo",
-    categorySlug: "luoi-liem-am-dao",
-    extraCategorySlugs: ["may-massage-ca-nhan"],
-    price: 1350000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Thanh Rung 2 Đầu Có Lưỡi Liếm Vibrator SM+ Vibe Hàng Nhật Bản. Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2507/1.png",
-  },
+
   {
     slug: "chay-rung-hut-vibrator-pul-2-in-1-cao-cap-cua-nhat-ban",
     sku: "CHAY-RUNG-HUT-VIBRATOR-PUL-2-IN-1-CAO-CAP-CUA-NHAT-BAN",
