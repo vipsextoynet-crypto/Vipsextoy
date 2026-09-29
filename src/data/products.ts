@@ -19956,39 +19956,7 @@ export const products: Product[] = [
 <h2>Cách vệ sinh sản phẩm đúng cách để đảm bảo độ bền?</h2>
 <p>Bạn nên vệ sinh các khu vực sử dụng bằng nước ấm hoặc dung dịch làm sạch chuyên dụng ngay sau khi dùng. Sau đó, lau khô bằng khăn mềm và bảo quản nơi khô ráo để giữ chất liệu silicon luôn bền đẹp và vệ sinh.</p>`,
   },
-  {
-    slug: "bb01a-bup-be-tinh-yeu-mini-gia-re-danh-cho-nam-suong-nhu-that-bb01a",
-    sku: "BB01A",
-    name: "BÚP BÊ TÌNH YÊU MINI GIÁ RẺ DÀNH CHO NAM SƯỚNG NHƯ THẬT (BB01A)",
-    category: "Âm Đạo Giả",
-    categorySlug: "am-dao-gia",
-    extraCategorySlugs: ["am-dao-silicon-tran"],
-    price: 1290000,
-    blurb: "Chất liệu silicon cao cấp, thiết kế chân thực, riêng tư khi giao nhận.",
-    description: "BÚP BÊ TÌNH YÊU MINI GIÁ RẺ DÀNH CHO NAM SƯỚNG NHƯ THẬT (BB01A). Chất liệu silicon cao cấp, thiết kế chân thực, riêng tư khi giao nhận. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Silicon cao cấp", "Thiết kế chân thực", "Đóng gói kín đáo, ẩn danh", "Bảo hành chính hãng"],
-    icon: "ring",
-    image: "/anh1/BB01A/01.jpg",
-    images: ["/anh1/BB01A/01.jpg"],
-    longDescription: `<p>BB01A Búp bê tình yêu mini giá rẻ dành cho nam thỏa mãn tình dục như thật</p>
-<p>Thông tin sản phẩm:</p>
-<ul><li>– Tính năng: Giải tỏa sinh lý, xả stress làm tinh thần sảng khoái.</li></ul>
-<h2>– Đối tượng sử dụng: Nam</h2>
-<p>– Chất liệu: 100% siclicon cao cấp, an toàn với người sử dụng.</p>
-<p>– Kích thước:</p>
-<p>– Trọng lượng:</p>
-<h2>– Xuất xứ : Hồng Kong</h2>
-<p>BB01A Búp bê tình yêu mini giá rẻ dành cho nam được sản xuất 100% bằng silicon cao cấp, an toàn với người sử dụng.</p>
-<p>Búp bê tình yêu mini được thiết kế với kiểu dáng gợi tình, khiêu khích các anh.</p>
-<p>Với kiểu dáng nằm sấp mông được nhô lên cao cùng với đó là phần mu âm đạo được vun lên đằng sau thật kích thích.</p>
-<p>Âm đạo của búp bê tình yêu giá rẻ được thiết kế như của cô gái mới lớn, phần ngoài âm đạo được mô phỏng gần như giống hoàn toàn âm đạo thật,</p>
-<p>Phần mu và môi ngoài âm đạo rất đẹp và bắt mắt, bên trong lỗ âm đạo được thiết kế rất khít như của gái mới lớn, nên các anh dễ dàng cảm nhận khi tiếp xúc vào bên trong âm đạo.</p>
-<p>Đồ chơi tình dục dành cho nam  thật sự là sự lựa chọn lý tưởng cho các anh độc thân, hay các anh muốn tìm cảm giác mới lạ mà sợ ra ngoài bậy bạ.</p>
-<p>Bên cạnh đó với việc quan hệ đều đặn với âm đạo luôn khít bót cũng tạo cho các anh khả năng sinh lý, thỏa mãn tinh thần.</p>
-<p>Ngoài ra, phần lỗ hậu môn cũng là một thiết kế thú vị, để các anh có thể trải nghiệm cửa sau. Một ưu điểm nhất trong các sextoy nam cùng loại.</p>
-<p>Hướng Dẫn Sử Dụng Và Bảo Quản:</p>
-<ul><li>– Vệ sinh sạch sẽ trước khi sử dụng bằng nước sạch.</li><li>– Sử dụng thêm gel bôi trơn hoặc đeo bao cao su để việc ra vào âm đạo dễ dàng hơn.</li><li>– Sau khi thỏa mãn vệ sinh sạch sẽ phần âm đạo, để khô ráo và cất đi cho lần sử dụng tiếp theo.</li><li>– Tránh tiếp xúc với nhiệt độ cao, để nơi khô thoáng mát.</li></ul>`,
-  },
+
   {
     slug: "ad38-nguc-gia-silicone-vu-gia-cao-cap-cho-cam-giac-nhu-that-cuc-ky-thich",
     sku: "AD38",
