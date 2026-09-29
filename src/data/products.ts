@@ -12601,19 +12601,7 @@ export const products: Product[] = [
     icon: "spark",
     image: "https://vipsextoy.net/files/sanpham/2506/1.png",
   },
-  {
-    slug: "chay-mat-xa-mini-vibrator-massage-2-in-1-unisex-nhat-ban",
-    sku: "CHAY-MAT-XA-MINI-VIBRATOR-MASSAGE-2-IN-1-UNISEX-NHAT-BAN",
-    name: "Chày Mát Xa Mini Vibrator massage 2 in 1 Unisex Nhật Bản",
-    category: "Dụng Cụ Massage, Chày Rung",
-    categorySlug: "may-massage-ca-nhan",
-    price: 1450000,
-    blurb: "Thiết kế công thái học, vận hành êm, nhiều cấp độ massage.",
-    description: "Chày Mát Xa Mini Vibrator massage 2 in 1 Unisex Nhật Bản. Thiết kế công thái học, vận hành êm, nhiều cấp độ massage. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
-    icon: "petal",
-    image: "https://vipsextoy.net/files/sanpham/2505/1.png",
-  },
+
   {
     slug: "trung-rung-2-dau-egg-vibrator-co-remost-dieu-khien-rung",
     sku: "TRUNG-RUNG-2-DAU-EGG-VIBRATOR-CO-REMOST-DIEU-KHIEN-RUNG",
