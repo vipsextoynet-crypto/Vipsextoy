@@ -31703,38 +31703,7 @@ export const products: Product[] = [
 <h2>Sản phẩm có bị thấm nước hay dễ tích tụ vi khuẩn không?</h2>
 <p>AD25A sở hữu bề mặt silicon chống thấm nước 100%, ngăn chất lỏng ngấm vào bên trong cấu trúc sản phẩm. Đặc tính trôi nước này giúp việc rửa sạch diễn ra nhanh chóng, hạn chế tối đa nguy cơ tích tụ vi khuẩn hay ẩm mốc.</p>`,
   },
-  {
-    slug: "dc74e-coc-thu-dam-cao-cap-tach-doi-tenga-fliporb-chinh-hang-tu-nhat-ban",
-    sku: "DC74E",
-    name: "Cốc thủ dâm cao cấp tách đôi Tenga FlipORB chính hãng từ Nhật bản",
-    category: "Đồ Chơi Nam",
-    categorySlug: "do-choi-cao-cap-nam",
-    extraCategorySlugs: ["am-dao-silicon-tran", "may-thu-dam-tu-dong"],
-    price: 2899000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Cốc thủ dâm cao cấp tách đôi Tenga FlipORB chính hãng từ Nhật bản. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "/anh1/DC74E/01.jpg",
-    images: ["/anh1/DC74E/01.jpg", "/anh1/DC74E/05.jpg", "/anh1/DC74E/06.jpg"],
-    longDescription: `<p>Cốc thủ dâm cao cấp tách đôi Tenga FlipORB chính hãng từ Nhật Bản là thiết bị hỗ trợ giải tỏa nhu cầu sinh lý cao cấp cho nam giới, mang lại cảm giác chân thực và sảng khoái trọn vẹn khi tự chăm sóc sức khỏe cá nhân. Với khả năng gập mở linh hoạt cùng cấu trúc lõi đặc biệt, sản phẩm giúp phái mạnh tận hưởng sự ôm siết êm ái và dễ dàng làm sạch hoàn toàn sau mỗi lần sử dụng.</p>
-<h2>Thiết kế &amp; chất liệu</h2>
-<p>Nếu bạn đang tìm kiếm một trải nghiệm thật sự khác biệt, Tenga FlipORB chắc chắn sẽ không làm bạn thất vọng ngay từ lần chạm đầu tiên. Sản phẩm sử dụng chất liệu Silicone TPE cao cấp, mang đến bề mặt siêu mềm mại, mịn màng và cảm giác mát lạnh dễ chịu khi vừa tiếp xúc. Điểm độc đáo nhất nằm ở thiết kế khớp bản lề cho phép gập mở tách đôi hoàn toàn, kết hợp cùng hai nút nhấn điều tiết khí thông minh trên thân cốc. Tùy thuộc vào phiên bản màu xanh hay vàng, cấu trúc ruột bên trong sẽ biến hóa với các viên bi xoắn và gai nhám kích thước lớn, giúp ôm trọn và tạo độ ma sát sống động trong từng chuyển động mà không cần dùng đến động cơ rung.</p>
-<h2>Công dụng thực tế</h2>
-<p>- Cảm giác ôm siết chân thực: Lõi chất liệu TPE co giãn kết hợp với các chi tiết bi xoắn tạo ra lực ôm vừa vặn, tái hiện trọn vẹn sự êm ái và ấm áp như một cuộc yêu thực sự.</p>
-<p>- Chủ động điều chỉnh áp suất: Nhờ hai nút ấn linh hoạt trên thân máy, bạn có thể tự tay nhấn để tăng hoặc giảm lực hút khí chân không, tạo ra những nhịp co bóp và ma sát đa dạng theo đúng sở thích cá nhân.</p>
-<p>- Trải nghiệm đa dạng với hai phiên bản màu: Tenga FlipORB cung cấp hai lựa chọn màu sắc xanh và vàng với cấu trúc lõi khác nhau, giúp bạn đổi mới cảm giác hưng phấn mỗi lần trải nghiệm.</p>
-<p>- Vệ sinh và bảo quản siêu tốc: Nhờ cơ chế tách đôi thông minh, bạn chỉ cần mở ra, rửa sạch dưới vòi nước và lau khô hoàn toàn một cách nhanh chóng, đảm bảo an toàn vệ sinh tuyệt đối cho những lần dùng sau.</p>
-<h2>Ai nên dùng sản phẩm này</h2>
-<p>Tenga FlipORB là lựa chọn tuyệt vời cho những quý ông đang tìm kiếm giải pháp thư giãn cá nhân chất lượng cao, đặc biệt coi trọng yếu tố vệ sinh sạch sẽ và cảm giác chân thực. Cho dù bạn là người mới bắt đầu trải nghiệm các dòng sản phẩm hỗ trợ hay là một khách hàng kỳ cựu của thương hiệu Tenga muốn sưu tầm thêm một phiên bản nhỏ gọn, tinh tế, sản phẩm này đều sẽ mang lại sự hài lòng tối đa.</p>
-<h2>Câu hỏi thường gặp</h2>
-<h2>Sản phẩm Tenga FlipORB có dùng điện hay chế độ rung không?</h2>
-<p>Sản phẩm hoàn toàn không sử dụng pin hay động cơ rung. Toàn bộ cảm giác hưng phấn đến từ cấu trúc mút khí chân không, thiết kế bi gai xoắn độc đáo và chuyển động thủ công linh hoạt từ chính bàn tay của bạn.</p>
-<h2>Vệ sinh cốc tách đôi Tenga FlipORB như thế nào cho đúng cách?</h2>
-<p>Bạn chỉ cần mở khớp tách đôi sản phẩm ra, xả trực tiếp dưới vòi nước sạch (có thể kết hợp dung dịch vệ sinh dịu nhẹ), sau đó dựng đứng trên khay phơi cho khô tự nhiên trước khi đóng nắp cất giữ.</p>
-<h2>Đơn hàng cốc Tenga FlipORB khi giao có được bảo mật thông tin không?</h2>
-<p>Mọi đơn hàng từ shop đều được che tên sản phẩm hoàn toàn, đóng gói trong hộp kín đáo và bảo mật tuyệt đối thông tin cá nhân, giúp bạn hoàn toàn an tâm khi nhận hàng.</p>`,
-  },
+
   {
     slug: "dc33-bao-rung-quy-dau-kich-thich-duong-vat-cuc-suong",
     sku: "DC33",
