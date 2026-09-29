@@ -28,19 +28,33 @@ const nextConfig = {
   // Google, khong tao redirect chain (moi dong day chi redirect 1 lan).
   async redirects() {
     return [
+      // Bỏ tiền tố /nhom/: /nhom/sextoy-cho-nam -> /sextoy-cho-nam
+      // (giữ nguyên ?page=... nếu có). 301 để giữ thứ hạng Google.
+      {
+        source: "/nhom/:slug",
+        destination: "/:slug",
+        permanent: true,
+      },
       {
         source: "/danh-muc/do-choi-cao-cap",
-        destination: "/danh-muc/do-choi-cao-cap-nu",
+        destination: "/do-choi-cao-cap-nu",
         permanent: true,
       },
       {
         source: "/danh-muc/gel-boi-tron-cao-cap",
-        destination: "/danh-muc/gel-boi-tron-am-dao",
+        destination: "/gel-boi-tron-am-dao",
         permanent: true,
       },
       {
         source: "/danh-muc/do-choi-cho-lgbt",
-        destination: "/danh-muc/do-choi-cho-gay",
+        destination: "/do-choi-cho-gay",
+        permanent: true,
+      },
+      // Bỏ tiền tố /danh-muc/ cho MỌI danh mục: /danh-muc/x -> /x
+      // (phải nằm SAU các rule slug cũ ở trên để chỉ redirect 1 lần).
+      {
+        source: "/danh-muc/:slug",
+        destination: "/:slug",
         permanent: true,
       },
     ];

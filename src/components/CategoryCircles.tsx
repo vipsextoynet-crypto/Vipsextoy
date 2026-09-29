@@ -17,8 +17,8 @@ export default function CategoryCircles() {
             key={g.slug}
             href={
               g.items.length === 1
-                ? `/danh-muc/${g.items[0].slug}`
-                : `/nhom/${g.slug}`
+                ? `/${g.items[0].slug}`
+                : `/${g.slug}`
             }
             className="group flex flex-col items-center gap-2 text-center"
           >

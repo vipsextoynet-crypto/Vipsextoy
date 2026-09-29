@@ -2,13 +2,16 @@ import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getProduct, formatPrice, products } from "@/data/products";
+import { getProduct, formatPrice, products, categories, getCategory } from "@/data/products";
 import ProductGallery from "@/components/ProductGallery";
 import AddToCartButton from "@/components/AddToCartButton";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
 import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { Check } from "lucide-react";
+import GroupView, { getGroupMetadata } from "@/components/GroupView";
+import CategoryView, { getCategoryMetadata } from "@/components/CategoryView";
+import { getGroups, getGroup } from "@/lib/groups";
 
 // Ngay het han gia cho JSON-LD Offer (Google khuyen nghi co truong nay).
 // Tinh 1 lan luc build = ngay build + 1 nam; web build lai thuong xuyen
@@ -112,18 +115,46 @@ function renderMarkdownLite(text: string) {
   return blocks;
 }
 
+// /[slug] phục vụ 3 loại trang: sản phẩm, danh mục, nhóm danh mục.
+// Thứ tự ưu tiên khi trùng slug: sản phẩm > danh mục > nhóm.
 export function generateStaticParams() {
-  return products.map((p) => ({ slug: p.slug }));
+  const seen = new Set(products.map((p) => p.slug));
+  const extra: { slug: string }[] = [];
+  for (const slug of [
+    ...categories.map((c) => c.slug),
+    ...getGroups().map((g) => g.slug),
+  ]) {
+    if (seen.has(slug)) {
+      console.warn(`[slug] Trùng slug "${slug}" - chỉ một trang được hiển thị, hãy đổi slug.`);
+      continue;
+    }
+    seen.add(slug);
+    extra.push({ slug });
+  }
+  return [...products.map((p) => ({ slug: p.slug })), ...extra];
 }
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
   const product = getProduct(slug);
-  if (!product) return {};
+  if (!product) {
+    // Không phải sản phẩm -> thử danh mục, rồi nhóm (chỉ lúc này mới đọc searchParams).
+    if (getCategory(slug)) {
+      const { page } = await searchParams;
+      return getCategoryMetadata(slug, page);
+    }
+    if (getGroup(slug)) {
+      const { page } = await searchParams;
+      return getGroupMetadata(slug, page);
+    }
+    return {};
+  }
 
   // Truoc day og:url tro sai sang /product/<slug> (khong ton tai) va khong
   // co og:image. Gio dung chung helper: canonical, og:url deu la /<slug>,
@@ -138,12 +169,24 @@ export async function generateMetadata({
 
 export default async function ProductPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string }>;
 }) {
   const { slug } = await params;
   const product = getProduct(slug);
-  if (!product) return notFound();
+  if (!product) {
+    if (getCategory(slug)) {
+      const { page } = await searchParams;
+      return <CategoryView slug={slug} pageParam={page} />;
+    }
+    if (getGroup(slug)) {
+      const { page } = await searchParams;
+      return <GroupView slug={slug} pageParam={page} />;
+    }
+    return notFound();
+  }
 
   const productUrl = `${site.url}/${product.slug}`;
   // Tat ca anh cua san pham (bo trung), doi sang URL tuyet doi cho JSON-LD.
@@ -192,7 +235,7 @@ export default async function ProductPage({
               "@type": "ListItem",
               position: 2,
               name: product.category,
-              item: `${site.url}/danh-muc/${product.categorySlug}`,
+              item: `${site.url}/${product.categorySlug}`,
             },
             { "@type": "ListItem", position: 3, name: product.name, item: productUrl },
           ],
@@ -204,7 +247,7 @@ export default async function ProductPage({
           Trang chủ
         </Link>{" "}
         /{" "}
-        <Link href={`/danh-muc/${product.categorySlug}`} className="hover:text-ivory">
+        <Link href={`/${product.categorySlug}`} className="hover:text-ivory">
           {product.category}
         </Link>{" "}
         / <span className="text-ivory">{product.name}</span>

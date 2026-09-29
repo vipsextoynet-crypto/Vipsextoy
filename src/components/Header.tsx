@@ -110,8 +110,8 @@ export default function Header() {
                   {groups.map((g) => {
                     const single = g.items.length === 1;
                     const href = single
-                      ? `/danh-muc/${g.items[0].slug}`
-                      : `/nhom/${g.slug}`;
+                      ? `/${g.items[0].slug}`
+                      : `/${g.slug}`;
                     return (
                       <div key={g.slug}>
                         <Link
@@ -123,7 +123,7 @@ export default function Header() {
                         {!single && (
                           <div className="flex flex-col gap-2">
                             {g.items.map((c) => (
-                              <Link key={c.slug} href={`/danh-muc/${c.slug}`} className="group/item">
+                              <Link key={c.slug} href={`/${c.slug}`} className="group/item">
                                 <p className="text-sm font-normal text-ivory transition group-hover/item:text-gold">
                                   {c.name}
                                 </p>
@@ -179,8 +179,8 @@ export default function Header() {
             {groups.map((g) => {
               const single = g.items.length === 1;
               const href = single
-                ? `/danh-muc/${g.items[0].slug}`
-                : `/nhom/${g.slug}`;
+                ? `/${g.items[0].slug}`
+                : `/${g.slug}`;
               return (
                 <div key={g.slug} className="flex flex-col gap-2">
                   <Link
@@ -194,7 +194,7 @@ export default function Header() {
                     g.items.map((c) => (
                       <Link
                         key={c.slug}
-                        href={`/danh-muc/${c.slug}`}
+                        href={`/${c.slug}`}
                         onClick={() => setMenuOpen(false)}
                         className="pl-2"
                       >

@@ -16,8 +16,8 @@ export default function Sidebar({ activeSlug }: { activeSlug?: string }) {
             // vào danh mục đó (tránh trùng nội dung với trang /nhom).
             const single = g.items.length === 1;
             const href = single
-              ? `/danh-muc/${g.items[0].slug}`
-              : `/nhom/${g.slug}`;
+              ? `/${g.items[0].slug}`
+              : `/${g.slug}`;
             return (
               <div key={g.slug}>
                 <Link
@@ -30,7 +30,7 @@ export default function Sidebar({ activeSlug }: { activeSlug?: string }) {
                   g.items.map((c) => (
                     <Link
                       key={c.slug}
-                      href={`/danh-muc/${c.slug}`}
+                      href={`/${c.slug}`}
                       className={`block border-b border-line px-4 py-2.5 text-sm transition hover:bg-surface2 hover:text-gold ${
                         c.slug === activeSlug ? "bg-surface2 text-gold" : "text-ivory"
                       }`}
