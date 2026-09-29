@@ -34982,38 +34982,7 @@ export const products: Product[] = [
 <h2>Quy cách đóng gói của sản phẩm như thế nào?</h2>
 <p>Sản phẩm được đóng gói theo quy cách chuẩn hộp 10 chiếc, vừa đủ tiện lợi cho nhu cầu sử dụng thường xuyên hoặc dễ dàng bỏ túi mang theo khi đi xa.</p>`,
   },
-  {
-    slug: "jex06-bao-cao-su-glamcurous-butterfly-hot-500",
-    sku: "Jex06",
-    name: "Bao cao su Glamcurous Butterfly hot 500",
-    category: "BCS Gai, Bi",
-    categorySlug: "bao-cao-su-chinh-hang",
-    price: 150000,
-    blurb: "Hàng chính hãng, kiểm định an toàn, đa dạng loại và kích cỡ.",
-    description: "Bao cao su Glamcurous Butterfly hot 500. Hàng chính hãng, kiểm định an toàn, đa dạng loại và kích cỡ. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Chính hãng, còn hạn sử dụng", "Đạt chuẩn kiểm định", "Đa dạng mẫu mã", "Đóng gói kín đáo"],
-    icon: "ring",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/jex06/01.webp",
-    longDescription: `<p>Bao cao su Glamcurous Butterfly hot 500 (Jex06) được sử dụng để hỗ trợ phòng tránh thai, ngăn ngừa các bệnh lây truyền qua đường tình dục và gia tăng độ ẩm tự nhiên, giúp người mới bắt đầu dễ dàng thao tác và nhập cuộc an toàn.</p>
-<h2>Vì sao nên chọn Bao cao su Glamcurous Butterfly hot 500 (Jex06)</h2>
-<p>Bao cao su Glamcurous Butterfly hot 500 (Jex06) là giải pháp tối ưu dành cho các cặp đôi mới bắt đầu nhờ sự tiện lợi và dễ sử dụng. Sản phẩm ứng dụng lớp gel bôi trơn đạt tiêu chuẩn y tế Nhật Bản với cơ chế tạo cảm giác ấm áp tự nhiên, giảm thiểu ma sát tối đa. Thiết kế siêu mỏng cùng gam màu hồng phớt tinh tế đã qua thử nghiệm trên 100 người dùng, đảm bảo khả năng truyền nhiệt và duy trì cảm xúc chân thật mà không gây gián đoạn trải nghiệm.</p>
-<h2>Thông số &amp; chất liệu</h2>
-<h2>- Tên sản phẩm: Bao cao su Glamcurous Butterfly hot 500 (Mã: Jex06)</h2>
-<h2>- Xuất xứ: Nhật Bản</h2>
-<h2>- Quy cách: Hộp 6 chiếc</h2>
-<h2>- Màu sắc: Hồng phớt nhẹ nhàng</h2>
-<p>- Chất liệu bôi trơn: Gel bôi trơn chuẩn y tế Nhật Bản, tích hợp hiệu ứng làm ấm mượt mà</p>
-<p>- Đặc tính thiết kế: Kiểu dáng mỏng nhẹ, độ ẩm cao, phù hợp với làn da nhạy cảm</p>
-<h2>Cách dùng hiệu quả</h2>
-<p>Việc sử dụng bao cao su Glamcurous Butterfly hot 500 rất đơn giản ngay cả với người dùng lần đầu. Bạn chỉ cần xé nhẹ vỏ bao theo mép hướng dẫn, kiểm tra đúng chiều cuộn và nhẹ nhàng vuốt bao phủ toàn bộ chiều dài khi cơ thể đã sẵn sàng. Lớp gel bôi trơn y tế tích hợp sẵn giúp quá trình mang bao diễn ra nhanh chóng, mượt mà. Sau khi sử dụng, thắt nút miệng bao và cho vào thùng rác để đảm bảo vệ sinh.</p>
-<h2>Câu hỏi thường gặp</h2>
-<p>Bao cao su Glamcurous Butterfly hot 500 có phù hợp cho người mới bắt đầu không?</p>
-<p>Sản phẩm rất phù hợp cho người mới dùng nhờ tích hợp lớp gel bôi trơn y tế Nhật Bản tạo cảm giác ấm áp, giúp quá trình đeo bao và thâm nhập diễn ra mượt mà, giảm hẳn cảm giác bỡ ngỡ ban đầu.</p>
-<h2>Một hộp Glamcurous Butterfly hot 500 gồm bao nhiêu chiếc?</h2>
-<p>Sản phẩm được đóng gói theo quy cách chuẩn 6 chiếc trong một hộp, tiện lợi cho việc bảo quản cá nhân hoặc mang theo khi đi du lịch.</p>
-<h2>Gel bôi trơn đi kèm trong bao cao su có an toàn không?</h2>
-<p>Lớp gel bôi trơn trên Glamcurous Butterfly hot 500 sản xuất theo tiêu chuẩn y tế khắt khe của Nhật Bản, đảm bảo độ lành tính, duy trì độ ẩm tối ưu và thích ứng tốt với da nhạy cảm.</p>`,
-  },
+
   {
     slug: "sgm05-bao-cao-su-cao-cap-nhat-ban-sagami-spearmint-huong-bac-ha-diu-mat",
     sku: "SGM05",
