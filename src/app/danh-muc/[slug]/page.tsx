@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
 import { buildMetadata } from "@/lib/seo";
 
-const PAGE_SIZE = 24;
+const PAGE_SIZE = 50;
 
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));

@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 import { buildMetadata } from "@/lib/seo";
 import { getGroups, getGroup, getProductsByGroup } from "@/lib/groups";
 
-const PAGE_SIZE = 24;
+const PAGE_SIZE = 50;
 
 export function generateStaticParams() {
   return getGroups().map((g) => ({ slug: g.slug }));
