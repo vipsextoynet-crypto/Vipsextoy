@@ -24,7 +24,7 @@ export async function generateMetadata({
       : { index: true, follow: true },
   };
 }
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 52;
 
 function normalize(s: string) {
   return s
