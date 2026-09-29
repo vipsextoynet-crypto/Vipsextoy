@@ -11774,38 +11774,7 @@ export const products: Product[] = [
   },
 
 
-  {
-    slug: "f1-tenga-flip-0-zero-electronic-vibration-nhap-truc-tiep-nhat-ban",
-    sku: "F1",
-    name: "TENGA FLIP 0 (ZERO) ELECTRONIC VIBRATION (Nhập Trực Tiếp Nhật Bản)",
-    category: "Sản Phẩm Khác",
-    categorySlug: "chua-phan-loai",
-    price: 5000000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "TENGA FLIP 0 (ZERO) ELECTRONIC VIBRATION (Nhập Trực Tiếp Nhật Bản). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "/anh1/F1/01.png",
-    images: ["/anh1/F1/01.png", "/anh1/F1/05.png", "/anh1/F1/06.png"],
-    longDescription: `<p>TENGA FLIP 0 (ZERO) ELECTRONIC VIBRATION (Nhập Trực Tiếp Nhật Bản) là thiết bị hỗ trợ sinh lý nam giới cao cấp, được sử dụng để giải tỏa nhu cầu cá nhân và rèn luyện sức bền thông qua hệ thống động cơ rung đôi chuyên sâu.</p>
-<h2>Thiết kế &amp; chất liệu</h2>
-<p>Sản phẩm sở hữu cấu trúc gập mở thông minh, giúp người mới bắt đầu dễ dàng làm quen và thao tác ngay từ lần đầu tiên. Lớp lòng trong được làm từ chất liệu Elastomer y tế siêu mềm mại, kết hợp với phần khung ngoài bằng nhựa PP, ABS và PC cao cấp, đảm bảo an toàn tuyệt đối cho sức khỏe làn da. Kết cấu thân máy đạt chuẩn chống nước rửa trôi hoàn toàn, giúp quá trình vệ sinh sau khi sử dụng trở nên vô cùng đơn giản, sạch sẽ và tiện lợi.</p>
-<p>Thiết bị sử dụng pin sạc Lithium-ion hiện đại với thời gian sạc đầy trong 90 phút và cung cấp thời lượng vận hành liên tục khoảng 40 phút. Bệ sạc cắm riêng biệt giúp việc nạp năng lượng và cất giữ máy gọn gàng trên bàn mà không gây rườm rà. Bạn có thể dễ dàng lựa chọn phiên bản màu trắng mang lại sự kích thích êm ái truyền thống hoặc phiên bản màu đen hỗ trợ ôm siết mạnh mẽ hơn.</p>
-<h2>Công dụng thực tế</h2>
-<p>- Điều khiển 1 nút nhấn tối giản: Thiết kế thao tác đơn giản với cơ chế nhấn giữ để BẬT/TẮT và nhấn thả để chuyển chế độ, giúp người mới sử dụng không gặp bất kỳ khó khăn nào.</p>
-<p>- Trải nghiệm 5 chế độ rung đa dạng: Tích hợp lõi rung kép vận hành linh hoạt với 5 cấp độ gồm Rung yếu, Rung mạnh, Rung nhịp, Rung chuyển đổi và Rung ngẫu nhiên.</p>
-<p>- Vệ sinh nhanh chóng và tiện lợi: Cấu trúc gập cho phép mở rộng toàn bộ lòng trong để xả sạch dưới vòi nước, tiết kiệm tối đa thời gian chăm sóc thiết bị.</p>
-<p>- Độ bền tiêu chuẩn cao: Linh kiện cao cấp Nhật Bản mang lại độ bền trung bình khoảng 50 lần sử dụng, đảm bảo trải nghiệm ổn định và lâu dài.</p>
-<h2>Ai nên dùng sản phẩm này</h2>
-<p>TENGA FLIP 0 (ZERO) ELECTRONIC VIBRATION là giải pháp hoàn hảo cho nam giới đang tìm kiếm một thiết bị tự sướng cao cấp, hiện đại nhưng có cơ chế vận hành đơn giản, dễ thao tác, dễ làm sạch và thân thiện tuyệt đối với người mới bắt đầu sử dụng lần đầu.</p>
-<h2>Câu hỏi thường gặp</h2>
-<p>Người chưa từng sử dụng thiết bị tự sướng có dễ dùng TENGA FLIP 0 ELECTRONIC VIBRATION không?</p>
-<p>Thiết bị được thiết kế tối ưu cho người mới với duy nhất 1 nút điều khiển đa năng. Việc tra gel bôi trơn, điều chỉnh 5 chế độ rung hay tháo mở để vệ sinh đều rất trực quan và không đòi hỏi bất kỳ kỹ thuật phức tạp nào.</p>
-<h2>Thân máy có thể rửa trực tiếp dưới vòi nước được không?</h2>
-<p>Thân máy chính và phần tay trượt được thiết kế chống nước hoàn toàn, cho phép bạn thoải mái rửa sạch dưới vòi nước. Tuy nhiên, bệ sạc kèm theo không chống ngâm nước nên bạn chỉ cần lau sạch bằng khăn khô sau khi cất giữ.</p>
-<p>Đơn hàng TENGA FLIP 0 ELECTRONIC VIBRATION được giao tới có được bảo mật không?</p>
-<p>Mọi đơn hàng đều được đóng gói tỉ mỉ trong hộp giấy niêm phong kín đáo, che toàn bộ tên sản phẩm và thông tin nhạy cảm. Shop hỗ trợ giao hàng hỏa tốc trong 15 phút đến 2 giờ tại TP.HCM, Hà Nội và từ 1 đến 2 ngày đối với các tỉnh thành khác.</p>`,
-  },
+
   {
     slug: "f0-tenga-flip-0-zero-gravity-electronic-vibration-nhap-truc-tiep-japan",
     sku: "F0",
