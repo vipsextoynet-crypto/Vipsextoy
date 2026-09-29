@@ -11744,20 +11744,7 @@ export const products: Product[] = [
 <h2>Đơn hàng Còng tay Lovetoy được đóng gói và giao nhận như thế nào?</h2>
 <p>Sản phẩm được đóng trong hộp carton trơn niêm phong kín, che hoàn toàn tên mặt hàng. Shop giao hỏa tốc tại TP.HCM và Hà Nội từ 15 phút đến 2 giờ, các tỉnh khác nhận từ 1 đến 2 ngày.</p>`,
   },
-  {
-    slug: "fine-bullet-may-rung-mini-fine-bullet-nhap-tu-nhat-ban",
-    sku: "FINE BULLET",
-    name: "Máy Rung mini FINE BULLET (Nhập Từ Nhật Bản)",
-    category: "Lưỡi Liếm Âm Đạo",
-    categorySlug: "luoi-liem-am-dao",
-    extraCategorySlugs: ["may-massage-ca-nhan"],
-    price: 900000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Máy Rung mini FINE BULLET (Nhập Từ Nhật Bản). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2543/1.png",
-  },
+
 
   {
     slug: "trung-rung-nhat-ban-gpro-rotor-rolling",
