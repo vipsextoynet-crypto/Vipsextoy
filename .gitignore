@@ -43,3 +43,10 @@ __pycache__/
 
 
 src/data/*.backup-*
+apply_categories.py
+crawl_categories.py
+home_page.html
+product_categories.json
+category_report.txt
+src/data/products.updated.ts
+src/data/products.ts.backup-*
