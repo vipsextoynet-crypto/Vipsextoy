@@ -29,6 +29,7 @@ export default function CategoryCircles() {
                   alt=""
                   fill
                   sizes="80px"
+                  unoptimized={false}
                   className="object-cover"
                 />
               ) : (

@@ -3057,7 +3057,7 @@ export const products: Product[] = [
     description: "Dương vật đai đeo rỗng ruột silicon mềm mại. Thiết kế phù hợp đa dạng nhu cầu, chất liệu an toàn. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Chất liệu an toàn", "Thiết kế đa dạng", "Đóng gói kín đáo", "Bảo hành chính hãng"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2803/1.jpg",
+    image: "/anh1/legacy-2803/1.jpg",
     sensitive: true,
   },
   {
@@ -5911,7 +5911,7 @@ export const products: Product[] = [
     description: "Kẹo sâm HamerPro 66F86K vị mật ong – Tăng cường sinh lý, bồi bổ sức khỏe toàn diện. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2722/1.jpg",
+    image: "/anh1/legacy-2722/1.jpg",
   },
   {
     slug: "sl16d-keo-sam-hamerpro-66f86k-vi-mat-ong-tang-cuong-sinh-ly-boi-bo-suc-khoe-toan-dien",
@@ -9718,7 +9718,7 @@ export const products: Product[] = [
     description: "Womanizer Duo - Máy Rung và Kích Thích Đầu Tiện Lợi Cao Cấp. Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2605/1.png",
+    image: "/anh1/legacy-2605/1.png",
   },
   {
     slug: "svakom-qingdai-shy-peacock",
@@ -9732,7 +9732,7 @@ export const products: Product[] = [
     description: "SVAKOM QINGDAI SHY PEACOCK. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "https://vipsextoy.net/files/sanpham/2604/1.png",
+    image: "/anh1/legacy-2604/1.png",
   },
   {
     slug: "dc89h-neo-svakom-trysta-neo-may-rung-liem-diem-g-dieu-khien-qua-app",
@@ -11757,7 +11757,7 @@ export const products: Product[] = [
     description: "Trứng Rung Nhật Bản GPRO ROTOR ROLLING. Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2541/1.png",
+    image: "/anh1/legacy-2541/1.png",
   },
   {
     slug: "may-rung-mini-dieu-chinh-chu-dong",
@@ -11770,7 +11770,7 @@ export const products: Product[] = [
     description: "Máy Rung mini điều chỉnh chủ động. Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2540/1.png",
+    image: "/anh1/legacy-2540/1.png",
   },
 
 
@@ -11788,7 +11788,7 @@ export const products: Product[] = [
     description: "GEL TRAINER LOTION (Nhập JAPAN). Kết cấu mịn, an toàn cho da nhạy cảm, không gây kích ứng. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["An toàn cho da nhạy cảm", "Không gây kích ứng", "Dễ vệ sinh", "Dung tích tiện dùng"],
     icon: "wave",
-    image: "https://vipsextoy.net/files/sanpham/2532/1.jpg",
+    image: "/anh1/legacy-2532/1.jpg",
   },
   {
     slug: "lotion-gel-tenga-lotion-hang-nhap-japan",
@@ -12534,7 +12534,7 @@ export const products: Product[] = [
     description: "Trứng Rung 2 Đầu EGG Vibrator Có Remost Điều Khiển Rung. Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2504/1.png",
+    image: "/anh1/legacy-2504/1.png",
   },
   {
     slug: "koharu-thanh-rung-nhat-ban-iroha-koharu",
@@ -14406,7 +14406,7 @@ export const products: Product[] = [
     description: "Thỏi Son Rung Ngụy Trang Iroha Stick Cho Các Chị Em. Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2441/1.png",
+    image: "/anh1/legacy-2441/1.png",
   },
   {
     slug: "svr-trung-rung-tenga-svr-one-nho-gon-tien-loi",
@@ -14437,7 +14437,7 @@ export const products: Product[] = [
     description: "Âm Đạo Giả TENGA EXTRA SOFT & HARD CUP. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2438/1.png",
+    image: "/anh1/legacy-2438/1.png",
     sensitive: true,
   },
 
@@ -14452,7 +14452,7 @@ export const products: Product[] = [
     description: "Âm Đạo Giả PREMIUM TENGA SERIES. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2436/1.png",
+    image: "/anh1/legacy-2436/1.png",
     sensitive: true,
   },
   {
@@ -15289,7 +15289,7 @@ export const products: Product[] = [
     description: "Máy rung bú liếm cao cấp Galaku Kissy (MS41B NEW). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/2405/1.jpg",
+    image: "/anh1/legacy-2405/1.jpg",
   },
   {
     slug: "dv54b-duong-vat-gia-sieu-khung-lovetoy-king-size-11-dv54b",
@@ -17126,7 +17126,7 @@ export const products: Product[] = [
     description: "Bao đôn mềm mịn có quai đeo. Hàng chính hãng, kiểm định an toàn, đa dạng loại và kích cỡ. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Chính hãng, còn hạn sử dụng", "Đạt chuẩn kiểm định", "Đa dạng mẫu mã", "Đóng gói kín đáo"],
     icon: "ring",
-    image: "https://vipsextoy.net/files/sanpham/2336/1.png",
+    image: "/anh1/legacy-2336/1.png",
   },
   {
     slug: "dv74-duong-vat-cho-sieu-mem-min",
@@ -18831,7 +18831,7 @@ export const products: Product[] = [
     description: "THUỐC KÍCH DỤC NỮ SUPER D MẠNH NHẤT. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2283/1.jpg",
+    image: "/anh1/legacy-2283/1.jpg",
   },
   {
     slug: "nuoc-kich-duc-nu-usa-sieu-manh-lady-era",
@@ -18844,7 +18844,7 @@ export const products: Product[] = [
     description: "NƯỚC KÍCH DỤC NỮ USA SIÊU MẠNH LADY ERA. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2282/1.jpg",
+    image: "/anh1/legacy-2282/1.jpg",
   },
   {
     slug: "thuoc-dang-nuoc-cua-duc-black-window",
@@ -18857,7 +18857,7 @@ export const products: Product[] = [
     description: "Thuốc dạng nước của Đức Black Window. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2281/1.jpg",
+    image: "/anh1/legacy-2281/1.jpg",
   },
   {
     slug: "thuoc-cho-nu-dang-bot-excitement-my",
@@ -18870,7 +18870,7 @@ export const products: Product[] = [
     description: "Thuốc cho nữ dạng bột Excitement – Mỹ. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2280/1.jpg",
+    image: "/anh1/legacy-2280/1.jpg",
   },
   {
     slug: "thuoc-dang-nuoc-cho-nu-gold-fly-tay-ban-nha",
@@ -18883,7 +18883,7 @@ export const products: Product[] = [
     description: "Thuốc dạng nước cho nữ Gold Fly Tây Ban Nha. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2279/1.jpg",
+    image: "/anh1/legacy-2279/1.jpg",
   },
   {
     slug: "thuoc-dang-nuoc-philter-cua-my",
@@ -18896,7 +18896,7 @@ export const products: Product[] = [
     description: "Thuốc dạng nước Philter của Mỹ. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2278/1.jpg",
+    image: "/anh1/legacy-2278/1.jpg",
   },
   {
     slug: "thuoc-dang-nuoc-red-spider",
@@ -18909,7 +18909,7 @@ export const products: Product[] = [
     description: "Thuốc dạng nước Red Spider. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2277/1.jpg",
+    image: "/anh1/legacy-2277/1.jpg",
   },
   {
     slug: "thuoc-nhat-unisex-dang-nuoc",
@@ -18922,7 +18922,7 @@ export const products: Product[] = [
     description: "Thuốc Nhật UNISEX dạng nước. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2276/1.jpg",
+    image: "/anh1/legacy-2276/1.jpg",
   },
   {
     slug: "thuoc-dang-nuoc-cua-duc-black-window-2",
@@ -18935,7 +18935,7 @@ export const products: Product[] = [
     description: "Thuốc dạng nước của Đức Black Window. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2275/1.jpg",
+    image: "/anh1/legacy-2275/1.jpg",
   },
   {
     slug: "thuoc-dang-vien-woman-hieu-qua-cao",
@@ -18948,7 +18948,7 @@ export const products: Product[] = [
     description: "Thuốc dạng viên WOMAN (Hiệu quả cao). Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/2273/1.jpg",
+    image: "/anh1/legacy-2273/1.jpg",
   },
   {
     slug: "xts10a-gel-boi-maxman-usa-giup-keo-dai-thoi-gian-va-tang-kich-co",
@@ -19657,7 +19657,7 @@ export const products: Product[] = [
     description: "BAO ĐÔN LÀM DƯƠNG VẬT CAO CẤP RUNG ĐA TẦN OMYSKY. Hàng chính hãng, kiểm định an toàn, đa dạng loại và kích cỡ. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Chính hãng, còn hạn sử dụng", "Đạt chuẩn kiểm định", "Đa dạng mẫu mã", "Đóng gói kín đáo"],
     icon: "ring",
-    image: "https://vipsextoy.net/files/sanpham/2248/1.jpg",
+    image: "/anh1/legacy-2248/1.jpg",
     sensitive: true,
   },
   {
@@ -22370,7 +22370,7 @@ export const products: Product[] = [
     description: "Dương vật giả hít đất trong suốt. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "https://vipsextoy.net/files/sanpham/2151/1.jpg",
+    image: "/anh1/legacy-2151/1.jpg",
     sensitive: true,
   },
   {
@@ -22572,7 +22572,7 @@ export const products: Product[] = [
     description: "Cao Sìn Sú, Trị Xuất Tinh Sớm, Kéo Dài Thời Gian Quan Hệ. Hỗ trợ kéo dài thời gian, thành phần an toàn, tác dụng nhanh. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Tác dụng nhanh", "Thành phần an toàn", "Dễ sử dụng", "Sản phẩm chính hãng"],
     icon: "ring",
-    image: "https://vipsextoy.net/files/sanpham/2141/1.jpg",
+    image: "/anh1/legacy-2141/1.jpg",
   },
   {
     slug: "xts10-kem-boi-lam-to-duong-vat-keo-dai-thoi-gian-xuat-tinh-developpesex",
@@ -24889,7 +24889,7 @@ export const products: Product[] = [
     description: "Dương vật silicon trong suốt. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "https://vipsextoy.net/files/sanpham/2061/1.jpg",
+    image: "/anh1/legacy-2061/1.jpg",
   },
   {
     slug: "dv10-duong-vat-gia-rung-deo-ngon-tay",
@@ -25737,7 +25737,7 @@ export const products: Product[] = [
     description: "TRỨNG RUNG TÌNH YÊU LOVENSE LUSH 3 ĐIỂU KHIỂN TỪ BẤT KỂ NƠI ĐÂU (EG34C). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/1974/1.jpg",
+    image: "/anh1/legacy-1974/1.jpg",
   },
   {
     slug: "av17b-chay-rung-da-nang-dau-rung-duoi-thut",
@@ -26209,7 +26209,7 @@ export const products: Product[] = [
     description: "Chày rung, mát xa, có chỉnh nhiệt độ cho nữ cao cấp có chất liệu silicon và sạc qua cổng USB tiện lợi, động cơ lõi kép hoạt động mạnh mẽ với 10 kiểu rung và 7 tốc độ rung cho mỗi kiểu.. Thiết kế công thái học, vận hành êm, nhiều cấp độ massage. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
     icon: "petal",
-    image: "https://vipsextoy.net/files/sanpham/1943/1.jpg",
+    image: "/anh1/legacy-1943/1.jpg",
   },
   {
     slug: "leten002-coc-luyen-tap-cho-nam-gioi-cao-cap-pretty-love-marlon-co-tai-nghe-am-thanh-dien-sac-10-tan-so-rung-manh-cam-giac-chan-that-nhat-che-ten-san-pham",
@@ -26576,7 +26576,7 @@ export const products: Product[] = [
     description: "Máy Rung Hút Cho Nữ Cực Mạnh Otis (BI-014633-1). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/1876/1.gif",
+    image: "/anh1/legacy-1876/1.gif",
   },
   {
     slug: "bw-069003-thanh-rung-cho-nu-susie-bw-069003",
@@ -26589,7 +26589,7 @@ export const products: Product[] = [
     description: "Thanh Rung Cho Nữ SuSie (BW-069003). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/1875/1.jpg",
+    image: "/anh1/legacy-1875/1.jpg",
   },
   {
     slug: "bi-014651-trung-rung-cuc-manh-mat-xa-cho-nu-isaac-bi-014651",
@@ -26602,7 +26602,7 @@ export const products: Product[] = [
     description: "Trứng Rung cực mạnh mát xa cho nữ ISAAC ( BI-014651). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/1874/1.jpg",
+    image: "/anh1/legacy-1874/1.jpg",
   },
   {
     slug: "bi-014601-1-trung-rung-cuc-manh-cho-nu-shock-fun-bi-014601-1",
@@ -26615,7 +26615,7 @@ export const products: Product[] = [
     description: "Trứng Rung Cực Mạnh cho Nữ SHOCK FUN ( BI-014601-1). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/1873/1.jpg",
+    image: "/anh1/legacy-1873/1.jpg",
   },
   {
     slug: "bi-014609w-1-trung-rung-cuc-manh-cho-nu-shock-fun-bi-014609w-1",
@@ -26628,7 +26628,7 @@ export const products: Product[] = [
     description: "Trứng Rung Cực Mạnh cho Nữ SHOCK FUN (BI-014609W-1). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/1872/1.jpg",
+    image: "/anh1/legacy-1872/1.jpg",
   },
   {
     slug: "bi-014710-thanh-rung-2-dau-yedda-bi-014710",
@@ -26945,7 +26945,7 @@ export const products: Product[] = [
     description: "SVAKOM Iris ngón tay rung kỳ diệu kích thích điểm G. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "https://vipsextoy.net/files/sanpham/1828/1.jpg",
+    image: "/anh1/legacy-1828/1.jpg",
   },
   {
     slug: "hm02p-pretty-love-harriet-bom-hoi-dang-cap-moi-cho-cua-sau",
@@ -30872,7 +30872,7 @@ export const products: Product[] = [
     description: "NƯỚC HOA KÍCH THÍCH NỮ COVERTLY KISS K. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/1678/1.png",
+    image: "/anh1/legacy-1678/1.png",
   },
   {
     slug: "ad50-coc-thu-dam-cao-cap-leten-one",
@@ -31784,7 +31784,7 @@ export const products: Product[] = [
     description: "Tem ngậm Vinix 100mg Hàn Quốc Trợ Thủ Đắc Lực Cho Phái Mạnh. Sản phẩm chăm sóc cá nhân, giao hàng kín đáo toàn quốc. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Hàng chính hãng", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc", "Hỗ trợ đổi trả"],
     icon: "bloom",
-    image: "https://vipsextoy.net/files/sanpham/1642/1.jpg",
+    image: "/anh1/legacy-1642/1.jpg",
   },
   {
     slug: "ad25a-am-dao-silicon-mem-mai-nhu-that-gia-re",
@@ -33030,7 +33030,7 @@ export const products: Product[] = [
     description: "Bao đôn 3 phân silicon tự nhiên siêu mềm như thật. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/1596/1.jpg",
+    image: "/anh1/legacy-1596/1.jpg",
   },
   {
     slug: "dc10k-bo-khuc-don-cac-kieu-de-cac-nang-len-dinh-theo-nhieu-cach-dc10k",
@@ -36440,7 +36440,7 @@ export const products: Product[] = [
     description: "Dương vật siêu mềm ngủ gật Lovetoy Limpy Cock. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "https://vipsextoy.net/files/sanpham/1462/1.jpg",
+    image: "/anh1/legacy-1462/1.jpg",
     sensitive: true,
   },
   {
@@ -36559,7 +36559,7 @@ export const products: Product[] = [
     description: "Dương vật silicon Lovetoy Real feel 7.5\". Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "https://vipsextoy.net/files/sanpham/1458/1.jpg",
+    image: "/anh1/legacy-1458/1.jpg",
     sensitive: true,
   },
   {
@@ -43200,7 +43200,7 @@ export const products: Product[] = [
     description: "Máy rung mini hình thỏi son (MS27). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/1127/1.gif",
+    image: "/anh1/legacy-1127/1.gif",
     longDescription: `<p>Bạn cần một thiết bị thư giãn cá nhân cực kỳ nhỏ gọn, kín đáo để mang theo bên mình mọi lúc mọi nơi mà không lo bị ai phát hiện? Máy rung mini hình thỏi son (MS27) là giải pháp chăm sóc sức khỏe sinh lý nữ cao cấp với thiết kế ngụy trang tinh tế, làm từ chất liệu nhựa ABS an toàn tuyệt đối cho làn da nhạy cảm.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu ABS cao cấp, an toàn: Đạt chuẩn vệ sinh thiết bị cá nhân, không chứa chất độc hại, bề mặt nhẵn mịn an toàn tuyệt đối cho cơ thể.</p>
@@ -50449,7 +50449,7 @@ export const products: Product[] = [
     description: "LƯỠI LIẾM ÂM VẬT NHỎ XINH CAO CẤP KISS- CHO CHỊ EM PHÊ TÍT (A13). Thiết kế công thái học, vận hành êm, nhiều cấp độ massage. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
     icon: "petal",
-    image: "https://vipsextoy.net/files/sanpham/756/1.jpg",
+    image: "/anh1/legacy-756/1.jpg",
     longDescription: `<h2>LƯỠI LIẾM ÂM VẬT NHỎ XINH CAO CẤP KISS- CHO CHỊ EM PHÊ TÍT (A13)</h2>
 <p>Tính năng: Massager âm vật, Giải tỏa sinh lý hiệu quả, tạo hưng phấn cho chị em</p>
 <p>Chất liệu: silicone cao cấp, an toàn cho người sử dụng.</p>
@@ -50482,7 +50482,7 @@ export const products: Product[] = [
     description: "MÁT XA ĐIỂM G ĐIỀU KHIỂN XA LOVETOY ROSE (A28). Thiết kế công thái học, vận hành êm, nhiều cấp độ massage. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
     icon: "petal",
-    image: "https://vipsextoy.net/files/sanpham/754/1.jpg",
+    image: "/anh1/legacy-754/1.jpg",
     longDescription: `<h2>MÁT XA ĐIỂM G ĐIỀU KHIỂN XA LOVETOY ROSE (A28)</h2>
 <h2>- Tính năng: cân bằng nội tiết, Mát xa điểm G</h2>
 <h2>- Đối tượng sử dụng: Nữ, các cặp đôi làm mới đời sống phòng the</h2>
@@ -50564,7 +50564,7 @@ export const products: Product[] = [
     description: "TRỨNG RUNG CAO CẤP ZEMALIA KAY TỪ ANH QUỐC (A17). Thiết kế công thái học, vận hành êm, nhiều cấp độ massage. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
     icon: "petal",
-    image: "https://vipsextoy.net/files/sanpham/743/1.jpg",
+    image: "/anh1/legacy-743/1.jpg",
     longDescription: `<h2>TRỨNG RUNG CAO CẤP ZEMALIA KAY TỪ ANH QUỐC (A17)</h2>
 <p>Tính năng: Mát xa âm vật, gia tăng khoái cảm cho nữ giới, cân bằng nội tiết giải tỏa sinh lý hiệu quả</p>
 <h2>Chất liệu: Silicone ABS an toàn cho cơ thể</h2>
@@ -50805,7 +50805,7 @@ export const products: Product[] = [
     description: "THANH RUNG NHỎ XINH EVO CROWN MASSAGER (A5). Thiết kế công thái học, vận hành êm, nhiều cấp độ massage. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
     icon: "petal",
-    image: "https://vipsextoy.net/files/sanpham/717/1.jpg",
+    image: "/anh1/legacy-717/1.jpg",
     longDescription: `<h2>THANH RUNG NHỎ XINH EVO CROWN MASSAGER (A5)</h2>
 <p>*   CHI TIẾT:</p>
 <ul><li>- Tính năng chính: kích thích điểm G, giải quyết sinh lý, massge cơ thể.</li></ul>
@@ -50842,7 +50842,7 @@ export const products: Product[] = [
     description: "NGÓN TAY TÌM ĐIỂM G- 10 KIỂU RUNG (A25). Thiết kế công thái học, vận hành êm, nhiều cấp độ massage. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
     icon: "petal",
-    image: "https://vipsextoy.net/files/sanpham/711/1.jpg",
+    image: "/anh1/legacy-711/1.jpg",
     longDescription: `<h2>NGÓN TAY TÌM ĐIỂM G- 10 KIỂU RUNG (A25)</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>-Tính năng: Giải tỏa sinh lý hiệu quả.</li><li>-Chất liệu: Polymer y tế cao cấp, an toàn cho người sử dụng.</li></ul>
@@ -54027,7 +54027,7 @@ export const products: Product[] = [
     description: "Chai xịt chống xuất tinh sớm Power Delay Spray (XTS04). Hỗ trợ kéo dài thời gian, thành phần an toàn, tác dụng nhanh. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Tác dụng nhanh", "Thành phần an toàn", "Dễ sử dụng", "Sản phẩm chính hãng"],
     icon: "ring",
-    image: "https://vipsextoy.net/files/sanpham/560/1.jpg",
+    image: "/anh1/legacy-560/1.jpg",
   },
   {
     slug: "xts13-chai-xit-keo-dai-thoi-gian-procomil-hang-duc-xts13",
@@ -58595,7 +58595,7 @@ export const products: Product[] = [
     description: "Dương Vật Giả Cyberskin Rung Ngoáy 8 Chế Độ – Mềm Mịn, Sạc USB. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "https://vipsextoy.net/files/sanpham/305/1.jpg",
+    image: "/anh1/legacy-305/1.jpg",
     sensitive: true,
   },
   {
@@ -64068,7 +64068,7 @@ export const products: Product[] = [
     description: "Âm đạo gắn tường Spider có rung điều khiển xa (DC45B). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
-    image: "https://vipsextoy.net/files/sanpham/52/1.gif",
+    image: "/anh1/legacy-52/1.gif",
     sensitive: true,
     longDescription: `<p>Âm đạo gắn tường Spider có rung điều khiển xa (DC45B) là lựa chọn lý tưởng dành cho nam giới đang tìm kiếm một thiết bị thư giãn cá nhân gắn tường tiện lợi, chắc chắn và dễ dàng điều chỉnh từ xa.</p>
 
