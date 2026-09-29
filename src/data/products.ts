@@ -34206,41 +34206,7 @@ export const products: Product[] = [
 <h2>Nên kết hợp bao đôn dên BD01 với sản phẩm hỗ trợ nào?</h2>
 <p>Bạn nên sử dụng thêm gel bôi trơn gốc nước thoa lên bề mặt ngoài sản phẩm để quá trình thao tác diễn ra mượt mà và êm ái nhất. Luôn mang bao khi cơ quan sinh dục đã đạt độ cứng cần thiết để bảo đảm độ ôm bám chuẩn xác.</p>`,
   },
-  {
-    slug: "dc14h-bao-cao-su-don-den-vay-rong-tao-nhieu-cam-giac-tinh-duc",
-    sku: "DC14H",
-    name: "Bao cao su đôn dên vảy rồng tạo nhiều cảm giác tình dục",
-    category: "Bao Đôn Dên",
-    categorySlug: "bao-don-den",
-    price: 180000,
-    blurb: "Hàng chính hãng, kiểm định an toàn, đa dạng loại và kích cỡ.",
-    description: "Bao cao su đôn dên vảy rồng tạo nhiều cảm giác tình dục. Hàng chính hãng, kiểm định an toàn, đa dạng loại và kích cỡ. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Chính hãng, còn hạn sử dụng", "Đạt chuẩn kiểm định", "Đa dạng mẫu mã", "Đóng gói kín đáo"],
-    icon: "ring",
-    image: "/anh1/DC14H/DC14H.jpg",
-    images: ["/anh1/DC14H/01.jpg", "/anh1/DC14H/05.jpg", "/anh1/DC14H/DC14H-4.jpg"],
-    longDescription: `<p>Khác biệt hoàn toàn so với các loại bao cao su mỏng truyền thống, bao cao su đôn dên vảy rồng DC14H là sản phẩm hỗ trợ sức khỏe tình dục cao cấp được chế tạo từ chất liệu y tế tổng hợp an toàn, kết hợp bề mặt gai vảy rồng và phần chân đôn phụ nhằm gia tăng kích thích tự nhiên, hỗ trợ kéo dài thời gian quan hệ và có khả năng tái sử dụng nhiều lần.</p>
-<p>Vì sao nên chọn Bao cao su đôn dên vảy rồng tạo nhiều cảm giác tình dục (DC14H)</p>
-<p>Sản phẩm sở hữu thiết kế đột phá với cấu trúc mô phỏng sinh lý nam giới linh hoạt, điểm xuyết các đường gân vảy rồng mềm mại kết hợp phần chân đôn phụ độc đáo nhằm tạo tác động massage nhẹ nhàng lên vùng nhạy cảm phía ngoài của đối tác. Được làm từ chất liệu y tế dẻo dai và co giãn tối ưu, DC14H giúp nâng cao trải nghiệm phòng the, hỗ trợ sự gắn kết lứa đôi một cách tinh tế và an toàn cho sức khỏe cá nhân.</p>
-<h2>Thông số &amp; chất liệu</h2>
-<h2>- Mã sản phẩm: DC14H</h2>
-<p>- Chất liệu: Vật liệu y tế tổng hợp an toàn, mềm mại, đạt độ co giãn cao</p>
-<h2>- Kích thước đường kính: 3,0 cm</h2>
-<h2>- Chiều dài sử dụng: 14 cm</h2>
-<h2>- Trọng lượng: 120g</h2>
-<p>- Đặc điểm thiết kế: Thân bao đúc họa tiết vảy rồng kèm gai mềm, tích hợp chân phụ massage ngoài</p>
-<h2>- Khả năng tái sử dụng: Dùng lại được nhiều lần</h2>
-<h2>- Xuất xứ: Nhập khẩu Hồng Kông</h2>
-<h2>Cách dùng hiệu quả</h2>
-<p>Trước khi sử dụng, bạn nên kiểm tra tính nguyên vẹn của sản phẩm và kết hợp với gel bôi trơn gốc nước để thao tác đeo vào diễn ra êm ái, thoải mái nhất. Sau khi hoàn thành cuộc yêu, hãy vệ sinh bao đôn dên sạch sẽ bằng nước ấm hoặc dung dịch xà phòng dịu nhẹ, tráng nhẹ qua dung dịch cồn loãng để sát khuẩn và phơi khô hoàn toàn ở nơi thoáng mát trước khi cất giữ.</p>
-<h2>Câu hỏi thường gặp</h2>
-<h2>Sản phẩm bao cao su đôn dên DC14H có an toàn cho da nhạy cảm không?</h2>
-<p>Sản phẩm được làm từ chất liệu cao su y tế tổng hợp không độc hại, có đặc tính mềm mại và độ lành tính cao, đảm bảo an toàn, không gây kích ứng cho làn da nhạy cảm của cả hai người.</p>
-<p>Bao đôn dên DC14H có thể tái sử dụng bao nhiêu lần và vệ sinh như thế nào?</p>
-<p>DC14H được thiết kế để sử dụng lâu dài nhiều lần. Bạn chỉ cần rửa sạch bằng nước sau mỗi lần dùng, tráng qua cồn nhẹ để tiệt trùng và để khô ráo tự nhiên trước khi bảo quản.</p>
-<h2>Sản phẩm này có vừa vặn với kích thước thực tế không?</h2>
-<p>Với chất liệu có độ đàn hồi và co giãn linh hoạt, sản phẩm sở hữu chiều dài sử dụng 14 cm và đường kính 3,0 cm, đáp ứng tốt và ôm sát vừa vặn với hầu hết kích thước của nam giới.</p>`,
-  },
+
   {
     slug: "bd02-bao-don-den-silicon-sieu-gai-mem",
     sku: "BD02",
