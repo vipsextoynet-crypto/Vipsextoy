@@ -5,8 +5,9 @@ import { ShoppingBag, Menu, X, Home, ChevronDown, Search } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
-import { categories, groupCategories, formatPrice } from "@/data/products";
+import { formatPrice } from "@/data/products";
 import { site } from "@/lib/site";
+import { getGroups } from "@/lib/groups";
 
 export default function Header() {
   const { count, subtotal, openCart } = useCart();
@@ -14,6 +15,7 @@ export default function Header() {
   const [catOpen, setCatOpen] = useState(false);
   const [q, setQ] = useState("");
   const router = useRouter();
+  const groups = getGroups();
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault();
@@ -105,22 +107,33 @@ export default function Header() {
             {catOpen && (
               <div className="absolute left-0 top-full max-h-[70vh] w-[640px] overflow-y-auto border border-line bg-surface p-6 normal-case shadow-xl">
                 <div className="grid grid-cols-2 gap-x-8 gap-y-5">
-                  {groupCategories(categories).map(({ group, items }) => (
-                    <div key={group}>
-                      <p className="mb-2 bg-rose/90 px-2.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-white">
-                        {group}
-                      </p>
-                      <div className="flex flex-col gap-2">
-                        {items.map((c) => (
-                          <Link key={c.slug} href={`/danh-muc/${c.slug}`} className="group/item">
-                            <p className="text-sm font-normal text-ivory transition group-hover/item:text-gold">
-                              {c.name}
-                            </p>
-                          </Link>
-                        ))}
+                  {groups.map((g) => {
+                    const single = g.items.length === 1;
+                    const href = single
+                      ? `/danh-muc/${g.items[0].slug}`
+                      : `/nhom/${g.slug}`;
+                    return (
+                      <div key={g.slug}>
+                        <Link
+                          href={href}
+                          className="mb-2 block border-l-4 border-l-gold bg-gold/10 px-2.5 py-1.5 text-xs font-bold uppercase tracking-wide text-gold-dark transition hover:bg-gold/20"
+                        >
+                          {g.name}
+                        </Link>
+                        {!single && (
+                          <div className="flex flex-col gap-2">
+                            {g.items.map((c) => (
+                              <Link key={c.slug} href={`/danh-muc/${c.slug}`} className="group/item">
+                                <p className="text-sm font-normal text-ivory transition group-hover/item:text-gold">
+                                  {c.name}
+                                </p>
+                              </Link>
+                            ))}
+                          </div>
+                        )}
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
                 <Link
                   href="/shop"
@@ -163,23 +176,34 @@ export default function Header() {
               Hướng dẫn mua hàng
             </Link>
             <p className="mt-2 text-xs uppercase tracking-wide text-muted">Danh mục</p>
-            {groupCategories(categories).map(({ group, items }) => (
-              <div key={group} className="flex flex-col gap-2">
-                <p className="mt-1 bg-rose/90 px-2.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-white">
-                  {group}
-                </p>
-                {items.map((c) => (
+            {groups.map((g) => {
+              const single = g.items.length === 1;
+              const href = single
+                ? `/danh-muc/${g.items[0].slug}`
+                : `/nhom/${g.slug}`;
+              return (
+                <div key={g.slug} className="flex flex-col gap-2">
                   <Link
-                    key={c.slug}
-                    href={`/danh-muc/${c.slug}`}
+                    href={href}
                     onClick={() => setMenuOpen(false)}
-                    className="pl-2"
+                    className="mt-1 block border-l-4 border-l-gold bg-gold/10 px-2.5 py-1.5 text-xs font-bold uppercase tracking-wide text-gold-dark"
                   >
-                    {c.name}
+                    {g.name}
                   </Link>
-                ))}
-              </div>
-            ))}
+                  {!single &&
+                    g.items.map((c) => (
+                      <Link
+                        key={c.slug}
+                        href={`/danh-muc/${c.slug}`}
+                        onClick={() => setMenuOpen(false)}
+                        className="pl-2"
+                      >
+                        {c.name}
+                      </Link>
+                    ))}
+                </div>
+              );
+            })}
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="mt-2">
               Blog
             </Link>
