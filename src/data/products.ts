@@ -2137,46 +2137,7 @@ export const products: Product[] = [
 <h2>- Lợi ích của việc sử dụng gel bôi trơn gốc nước</h2>
 <h2>- Hướng dẫn cách chọn gel bôi trơn an toàn và phù hợp</h2>`,
   },
-  {
-    slug: "ad10-coc-thu-dam-lo-hau-mon-khit-bot-cho-gay",
-    sku: "AD10",
-    name: "Cốc Thủ Dâm Lỗ Hậu Môn Khít Bót Cho Gay",
-    category: "Âm Đạo Giả",
-    categorySlug: "am-dao-gia",
-    price: 890000,
-    blurb: "Thiết kế phù hợp đa dạng nhu cầu, chất liệu an toàn.",
-    description: "Cốc thủ dâm lỗ hậu môn khít bót cho Gay. Thiết kế phù hợp đa dạng nhu cầu, chất liệu an toàn. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Chất liệu an toàn", "Thiết kế đa dạng", "Đóng gói kín đáo", "Bảo hành chính hãng"],
-    icon: "spark",
-    image: "/anh1/AD10/01.jpg",
-    images: ["/anh1/AD10/01.jpg"],
-    longDescription: `<h2>Giới Thiệu Cốc Thủ Dâm Lỗ Hậu Môn Khít Bót Cho Gay</h2>
-<p>Cốc thủ dâm lỗ hậu môn khít bót cho Gay là dòng dụng cụ massage cá nhân nam sở hữu thiết kế nhỏ gọn, tinh tế và kín đáo. Sản phẩm là giải pháp hỗ trợ chăm sóc sức khỏe và giải tỏa căng thẳng an toàn, đem lại trải nghiệm thư giãn riêng tư chuẩn mực cho nam giới. Nhằm đảm bảo quá trình sử dụng mượt mà nhất, bạn nên tìm hiểu thêm về cách chọn gel bôi trơn phù hợp cũng như bí quyết cách chăm sóc da đúng cách sau khi sử dụng.</p>
-<h2>Thông Số Kỹ Thuật Chi Tiết</h2>
-<p>Sản phẩm cốc thủ dâm lỗ hậu môn khít bót cho Gay được sản xuất với các thông số kỹ thuật chuẩn xác, đảm bảo độ bền và sự tiện lợi tối đa:</p>
-<h2>- Màu sắc: Đen lịch lãm, kín đáo</h2>
-<p>- Chất liệu cấu thành: Khung nhựa ABS bền bỉ kết hợp lõi TPE cao cấp mềm mại</p>
-<h2>- Kích thước: ~3.46 x 10.24 inch (khoảng 8.8 x 26 cm)</h2>
-<h2>- Thiết kế kiểu dáng: Nhỏ gọn, vừa vặn tay cầm, dễ thao tác</h2>
-<h2>Ưu Điểm Nổi Bật Của Sản Phẩm</h2>
-<p>Cốc thủ dâm lỗ hậu môn khít bót cho Gay hội tụ nhiều ưu điểm vượt trội, mang lại sự yên tâm tuyệt đối cho người sử dụng:</p>
-<ul><li>- Chất liệu TPE cao cấp: Độ đàn hồi vượt trội, bề mặt mềm mại mang lại cảm giác dễ chịu, êm ái khi tiếp xúc.</li><li>- Kiểu dáng kín đáo: Ngoại quan sang trọng như một chiếc cốc thể thao, giúp bạn dễ dàng bảo quản tại nhà mà vẫn giữ trọn không gian riêng tư.</li><li>- Hỗ trợ giải tỏa áp lực: Giúp giải tỏa căng thẳng thần kinh, hỗ trợ điều hòa tâm lý và nâng cao chất lượng cuộc sống cá nhân.</li><li>- Tính di động cao: Kích thước gọn nhẹ, thuận tiện mang theo trong các chuyến du lịch hoặc công tác xa nhà.</li></ul>
-<h2>Hướng Dẫn Sử Dụng Và Bảo Quản Đúng Cách</h2>
-<p>Để duy trì độ bền cho thiết bị và bảo vệ an toàn sức khỏe cá nhân, quý khách nên thực hiện theo hướng dẫn sau:</p>
-<ul><li>- Vệ sinh kỹ sản phẩm bằng nước ấm hoặc dung dịch làm sạch chuyên dụng trước và sau mỗi lần dùng.</li><li>- Kết hợp sử dụng cùng gel bôi trơn gốc nước để gia tăng sự êm ái, giảm ma sát tối đa trong quá trình trải nghiệm.</li><li>- Sau khi làm sạch, dùng khăn mềm lau khô hoàn toàn và cất giữ tại nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.</li></ul>
-<h2>Cam Kết Bảo Hành Và Bảo Mật Đơn Hàng</h2>
-<p>Shop cam kết phân phối sản phẩm chính hãng, đạt tiêu chuẩn an toàn y tế. Mọi đơn hàng cốc thủ dâm lỗ hậu môn khít bót cho Gay đều được che tên sản phẩm và đóng gói kín đáo trong hộp carton bảo mật, đảm bảo sự riêng tư tuyệt đối cho khách hàng khi nhận hàng.</p>
-<h2>Câu Hỏi Thường Gặp (FAQ)</h2>
-<h2>Cốc thủ dâm lỗ hậu môn khít bót cho Gay có an toàn cho da không?</h2>
-<p>Có, sản phẩm được chế tạo từ chất liệu TPE và ABS y tế cao cấp, đã qua kiểm định không chứa chất độc hại và hoàn toàn an toàn cho làn da nhạy cảm.</p>
-<h2>Cách vệ sinh cốc massage này như thế nào?</h2>
-<p>Bạn chỉ cần tháo phần lõi TPE ra rửa sạch nhẹ nhàng dưới nước ấm với xà phòng dịu nhẹ, sau đó để khô tự nhiên hoặc lau khô bằng khăn mềm.</p>
-<h2>Sản phẩm có phù hợp cho người mới sử dụng lần đầu không?</h2>
-<p>Hoàn toàn phù hợp. Nhờ thiết kế tối giản, dễ thao tác cùng chất liệu mềm mại, sản phẩm rất thân thiện với những ai mới bắt đầu trải nghiệm dụng cụ massage cá nhân.</p>
-<h2>Bài Viết Liên Quan</h2>
-<h2>- Hướng dẫn cách chọn gel bôi trơn an toàn và phù hợp</h2>
-<h2>- Các bước chăm sóc da và vệ sinh cá nhân đúng chuẩn</h2>`,
-  },
+
   {
     slug: "dv58q-dung-cu-massage-ca-nhan-lovetoy-nature-cock-7-5-silicon-2-lop-cao-cap",
     sku: "DV58Q",
