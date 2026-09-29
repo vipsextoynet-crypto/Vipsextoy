@@ -2,11 +2,12 @@ import Link from "next/link";
 import { categories, getProductsByCategory } from "@/data/products";
 import { blogPosts } from "@/data/blog";
 import ProductCard from "@/components/ProductCard";
-import ProductGlyph from "@/components/ProductGlyph";
 import Sidebar from "@/components/Sidebar";
 import CategoryCircles from "@/components/CategoryCircles";
 import HeroBanner from "@/components/HeroBanner";
 import HomeSearch from "@/components/HomeSearch";
+import BlogCardImage from "@/components/BlogCardImage";
+import { resolveBlogImage } from "@/lib/blog-image";
 
 // Số sản phẩm hiển thị cho mỗi danh mục trên trang chủ, và số danh mục hiện ra
 // trước khi phải bấm "Xem tất cả danh mục" (tránh trang chủ quá dài với 15 danh mục).
@@ -139,8 +140,8 @@ export default function Home() {
               href={`/blog/${post.slug}`}
               className="group flex flex-col border border-line bg-surface transition hover:border-gold/50"
             >
-              <div className="flex aspect-[16/10] items-center justify-center bg-surface2 p-10">
-                <ProductGlyph type={post.icon} className="max-h-20 max-w-20" />
+              <div className="relative flex aspect-[16/10] items-center justify-center overflow-hidden bg-surface2 p-10">
+                <BlogCardImage image={resolveBlogImage(post.image)} icon={post.icon} alt={post.title} />
               </div>
               <div className="flex flex-1 flex-col gap-2 p-5">
                 <p className="text-xs uppercase tracking-wide text-muted">
