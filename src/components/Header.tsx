@@ -116,7 +116,7 @@ export default function Header() {
                       <div key={g.slug}>
                         <Link
                           href={href}
-                          className="mb-2 block border-l-4 border-l-gold bg-gold/10 px-2.5 py-1.5 text-xs font-bold uppercase tracking-wide text-gold-dark transition hover:bg-gold/20"
+                          className="mb-2 block border-l-4 border-l-gold bg-gold/10 px-2.5 py-1.5 text-xs font-bold uppercase tracking-wide text-black transition hover:bg-gold/20"
                         >
                           {g.name}
                         </Link>
@@ -186,7 +186,7 @@ export default function Header() {
                   <Link
                     href={href}
                     onClick={() => setMenuOpen(false)}
-                    className="mt-1 block border-l-4 border-l-gold bg-gold/10 px-2.5 py-1.5 text-xs font-bold uppercase tracking-wide text-gold-dark"
+                    className="mt-1 block border-l-4 border-l-gold bg-gold/10 px-2.5 py-1.5 text-xs font-bold uppercase tracking-wide text-black"
                   >
                     {g.name}
                   </Link>
