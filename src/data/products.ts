@@ -34597,27 +34597,7 @@ export const products: Product[] = [
 <h2>Sản phẩm có phù hợp với người có làn da nhạy cảm không?</h2>
 <p>Sarkamura Charm được làm từ cao su thiên nhiên phối hợp Polyethylene. Trường hợp người dùng có cơ địa dị ứng hoàn toàn với chất liệu mủ cao su tự nhiên nên cân nhắc kiểm tra trước khi dùng.</p>`,
   },
-  {
-    slug: "jex08-bao-cao-su-glamcurous-butterfly-moist500-jex08",
-    sku: "Jex08",
-    name: "Bao cao su Glamcurous Butterfly moist500 (Jex08)",
-    category: "BCS Gai, Bi",
-    categorySlug: "bao-cao-su-chinh-hang",
-    price: 150000,
-    blurb: "Hàng chính hãng, kiểm định an toàn, đa dạng loại và kích cỡ.",
-    description: "Bao cao su Glamcurous Butterfly moist500 (Jex08). Hàng chính hãng, kiểm định an toàn, đa dạng loại và kích cỡ. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Chính hãng, còn hạn sử dụng", "Đạt chuẩn kiểm định", "Đa dạng mẫu mã", "Đóng gói kín đáo"],
-    icon: "ring",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/jex08/01.webp",
-    longDescription: `<p>Thông tin chi tiết:</p>
-<h2>Hộp 06 chiếc</h2>
-<p>Bao cao su Glamcurous Butterfly moist500 với màu xanh mát mắt sẽ giúp hai người càng hưng phấn tột độ.</p>
-<p>Ngoài ra, kiểu dáng tự nhiên, được phủ bởi lớp gel hỗn hợp giữ Marin Collagen và axit hialuronic giúp bạn bôi trơn và</p>
-<h2>kéo dài được thời gian quan hệ</h2>
-<p>.</p>
-<p>Đặc biệt,  với  sản phẩm này, bạn không cần phải bỏ không khí ở đầu bao như các loại bao cao su khác, không  lo mỏng tay có thể làm thủng bao, chất bôi trơn bôi đều 2 mặt sẽ giúp hai bạn thuận lợi di chuyển, người ấy không cảm thấy đau rát.</p>
-<h2>Xuất xứ: Nhật Bản</h2>`,
-  },
+
   {
     slug: "cd08-bao-cao-su-3d-sieu-bi",
     sku: "CD08",
