@@ -11782,35 +11782,12 @@ export const products: Product[] = [
     category: "Sản Phẩm Khác",
     categorySlug: "chua-phan-loai",
     price: 5300000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
+    blurb: "",
     description: "TENGA FLIP 0 (ZERO) GRAVITY ELECTRONIC VIBRATION (Nhập Trực Tiếp JAPAN). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
     image: "/anh1/F0/01.png",
     images: ["/anh1/F0/01.png", "/anh1/F0/07.jpg", "/anh1/F0/08.jpg", "/anh1/F0/09.jpg", "/anh1/F0/10.png", "/anh1/F0/14.png", "/anh1/F0/18.png"],
-    longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị cầm tay thông thường, TENGA FLIP 0 (ZERO) ELECTRONIC VIBROTATION (Có Rung Tự Động) Nhập Trực Tiếp Japan tích hợp đồng thời cơ chế xoay tự động dựa trên cảm biến con quay hồi chuyển cùng động cơ rung kép, mang đến giải pháp hỗ trợ chăm sóc sức khỏe cá nhân toàn diện và hiện đại.</p>
-<h2>Tính năng nổi bật</h2>
-<p>- Cảm biến con quay hồi chuyển (Gyroscope Sensor): Cho phép kiểm soát hướng xoay và tốc độ vận hành tự động bằng thao tác nghiêng tay linh hoạt, giảm thiểu hao mòn cơ học.</p>
-<p>- Động cơ đôi vận hành đồng bộ: Hệ thống rung kép kết hợp nhịp nhàng với trục xoay tự động, tạo tác động lực đa chiều liên tục và ổn định.</p>
-<p>- Khả năng tương thích linh hoạt: Phụ kiện xoay có thể kết hợp với nhiều dòng lõi FLIP ZERO như Standard, Black, Soft, Gravity White, Gravity Black hay Red, giúp kéo dài vòng đời trải nghiệm sản phẩm.</p>
-<p>- Kết cấu gập hỗ trợ vệ sinh tối đa: Khung gập thông minh cho phép mở rộng hoàn toàn lòng trong, loại bỏ triệt để các góc chết tích tụ vi khuẩn để bảo quản lâu dài.</p>
-<p>- Tay trượt kháng nước tiêu chuẩn: Thân máy chính và phần tay trượt đạt khả năng kháng nước rửa trôi, hỗ trợ quá trình làm sạch trực tiếp dưới vòi nước nhanh chóng.</p>
-<h2>Chất liệu &amp; công nghệ</h2>
-<p>Sản phẩm đáp ứng đầy đủ các tiêu chuẩn kiểm định nghiêm ngặt về an toàn y tế và sức khỏe cá nhân tại Nhật Bản. Lớp vật liệu silicone Elastomer cao cấp hoàn toàn trung tính, không chứa chất độc hại, đảm bảo không gây dị ứng hay kích ứng mô nhạy cảm trong quá trình sử dụng. Bên cạnh đó, hệ thống vi mạch điều khiển cùng viên pin Lithium-ion được bảo vệ bởi khung nhựa ABS và PC chịu lực chắc chắn. Kết cấu bền bỉ này giúp thiết bị duy trì độ bền cơ học cao, chịu được áp lực thao tác liên tục và đảm bảo sự an toàn tuyệt đối qua thời gian dài.</p>
-<h2>Hướng dẫn sử dụng &amp; vệ sinh</h2>
-<p>- Sạc đầy pin cho thiết bị trước khi sử dụng; duy trì sạc định kỳ 6 tháng một lần nếu lưu trữ lâu ngày để bảo vệ tuổi thọ pin Lithium-ion.</p>
-<p>- Thao tác nghiêng nhẹ tay trượt để điều khiển hướng và tốc độ xoay theo nhu cầu.</p>
-<p>- Sau khi sử dụng, mở rộng thân máy và xả sạch lớp silicone dưới vòi nước chảy nhẹ cùng dung dịch vệ sinh chuyên dụng hoặc xà phòng dịu nhẹ.</p>
-<p>- Tuyệt đối không sử dụng cồn, xăng, chất tẩy rửa mạnh hoặc nước đun sôi để vệ sinh vì sẽ làm suy giảm tuổi thọ vật liệu silicone.</p>
-<p>- Thấm khô toàn bộ nước bằng khăn mềm và để thiết bị phơi khô tự nhiên ở nơi thoáng gió, tránh ánh nắng trực tiếp hoặc nguồn nhiệt cao.</p>
-<p>- Khuyên dùng riêng cho mục đích cá nhân, không dùng chung với người khác để đảm bảo tiêu chuẩn vệ sinh và sức khỏe tuyệt đối.</p>
-<h2>Câu hỏi thường gặp</h2>
-<p>Độ bền và khả năng bảo quản lâu dài của TENGA FLIP 0 ELECTRONIC VIBROTATION được đảm bảo như thế nào?</p>
-<p>Thiết bị được cấu tạo từ khung nhựa chịu lực ABS/PC và lớp silicone Elastomer y tế cao cấp từ Nhật Bản có khả năng chống suy thoái vật liệu. Nhờ cơ chế gập mở phơi khô hoàn toàn lòng trong và pin Lithium-ion có mạch bảo vệ, sản phẩm đạt độ bền vận hành tối ưu qua nhiều năm nếu được bảo quản đúng cách.</p>
-<p>Các bộ phận nào của máy có thể tiếp xúc trực tiếp với nước khi làm sạch?</p>
-<p>Toàn bộ phần thân máy chính và tay trượt được thiết kế chống nước rửa trôi, cho phép bạn xả rửa trực tiếp dưới vòi nước chảy nhẹ. Người dùng chỉ cần lưu ý không ngâm ngập toàn bộ máy trong nước sâu hoặc xối nước áp lực quá mạnh vào các cổng kết nối.</p>
-<p>Đơn hàng TENGA FLIP 0 ELECTRONIC VIBROTATION được giao tới có đảm bảo kín đáo không?</p>
-<p>Mọi đơn hàng đều được đóng gói bảo mật trong hộp giấy trơn niêm phong kín đáo, không hiển thị tên sản phẩm hay thông tin sensitive bên ngoài. Dịch vụ giao hàng hỏa tốc hỗ trợ nhận hàng từ 15 phút đến 2 giờ tại TP.HCM, Hà Nội và từ 1 đến 2 ngày đối với các tỉnh thành khác.</p>`,
   },
 
   {
