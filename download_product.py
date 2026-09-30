@@ -1957,6 +1957,31 @@ def crawl():
             batch_cooldown(processed_this_run)
             continue
 
+        # VỚT sản phẩm bị link tương đối sai: URL dạng .../<danh-muc>/<slug>.html
+        # không nhận diện được là sản phẩm -> thử lại đúng URL đó nhưng bỏ hết
+        # các thư mục cha, chỉ giữ tên file, thử ở GỐC domain.
+        _path = urlparse(url).path
+        if _path.lower().endswith(".html") and _path.count("/") > 1:
+            _root_url = normalize_url(urljoin(BASE_URL + "/", os.path.basename(_path)))
+            if _root_url and _root_url != url and _root_url not in visited_urls:
+                log("RETRY ROOT", f"{url} -> {_root_url}")
+                try:
+                    _root_html = get_html(_root_url)
+                except SystemExit:
+                    raise
+                except Exception as e:
+                    _root_html = None
+                    log("ERROR", f"{_root_url} ({e})")
+
+                if _root_html:
+                    _root_soup = BeautifulSoup(_root_html, "html.parser")
+                    if is_product_page(_root_soup):
+                        mark_product(_root_url)
+                        log("PRODUCT FOUND (root)", _root_url)
+                        mark_visited(_root_url)
+                    mark_visited(_root_url)
+                sleep_with_log(random.uniform(0.5, 1.2), tag="WAIT")
+
         if is_article_page(soup, url):
             log("ARTICLE SKIP", f"bài viết/tin tức — bỏ qua, không crawl tiếp: {url}")
             mark_visited(url)

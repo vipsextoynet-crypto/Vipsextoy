@@ -1,8 +1,8 @@
 import type { ReactNode } from "react";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getProduct, formatPrice, products, categories, getCategory } from "@/data/products";
+import { getProduct, getProductByLegacySlug, formatPrice, products, categories, getCategory } from "@/data/products";
 import ProductGallery from "@/components/ProductGallery";
 import AddToCartButton from "@/components/AddToCartButton";
 import JsonLd from "@/components/JsonLd";
@@ -177,6 +177,9 @@ export default async function ProductPage({
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) {
+    // URL cũ có mã SKU (vd /bz03c-phu-kien-...) -> 301 sang slug mới không có SKU.
+    const moved = getProductByLegacySlug(slug);
+    if (moved) permanentRedirect(`/${moved.slug}`);
     if (getCategory(slug)) {
       const { page } = await searchParams;
       return <CategoryView slug={slug} pageParam={page} />;

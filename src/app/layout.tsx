@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Manrope } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart-context";
 import { SensitiveProvider } from "@/lib/sensitive-context";
@@ -11,16 +11,29 @@ import AgeGate from "@/components/AgeGate";
 import JsonLd from "@/components/JsonLd";
 import FloatingContact from "@/components/FloatingContact";
 
-const fraunces = Fraunces({
-  subsets: ["latin"],
+// Tu luu font trong may (khong goi qua Google Fonts luc build nua) - tranh
+// loi "Failed to fetch Fraunces/Manrope" khi may build mat mang/bi chan.
+// File that nam trong src/fonts/, ban dang co day du Manrope (4 muc:
+// Regular/Medium/SemiBold/Bold) nhung Fraunces THIEU muc 500 (Medium) nen
+// chi khai bao dung 2 muc co san (400 + 600) cho Fraunces.
+const fraunces = localFont({
+  src: [
+    { path: "../fonts/Fraunces_72pt-Regular.ttf", weight: "400" },
+    { path: "../fonts/Fraunces_72pt-SemiBold.ttf", weight: "600" },
+  ],
   variable: "--font-fraunces",
-  weight: ["400", "500", "600"],
+  display: "swap",
 });
 
-const manrope = Manrope({
-  subsets: ["latin"],
+const manrope = localFont({
+  src: [
+    { path: "../fonts/Manrope-Regular.ttf", weight: "400" },
+    { path: "../fonts/Manrope-Medium.ttf", weight: "500" },
+    { path: "../fonts/Manrope-SemiBold.ttf", weight: "600" },
+    { path: "../fonts/Manrope-Bold.ttf", weight: "700" },
+  ],
   variable: "--font-manrope",
-  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 const defaultOgImage = {
@@ -41,13 +54,6 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description: site.description,
-  keywords: [
-    "chăm sóc cá nhân",
-    "sản phẩm người lớn",
-    "đồ chơi người lớn",
-    "giao hàng kín đáo",
-    "vipextoy",
-  ],
   openGraph: {
     type: "website",
     locale: "vi_VN",
