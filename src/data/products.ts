@@ -69240,10 +69240,15 @@ export function getProduct(slug: string) {
   return products.find((p) => p.slug === slug);
 }
 
-const legacySlugMap = new Map<string, Product>();
-for (const p of products) if (p.legacySlug) legacySlugMap.set(p.legacySlug, p);
+// Map tao luc goi lan dau (lazy) - KHONG dat vong lap o cap module, neu khong
+// bundler khong the loai mang products khoi JS phia trinh duyet.
+let legacySlugMap: Map<string, Product> | undefined;
 
 export function getProductByLegacySlug(slug: string) {
+  if (!legacySlugMap) {
+    legacySlugMap = new Map();
+    for (const p of products) if (p.legacySlug) legacySlugMap.set(p.legacySlug, p);
+  }
   return legacySlugMap.get(slug);
 }
 
