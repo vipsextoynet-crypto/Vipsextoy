@@ -23,6 +23,13 @@ const nextConfig = {
   },
   compress: true,
 
+  experimental: {
+    // Nhung CSS thang vao HTML (<style>) thay vi <link> de CSS khong con la
+    // tai nguyen "chan hien thi" (PageSpeed: Yeu cau chan hien thi ~300ms).
+    // File CSS chi ~7KB nen nhung vao HTML khong ton them bao nhieu.
+    inlineCss: true,
+  },
+
   // Cac slug danh muc CU da bi tach/doi ten khi lam lai cau truc menu
   // 2 tang. Redirect 301 sang danh muc moi gan nhat de khong mat index
   // Google, khong tao redirect chain (moi dong day chi redirect 1 lan).
