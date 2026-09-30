@@ -11,7 +11,8 @@ export default function CategoryCircles() {
     <nav aria-label="Danh mục sản phẩm" className="grid grid-cols-3 gap-x-3 gap-y-5">
       {groups.map((g) => {
         const first = getProductsByGroup(g.items)[0];
-        const img = first?.image ?? first?.images?.[0];
+        // Uu tien anh thumbnail nho (scripts/make-thumbs.mjs), khong co thi dung anh goc.
+        const img = first?.thumb ?? first?.image ?? first?.images?.[0];
         return (
           <Link
             key={g.slug}

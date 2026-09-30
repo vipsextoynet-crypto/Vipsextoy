@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 // THAY BANNER THẬT Ở ĐÂY:
 // Bỏ ảnh vào thư mục public/banners/ (ví dụ public/banners/banner-1.jpg),
@@ -57,6 +56,11 @@ const SLIDES = [
   },
 ];
 
+// /banners/banner-1.webp -> /banners/sm/banner-1.webp (ban 800px do
+// scripts/make-thumbs.mjs tao, dung cho mobile).
+const smallOf = (src: string) =>
+  src.replace(/^\/banners\/([^/]+?)\.[A-Za-z0-9]+$/, "/banners/sm/$1.webp");
+
 export default function HeroBanner() {
   const [index, setIndex] = useState(0);
 
@@ -80,13 +84,28 @@ export default function HeroBanner() {
           >
             {s.image && (
               <>
-                <Image
+                {/* Dung <img> thuong (khong phai next/image) vi anh dang de
+                    unoptimized, next/image khong ho tro srcSet o che do do. */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
                   src={s.image}
-                  alt={s.label}
-                  fill
-                  priority={i === 0}
-                  className="object-cover"
+                  srcSet={`${smallOf(s.image)} 800w, ${s.image} 1300w`}
                   sizes="(min-width: 1024px) 1152px, 100vw"
+                  alt={s.label}
+                  width={1300}
+                  height={488}
+                  loading={i === 0 ? "eager" : "lazy"}
+                  fetchPriority={i === 0 ? "high" : "auto"}
+                  decoding="async"
+                  className="absolute inset-0 h-full w-full object-cover"
+                  onError={(e) => {
+                    // Chua chay script tao ban nho -> quay ve anh goc, khong vo anh.
+                    const img = e.currentTarget;
+                    if (img.srcset) {
+                      img.removeAttribute("srcset");
+                      img.src = s.image;
+                    }
+                  }}
                 />
                 {!s.hasOwnText && <div className="absolute inset-0 bg-black/35" />}
               </>

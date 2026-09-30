@@ -28,7 +28,8 @@ export default function ProductCard({
           {product.image ? (
             <SensitiveOverlay active={!!product.sensitive}>
               <Image
-                src={product.image}
+                // Anh thumbnail nho (scripts/make-thumbs.mjs); chua co thi dung anh goc.
+                src={product.thumb ?? product.image}
                 alt={product.name}
                 fill
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
