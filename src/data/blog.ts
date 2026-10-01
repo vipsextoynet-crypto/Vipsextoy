@@ -108,6 +108,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 phút đọc",
     category: "Khám phá bí quyết",
     icon: "wave",
+    image: "/anhblog/chuan-do-on-duoi-40db-chon-may-rung-mini-sieu-em/chuan-o-on-duoi-40db-bi-quyet-chon-may-rung-mini-sieu-em-khong-lo-nguoi-phong-ben-nghe-thay-thiet-ke-cao-cap-1-cover.jpg",
   },
 ];
 
