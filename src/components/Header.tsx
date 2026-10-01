@@ -5,7 +5,7 @@ import { ShoppingBag, Menu, X, Home, ChevronDown, Search } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
-import { formatPrice } from "@/data/products";
+import { formatPrice } from "@/lib/format";
 import { site } from "@/lib/site";
 import { getGroups } from "@/lib/groups";
 

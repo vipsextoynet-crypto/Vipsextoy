@@ -8,7 +8,7 @@ import {
   useState,
   ReactNode,
 } from "react";
-import { Product } from "@/data/products";
+import type { Product } from "@/data/products";
 
 export type CartItem = {
   slug: string;
@@ -19,12 +19,15 @@ export type CartItem = {
   image?: string;
 };
 
+// Chi can vai truong nay de them vao gio -> ProductCard chi can truyen ban rut gon.
+export type CartProductInput = Pick<Product, "slug" | "name" | "price" | "icon" | "image">;
+
 type CartContextType = {
   items: CartItem[];
   isOpen: boolean;
   openCart: () => void;
   closeCart: () => void;
-  addItem: (p: Product, qty?: number) => void;
+  addItem: (p: CartProductInput, qty?: number) => void;
   removeItem: (slug: string) => void;
   setQty: (slug: string, qty: number) => void;
   clear: () => void;
@@ -56,7 +59,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   }, [items, hydrated]);
 
-  function addItem(p: Product, qty = 1) {
+  function addItem(p: CartProductInput, qty = 1) {
     setItems((prev) => {
       const existing = prev.find((i) => i.slug === p.slug);
       if (existing) {

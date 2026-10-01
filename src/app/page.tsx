@@ -56,7 +56,7 @@ export default function Home() {
                       {c.name}
                     </h2>
                     <Link
-                      href={`/danh-muc/${c.slug}`}
+                      href={`/${c.slug}`}
                       className="text-xs text-white hover:underline"
                     >
                       Xem tất cả →

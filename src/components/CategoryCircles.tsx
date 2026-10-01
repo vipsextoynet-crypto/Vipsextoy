@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getGroups, getProductsByGroup } from "@/lib/groups";
+import { smallThumb } from "@/lib/thumb";
 
 // Ô tròn danh mục cha, 3 ô / hàng. Chỉ dùng cho mobile ở trang chủ
 // (desktop dùng Sidebar). Ảnh trong ô lấy từ sản phẩm đầu tiên của nhóm.
@@ -11,8 +12,9 @@ export default function CategoryCircles() {
     <nav aria-label="Danh mục sản phẩm" className="grid grid-cols-3 gap-x-3 gap-y-5">
       {groups.map((g) => {
         const first = getProductsByGroup(g.items)[0];
-        // Uu tien anh thumbnail nho (scripts/make-thumbs.mjs), khong co thi dung anh goc.
-        const img = first?.thumb ?? first?.image ?? first?.images?.[0];
+        // Uu tien anh 260px (scripts/make-thumbs.mjs), roi thumbnail, roi anh goc.
+        const img =
+          smallThumb(first?.thumb) ?? first?.thumb ?? first?.image ?? first?.images?.[0];
         return (
           <Link
             key={g.slug}

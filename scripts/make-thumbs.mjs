@@ -12,6 +12,7 @@
 //
 // Ket qua: public/thumbs/<thu-muc>/<ten>.webp  +  dong `thumb: "..."` trong products.ts.
 // San pham dung anh tu Vercel Blob (https://...) duoc bo qua, van dung anh goc.
+// Moi anh con co ban SIEU NHO (260px) trong public/thumbs/sm/ cho o tron danh muc.
 // Dong thoi tao ban banner nho public/banners/sm/<ten>.webp (800px) cho mobile.
 
 import fs from "node:fs/promises";
@@ -25,6 +26,8 @@ const DATA_FILE = path.join(ROOT, "src", "data", "products.ts");
 
 const WIDTH = 480; // px - du net cho card 298px tren man hinh Retina
 const QUALITY = 72;
+const SM_WIDTH = 260; // o tron danh muc hien ~133px -> 260px la du cho man hinh Retina
+const SM_QUALITY = 70;
 const CONCURRENCY = 8;
 const BANNER_DIR = path.join(PUBLIC_DIR, "banners");
 const BANNER_WIDTH = 800; // ban nho cho mobile (ban goc 1300px van dung cho man hinh to)
@@ -39,6 +42,7 @@ function thumbTarget(src) {
   return {
     url: "/" + ["thumbs", ...rel, name].join("/"),
     file: path.join(THUMB_DIR, ...rel, name),
+    smFile: path.join(THUMB_DIR, "sm", ...rel, name), // /thumbs/sm/...
   };
 }
 
@@ -49,6 +53,24 @@ async function exists(p) {
   } catch {
     return false;
   }
+}
+
+// Ban 260px: tao tu anh goc (hoac tu thumbnail neu mat anh goc). Loi -> copy thumbnail
+// de duong dan /thumbs/sm/... luon ton tai (khong bao gio vo anh).
+async function ensureSmall(src, smFile, mainFile) {
+  if (!FORCE && (await exists(smFile))) return false;
+  await fs.mkdir(path.dirname(smFile), { recursive: true });
+  try {
+    const input = (await findSource(src)) ?? mainFile;
+    await sharp(input, { animated: false })
+      .rotate()
+      .resize({ width: SM_WIDTH, withoutEnlargement: true })
+      .webp({ quality: SM_QUALITY })
+      .toFile(smFile);
+  } catch {
+    await fs.copyFile(mainFile, smFile);
+  }
+  return true;
 }
 
 async function findSource(src) {
@@ -89,6 +111,7 @@ async function makeBannerVariants() {
 
 async function main() {
   let text = await fs.readFile(DATA_FILE, "utf8");
+  const originalText = text;
   const eol = text.includes("\r\n") ? "\r\n" : "\n";
 
   // 1) Them kieu `thumb?: string` vao type Product (chi lam 1 lan).
@@ -115,17 +138,19 @@ async function main() {
   const failed = [];
   let created = 0;
   let skipped = 0;
+  let smallCreated = 0;
   let bytes = 0;
   let idx = 0;
 
   async function worker() {
     while (idx < list.length) {
       const src = list[idx++];
-      const { url, file } = thumbTarget(src);
+      const { url, file, smFile } = thumbTarget(src);
       try {
         if (!FORCE && (await exists(file))) {
           skipped++;
           bytes += (await fs.stat(file)).size;
+          if (await ensureSmall(src, smFile, file)) smallCreated++;
           ok.set(src, url);
           continue;
         }
@@ -142,6 +167,7 @@ async function main() {
           .toFile(file);
         bytes += info.size;
         created++;
+        if (await ensureSmall(src, smFile, file)) smallCreated++;
         ok.set(src, url);
       } catch (e) {
         failed.push(`${src} (${e.message})`);
@@ -158,11 +184,11 @@ async function main() {
     patched++;
     return `${a}${src}${b}    thumb: "${url}",${eol}`;
   });
-  await fs.writeFile(DATA_FILE, text, "utf8");
+  if (text !== originalText) await fs.writeFile(DATA_FILE, text, "utf8");
 
   await makeBannerVariants();
 
-  console.log(`Tao moi: ${created} | Da co san: ${skipped} | Loi: ${failed.length}`);
+  console.log(`Tao moi: ${created} | Da co san: ${skipped} | Loi: ${failed.length} | Ban 260px moi: ${smallCreated}`);
   console.log(`Da ghi truong thumb cho ${patched} san pham.`);
   if (ok.size) console.log(`Tong dung luong thumbnail: ${(bytes / 1024 / 1024).toFixed(1)} MB (TB ${(bytes / ok.size / 1024).toFixed(1)} KB/anh)`);
   if (failed.length) {

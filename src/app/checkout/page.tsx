@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { useCart } from "@/lib/cart-context";
-import { formatPrice } from "@/data/products";
+import { formatPrice } from "@/lib/format";
 import ProductGlyph from "@/components/ProductGlyph";
 import { bank, bankConfigured, vietQrUrl } from "@/lib/bank";
 

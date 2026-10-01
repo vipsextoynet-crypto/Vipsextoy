@@ -223,7 +223,7 @@ async function callOnce({ title, category, relatedLinkHint, oldContent }, endpoi
   if (!text) throw new Error("Khong nhan duoc noi dung tu server.");
 
   text = text.replace(/^```html\s*/i, "").replace(/```$/i, "").trim();
-  text = text.replace(/href="\[([^\]]+)\]\([^)]+\)"/g, 'href="$1"');
+  text = text.replace(/href="\[([^\]]+)\]\(([^)]+)\)"/g, 'href="$2"');
 
   return text;
 }

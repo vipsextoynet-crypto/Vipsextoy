@@ -1,50 +1,40 @@
-import type { MetadataRoute } from "next";
-import { products, categories } from "@/data/products";
-import { blogPosts } from "@/data/blog";
-import { site } from "@/lib/site";
+import { MetadataRoute } from 'next';
+import { products } from '@/data/products';
+import { blogPosts } from '@/data/blog';
 
-// Chi khai bao lastModified khi biet NGAY THAT. Truoc day dung new Date()
-// cho moi trang -> moi lan build deu "vua doi", Google se dan bo qua tin hieu
-// nay. changeFrequency / priority Google khong dung nen bo luon.
-export default function sitemap(): MetadataRoute.Sitemap {
-  // Ngay bai blog moi nhat -> dung lam lastModified cho trang danh sach /blog.
-  const latestPostDate = blogPosts.reduce(
-    (max, p) => (p.date > max ? p.date : max),
-    ""
-  );
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vipextoy.com';
 
-  const staticPaths = [
-    "",
-    "/shop",
-    "/blog",
-    "/lien-he",
-    "/gioi-thieu",
-    "/chinh-sach/van-chuyen",
-    "/chinh-sach/doi-tra",
-    "/chinh-sach/thanh-toan",
-    "/chinh-sach/bao-mat",
-    "/chinh-sach/dieu-khoan",
-  ];
-
-  const staticRoutes: MetadataRoute.Sitemap = staticPaths.map((path) => ({
-    url: `${site.url}${path}`,
-    ...(path === "/blog" && latestPostDate
-      ? { lastModified: new Date(latestPostDate) }
-      : {}),
+  // Các trang cố định
+  const staticRoutes: MetadataRoute.Sitemap = [
+    '',
+    '/products',
+    '/blog',
+    '/about',
+    '/contact',
+    '/privacy-policy',
+    '/terms-of-service',
+  ].map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date(),
+    changeFrequency: route === '' ? 'daily' : 'weekly',
+    priority: route === '' ? 1.0 : 0.8,
   }));
 
-  const categoryRoutes: MetadataRoute.Sitemap = categories.map((c) => ({
-    url: `${site.url}/danh-muc/${c.slug}`,
+  // Sửa lại đường dẫn chuẩn SEO có /products/ và /blog/
+  const productEntries: MetadataRoute.Sitemap = products.map((product) => ({
+    url: `${baseUrl}/products/${product.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.8,
   }));
 
-  const productRoutes: MetadataRoute.Sitemap = products.map((p) => ({
-    url: `${site.url}/${p.slug}`,
+  const blogEntries: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'monthly',
+    priority: 0.7,
   }));
 
-  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((p) => ({
-    url: `${site.url}/blog/${p.slug}`,
-    lastModified: new Date(p.date),
-  }));
-
-  return [...staticRoutes, ...categoryRoutes, ...productRoutes, ...blogRoutes];
+  return [...staticRoutes, ...productEntries, ...blogEntries];
 }

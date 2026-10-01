@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { X, Minus, Plus, Trash2 } from "lucide-react";
 import { useCart } from "@/lib/cart-context";
-import { formatPrice } from "@/data/products";
+import { formatPrice } from "@/lib/format";
 import ProductGlyph from "./ProductGlyph";
 
 export default function CartDrawer() {
