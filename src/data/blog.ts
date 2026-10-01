@@ -96,6 +96,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 phút đọc",
     category: "sức khỏe tình dục",
     icon: "wave",
+    image: "/anhblog/dung-do-choi-nguoi-lon-co-bi-mat-cam-giac-khong/dung-o-choi-tinh-duc-co-bi-mat-cam-giac-voi-nguoi-that-giai-ap-y-khoa-cho-nguoi-moi-thiet-ke-cao-cap-1-cover.jpg",
   },
   {
     slug: "chuan-do-on-duoi-40db-bi-quyet-chon-may-rung-mini-sieu-em-khong-lo-nguoi-phong-ben-nghe-thay",
