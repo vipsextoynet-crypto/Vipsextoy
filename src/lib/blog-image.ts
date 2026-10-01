@@ -1,4 +1,4 @@
-﻿import fs from "node:fs";
+import fs from "node:fs";
 import path from "node:path";
 
 const IMAGE_EXT = /\.(jpe?g|png|webp|gif|avif)$/i;
@@ -12,7 +12,11 @@ const IMAGE_EXT = /\.(jpe?g|png|webp|gif|avif)$/i;
 export function resolveBlogImage(image?: string): string | undefined {
   if (!image) return undefined;
 
-  const trimmed = image.trim();
+  // Windows dung dau "\" de ngan cach thu muc (vd khi copy duong dan tu File
+  // Explorer), nhung server chay tren Linux (Vercel) khong hieu "\" la dau
+  // ngan cach thu muc - no coi ca chuoi la 1 ten file ky la, nen tim mai
+  // khong ra. Doi het "\" sang "/" truoc, de go kieu nao cung duoc.
+  const trimmed = image.trim().replace(/\\/g, "/");
   if (!trimmed) return undefined;
 
   // Đã là đường dẫn tới file ảnh cụ thể
@@ -76,6 +80,8 @@ export function resolveBlogImage(image?: string): string | undefined {
  *   /anhblog/abc
  * hoặc:
  *   /anhblog/abc/
+ * hoặc (kiểu Windows):
+ *   anhblog\abc
  * -> tự tìm ảnh đầu tiên trong folder và lưu thành
  *    /anhblog/abc/01.jpg
  *
