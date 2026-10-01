@@ -122,6 +122,8 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 phút đọc",
     category: "Hướng Dẫn",
     icon: "wave",
+    image: "/anhblog/deo-bao-cao-su-truoc-hay-vong-rung-truoc-huong-dan-chuan-webp-images",
+
   },
 ];
 
