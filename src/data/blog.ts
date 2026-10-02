@@ -136,6 +136,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 phút đọc",
     category: "Khám Phá",
     icon: "wave",
+    image: "/anhblog/duong-vat-gia-silicone-hai-lop-dual-density-cho-nang-so-dau-webp-images/duong-vat-gia-silicone-long-hai-lop-dual-density-mem-da-thit-ben-ngoai-chac-ben-trong-cho-nang-so-au-kinh-nghiem-lua-chon-1-section-1.webp",
   },
 ];
 
