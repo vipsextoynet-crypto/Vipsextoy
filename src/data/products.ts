@@ -69185,6 +69185,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "may-rung-tai-tho-cao-cap-lelo-kaya-originals-co-ket-noi-app",
+    sku: "DC82C",
+    name: "Máy rung tai thỏ cao cấp Lelo KAYA Originals có kết nối App",
+    category: "Dụng Cụ Massage, Chày Rung",
+    categorySlug: "may-massage-ca-nhan",
+    price: 2850000,
+    blurb: "",
+    description: "THÔNG SỐ KỸ THUẬT:\n\nChất liệu: Silicone an toàn cho cơ thể, nhựa ABS\nBề mặt: Mịn\nKích thước: 194 x 64 x 37 mm / 7.6 x 2.5 x 1.5 inch\nChiều dài có thể đưa vào: 120 mm / 4.7 inch\nTrọng lượng: 123 g / 4.3 oz\nPin: Li-Ion 200 mAh\nThời gian sạc: lên đến 2 giờ ở 5 V 200 mA\nCông suất định mức:\nĐầu vào: 5V 200mA 1 W\nĐầu ra: 3.7 V 310 mA 1.45 W\nThời gian sử dụng: Lên đến 2 giờ\nThời gian chờ: ít nhất 90 ngày\n\n\n\nKAYA™ Originals là máy rung hình thỏ tác động kép thuộc dòng sản phẩm LELO Originals mới, được thiết kế để mang lại cực khoái kết hợp thông qua kích thích đồng thời điểm G và âm vật. Với thiết kế đẹp mắt, tiện dụng và pin bền lâu, KAYA™ mang đến một sản phẩm đáng tin cậy, hiệu suất cao, lý tưởng cho những khách hàng tìm kiếm cả tính linh hoạt và cường độ trong các sản phẩm khoái cảm. Là một sự bổ sung tuyệt vời cho bất kỳ bộ sưu tập cao cấp nào, nó kết hợp hình thức, chức năng và thương hiệu đáng tin cậy trong lĩnh vực chăm sóc sức khỏe tình dục.\n\nTinh dầu\nKAYA™ Originals mang đến cảm giác khoái lạc đích thực với sự kích thích đồng thời cả điểm G và âm vật.\n\n \n\n\n\n4 CHẾ ĐỘ RUNG MẠNH MẼ\nKAYA™ Originals mang đến 4 chế độ rung khác nhau, với cường độ từ tiếng rung nhẹ nhàng đến xung nhịp mạnh mẽ đầy thỏa mãn.\n\n\n\n4 THIẾT LẬP ĐỘC QUYỀN TRÊN ỨNG DỤNG\nBên cạnh bốn thiết lập cơ bản có sẵn mà không cần ứng dụng, bạn có thể mở khóa thêm bốn thiết lập khác, bao gồm hai chế độ thông thường và hai chế độ nâng cao - Kết liễu tôi và Mất kiểm soát.\n\nSạc USB & Chống nước hoàn toàn theo tiêu chuẩn IPX7.\nTận hưởng những khoái cảm bất tận mọi lúc mọi nơi, kể cả trong bồn tắm hoặc vòi sen.\n\nThời lượng pin cực lâu:\nKaya™ Originals có thời lượng pin kéo dài cho phép bạn tận hưởng nhiều giờ chơi liên tục.\n\n \n\nCÁCH SỬ DỤNG:\nĐồng hồ LELO Originals có tính năng khóa ứng dụng để đảm bảo thiết bị của bạn là hàng chính hãng, được cập nhật và an toàn khi sử dụng. Sau khi mở khóa thiết bị, bạn có thể chọn sử dụng ứng dụng hoặc không.\n\nVỚI ỨNG DỤNG LELO™:\n• Sạc tai nghe KAYA™ Originals của bạn trong 2 giờ trước khi sử dụng lần đầu.\n• Tải xuống ứng dụng LELO™ cho iOS hoặc Android.\n• Nhấn nút nguồn (M) trên thiết bị - đèn LED sẽ nhấp nháy (chế độ ghép nối).\n• Sau khi đăng ký và đăng nhập vào ứng dụng LELO™, hãy chọn dòng Originals và kết nối thiết bị của bạn.\n• Nhấn nút nguồn (M) một lần nữa để xác nhận ghép nối.\n• Thiết bị của bạn hiện đã được mở khóa và sẵn sàng sử dụng với ứng dụng.\n\nKHÔNG CẦN ỨNG DỤNG LELO™:\n• Sạc pin trong 2 giờ trước khi sử dụng lần đầu.\n• Bạn vẫn cần mở khóa thiết bị thông qua ứng dụng LELO™ khi sử dụng lần đầu (xem các bước ở trên).\n• Sau khi mở khóa: Nhấn + để bật thiết bị. Nhấn (M) để thay đổi chế độ. Sử dụng + và - để điều chỉnh cường độ. Nhấn và giữ (M) để tắt thiết bị.\n\nKhóa khi di chuyển:\n• Nhấn và giữ đồng thời nút + và - trong 3 giây để khóa hoặc mở khóa thiết bị khi di chuyển.\n\n -  Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo\n\n - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo. \n\n    Free ship toàn quốc .",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
