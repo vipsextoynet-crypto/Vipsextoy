@@ -60598,31 +60598,7 @@ export const products: Product[] = [
 <p>– Tiến hành tập luyện bài tập Kegel  cách thủ dâm cho nữ bằng tay cùng bóng với 3 giai đoạn như sau:</p>
 <ul><li>+ Giai đoạn 1: Dùng bóng có trọng lượng 49g, dùng liên tục trong 30 ngày, mỗi ngày 30 phút.</li><li>+ Giai đoạn 3: Dùng bóng có trọng lượng 75g, dùng liên tục trong 30 ngày, mỗi ngày 30 phút.</li><li>+ Giai đoạn 3: Dùng bóng có trọng lượng 95g, dùng liên tục trong 30 ngày, mỗi ngày 30 phút.</li><li>– Sau thời gian kể trên, âm đạo của chị em sẽ cảm nhận sự chuyển biến thần kỳ. Tăng cường se khít cho chàng say mê.</li><li>– Sau khi dùng xong cần vệ sinh bóng sạch sẽ để dùng tốt cho lần sau.</li><li>– Bảo quản nơi khô thoáng, tránh ánh nắng, bụi bẩn.</li><li>Chú ý: nếu bạn đang tự ti với vòng 1 không như ý, đọc ngay cách làm tăng vòng 1 hiệu quả và an toàn nhất hiện nay.</li></ul>`,
   },
-  {
-    slug: "may-rung-liem-diem-g-doc-dao-svakom-trysta-dc89h",
-    legacySlug: "dc89h-may-rung-liem-diem-g-doc-dao-svakom-trysta-dc89h",
-    sku: "DC89H",
-    name: "Máy rung liếm điểm G độc đáo Svakom Trysta (DC89H)",
-    category: "Đồ Chơi Nữ",
-    categorySlug: "do-choi-cao-cap-nu",
-    price: 2150000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-    description: "Máy rung liếm điểm G độc đáo Svakom Trysta (DC89H). Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
-    icon: "wave",
-    image: "/anh1/DC89H/01.jpg",
-    thumb: "/thumbs/anh1/DC89H/01.webp",
-    images: ["/anh1/DC89H/01.jpg"],
-    longDescription: `<h2>Mô tả sản phẩm</h2>
-<p>Svakom Trysta Thiết kế mới lạ, hai nhánh rung kích thích. Có một viên bi lăn trên đầu nhánh lớn như một đầu ngón tay khều liên tục lên điểm G khiến chị em nhột nhạt sướng khó tả và lên đỉnh nhanh chóng chỉ trong vài phút.</p>
-<p>Svakom Trysta có 7 chế độ rung khác nhau và 5 cường độ ở mỗi chế độ vì vậy bạn có tới 7x5=35 sự lựa chọn cho cuộc &quot;ân ái&quot; với đồ chơi tình dục siêu đẳng và siêu kích thích tha hồ để bạn khám phá cơ thể và hưởng trọn niềm vui hoan lạc.</p>
-<p>Svakom Trysta sử dụng động cơ với tần số cao mạnh mẽ có thể đưa bạn nhanh chóng đạt đỉnh chỉ trong vài phút</p>
-<p>Svakom Trysta được thiết kế hoàn toàn từ silicon y tế cao cấp hàng đầu có thể chống thấm nước tuyệt đối, đồng nghĩa với việc bạn có thể vui vẻ hàng giờ dưới nước như trong bể bơi, bồn tắm ...</p>
-<p>Svakom Trysta có 2 nhánh riêng biệt thiết kế với động cơ kích thích bên trong siêu hấp dẫn  với kiểu dáng sang trọng bắt mắt. Đặc biệt Svakom Trysta thiết kế độc đáo với phần đầu nhánh chính có bi lăn qua lăn lại tạo cảm giác kích thích như lưỡi liếm chà sát hay đầu ngón tay khều vào điểm G khiến chị em sướng điên dại.</p>
-<p>Động cơ rung kích thích đồng thời cả trong lẫn ngoài (vừa massager âm vật, vừa kích thích điểm G) cho chị em thăng hoa và phấn khích tột cùng của sung sướng.</p>
-<p>Bộ sản phẩm SVAKOM Trysta chính hãng, nguyên seal, nguyên kiện bao gồm: Túi nhung cao cấp, SVAKOM Trysta đồ chơi người lớn dương vật giả hai nhánh rung, cáp sạc SVAKOM USB, thẻ bảo hành quốc tế 12 tháng và sách hướng dẫn an toàn, hướng dẫn sử dụng.</p>
-<p>Tất cả sản phẩm đồ chơi người lớn SVAKOM chính hãng đều được bảo hành quốc tế 12 tháng.</p>`,
-  },
+
   {
     slug: "trung-rung-cao-cap-svakom-ella-dieu-khien-qua-dien-thoai-dc89f",
     legacySlug: "dc89f-trung-rung-cao-cap-svakom-ella-dieu-khien-qua-dien-thoai-dc89f",
