@@ -60615,38 +60615,17 @@ export const products: Product[] = [
   },
   {
     slug: "may-massage-2-dau-cao-cap-svakom-nymph-dc89q",
-    legacySlug: "dc89q-may-massage-2-dau-cao-cap-svakom-nymph-dc89q",
     sku: "DC89Q",
-    name: "Máy Massage 2 Đầu Cao Cấp Svakom NYMPH (DC89Q)",
+    name: "Máy Massage 2 Đầu Cao Cấp Svakom NYMPH",
     category: "Trứng Rung Nữ",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1950000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
+    blurb: "",
     description: "Máy Massage 2 Đầu Cao Cấp Svakom NYMPH (DC89Q). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89Q/01.jpg",
-    thumb: "/thumbs/anh1/DC89Q/01.webp",
     images: ["/anh1/DC89Q/01.jpg"],
-    longDescription: `<h2>NHỮNG NGÓN TAY KHOÁI LẠC</h2>
-<p>Hãy để những ngón tay dịu dàng, mềm mại ngọt ngào của SVAKOM Nymph rung mơn trớn qua làn da bạn, nó rung lên, lưu thông, kích thích những phần nhạy cảm nhất của bạn. Mang đến cho bạn luồng sóng kích thích đê mê khó tả, làm bạn hài lòng ngây ngất.</p>
-<p>Nhưng ngón tay thần thánh của SVAKOM Nymph có thể giúp bạn:</p>
-<h2>- Vuốt ve núm vú</h2>
-<h2>- Kích thích âm vật</h2>
-<h2>- Xoa bóp quy đầu</h2>
-<h2>- Mơn trớn tinh hoàn</h2>
-<h2>ĐẦU TRÒN LỢI HẠI</h2>
-<p>SVAKOM Nymph cũng có một đầu tròn mềm mại và linh hoạt với một động cơ rung tích hợp mạnh mẽ. Đầu silicon mềm, tròn cho phép thăm dò bên trong âm đạo cũng như kích thích nhiều điểm nhạy cảm bên ngoài cơ thể bạn.</p>
-<h2>THIẾT KẾ CHỐNG THẤM NƯỚC</h2>
-<p>SVAKOM Nymph được làm từ một khối silicon duy nhất. Với thiết kế này, SVAKOM Nymph có mức độ chống nước chuẩn IPX7. Vì vậy, bạn có thể dễ dàng để làm sạch sản phẩm sau khi dùng. Hoàn hảo cho niềm vui tình dục của bạn kể cả trong bồn tắm, vòi hoa sen hoặc phòng xông hơi.</p>
-<h2>PIN SẠC CAO CẤP</h2>
-<p>Với dung lượng pin lithium 300mAh, SVAKOM Nymph cung cấp 1,5 giờ hoạt động liên tục sau một lần sạc đầy chỉ trong 40 phút. Tất cả sản phẩm SVAKOM phải được sạc bằng bộ chuyển đổi điện áp / dòng điện đầu ra 5V / 1A.</p>
-<h2>CHẤT LIỆU AN TOÀN VỚI CƠ THỂ, THÂN THIỆN VỚI MÔI TRƯỜNG</h2>
-<p>SVAKOM Nymph được làm bằng silicone thân thiện với môi trường.</p>
-<p>Tất cả các sản phẩm SVAKOM đã vượt qua bài kiểm tra nghiêm ngặt nhất và tự hào đạt được các tiêu chuẩn cao nhất trước khi ra mắt.</p>
-<h2>THÔNG SỐ KỸ THUẬT</h2>
-<p>Bộ sản phẩm SVAKOM Nymph chính hãng, nguyên seal, nguyên kiện bao gồm: Túi nhung cao cấp, dụng cụ tình dục SVAKOM Nymph, cáp sạc SVAKOM USB, thẻ bảo hành quốc tế 12 tháng và sách hướng dẫn an toàn, hướng dẫn sử dụng.</p>
-<p>Sản phẩm SVAKOM chính hãng có thẻ bảo hành quốc tế 12 tháng.</p>`,
   },
   {
     slug: "mat-xa-diem-g-cao-cap-usa-svakom-cici-dc90y",
