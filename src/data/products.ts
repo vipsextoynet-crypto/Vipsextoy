@@ -27233,20 +27233,7 @@ export const products: Product[] = [
 <h2>Làm thế nào để điều chỉnh lực hút theo nhu cầu?</h2>
 <p>Thiết bị sử dụng hệ thống bơm kéo tay thủ công, cho phép người dùng linh hoạt kiểm soát và tăng giảm lực hút chân không sao cho phù hợp nhất với cảm giác của bản thân.</p>`,
   },
-  {
-    slug: "mat-xa-diem-g-cay-nam-rung",
-    legacySlug: "ms20n-mat-xa-diem-g-cay-nam-rung",
-    sku: "MS20N",
-    name: "Mát xa điểm G- cây nấm rung",
-    category: "Dương Vật Giả",
-    categorySlug: "duong-vat-gia-rung",
-    price: 990000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-    description: "Mát xa điểm G- cây nấm rung. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
-    icon: "wave",
-    image: "/anh/MS20N/01.jpg",
-  },
+
   {
     slug: "ngon-tay-rung-xung-dien-kich-thich-manh-liet-khi-moc-cua-cho-nu-co-ma-vang-24k",
     legacySlug: "dc10p-ngon-tay-rung-xung-dien-kich-thich-manh-liet-khi-moc-cua-cho-nu-co-ma-vang-24k",
