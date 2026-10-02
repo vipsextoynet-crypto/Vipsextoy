@@ -69203,6 +69203,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "may-mat-xa-rung-va-liem-duong-vat",
+    sku: "DC33H",
+    name: "Máy mát xa rung và liếm dương vật",
+    category: "Lưỡi Liếm Âm Đạo",
+    categorySlug: "luoi-liem-am-dao",
+    price: 550000,
+    blurb: "",
+    description: "Tính năng: Massage kích thích dương vật, giải tỏa nhu cầu sinh lý nam; tập luyện cho cậu nhỏ cương cứng hơn, bền bỉ hơn.\n\nChất liệu: Silicone và ABS.\n\nKích thước: 4.8cm x 14.8cm\n\nRung: 10 tần số.\n\nThời gian sạc : 60 phút\n\nThời gian sử dụng : 40 phút\n\nSạc USB\n\nChống nước: Có. \nHoạt động hoàn toàn tự động\n\n– Tận hưởng trải nghiệm đầy khoái cảm mà không tốn sức nhờ cơ chế chuyển động tịnh tiến và xoay 360 độ bằng động cơ, mô phỏng chân thực cảm giác quan hệ bằng miệng. Công nghệ kích thích kép\n\n– Kết hợp xung điện (3 mức cường độ) và chế độ rung mô phỏng chuyển động liếm của lưỡi, mang lại cảm giác mãnh liệt, đa tầng tác động trực tiếp lên quy đầu và thân dương vật. Chế độ luyện tập chuyên biệt cho quy đầu\n\n– Cấu trúc lòng trong được thiết kế tinh xảo với các gờ nổi giúp tăng độ nhạy cảm, cải thiện sức bền và hiệu suất tình dục thông qua các bài tập chuyên sâu. An toàn và chống nước\n\n– Chất liệu silicone TPE chuẩn y tế (bề mặt kín, không gây kích ứng), đạt chuẩn chống nước IPX7, dễ dàng vệ sinh và sử dụng ngay cả khi tắm. Kín đáo và có thể sạc lại\n\n– Động cơ vận hành cực êm (25dB), hỗ trợ sạc nhanh qua cổng USB-C (sạc 60 giờ cho 40 phút sử dụng). Đi kèm hộp đựng nhỏ gọn, tiện lợi khi mang theo du lịch.",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
