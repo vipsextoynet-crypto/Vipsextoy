@@ -15706,45 +15706,17 @@ export const products: Product[] = [
   },
   {
     slug: "svakom-alyn-may-rung-2-dau-voi-gan-bi-noi-va-song-rung-doc-dao-dc89ay",
-    legacySlug: "dc89ay-svakom-alyn-may-rung-2-dau-voi-gan-bi-noi-va-song-rung-doc-dao-dc89ay",
     sku: "DC89AY",
-    name: "Svakom Alyn- Máy rung 2 đầu với gân bi nổi và sóng rung độc đáo (DC89AY)",
+    name: "Svakom Alyn- Máy rung 2 đầu với gân bi nổi và sóng rung độc đáo",
     category: "Dương Vật Giả",
     categorySlug: "duong-vat-gia-rung",
     price: 1950000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
+    blurb: "",
     description: "Svakom Alyn- Máy rung 2 đầu với gân bi nổi và sóng rung độc đáo (DC89AY). Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89AY/01.jpg",
-    thumb: "/thumbs/anh1/DC89AY/01.webp",
     images: ["/anh1/DC89AY/01.jpg", "/anh1/DC89AY/05.png", "/anh1/DC89AY/06.png", "/anh1/DC89AY/07.png", "/anh1/DC89AY/08.png", "/anh1/DC89AY/09.png", "/anh1/DC89AY/10.png", "/anh1/DC89AY/11.png", "/anh1/DC89AY/12.png"],
-    longDescription: `<p>Thông tin chi tiết của Máy massage kích thích điểm G và âm vật Svakom Aylin DC89AY hàng chính hãng.</p>
-<p>Tính năng: Kích thích, mát xa âm đạo, âm vật và những vị trí khác trên cơ thể, trợ tăng khoái cảm khi quan hệ tình dục.</p>
-<h2>Chất liệu: Silicon an toàn</h2>
-<ul><li>Kích thước: 215mm x 66mm x 34mm.</li><li>Trọng lượng: 183g.</li><li>Chế độ rung: 5 chế độ.</li></ul>
-<h2>Cường độ rung: 5 cường độ rung</h2>
-<ul><li>Pin: Lithium Polymer.</li><li>Dung lượng pin: 600mAh.</li><li>Thời gian sạc: 3 tiếng.</li><li>Thời gian sử dụng: 2 tiếng.</li></ul>
-<h2>Sạc : USB</h2>
-<h2>Chống thấm nước</h2>
-<p>Thương hiệu: Svakom.</p>
-<p>Xuất xứ: USA.</p>
-<p>Hình dáng của máy massage Svakom Aylin này vô cùng sang trọng và bắt mắt với màu xanh dương đậm khiến cho chị em cảm thấy hưng phấn hơn mỗi khi sử dụng.</p>
-<p>- Phần đầu của Svakom Aylin DC89AY có thiết kế các đường vân nổi dọc theo dạng gợn sóng giúp bạn dễ dàng trước nó vào bên trong âm đạo của mình để kích thích vào những điểm nhạy cảm nhất.</p>
-<p>- Đồng thời trên phần thân máy còn có các đường cong gợn sóng giúp làm tăng thêm lực ma sát vào thành âm đạo khiến chị em phải rên rỉ liên tục không ngừng.</p>
-<p>Nhờ vào thiết kế dạng cầm tay nên chị em có thể dễ dàng luồn lách sâu vào bên trong cô bé hoặc dễ dàng kích thích vào những vị trí nhạy cảm khác trên cơ thể như nhũ hoa, đùi, eo… để giải tỏa nhu cầu sinh lý của mình.</p>
-<p>Phần đầu của Svakom Aylin có thiết kế các đường vân nổi dọc theo dạng gợn sóng giúp bạn dễ dàng trước nó vào bên trong âm đạo của mình để kích thích vào những điểm nhạy cảm nhất.</p>
-<p>- Máy massage Svakom Aylin DC89Ay sở hữu tính năng rung kép với 5 chế độ rung khác nhau và 5 cường độ rung từ nhẹ nhàng cho đến mãnh liệt.</p>
-<p>- Cho nên khi đút máy vào bên trong cô bé thì phần đầu sẽ kích thích âm đạo còn nhánh sẽ kích thích vào hột le khiến chị em sướng đến tột độ.</p>
-<p>- Đồng thời ở trên đầu còn có thêm tính năng đẩy nhấp nhô nên nó sẽ va chạm liên tục vào điểm G để tạo ra một khoái cảm vô cùng mới lạ mà chị em chưa từng trải nghiệm qua khi thủ dâm.</p>
-<p>Svakom Aylin có nhánh chính và phụ được thiết kế dạng gợn sóng giúp làm tăng khoái cảm khi thủ dâm.</p>
-<p>Hướng dẫn sử dụng Máy massage kích thích điểm G và âm vật Svakom Aylin DC89AY</p>
-<p>- Vệ sinh Svakom Aylin trước và sau khi sử dụng bằng xà phòng dịu nhẹ hoặc nước muối sinh lý để diệt khuẩn. Dùng khăn sạch lau khô khi sử dụng hoặc khi bảo quản.</p>
-<p>- Sạc đầy pin trước khi sử dụng. Bật nút khởi động sextoy rồi lựa chọn tư thế phù hợp thể thủ dâm.</p>
-<p>- Dùng thêm Gel bôi trơn gốc nước để tạo độ trơn mượt và tăng thêm khoái cảm khi tự sướng.</p>
-<p>- Bảo quản sextoy nơi sạch sẽ, thoáng mát và tránh nhiệt độ cao quá 30 độ C.</p>
-<p>Cách sử dụng:</p>
-<ul><li>– Bấm giữ nút “S” khoảng 1.5 giây để Bật/Tắt.</li><li>– Bấm đúp nút “S” để chuyển đổi hoạt động của 2 nhánh.</li><li>– Bấm đúp vào nút “△” để thay đổi chế độ rung.</li><li>– Bấm đúp vào nút “▽” để quay lại chế độ rung trước.</li><li>– Bấm 1 lần vào nút “△” để tăng cường độ rung.</li><li>– Bấm 1 lần vào nút “▽” để giảm cường độ rung.</li><li>Lưu ý: Không đưa sextoy cá nhân cho người khác dùng chung. Nếu dùng khi quan hệ thì phải biết rõ sức khỏe của đối phương để tránh lây bệnh xã hội qua đường tình dục</li><li>- Giao hàng nhanh chóng, che tên sản phẩm.</li><li>- Tại HCM &amp; HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày</li></ul>`,
   },
   {
     slug: "sam-am-dao-gia-tu-dong-svakom-sam-rung-bu-cuc-phe-sam",
