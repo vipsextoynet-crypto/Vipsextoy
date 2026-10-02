@@ -14585,50 +14585,7 @@ export const products: Product[] = [
 <h2>- Lắp máy rung vào quần chip rồi mang như mặc như quần lót bình thường</h2>
 <ul><li>- Tải và cài đặt app svakom trên điện thoại.</li><li>- Trong quá trình sử dụng, bấm nút nguồn lên và điều khiển từ xa qua app.</li><li>- Sau khi sử dụng xong, tắt nguồn trên máy rung và trên điều khiển xa, vệ sinh sạch sẽ lau khô rồi mới bảo quản</li><li>- Để nơi khô thoáng , sạch sẽ tránh bụi bẩn và ánh nắng trực tiếp.</li><li>- Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo.</li><li>- Tại HCM &amp; HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày</li><li>Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.</li></ul>`,
   },
-  {
-    slug: "svakom-viviana-trung-rung-kich-thich-xung-dien-dieu-khien-qua-app-dc89va",
-    legacySlug: "dc89va-svakom-viviana-trung-rung-kich-thich-xung-dien-dieu-khien-qua-app-dc89va",
-    sku: "DC89VA",
-    name: "Svakom Viviana Trứng rung kích thích xung điện điều khiển qua app (DC89VA)",
-    category: "Lưỡi Liếm Âm Đạo",
-    categorySlug: "luoi-liem-am-dao",
-    extraCategorySlugs: ["trung-rung-tinh-yeu"],
-    price: 1750000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Svakom Viviana Trứng rung kích thích xung điện điều khiển qua app (DC89VA). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "/anh1/DC89VA/01.jpg",
-    thumb: "/thumbs/anh1/DC89VA/01.webp",
-    images: ["/anh1/DC89VA/01.jpg", "/anh1/DC89VA/06.jpg", "/anh1/DC89VA/07.jpg", "/anh1/DC89VA/09.jpg", "/anh1/DC89VA/10.jpg", "/anh1/DC89VA/12.jpg", "/anh1/DC89VA/13.jpg"],
-    longDescription: `<p>Tính năng: Kích thích khoái cảm cho nữ, giúp phái nữ thủ dâm được nhiều khoái cảm hơn.</p>
-<h2>Chất liệu: Silicone, ABS</h2>
-<h2>Màu sắc: Xanh</h2>
-<h2>Kích thước: 230mm x 32mm</h2>
-<h2>Trọng lượng: 72g</h2>
-<h2>Chống thấm nước: Kháng nước chuẩn IPX7</h2>
-<p>Chức năng: Rung 5 chế độ 5 tần số, kích thích vi dòng EMS xung điện 5 mức, điều khiển qua app</p>
-<h2>Dung lượng pin: 400mAh</h2>
-<h2>Thời gian sạc: 1 – 1.5 giờ</h2>
-<h2>Thời gian sử dụng: 0.8 – 3 giờ</h2>
-<h2>Thương hiệu: Svakom</h2>
-<h2>Xuất xứ: USA</h2>
-<p>Cấu tạo và công dụng của Svakom Viviana Trứng rung kích thích xung điện</p>
-<p>Svakom Viviana Trứng rung kích thích xung điện đã được Svakom chế tạo từ những chất liệu cao cấp với bề mặt là được làm từ chất liệu silicone y tế. Ngoài sự lành tính ra thì chất liệu silicone y tế còn có đặc tính mềm mại và dẻo dai nên mang tới sự êm ái cho chị em khi thủ dâm. Còn phần khung của trứng rung thì được cấu tạo từ chất liệu nhựa ABS mang đến sự chắc chắn và bền bỉ cho sản phẩm.</p>
-<p>Ngoài ra, điểm đặc biệt của trứng Svakom Viviana này đó chính là được tích hợp công nghệ xung điện EMS. Không như những dòng sextoy xung điện khác có thể sẽ gây ra sự sốc điện mạnh khiến bạn bị giật mình hoặc thậm chí có người còn cảm thấy đau đớn.</p>
-<p>Nhưng với xung điện vi dòng EMS mang tần số thấp nên chỉ đem đến cảm giác tê tái nhẹ nhàng, đủ để kích hoạt các khoái cảm tiềm ẩn mang đến sự sung sướng tột đỉnh cho chị em. Xung điện vi dòng EMS mang đến sự an toàn cho người sử dụng vì xung điện EMS thường được sử dụng trong các lĩnh vực thẩm mỹ làm đẹp và y tế.</p>
-<p>Về phần thiết kế thì Svakom Vivian có thiết kế khá nhỏ nhắn, phù hợp với những bạn nữ thích chơi những món đồ chơi có kích thước nhỏ để không làm ảnh hưởng đến “cô bé”.</p>
-<p>Tuy thiết kế hình dáng nhỏ nhắn nhưng Svakom Vivian lại có khả năng kích thích vô cùng mạnh mẽ sẽ mang tới cho các bạn nữ những khoái cảm cao trào chưa từng có.</p>
-<p>Trứng rung với thiết kế khép kín còn giúp cho trứng rung có khả năng chống thấm nước tốt. Vì thế, các bạn có thể tự do sử dụng để thủ dâm ở những nơi ẩm ướt như dưới vòi hoa sen, bồn tắm, hồ bơi,…để nâng cao trải nghiệm tự sướng mới lạ và nhiều khoái cảm hơn.</p>
-<p>Không những thế, Svakom Viviana còn có tính năng điều khiển qua app bằng kết nối bluetooth để các bạn có thể điều khiển được nhiều tính năng hơn và có thể sáng tạo những kiểu rung mới của riêng mình.</p>
-<p>Đồng thời, bạn còn có thể kết nối với bạn tình đang ở xa để người ấy trực tiếp kiểm soát quyền điều khiển để bạn tận hưởng khoái cảm.</p>
-<p>Về phần động cơ thì Svakom Viviana được trang bị động cơ rung mạnh mẽ với 5 chế độ rung khác nhau và 5 cường độ từ nhẹ đến mạnh.</p>
-<p>Khi thủ dâm các bạn có thể thỏa thích điều chỉnh nhiều chế độ và tần số khác nhau để cảm nhận được nhiều cung bậc khoái cảm hơn.</p>
-<p>Cách sử dụng, vệ sinh và bảo quản Trứng rung kích thích bằng xung điện Svakom Viviana</p>
-<p>Vệ sinh trứng rung trước và sau khi quan hệ bằng nước và xà phòng dịu nhẹ.</p>
-<p>Cách điều khiển:</p>
-<ul><li>-Nhấn giữ nút chữ “S” để khởi động và tắt động cơ rung, nhấn 1 lần để chuyển đổi cường độ rung, nhấn đúp 2 cái để chuyển đổi chế độ rung.</li><li>-Nhấn giữ nút hình gợn sóng để khởi động chức năng xung điện, nhấn 1 lần để chuyển đổi 5 mức xung điện.</li><li>Chú ý: Xung điện chỉ điều khiển trực tiếp trên trứng rung, kết nối qua app không điều chỉnh được xung điện.</li><li>Bảo quản trứng rung ở nơi khô thoáng, kín đáo, có nhiệt độ thấp. Tránh để ở nơi có ánh nắng mặt trời chiếu vào. Để xa tầm tay trẻ em.</li><li>Lưu ý: Trứng rung là vật dụng cá nhân không nên sử dụng chung với người khác để tránh lây nhiễm các bệnh qua đường tình dục.</li><li>- Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo.</li><li>- Tại HCM &amp; HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày</li><li>Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.</li></ul>`,
-  },
+
   {
     slug: "coc-thu-dam-tu-dong-nho-gon-xoay-360-do-manh-me-ad34e",
     legacySlug: "ad34e-coc-thu-dam-tu-dong-nho-gon-xoay-360-do-manh-me-ad34e",
