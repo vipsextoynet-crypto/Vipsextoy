@@ -27403,10 +27403,7 @@ Nhờ kết nối qua ứng dụng thông minh, đối phương có thể nhận
 <h2>Làm thế nào để điều chỉnh lực hút theo nhu cầu?</h2>
 <p>Thiết bị sử dụng hệ thống bơm kéo tay thủ công, cho phép người dùng linh hoạt kiểm soát và tăng giảm lực hút chân không sao cho phù hợp nhất với cảm giác của bản thân.</p>`,
   },
-<<<<<<< HEAD
 
-=======
->>>>>>> 05391fc0 (Update product images)
   {
     slug: "ngon-tay-rung-xung-dien-kich-thich-manh-liet-khi-moc-cua-cho-nu-co-ma-vang-24k",
     legacySlug: "dc10p-ngon-tay-rung-xung-dien-kich-thich-manh-liet-khi-moc-cua-cho-nu-co-ma-vang-24k",
@@ -49593,10 +49590,7 @@ Tất cả các thành phần được sử dụng trong sản xuất đồ ch�
 <p>Hướng dẫn cách sử dụng:</p>
 <ul><li>+ Vệ sinh sạch sản phẩm trước và sau khi sử dụng bằng cồn y tế hoăc nước muối pha loãng.</li><li>+ Sạc đầy pin trước khi sử dụng.</li><li>+ Gắn sản phẩm lên bề mặt phẳng: mặt bàn, mặt kính hoặc tường đá hoa chọn góc và hướng phù hợp dùng ốc vít chốt lại cho chắc chắn.</li><li>+ Mở nắp máy thủ dâm thêm gel bôi trơn vào bên trong ruột silicon để tăng độ trơn tru dễ vào</li><li>+ Mở màn hình chiếu phim giúp các anh tăng cảm xúc thăng hoa hơn trong khi thực hiện các thao tác với sản phẩm.</li><li>+ Bật chế độ rung và bắt đầu thao tác cùng sản phẩm giống như khi quan hệ với nàng</li><li>+ Sau khi thỏa mãn cho dương vật ra khỏi máy thủ dâm,vệ sinh theo các bước như trong hình minh hoạ bên trên</li><li>+ Bảo quản nơi khô thoáng tránh bụi bẩn, không để sản phẩm tiếp xúc nơi có nhiệt độ phòng cao.</li></ul>`,
   },
-<<<<<<< HEAD
 
-=======
->>>>>>> 05391fc0 (Update product images)
   {
     slug: "may-thu-dam-tu-dong-leten-a380-bu-mut-cuc-dinh-ad33c",
     legacySlug: "ad33c-may-thu-dam-tu-dong-leten-a380-bu-mut-cuc-dinh-ad33c",
@@ -68172,10 +68166,7 @@ Sản phẩm dành cho người trên 18 tuổi.`,
 <h3>Thiết bị có dễ dàng tháo lắp và vệ sinh sau mỗi lần dùng không?</h3>
 <p>Có, phần ruột silicone có thể tháo rời hoàn toàn khỏi lớp vỏ ABS bên ngoài, kết hợp khả năng kháng nước 100% giúp việc rửa sạch và làm khô trở nên vô cùng nhanh chóng.</p>`,
   },
-<<<<<<< HEAD
 
-=======
->>>>>>> 05391fc0 (Update product images)
   {
     slug: "am-dao-gia-bom-nuoc-doc-dao-cho-cam-giac-thang-hoa-khac-la-ad53",
     legacySlug: "ad53-am-dao-gia-bom-nuoc-doc-dao-cho-cam-giac-thang-hoa-khac-la-ad53",
