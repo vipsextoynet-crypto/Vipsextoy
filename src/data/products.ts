@@ -69173,6 +69173,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "may-rung-diem-g-cao-cap-lelo-moka-originals-co-ket-noi-app",
+    sku: "DC82D",
+    name: "Máy rung điểm G cao cấp Lelo MOKA Originals có kết nối App",
+    category: "Dụng Cụ Massage, Chày Rung",
+    categorySlug: "may-massage-ca-nhan",
+    price: 2750000,
+    blurb: "",
+    description: "THÔNG SỐ KỸ THUẬT:\n Chất liệu: Silicone an toàn cho cơ thể, nhựa ABS\nBề mặt: Mịn\nKích thước: 192 x 76 x 37 mm / 7.6 x 3 x 1.5 in\nChiều dài có thể đưa vào: 116 mm / 4.6 in\nTrọng lượng: 100g / 3.5 oz\nPin: Li-Ion 200 mAh\nThời gian sạc: lên đến 2 giờ ở 5 V 200 mA\nCông suất định mức:\nĐầu vào: 5V 200 mA 1 W\nĐầu ra: 3.7 V 200 mA 0.74 W\nThời gian sử dụng: Lên đến 2 giờ\n\nCÁCH SỬ DỤNG:\nĐồng hồ LELO Originals có tính năng khóa ứng dụng để đảm bảo thiết bị của bạn là hàng chính hãng, được cập nhật và an toàn khi sử dụng. Sau khi mở khóa thiết bị, bạn có thể chọn sử dụng ứng dụng hoặc không.\n\nVỚI ỨNG DỤNG LELO™:\n• Sạc tai nghe MOKA™ Originals của bạn trong 2 giờ trước khi sử dụng lần đầu.\n• Tải xuống ứng dụng LELO™ cho iOS hoặc Android.\n• Nhấn nút nguồn (M) trên thiết bị - đèn LED sẽ nhấp nháy (chế độ ghép nối).\n• Sau khi đăng ký và đăng nhập vào ứng dụng LELO™, hãy chọn dòng sản phẩm Originals và kết nối thiết bị của bạn.\n• Nhấn nút nguồn (M) một lần nữa để xác nhận ghép nối.\n• Thiết bị của bạn hiện đã được mở khóa và sẵn sàng sử dụng với ứng dụng.\n\nKHÔNG CẦN ỨNG DỤNG LELO™:\n• Sạc pin trong 2 giờ trước khi sử dụng lần đầu.\n• Bạn vẫn cần mở khóa thiết bị thông qua ứng dụng LELO™ khi sử dụng lần đầu (xem các bước ở trên).\n• Sau khi mở khóa: Nhấn + để bật thiết bị. Nhấn (M) để thay đổi chế độ. Sử dụng + và - để điều chỉnh cường độ. Nhấn và giữ (M) để tắt thiết bị.\n\nKhóa khi di chuyển:\n• Nhấn và giữ đồng thời nút + và - trong 3 giây để khóa hoặc mở khóa thiết bị khi di chuyển.\n\n-  Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo\n\n - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
