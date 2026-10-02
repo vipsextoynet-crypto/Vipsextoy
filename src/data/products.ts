@@ -860,43 +860,18 @@ export const products: Product[] = [
   },
   {
     slug: "duong-vat-silicon-sieu-mem-rung-thut-sac-usb-thiet-ke-hien-dai-da-chuc-nang",
-    legacySlug: "dv44y-duong-vat-silicon-sieu-mem-rung-thut-sac-usb-thiet-ke-hien-dai-da-chuc-nang",
     sku: "DV44Y",
     name: "Dương Vật Silicon Siêu Mềm Rung Thụt Sạc USB Đa Chức Năng",
     category: "Dương Vật Giả",
     categorySlug: "duong-vat-gia-rung",
     price: 1650000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-    description: "",
+    blurb: "",
+    description: "Tính năng: Massage và kích thích âm vật, âm đạo cho nữ rất hiệu quả, giải tỏa stress thật tốt\n\nĐối tượng sử dụng: Nữ\n\nChất liệu: Silicone cao cấp an toàn và lành tính\n\nMàu sắc: Màu da\n\nChế độ: 3 chế độ : rung, thụt, bắn tinh\n\nTần số rung :6 tần số\n\nKích thước : 4x 29cm, chiều dai sử dụng : 16cm\n\nPin: Sạc pin USB, sạc đầy trong 2h\n\nChống thấm nước tuyệt đối\n\nNhập khẩu: Hồng Kong\n\nDương vật dựa trên thiết kế đầy đủ tính năng của một người đàn ông trưởng thành nên việc mô phỏng nó giống với dương vật thật cũng cực kỳ tinh xảo và bắt mắt. Chất liệu silicone mềm mịn cho độ kích thích và va chạm giống thật nhất vì thế tạo được khoái cảm nhiều hơn. Chức năng rung thụt  khiến cho \"cô bé\" liên tục tiết ra chất nhờn giúp cho cuộc yêu thực sự thăng hoa và quá đã.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DV44Y/dv44y47.jpg",
-    thumb: "/thumbs/anh1/DV44Y/dv44y47.webp",
-    images: [
-          "/anh1/DV44Y/dv44y41.jpg",
-          "/anh1/DV44Y/dv44y42.jpg",
-          "/anh1/DV44Y/dv44y43.jpg",
-          "/anh1/DV44Y/dv44y44.jpg",
-          "/anh1/DV44Y/dv44y45.jpg"
-        ],
+    images: ["/anh1/DV44Y/dv44y41.jpg", "/anh1/DV44Y/dv44y42.jpg", "/anh1/DV44Y/dv44y43.jpg", "/anh1/DV44Y/dv44y44.jpg", "/anh1/DV44Y/dv44y45.jpg"],
     sensitive: true,
-    longDescription: `<p>Dành cho những phụ nữ đang tìm kiếm một giải pháp chăm sóc sức khỏe sinh lý cá nhân chuyên sâu, Dương Vật Cao Cấp DeePin Rung Liếm Thụt Cực Sâu (DV44Y) là thiết bị massage cao cấp kết hợp đồng thời công nghệ thụt tịnh tiến, tính năng rung đa chế độ và thiết kế kích thích điểm G vượt trội.</p>
-<h2>Thiết kế &amp; chất liệu</h2>
-<p>Sản phẩm nổi bật với kiểu dáng mô phỏng tinh xảo cùng tông màu da tự nhiên, được hoàn thiện từ chất liệu silicone cao cấp an toàn và êm ái cho làn da. Điểm nhấn công nghệ của thiết bị nằm ở cơ chế thụt tự động với hành trình di chuyển lên đến 3.8cm, giúp tác động sâu và chính xác. Bên cạnh đó, nhánh massage phụ được trang bị 3 gờ nhám tinh tế hỗ trợ tác động đa điểm. Thiết bị sở hữu khả năng chống thấm nước tuyệt đối và tích hợp pin sạc USB với thời gian sạc đầy nhanh chóng trong 2 giờ.</p>
-<h2>Công dụng thực tế</h2>
-<p>- Cơ chế thụt tự động 3.8cm: Trang bị 3 chế độ thụt tịnh tiến sâu, tập trung tác động vào điểm G giúp giải tỏa căng thẳng và mệt mỏi hiệu quả.</p>
-<p>- Kích thích kép với 7 chế độ rung: Nhánh rung linh hoạt kết hợp 3 chi tiết gờ nhám giúp massage nhẹ nhàng và gia tăng cảm giác tại vùng nhạy cảm bên ngoài.</p>
-<p>- Chất liệu silicone mịn màng: Bề mặt mềm mại mang lại cảm giác tiếp xúc tự nhiên, êm dịu và an toàn cho người sử dụng.</p>
-<p>- Chống nước toàn diện: Khả năng kháng nước 100% giúp việc bảo quản, sử dụng và vệ sinh thiết bị trở nên tiện lợi, an toàn.</p>
-<h2>Ai nên dùng sản phẩm này</h2>
-<p>Dương Vật Cao Cấp DeePin DV44Y là lựa chọn lý tưởng cho chị em phụ nữ muốn nâng cao chất lượng đời sống tinh thần, tìm kiếm phương pháp thư giãn cá nhân an toàn và hiện đại. Thiết bị đặc biệt phù hợp với những ai yêu thích dòng sản phẩm hỗ trợ có công nghệ thụt tự động kết hợp đa chức năng rung liếm để tối ưu hóa trải nghiệm riêng tư.</p>
-<h2>Câu hỏi thường gặp</h2>
-<h2>Thiết bị DeePin DV44Y sử dụng nguồn điện nào và sạc trong bao lâu?</h2>
-<p>Sản phẩm sử dụng công nghệ sạc pin qua cổng USB tiện lợi. Bạn chỉ cần khoảng 2 giờ để sạc đầy pin là có thể sử dụng cho các lần thư giãn tiếp theo.</p>
-<h2>Cách vệ sinh và bảo quản sản phẩm đúng cách như thế nào?</h2>
-<p>Trước và sau khi dùng, bạn nên rửa sạch thiết bị bằng xà phòng nhẹ, dung dịch vệ sinh phụ nữ hoặc cồn y tế. Sau đó, lau khô và bảo quản nơi thoáng mát, tránh bụi bẩn và nhiệt độ cao.</p>
-<h2>Sản phẩm có dùng được trong nước không?</h2>
-<p>Có, thiết bị được thiết kế chống thấm nước tuyệt đối, hỗ trợ người dùng dễ dàng vệ sinh dưới nước mà không lo ảnh hưởng đến linh kiện bên trong.</p>`,
   },
   {
     slug: "bao-don-den-braveman-co-rung-gai-gan-ho-tro-tang-kich-thuoc-va-tang-cam-giac",
