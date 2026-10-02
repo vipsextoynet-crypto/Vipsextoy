@@ -69215,6 +69215,19 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "duong-vat-yeain-lilith-dildo-rung-thut-suoi-am-dieu-khien-qua-app",
+    sku: "DV60M",
+    name: "Dương vật Yeain LiLith Dildo rung thụt sưởi ấm điều khiển qua app",
+    category: "Dương Vật Giả",
+    categorySlug: "duong-vat-gia-rung",
+    price: 1250000,
+    blurb: "",
+    description: "Tính năng: Massager điểm G, tự sướng cho nữ, giải tỏa sinh lý nữ hiệu quả\n\nChất liệu: Silicone an toàn.\nChức năng: Rung, thụt, tỏa nhiệt, điểu khiển qua app\n\nNguồn: Sạc USB\n\nThời gian sạc : 2h\n\nThời gian sử dụng : 1h\n\nTổng chiều dài: 20.8cm\n\nChiều dài sử dụng : 15cm\nĐường kính: 3.8 cm\n\nTrọng lượng : 455g\n\nThương hiệu : Yeain\n\nXuất xứ: Đài loan",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+    sensitive: true,
+  },
 ];
 
 export function getProduct(slug: string) {
