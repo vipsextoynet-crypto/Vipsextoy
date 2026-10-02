@@ -66410,45 +66410,16 @@ export const products: Product[] = [
   },
   {
     slug: "den-pin-thu-dam-cao-cap-usa-fleshlight-stoya-girl-dc17k",
-    legacySlug: "dc17k-den-pin-thu-dam-cao-cap-usa-fleshlight-stoya-girl-dc17k",
     sku: "DC17K",
-    name: "Đèn pin thủ dâm cao cấp USA Fleshlight Stoya Girl (DC17K)",
+    name: "Âm đạo giả cao cấp Fleshlight Girls",
     category: "Âm Đạo Giả",
     categorySlug: "am-dao-gia",
     price: 1450000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Đèn pin thủ dâm cao cấp USA Fleshlight Stoya Girl (DC17K). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
+    blurb: "",
+    description: "*  Lưu ý:\nĐể bạn đạt được sự thăng hoa tuyệt đối khi dùng đèn pin thủ dâm DC17K. Shop giới thiệu tới bạn một số sản phẩm dùng kèm theo đó , đảm bạn có được cảm giác đê mê mà chưa bao giờ cảm nhận:\n \n1. Với đèn pin thủ dâm bạn cần dùng với gel làm trơn, có thể dùng các loại chất lượng tùy thuộc vào sở thích mình. Nếu thiếu gel làm trơn bạn đã giảm đi một nửa sự thăng hoa của mình đấy.\n \n2. Đối với các anh muốn mình thật khỏe, thời gian hành sự với DC17K tdài lâu thì cần dùng một số loại thuốc xịt thêm thời gian quan hệ. Các loại thuốc xịt sẽ hỗ trợ các anh tận hưởng giây phút sung sướng lâu hơn rất nhiều. Có lẽ đa số các quý ông cần đến bí quyết như vậy bởi sextoy  thực sự khít khao, ôm sát và khi các anh di chuyển cảm nhận giống y như thật!\n - Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "/anh1/DC17K/01.jpg",
-    thumb: "/thumbs/anh1/DC17K/01.webp",
-    images: ["/anh1/DC17K/01.jpg"],
-    longDescription: `<p>Dành riêng cho những người mới bắt đầu tìm kiếm một thiết bị hỗ trợ thư giãn cá nhân kín đáo, đèn pin thủ dâm cao cấp USA Fleshlight Stoya Girl (DC17K) mang đến trải nghiệm thân thiện, dễ sử dụng nhờ thiết kế nhỏ gọn và cấu trúc khoa học.</p>
-
-<h2>Ưu điểm chính</h2>
-<ul>
-    <li>Thiết kế nhỏ gọn, kiểu dáng hiện đại giúp dễ dàng cầm nắm và mang theo khi cần thiết.</li>
-    <li>Chất liệu silicone cao cấp đạt chuẩn an toàn kết hợp vỏ nhựa cứng bền chắc, mang lại cảm giác mềm mại và thoải mái khi tiếp xúc.</li>
-    <li>Cấu trúc bên trong được tinh chỉnh tối ưu, hỗ trợ tăng cường trải nghiệm thư giãn tự nhiên.</li>
-    <li>Dễ dàng tháo rời các bộ phận để làm sạch nhanh chóng, đảm bảo vệ sinh sau mỗi lần sử dụng.</li>
-    <li>Thiết kế dạng đèn pin ngụy trang kín đáo, bảo mật tuyệt đối cho không gian riêng tư của bạn. Bạn cũng có thể khám phá thêm các thiết bị độc đáo khác như <a href="https://vipsextoy.com/product/ad41-am-dao-nguy-trang-hinh-chai-bia-qua-tang-cuc-doc-ad41">mẫu âm đạo giả ngụy trang hình chai bia</a> để làm phong phú thêm trải nghiệm cá nhân.</li>
-</ul>
-
-<h2>Cảm nhận khi sử dụng</h2>
-<p>Sản phẩm mang lại cảm giác thư giãn nhẹ nhàng, rất phù hợp với người dùng mới nhờ thao tác sử dụng đơn giản và trực quan. Để quá trình trải nghiệm thêm phần mượt mà và thoải mái, bạn nên kết hợp cùng một lượng vừa đủ gel bôi trơn gốc nước. Kết cấu bên trong mô phỏng chân thực kết hợp cùng chất liệu thân thiện với cơ thể giúp bạn dễ dàng làm quen và tận hưởng trọn vẹn khoảnh khắc riêng tư. Ngoài ra, nếu bạn yêu thích sự đổi mới trong thiết kế và tính năng, hãy tham khảo thêm <a href="https://vipsextoy.com/product/dc13d-do-choi-cao-cap-nhat-ban-tenga-airtech-twist">dòng đồ chơi cao cấp Nhật Bản Tenga Airtech Twist</a> với công nghệ xoắn độc đáo.</p>
-
-<h2>Hướng dẫn vệ sinh đúng cách</h2>
-<p>Việc vệ sinh sản phẩm đúng quy trình giúp kéo dài tuổi thọ và bảo vệ sức khỏe cá nhân của bạn. Trước và sau mỗi lần sử dụng, hãy tháo rời phần lõi silicone bên trong ra khỏi lớp vỏ nhựa cứng. Rửa sạch các bộ phận bằng nước sạch hoặc dung dịch vệ sinh chuyên dụng dịu nhẹ, sau đó để khô tự nhiên ở nơi thoáng mát trước khi cất giữ. Tránh để sản phẩm tiếp xúc trực tiếp với nguồn nhiệt cao hoặc các vật sắc nhọn có thể làm hỏng chất liệu.</p>
-
-<h2>Câu hỏi thường gặp</h2>
-<h3>Sản phẩm này có phù hợp với người mới bắt đầu không?</h3>
-<p>Có, DC17K sở hữu thiết kế nhỏ gọn, cấu trúc thân thiện và thao tác sử dụng cực kỳ đơn giản, là lựa chọn lý tưởng cho những người lần đầu trải nghiệm thiết bị hỗ trợ cá nhân.</p>
-
-<h3>Cách bảo quản sản phẩm như thế nào để dùng được lâu dài?</h3>
-<p>Sau khi vệ sinh và để khô tự nhiên hoàn toàn, bạn nên bảo quản sản phẩm ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp và nhiệt độ cao để giữ cho chất liệu silicone luôn bền đẹp.</p>
-
-<h3>Đơn hàng giao đến có đảm bảo tính riêng tư và kín đáo không?</h3>
-<p>Tất cả đơn hàng đều được đóng gói kỹ càng, che tên sản phẩm hoàn toàn trước khi giao đến tay khách hàng, đảm bảo sự riêng tư tuyệt đối cho bạn.</p>`,
+    icon: "wave",
+    sensitive: true,
   },
   {
     slug: "bup-be-tinh-duc-03-co-nang-nong-bong-dc02b",
