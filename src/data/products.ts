@@ -42999,66 +42999,17 @@ export const products: Product[] = [
   },
   {
     slug: "mat-xa-nhu-hoa-va-diem-g-mini-sieu-doc-cookie-candy-dc89k",
-    legacySlug: "dc89k-mat-xa-nhu-hoa-va-diem-g-mini-sieu-doc-cookie-candy-dc89k",
     sku: "DC89K",
-    name: "Mát xa nhũ hoa và điểm G mini siêu độc Cookie & Candy (DC89K)",
+    name: "Mát xa nhũ hoa và điểm G mini siêu độc Cookie & Candy",
     category: "Trứng Rung Nữ",
     categorySlug: "trung-rung-tinh-yeu",
-    extraCategorySlugs: ["may-massage-ca-nhan"],
     price: 1750000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
+    blurb: "",
     description: "Mát xa nhũ hoa và điểm G mini siêu độc Cookie & Candy (DC89K). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89K/01.jpg",
-    thumb: "/thumbs/anh1/DC89K/01.webp",
     images: ["/anh1/DC89K/01.jpg"],
-    longDescription: `<h2>Mô tả sản phẩm</h2>
-<p>Tính năng: Mát xa âm vật, nhũ hoa, kích thích điểm G, gia tăng khoái cảm cho nữ</p>
-<h2>Đối tượng người dùng: Nữ</h2>
-<h2>Chất liệu:Silicone siêu mềm + ABS</h2>
-<h2>Đảm bảo: An toàn sức khỏe người dùng</h2>
-<h2>Màu sắc: Hồng - Xanh</h2>
-<h2>Sản phẩm: Có 2 loại Cookie + Candy</h2>
-<h2>Giá bán: 1.750.000đ / 1 chiếc</h2>
-<h2>Pin: Sạc pin</h2>
-<h2>Loại Pin: 30mAh</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng: 1 giời</h2>
-<h2>Chống thấm nước: Chống thấm tuyệt đối</h2>
-<h2>Thương hiệu: Svakom</h2>
-<h2>Xuất xứ: Mỹ</h2>
-<h2>Sản xuất và nhập khẩu: Tại nhà máy Svakom China</h2>
-<p>Thông số kỹ thuật của SVAKOM Cookie:</p>
-<h2>Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể</h2>
-<h2>Kích thước: 42mm * 96mm</h2>
-<h2>Trọng lượng: 70g</h2>
-<h2>Loại pin: Pin lithium polymer</h2>
-<h2>Dung lượng pin: 300mAh</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng: 1 giờ</h2>
-<h2>Chống thấm nước: IPX6</h2>
-<h2>Chế độ rung: 3</h2>
-<p>Thông số kỹ thuật của SVAKOM Candy:</p>
-<h2>Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể</h2>
-<h2>Kích thước: 96 * 52 * 42mm</h2>
-<h2>Trọng lượng: 76g</h2>
-<h2>Loại pin: Pin lithium polymer</h2>
-<h2>Dung lượng pin: 300mAh</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng: 1 giờ</h2>
-<h2>Chống thấm nước: IPX6</h2>
-<h2>Chế độ rung : 3</h2>
-<p>Hãng đồ chơi người lớn SVAKOM vừa cho ra đời cặp đôi hoàn hảo cho màn dạo đầu Cookie và Candy. Hãy tưởng tượng, những tua râu của chàng bạch tuột hay đôi môi ướt mềm của những chú cá tinh nghịch nhẹ nhàng vuốt ve, liếm láp lên đầu nhũ hoa hay âm vật sẽ khiến nàng đê mê khoái cảm cho một cuộc dạo đầu tình dục đê mê hiếm có.</p>
-<p>Hoạt động diệu kỳ của đồ chơi tình dục SVAKOM Cookie và Candy sẽ giúp quý cô tràn đầy hưng phấn trong màn dạo đầu để có được một âm đạo trơn ướt tối đa mà không cần phải dùng chất bôi trơn nào khác.</p>
-<p>SVAKOM đã cho ra hai sản phẩm cùng một lúc để cung cấp cho khách hàng các tùy chọn để lựa chọn theo sở thích của họ. Hầu hết phụ nữ cần màn dạo đầu nhiều hơn! Các nghiên cứu đã chứng minh rằng một phụ nữ trung bình cần khoảng 20 đến 30 phút cho màn màn dạo đầu thích hợp để có cực khoái cháy bỏng sau đó, với suy nghĩ đó, SVAKOM đã bắt đầu nhiều tháng nghiên cứu, thử nghiệm để đưa ra một cặp sản phẩm lý tưởng giải quyết vấn đề cho phụ nữ.</p>
-<p>Các chuyên gia của hãng đồ chơi tình dục SVAKOM đã làm việc với một nhóm tình nguyện viên từ các quốc gia và khu vực khác nhau để giúp thử nghiệm sản phẩm và kết quả rất đáng chú ý.</p>
-<p>Cookie &amp; Candy là những sản phẩm độc đáo trên thị trường với mục tiêu cụ thể là mang lại niềm vui tối đa cho các quý cô được mang đi khắp mọi nơi vì kích thước nhỏ gọn lý tưởng của chúng. Đồ chơi tình dục này thật sự tốt nhất để quý cô đạt đến đỉnh điểm của sự cực khoái.</p>
-<p>SVAKOM Cookie &amp; Candy sử dụng pin lithium có thể sạc lại hiệu suất cao. Chúng có thể hoạt động liên tục trong 1 giờ bằng một lần sạc đầy đến trong 1 giờ. Tất cả sản phẩm đồ chơi người lớn SVAKOM phải được sạc bằng bộ chuyển đổi điện áp / dòng điện đầu ra 5V / 1A.</p>
-<p>Cookie &amp; Candy thiết kế cổng sạc kín nên hoàn toàn không bị thấm trong môi trường nước theo tiêu chuẩn IPX6. IPX6 Chống nước có nghĩa là Cookie &amp; Candy được bảo vệ khỏi các tia nước mạnh mẽ hay ngâm trong nước. Vì vậy, bạn có thể tha hồ tận hưởng niềm vui cùng với đồ chơi tình dục bất cứ nơi đâu, kể cả trong phòng tắm, dưới vòi sen, trong hồ bơi hay trên biển.</p>
-<p>Không như các dòng sản phẩm SVAKOM khác, Cookie &amp; Candy chỉ có 3 chế độ rung kích thích vì đây là dụng cụ tình dục chuyên dụng cho màn dạo đầu, bao gồm việc mơn trớn, massage nhũ hoa, mòng đóc và môi âm đạo.</p>
-<p>Các tính năng chính cho cả SVAKOM Cookie &amp; Candy bao gồm động cơ mạnh mẽ, bảng điều khiển trực quan cho 1 chế độ và 3 mức cường độ khác nhau. Cả hai đều được sản xuất với các lớp silicon siêu mềm bao quanh các động cơ giống như da thịt và cảm giác chân thực. Các động cơ bên trong hai đồ chơi tình dục này được lập trình để mô phỏng những thú vui tình dục thực tế nhất cho phụ nữ, với kết cấu được thiết kế đặc biệt; phụ nữ được đảm bảo để trải nghiệm những niềm vui tình ái để đạt được cực khoái mong muốn.</p>
-<p>Tất cả các thành phần được sử dụng trong sản xuất đồ chơi tình dục của SVAKOM là vật liệu an toàn cho cả con người và môi trường. Cả hai sản phẩm đều được tạo thành từ vật liệu silicon an toàn cho cơ thể Ultrasoft, chúng đã được kiểm tra kỹ lưỡng và thông qua tất cả các tiêu chuẩn an toàn quốc tế.</p>`,
   },
   {
     slug: "may-hut-va-mat-xa-tang-kich-thuoc-vong-1-cho-phai-dep-dc67q",
