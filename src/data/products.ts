@@ -57559,45 +57559,7 @@ export const products: Product[] = [
 <p>* Hướng dẫn cách sử dụng:</p>
 <ul><li>- Bạn có khả năng làm sạch bằng xà bông, nước ấm.</li><li>- Trong quá trình sử dụng, nắp 4 pin AAAcho sản phẩm, bật công tắc nguồn và chọn chế độ rung hợp lý</li><li>- Sau khi sử dụng đảm bảo sản phẩm đã được tắt nguồn, vệ sinh lại sản phẩm, để khô và  bảo quản trong hộp, tránh bụi bẩn.</li></ul>`,
   },
-  {
-    slug: "duong-vat-cao-cap-rung-giat-cuc-dinh-fun-pulsador-dc91d",
-    legacySlug: "dc91c-duong-vat-cao-cap-rung-giat-cuc-dinh-fun-pulsador-dc91d",
-    sku: "DC91C",
-    name: "Dương vật cao cấp rung giật cực đỉnh Fun Pulsador (DC91D)",
-    category: "Đồ Chơi Nữ",
-    categorySlug: "do-choi-cao-cap-nu",
-    extraCategorySlugs: ["duong-vat-gia-rung"],
-    price: 4850000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-    description: "Dương vật cao cấp rung giật cực đỉnh Fun Pulsador (DC91D). Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
-    icon: "wave",
-    image: "/anh1/DC91C/01.jpg",
-    thumb: "/thumbs/anh1/DC91C/01.webp",
-    images: ["/anh1/DC91C/01.jpg"],
-    sensitive: true,
-    longDescription: `<h2>Dương vật cao cấp rung giật cực đỉnh Fun Pulsador (DC91D)</h2>
-<p>Thông tin chi tiết:</p>
-<h2>Tính năng: Kích thích điểm G, âm đạo, giải tỏa sinh lý nữ hiệu quả</h2>
-<h2>Đối tượng sử dụng: Nữ - Các cặp đôi thay đổi không khí yêu</h2>
-<p>Chất liệu: Silicone +ABS cao cấp, được kiểm chứng ROHS an toàn và thân thiện môi trường</p>
-<h2>Màu sắc: Tím - hồng</h2>
-<h2>Mùi: Không Mùi</h2>
-<h2>Kích thước sản phẩm: 23.8cm</h2>
-<h2>Chiều dài sử dụng: 11cm</h2>
-<h2>Đường kinh nhỏ nhất: 3cm</h2>
-<h2>Đường kính to nhất: 3.5cm</h2>
-<h2>Rung: 10 tần số rung</h2>
-<h2>Nguồn điện: Pin sạc USB</h2>
-<h2>Thời gian sử dụng: 2h</h2>
-<h2>Chống thấm nước: 100% chống thấm</h2>
-<h2>Độ ồn: Không gây tiếng ồn</h2>
-<h2>Hãng sản xuất: FUN factory</h2>
-<h2>Xuất xứ: Đức</h2>
-<p>Dương vật cao cấp rung giật cực đỉnh Fun Pulsador là dòng đồ chơi người lớn cao cấp được nhập khẩu chính hãng từ Đức. Sản phẩm dựa trên nguyên lý hoạt động của dương vật giả cao cấp rung giật thục tự động tức là khả năng rung thục liên tục và dồn dập, kích thích đa điểm cả trong và ngoài âm đạo làm người nữ cảm nhận độ sung sướng và mãn nguyện. Dương vật giả rung thục tự động mô tả giống như động tác làm tình của người nam khi quan hệ với người nữ, những động tác nhún nhẩy ra vào khiến cho chị em cảm nhận độ hưng phấn mãnh liệt, dễ dàng kích thích lên đỉnh.</p>
-<p>Dương vật cao cấp rung giật được sản xuất hoàn toàn bằng silicon và nhựa ABS cao cấp, được kiểm nghiệm bởi tố chức y tế và ROHS Châu Âu. Đảm bảo độ thân thiện và tính an toàn cho sức khỏe người dùng. Thiết kế dương vật sang trọng và trang nhã, với việc mô phỏng dương vật giả ngụy trang, toàn thân mượt mà trơn nhẵn nên ngay khi chạm tới 'cô bé&quot; cho chị em sự cảm nhận như tiếp xúc với làn da&quot; cậu nhỏ&quot; vì thế cảm xúc cũng gia tăng và thêm phần hưng phấn hơn.</p>
-<p>Ngoài chế độ rung thụt tự động dương vật giả cao cấp còn được cung cấp tới 10 tần số rung động, ngay những cảm xúc gần như khó đạt cũng không thể cưỡng lại được độ kích thích hưng phấn khi nó đi sâu bên trong âm đạo. Những sóng tình hay những rung động theo cấp độ cứ thế nhân lên làm chị em sung sướng dồn dập và thăng hoa trong niềm vui thỏa mãn dục vọng cả thể xác lẫn tinh thần. Quá tuyệt vời và có khi còn trên cả việc làm tình với người ấy mà chị em có thể cảm nhận được ngay khi lần đầu chạm tới.</p>`,
-  },
+
   {
     slug: "duong-vat-sieu-cao-cap-rung-giat-fun-fushion-hang-duc-dc91c",
     legacySlug: "dc91c-duong-vat-sieu-cao-cap-rung-giat-fun-fushion-hang-duc-dc91c",
