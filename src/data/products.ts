@@ -49374,21 +49374,7 @@ export const products: Product[] = [
 <p>Hướng dẫn cách sử dụng:</p>
 <ul><li>+ Vệ sinh sạch sản phẩm trước và sau khi sử dụng bằng cồn y tế hoăc nước muối pha loãng.</li><li>+ Sạc đầy pin trước khi sử dụng.</li><li>+ Gắn sản phẩm lên bề mặt phẳng: mặt bàn, mặt kính hoặc tường đá hoa chọn góc và hướng phù hợp dùng ốc vít chốt lại cho chắc chắn.</li><li>+ Mở nắp máy thủ dâm thêm gel bôi trơn vào bên trong ruột silicon để tăng độ trơn tru dễ vào</li><li>+ Mở màn hình chiếu phim giúp các anh tăng cảm xúc thăng hoa hơn trong khi thực hiện các thao tác với sản phẩm.</li><li>+ Bật chế độ rung và bắt đầu thao tác cùng sản phẩm giống như khi quan hệ với nàng</li><li>+ Sau khi thỏa mãn cho dương vật ra khỏi máy thủ dâm,vệ sinh theo các bước như trong hình minh hoạ bên trên</li><li>+ Bảo quản nơi khô thoáng tránh bụi bẩn, không để sản phẩm tiếp xúc nơi có nhiệt độ phòng cao.</li></ul>`,
   },
-  {
-    slug: "may-bu-mut-duong-vat-tu-dong-nhu-that-ad33b",
-    legacySlug: "ad33b-may-bu-mut-duong-vat-tu-dong-nhu-that-ad33b",
-    sku: "AD33B",
-    name: "Máy bú mút dương vật tự động như thật (AD33B)",
-    category: "Dương Vật Giả",
-    categorySlug: "duong-vat-gia-rung",
-    price: 1850000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Máy bú mút dương vật tự động như thật (AD33B). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "/anh/AD33B/01.jpg",
-    sensitive: true,
-  },
+
   {
     slug: "may-thu-dam-tu-dong-leten-a380-bu-mut-cuc-dinh-ad33c",
     legacySlug: "ad33c-may-thu-dam-tu-dong-leten-a380-bu-mut-cuc-dinh-ad33c",
