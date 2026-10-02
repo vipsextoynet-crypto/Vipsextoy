@@ -60251,73 +60251,17 @@ export const products: Product[] = [
   },
   {
     slug: "mat-xa-diem-g-cao-cap-svakom-barbara-dc89c",
-    legacySlug: "dc89c-mat-xa-diem-g-cao-cap-svakom-barbara-dc89c",
     sku: "DC89C",
-    name: "Mát xa điểm G cao cấp Svakom Barbara (DC89C)",
+    name: "Mát xa điểm G cao cấp Svakom Barbara",
     category: "Đồ Chơi Nữ",
     categorySlug: "do-choi-cao-cap-nu",
-    extraCategorySlugs: ["may-massage-ca-nhan"],
     price: 2450000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
+    blurb: "",
     description: "Mát xa điểm G cao cấp Svakom Barbara (DC89C). Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89C/01.jpg",
-    thumb: "/thumbs/anh1/DC89C/01.webp",
     images: ["/anh1/DC89C/01.jpg"],
-    longDescription: `<h2>Mô tả sản phẩm</h2>
-<p>SVAKOM Barbara thiết kế thông minh với 2 nhánh rung kích thích khoái cảm cả trong và ngoài âm đạo. Phần đầu nhánh lớn là một đường cong lý tưởng cùng với 3 đường rãnh gân nổi tăng ma sát mạnh hơn lên thành âm đạo và điểm G.</p>
-<p>SVAKOM Barbara êm ái lướt vào bên trong và tạo ra những trường kích thích liên tục đến khi cả cơ thể bạn đạt đến tận cùng niềm vui. Với 3 phím nhỏ gọn trên thân giúp bạn dễ dàng điều chỉnh 6 chế độ đam mê và tùy chỉnh 5 tốc độ rung như ý để mọi cuộc yêu đều hoàn hảo.</p>
-<p>Đa số các dòng đồ chơi tình dục giá rẻ trên thị trường đều có chất liệu thô cứng, tạo cảm giác khó chịu và bất tiện cho người dùng. Nhưng với đồ chơi người lớn cao cấp SVAKOM đều sử dụng vật liệu silicon y tế cao cấp, mềm mại, trơn tru tạo cảm giác thoải mái, thích thú, đạt hiệu quả cao trong việc giải tỏa sinh lý cho người dùng.</p>
-<p>SVAKOM Barbara có chế độ thông minh bắt chước rất cao theo toàn bộ quá trình làm tình như mong muốn của chúng ta, từ màn dạo đầu mơn trớn đến cao trào mạnh mẽ. Chỉ cần nhấn phím S, bạn sẽ có một hành trình tình dục tuyệt vời. Từ màn dạo đầu rợn da gáy, những cảm giác trêu chọc gợi cảm, những cường độ rung mạnh dần, đến cực khoái tối đa, đó là một trải nghiệm tình dục tuyệt vời mà bạn không muốn bỏ lỡ.</p>
-<p>SVAKOM Barbara được làm bằng silicone thân thiện với môi trường, nó đã vượt qua tất cả các bài kiểm tra nghiêm ngặt và đạt tiêu chuẩn cao trước khi đi ra thị trường, đồng thời đạt tiêu chuẩn Châu Âu về quy trình sản xuất và chất liệu y tế. SVAKOM Barbara sẽ giúp bạn thỏa mãn mọi khao khát và gia tăng gấp đôi niềm vui tình ái.</p>
-<p>SVAKOM Barbara có khả năng chống nước ở cấp độ IPX6. Có nghĩa là Barbara được bảo vệ khỏi nước bắn tung tóe, bất kể hướng nào. Bạn có thể sử dụng đồ chơi người lớn này bất kỳ nơi đâu, kể cả trong phòng tắm, dưới vòi sen hay trong hồ bơi. Khả năng chống nước 100% giúp cho việc vệ sinh đồ chơi tình dục bằng nước sau khi sử dụng rất thuận tiện và an toàn, không làm hư hỏng thiết bị bên trong máy rung.</p>
-<p>Hầu hết phụ nữ rất yêu thích máy kích dục 2 nhánh bởi đồ chơi người lớn này có thể rung kích thích đồng thời điểm G bên trong âm đạo và mòng đốc bên ngoài. SVAKOM Barbara thiết kế 2 nhánh với động cơ kép rung kích thích mạnh mẽ với nhiều tần số và cường độ rung khác nhau dễ dàng đưa bạn vào những cơn cực khoái chưa từng có.</p>
-<p>Ngoài việc đóng vai trò là một máy rung kích dục, SVAKOM Barbara còn là một máy massage đa năng, có thể chăm sóc, giải mỏi cơ bắp ở nhiều vị trí, giúp bạn thư giãn hiệu quả sau những giờ làm việc mệt mỏi.</p>
-<p>SVAKOM Barbara với động cơ kép rung mạnh mẽ nhưng không tạo ra tiếng ồn. Tất cả các máy rung kích dục của SVAKOM đều có độ ồn lý tưởng dưới 50dB. Bạn có thể thoải mái tận hưởng những khoái cảm sung sướng mà không lo bị người xung quanh nghe thấy.</p>
-<p>SVAKOM Barbara sử dụng pin lithium, sử dụng pin sạc đúc nguyên khối. Dung lượng pin 430mAh, có thể sạc đầy chỉ trong 1,5 giờ, và cung cấp năng lượng hoạt động khoảng 2 giờ liên tục. Tất cả sản phẩm SVAKOM phải được sạc bằng bộ chuyển đổi điện áp / dòng điện đầu ra 5V / 1A.</p>
-<p>Với mát xa điểm G cao cấp SVAKOM Barbara bạn sẽ được tận hưởng sự thoải mái khi được chăm sóc chu đáo đến những khoảnh khắc yêu đương cuối cùng.</p>
-<p>Bộ sản phẩm SVAKOM Barbara bao gồm:</p>
-<ul><li>Hộp đựng + Chày rung SVAKOM Barbara + Túi nhung + Hướng dẫn sử dụng + Tờ cảnh báo + Mô tả chứng nhận + Thẻ bảo hành quốc tế 12 tháng + Cáp sạc USB.</li></ul>
-<p>Thông tin chung:</p>
-<p>Chất liệu:</p>
-<h2>Silicone cao cấp mịn mượt</h2>
-<p>Kích thước:</p>
-<h2>188×90×36mm</h2>
-<p>Trọng lượng:</p>
-<h2>138g</h2>
-<p>Dung lượng pin:</p>
-<h2>430 mAh</h2>
-<p>Loại pin:</p>
-<h2>Polymer lithium</h2>
-<p>Thời gian sạc:</p>
-<h2>1.5 giờ</h2>
-<p>Sử dụng liên tục tối đa:</p>
-<h2>2 giờ</h2>
-<p>Chế độ rung:</p>
-<h2>5+1</h2>
-<p>Cường độ rung:</p>
-<h2>5</h2>
-<h2>Chống nước</h2>
-<h2>100% chuẩn IPX6</h2>
-<p>Các phím chức năng:</p>
-<ul><li>– Bật/Tắt : Giữ nút S trong 2 giây.</li></ul>
-<h2>– S Mode : Bấm nút S 1 lần (khi không ở chế độ S mode)</h2>
-<h2>– Nhắc lại S mode : Bấm nút S 2 lần</h2>
-<h2>On/Off</h2>
-<h2>Press the &quot;S&quot; button for 2secs</h2>
-<h2>S mode</h2>
-<h2>Click the &quot;S&quot; Button (in the non-S mode)</h2>
-<h2>Repeat the S mode</h2>
-<h2>Double click &quot;S&quot; button (in S mode)</h2>
-<h2>Enhancing vibration</h2>
-<h2>Click the &quot;△&quot; Button</h2>
-<h2>Weakening vibration</h2>
-<h2>Click &quot;▽&quot; Button</h2>
-<h2>Enter into Last mode</h2>
-<h2>Double-click &quot;△&quot; Button</h2>
-<h2>Enter into Next mode</h2>
-<h2>Double-click &quot;▽&quot; Button</h2>`,
   },
   {
     slug: "may-rung-hau-mon-dieu-khien-xa-svakom-julie-dc89n",
