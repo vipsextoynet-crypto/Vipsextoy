@@ -60601,52 +60601,17 @@ export const products: Product[] = [
 
   {
     slug: "trung-rung-cao-cap-svakom-ella-dieu-khien-qua-dien-thoai-dc89f",
-    legacySlug: "dc89f-trung-rung-cao-cap-svakom-ella-dieu-khien-qua-dien-thoai-dc89f",
     sku: "DC89F",
-    name: "Trứng rung cao cấp svakom Ella điều khiển qua điện thoại (DC89F)",
+    name: "Trứng rung cao cấp svakom Ella điều khiển qua điện thoại",
     category: "Trứng Rung Nữ",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1590000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
+    blurb: "",
     description: "Trứng rung cao cấp svakom Ella điều khiển qua điện thoại (DC89F). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89F/01.jpg",
-    thumb: "/thumbs/anh1/DC89F/01.webp",
     images: ["/anh1/DC89F/01.jpg"],
-    longDescription: `<h2>Mô tả sản phẩm</h2>
-<h2>Tên sản phẩm: Ella</h2>
-<h2>Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể</h2>
-<h2>Kích thước sản phẩm: 21.5cm x 3.3cm</h2>
-<h2>Trọng lượng: 60g</h2>
-<h2>Loại pin: Pin Lithium polymer</h2>
-<h2>Dung lượng pin: 300mAh</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng:  2 giờ</h2>
-<h2>Chống thấm nước: Không thấm nước</h2>
-<h2>Chế độ rung: 11 chế độ rung</h2>
-<h2>Đặc biệt: Trứng rung kết nối qua điện thoại thông minh</h2>
-<h2>Kết nối ứng dụng qua: Google play hoặc App Store</h2>
-<h2>Hãng sản xuất: SVAKOM</h2>
-<h2>Xuất xứ: Mỹ</h2>
-<p>Trứng rung tình yêu SVAKOM Ella điều khiển thông minh qua app trên smart phone, kích thích âm vật, nhũ hoa, điểm G và hậu môn với nhiều tần số rung độc đáo từ mơn trớn đến cao trào mạnh mẽ, giúp phụ nữ giải tỏa sinh lý mọi lúc mọi nơi, hay cho cuộc vui tình dục của cặp đôi thêm rạo rực để rồi thăng hoa mỹ mãn.</p>
-<p>Ella được thiết kế sáng tạo với nhiều tính năng thông minh, nó có thể kết nối với điện thoại thông minh của bạn qua Bluetooth. Chỉ cần tải APP xuống điện thoại bạn có thể điều khiển Ella mọi lúc, mọi nơi. Bạn có thể sử dụng nó với nhiều cường độ khác nhau thông qua các chế độ 5+1 trong APP. Ngoài ra bạn cũng có thể sử dụng Ella mà không cần ứng dụng thông minh. Với thiết kế gân nổi cộm trên thân được sắp xếp đều nhau giúp cho việc kích thích được tốt hơn, gia tăng khoái cảm cho cả bạn và người ấy một cách mạnh mẽ nhất.</p>
-<p>Chỉ cần thao tác kết nối với ứng dụng thông qua chiếc điện thoại thông minh là bạn thật sự đã có một cuộc yêu đầy phấn khích, hoàn toàn mới mẻ trên ứng dụng mới. Bạn có thể chủ động kiểm soát niềm vui của mình với đối tác chỉ với một ngón tay.</p>
-<p>Ella được thiết kế với cổng sạc kín, nó hoàn toàn không thấm nước vì vậy chỉ cần đưa  nó vào bồn tắm hoặc bể bơi để sử dụng hoặc vệ sinh vô cùng tiện lợi. Ella thực sự dễ dàng để bạn làm sạch.</p>
-<p>Ella cũng có tới 2 cách vận hành khách nhau, bạn có thể điều khiển nó bằng nút nằm trên bộ rung hoặc bộ điều khiển bên ngoài. Ella cung cấp cho người chơi tới 11 chế độ rung khác nhau, chỉ cần chọn những gì phù hợp với bạn nhất. Từ trêu chọc gợi cảm đến nhiều lần cực khoái, đó là một trải nghiệm tình dục tuyệt vời mà bạn không muốn bỏ lỡ.</p>
-<p>Ella được làm hoàn toàn từ chất liệu Silicone ABS cam kết bảo vệ môi trường cũng như thân thiện với làn da con người. Chúng cũng trải qua tất cả các tiêu chuẩn quốc tế khắt khe nhất trước khi được giới thiệu ra thị trường.</p>
-<p>SVAKOM Ella có thẻ bảo hành quốc tế 12 tháng. Dòng Sextoy SVAKOM cao cấp của Mỹ được nhiều khách hàng ưa chuộng nhất.</p>
-<h2>Thông số kỹ thuật</h2>
-<h2>- Tên sản phẩm: SVAKOM ELLA</h2>
-<h2>- Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể</h2>
-<h2>- Kích thước: Φ33mm * 215mm</h2>
-<h2>- Trọng lượng: 60g</h2>
-<h2>- Loại pin: Pin lithium polymer</h2>
-<h2>- Dung lượng pin: 300mAh</h2>
-<h2>- Thời gian sạc: 1 giờ</h2>
-<h2>- Thời gian sử dụng: 2 giờ</h2>
-<h2>- Chống thấm nước: Chuẩn IPX6</h2>
-<h2>- Chế độ rung: 11</h2>`,
   },
   {
     slug: "may-massage-2-dau-cao-cap-svakom-nymph-dc89q",
