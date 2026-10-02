@@ -53864,45 +53864,17 @@ export const products: Product[] = [
   },
   {
     slug: "mat-xa-diem-g-cao-cap-svakom-adonis-dieu-chinh-nhiet-do-dc89g",
-    legacySlug: "dc89g-mat-xa-diem-g-cao-cap-svakom-adonis-dieu-chinh-nhiet-do-dc89g",
     sku: "DC89G",
-    name: "Mát xa điểm G cao cấp Svakom Adonis điều chỉnh nhiệt độ (DC89G)",
+    name: "Mát xa điểm G cao cấp Svakom Adonis điều chỉnh nhiệt độ",
     category: "Đồ Chơi Nữ",
     categorySlug: "do-choi-cao-cap-nu",
     price: 3250000,
-    blurb: "Thiết kế công thái học, vận hành êm, nhiều cấp độ massage.",
+    blurb: "",
     description: "Mát xa điểm G cao cấp Svakom Adonis điều chỉnh nhiệt độ (DC89G). Thiết kế công thái học, vận hành êm, nhiều cấp độ massage. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
     icon: "petal",
     image: "/anh1/DC89G/01.jpg",
-    thumb: "/thumbs/anh1/DC89G/01.webp",
     images: ["/anh1/DC89G/01.jpg"],
-    longDescription: `<h2>Mát xa điểm G cao cấp Svakom Adonis điều chỉnh nhiệt độ (DC89G)</h2>
-<p>Tính năng: Massager âm vật, kích thích điểm G, giải tỏa sinh lý hiệu quả</p>
-<h2>Chất liệu: Silicon + ABS an toàn không độc tính</h2>
-<h2>Kích thước: 20cm x 8.8cm x 3.8cm</h2>
-<h2>Trọng lượng:190g</h2>
-<h2>Pin: 2200mAh</h2>
-<h2>Loại pin: Pin lithium Polymer</h2>
-<h2>Thời gian sạc: 2.5 giờ</h2>
-<h2>Sử dụng liên tục tối đa: 48 giờ</h2>
-<h2>Chế độ rung: 7+1</h2>
-<h2>Cường độ: 5 cường độ rung</h2>
-<h2>Chống thấm nước: 100% không thấm nước</h2>
-<h2>Nhãn hiệu: SVAKOM</h2>
-<h2>Xuất xứ: Mỹ</h2>
-<p>SVAKOM Adonis được thiết kế với động cơ rung kép với nhánh chính và ngón tay phụ cho kích thích cả trong lẫn ngoài cùng một lúc, đặc biệt kích thích mạnh mẽ tới điểm G nhằm gia tăng khoái cảm và hưng phấn cho chị em. Adonis có chức năng sưởi ấm với nhiệt độ cao hơn so với nhiệt độ cơ thể lên đến 38 độ C. Đặc biệt hơn Adonis thiết kế với những lằn gợn trên cả hai đầu sẽ kích thích tối đa âm vật và khu vực điểm G giúp các nàng lên đỉnh nhanh chóng hơn.</p>
-<p>SVAKOM Adonis được thiết kế với lõi sưởi ấm có thể làm nóng lên tới 38 độ C cao hơn so với nhiệt độ bình thường của cơ thể. Cho người dùng cảm giác ấm áp giống như khi tiếp xúc với làn da, cảm giác chân thật và gần gũi hơn rất nhiều. Vì vậy bạn có thể thưởng thức quan hệ tình dục nóng ngay cả trong mùa đông lạnh.</p>
-<p>Đồ chơi tình dục SVAKOM Adonis được thiết kế hoàn toàn bằng silicon cao cấp, không thấm nước , Không chỉ làm sạch dễ dàng, bạn cũng có thể vui vẻ trong bồn tắm hoặc tại bể bơi. Bạn hãy tưởng tượng một không gian cực kỳ lãng mạn, bạn đang nằm trong bồn tắm ấm cúng của bạn, Adonis đang làm việc vụ &quot;thực thụ&quot; của một người đàn ông trong khi làm tình dưới nước. Những âm thanh của nước, tiếng rên rỉ khi lên tới cao trào của bạn, cơ thể bạn đang run rẩy quyện với sự phấn khích trong nước sương mù. Một không gian quá đỗi tuyệt vời hòa quyện có cả âm thanh, nhạc điệu vô cùng kích thích.</p>
-<p>Thiết kế của Adonis hơi cong với góc 15độ dễ dàng cho việc massage tới điểm G và kích thích âm vật vì thế cũng nhiều hơn, khoái cảm cũng mạnh mẽ hơn.</p>
-<p>Adonis được thiết kế với Logo ở cả hai phía khi máy rung được bật các biểu tượng sẽ tỏa sáng với sự quyến rũ vô cùng sang trọng.</p>
-<p>Adonis có 7 chế độ khác nhau và 5 cường độ ở mỗi chế độ vì vật mà bạn có tới 7x5 = 35 +1 =36 sự lựa chọn cho bạn tha hồ khám phá kích thích âm vật và điểm G.</p>
-<p>SVAKOM Adonis được thiết kế vô cùng thông minh có thể bắt chước các tần số rung động trong toàn bộ quá trình quan hệ tình dục ngay từ đầu để đạt cực khoái. Chỉ cần nhấn vào nút &quot;S&quot; bạn có ngay một cuộc hành trình quan hệ tình ái với đầy đủ cung bậc cảm xúc của yêu thương, từ màn dạo đầu e lệ, tới trêu chọc, sự va đập mạnh mẽ, với nhiều cao trào.</p>
-<p>Adonis thiết kế với pin sạc với dung lượng pin là 2200mAh có thể đươc sạc đầy chỉ trong 2.5 giờ và cung cấp khoảng 48 giờ cho niềm vui liên tục.</p>
-<p>Adonis được thiết kế bằng silicon cực thân thiện với môi trường, được kiểm tra nghiêm ngặt, và đạt tiêu chuẩn cao trước khi tung ra thị trường.</p>
-<p>Động cơ Adonis vô cùng mạnh mẽ với chất lượng cao, chạy rất êm, tuổi thọ dài. Sau khi được bật Adonis độ ồn của nó chỉ dưới 50db, nên bạn chỉ có thể nghe được tiếng độc cơ rung bên ngoài trong khoảng cách dưới 1m mà thôi.</p>
-<p>Bảng điều khiển liền thân dễ thao tác và thuận tiện cho bạn và cả đối tác khi vui vẻ cùng Adonis.</p>
-<h2>Bao bì sản phẩm</h2>`,
   },
   {
     slug: "may-hut-to-nguc-phu-nu-breast-pump-dc67e",
