@@ -15588,42 +15588,17 @@ export const products: Product[] = [
   },
   {
     slug: "svakom-eria-may-rung-diem-g-bu-am-vat-cuc-phe-dc89r",
-    legacySlug: "dc89r-svakom-eria-may-rung-diem-g-bu-am-vat-cuc-phe-dc89r",
     sku: "DC89R",
-    name: "Svakom Eria- máy rung điêm G, bú âm vật cực phê (DC89R)",
+    name: "Svakom Eria- máy rung điêm G, bú âm vật cực phê",
     category: "Dương Vật Giả",
     categorySlug: "duong-vat-gia-rung",
     price: 1950000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
+    blurb: "",
     description: "Svakom Eria- máy rung điêm G, bú âm vật cực phê (DC89R). Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89R/01.jpg",
-    thumb: "/thumbs/anh1/DC89R/01.webp",
     images: ["/anh1/DC89R/01.jpg", "/anh1/DC89R/05.jpg", "/anh1/DC89R/07.jpg", "/anh1/DC89R/08.jpg", "/anh1/DC89R/09.jpg", "/anh1/DC89R/11.jpg", "/anh1/DC89R/12.jpg"],
-    longDescription: `<ul><li>Thông tin chi tiết của Máy rung hút kích thích âm đạo và âm vật Svakom Eria DC89R</li><li>Thể loại: Sextoy cho nữ, Dụng cụ mát xa điểm G, Svakom USA.</li><li>Tính năng: Kích thích điểm G âm đạo và âm vật, giải tỏa nhu cầu sinh lý nữ, tăng khoái cảm cho cặp đôi khi quan hệ.</li><li>Chất liệu: Siliocne, ABC và kim loại.</li></ul>
-<h2>Máy rung DC89R có 3 chế độ</h2>
-<h2>- Chế độ hút: 10 chế độ</h2>
-<h2>- Chế độ rung:  5 cường độ và</h2>
-<ul><li>- Sưởi ấm:  42 độ C.</li><li>Nguồn: Pin lithium Polymer.</li><li>Dung lượng: 600mAh.</li></ul>
-<h2>Sạc Từ : 3 Tiếng</h2>
-<p>Thời gian sử dụng: 0.5 tiếng.</p>
-<h2>Chống thấm nước</h2>
-<p>Hãng sản xuất : Svakom.</p>
-<p>Xuất xứ: USA.</p>
-<p>Máy rung hút kích thích âm đạo và âm vật Svakom Eria DC89R được làm từ silicone, ABS và kim loại đạt chuẩn chất lượng y tế, không độc hại, khôn gây kích ứng cho da và bảo đảm an toàn đối với sức khỏe của chị em mỗi khi sử dụng.</p>
-<p>Máy rung được thiết kế 2 nhánh vừa làm tăng khoái cảm nhanh vừa có cấu tạo bên trong lượn sóng , đường gân nổi dọc với những viên bi ở trên đầu . Kích thích mạnh mẽ lên thành âm đạo và điểm G khiến cô bé ra nước không ngừng vì sướng.</p>
-<p>Sản phẩm này có vẻ ngoài trắng tinh khiết trông nó vô cùng sang trọng kèm theo là lớp vỏ mềm mịn mang lại cho chị em những khoái cảm sung sướng đầy đê mê không muốn thoát ra.</p>
-<p>Kích thước :</p>
-<h2>- Chiều dài: 21.4cm</h2>
-<h2>- Đường kính : 3.2cm</h2>
-<h2>- Đường kính ống hút : 1.8cm</h2>
-<h2>- Đường kính tay cầm : 3.5cm</h2>
-<p>Vời 10 chế độ hút máy rung điểm G Svakom DC89R sẽ mang đến cho chị em nhiều trải nghiệm thú vị.</p>
-<p>Máy rung Svakom Eria - kích thích điểm G, Bú âm vật chống thấm nước.</p>
-<p>Svakom Eria không chỉ sở hữu nhiều cường độ rung khác nhau mà nó còn có thêm tính năng là hút âm vật bằng nhiều chế độ hấp dẫn. Nhờ đó mà chị em có thể lên đỉnh được nhiều lần và bùng nổ những cảm xúc sung sướng dâng trào mà mình chưa từng cảm nhận qua. Không những vậy, với chức năng sưởi ấm lên đến 42 độ C, bạn sẽ có cảm giác ấm nóng ở bên trong cô bé giống như đang được dương vật của người thật đút vào bên trong để quan hệ.</p>
-<p>Cách sử dụng:</p>
-<ul><li>– Nhấn giữ nút nhiệt độ để Bật/Tắt sưởi ấm.</li><li>– Nhấn giữ nút (o) để Bật/Tắt chức năng hút của nhánh phụ.</li><li>– Nhấn nút (o) từng lần 1 để đổi chế độ hút của nhánh phụ.</li><li>– Nhấn giữ nút cuối cùng hình gợn sóng để Bật/Tắt chức năng rung.</li><li>– Nhấn nút cuối cùng hình gợn sóng từng lần 1 để tăng cường độ rung.</li><li>- Giao hàng nhanh chóng, che tên sản phẩm.</li><li>- Tại HCM &amp; HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày</li><li>Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.</li></ul>`,
   },
   {
     slug: "quan-chip-rung-svakom-echo-neo-ket-noi-app-rung-moi-luc-moi-noi-dc89u-ne",
