@@ -20560,34 +20560,7 @@ export const products: Product[] = [
 <h2>Cách bảo quản vỉ thuốc Via 50mg để sử dụng lâu dài như thế nào?</h2>
 <p>Nên lưu trữ hộp thuốc ở nơi khô ráo, thoáng mát, tránh nhiệt độ cao hoặc môi trường ẩm ướt. Không nên bóc hoặc làm rách vỉ nhôm bảo vệ viên nén khi chưa đến thời điểm uống nhằm giữ nguyên vẹn đặc tính hóa học và độ bền của hoạt chất.</p>`,
   },
-  {
-    slug: "cuong-duong-cao-cap-via-100mg-ho-tro-sinh-luc-nam-gioi",
-    legacySlug: "sl11z-cuong-duong-cao-cap-via-100mg-ho-tro-sinh-luc-nam-gioi",
-    sku: "SL11Z",
-    name: "CƯỜNG DƯƠNG CAO CẤP VIA 100MG HỖ TRỢ SINH LỰC NAM GIỚI",
-    category: "Cường Dương",
-    categorySlug: "cuong-duong",
-    price: 1350000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "CƯỜNG DƯƠNG CAO CẤP VIA 100MG HỖ TRỢ SINH LỰC NAM GIỚI. Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/sl11z/01.webp",
-    longDescription: `<p>Cường dương cao cấp Via 100mg (mã SL11Z) là giải pháp hỗ trợ sinh lý chuyên biệt dành cho nam giới đang gặp tình trạng suy giảm ham muốn hoặc khó khăn trong việc kiểm soát độ cương cứng. Với thành phần chứa hoạt chất Sildenafil 100mg từ thương hiệu Pfizer, sản phẩm giúp cải thiện lưu thông máu đến cơ quan sinh dục, duy trì sự bền bỉ và nâng cao sinh lực nam giới một cách an toàn, hiệu quả.</p>
-<h2>Thiết kế &amp; chất liệu</h2>
-<p>Sản phẩm được bào chế dưới dạng viên nén với công thức y khoa tiên tiến, chứa hàm lượng chuẩn Sildenafil 100mg. Đây là dược chất hỗ trợ sinh lý hàng đầu được nghiên cứu bởi thương hiệu Pfizer (Mỹ) và sản xuất tại Úc dựa trên tiêu chuẩn kiểm định nghiêm ngặt. Cơ chế của viên uống tác động trực tiếp vào hệ mạch, hỗ trợ giãn mạch và tối ưu hóa lưu lượng máu tuần hoàn đến mô dương vật khi có kích thích, giúp đem lại khả năng cương cứng tự nhiên và ổn định.</p>
-<h2>Công dụng thực tế</h2>
-<ul><li>- Kích thích và tăng cường ham muốn sinh lý tự nhiên, giúp phái mạnh luôn sẵn sàng nhập cuộc.</li><li>- Tăng cường độ cứng và duy trì trạng thái cương dương bền bỉ trong suốt thời gian quan hệ.</li><li>- Hỗ trợ cải thiện các tình trạng rối loạn cương dương và xuất tinh sớm ở nam giới.</li><li>- Kéo dài thời gian quan hệ, giúp phái mạnh chủ động làm chủ phong độ và sự tự tin.</li></ul>
-<h2>Ai nên dùng sản phẩm này</h2>
-<p>Viên uống phù hợp cho nam giới trưởng thành đang gặp trở ngại về khả năng cương cứng, người bị suy giảm ham muốn do căng thẳng, tuổi tác hoặc nam giới có nhu cầu cải thiện chất lượng đời sống tình dục để đạt được sự thăng hoa trọn vẹn hơn.</p>
-<h2>Câu hỏi thường gặp</h2>
-<h2>Cách sử dụng Via 100mg như thế nào để đạt hiệu quả tối ưu?</h2>
-<p>Bạn nên uống 1 viên trước khi quan hệ khoảng 1 tiếng để thành phần phát huy tác dụng tốt nhất. Tuyệt đối không dùng quá 1 viên trong vòng 24 giờ để tránh quá liều và đảm bảo an toàn sức khỏe.</p>
-<h2>Hiệu quả của sản phẩm có thể duy trì trong bao lâu?</h2>
-<p>Tác dụng hỗ trợ của viên uống Via 100mg có thể kéo dài lên đến 24 giờ sau khi sử dụng, giúp bạn luôn tự tin và sẵn sàng mỗi khi có nhu cầu.</p>
-<h2>Sản phẩm Via 100mg (SL11Z) có nguồn gốc xuất xứ từ đâu?</h2>
-<p>Sản phẩm mang thương hiệu Pfizer chính hãng của Mỹ, được sản xuất tại Úc và nhập khẩu nguyên hộp, đảm bảo đầy đủ các tiêu chuẩn chất lượng và an toàn cho người dùng.</p>`,
-  },
+
   {
     slug: "thao-duoc-cuong-duong-cao-cap-herber-2-vien-tu-my",
     legacySlug: "sl12-thao-duoc-cuong-duong-cao-cap-herber-2-vien-tu-my",
