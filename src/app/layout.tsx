@@ -43,6 +43,10 @@ const defaultOgImage = {
   alt: site.name,
 };
 
+// Tieu de trang chu hien tren Google (~52 ky tu): tu khoa chinh o dau, thuong
+// hieu o cuoi. Cac trang con van dung template "%s | Vipsextoy" ben duoi.
+const homeTitle = "Đồ Chơi Tình Dục Uy Tín, 1.800+ Sản Phẩm | Vipsextoy";
+
 // LUU Y: KHONG dat `alternates.canonical` o day. Metadata cua layout duoc
 // cac trang con thua huong - dat canonical "/" o day se khien MOI trang
 // khong tu khai canonical bi coi la ban trung cua trang chu. Moi trang tu
@@ -50,7 +54,7 @@ const defaultOgImage = {
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} — Cửa hàng chăm sóc cá nhân riêng tư`,
+    default: homeTitle,
     template: `%s | ${site.name}`,
   },
   description: site.description,
@@ -59,13 +63,13 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     url: site.url,
     siteName: site.name,
-    title: `${site.name} — Cửa hàng chăm sóc cá nhân riêng tư`,
+    title: homeTitle,
     description: site.description,
     images: [defaultOgImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} — Cửa hàng chăm sóc cá nhân riêng tư`,
+    title: homeTitle,
     description: site.description,
     images: [defaultOgImage.url],
   },
