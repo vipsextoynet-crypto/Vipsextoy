@@ -61153,60 +61153,7 @@ export const products: Product[] = [
 <p>– Một ít gel bôi trơn sẽ giúp bạn dễ dàng thăng hoa hơn với dương vật giả ngụy trang.</p>
 <p>– Dùng xong nhớ vệ sinh lại cho sạch, lau khô hoặc để khô tự nhiên. Nhớ bảo quản nơi khô thoáng, tránh nhiệt độ cao, bụi bẩn.</p>`,
   },
-  {
-    slug: "may-rung-2-dau-suoi-am-svakom-vesper-dc89p",
-    legacySlug: "dc89p-may-rung-2-dau-suoi-am-svakom-vesper-dc89p",
-    sku: "DC89P",
-    name: "Máy Rung 2 Đầu Sưởi Ấm Svakom Vesper (DC89P)",
-    category: "Dụng Cụ Massage, Chày Rung",
-    categorySlug: "may-massage-ca-nhan",
-    price: 1650000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Máy Rung 2 Đầu Sưởi Ấm Svakom Vesper (DC89P). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "/anh1/DC89P/01.jpg",
-    thumb: "/thumbs/anh1/DC89P/01.webp",
-    images: ["/anh1/DC89P/01.jpg"],
-    longDescription: `<h2>Mô tả sản phẩm</h2>
-<p>SVAKOM Vesper thiết kế hai nhánh với động cơ kép tạo ra 11 chế độ rung đặc sắc, kích thích mạnh mẽ đồng thời lên âm vật và điểm G bên trong âm đạo. Đặc biệt Vesper có thể sưởi ấm lên đến 38°C mang đến cho bạn cảm giác gần gũi, chân thật và dễ dàng đạt cực khoái hơn.</p>
-<h2>Chức năng sưởi ấm</h2>
-<p>Chức năng sưởi ấm của Vesper được điều khiển bằng 1 nút độc lập. Chức năng sưởi ấm liên tục lên đến 38°C / 100°F mô phỏng nhiệt độ của con người và mang đến cho bạn trải nghiệm thực sự thú vị.</p>
-<h2>11 chế độ rung đầy ma thuật</h2>
-<p>Vesper có 10 chế độ khác nhau cộng với 1 chế độ thông minh SVAKOM để đưa bạn vào một hành trình tình dục tuyệt vời từ đầu đến cuối. Nó sẽ cung cấp cho bạn nhiều cách hơn để khám phá bản thân với các kiểu rung kích thích từ mơn trớn đến cao trào cảm hứng.</p>
-<h2>Kích thích đồng thời điểm G và mòng đốc</h2>
-<p>Vesper được thiết kế với hình chữ V linh hoạt với 2 đầu có kích thước khác nhau, có thể kích thích đồng thời điểm G và âm vật. Siêu linh hoạt của nó làm cho nó hoàn toàn phù hợp và tiện dụng với mọi người dùng.</p>
-<h2>Chống thấm nước chuẩn IPX4</h2>
-<p>Sextoy SVAKOM Vesper có khả năng chống nước ở mức IPX4. IPX4 chống nước có nghĩa là SVAKOM Vesper được bảo vệ khỏi nước bắn tung tóe, bất kể hướng nào và có thể chìm trong nước ở độ sâu 1m. Khi vệ sinh sản phẩm, làm sạch phần silicon bằng nước bạn cũng nên cẩn thận. Ngâm sâu vào trong nước thời gian lâu có thể làm hỏng thiết bị, vui lòng làm sạch bằng vải khô để lau phần kim loại và phần cổng sạc.</p>
-<h2>Cách sử dụng SVAKOM Vesper</h2>
-<h2>Đặc điểm của SVAKOM Vesper</h2>
-<p>SVAKOM Vesper được làm từ chất liệu cao cấp, an toàn cho cơ thể, thân thiện với môi trường. Động cơ rung mạnh mẽ nhưng không tạo ra tiếng ồn. Pin sạc cao cấp, bền bỉ.</p>
-<h2>THÔNG SỐ KỸ THUẬT CỦA SVAKOM VESPER</h2>
-<p>Chất liệu:</p>
-<h2>Silicone siêu mềm + ABS an toàn cho cơ thể</h2>
-<p>Kích thước:</p>
-<h2>148 * 32 * 42mm</h2>
-<p>Cân nặng:</p>
-<h2>118g</h2>
-<p>Nhiệt độ gia nhiệt:</p>
-<h2>38oC / 100 ° F</h2>
-<p>Thời gian làm nóng:</p>
-<h2>Khoảng 3 phút</h2>
-<p>Loại pin:</p>
-<h2>Lithium polymer</h2>
-<p>Dung lượng pin:</p>
-<h2>500mAh</h2>
-<p>Thời gian sạc:</p>
-<h2>1 giờ</h2>
-<p>Thời gian sử dụng liên tục:</p>
-<h2>2 giờ</h2>
-<p>Không thấm nước:</p>
-<h2>Tiêu chuẩn IPX4</h2>
-<p>Chế độ rung:</p>
-<h2>10 + 1</h2>
-<p>Bộ sản phẩm SVAKOM Vesper chính hãng, nguyên seal, nguyên kiện bao gồm: Túi nhung cao cấp, máy kích dục SVAKOM Vesper, cáp sạc SVAKOM USB, thẻ bảo hành quốc tế 12 tháng và sách hướng dẫn an toàn, hướng dẫn sử dụng.</p>
-<p>Sản phẩm SVAKOM chính hãng có thẻ bảo hành quốc tế 12 tháng.</p>`,
-  },
+
   {
     slug: "trung-rung-cao-cap-sieu-manh-dieu-khien-xa-svakom-elva-dc89e",
     legacySlug: "dc89e-trung-rung-cao-cap-sieu-manh-dieu-khien-xa-svakom-elva-dc89e",
