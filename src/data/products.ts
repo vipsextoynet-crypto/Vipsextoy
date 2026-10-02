@@ -56896,49 +56896,7 @@ export const products: Product[] = [
 <p>Với thành phần chiết xuất hoàn toàn từ thiên nhiên và các thảo dược quý thuốc xịt Rock không gây cho người dùng một sự kích ứng khó chịu nào hoặc gây nghiện ngay cả khi bạn sử dụng trong thời gian dài. Tác dụng của nó thì tuyệt vời bởi nó có thể giúp anh em kéo dài thêm thời gian quan hệ từ 30 phut trở lên tùy vào cơ địa của từng người, khoảng thời gian vàng này không phải ai cũng có thể làm được. Còn với nàng thì chuyện gối chăn được cải thiện đáng kể sự hưng phấn và gia tăng khoái cảm là điều mà nàng sẽ thực sự hãnh diện về bạn.</p>
 <p>Bạn chỉ cần xịt từ 1-3 hơi lên đầu khấc của DV để thuốc ngấm trong vòng 30 phút rồi nhập cuộc với nàng. Chắc chắn nàng sẽ phải trầm trồ và ngạc nhiên vì bản lĩnh đàn ông của bạn ngay hôm nay.</p>`,
   },
-  {
-    slug: "chai-xit-chong-xuat-tinh-som-jo-prolonger-xts15",
-    legacySlug: "xts15-chai-xit-chong-xuat-tinh-som-jo-prolonger-xts15",
-    sku: "XTS15",
-    name: "Chai xịt chống xuất tinh sớm Jo Prolonger (XTS15)",
-    category: "Chai Xịt Lâu Ra",
-    categorySlug: "chai-xit-keo-dai-thoi-gian",
-    price: 750000,
-    blurb: "Hỗ trợ kéo dài thời gian, thành phần an toàn, tác dụng nhanh.",
-    description: "Chai xịt chống xuất tinh sớm Jo Prolonger (XTS15). Hỗ trợ kéo dài thời gian, thành phần an toàn, tác dụng nhanh. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Tác dụng nhanh", "Thành phần an toàn", "Dễ sử dụng", "Sản phẩm chính hãng"],
-    icon: "ring",
-    image: "/anh1/XTS15/01.png",
-    thumb: "/thumbs/anh1/XTS15/01.webp",
-    images: ["/anh1/XTS15/01.png", "/anh1/XTS15/05.png", "/anh1/XTS15/06.jpg", "/anh1/XTS15/07.jpg"],
-    longDescription: `<h2>XTS15 thuốc xịt kéo dài thời gian cao cấp JO Prolonger USA</h2>
-<p>Thông tin chi tiết:</p>
-<h2>MÃ SẢN PHẨM: XTS15</h2>
-<p>– Tính năng: ngăn chặn xuất tinh sớm.</p>
-<h2>– Đối tượng sử dụng: Nam giới</h2>
-<h2>– Tác dụng phụ: Không có</h2>
-<h2>– Thành phần chính: bezocaine 7,5%</h2>
-<h2>– Dung tích: 59ml</h2>
-<h2>– Sử dụng: Xịt vào dương vật</h2>
-<h2>– Thương hiệu : JO USA</h2>
-<h2>– Xuất xứ : Mỹ</h2>
-<h2>– Giá đang giảm: 750.000đ</h2>
-<h2>Quan hệ tình dục nhanh có làm bạn thất vọng?</h2>
-<p>Đấng mày râu đang buồn phiền vì cảm thấy bản lĩnh đàn ông của mình ngày càng suy giảm, chỉ cầm cự được 1 đến 2 phút là tiêu hết tiền, khiến các nàng thở dài thất vọng.</p>
-<p>Jo Prolonger là sản phẩm cao cấp của Mỹ được bào chế để lấy lại sự tự tin cũng như phong độ vốn có của đấng mày râu.</p>
-<p>Tăng thêm thời gian âu yếm, hưởng thụ cảm giác sung sướng hàng đêm, giúp nàng đi vào giấc ngủ trong sự thỏa mãn tuyệt đối.</p>
-<p>Do thành phần chứa hoạt chất kéo dài thời gian giúp giảm sự nhạy cảm ở đầu cậu nhỏ, giảm tín hiệu kích thích lên não, sau khoảng thời gian này, cậu nhỏ này trở lại trạng thái nhạy cảm như thường, cùng nhau đưa nàng lên đỉnh.</p>
-<p>Sự phổ biến của thuốc xịt đến từ JO:</p>
-<ul><li>Các chai xịt kéo dài thời gian ngày càng được ưa chuộng và sử dụng rộng rãi trên thị trường, bởi lẽ tình trạng xuất tinh sớm rất phổ biến, không chỉ ở Việt Nam mà mọi đàn ông trên thế giới đều gặp phải.</li><li>Nguyên nhân có thể do thói quen sống chưa lành mạnh, sắp xếp thời gian sinh hoạt chưa hợp lý, môi trường làm việc căng thẳng, không có thời gian tập luyện…khiến khả năng tình dục của phái mạnh ngày càng suy giảm.</li><li>Điều này có thể vô tình sẽ đẩy cuộc tình của đấng mày râu trên bờ vực thẳm do không làm bạn đời của mình thỏa mãn, khiến nàng stress do không được đáp ứng đến độ đã trong mỗi cuộc yêu, nàng có thể sẽ phải tìm vui nơi khác dẫn đến mối quan hệ tan vỡ.</li><li>Một điều cần nhớ rõ ràng, nhu cầu sinh lý của con người là tất yếu, có một đời sống tình dục viên mãn, con người mới có được cuộc sống hạnh phúc, tinh thần thoải mái để làm việc và vui chơi.</li><li>Thuốc xịt kéo dài thời gian quan hệ JO Prolonger Các sản phẩm chai xịt kéo dài thời gian đã rất phổ biến ở các nước phát triển, còn ở Việt Nam?</li><li>Đàn ông cũng dần ý thức được tầm quan trọng của đời sống tình dục và tìm đến các chai xịt kéo dài thời gian như sự cứu cánh cho đời sống tình dục, lấy lại sự tự tin.</li><li>Kéo dài thời gian yêu cho nam giới: Jo Prolonger là sản phẩm nổi tiếng tại Mỹ, chỉ gây tê cục bộ ngoài ra làm giảm nhạy cảm lên đầu dương vật</li><li>Giúp giảm tín hiệu truyền lên não dẫn đến kéo dài thời gian quan hệ, sản phẩm an toàn, trải qua tiêu chuẩn khắt khe của Mỹ, sau thời gian này, cậu nhỏ lại trở lại trạng thái như bình thường, cùng nàng lên đỉnh một cách dễ dàng.</li><li>Chai xịt chống xuất tinh sớm JO Prolonger Jo Prolonger không gây nóng đầu dương vật, giúp kéo dài thời gian lại không làm mất cảm giác.</li><li>Sản phẩm đặc biệt phù hợp với quý ông “chưa ra đến chợ đã tiêu hết tiền”, giúp nam giới kiểm soát thời điểm cực khoái, thể hiện bản lĩnh đàn ông trước đối tác.</li><li>JO Prolonger – Sản phẩm không gây dị ứng, có thể rửa sạch sau khi xịt để giữ bí mật nho nhỏ, gây bất ngờ cho quý cô.</li></ul>
-<h2>Rất an toàn cho phụ nữ</h2>
-<p>Một chai Jo Prolonger có thể dùng trên 120 lần quan hệ.</p>
-<h2>Xuất xứ: USA</h2>
-<h2>Nhà sản xuất: JO Hoa Kỳ</h2>
-<p>Cách sử dụng:</p>
-<ul><li>– Lắc đều chai, xịt trực tiếp lên dương vật, xịt lên khu vực đầu dương vật sau khi đã cương cứng và massage nhẹ nhàng cho thuốc nhanh ngấm qua da, xịt trước khi quan hệ 5 đến 10 phút để đạt được hiệu quả tối ưu.</li><li>– Xịt 1-2 lần (mỗi lần 3 hơi) lên đầu dương vật, tối đa 3 lần để đạt hiệu quả như như mong muốn.</li></ul>
-<p>– Đối với quan hệ bằng miệng:</p>
-<ul><li>Xịt thuốc trước 5-10 phút hoặc lâu hơn chút, thời gian này đủ cho thuốc ngấm vào trong, sau đó có thể tắm gội bình thường, các nàng sẽ bất ngờ trước sức mạnh nam giới mà không bị phát hiện.</li><li>Thuốc xịt không mùi không vị nên có thể dễ dàng quan hệ bằng miệng mà không gây cảm giác khó chịu.</li><li>– Có thể sử dụng kết hợp bao cao su và gel bôi trơn.</li><li>– Bảo quản nơi thoáng mát để giữ nguyên công dụng đến cuối chai.</li></ul>`,
-  },
+
   {
     slug: "chai-xit-chong-xuat-tinh-som-climax-an-do-xts19",
     legacySlug: "xts19-chai-xit-chong-xuat-tinh-som-climax-an-do-xts19",
