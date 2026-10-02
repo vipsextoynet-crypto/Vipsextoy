@@ -48212,41 +48212,7 @@ export const products: Product[] = [
 <h2>Người mới bắt đầu có dễ dàng sử dụng sản phẩm này không?</h2>
 <p>Sản phẩm rất thích hợp cho người mới nhờ phần thân silicone mềm mại với kích thước 10cm x 2.8cm gọn gàng. Bạn nên khởi động từ chế độ rung nhẹ nhất và kết hợp đầy đủ gel bôi trơn để có trải nghiệm thoải mái nhất.</p>`,
   },
-  {
-    slug: "duong-vat-mini-xoan-mem-da-nang-hm17d",
-    legacySlug: "hm17d-duong-vat-mini-xoan-mem-da-nang-hm17d",
-    sku: "HM17D",
-    name: "Dương vật mini xoắn mềm đa năng (HM17D)",
-    category: "Sextoy Hậu Môn",
-    categorySlug: "do-choi-hau-mon",
-    extraCategorySlugs: ["do-choi-cho-gay"],
-    price: 250000,
-    blurb: "Thiết kế đầu tròn an toàn, chất liệu mềm mại, dễ vệ sinh.",
-    description: "Dương vật mini xoắn mềm đa năng (HM17D). Thiết kế đầu tròn an toàn, chất liệu mềm mại, dễ vệ sinh. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Đầu tròn an toàn", "Chất liệu mềm mại", "Dễ vệ sinh", "Đóng gói kín đáo"],
-    icon: "bloom",
-    image: "/anh1/HM17D/01.jpg",
-    thumb: "/thumbs/anh1/HM17D/01.webp",
-    images: ["/anh1/HM17D/01.jpg", "/anh1/HM17D/06.jpg", "/anh1/HM17D/07.jpg", "/anh1/HM17D/08.jpg"],
-    sensitive: true,
-    longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị thông thường nhờ chất liệu T-Skin siêu bền cùng thiết kế cấu trúc xoắn độc đáo, Dương vật mini xoắn mềm đa năng (HM17D) là giải pháp hỗ trợ chăm sóc sức khỏe sinh lý và massage kích thích vùng nhạy cảm một cách an toàn, dễ dàng vệ sinh và bảo quản lâu dài.</p>
-<h2>Thiết kế &amp; chất liệu</h2>
-<p>Dương vật mini xoắn mềm đa năng (HM17D) sở hữu kích thước nhỏ gọn 9.3cm x 2.5cm với hai tùy chọn kích cỡ linh hoạt, đáp ứng trọn vẹn nhu cầu sử dụng cá nhân. Sản phẩm được hoàn thiện từ chất liệu T-Skin cao cấp không mùi, có đặc tính mềm mại, đàn hồi vượt trội và khả năng kháng tổn hại bề mặt tốt, duy trì độ bền ổn định theo thời gian. Bề mặt sản phẩm nổi bật với tông màu da tự nhiên kết hợp các đường vân xoắn liti tinh xảo, đi kèm phần đế hút gắn tường chắc chắn giúp việc thao tác sử dụng cũng như công đoạn vệ sinh, phơi khô bảo quản trở nên vô cùng thuận tiện.</p>
-<h2>Công dụng thực tế</h2>
-<p>- Hỗ trợ massage thư giãn và kích thích nhẹ nhàng các điểm nhạy cảm nhờ cấu trúc dải vân xoắn mềm mại.</p>
-<p>- Giúp cải thiện trải nghiệm khoái cảm tự nhiên cho cá nhân hoặc cặp đôi mà không cần phụ thuộc vào động cơ rung.</p>
-<p>- Chất liệu T-Skin bền bỉ, chống bám bẩn tốt, tối ưu hóa quá trình rửa sạch và giữ nguyên hình dáng ban đầu sau thời gian dài sử dụng.</p>
-<p>- Phần đế gắn tường hỗ trợ cố định linh hoạt trên bề mặt phẳng, tạo sự tiện lợi trong quá trình trải nghiệm và phơi khô sản phẩm.</p>
-<h2>Ai nên dùng sản phẩm này</h2>
-<p>Sản phẩm là lựa chọn phù hợp cho nam giới cũng như các cặp đôi đang tìm kiếm một thiết bị hỗ trợ giải tỏa nhu cầu an toàn, lành tính và có độ bền cao. Nhờ thiết kế nhỏ gọn và phương thức bảo vệ chất liệu đơn giản, HM17D đặc biệt thích hợp cho những người mới bắt đầu làm quen với các sản phẩm chăm sóc sức khỏe cá nhân cao cấp.</p>
-<h2>Câu hỏi thường gặp</h2>
-<h2>Chất liệu T-Skin của sản phẩm có độ bền cao và dễ vệ sinh không?</h2>
-<p>Chất liệu T-Skin cao cấp không mùi có độ đàn hồi tốt và khả năng chống xuống cấp hiệu quả nếu được bảo quản đúng cách. Sau khi dùng, bạn chỉ cần làm sạch bằng dung dịch xà phòng kháng khuẩn hoặc cồn y tế nhẹ kết hợp nước ấm, sau đó lau khô bằng khăn mềm là có thể giữ sản phẩm luôn bền đẹp.</p>
-<h2>Sản phẩm HM17D có gây ra tiếng ồn trong quá trình sử dụng không?</h2>
-<p>Do không tích hợp động cơ rung cơ học, sản phẩm vận hành hoàn toàn tự nhiên nên cực kỳ yên tĩnh. Điều này giúp đảm bảo sự riêng tư tuyệt đối và mang lại cảm giác thư giãn nhẹ nhàng cho người sử dụng.</p>
-<h2>Cần bảo quản sản phẩm thế nào để kéo dài tuổi thọ chất liệu?</h2>
-<p>Sau khi vệ sinh và lau khô hoàn toàn, bạn nên đặt sản phẩm tại nơi khô ráo, thoáng mát, tránh ánh nắng mặt trời chiếu trực tiếp và môi trường nhiều bụi bẩn. Ngoài ra, việc kết hợp sử dụng gel bôi trơn gốc nước sẽ giúp bảo vệ bề mặt chất liệu T-Skin luôn mịn màng, hạn chế hao mòn.</p>`,
-  },
+
   {
     slug: "trung-rung-hau-mon-dieu-khien-xa-20-tan-so-hm02a",
     legacySlug: "hm02a-trung-rung-hau-mon-dieu-khien-xa-20-tan-so-hm02a",
