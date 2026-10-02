@@ -69219,6 +69219,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "chai-xit-keo-dai-thoi-gian-jo-prolonger-60ml",
+    sku: "XTS15",
+    name: "Chai xịt kéo dài thời gian Jo Prolonger 60ml",
+    category: "Chai Xịt Lâu Ra",
+    categorySlug: "chai-xit-keo-dai-thoi-gian",
+    price: 1150000,
+    blurb: "",
+    description: "Chai xịt kéo dài thời gian Jo Prolonger 60ml\n\nTăng tối đa khoái cảm với JO® PROLONGER GEL, một loại gel có độ mạnh thông thường sử dụng các thành phần gây tê tự nhiên để làm chậm quá trình xuất tinh. Việc bổ sung tinh dầu bạc hà được thiết kế để tăng cường hiệu quả kéo dài đồng thời mang lại cảm giác căng mọng tự nhiên. Hoàn hảo để sử dụng trong khi tự thỏa mãn và màn dạo đầu, loại gel này mang đến trải nghiệm thú vị hơn, với hiệu quả kéo dài hơn.\n\nCác tính năng chính:\nKEM CẢI THIỆN CẢM GIÁC\n\nGEL TRÌ HOÃN LẤY CẢM HỨNG TỪ THIÊN NHIÊN\n\nTinh dầu gia vị tổng hợp và tinh dầu hoắc hương mang lại tác dụng gây tê tự nhiên.\n\nLÝ TƯỞNG CHO NAM GIỚI MUỐN HIỆU QUẢ LÂU DÀI HƠN VỚI CÔNG THỨC CƯỜNG ĐỘ THÔNG THƯỜNG\n\nThành phần:\nNước (Aqua), PEG-7 Glyceryl Cocoate, Laureth-9, Cyclopentasiloxane, Cyclotetrasiloxane, Polyacrylamide, Axit amin từ yến mạch, PEG-40 Dầu thầu dầu hydro hóa, Ammonium Acryloyldimethyltaurate/VP Copolymer, Polystyrene, C13-14 Isoparaffin, Dimethiconol, Laureth-7, Dầu lá ớt (Pimenta Officinalis), Dầu Pogostemon Cablin, Dầu bạc hà (Mentha Piperita), Benzyl Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
