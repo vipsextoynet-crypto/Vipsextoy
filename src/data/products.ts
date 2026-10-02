@@ -69161,6 +69161,18 @@ export const products: Product[] = [
     icon: "wave",
     sensitive: true,
   },
+  {
+    slug: "may-rung-cao-cap-fun-volta-mon-tron-da-vung-nhay-cam",
+    sku: "DC91D",
+    name: "Máy rung cao cấp Fun VOLTA mơn trớn đa vùng nhạy cảm",
+    category: "Đồ Chơi Nữ",
+    categorySlug: "do-choi-cao-cap-nu",
+    price: 2950000,
+    blurb: "",
+    description: "Máy rung cao cấp Fun VOLTA mơn trớn đa vùng nhạy cảm \n\nĐánh thức mọi đầu dây thần kinh với máy rung Fun Factory Volta Lay-On màu Magenta. Đầu rung tách đôi đặc trưng giúp tăng cường độ nhạy cảm và tuần hoàn máu, mang đến những cảm giác kích thích, rung động mạnh mẽ cho âm vật, vùng kín, núm vú, hoặc thậm chí là một sự nâng cấp đầy quyến rũ trong khi quan hệ tình dục bằng miệng.\n\nĐược làm từ silicone mềm mại, an toàn cho cơ thể, Volta có thể sạc qua cổng USB-C (không kèm cáp) và hoàn toàn chống nước (IPX7), lý tưởng để sử dụng trong bồn tắm hoặc vòi sen. Dù sử dụng một mình hay với người yêu, máy rung đặt lên người linh hoạt, mạnh mẽ này được thiết kế để tăng cường khoái cảm – hết lần này đến lần khác.",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
