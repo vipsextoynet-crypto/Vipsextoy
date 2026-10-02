@@ -69201,6 +69201,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "vong-rung-cao-cap-fun-nos",
+    sku: "DC91R",
+    name: "Vòng rung cao cấp Fun NOS",
+    category: "Đồ Chơi Nam",
+    categorySlug: "do-choi-cao-cap-nam",
+    price: 2450000,
+    blurb: "",
+    description: "Tăng cường khoái cảm và sức bền cùng nhau với vòng rung dương vật bằng silicon Fun Factory NŌS màu xanh lá cây đậm. Sở hữu hai động cơ mạnh mẽ và các cánh tay rung linh hoạt ôm sát cơ thể, NŌS mang đến sự kích thích mạnh mẽ cho âm vật, đồng thời hai điểm áp lực tích hợp trong vòng giúp hỗ trợ cương cứng lâu hơn và mạnh mẽ hơn.\n\n \n\n\n\nĐược làm từ silicone siêu mềm dẻo, an toàn cho cơ thể, sản phẩm phù hợp với hầu hết mọi kích cỡ một cách thoải mái và cung cấp 4 tốc độ cùng 1 chế độ rung, tất cả được điều khiển bằng các nút đơn giản, trực quan để bạn luôn tận hưởng khoảnh khắc. Chống nước (IPX7) và sạc qua USB-C (không kèm cáp), NŌS sẵn sàng cho những cuộc vui cùng đối tác—từ quan hệ tình dục thâm nhập đến quan hệ bằng miệng và massage—bất cứ khi nào bạn muốn.\n\n\n\n\n\n\n\n \n\n\n\n\n\n- Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo.\n\n    - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
