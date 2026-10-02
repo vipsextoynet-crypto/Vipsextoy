@@ -60708,44 +60708,17 @@ export const products: Product[] = [
 
   {
     slug: "trung-rung-cao-cap-sieu-manh-dieu-khien-xa-svakom-elva-dc89e",
-    legacySlug: "dc89e-trung-rung-cao-cap-sieu-manh-dieu-khien-xa-svakom-elva-dc89e",
     sku: "DC89E",
-    name: "Trứng rung cao cấp siêu mạnh điều khiển xa Svakom Elva (DC89E)",
+    name: "Trứng rung cao cấp siêu mạnh điều khiển xa Svakom Elva",
     category: "Trứng Rung Nữ",
     categorySlug: "trung-rung-tinh-yeu",
     price: 1350000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
+    blurb: "",
     description: "Trứng rung cao cấp siêu mạnh điều khiển xa Svakom Elva (DC89E). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89E/01.jpg",
-    thumb: "/thumbs/anh1/DC89E/01.webp",
     images: ["/anh1/DC89E/01.jpg"],
-    longDescription: `<p>Tính năng: Massager âm vật, kích thích điểm G, giải tỏa sinh lý nữ hiệu quả.</p>
-<p>Chất liệu: Silicone cao cấp an toàn không độc tính.</p>
-<h2>Kích thước: 8cm x 3.4cm</h2>
-<h2>Trọng lượng: 93g</h2>
-<h2>Rung: 6 tần số rung</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng tối đa: 2 giờ</h2>
-<h2>Pin: Sạc pin cao cấp</h2>
-<h2>Nhãn hiệu: Svakom</h2>
-<h2>Xuất xứ: Mỹ</h2>
-<h2>Thời gian bảo hành: Thẻ bảo hành 1 năm của nhà sản xuất</h2>
-<p>ELVA có 5 chế độ khác nhau và 5 cường độ ở mỗi chế độ vì vậy bạn có tới 5x5 = 25+1 =26 lựa chọn để bạn khám phá hết các tính năng của trứng ELVA cũng như tận hưởng hết các cung bậc cảm xúc thăng hoa mà ELVA mang tới cho bạn.</p>
-<p>Mặc dù có kích thước nhỏ nhưng động cơ tiềm ẩn bên trong của ELVA lại vô cùng mạnh mẽ. 5 cường độ khác nhau đi từ yếu cho tới mạnh hoàn toàn có thể chinh phục chị em  ngay cả các cô nàng đỏng đảnh khó chiều nhất cũng thấy thỏa mãn nhất.</p>
-<p>ELVA được thiết kế với cổng pin lỗ sạc ngăn không cho nước thấm ngược vào bên trong. Do đó chị em có thể vui vẻ cùng ELVA trong bồn tắm, hoặc trong hồ bơi hay bất cứ nơi  nào bạn cảm thấy hài lòng nhất với sản phẩm.</p>
-<p>Svakom ELVA được thiết kế với chế độ hoạt động cực kỳ thông minh, nó có thể bắt chước các tần số rung động trong quan hệ tình dục ngay từ màn khởi đầu cho tới khi đạt cực khoái mong muốn nhất của cơ thể. Chỉ cần nhấn nút &quot;S&quot; ngay tức thì bạn có thể bắt đầu một cuộc hành trình giống như quan hệ tình dục với &quot;nửa ấy&quot; thật tuyệt vời. ELVA cho bạn một cuộc hành trình thú vị từ màn dạo đầu e lệ, trêu chọc  tới mạnh mẽ, cao trào đầy đủ các cung bậc cảm xúc trong quan hệ tình dục mà bạn không muốn bỏ lỡ.</p>
-<p>Svakom được thiết kế với động cơ chất lượng cao nhất và được cung cấp từ các nhà sản xuất tốt nhất. Chính vì  thế Svakom ELVA cung cấp cho bạn nhưng rung động mạnh mẽ nhưng cực kỳ yên tĩnh và có tuổi thọ lâu dài nhất trên thị trường hiện nay. Với mức ồn sau khi dược bật lên mức mạnh nhất dưới 50Db bạn chỉ có thể nghe được thiêt bị rung từ xa với khoảng cách 1m mà thôi.</p>
-<p>ELVA có thể sử dụng có hoặc không có điều khiển từ xa. Với sự điều khiển xa điều này sẽ làm tăng cảm hứng cũng như sự tương tác giữa bạn và đối tác của bạn. Thuận lợi ở chỗ bạn có thể thay đổi chế độ và cường độ bằng cách điều khiển từ xa nếu bạn đang sử dụng thiết bị cho chính bạn.</p>
-<p>Được thiết kế sang trọng, tiện dụng và đẹp mắt Svakom ELVA trở thành công cụ hỗ trợ tình dục hiệu quả và đáng tin cậy nhất cho chị em cô đơn hay những cặp đôi trong việc cải thiện chất lượng cuộc sống tình dục. ELVA nhỏ gọn dễ dàng massger bên ngoài âm vật vừa có thể đi sâu vào bên trong âm đạo kích thích điểm G nhằm tăng hưng phấn tột cùng cho chị em.</p>
-<p>CÁCH SỬ DỤNG SVAKOM ELVA:</p>
-<ul><li>- Trước khi sử dụng vệ sinh sản phẩm sạch bằng công y tế hoặc nước muối pha loãng</li><li>- Trong quá trinh sử dụng bạn có thể sử dụng thêm gel bôi trơn để dễ dàng đưa ELVA đi vào sâu trong âm đạo kích thích điểm G</li></ul>
-<h2>- Sạc đầy pin trước khi sử dụng</h2>
-<p>- Khởi động trứng rung: Bấm giữ nút &quot;S&quot; trên trứng rung và điều khiển trong 2 giây để khởi động trứng rung và bật chế độ làm việc ở điều khiển. Bấm nút mũi tên lên để tăng cường độ rung ngược lại bấm nút mũi tên xuống để giảm cương độ rung</p>
-<p>- Để tắt trứng rung bấm giữ nút &quot;S&quot; 2 giây để tắt trứng và tương tự với điều khiển xa cũng vậy</p>
-<p>- Sau khi đạt khoái cảm mong muốn tắt thiết bị vệ sinh lại một lần nữa trước khi bảo quản</p>
-<p>- Bảo quản nơi khô thoáng tránh bui bẩn và ánh nắng trực tiếp.</p>`,
   },
   {
     slug: "may-mat-xa-hai-dau-cao-cap-svakom-siren-dc90x",
