@@ -27106,37 +27106,17 @@ export const products: Product[] = [
   },
   {
     slug: "may-rung-cao-cap-svakom-vick-neo-cho-cap-doi-tuong-tac-qua-app-tu-xa-dc89m-neo",
-    legacySlug: "dc89m-neo-may-rung-cao-cap-svakom-vick-neo-cho-cap-doi-tuong-tac-qua-app-tu-xa-dc89m-neo",
     sku: "DC89M_Neo",
-    name: "Máy rung cao cấp Svakom Vick neo- cho cặp đôi tương tác qua App từ xa (DC89M_Neo)",
+    name: "Máy rung cao cấp Svakom Vick neo- cho cặp đôi tương tác qua App từ xa",
     category: "Trứng Rung Nữ",
     categorySlug: "trung-rung-tinh-yeu",
-    extraCategorySlugs: ["may-massage-ca-nhan"],
     price: 1790000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
+    blurb: "",
     description: "Máy rung cao cấp Svakom Vick neo- cho cặp đôi tương tác qua App từ xa (DC89M_Neo). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89M_Neo/01.jpg",
-    thumb: "/thumbs/anh1/DC89M_Neo/01.webp",
     images: ["/anh1/DC89M_Neo/01.jpg"],
-    longDescription: `<p>Dành cho các cặp đôi yêu xa hoặc người mới bắt đầu muốn nâng cao chất lượng đời sống tình cảm một cách tinh tế, máy rung cao cấp Svakom Vick Neo (DC89M_Neo) là thiết bị chăm sóc sức khỏe cá nhân cao cấp hỗ trợ điều khiển từ xa qua ứng dụng di động thông minh, giúp kết nối tình cảm dễ dàng ở bất kỳ khoảng cách nào.</p>
-<h2>Thông số kỹ thuật</h2>
-<h2>- Thương hiệu: Svakom (Mỹ)</h2>
-<h2>- Mã sản phẩm: DC89M_Neo (Vick Neo)</h2>
-<ul><li>- Tính năng điều khiển: Tích hợp ứng dụng thông minh trên điện thoại (App control) từ xa</li><li>- Công nghệ động cơ: Động cơ kép (Dual motors) vận hành mạnh mẽ và êm ái</li><li>- Chế độ hoạt động: 7 nhịp rung kết hợp 5 mức cường độ (tạo nên 35 trải nghiệm tùy chọn)</li><li>- Thiết kế: Dáng cong ergonomics nâng niu, hỗ trợ tác động chuẩn xác vùng nhạy cảm</li><li>- Khả năng kháng nước: Chống thấm nước toàn thân, an toàn khi sử dụng trong nhà tắm</li></ul>
-<h2>Trải nghiệm khác biệt</h2>
-<p>Thương hiệu Svakom đã tối ưu hóa máy rung Svakom Vick Neo để mang đến trải nghiệm thân thiện nhất, đặc biệt phù hợp cho những người lần đầu tiếp cận các thiết bị hỗ trợ sức khỏe cá nhân. Thiết kế đường cong mềm mại của thiết bị hỗ trợ ôm sát tự nhiên các vùng cơ thể nhạy cảm, giúp người dùng thao tác nhẹ nhàng mà không cần tốn nhiều thời gian làm quen.</p>
-<p>Điểm sáng nổi bật của sản phẩm nằm ở tính tiện lợi khi vận hành thông qua ứng dụng kết nối từ xa. Sự kết hợp giữa hệ thống động cơ kép tinh vi cùng 35 tùy chọn chế độ rung đa dạng giúp các cặp đôi dễ dàng duy trì sự gắn kết và chia sẻ cảm xúc chân thật, dù đang ở hai không gian hoàn toàn tách biệt.</p>
-<h2>Mẹo dùng &amp; bảo quản</h2>
-<ul><li>- Khởi động và tải ứng dụng Svakom theo hướng dẫn đính kèm để kết nối thiết bị với điện thoại một cách nhanh chóng.</li><li>- Nên kết hợp cùng chất bôi trơn gốc nước để đảm bảo sự mượt mà và thoải mái tối đa trong suốt quá trình sử dụng.</li><li>- Vệ sinh sản phẩm bằng nước ấm cùng xà phòng dịu nhẹ hoặc dung dịch làm sạch chuyên dụng trước và sau khi dùng.</li><li>- Thấm khô hoàn toàn bằng khăn mềm trước khi cất giữ tại nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.</li></ul>
-<h2>Câu hỏi thường gặp</h2>
-<h2>Máy rung Svakom Vick Neo có dễ sử dụng cho người mới bắt đầu không?</h2>
-<p>Sản phẩm được thiết kế rất tối giản và trực quan. Người mới bắt đầu có thể dễ dàng thao tác ngay từ lần đầu nhờ giao diện ứng dụng điều khiển thân thiện cùng đường cong thiết kế vừa vặn, mang lại cảm giác an toàn và thoải mái.</p>
-<h2>Sản phẩm có thể dùng trong nhà tắm hoặc bồn tắm được không?</h2>
-<p>Có, Svakom Vick Neo sở hữu công nghệ chế tạo chống thấm nước hoàn thiện. Bạn hoàn toàn có thể yên tâm thư giãn cùng thiết bị dưới vòi hoa sen hoặc trong bồn nước ấm mà không lo ảnh hưởng đến linh kiện bên trong.</p>
-<h2>Khoảng cách điều khiển qua ứng dụng di động có bị giới hạn không?</h2>
-<p>Nhờ kết nối qua ứng dụng thông minh, đối phương có thể nhận quyền điều khiển thiết bị từ bất kỳ đâu thông qua kết nối internet. Tính năng này giúp các cặp đôi dễ dàng duy trì tương tác cảm xúc dù đang ở xa nhau về mặt địa lý.</p>`,
   },
   {
     slug: "am-dao-gia-leten-3d-rung-ren-nhu-dien-vien-phim-jav",
