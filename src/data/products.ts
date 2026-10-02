@@ -69213,6 +69213,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "bup-be-silicon-cao-cap-150cm",
+    sku: "BB17",
+    name: "Búp bê silicon cao cấp 150cm",
+    category: "Búp Bê Silicon",
+    categorySlug: "bup-be-silicon-cao-cap",
+    price: 24500000,
+    blurb: "",
+    description: "Có thể biến đổi nhiều tư thế khác nhau.\n\nQuan hệ qua đường : âm đạo, hậu môn, miệng.\n\nMàu : da\n\n Chất liệu : silicon an toàn  \n\nChiều cao : 1m50\n\nSố đo 3 vòng:  80 - 51 - 80\n\nTrọng lượng : 28kg",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
