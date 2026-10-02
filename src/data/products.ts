@@ -60265,54 +60265,17 @@ export const products: Product[] = [
   },
   {
     slug: "may-rung-hau-mon-dieu-khien-xa-svakom-julie-dc89n",
-    legacySlug: "dc89n-may-rung-hau-mon-dieu-khien-xa-svakom-julie-dc89n",
     sku: "DC89N",
-    name: "Máy rung hậu môn điều khiển xa Svakom Julie (DC89N)",
+    name: "Máy rung hậu môn điều khiển xa Svakom Julie",
     category: "Sextoy Hậu Môn",
     categorySlug: "do-choi-hau-mon",
-    extraCategorySlugs: ["trung-rung-tinh-yeu", "may-massage-ca-nhan"],
     price: 1490000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
+    blurb: "",
     description: "Máy rung hậu môn điều khiển xa Svakom Julie (DC89N). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89N/01.png",
-    thumb: "/thumbs/anh1/DC89N/01.webp",
     images: ["/anh1/DC89N/01.png"],
-    longDescription: `<h2>Mô tả sản phẩm</h2>
-<p>Tính năng: Massager kích thích điểm G, tuyến tiền liệt, giải tỏa sinh lý hiệu quả</p>
-<h2>Đối tượng sử dụng: nam - nữ, cặp đôi muốn thay đổi không khí phòng the</h2>
-<h2>Chất liệu: Silicone ABS không mùi an toàn và lành tính</h2>
-<h2>Kích thước: 10.2cm x 2.8cm</h2>
-<h2>Màu sắc: Đen - Tím</h2>
-<h2>Chế độ rung: 5+1</h2>
-<h2>Cường độ: 5</h2>
-<h2>Trọng lượng: 72g</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng: 3 giờ</h2>
-<h2>Chống thấm nước: không thấm nước</h2>
-<h2>Hãng sản xuất: Svakom</h2>
-<h2>Xuất xứ: Mỹ</h2>
-<p>SVAKOM Julie dùng cho cả nam và nữ, kích thích điểm G và hậu môn mang lại khoái cảm tuyệt vời chưa từng có. Bạn có thể dùng đồ chơi tình dục cắm hậu môn Julie bên trong và điều khiển mọi lúc mọi nơi với 25 tần số rung kích thích qua chiếc remote điều khiển từ xa tiện lợi, kín đáo.</p>
-<p>Julie có 5 +1 chế độ khác nhau và 5 cường độ trong mọi chế độ vì vậy bạn có (5x5)+1=26 sự lựa chọn để khám phá những điều tuyệt vời nhất mà Julie mang lại. Julie có thể được sử dụng có hoặc không có điều khiển từ xa. Nếu bạn quyết định sử dụng điều khiển từ xa nó sẽ làm tăng sự tương tác giữa bạn và đối tác của bạn. Với điều khiển xa bạn sẽ thuận tiện hơn khi thay đổi chế độ và cường độ bằng điều khiển từ xa.</p>
-<p>Julie được thiết kế với cổng sạc pin kín vì vậy nó không hề thấm nước bạn có thể vui vẻ với nó dưới vòi hoa sen, trong bồn tắm hay bể bơi cũng rất tuyệt vời.</p>
-<p>Julie yên lặng hơn cả một chiếc đồng hồ tích tắc. Vì vậy bạn có thể tận hưởng nó mà không phải lo lắng về việc làm phiền người khác về tiếng động, bởi nó cực kỳ êm.</p>
-<p>Julie sử dụng pin lithium và máy rung có thể sạc lại nhiều lần với dung lượng pin 300mAh, Nó có thể sạc đầy trong vòng 1 giờ và sử dụng tối đa lên tới 3 giờ đồng hồ. Thật sự vô cùng đã để bạn có thể vui vẻ cùng nó suốt nhiều giờ cho tới khi thỏa mãn thì thôi.</p>
-<p>Julie được làm bằng silicone thân thiện với môi trường. Tất cả các sản phẩm của Svakom đã vượt qua các thử nghiệm nghiêm ngặt và đạt tiêu chuẩn cao nhất trước khi ra mắt.</p>
-<p>Julie là một sản phẩm có thể được sử dụng cho cả nam và nữ. Đối với phụ nữ nó có thể được sử dụng cho kích thích điểm G và kích thích hậu môn. Đối với đàn ông nó có thể sử dụng nó như một máy massager tuyến tiền liệt.</p>
-<h2>Thông số kỹ thuật SVAKOM Julie</h2>
-<h2>- Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể</h2>
-<h2>- Kích thước: Φ28mm * 102mm</h2>
-<h2>- Điều khiển từ xa: 56 * 34 * 15mm</h2>
-<h2>- Phạm vi hoạt động: 5m</h2>
-<h2>- Trọng lượng: 72g</h2>
-<h2>- Loại pin: Pin lithium polymer</h2>
-<h2>- Dung lượng pin: 300mAh</h2>
-<h2>- Thời gian sạc: 1 giờ</h2>
-<h2>- Thời gian sử dụng: 3 giờ</h2>
-<h2>- Chống thấm nước: IPX4</h2>
-<h2>- Chế độ rung: 5 tần số x 5 cường độ = 25 chế độ khác nhau</h2>
-<p>SVAKOM Julie có thẻ bảo hành quốc tế 12 tháng.</p>`,
   },
   {
     slug: "may-rung-diem-g-cao-cap-nho-xinh-svakom-keri-ngon-tay-dam-me-dc90p",
