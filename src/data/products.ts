@@ -69191,6 +69191,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "thanh-rung-hau-mon-nho-xinh-manh-me",
+    sku: "HM17D",
+    name: "Thanh rung hậu môn nhỏ xinh mạnh mẽ",
+    category: "Sextoy Hậu Môn",
+    categorySlug: "do-choi-hau-mon",
+    price: 550000,
+    blurb: "",
+    description: "Thanh rung hậu môn nhỏ xinh mạnh mẽ\n\nTrứng rung hậu môn đầu nhỏ sạc pin là sản phẩm đồ người lớn dành cho người trưởng thành, được thiết kế nhỏ gọn, dễ sử dụng và phù hợp cho người mới bắt đầu. Với đầu nhỏ mềm mại cùng nhiều chế độ rung linh hoạt, sản phẩm mang lại trải nghiệm nhẹ nhàng, an toàn và kín đáo.\n\nChế Độ Rung Đa Dạng\n\nTrứng rung được tích hợp nhiều chế độ rung khác nhau:\n\nTừ nhẹ nhàng đến mạnh mẽ\nNhịp rung linh hoạt, dễ điều chỉnh\nHoạt động êm ái, hạn chế tiếng ồn\nNgười dùng có thể thay đổi chế độ để phù hợp với nhu cầu và cảm nhận cá nhân.\nHướng Dẫn Sử Dụng & Bảo Quản\nVệ sinh sản phẩm trước và sau khi sử dụng\nSạc đầy pin trước khi dùng\nNên sử dụng gel bôi trơn gốc nước để tăng độ trơn mượt\nBảo quản nơi khô ráo, thoáng mát\n - Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo.\n\n    - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo. \n    Free ship toàn quốc .",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
