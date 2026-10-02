@@ -16673,34 +16673,18 @@ export const products: Product[] = [
   },
   {
     slug: "duong-vat-gia-cao-cap-svakom-avery-rung-thut-cuc-dinh-dc89a",
-    legacySlug: "dc89a-duong-vat-gia-cao-cap-svakom-avery-rung-thut-cuc-dinh-dc89a",
     sku: "DC89A",
-    name: "Dương vật giả cao cấp Svakom Avery rung thụt cực đỉnh (DC89A)",
+    name: "Dương vật giả cao cấp Svakom Avery rung thụt cực đỉnh",
     category: "Đồ Chơi Nữ",
     categorySlug: "do-choi-cao-cap-nu",
     price: 2400000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
+    blurb: "",
     description: "Dương vật giả cao cấp Svakom Avery rung thụt cực đỉnh (DC89A). Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89A/01.jpg",
-    thumb: "/thumbs/anh1/DC89A/01.webp",
     images: ["/anh1/DC89A/01.jpg", "/anh1/DC89A/06.jpg", "/anh1/DC89A/07.jpg", "/anh1/DC89A/08.jpg", "/anh1/DC89A/09.jpg", "/anh1/DC89A/10.jpg"],
     sensitive: true,
-    longDescription: `<p>Dương vật  đa năng  cao cấp svakom avery với chế độ rung thụt cực mạnh giúp cho bạn dễ dàng đạt được khoái cảm. Đầu rung kép có thể hoạt động riêng lẻ hoặc cùng lúc , 5 chế độ thụt kết hợp với 5 chế độ rung và tốc độ khác nhau đưa bạn đến những cảm xúc đê mê . Sản phẩm không thấm nước vì vậy bạn có thể mang đi bất cứ nơi đâu.</p>
-<p>Thông số kỹ thuật  :</p>
-<h2>Chất liệu: Silicone</h2>
-<h2>Kích thước: 186 x 74 x 33mm / 9,84 x 3,94 x 2,17 inch</h2>
-<h2>Trọng lượng: 183 g</h2>
-<h2>Loại pin: Polymer lithium battery</h2>
-<h2>Dung lượng pin: 650mAh</h2>
-<h2>Thời gian sạc: 2 giờ</h2>
-<h2>Thời gian sử dụng: 3 giờ</h2>
-<h2>Chống thấm nước: 100%</h2>
-<h2>Chế độ : Rung , thụt</h2>
-<p>Cam kết hàng chính hãng bảo hành 12 tháng.</p>
-<h2>Các sản phẩm của SVAKOM</h2>
-<ul><li>- Đảm bảo An toàn đến Sức Khỏe người sử dụng.</li><li>- Giao hàng nhanh chóng, che tên sản phẩm.</li><li>- Tại HCM &amp; HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày</li></ul>`,
   },
   {
     slug: "thien-than-michisio-duong-vat-silicon-cao-cap-rung-ngoay-nhat-ban-dc94",
