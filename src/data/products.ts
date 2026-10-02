@@ -69207,6 +69207,18 @@ export const products: Product[] = [
     thumb: "/thumbs/anh1/DC90EP/dc90ep3.webp",
     images: ["/anh1/DC90EP/dc90ep3.jpg", "/anh1/DC90EP/dc90ep4.jpg", "/anh1/DC90EP/dc90ep5.jpg", "/anh1/DC90EP/dc90ep6.jpg", "/anh1/DC90EP/dc90ep7.jpg", "/anh1/DC90EP/dc90ep8.jpg", "/anh1/DC90EP/dc90ep9.jpg", "/anh1/DC90EP/dc90ep10.jpg", "/anh1/DC90EP/dc90ep11.jpg", "/anh1/DC90EP/svakom-erica-2.jpg", "/anh1/DC90EP/svakom-erica-3.jpg", "/anh1/DC90EP/svakom-erica-4.jpg", "/anh1/DC90EP/svakom-erica-5.jpg", "/anh1/DC90EP/svakom-erica-6.jpg"],
   },
+  {
+    slug: "gel-boi-tron-cao-cap-goc-nuoc-lelo-75ml",
+    sku: "G09A",
+    name: "Gel bôi trơn cao cấp gốc nước Lelo 75ml",
+    category: "Gel Bôi Trơn Âm Đạo",
+    categorySlug: "gel-boi-tron-am-dao",
+    price: 700000,
+    blurb: "",
+    description: "Kem dưỡng ẩm cá nhân LELO được đặc chế với hai công dụng: tăng cường sự thoải mái và khoái cảm trong các hoạt động gợi cảm, và dùng để dưỡng ẩm cho vùng kín. Sản phẩm không chứa Glycerine, paraben và hương liệu. Công thức gốc nước được bổ sung thêm lô hội, lý tưởng cho mọi khoảnh khắc thân mật cũng như đáp ứng nhu cầu cá nhân của bạn. Kem dưỡng ẩm này hoàn toàn an toàn khi sử dụng với mọi đồ chơi tình dục. Kem dưỡng ẩm cá nhân LELO cũng không gây nhờn rít và không làm ố màu, đảm bảo không gì cản trở bạn tận hưởng những khoái cảm sâu kín nhất.  \n \nTuýp: 75mL / 2.5 fl. oz\nKích thước: 37mm (đường kính) x 122mm\nThành phần: Nước, Propylene Glycol, Hydroxyethylcellulose, Nước ép lá lô hội (Aloe Barbadenis), Natri Benzoat, Kali Sorbat, Tetrasodium EDTA, Chiết xuất Gurana, Chiết xuất nhân sâm, Chiết xuất yến mạch (Avena Sativa), Polysorbate-20, Aspartame, Polyquaternium-5, PEG-45M, Axit Citric. \n-  Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo\n\n - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo. \n\n    Free ship toàn quốc .",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
