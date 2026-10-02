@@ -69189,6 +69189,18 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
   },
+  {
+    slug: "mat-la-linh-mieu-sang-chanh",
+    sku: "DC56G",
+    name: "Mặt lạ linh miêu sang chảnh",
+    category: "Âm Đạo Giả",
+    categorySlug: "am-dao-gia",
+    price: 300000,
+    blurb: "",
+    description: "Mặt nạ linh miêu \n\nMàu sắc : màu đen, màu đen viền đỏ\n\nKích thức : chu vi : 52 - 64cm , chiều rộng : 13 cm \n\nChất liệu : PU/ kim loại\n\nTrọng lượng : 70g",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
 ];
 
 export function getProduct(slug: string) {
