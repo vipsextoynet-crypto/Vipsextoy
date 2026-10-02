@@ -15602,58 +15602,17 @@ export const products: Product[] = [
   },
   {
     slug: "quan-chip-rung-svakom-echo-neo-ket-noi-app-rung-moi-luc-moi-noi-dc89u-ne",
-    legacySlug: "dc89u-ne-quan-chip-rung-svakom-echo-neo-ket-noi-app-rung-moi-luc-moi-noi-dc89u-ne",
     sku: "DC89U_NE",
-    name: "Quần chip rung Svakom Echo Neo kết nối app rung mọi lúc mọi nơi (DC89U_NE)",
+    name: "Quần chip rung Svakom Echo Neo kết nối app rung mọi lúc mọi nơi",
     category: "Dương Vật Giả",
     categorySlug: "duong-vat-gia-rung",
-    extraCategorySlugs: ["trung-rung-tinh-yeu"],
     price: 1450000,
-    blurb: "Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm.",
-    description: "Quần chip rung Svakom Echo Neo kết nối app rung mọi lúc mọi nơi (DC89U_NE). Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
+    blurb: "",
+    description: "Quần chip rung Svakom Echo Neo kết nối app rung mọi lúc mọi nơi. Thiết kế rung đa chế độ, chất liệu an toàn cho da nhạy cảm. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89U_NE/01.jpg",
-    thumb: "/thumbs/anh1/DC89U_NE/01.webp",
     images: ["/anh1/DC89U_NE/01.jpg", "/anh1/DC89U_NE/04.png", "/anh1/DC89U_NE/05.png", "/anh1/DC89U_NE/06.png", "/anh1/DC89U_NE/07.png", "/anh1/DC89U_NE/08.png", "/anh1/DC89U_NE/09.png", "/anh1/DC89U_NE/10.png", "/anh1/DC89U_NE/11.png", "/anh1/DC89U_NE/12.png", "/anh1/DC89U_NE/13.png", "/anh1/DC89U_NE/14.png"],
-    longDescription: `<h2>Giới thiệu về Svakom Echo Neo máy rung gắn quần lót thông minh</h2>
-<p>Svakom Echo Neo máy rung gắn quần lót thông minh là một dòng sản phẩm cao cấp với chức năng điều khiển từ xa. Thông qua kết nối với ứng dụng Svakom có trong thiết bị, bạn có thể thỏa sức tận hưởng khoái cảm theo sở thích của mình.</p>
-<p>Sở hữu thiết kế xinh xắn và nhỏ gọn Svakom Echo Neo nhanh chóng chiếm được cảm tình của phái nữ ngay từ cái nhìn đầu tiên. Lấy cảm hứng màu sắc từ những bông hoa hồng vàng tượng cho tình yêu chung thủy giúp sản phẩm vừa nổi bật vừa tinh tế. Hình dáng của trứng rung cong tựa mai rùa giúp sản phẩm ôm sát âm đạo phụ nữ và dễ dàng mang lại hưng phấn nồng nhiệt.</p>
-<p>Ngoài ra, Svakom Echo Neo không chỉ gây ấn tượng với những cô nàng độc thân mà còn khiến nhiều cặp đôi yêu thích và lựa chọn. Với nhiều tính năng thông minh, chiếc máy rung nhỏ gọn này trở thành công cụ hỗ trợ tuyệt vời giúp cuộc yêu thêm mượt mà và tăng khoái cảm cho cả hai.</p>
-<h2>Thông tin chi tiết sản phẩm</h2>
-<p>Chức năng: Rung 11 chế độ, điều khiển qua app Svakom thông qua kết nối bluetooth</p>
-<h2>Chất liệu: Silicone + ABS cao cấp</h2>
-<h2>Kích thước: 91.2mm x 38.6mm x 25mm</h2>
-<h2>Trọng lượng: 43.6 gram</h2>
-<h2>Màu sắc: Màu vàng</h2>
-<h2>Chống thấm nước: Tuyệt đối</h2>
-<h2>Khoảng cách điều khiển: 30m</h2>
-<h2>Pin: Polymer lithium</h2>
-<h2>Dung lượng pin: 200mAh</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng: 1 giờ</h2>
-<h2>Công nghệ sạc: USB</h2>
-<h2>Thương hiệu: Svakom</h2>
-<h2>Xuất xứ: USA</h2>
-<p>Cấu tạo và công dụng của Svakom Echo Neo máy rung gắn quần lót thông minh</p>
-<p>Svakom Echo Neo máy rung gắn quần lót thông minh được làm từ chất liệu silicon và ABS cao cấp, mang đến cảm giác mềm mại và thoải mái cho vùng nhạy cảm của phái đẹp. Ngoài ra, những chất liệu này còn đảm bảo tính an toàn theo tiêu chuẩn của bộ y tế giúp thỏa sức trải nghiệm thăng hoa mà không lo kích ứng.</p>
-<p>Svakom Echo Neo còn được trang bị tính năng chống thấm nước tuyệt đối. Giúp việc vệ sinh sản phẩm dễ dàng cũng như thuận tiện trải nghiệm những không gian “tự sướng” đầy kích thích như phòng tắm hay hồ bơi.</p>
-<p>Nhờ thiết kế độc đáo như một chiếc mai rùa, cùng tính toán độ cong hoàn hảo giúp sản phẩm ôm sát âm đạo phụ nữ. Điều này cũng giúp các cô nàng dễ dàng đặt sản phẩm vào bên trong quần chip mà không lo gặp phải tình trạng rơi ra ngoài.</p>
-<p>Thêm đó, cấu tạo đặc biệt này cũng khiến 2 đầu của Svakom Echo Neo chạm đúng âm vật và âm đạo, giúp cả hai vị trí nhạy cảm được kích thích cùng lúc. Mang đến nhiều cảm giác sung sướng tột đỉnh mà khó sản phẩm nào sánh kịp.</p>
-<p>Tuy nhỏ gọn nhưng Svakom Echo Neo sở hữu trong mình đến 11 chế độ rung khác nhau. Từ nhẹ đến mạnh khiến phái đẹp ngập tràn thăng hoa và đê mê. Cùng với tính năng điều khiển thông qua ứng dụng Svakom và khoảng cách điều khiển lên đến 30m, các quý cô sẽ thoải mái tận hưởng phút giây đê mê mà không lo mất kết nối giữa chừng.</p>
-<p>Chỉ cần vài thao tác kết nối bluetooth đơn giản bạn có thể tự do điều khiển chế độ rung theo sở thích của mình. Đặc biệt nhất là chế độ điều khiển thông qua giọng nói và giai điệu âm thanh giúp bạn thưởng thức từng cung bậc khoái cảm mà ít sản phẩm nào có được. Ngoài ra, còn có tính răng rung theo thao tác chạm vô cùng thú vị, bạn muốn rung theo chế độ nào thì chỉ cần vẽ số chế độ rung trên khung ứng dụng là được.</p>
-<p>Thiết kế nhỏ gọn, chế độ rung êm ái, điều khiển thông minh, màu sắc tinh tế cùng khả năng chống thấm nước tuyệt đối là những ưu điểm giúp Echo Neo trở thành sản phẩm “đáng gờm” so với các dòng cùng phân khúc giá.</p>
-<h2>Hướng dẫn sử dụng Svakom Echo Neo máy rung gắn quần lót thông minh</h2>
-<p>– Vệ sinh sản phẩm trước và sau khi sử dụng để đảm bảo an toàn và tránh viêm nhiễm vùng nhạy cảm.</p>
-<p>– Sạc đầy pin trước khi sử dụng để tránh quá trình hưng phấn bị ngắt quãng giữa chừng.</p>
-<p>– Tải ứng dụng Svakom về thiết bị của bạn thông qua các cửa hàng CH Play và App Store.</p>
-<p>– Khởi động máy bằng nút nguồn trên thân máy, sau đó bật kết nối bluetooth với sản phẩm và trải nghiệm các mức độ rung theo sở thích của bản thân.</p>
-<p>– Sử dụng thêm gel bôi trơn gốc nước để có những khoái cảm đê mê nhất và tránh được tình trạng “cô bé” đau rát.</p>
-<p>Bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp và để xa tầm tay trẻ em.</p>
-<p>SVAKOM Vietnam là đại lý chính thức được nhà sản xuất SVAKOM USA ủy quyền phân phối và bảo hành sản phẩm tại Việt Nam. Tất cả sản phẩm được SVAKOM Vietnam phân phối đều là hàng chính hãng, có thẻ bảo hành quốc tế 12 tháng. Cửa hàng đồ chơi tình dục của chúng tôi đại diện cho SVAKOM USA tại Việt Nam đã hơn 8 năm qua.</p>
-<p>Quý khách mua hàng tại Shop SVAKOM chính thức sẽ không phải lo lắng mua nhầm hàng nhái, hàng trôi nổi trên thị trường kém chất lượng, thiếu bảo hành.</p>
-<p>SVAKOM Vietnam đăng ký bảo hành quốc tế 12 tháng cho tất cả các dòng đồ chơi người lớn SVAKOM mà quý khách đã mua tại cửa hàng của chúng tôi. Chúng tôi không chịu trách nhiệm bảo hành sản phẩm SVAKOM mà quý khách đã mua ở những cửa hàng không được SVAKOM USA ủy quyền phân phối hay các sản phẩm giá rẻ bán tràn lan trên thị trường trôi nổi.</p>
-<p>Hướng dẫn đăng ký bảo hành quốc tế 12 tháng cho đồ chơi tình dục SVAKOM chính hãng.</p>`,
   },
   {
     slug: "svakom-beatrice-may-rung-2-dau-kich-thich-da-diem-dc90r",
