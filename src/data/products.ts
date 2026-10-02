@@ -869,9 +869,27 @@ export const products: Product[] = [
     description: "Tính năng: Massage và kích thích âm vật, âm đạo cho nữ rất hiệu quả, giải tỏa stress thật tốt\n\nĐối tượng sử dụng: Nữ\n\nChất liệu: Silicone cao cấp an toàn và lành tính\n\nMàu sắc: Màu da\n\nChế độ: 3 chế độ : rung, thụt, bắn tinh\n\nTần số rung :6 tần số\n\nKích thước : 4x 29cm, chiều dai sử dụng : 16cm\n\nPin: Sạc pin USB, sạc đầy trong 2h\n\nChống thấm nước tuyệt đối\n\nNhập khẩu: Hồng Kong\n\nDương vật dựa trên thiết kế đầy đủ tính năng của một người đàn ông trưởng thành nên việc mô phỏng nó giống với dương vật thật cũng cực kỳ tinh xảo và bắt mắt. Chất liệu silicone mềm mịn cho độ kích thích và va chạm giống thật nhất vì thế tạo được khoái cảm nhiều hơn. Chức năng rung thụt  khiến cho \"cô bé\" liên tục tiết ra chất nhờn giúp cho cuộc yêu thực sự thăng hoa và quá đã.",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "/anh1/DV44Y/dv44y47.jpg",
-    images: ["/anh1/DV44Y/dv44y41.jpg", "/anh1/DV44Y/dv44y42.jpg", "/anh1/DV44Y/dv44y43.jpg", "/anh1/DV44Y/dv44y44.jpg", "/anh1/DV44Y/dv44y45.jpg"],
+    image: "/anh1/DV44Y/dv44y.jpg",
+    thumb: "/thumbs/anh1/DV44Y/dv44y.webp",
+    images: ["/anh1/DV44Y/dv44y.jpg", "/anh1/DV44Y/dv44y2.jpg", "/anh1/DV44Y/dv44y3.jpg", "/anh1/DV44Y/dv44y5.jpg", "/anh1/DV44Y/dv44y7.jpg", "/anh1/DV44Y/dv44y8.jpg", "/anh1/DV44Y/dv44y41.jpg", "/anh1/DV44Y/dv44y42.jpg", "/anh1/DV44Y/dv44y43.jpg", "/anh1/DV44Y/dv44y44.jpg", "/anh1/DV44Y/dv44y45.jpg", "/anh1/DV44Y/dv44y46.jpg", "/anh1/DV44Y/dv44y47.jpg", "/anh1/DV44Y/dv44y48.jpg"],
     sensitive: true,
+    longDescription: `Dành cho những phụ nữ đang tìm kiếm một giải pháp chăm sóc sức khỏe sinh lý cá nhân chuyên sâu, Dương Vật Cao Cấp DeePin Rung Liếm Thụt Cực Sâu (DV44Y) là thiết bị massage cao cấp kết hợp đồng thời công nghệ thụt tịnh tiến, tính năng rung đa chế độ và thiết kế kích thích điểm G vượt trội.
+Thiết kế & chất liệu
+Sản phẩm nổi bật với kiểu dáng mô phỏng tinh xảo cùng tông màu da tự nhiên, được hoàn thiện từ chất liệu silicone cao cấp an toàn và êm ái cho làn da. Điểm nhấn công nghệ của thiết bị nằm ở cơ chế thụt tự động với hành trình di chuyển lên đến 3.8cm, giúp tác động sâu và chính xác. Bên cạnh đó, nhánh massage phụ được trang bị 3 gờ nhám tinh tế hỗ trợ tác động đa điểm. Thiết bị sở hữu khả năng chống thấm nước tuyệt đối và tích hợp pin sạc USB với thời gian sạc đầy nhanh chóng trong 2 giờ.
+Công dụng thực tế
+- Cơ chế thụt tự động 3.8cm: Trang bị 3 chế độ thụt tịnh tiến sâu, tập trung tác động vào điểm G giúp giải tỏa căng thẳng và mệt mỏi hiệu quả.
+- Kích thích kép với 7 chế độ rung: Nhánh rung linh hoạt kết hợp 3 chi tiết gờ nhám giúp massage nhẹ nhàng và gia tăng cảm giác tại vùng nhạy cảm bên ngoài.
+- Chất liệu silicone mịn màng: Bề mặt mềm mại mang lại cảm giác tiếp xúc tự nhiên, êm dịu và an toàn cho người sử dụng.
+- Chống nước toàn diện: Khả năng kháng nước 100% giúp việc bảo quản, sử dụng và vệ sinh thiết bị trở nên tiện lợi, an toàn.
+Ai nên dùng sản phẩm này
+Dương Vật Cao Cấp DeePin DV44Y là lựa chọn lý tưởng cho chị em phụ nữ muốn nâng cao chất lượng đời sống tinh thần, tìm kiếm phương pháp thư giãn cá nhân an toàn và hiện đại. Thiết bị đặc biệt phù hợp với những ai yêu thích dòng sản phẩm hỗ trợ có công nghệ thụt tự động kết hợp đa chức năng rung liếm để tối ưu hóa trải nghiệm riêng tư.
+Câu hỏi thường gặp
+Thiết bị DeePin DV44Y sử dụng nguồn điện nào và sạc trong bao lâu?
+Sản phẩm sử dụng công nghệ sạc pin qua cổng USB tiện lợi. Bạn chỉ cần khoảng 2 giờ để sạc đầy pin là có thể sử dụng cho các lần thư giãn tiếp theo.
+Cách vệ sinh và bảo quản sản phẩm đúng cách như thế nào?
+Trước và sau khi dùng, bạn nên rửa sạch thiết bị bằng xà phòng nhẹ, dung dịch vệ sinh phụ nữ hoặc cồn y tế. Sau đó, lau khô và bảo quản nơi thoáng mát, tránh bụi bẩn và nhiệt độ cao.
+Sản phẩm có dùng được trong nước không?
+Có, thiết bị được thiết kế chống thấm nước tuyệt đối, hỗ trợ người dùng dễ dàng vệ sinh dưới nước mà không lo ảnh hưởng đến linh kiện bên trong.`,
   },
   {
     slug: "bao-don-den-braveman-co-rung-gai-gan-ho-tro-tang-kich-thuoc-va-tang-cam-giac",
@@ -3008,9 +3026,9 @@ export const products: Product[] = [
     description: "Thông tin chi tiết :\n\n- Công dụng: hỗ trợ quan hệ, giải tỏa sinh lý cho nữ giới\n- Chất liệu: silicon y tế, ABS + kim loại\n- Kích thước: 142mm x 105mm x 31mm\n- Trọng lượng: 126g\n- Tính năng: thụt hút 10 chế độ, sưởi ấm, điều khiển từ xa\n- Ưu điểm: tính năng đa dạng tác động cả bên trong và bên ngoài vùng kín, sưởi ấm tạo cảm giác chân thực\n- Nguồn điện: pin sạc Polymer Lithium 650mAh\n- Thời gian sạc tối đa: 2.5 giờ\n- Thời gian sử dụng: 30 phút\n- Chống nước tốt\n- Thương hiệu: Svakom - USA",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "/anh1/DC90GB/dc90gb8.jpg",
-    thumb: "/thumbs/anh1/DC90GB/dc90gb8.webp",
-    images: ["/anh1/DC90GB/dc90gb4.jpg", "/anh1/DC90GB/dc90gb5.jpg", "/anh1/DC90GB/dc90gb6.jpg", "/anh1/DC90GB/dc90gb7.jpg"],
+    image: "/anh1/DC90GB/10.jpg",
+    thumb: "/thumbs/anh1/DC90GB/10.webp",
+    images: ["/anh1/DC90GB/10.jpg", "/anh1/DC90GB/11.jpg", "/anh1/DC90GB/dc90gb4.jpg", "/anh1/DC90GB/dc90gb5.jpg", "/anh1/DC90GB/dc90gb6.jpg", "/anh1/DC90GB/dc90gb7.jpg", "/anh1/DC90GB/dc90gb8.jpg"],
     longDescription: `<p>Giới Thiệu Máy Massage Điểm G Svakom Gabrielle Rung Thụt, Sưởi Ấm, Điều Khiển Từ Xa</p>
 <p>Máy massage điểm G Svakom Gabrielle rung thụt, sưởi ấm, điều khiển từ xa cao cấp là thiết bị chăm sóc sức khỏe cá nhân sang trọng dành riêng cho phái đẹp. Được tích hợp công nghệ chuyển động linh hoạt cùng chức năng sưởi ấm nhiệt độ tự nhiên, sản phẩm mang đến giải pháp thư giãn chuyên sâu và giải tỏa căng thẳng hiệu quả. Nếu bạn đang tìm hiểu cách chọn máy massage cao cấp phù hợp nhu cầu, thiết bị này chính là lựa chọn hoàn hảo khi kết hợp cùng gel bôi trơn gốc nước để có trải nghiệm êm ái nhất.</p>
 <h2>Thông Số Kỹ Thuật Chi Tiết</h2>
@@ -15599,6 +15617,41 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC89R/01.jpg",
     images: ["/anh1/DC89R/01.jpg", "/anh1/DC89R/05.jpg", "/anh1/DC89R/07.jpg", "/anh1/DC89R/08.jpg", "/anh1/DC89R/09.jpg", "/anh1/DC89R/11.jpg", "/anh1/DC89R/12.jpg"],
+    longDescription: `Thông tin chi tiết của Máy rung hút kích thích âm đạo và âm vật Svakom Eria DC89R
+Thể loại: Sextoy cho nữ, Dụng cụ mát xa điểm G, Svakom USA.
+Tính năng: Kích thích điểm G âm đạo và âm vật, giải tỏa nhu cầu sinh lý nữ, tăng khoái cảm cho cặp đôi khi quan hệ.
+Chất liệu: Siliocne, ABC và kim loại.
+Máy rung DC89R có 3 chế độ
+- Chế độ hút: 10 chế độ
+- Chế độ rung:  5 cường độ và
+- Sưởi ấm:  42 độ C.
+Nguồn: Pin lithium Polymer.
+Dung lượng: 600mAh.
+Sạc Từ : 3 Tiếng
+Thời gian sử dụng: 0.5 tiếng.
+Chống thấm nước
+Hãng sản xuất : Svakom.
+Xuất xứ: USA.
+Máy rung hút kích thích âm đạo và âm vật Svakom Eria DC89R được làm từ silicone, ABS và kim loại đạt chuẩn chất lượng y tế, không độc hại, khôn gây kích ứng cho da và bảo đảm an toàn đối với sức khỏe của chị em mỗi khi sử dụng.
+Máy rung được thiết kế 2 nhánh vừa làm tăng khoái cảm nhanh vừa có cấu tạo bên trong lượn sóng , đường gân nổi dọc với những viên bi ở trên đầu . Kích thích mạnh mẽ lên thành âm đạo và điểm G khiến cô bé ra nước không ngừng vì sướng.
+Sản phẩm này có vẻ ngoài trắng tinh khiết trông nó vô cùng sang trọng kèm theo là lớp vỏ mềm mịn mang lại cho chị em những khoái cảm sung sướng đầy đê mê không muốn thoát ra.
+Kích thước :
+- Chiều dài: 21.4cm
+- Đường kính : 3.2cm
+- Đường kính ống hút : 1.8cm
+- Đường kính tay cầm : 3.5cm
+Vời 10 chế độ hút máy rung điểm G Svakom DC89R sẽ mang đến cho chị em nhiều trải nghiệm thú vị.
+Máy rung Svakom Eria - kích thích điểm G, Bú âm vật chống thấm nước.
+Svakom Eria không chỉ sở hữu nhiều cường độ rung khác nhau mà nó còn có thêm tính năng là hút âm vật bằng nhiều chế độ hấp dẫn. Nhờ đó mà chị em có thể lên đỉnh được nhiều lần và bùng nổ những cảm xúc sung sướng dâng trào mà mình chưa từng cảm nhận qua. Không những vậy, với chức năng sưởi ấm lên đến 42 độ C, bạn sẽ có cảm giác ấm nóng ở bên trong cô bé giống như đang được dương vật của người thật đút vào bên trong để quan hệ.
+Cách sử dụng:
+– Nhấn giữ nút nhiệt độ để Bật/Tắt sưởi ấm.
+– Nhấn giữ nút (o) để Bật/Tắt chức năng hút của nhánh phụ.
+– Nhấn nút (o) từng lần 1 để đổi chế độ hút của nhánh phụ.
+– Nhấn giữ nút cuối cùng hình gợn sóng để Bật/Tắt chức năng rung.
+– Nhấn nút cuối cùng hình gợn sóng từng lần 1 để tăng cường độ rung.
+- Giao hàng nhanh chóng, che tên sản phẩm.
+- Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày
+Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.`,
   },
   {
     slug: "quan-chip-rung-svakom-echo-neo-ket-noi-app-rung-moi-luc-moi-noi-dc89u-ne",
@@ -15613,6 +15666,44 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC89U_NE/01.jpg",
     images: ["/anh1/DC89U_NE/01.jpg", "/anh1/DC89U_NE/04.png", "/anh1/DC89U_NE/05.png", "/anh1/DC89U_NE/06.png", "/anh1/DC89U_NE/07.png", "/anh1/DC89U_NE/08.png", "/anh1/DC89U_NE/09.png", "/anh1/DC89U_NE/10.png", "/anh1/DC89U_NE/11.png", "/anh1/DC89U_NE/12.png", "/anh1/DC89U_NE/13.png", "/anh1/DC89U_NE/14.png"],
+    longDescription: `Giới thiệu về Svakom Echo Neo máy rung gắn quần lót thông minh
+Svakom Echo Neo máy rung gắn quần lót thông minh là một dòng sản phẩm cao cấp với chức năng điều khiển từ xa. Thông qua kết nối với ứng dụng Svakom có trong thiết bị, bạn có thể thỏa sức tận hưởng khoái cảm theo sở thích của mình.
+Sở hữu thiết kế xinh xắn và nhỏ gọn Svakom Echo Neo nhanh chóng chiếm được cảm tình của phái nữ ngay từ cái nhìn đầu tiên. Lấy cảm hứng màu sắc từ những bông hoa hồng vàng tượng cho tình yêu chung thủy giúp sản phẩm vừa nổi bật vừa tinh tế. Hình dáng của trứng rung cong tựa mai rùa giúp sản phẩm ôm sát âm đạo phụ nữ và dễ dàng mang lại hưng phấn nồng nhiệt.
+Ngoài ra, Svakom Echo Neo không chỉ gây ấn tượng với những cô nàng độc thân mà còn khiến nhiều cặp đôi yêu thích và lựa chọn. Với nhiều tính năng thông minh, chiếc máy rung nhỏ gọn này trở thành công cụ hỗ trợ tuyệt vời giúp cuộc yêu thêm mượt mà và tăng khoái cảm cho cả hai.
+Thông tin chi tiết sản phẩm
+Chức năng: Rung 11 chế độ, điều khiển qua app Svakom thông qua kết nối bluetooth
+Chất liệu: Silicone + ABS cao cấp
+Kích thước: 91.2mm x 38.6mm x 25mm
+Trọng lượng: 43.6 gram
+Màu sắc: Màu vàng
+Chống thấm nước: Tuyệt đối
+Khoảng cách điều khiển: 30m
+Pin: Polymer lithium
+Dung lượng pin: 200mAh
+Thời gian sạc: 1 giờ
+Thời gian sử dụng: 1 giờ
+Công nghệ sạc: USB
+Thương hiệu: Svakom
+Xuất xứ: USA
+Cấu tạo và công dụng của Svakom Echo Neo máy rung gắn quần lót thông minh
+Svakom Echo Neo máy rung gắn quần lót thông minh được làm từ chất liệu silicon và ABS cao cấp, mang đến cảm giác mềm mại và thoải mái cho vùng nhạy cảm của phái đẹp. Ngoài ra, những chất liệu này còn đảm bảo tính an toàn theo tiêu chuẩn của bộ y tế giúp thỏa sức trải nghiệm thăng hoa mà không lo kích ứng.
+Svakom Echo Neo còn được trang bị tính năng chống thấm nước tuyệt đối. Giúp việc vệ sinh sản phẩm dễ dàng cũng như thuận tiện trải nghiệm những không gian “tự sướng” đầy kích thích như phòng tắm hay hồ bơi.
+Nhờ thiết kế độc đáo như một chiếc mai rùa, cùng tính toán độ cong hoàn hảo giúp sản phẩm ôm sát âm đạo phụ nữ. Điều này cũng giúp các cô nàng dễ dàng đặt sản phẩm vào bên trong quần chip mà không lo gặp phải tình trạng rơi ra ngoài.
+Thêm đó, cấu tạo đặc biệt này cũng khiến 2 đầu của Svakom Echo Neo chạm đúng âm vật và âm đạo, giúp cả hai vị trí nhạy cảm được kích thích cùng lúc. Mang đến nhiều cảm giác sung sướng tột đỉnh mà khó sản phẩm nào sánh kịp.
+Tuy nhỏ gọn nhưng Svakom Echo Neo sở hữu trong mình đến 11 chế độ rung khác nhau. Từ nhẹ đến mạnh khiến phái đẹp ngập tràn thăng hoa và đê mê. Cùng với tính năng điều khiển thông qua ứng dụng Svakom và khoảng cách điều khiển lên đến 30m, các quý cô sẽ thoải mái tận hưởng phút giây đê mê mà không lo mất kết nối giữa chừng.
+Chỉ cần vài thao tác kết nối bluetooth đơn giản bạn có thể tự do điều khiển chế độ rung theo sở thích của mình. Đặc biệt nhất là chế độ điều khiển thông qua giọng nói và giai điệu âm thanh giúp bạn thưởng thức từng cung bậc khoái cảm mà ít sản phẩm nào có được. Ngoài ra, còn có tính răng rung theo thao tác chạm vô cùng thú vị, bạn muốn rung theo chế độ nào thì chỉ cần vẽ số chế độ rung trên khung ứng dụng là được.
+Thiết kế nhỏ gọn, chế độ rung êm ái, điều khiển thông minh, màu sắc tinh tế cùng khả năng chống thấm nước tuyệt đối là những ưu điểm giúp Echo Neo trở thành sản phẩm “đáng gờm” so với các dòng cùng phân khúc giá.
+Hướng dẫn sử dụng Svakom Echo Neo máy rung gắn quần lót thông minh
+– Vệ sinh sản phẩm trước và sau khi sử dụng để đảm bảo an toàn và tránh viêm nhiễm vùng nhạy cảm.
+– Sạc đầy pin trước khi sử dụng để tránh quá trình hưng phấn bị ngắt quãng giữa chừng.
+– Tải ứng dụng Svakom về thiết bị của bạn thông qua các cửa hàng CH Play và App Store.
+– Khởi động máy bằng nút nguồn trên thân máy, sau đó bật kết nối bluetooth với sản phẩm và trải nghiệm các mức độ rung theo sở thích của bản thân.
+– Sử dụng thêm gel bôi trơn gốc nước để có những khoái cảm đê mê nhất và tránh được tình trạng “cô bé” đau rát.
+Bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp và để xa tầm tay trẻ em.
+SVAKOM Vietnam là đại lý chính thức được nhà sản xuất SVAKOM USA ủy quyền phân phối và bảo hành sản phẩm tại Việt Nam. Tất cả sản phẩm được SVAKOM Vietnam phân phối đều là hàng chính hãng, có thẻ bảo hành quốc tế 12 tháng. Cửa hàng đồ chơi tình dục của chúng tôi đại diện cho SVAKOM USA tại Việt Nam đã hơn 8 năm qua.
+Quý khách mua hàng tại Shop SVAKOM chính thức sẽ không phải lo lắng mua nhầm hàng nhái, hàng trôi nổi trên thị trường kém chất lượng, thiếu bảo hành.
+SVAKOM Vietnam đăng ký bảo hành quốc tế 12 tháng cho tất cả các dòng đồ chơi người lớn SVAKOM mà quý khách đã mua tại cửa hàng của chúng tôi. Chúng tôi không chịu trách nhiệm bảo hành sản phẩm SVAKOM mà quý khách đã mua ở những cửa hàng không được SVAKOM USA ủy quyền phân phối hay các sản phẩm giá rẻ bán tràn lan trên thị trường trôi nổi.
+Hướng dẫn đăng ký bảo hành quốc tế 12 tháng cho đồ chơi tình dục SVAKOM chính hãng.`,
   },
   {
     slug: "svakom-beatrice-may-rung-2-dau-kich-thich-da-diem-dc90r",
@@ -15717,6 +15808,45 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC89AY/01.jpg",
     images: ["/anh1/DC89AY/01.jpg", "/anh1/DC89AY/05.png", "/anh1/DC89AY/06.png", "/anh1/DC89AY/07.png", "/anh1/DC89AY/08.png", "/anh1/DC89AY/09.png", "/anh1/DC89AY/10.png", "/anh1/DC89AY/11.png", "/anh1/DC89AY/12.png"],
+    longDescription: `Thông tin chi tiết của Máy massage kích thích điểm G và âm vật Svakom Aylin DC89AY hàng chính hãng.
+Tính năng: Kích thích, mát xa âm đạo, âm vật và những vị trí khác trên cơ thể, trợ tăng khoái cảm khi quan hệ tình dục.
+Chất liệu: Silicon an toàn
+Kích thước: 215mm x 66mm x 34mm.
+Trọng lượng: 183g.
+Chế độ rung: 5 chế độ.
+Cường độ rung: 5 cường độ rung
+Pin: Lithium Polymer.
+Dung lượng pin: 600mAh.
+Thời gian sạc: 3 tiếng.
+Thời gian sử dụng: 2 tiếng.
+Sạc : USB
+Chống thấm nước
+Thương hiệu: Svakom.
+Xuất xứ: USA.
+Hình dáng của máy massage Svakom Aylin này vô cùng sang trọng và bắt mắt với màu xanh dương đậm khiến cho chị em cảm thấy hưng phấn hơn mỗi khi sử dụng.
+- Phần đầu của Svakom Aylin DC89AY có thiết kế các đường vân nổi dọc theo dạng gợn sóng giúp bạn dễ dàng trước nó vào bên trong âm đạo của mình để kích thích vào những điểm nhạy cảm nhất.
+- Đồng thời trên phần thân máy còn có các đường cong gợn sóng giúp làm tăng thêm lực ma sát vào thành âm đạo khiến chị em phải rên rỉ liên tục không ngừng.
+Nhờ vào thiết kế dạng cầm tay nên chị em có thể dễ dàng luồn lách sâu vào bên trong cô bé hoặc dễ dàng kích thích vào những vị trí nhạy cảm khác trên cơ thể như nhũ hoa, đùi, eo… để giải tỏa nhu cầu sinh lý của mình.
+Phần đầu của Svakom Aylin có thiết kế các đường vân nổi dọc theo dạng gợn sóng giúp bạn dễ dàng trước nó vào bên trong âm đạo của mình để kích thích vào những điểm nhạy cảm nhất.
+- Máy massage Svakom Aylin DC89Ay sở hữu tính năng rung kép với 5 chế độ rung khác nhau và 5 cường độ rung từ nhẹ nhàng cho đến mãnh liệt.
+- Cho nên khi đút máy vào bên trong cô bé thì phần đầu sẽ kích thích âm đạo còn nhánh sẽ kích thích vào hột le khiến chị em sướng đến tột độ.
+- Đồng thời ở trên đầu còn có thêm tính năng đẩy nhấp nhô nên nó sẽ va chạm liên tục vào điểm G để tạo ra một khoái cảm vô cùng mới lạ mà chị em chưa từng trải nghiệm qua khi thủ dâm.
+Svakom Aylin có nhánh chính và phụ được thiết kế dạng gợn sóng giúp làm tăng khoái cảm khi thủ dâm.
+Hướng dẫn sử dụng Máy massage kích thích điểm G và âm vật Svakom Aylin DC89AY
+- Vệ sinh Svakom Aylin trước và sau khi sử dụng bằng xà phòng dịu nhẹ hoặc nước muối sinh lý để diệt khuẩn. Dùng khăn sạch lau khô khi sử dụng hoặc khi bảo quản.
+- Sạc đầy pin trước khi sử dụng. Bật nút khởi động sextoy rồi lựa chọn tư thế phù hợp thể thủ dâm.
+- Dùng thêm Gel bôi trơn gốc nước để tạo độ trơn mượt và tăng thêm khoái cảm khi tự sướng.
+- Bảo quản sextoy nơi sạch sẽ, thoáng mát và tránh nhiệt độ cao quá 30 độ C.
+Cách sử dụng:
+– Bấm giữ nút “S” khoảng 1.5 giây để Bật/Tắt.
+– Bấm đúp nút “S” để chuyển đổi hoạt động của 2 nhánh.
+– Bấm đúp vào nút “△” để thay đổi chế độ rung.
+– Bấm đúp vào nút “▽” để quay lại chế độ rung trước.
+– Bấm 1 lần vào nút “△” để tăng cường độ rung.
+– Bấm 1 lần vào nút “▽” để giảm cường độ rung.
+Lưu ý: Không đưa sextoy cá nhân cho người khác dùng chung. Nếu dùng khi quan hệ thì phải biết rõ sức khỏe của đối phương để tránh lây bệnh xã hội qua đường tình dục
+- Giao hàng nhanh chóng, che tên sản phẩm.
+- Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày`,
   },
   {
     slug: "sam-am-dao-gia-tu-dong-svakom-sam-rung-bu-cuc-phe-sam",
@@ -16685,6 +16815,22 @@ export const products: Product[] = [
     image: "/anh1/DC89A/01.jpg",
     images: ["/anh1/DC89A/01.jpg", "/anh1/DC89A/06.jpg", "/anh1/DC89A/07.jpg", "/anh1/DC89A/08.jpg", "/anh1/DC89A/09.jpg", "/anh1/DC89A/10.jpg"],
     sensitive: true,
+    longDescription: `Dương vật  đa năng  cao cấp svakom avery với chế độ rung thụt cực mạnh giúp cho bạn dễ dàng đạt được khoái cảm. Đầu rung kép có thể hoạt động riêng lẻ hoặc cùng lúc , 5 chế độ thụt kết hợp với 5 chế độ rung và tốc độ khác nhau đưa bạn đến những cảm xúc đê mê . Sản phẩm không thấm nước vì vậy bạn có thể mang đi bất cứ nơi đâu.
+Thông số kỹ thuật  :
+Chất liệu: Silicone
+Kích thước: 186 x 74 x 33mm / 9,84 x 3,94 x 2,17 inch
+Trọng lượng: 183 g
+Loại pin: Polymer lithium battery
+Dung lượng pin: 650mAh
+Thời gian sạc: 2 giờ
+Thời gian sử dụng: 3 giờ
+Chống thấm nước: 100%
+Chế độ : Rung , thụt
+Cam kết hàng chính hãng bảo hành 12 tháng.
+Các sản phẩm của SVAKOM
+- Đảm bảo An toàn đến Sức Khỏe người sử dụng.
+- Giao hàng nhanh chóng, che tên sản phẩm.
+- Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày`,
   },
   {
     slug: "thien-than-michisio-duong-vat-silicon-cao-cap-rung-ngoay-nhat-ban-dc94",
@@ -26110,9 +26256,9 @@ export const products: Product[] = [
     description: "Thông số kỹ thuật: \n\nChất liệu: Silicone an toàn cho cơ thể, nhựa ABS\n\nBề mặt: Mịn\n\nKích thước: 103 x 96 x 34 mm / 4.1 x 3.8 x 1.3 in\n\nChiều dài có thể đưa vào: 77 mm / 3.0 in\n\nTrọng lượng: 71g / 2.5 oz\n\nPin: Li-Ion 200 mAh\n\nThời gian sạc: lên đến 2 giờ ở 5.0 V 200 mA\n\nCông suất định mức:\n\nĐầu vào: 5V 200mA 1 W\n\nĐầu ra: 3.7 V 110 mA 0.4 W\n\nThời gian sử dụng: Lên đến 2 giờ\n\nThời gian chờ: ít nhất 90 ngày\n\nTần số: 130 Hz\n\nMức độ tiếng ồn tối đa: ≤ 63 dB\n\nGiao diện: 1 nút bấm và 1 đèn LED",
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
-    image: "/anh1/DC82A/dc82a3.jpg",
-    thumb: "/thumbs/anh1/DC82A/dc82a3.webp",
-    images: ["/anh1/DC82A/dc82a4.jpg", "/anh1/DC82A/dc82a1.jpg", "/anh1/DC82A/dc82a5.jpg", "/anh1/DC82A/dc82a2.jpg"],
+    image: "/anh1/DC82A/dc82a1.jpg",
+    thumb: "/thumbs/anh1/DC82A/dc82a1.webp",
+    images: ["/anh1/DC82A/dc82a1.jpg", "/anh1/DC82A/dc82a2.jpg", "/anh1/DC82A/dc82a3.jpg", "/anh1/DC82A/dc82a4.jpg", "/anh1/DC82A/dc82a5.jpg"],
     longDescription: `<p>Khác biệt với các thiết bị hỗ trợ kích thích thông thường sở hữu kích thước lớn hay điều khiển phức tạp, Dương vật giả tình yêu Cupid (DC82A) sở hữu thiết kế gọn nhẹ với chiều dài hiệu quả 12cm và đường kính 3cm, mang lại giải pháp chăm sóc sức khỏe sinh lý tối ưu, dễ thao tác và cực kỳ phù hợp cho người mới bắt đầu.</p>
 <h2>Ưu điểm chính</h2>
 <p>- Chất liệu an toàn: Sử dụng silicone cao cấp với bề mặt trơn nhẵn, hoàn toàn an toàn cho sức khỏe và thân thiện với làn da nhạy cảm.</p>
@@ -27117,6 +27263,30 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC89M_Neo/01.jpg",
     images: ["/anh1/DC89M_Neo/01.jpg"],
+    longDescription: `Dành cho các cặp đôi yêu xa hoặc người mới bắt đầu muốn nâng cao chất lượng đời sống tình cảm một cách tinh tế, máy rung cao cấp Svakom Vick Neo (DC89M_Neo) là thiết bị chăm sóc sức khỏe cá nhân cao cấp hỗ trợ điều khiển từ xa qua ứng dụng di động thông minh, giúp kết nối tình cảm dễ dàng ở bất kỳ khoảng cách nào.
+Thông số kỹ thuật
+- Thương hiệu: Svakom (Mỹ)
+- Mã sản phẩm: DC89M_Neo (Vick Neo)
+- Tính năng điều khiển: Tích hợp ứng dụng thông minh trên điện thoại (App control) từ xa
+- Công nghệ động cơ: Động cơ kép (Dual motors) vận hành mạnh mẽ và êm ái
+- Chế độ hoạt động: 7 nhịp rung kết hợp 5 mức cường độ (tạo nên 35 trải nghiệm tùy chọn)
+- Thiết kế: Dáng cong ergonomics nâng niu, hỗ trợ tác động chuẩn xác vùng nhạy cảm
+- Khả năng kháng nước: Chống thấm nước toàn thân, an toàn khi sử dụng trong nhà tắm
+Trải nghiệm khác biệt
+Thương hiệu Svakom đã tối ưu hóa máy rung Svakom Vick Neo để mang đến trải nghiệm thân thiện nhất, đặc biệt phù hợp cho những người lần đầu tiếp cận các thiết bị hỗ trợ sức khỏe cá nhân. Thiết kế đường cong mềm mại của thiết bị hỗ trợ ôm sát tự nhiên các vùng cơ thể nhạy cảm, giúp người dùng thao tác nhẹ nhàng mà không cần tốn nhiều thời gian làm quen.
+Điểm sáng nổi bật của sản phẩm nằm ở tính tiện lợi khi vận hành thông qua ứng dụng kết nối từ xa. Sự kết hợp giữa hệ thống động cơ kép tinh vi cùng 35 tùy chọn chế độ rung đa dạng giúp các cặp đôi dễ dàng duy trì sự gắn kết và chia sẻ cảm xúc chân thật, dù đang ở hai không gian hoàn toàn tách biệt.
+Mẹo dùng & bảo quản
+- Khởi động và tải ứng dụng Svakom theo hướng dẫn đính kèm để kết nối thiết bị với điện thoại một cách nhanh chóng.
+- Nên kết hợp cùng chất bôi trơn gốc nước để đảm bảo sự mượt mà và thoải mái tối đa trong suốt quá trình sử dụng.
+- Vệ sinh sản phẩm bằng nước ấm cùng xà phòng dịu nhẹ hoặc dung dịch làm sạch chuyên dụng trước và sau khi dùng.
+- Thấm khô hoàn toàn bằng khăn mềm trước khi cất giữ tại nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.
+Câu hỏi thường gặp
+Máy rung Svakom Vick Neo có dễ sử dụng cho người mới bắt đầu không?
+Sản phẩm được thiết kế rất tối giản và trực quan. Người mới bắt đầu có thể dễ dàng thao tác ngay từ lần đầu nhờ giao diện ứng dụng điều khiển thân thiện cùng đường cong thiết kế vừa vặn, mang lại cảm giác an toàn và thoải mái.
+Sản phẩm có thể dùng trong nhà tắm hoặc bồn tắm được không?
+Có, Svakom Vick Neo sở hữu công nghệ chế tạo chống thấm nước hoàn thiện. Bạn hoàn toàn có thể yên tâm thư giãn cùng thiết bị dưới vòi hoa sen hoặc trong bồn nước ấm mà không lo ảnh hưởng đến linh kiện bên trong.
+Khoảng cách điều khiển qua ứng dụng di động có bị giới hạn không?
+Nhờ kết nối qua ứng dụng thông minh, đối phương có thể nhận quyền điều khiển thiết bị từ bất kỳ đâu thông qua kết nối internet. Tính năng này giúp các cặp đôi dễ dàng duy trì tương tác cảm xúc dù đang ở xa nhau về mặt địa lý.`,
   },
   {
     slug: "am-dao-gia-leten-3d-rung-ren-nhu-dien-vien-phim-jav",
@@ -27233,7 +27403,10 @@ export const products: Product[] = [
 <h2>Làm thế nào để điều chỉnh lực hút theo nhu cầu?</h2>
 <p>Thiết bị sử dụng hệ thống bơm kéo tay thủ công, cho phép người dùng linh hoạt kiểm soát và tăng giảm lực hút chân không sao cho phù hợp nhất với cảm giác của bản thân.</p>`,
   },
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05391fc0 (Update product images)
   {
     slug: "ngon-tay-rung-xung-dien-kich-thich-manh-liet-khi-moc-cua-cho-nu-co-ma-vang-24k",
     legacySlug: "dc10p-ngon-tay-rung-xung-dien-kich-thich-manh-liet-khi-moc-cua-cho-nu-co-ma-vang-24k",
@@ -32980,7 +33153,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC91D/01.jpg",
     thumb: "/thumbs/anh1/DC91D/01.webp",
-    images: ["/anh1/DC91D/01.jpg", "/anh1/DC91D/05.jpg", "/anh1/DC91D/06.jpg"],
+    images: ["/anh1/DC91D/01.jpg", "/anh1/DC91D/06.jpg", "/anh1/DC91D/dc91d1.jpg", "/anh1/DC91D/dc91d2.jpg", "/anh1/DC91D/dc91d4.jpg"],
     sensitive: true,
     longDescription: `<p>Dương vật rung thụt cao cấp Fun Stronic Real (DC91D) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý và kích thích đa điểm (âm vật, điểm G) dành cho cá nhân hoặc các cặp đôi, hoạt động dựa trên cơ chế rung kết hợp thụt tự động chuẩn xác từ thương hiệu Fun (Đức).</p>
 <h2>Vì sao nên chọn Dương vật rung thụt cao cấp Fun Stronic Real (DC91D)</h2>
@@ -42997,6 +43170,52 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC89K/01.jpg",
     images: ["/anh1/DC89K/01.jpg"],
+    longDescription: `Mô tả sản phẩm
+Tính năng: Mát xa âm vật, nhũ hoa, kích thích điểm G, gia tăng khoái cảm cho nữ
+Đối tượng người dùng: Nữ
+Chất liệu:Silicone siêu mềm + ABS
+Đảm bảo: An toàn sức khỏe người dùng
+Màu sắc: Hồng - Xanh
+Sản phẩm: Có 2 loại Cookie + Candy
+Giá bán: 1.750.000đ / 1 chiếc
+Pin: Sạc pin
+Loại Pin: 30mAh
+Thời gian sạc: 1 giờ
+Thời gian sử dụng: 1 giời
+Chống thấm nước: Chống thấm tuyệt đối
+Thương hiệu: Svakom
+Xuất xứ: Mỹ
+Sản xuất và nhập khẩu: Tại nhà máy Svakom China
+Thông số kỹ thuật của SVAKOM Cookie:
+Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể
+Kích thước: 42mm * 96mm
+Trọng lượng: 70g
+Loại pin: Pin lithium polymer
+Dung lượng pin: 300mAh
+Thời gian sạc: 1 giờ
+Thời gian sử dụng: 1 giờ
+Chống thấm nước: IPX6
+Chế độ rung: 3
+Thông số kỹ thuật của SVAKOM Candy:
+Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể
+Kích thước: 96 * 52 * 42mm
+Trọng lượng: 76g
+Loại pin: Pin lithium polymer
+Dung lượng pin: 300mAh
+Thời gian sạc: 1 giờ
+Thời gian sử dụng: 1 giờ
+Chống thấm nước: IPX6
+Chế độ rung : 3
+Hãng đồ chơi người lớn SVAKOM vừa cho ra đời cặp đôi hoàn hảo cho màn dạo đầu Cookie và Candy. Hãy tưởng tượng, những tua râu của chàng bạch tuột hay đôi môi ướt mềm của những chú cá tinh nghịch nhẹ nhàng vuốt ve, liếm láp lên đầu nhũ hoa hay âm vật sẽ khiến nàng đê mê khoái cảm cho một cuộc dạo đầu tình dục đê mê hiếm có.
+Hoạt động diệu kỳ của đồ chơi tình dục SVAKOM Cookie và Candy sẽ giúp quý cô tràn đầy hưng phấn trong màn dạo đầu để có được một âm đạo trơn ướt tối đa mà không cần phải dùng chất bôi trơn nào khác.
+SVAKOM đã cho ra hai sản phẩm cùng một lúc để cung cấp cho khách hàng các tùy chọn để lựa chọn theo sở thích của họ. Hầu hết phụ nữ cần màn dạo đầu nhiều hơn! Các nghiên cứu đã chứng minh rằng một phụ nữ trung bình cần khoảng 20 đến 30 phút cho màn màn dạo đầu thích hợp để có cực khoái cháy bỏng sau đó, với suy nghĩ đó, SVAKOM đã bắt đầu nhiều tháng nghiên cứu, thử nghiệm để đưa ra một cặp sản phẩm lý tưởng giải quyết vấn đề cho phụ nữ.
+Các chuyên gia của hãng đồ chơi tình dục SVAKOM đã làm việc với một nhóm tình nguyện viên từ các quốc gia và khu vực khác nhau để giúp thử nghiệm sản phẩm và kết quả rất đáng chú ý.
+Cookie & Candy là những sản phẩm độc đáo trên thị trường với mục tiêu cụ thể là mang lại niềm vui tối đa cho các quý cô được mang đi khắp mọi nơi vì kích thước nhỏ gọn lý tưởng của chúng. Đồ chơi tình dục này thật sự tốt nhất để quý cô đạt đến đỉnh điểm của sự cực khoái.
+SVAKOM Cookie & Candy sử dụng pin lithium có thể sạc lại hiệu suất cao. Chúng có thể hoạt động liên tục trong 1 giờ bằng một lần sạc đầy đến trong 1 giờ. Tất cả sản phẩm đồ chơi người lớn SVAKOM phải được sạc bằng bộ chuyển đổi điện áp / dòng điện đầu ra 5V / 1A.
+Cookie & Candy thiết kế cổng sạc kín nên hoàn toàn không bị thấm trong môi trường nước theo tiêu chuẩn IPX6. IPX6 Chống nước có nghĩa là Cookie & Candy được bảo vệ khỏi các tia nước mạnh mẽ hay ngâm trong nước. Vì vậy, bạn có thể tha hồ tận hưởng niềm vui cùng với đồ chơi tình dục bất cứ nơi đâu, kể cả trong phòng tắm, dưới vòi sen, trong hồ bơi hay trên biển.
+Không như các dòng sản phẩm SVAKOM khác, Cookie & Candy chỉ có 3 chế độ rung kích thích vì đây là dụng cụ tình dục chuyên dụng cho màn dạo đầu, bao gồm việc mơn trớn, massage nhũ hoa, mòng đóc và môi âm đạo.
+Các tính năng chính cho cả SVAKOM Cookie & Candy bao gồm động cơ mạnh mẽ, bảng điều khiển trực quan cho 1 chế độ và 3 mức cường độ khác nhau. Cả hai đều được sản xuất với các lớp silicon siêu mềm bao quanh các động cơ giống như da thịt và cảm giác chân thực. Các động cơ bên trong hai đồ chơi tình dục này được lập trình để mô phỏng những thú vui tình dục thực tế nhất cho phụ nữ, với kết cấu được thiết kế đặc biệt; phụ nữ được đảm bảo để trải nghiệm những niềm vui tình ái để đạt được cực khoái mong muốn.
+Tất cả các thành phần được sử dụng trong sản xuất đồ chơi tình dục của SVAKOM là vật liệu an toàn cho cả con người và môi trường. Cả hai sản phẩm đều được tạo thành từ vật liệu silicon an toàn cho cơ thể Ultrasoft, chúng đã được kiểm tra kỹ lưỡng và thông qua tất cả các tiêu chuẩn an toàn quốc tế.`,
   },
   {
     slug: "may-hut-va-mat-xa-tang-kich-thuoc-vong-1-cho-phai-dep-dc67q",
@@ -49374,7 +49593,10 @@ export const products: Product[] = [
 <p>Hướng dẫn cách sử dụng:</p>
 <ul><li>+ Vệ sinh sạch sản phẩm trước và sau khi sử dụng bằng cồn y tế hoăc nước muối pha loãng.</li><li>+ Sạc đầy pin trước khi sử dụng.</li><li>+ Gắn sản phẩm lên bề mặt phẳng: mặt bàn, mặt kính hoặc tường đá hoa chọn góc và hướng phù hợp dùng ốc vít chốt lại cho chắc chắn.</li><li>+ Mở nắp máy thủ dâm thêm gel bôi trơn vào bên trong ruột silicon để tăng độ trơn tru dễ vào</li><li>+ Mở màn hình chiếu phim giúp các anh tăng cảm xúc thăng hoa hơn trong khi thực hiện các thao tác với sản phẩm.</li><li>+ Bật chế độ rung và bắt đầu thao tác cùng sản phẩm giống như khi quan hệ với nàng</li><li>+ Sau khi thỏa mãn cho dương vật ra khỏi máy thủ dâm,vệ sinh theo các bước như trong hình minh hoạ bên trên</li><li>+ Bảo quản nơi khô thoáng tránh bụi bẩn, không để sản phẩm tiếp xúc nơi có nhiệt độ phòng cao.</li></ul>`,
   },
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05391fc0 (Update product images)
   {
     slug: "may-thu-dam-tu-dong-leten-a380-bu-mut-cuc-dinh-ad33c",
     legacySlug: "ad33c-may-thu-dam-tu-dong-leten-a380-bu-mut-cuc-dinh-ad33c",
@@ -53588,7 +53810,9 @@ export const products: Product[] = [
     description: "Máy mát xa mini cao cấp Nalone Fifi (DC54E). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dc54e/01.webp",
+    image: "/anh1/DC54E/DC54E_1.jpg",
+    thumb: "/thumbs/anh1/DC54E/DC54E_1.webp",
+    images: ["/anh1/DC54E/DC54E_1.jpg", "/anh1/DC54E/DC54E_3.jpg", "/anh1/DC54E/DC54E_5.jpg", "/anh1/DC54E/DC54E_6.jpg", "/anh1/DC54E/DC54E_7.jpg", "/anh1/DC54E/DC54E_8.jpg", "/anh1/DC54E/DC54E_9.jpg", "/anh1/DC54E/DC54E_10.jpg", "/anh1/DC54E/DC54E_12.jpg", "/anh1/DC54E/DC54E_14.jpg"],
     longDescription: `<h2>DC54E Trứng rung mát xa âm đạo – Dụng cụ kích thích chim nàng ra nước</h2>
 <p>Thông tin chi tiết:</p>
 <ul><li>-Tính năng: Nữ thủ dâm, kích thích điểm G, mát xa cơ thể, giải tỏa sinh lý</li></ul>
@@ -53848,6 +54072,32 @@ export const products: Product[] = [
     icon: "petal",
     image: "/anh1/DC89G/01.jpg",
     images: ["/anh1/DC89G/01.jpg"],
+    longDescription: `Mát xa điểm G cao cấp Svakom Adonis điều chỉnh nhiệt độ (DC89G)
+Tính năng: Massager âm vật, kích thích điểm G, giải tỏa sinh lý hiệu quả
+Chất liệu: Silicon + ABS an toàn không độc tính
+Kích thước: 20cm x 8.8cm x 3.8cm
+Trọng lượng:190g
+Pin: 2200mAh
+Loại pin: Pin lithium Polymer
+Thời gian sạc: 2.5 giờ
+Sử dụng liên tục tối đa: 48 giờ
+Chế độ rung: 7+1
+Cường độ: 5 cường độ rung
+Chống thấm nước: 100% không thấm nước
+Nhãn hiệu: SVAKOM
+Xuất xứ: Mỹ
+SVAKOM Adonis được thiết kế với động cơ rung kép với nhánh chính và ngón tay phụ cho kích thích cả trong lẫn ngoài cùng một lúc, đặc biệt kích thích mạnh mẽ tới điểm G nhằm gia tăng khoái cảm và hưng phấn cho chị em. Adonis có chức năng sưởi ấm với nhiệt độ cao hơn so với nhiệt độ cơ thể lên đến 38 độ C. Đặc biệt hơn Adonis thiết kế với những lằn gợn trên cả hai đầu sẽ kích thích tối đa âm vật và khu vực điểm G giúp các nàng lên đỉnh nhanh chóng hơn.
+SVAKOM Adonis được thiết kế với lõi sưởi ấm có thể làm nóng lên tới 38 độ C cao hơn so với nhiệt độ bình thường của cơ thể. Cho người dùng cảm giác ấm áp giống như khi tiếp xúc với làn da, cảm giác chân thật và gần gũi hơn rất nhiều. Vì vậy bạn có thể thưởng thức quan hệ tình dục nóng ngay cả trong mùa đông lạnh.
+Đồ chơi tình dục SVAKOM Adonis được thiết kế hoàn toàn bằng silicon cao cấp, không thấm nước , Không chỉ làm sạch dễ dàng, bạn cũng có thể vui vẻ trong bồn tắm hoặc tại bể bơi. Bạn hãy tưởng tượng một không gian cực kỳ lãng mạn, bạn đang nằm trong bồn tắm ấm cúng của bạn, Adonis đang làm việc vụ "thực thụ" của một người đàn ông trong khi làm tình dưới nước. Những âm thanh của nước, tiếng rên rỉ khi lên tới cao trào của bạn, cơ thể bạn đang run rẩy quyện với sự phấn khích trong nước sương mù. Một không gian quá đỗi tuyệt vời hòa quyện có cả âm thanh, nhạc điệu vô cùng kích thích.
+Thiết kế của Adonis hơi cong với góc 15độ dễ dàng cho việc massage tới điểm G và kích thích âm vật vì thế cũng nhiều hơn, khoái cảm cũng mạnh mẽ hơn.
+Adonis được thiết kế với Logo ở cả hai phía khi máy rung được bật các biểu tượng sẽ tỏa sáng với sự quyến rũ vô cùng sang trọng.
+Adonis có 7 chế độ khác nhau và 5 cường độ ở mỗi chế độ vì vật mà bạn có tới 7x5 = 35 +1 =36 sự lựa chọn cho bạn tha hồ khám phá kích thích âm vật và điểm G.
+SVAKOM Adonis được thiết kế vô cùng thông minh có thể bắt chước các tần số rung động trong toàn bộ quá trình quan hệ tình dục ngay từ đầu để đạt cực khoái. Chỉ cần nhấn vào nút "S" bạn có ngay một cuộc hành trình quan hệ tình ái với đầy đủ cung bậc cảm xúc của yêu thương, từ màn dạo đầu e lệ, tới trêu chọc, sự va đập mạnh mẽ, với nhiều cao trào.
+Adonis thiết kế với pin sạc với dung lượng pin là 2200mAh có thể đươc sạc đầy chỉ trong 2.5 giờ và cung cấp khoảng 48 giờ cho niềm vui liên tục.
+Adonis được thiết kế bằng silicon cực thân thiện với môi trường, được kiểm tra nghiêm ngặt, và đạt tiêu chuẩn cao trước khi tung ra thị trường.
+Động cơ Adonis vô cùng mạnh mẽ với chất lượng cao, chạy rất êm, tuổi thọ dài. Sau khi được bật Adonis độ ồn của nó chỉ dưới 50db, nên bạn chỉ có thể nghe được tiếng độc cơ rung bên ngoài trong khoảng cách dưới 1m mà thôi.
+Bảng điều khiển liền thân dễ thao tác và thuận tiện cho bạn và cả đối tác khi vui vẻ cùng Adonis.
+Bao bì sản phẩm`,
   },
   {
     slug: "may-hut-to-nguc-phu-nu-breast-pump-dc67e",
@@ -56763,8 +57013,55 @@ export const products: Product[] = [
     description: "Máy thủ dâm tự động Telescopic Sweetheart II (AD36G). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "spark",
-    image: "/anh1/AD36G/01.jpg",
+    image: "/anh1/AD36G/06.jpg",
+    thumb: "/thumbs/anh1/AD36G/06.webp",
     images: ["/anh1/AD36G/06.jpg", "/anh1/AD36G/07.jpg", "/anh1/AD36G/08.jpg", "/anh1/AD36G/09.jpg", "/anh1/AD36G/10.jpg", "/anh1/AD36G/12.jpg", "/anh1/AD36G/17.jpg", "/anh1/AD36G/18.jpg", "/anh1/AD36G/20.jpg"],
+    longDescription: `AD36G Dụng cụ tình dục nam tự sướng máy tự động xoay thụt tê tái cậu nhỏ
+Thông tin sản phẩm:
+Tính năng: Massager dương vật, Kích thích thủ dâm cho nam, Giải tỏa sinh lý hiệu quả
+Đối tượng sử dụng: nam giới
+Chất liệu: ABS + TPE
+Mùi: Không Mùi
+Đảm bảo: Không kích ứng da
+Kiểm định: Bởi tổ chức y tế thế giới, CE Châu Âu
+Chiều dài máy tính đến đế: 34cm
+Chiều dài máy: 27cm
+Đường kính: 9cm
+Đặc điểm: Âm đạo dạng tua gai mềm, miệng âm đạo mô phỏng hình môi
+Hoạt động: Đèn flash nhấy nháy
+Chế độ: 10 chế độ rung, thụt, xoay
+Chế độ thụt: Lên xuống 4cm
+Nguồn điện: Sạc pin USB
+Vệ sinh: Bằng cồn y tế. Các bộ phận có thể tháo rời để vệ sinh dễ dàng
+Sản phẩm sử dụng kèm: Bao cao su siêu mỏng, gel bôi trơn
+Thương hiệu: EASYLOVE
+Xuất xứ: Nhật Bản
+Sản xuất: Tại nhà máy EASYLOVE
+Máy thủ dâm tự động Telescopic Sweetheart II thuộc dòng máy thủ dâm cao cấp và hiện đại đến từ thương hiệu nổi tiếng của Nhật Bản.
+Dòng sản phẩm mang đầy đủ tính năng đặc biệt của một máy thủ dâm cao cấp có thể tự động rung, thụt lên xuống, xoay ngoáy điên đảo khiến cho “cậu nhỏ” gào thét vì quá giống với việc làm tình với nàng bằng miệng.
+Miệng âm đạo mô phỏng với hình môi chúm chím của cô gái, bên trong ruột âm đạo giả, thiết kế gồm các tua gai mềm mại sẽ chà miết lên thân cậu nhỏ khiến các anh râm ran và hừng hực sảng khoái.
+Máy thủ dâm không chỉ thiết kế khả năng tự động giống như một người tình thực thụ mà còn tích hợp khả năng thông minh có thể gắn tường, xoay tới 145 độ cho các anh tha hồ tạo tư thế giống như các tư thế quan hệ với nàng.
+Kiểu dáng sang trọng đẳng cấp được làm hoàn toàn từ chất liệu ABS và TPE cao cấp có mức độ đàn hồi cao.
+Nên cảm giác ngay khi các anh chạm tới cực kỳ kích thích và viên mãn vì quá đỗi sung sướng và giống thật.
+Cảm giác được “nàng ORALSEX ” thật sự thăng hoa và việc lên đỉnh của các anh chỉ còn trong tích tắc mà thôi.
+Ngoài ra khi “cô nàng” hoạt động có kèm cả đèn Flash nhấp nháy nhìn vô cùng đẹp mắt đặc biệt trong đêm những tín hiệu phát sáng khiến các chàng càng bị mê hoặc, bị kích thích khả năng làm tình nhanh và mạnh mẽ hơn rất nhiều.
+Việc tích hợp tới 10 cường độ rung, thụt xoay khiến cho các anh trải qua các cung bậc tình yêu sung sướng đê mê.
+Cảm giác được liếm mút nhẹ nhàng, được mơn chớn râm ran cho tới khi cảm giác lên tới đỉnh điểm của sự thăng hoa và thỏa mãn.
+Một kiệt tác hơn cả một người tình chung thủy, sự bền bỉ dẻo dai không phải người tình nào của các anh cũng có thể tìm được.
+Chỉ tới khi làm tình với Máy thủ dâm tự động Telescopic Sweetheart II các anh mới có thể cảm nhận một đêm thăng hoa thực sự.
+Với những ưu điểm không thể bỏ qua của dòng máy cao cấp này:
+– Thương hiệu nổi tiếng đến từ Nhật Bản, Bảo đảm tuyệt đối an toàn cho người sử dụng.
+– Tự động thụt lên xuống, xoay ngoáy giống như khi quan hệ với nàng.
+– Sự dẻo dai, bền bỉ hơn cả một người tình.
+– Sạc pin cao cấp cho hoạt động dài hơi và thỏa mãn được cuộc vui.
+– Gắn tường và xoay 145 độtạo được nhiều tư thế quan hệ hơn.
+Cách sử dụng:
+– Bạn cần vệ sinh sạch sẽ sản phẩm trước và sau khi sử dụng bằng cồn y tế và xà bông sát khuẩn
+– Sạc đầy pin trước khi sử dụng
+– Thêm gel bôi trơn hoặc sử dụng bao cao su cho dương vật để tăng độ trơn tru tránh bị khô rát để đạt cảm xúc thăng hoa
+– Trong khi thao tác bật nút khởi động nguồn. bật các nút F, F2, F3 để khởi động chế đô rung, thụt, và phím chức năng tăng cường chế độ. Nút R/S bật để khởi động chức năng xoay ngoáy và đảo chiều của âm đạo giả.
+– Sau khi thỏa mãn với máy thủ dâm. Mở vỏ máy và tháo rời từng bộ phận để vệ sinh, để khô hoặc dùng khăn bông khô trước khi bảo quản
+– Để nơi khô thoáng, tránh bụi bẩn và nơi có nhiệt độ cao.`,
   },
   {
     slug: "am-dao-gia-tu-dong-rung-liem-co-bop-nhu-that-ad36e",
@@ -60235,6 +60532,59 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC89C/01.jpg",
     images: ["/anh1/DC89C/01.jpg"],
+    longDescription: `Mô tả sản phẩm
+SVAKOM Barbara thiết kế thông minh với 2 nhánh rung kích thích khoái cảm cả trong và ngoài âm đạo. Phần đầu nhánh lớn là một đường cong lý tưởng cùng với 3 đường rãnh gân nổi tăng ma sát mạnh hơn lên thành âm đạo và điểm G.
+SVAKOM Barbara êm ái lướt vào bên trong và tạo ra những trường kích thích liên tục đến khi cả cơ thể bạn đạt đến tận cùng niềm vui. Với 3 phím nhỏ gọn trên thân giúp bạn dễ dàng điều chỉnh 6 chế độ đam mê và tùy chỉnh 5 tốc độ rung như ý để mọi cuộc yêu đều hoàn hảo.
+Đa số các dòng đồ chơi tình dục giá rẻ trên thị trường đều có chất liệu thô cứng, tạo cảm giác khó chịu và bất tiện cho người dùng. Nhưng với đồ chơi người lớn cao cấp SVAKOM đều sử dụng vật liệu silicon y tế cao cấp, mềm mại, trơn tru tạo cảm giác thoải mái, thích thú, đạt hiệu quả cao trong việc giải tỏa sinh lý cho người dùng.
+SVAKOM Barbara có chế độ thông minh bắt chước rất cao theo toàn bộ quá trình làm tình như mong muốn của chúng ta, từ màn dạo đầu mơn trớn đến cao trào mạnh mẽ. Chỉ cần nhấn phím S, bạn sẽ có một hành trình tình dục tuyệt vời. Từ màn dạo đầu rợn da gáy, những cảm giác trêu chọc gợi cảm, những cường độ rung mạnh dần, đến cực khoái tối đa, đó là một trải nghiệm tình dục tuyệt vời mà bạn không muốn bỏ lỡ.
+SVAKOM Barbara được làm bằng silicone thân thiện với môi trường, nó đã vượt qua tất cả các bài kiểm tra nghiêm ngặt và đạt tiêu chuẩn cao trước khi đi ra thị trường, đồng thời đạt tiêu chuẩn Châu Âu về quy trình sản xuất và chất liệu y tế. SVAKOM Barbara sẽ giúp bạn thỏa mãn mọi khao khát và gia tăng gấp đôi niềm vui tình ái.
+SVAKOM Barbara có khả năng chống nước ở cấp độ IPX6. Có nghĩa là Barbara được bảo vệ khỏi nước bắn tung tóe, bất kể hướng nào. Bạn có thể sử dụng đồ chơi người lớn này bất kỳ nơi đâu, kể cả trong phòng tắm, dưới vòi sen hay trong hồ bơi. Khả năng chống nước 100% giúp cho việc vệ sinh đồ chơi tình dục bằng nước sau khi sử dụng rất thuận tiện và an toàn, không làm hư hỏng thiết bị bên trong máy rung.
+Hầu hết phụ nữ rất yêu thích máy kích dục 2 nhánh bởi đồ chơi người lớn này có thể rung kích thích đồng thời điểm G bên trong âm đạo và mòng đốc bên ngoài. SVAKOM Barbara thiết kế 2 nhánh với động cơ kép rung kích thích mạnh mẽ với nhiều tần số và cường độ rung khác nhau dễ dàng đưa bạn vào những cơn cực khoái chưa từng có.
+Ngoài việc đóng vai trò là một máy rung kích dục, SVAKOM Barbara còn là một máy massage đa năng, có thể chăm sóc, giải mỏi cơ bắp ở nhiều vị trí, giúp bạn thư giãn hiệu quả sau những giờ làm việc mệt mỏi.
+SVAKOM Barbara với động cơ kép rung mạnh mẽ nhưng không tạo ra tiếng ồn. Tất cả các máy rung kích dục của SVAKOM đều có độ ồn lý tưởng dưới 50dB. Bạn có thể thoải mái tận hưởng những khoái cảm sung sướng mà không lo bị người xung quanh nghe thấy.
+SVAKOM Barbara sử dụng pin lithium, sử dụng pin sạc đúc nguyên khối. Dung lượng pin 430mAh, có thể sạc đầy chỉ trong 1,5 giờ, và cung cấp năng lượng hoạt động khoảng 2 giờ liên tục. Tất cả sản phẩm SVAKOM phải được sạc bằng bộ chuyển đổi điện áp / dòng điện đầu ra 5V / 1A.
+Với mát xa điểm G cao cấp SVAKOM Barbara bạn sẽ được tận hưởng sự thoải mái khi được chăm sóc chu đáo đến những khoảnh khắc yêu đương cuối cùng.
+Bộ sản phẩm SVAKOM Barbara bao gồm:
+Hộp đựng + Chày rung SVAKOM Barbara + Túi nhung + Hướng dẫn sử dụng + Tờ cảnh báo + Mô tả chứng nhận + Thẻ bảo hành quốc tế 12 tháng + Cáp sạc USB.
+Thông tin chung:
+Chất liệu:
+Silicone cao cấp mịn mượt
+Kích thước:
+188×90×36mm
+Trọng lượng:
+138g
+Dung lượng pin:
+430 mAh
+Loại pin:
+Polymer lithium
+Thời gian sạc:
+1.5 giờ
+Sử dụng liên tục tối đa:
+2 giờ
+Chế độ rung:
+5+1
+Cường độ rung:
+5
+Chống nước
+100% chuẩn IPX6
+Các phím chức năng:
+– Bật/Tắt : Giữ nút S trong 2 giây.
+– S Mode : Bấm nút S 1 lần (khi không ở chế độ S mode)
+– Nhắc lại S mode : Bấm nút S 2 lần
+On/Off
+Press the "S" button for 2secs
+S mode
+Click the "S" Button (in the non-S mode)
+Repeat the S mode
+Double click "S" button (in S mode)
+Enhancing vibration
+Click the "△" Button
+Weakening vibration
+Click "▽" Button
+Enter into Last mode
+Double-click "△" Button
+Enter into Next mode
+Double-click "▽" Button`,
   },
   {
     slug: "may-rung-hau-mon-dieu-khien-xa-svakom-julie-dc89n",
@@ -60249,6 +60599,40 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC89N/01.png",
     images: ["/anh1/DC89N/01.png"],
+    longDescription: `Mô tả sản phẩm
+Tính năng: Massager kích thích điểm G, tuyến tiền liệt, giải tỏa sinh lý hiệu quả
+Đối tượng sử dụng: nam - nữ, cặp đôi muốn thay đổi không khí phòng the
+Chất liệu: Silicone ABS không mùi an toàn và lành tính
+Kích thước: 10.2cm x 2.8cm
+Màu sắc: Đen - Tím
+Chế độ rung: 5+1
+Cường độ: 5
+Trọng lượng: 72g
+Thời gian sạc: 1 giờ
+Thời gian sử dụng: 3 giờ
+Chống thấm nước: không thấm nước
+Hãng sản xuất: Svakom
+Xuất xứ: Mỹ
+SVAKOM Julie dùng cho cả nam và nữ, kích thích điểm G và hậu môn mang lại khoái cảm tuyệt vời chưa từng có. Bạn có thể dùng đồ chơi tình dục cắm hậu môn Julie bên trong và điều khiển mọi lúc mọi nơi với 25 tần số rung kích thích qua chiếc remote điều khiển từ xa tiện lợi, kín đáo.
+Julie có 5 +1 chế độ khác nhau và 5 cường độ trong mọi chế độ vì vậy bạn có (5x5)+1=26 sự lựa chọn để khám phá những điều tuyệt vời nhất mà Julie mang lại. Julie có thể được sử dụng có hoặc không có điều khiển từ xa. Nếu bạn quyết định sử dụng điều khiển từ xa nó sẽ làm tăng sự tương tác giữa bạn và đối tác của bạn. Với điều khiển xa bạn sẽ thuận tiện hơn khi thay đổi chế độ và cường độ bằng điều khiển từ xa.
+Julie được thiết kế với cổng sạc pin kín vì vậy nó không hề thấm nước bạn có thể vui vẻ với nó dưới vòi hoa sen, trong bồn tắm hay bể bơi cũng rất tuyệt vời.
+Julie yên lặng hơn cả một chiếc đồng hồ tích tắc. Vì vậy bạn có thể tận hưởng nó mà không phải lo lắng về việc làm phiền người khác về tiếng động, bởi nó cực kỳ êm.
+Julie sử dụng pin lithium và máy rung có thể sạc lại nhiều lần với dung lượng pin 300mAh, Nó có thể sạc đầy trong vòng 1 giờ và sử dụng tối đa lên tới 3 giờ đồng hồ. Thật sự vô cùng đã để bạn có thể vui vẻ cùng nó suốt nhiều giờ cho tới khi thỏa mãn thì thôi.
+Julie được làm bằng silicone thân thiện với môi trường. Tất cả các sản phẩm của Svakom đã vượt qua các thử nghiệm nghiêm ngặt và đạt tiêu chuẩn cao nhất trước khi ra mắt.
+Julie là một sản phẩm có thể được sử dụng cho cả nam và nữ. Đối với phụ nữ nó có thể được sử dụng cho kích thích điểm G và kích thích hậu môn. Đối với đàn ông nó có thể sử dụng nó như một máy massager tuyến tiền liệt.
+Thông số kỹ thuật SVAKOM Julie
+- Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể
+- Kích thước: Φ28mm * 102mm
+- Điều khiển từ xa: 56 * 34 * 15mm
+- Phạm vi hoạt động: 5m
+- Trọng lượng: 72g
+- Loại pin: Pin lithium polymer
+- Dung lượng pin: 300mAh
+- Thời gian sạc: 1 giờ
+- Thời gian sử dụng: 3 giờ
+- Chống thấm nước: IPX4
+- Chế độ rung: 5 tần số x 5 cường độ = 25 chế độ khác nhau
+SVAKOM Julie có thẻ bảo hành quốc tế 12 tháng.`,
   },
   {
     slug: "may-rung-diem-g-cao-cap-nho-xinh-svakom-keri-ngon-tay-dam-me-dc90p",
@@ -60585,6 +60969,39 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC89F/01.jpg",
     images: ["/anh1/DC89F/01.jpg"],
+    longDescription: `Mô tả sản phẩm
+Tên sản phẩm: Ella
+Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể
+Kích thước sản phẩm: 21.5cm x 3.3cm
+Trọng lượng: 60g
+Loại pin: Pin Lithium polymer
+Dung lượng pin: 300mAh
+Thời gian sạc: 1 giờ
+Thời gian sử dụng:  2 giờ
+Chống thấm nước: Không thấm nước
+Chế độ rung: 11 chế độ rung
+Đặc biệt: Trứng rung kết nối qua điện thoại thông minh
+Kết nối ứng dụng qua: Google play hoặc App Store
+Hãng sản xuất: SVAKOM
+Xuất xứ: Mỹ
+Trứng rung tình yêu SVAKOM Ella điều khiển thông minh qua app trên smart phone, kích thích âm vật, nhũ hoa, điểm G và hậu môn với nhiều tần số rung độc đáo từ mơn trớn đến cao trào mạnh mẽ, giúp phụ nữ giải tỏa sinh lý mọi lúc mọi nơi, hay cho cuộc vui tình dục của cặp đôi thêm rạo rực để rồi thăng hoa mỹ mãn.
+Ella được thiết kế sáng tạo với nhiều tính năng thông minh, nó có thể kết nối với điện thoại thông minh của bạn qua Bluetooth. Chỉ cần tải APP xuống điện thoại bạn có thể điều khiển Ella mọi lúc, mọi nơi. Bạn có thể sử dụng nó với nhiều cường độ khác nhau thông qua các chế độ 5+1 trong APP. Ngoài ra bạn cũng có thể sử dụng Ella mà không cần ứng dụng thông minh. Với thiết kế gân nổi cộm trên thân được sắp xếp đều nhau giúp cho việc kích thích được tốt hơn, gia tăng khoái cảm cho cả bạn và người ấy một cách mạnh mẽ nhất.
+Chỉ cần thao tác kết nối với ứng dụng thông qua chiếc điện thoại thông minh là bạn thật sự đã có một cuộc yêu đầy phấn khích, hoàn toàn mới mẻ trên ứng dụng mới. Bạn có thể chủ động kiểm soát niềm vui của mình với đối tác chỉ với một ngón tay.
+Ella được thiết kế với cổng sạc kín, nó hoàn toàn không thấm nước vì vậy chỉ cần đưa  nó vào bồn tắm hoặc bể bơi để sử dụng hoặc vệ sinh vô cùng tiện lợi. Ella thực sự dễ dàng để bạn làm sạch.
+Ella cũng có tới 2 cách vận hành khách nhau, bạn có thể điều khiển nó bằng nút nằm trên bộ rung hoặc bộ điều khiển bên ngoài. Ella cung cấp cho người chơi tới 11 chế độ rung khác nhau, chỉ cần chọn những gì phù hợp với bạn nhất. Từ trêu chọc gợi cảm đến nhiều lần cực khoái, đó là một trải nghiệm tình dục tuyệt vời mà bạn không muốn bỏ lỡ.
+Ella được làm hoàn toàn từ chất liệu Silicone ABS cam kết bảo vệ môi trường cũng như thân thiện với làn da con người. Chúng cũng trải qua tất cả các tiêu chuẩn quốc tế khắt khe nhất trước khi được giới thiệu ra thị trường.
+SVAKOM Ella có thẻ bảo hành quốc tế 12 tháng. Dòng Sextoy SVAKOM cao cấp của Mỹ được nhiều khách hàng ưa chuộng nhất.
+Thông số kỹ thuật
+- Tên sản phẩm: SVAKOM ELLA
+- Chất liệu: Silicone siêu mềm + ABS an toàn cho cơ thể
+- Kích thước: Φ33mm * 215mm
+- Trọng lượng: 60g
+- Loại pin: Pin lithium polymer
+- Dung lượng pin: 300mAh
+- Thời gian sạc: 1 giờ
+- Thời gian sử dụng: 2 giờ
+- Chống thấm nước: Chuẩn IPX6
+- Chế độ rung: 11`,
   },
   {
     slug: "may-massage-2-dau-cao-cap-svakom-nymph-dc89q",
@@ -60599,6 +61016,25 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC89Q/01.jpg",
     images: ["/anh1/DC89Q/01.jpg"],
+    longDescription: `NHỮNG NGÓN TAY KHOÁI LẠC
+Hãy để những ngón tay dịu dàng, mềm mại ngọt ngào của SVAKOM Nymph rung mơn trớn qua làn da bạn, nó rung lên, lưu thông, kích thích những phần nhạy cảm nhất của bạn. Mang đến cho bạn luồng sóng kích thích đê mê khó tả, làm bạn hài lòng ngây ngất.
+Nhưng ngón tay thần thánh của SVAKOM Nymph có thể giúp bạn:
+- Vuốt ve núm vú
+- Kích thích âm vật
+- Xoa bóp quy đầu
+- Mơn trớn tinh hoàn
+ĐẦU TRÒN LỢI HẠI
+SVAKOM Nymph cũng có một đầu tròn mềm mại và linh hoạt với một động cơ rung tích hợp mạnh mẽ. Đầu silicon mềm, tròn cho phép thăm dò bên trong âm đạo cũng như kích thích nhiều điểm nhạy cảm bên ngoài cơ thể bạn.
+THIẾT KẾ CHỐNG THẤM NƯỚC
+SVAKOM Nymph được làm từ một khối silicon duy nhất. Với thiết kế này, SVAKOM Nymph có mức độ chống nước chuẩn IPX7. Vì vậy, bạn có thể dễ dàng để làm sạch sản phẩm sau khi dùng. Hoàn hảo cho niềm vui tình dục của bạn kể cả trong bồn tắm, vòi hoa sen hoặc phòng xông hơi.
+PIN SẠC CAO CẤP
+Với dung lượng pin lithium 300mAh, SVAKOM Nymph cung cấp 1,5 giờ hoạt động liên tục sau một lần sạc đầy chỉ trong 40 phút. Tất cả sản phẩm SVAKOM phải được sạc bằng bộ chuyển đổi điện áp / dòng điện đầu ra 5V / 1A.
+CHẤT LIỆU AN TOÀN VỚI CƠ THỂ, THÂN THIỆN VỚI MÔI TRƯỜNG
+SVAKOM Nymph được làm bằng silicone thân thiện với môi trường.
+Tất cả các sản phẩm SVAKOM đã vượt qua bài kiểm tra nghiêm ngặt nhất và tự hào đạt được các tiêu chuẩn cao nhất trước khi ra mắt.
+THÔNG SỐ KỸ THUẬT
+Bộ sản phẩm SVAKOM Nymph chính hãng, nguyên seal, nguyên kiện bao gồm: Túi nhung cao cấp, dụng cụ tình dục SVAKOM Nymph, cáp sạc SVAKOM USB, thẻ bảo hành quốc tế 12 tháng và sách hướng dẫn an toàn, hướng dẫn sử dụng.
+Sản phẩm SVAKOM chính hãng có thẻ bảo hành quốc tế 12 tháng.`,
   },
   {
     slug: "mat-xa-diem-g-cao-cap-usa-svakom-cici-dc90y",
@@ -60692,6 +61128,32 @@ export const products: Product[] = [
     icon: "spark",
     image: "/anh1/DC89E/01.jpg",
     images: ["/anh1/DC89E/01.jpg"],
+    longDescription: `Tính năng: Massager âm vật, kích thích điểm G, giải tỏa sinh lý nữ hiệu quả.
+Chất liệu: Silicone cao cấp an toàn không độc tính.
+Kích thước: 8cm x 3.4cm
+Trọng lượng: 93g
+Rung: 6 tần số rung
+Thời gian sạc: 1 giờ
+Thời gian sử dụng tối đa: 2 giờ
+Pin: Sạc pin cao cấp
+Nhãn hiệu: Svakom
+Xuất xứ: Mỹ
+Thời gian bảo hành: Thẻ bảo hành 1 năm của nhà sản xuất
+ELVA có 5 chế độ khác nhau và 5 cường độ ở mỗi chế độ vì vậy bạn có tới 5x5 = 25+1 =26 lựa chọn để bạn khám phá hết các tính năng của trứng ELVA cũng như tận hưởng hết các cung bậc cảm xúc thăng hoa mà ELVA mang tới cho bạn.
+Mặc dù có kích thước nhỏ nhưng động cơ tiềm ẩn bên trong của ELVA lại vô cùng mạnh mẽ. 5 cường độ khác nhau đi từ yếu cho tới mạnh hoàn toàn có thể chinh phục chị em  ngay cả các cô nàng đỏng đảnh khó chiều nhất cũng thấy thỏa mãn nhất.
+ELVA được thiết kế với cổng pin lỗ sạc ngăn không cho nước thấm ngược vào bên trong. Do đó chị em có thể vui vẻ cùng ELVA trong bồn tắm, hoặc trong hồ bơi hay bất cứ nơi  nào bạn cảm thấy hài lòng nhất với sản phẩm.
+Svakom ELVA được thiết kế với chế độ hoạt động cực kỳ thông minh, nó có thể bắt chước các tần số rung động trong quan hệ tình dục ngay từ màn khởi đầu cho tới khi đạt cực khoái mong muốn nhất của cơ thể. Chỉ cần nhấn nút "S" ngay tức thì bạn có thể bắt đầu một cuộc hành trình giống như quan hệ tình dục với "nửa ấy" thật tuyệt vời. ELVA cho bạn một cuộc hành trình thú vị từ màn dạo đầu e lệ, trêu chọc  tới mạnh mẽ, cao trào đầy đủ các cung bậc cảm xúc trong quan hệ tình dục mà bạn không muốn bỏ lỡ.
+Svakom được thiết kế với động cơ chất lượng cao nhất và được cung cấp từ các nhà sản xuất tốt nhất. Chính vì  thế Svakom ELVA cung cấp cho bạn nhưng rung động mạnh mẽ nhưng cực kỳ yên tĩnh và có tuổi thọ lâu dài nhất trên thị trường hiện nay. Với mức ồn sau khi dược bật lên mức mạnh nhất dưới 50Db bạn chỉ có thể nghe được thiêt bị rung từ xa với khoảng cách 1m mà thôi.
+ELVA có thể sử dụng có hoặc không có điều khiển từ xa. Với sự điều khiển xa điều này sẽ làm tăng cảm hứng cũng như sự tương tác giữa bạn và đối tác của bạn. Thuận lợi ở chỗ bạn có thể thay đổi chế độ và cường độ bằng cách điều khiển từ xa nếu bạn đang sử dụng thiết bị cho chính bạn.
+Được thiết kế sang trọng, tiện dụng và đẹp mắt Svakom ELVA trở thành công cụ hỗ trợ tình dục hiệu quả và đáng tin cậy nhất cho chị em cô đơn hay những cặp đôi trong việc cải thiện chất lượng cuộc sống tình dục. ELVA nhỏ gọn dễ dàng massger bên ngoài âm vật vừa có thể đi sâu vào bên trong âm đạo kích thích điểm G nhằm tăng hưng phấn tột cùng cho chị em.
+CÁCH SỬ DỤNG SVAKOM ELVA:
+- Trước khi sử dụng vệ sinh sản phẩm sạch bằng công y tế hoặc nước muối pha loãng
+- Trong quá trinh sử dụng bạn có thể sử dụng thêm gel bôi trơn để dễ dàng đưa ELVA đi vào sâu trong âm đạo kích thích điểm G
+- Sạc đầy pin trước khi sử dụng
+- Khởi động trứng rung: Bấm giữ nút "S" trên trứng rung và điều khiển trong 2 giây để khởi động trứng rung và bật chế độ làm việc ở điều khiển. Bấm nút mũi tên lên để tăng cường độ rung ngược lại bấm nút mũi tên xuống để giảm cương độ rung
+- Để tắt trứng rung bấm giữ nút "S" 2 giây để tắt trứng và tương tự với điều khiển xa cũng vậy
+- Sau khi đạt khoái cảm mong muốn tắt thiết bị vệ sinh lại một lần nữa trước khi bảo quản
+- Bảo quản nơi khô thoáng tránh bui bẩn và ánh nắng trực tiếp.`,
   },
   {
     slug: "may-mat-xa-hai-dau-cao-cap-svakom-siren-dc90x",
@@ -65774,6 +66236,48 @@ export const products: Product[] = [
     features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
     icon: "wave",
     sensitive: true,
+    image: "/anh1/DC17K/01.jpg",
+    thumb: "/thumbs/anh1/DC17K/01.webp",
+    images: ["/anh1/DC17K/01.jpg", "/anh1/DC17K/DC17K.jpg", "/anh1/DC17K/dc17k3.jpg", "/anh1/DC17K/dc17k4.jpg", "/anh1/DC17K/dc17k5.jpg", "/anh1/DC17K/dc17k6.jpg", "/anh1/DC17K/dc17k7.jpg", "/anh1/DC17K/dc17k8.jpg", "/anh1/DC17K/dc17k10.jpg", "/anh1/DC17K/dc17k11.jpg", "/anh1/DC17K/dc17k12.jpg", "/anh1/DC17K/dc17k21.jpg"],
+    longDescription: `DC17K Đèn Pin Massage Cao Cấp USA – Thiết Kế Tinh Tế, Trải Nghiệm Thư Giãn Tự Nhiên
+DC17K là thiết bị massage cá nhân dành cho nam với thiết kế hiện đại, nhỏ gọn và kín đáo. Sản phẩm sử dụng chất liệu cao cấp giúp mang lại cảm giác mềm mại, hỗ trợ thư giãn hiệu quả trong không gian riêng tư.
+🔹 Thông tin sản phẩm
+- Mã sản phẩm: DC17K
+- Chất liệu: Silicone cao cấp đạt chuẩn an toàn
+- Vỏ ngoài: Nhựa cứng bền chắc
+- Màu sắc: Trắng
+- Xuất xứ: Mỹ
+- Chức năng: Hỗ trợ thư giãn cá nhân
+✨ Điểm nổi bật
+- Thiết kế nhỏ gọn, dễ mang theo và sử dụng
+- Chất liệu mềm mại, thân thiện với cơ thể
+- Cấu trúc bên trong được tối ưu để tăng trải nghiệm
+- Dễ dàng tháo rời và vệ sinh sau khi sử dụng
+- Thiết kế kín đáo, phù hợp sử dụng riêng tư
+⚙️ Công năng & trải nghiệm
+DC17K mang đến cảm giác thư giãn nhẹ nhàng nhờ cấu trúc bên trong được thiết kế khoa học. Sản phẩm phù hợp cho những người muốn tìm kiếm giải pháp hỗ trợ thư giãn cá nhân tiện lợi và hiệu quả.
+🔗 Gợi ý sản phẩm liên quan
+- Sextoy cho nam
+- Âm đạo giả
+- Máy thủ dâm tự động
+- Máy tập dương vật
+- Sản phẩm dành cho nam
+📌 Hướng dẫn sử dụng
+- Vệ sinh sản phẩm trước và sau khi sử dụng
+- Có thể sử dụng kèm gel bôi trơn gốc nước để tăng sự thoải mái
+- Sau khi sử dụng, tháo lõi và làm sạch, để khô tự nhiên
+- Bảo quản nơi khô ráo, sạch sẽ
+⚠️ Lưu ý
+- Không sử dụng khi có dấu hiệu kích ứng
+- Không dùng chung để đảm bảo vệ sinh cá nhân
+- Tránh tiếp xúc với nhiệt độ cao và vật sắc nhọn
+🚚 Giao hàng & cam kết
+- Giao nhanh nội thành: 15 phút – 2 giờ
+- Toàn quốc: 1–2 ngày
+- Đóng gói kín đáo, riêng tư
+- Miễn phí vận chuyển
+Liên hệ đặt hàng Zalo: 09716.888.62
+Sản phẩm dành cho người trên 18 tuổi.`,
   },
   {
     slug: "bup-be-tinh-duc-03-co-nang-nong-bong-dc02b",
@@ -67668,7 +68172,10 @@ export const products: Product[] = [
 <h3>Thiết bị có dễ dàng tháo lắp và vệ sinh sau mỗi lần dùng không?</h3>
 <p>Có, phần ruột silicone có thể tháo rời hoàn toàn khỏi lớp vỏ ABS bên ngoài, kết hợp khả năng kháng nước 100% giúp việc rửa sạch và làm khô trở nên vô cùng nhanh chóng.</p>`,
   },
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05391fc0 (Update product images)
   {
     slug: "am-dao-gia-bom-nuoc-doc-dao-cho-cam-giac-thang-hoa-khac-la-ad53",
     legacySlug: "ad53-am-dao-gia-bom-nuoc-doc-dao-cho-cam-giac-thang-hoa-khac-la-ad53",
@@ -68273,7 +68780,7 @@ export const products: Product[] = [
     icon: "wave",
     image: "/anh1/DC82B/dc82b2.jpg",
     thumb: "/thumbs/anh1/DC82B/dc82b2.webp",
-    images: ["/anh1/DC82B/dc82b5.jpg", "/anh1/DC82B/dc82b3.jpg", "/anh1/DC82B/dc82b4.jpg"],
+    images: ["/anh1/DC82B/dc82b2.jpg", "/anh1/DC82B/dc82b3.jpg", "/anh1/DC82B/dc82b4.jpg", "/anh1/DC82B/dc82b5.jpg"],
   },
   {
     slug: "phich-hau-mon-rung-xoay-360-do",
@@ -68453,6 +68960,9 @@ export const products: Product[] = [
     description: "Kem dưỡng ẩm cá nhân LELO được đặc chế với hai công dụng: tăng cường sự thoải mái và khoái cảm trong các hoạt động gợi cảm, và dùng để dưỡng ẩm cho vùng kín. Sản phẩm không chứa Glycerine, paraben và hương liệu. Công thức gốc nước được bổ sung thêm lô hội, lý tưởng cho mọi khoảnh khắc thân mật cũng như đáp ứng nhu cầu cá nhân của bạn. Kem dưỡng ẩm này hoàn toàn an toàn khi sử dụng với mọi đồ chơi tình dục. Kem dưỡng ẩm cá nhân LELO cũng không gây nhờn rít và không làm ố màu, đảm bảo không gì cản trở bạn tận hưởng những khoái cảm sâu kín nhất.  \n \nTuýp: 75mL / 2.5 fl. oz\nKích thước: 37mm (đường kính) x 122mm\nThành phần: Nước, Propylene Glycol, Hydroxyethylcellulose, Nước ép lá lô hội (Aloe Barbadenis), Natri Benzoat, Kali Sorbat, Tetrasodium EDTA, Chiết xuất Gurana, Chiết xuất nhân sâm, Chiết xuất yến mạch (Avena Sativa), Polysorbate-20, Aspartame, Polyquaternium-5, PEG-45M, Axit Citric. \n-  Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo\n\n - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo. \n\n    Free ship toàn quốc .",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/G09A/6473376cv12d.webp",
+    thumb: "/thumbs/anh1/G09A/6473376cv12d.webp",
+    images: ["/anh1/G09A/6473376cv12d.webp", "/anh1/G09A/g09a2.jpg", "/anh1/G09A/g09a4.jpg", "/anh1/G09A/g09a6.jpg", "/anh1/G09A/g09a7.jpg"],
   },
   {
     slug: "chai-xit-keo-dai-thoi-gian-jo-prolonger-60ml",
@@ -68465,6 +68975,50 @@ export const products: Product[] = [
     description: "Chai xịt kéo dài thời gian Jo Prolonger 60ml\n\nTăng tối đa khoái cảm với JO® PROLONGER GEL, một loại gel có độ mạnh thông thường sử dụng các thành phần gây tê tự nhiên để làm chậm quá trình xuất tinh. Việc bổ sung tinh dầu bạc hà được thiết kế để tăng cường hiệu quả kéo dài đồng thời mang lại cảm giác căng mọng tự nhiên. Hoàn hảo để sử dụng trong khi tự thỏa mãn và màn dạo đầu, loại gel này mang đến trải nghiệm thú vị hơn, với hiệu quả kéo dài hơn.\n\nCác tính năng chính:\nKEM CẢI THIỆN CẢM GIÁC\n\nGEL TRÌ HOÃN LẤY CẢM HỨNG TỪ THIÊN NHIÊN\n\nTinh dầu gia vị tổng hợp và tinh dầu hoắc hương mang lại tác dụng gây tê tự nhiên.\n\nLÝ TƯỞNG CHO NAM GIỚI MUỐN HIỆU QUẢ LÂU DÀI HƠN VỚI CÔNG THỨC CƯỜNG ĐỘ THÔNG THƯỜNG\n\nThành phần:\nNước (Aqua), PEG-7 Glyceryl Cocoate, Laureth-9, Cyclopentasiloxane, Cyclotetrasiloxane, Polyacrylamide, Axit amin từ yến mạch, PEG-40 Dầu thầu dầu hydro hóa, Ammonium Acryloyldimethyltaurate/VP Copolymer, Polystyrene, C13-14 Isoparaffin, Dimethiconol, Laureth-7, Dầu lá ớt (Pimenta Officinalis), Dầu Pogostemon Cablin, Dầu bạc hà (Mentha Piperita), Benzyl Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/XTS15/01.png",
+    thumb: "/thumbs/anh1/XTS15/01.webp",
+    images: ["/anh1/XTS15/01.png", "/anh1/XTS15/05.png", "/anh1/XTS15/07.jpg"],
+    longDescription: `XTS15 thuốc xịt kéo dài thời gian cao cấp JO Prolonger USA
+Thông tin chi tiết:
+MÃ SẢN PHẨM: XTS15
+– Tính năng: ngăn chặn xuất tinh sớm.
+– Đối tượng sử dụng: Nam giới
+– Tác dụng phụ: Không có
+– Thành phần chính: bezocaine 7,5%
+– Dung tích: 59ml
+– Sử dụng: Xịt vào dương vật
+– Thương hiệu : JO USA
+– Xuất xứ : Mỹ
+– Giá đang giảm: 750.000đ
+Quan hệ tình dục nhanh có làm bạn thất vọng?
+Đấng mày râu đang buồn phiền vì cảm thấy bản lĩnh đàn ông của mình ngày càng suy giảm, chỉ cầm cự được 1 đến 2 phút là tiêu hết tiền, khiến các nàng thở dài thất vọng.
+Jo Prolonger là sản phẩm cao cấp của Mỹ được bào chế để lấy lại sự tự tin cũng như phong độ vốn có của đấng mày râu.
+Tăng thêm thời gian âu yếm, hưởng thụ cảm giác sung sướng hàng đêm, giúp nàng đi vào giấc ngủ trong sự thỏa mãn tuyệt đối.
+Do thành phần chứa hoạt chất kéo dài thời gian giúp giảm sự nhạy cảm ở đầu cậu nhỏ, giảm tín hiệu kích thích lên não, sau khoảng thời gian này, cậu nhỏ này trở lại trạng thái nhạy cảm như thường, cùng nhau đưa nàng lên đỉnh.
+Sự phổ biến của thuốc xịt đến từ JO:
+Các chai xịt kéo dài thời gian ngày càng được ưa chuộng và sử dụng rộng rãi trên thị trường, bởi lẽ tình trạng xuất tinh sớm rất phổ biến, không chỉ ở Việt Nam mà mọi đàn ông trên thế giới đều gặp phải.
+Nguyên nhân có thể do thói quen sống chưa lành mạnh, sắp xếp thời gian sinh hoạt chưa hợp lý, môi trường làm việc căng thẳng, không có thời gian tập luyện…khiến khả năng tình dục của phái mạnh ngày càng suy giảm.
+Điều này có thể vô tình sẽ đẩy cuộc tình của đấng mày râu trên bờ vực thẳm do không làm bạn đời của mình thỏa mãn, khiến nàng stress do không được đáp ứng đến độ đã trong mỗi cuộc yêu, nàng có thể sẽ phải tìm vui nơi khác dẫn đến mối quan hệ tan vỡ.
+Một điều cần nhớ rõ ràng, nhu cầu sinh lý của con người là tất yếu, có một đời sống tình dục viên mãn, con người mới có được cuộc sống hạnh phúc, tinh thần thoải mái để làm việc và vui chơi.
+Thuốc xịt kéo dài thời gian quan hệ JO Prolonger Các sản phẩm chai xịt kéo dài thời gian đã rất phổ biến ở các nước phát triển, còn ở Việt Nam?
+Đàn ông cũng dần ý thức được tầm quan trọng của đời sống tình dục và tìm đến các chai xịt kéo dài thời gian như sự cứu cánh cho đời sống tình dục, lấy lại sự tự tin.
+Kéo dài thời gian yêu cho nam giới: Jo Prolonger là sản phẩm nổi tiếng tại Mỹ, chỉ gây tê cục bộ ngoài ra làm giảm nhạy cảm lên đầu dương vật
+Giúp giảm tín hiệu truyền lên não dẫn đến kéo dài thời gian quan hệ, sản phẩm an toàn, trải qua tiêu chuẩn khắt khe của Mỹ, sau thời gian này, cậu nhỏ lại trở lại trạng thái như bình thường, cùng nàng lên đỉnh một cách dễ dàng.
+Chai xịt chống xuất tinh sớm JO Prolonger Jo Prolonger không gây nóng đầu dương vật, giúp kéo dài thời gian lại không làm mất cảm giác.
+Sản phẩm đặc biệt phù hợp với quý ông “chưa ra đến chợ đã tiêu hết tiền”, giúp nam giới kiểm soát thời điểm cực khoái, thể hiện bản lĩnh đàn ông trước đối tác.
+JO Prolonger – Sản phẩm không gây dị ứng, có thể rửa sạch sau khi xịt để giữ bí mật nho nhỏ, gây bất ngờ cho quý cô.
+Rất an toàn cho phụ nữ
+Một chai Jo Prolonger có thể dùng trên 120 lần quan hệ.
+Xuất xứ: USA
+Nhà sản xuất: JO Hoa Kỳ
+Cách sử dụng:
+– Lắc đều chai, xịt trực tiếp lên dương vật, xịt lên khu vực đầu dương vật sau khi đã cương cứng và massage nhẹ nhàng cho thuốc nhanh ngấm qua da, xịt trước khi quan hệ 5 đến 10 phút để đạt được hiệu quả tối ưu.
+– Xịt 1-2 lần (mỗi lần 3 hơi) lên đầu dương vật, tối đa 3 lần để đạt hiệu quả như như mong muốn.
+– Đối với quan hệ bằng miệng:
+Xịt thuốc trước 5-10 phút hoặc lâu hơn chút, thời gian này đủ cho thuốc ngấm vào trong, sau đó có thể tắm gội bình thường, các nàng sẽ bất ngờ trước sức mạnh nam giới mà không bị phát hiện.
+Thuốc xịt không mùi không vị nên có thể dễ dàng quan hệ bằng miệng mà không gây cảm giác khó chịu.
+– Có thể sử dụng kết hợp bao cao su và gel bôi trơn.
+– Bảo quản nơi thoáng mát để giữ nguyên công dụng đến cuối chai.`,
   },
   {
     slug: "mat-la-linh-mieu-sang-chanh",
@@ -68477,6 +69031,9 @@ export const products: Product[] = [
     description: "Mặt nạ linh miêu \n\nMàu sắc : màu đen, màu đen viền đỏ\n\nKích thức : chu vi : 52 - 64cm , chiều rộng : 13 cm \n\nChất liệu : PU/ kim loại\n\nTrọng lượng : 70g",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC56G/dc56g1.jpg",
+    thumb: "/thumbs/anh1/DC56G/dc56g1.webp",
+    images: ["/anh1/DC56G/dc56g1.jpg", "/anh1/DC56G/dc56g2.jpg", "/anh1/DC56G/dc56g3.jpg", "/anh1/DC56G/dc56g4.jpg", "/anh1/DC56G/dc56g5.jpg", "/anh1/DC56G/dc56g6.jpg", "/anh1/DC56G/dc56g7 (1).jpg", "/anh1/DC56G/dc56g7.jpg", "/anh1/DC56G/dc56g8.jpg", "/anh1/DC56G/dc56g9.jpg"],
   },
   {
     slug: "vong-rung-cao-cap-fun-nos",
@@ -68489,6 +69046,9 @@ export const products: Product[] = [
     description: "Tăng cường khoái cảm và sức bền cùng nhau với vòng rung dương vật bằng silicon Fun Factory NŌS màu xanh lá cây đậm. Sở hữu hai động cơ mạnh mẽ và các cánh tay rung linh hoạt ôm sát cơ thể, NŌS mang đến sự kích thích mạnh mẽ cho âm vật, đồng thời hai điểm áp lực tích hợp trong vòng giúp hỗ trợ cương cứng lâu hơn và mạnh mẽ hơn.\n\n \n\n\n\nĐược làm từ silicone siêu mềm dẻo, an toàn cho cơ thể, sản phẩm phù hợp với hầu hết mọi kích cỡ một cách thoải mái và cung cấp 4 tốc độ cùng 1 chế độ rung, tất cả được điều khiển bằng các nút đơn giản, trực quan để bạn luôn tận hưởng khoảnh khắc. Chống nước (IPX7) và sạc qua USB-C (không kèm cáp), NŌS sẵn sàng cho những cuộc vui cùng đối tác—từ quan hệ tình dục thâm nhập đến quan hệ bằng miệng và massage—bất cứ khi nào bạn muốn.\n\n\n\n\n\n\n\n \n\n\n\n\n\n- Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo.\n\n    - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC91R/dc91r1.jpg",
+    thumb: "/thumbs/anh1/DC91R/dc91r1.webp",
+    images: ["/anh1/DC91R/dc91r1.jpg", "/anh1/DC91R/dc91r2.jpg", "/anh1/DC91R/dc91r3.jpg", "/anh1/DC91R/dc91r4.jpg", "/anh1/DC91R/dc91r5.jpg", "/anh1/DC91R/dc91r6.jpg"],
   },
   {
     slug: "bup-be-silicon-cao-cap-150cm",
@@ -68501,6 +69061,9 @@ export const products: Product[] = [
     description: "Có thể biến đổi nhiều tư thế khác nhau.\n\nQuan hệ qua đường : âm đạo, hậu môn, miệng.\n\nMàu : da\n\n Chất liệu : silicon an toàn  \n\nChiều cao : 1m50\n\nSố đo 3 vòng:  80 - 51 - 80\n\nTrọng lượng : 28kg",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/BB17/bb171.jpg",
+    thumb: "/thumbs/anh1/BB17/bb171.webp",
+    images: ["/anh1/BB17/bb171.jpg", "/anh1/BB17/bb172.jpg", "/anh1/BB17/bb173.jpg", "/anh1/BB17/bb174.jpg", "/anh1/BB17/bb175.jpg", "/anh1/BB17/bb177.jpg", "/anh1/BB17/bb180.jpg", "/anh1/BB17/bb185 (1).jpg", "/anh1/BB17/bb185.jpg"],
   },
   {
     slug: "thanh-rung-hau-mon-nho-xinh-manh-me",
@@ -68513,6 +69076,26 @@ export const products: Product[] = [
     description: "Thanh rung hậu môn nhỏ xinh mạnh mẽ\n\nTrứng rung hậu môn đầu nhỏ sạc pin là sản phẩm đồ người lớn dành cho người trưởng thành, được thiết kế nhỏ gọn, dễ sử dụng và phù hợp cho người mới bắt đầu. Với đầu nhỏ mềm mại cùng nhiều chế độ rung linh hoạt, sản phẩm mang lại trải nghiệm nhẹ nhàng, an toàn và kín đáo.\n\nChế Độ Rung Đa Dạng\n\nTrứng rung được tích hợp nhiều chế độ rung khác nhau:\n\nTừ nhẹ nhàng đến mạnh mẽ\nNhịp rung linh hoạt, dễ điều chỉnh\nHoạt động êm ái, hạn chế tiếng ồn\nNgười dùng có thể thay đổi chế độ để phù hợp với nhu cầu và cảm nhận cá nhân.\nHướng Dẫn Sử Dụng & Bảo Quản\nVệ sinh sản phẩm trước và sau khi sử dụng\nSạc đầy pin trước khi dùng\nNên sử dụng gel bôi trơn gốc nước để tăng độ trơn mượt\nBảo quản nơi khô ráo, thoáng mát\n - Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo.\n\n    - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo. \n    Free ship toàn quốc .",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/HM17D/08.jpg",
+    thumb: "/thumbs/anh1/HM17D/08.webp",
+    images: ["/anh1/HM17D/08.jpg", "/anh1/HM17D/hm17d2.jpg", "/anh1/HM17D/hm17d3.jpg", "/anh1/HM17D/hm17d4.jpg", "/anh1/HM17D/hm17d5.jpg", "/anh1/HM17D/hm17d6.jpg", "/anh1/HM17D/hm17d7.jpg"],
+    longDescription: `Khác biệt hoàn toàn so với các dòng thiết bị thông thường nhờ chất liệu T-Skin siêu bền cùng thiết kế cấu trúc xoắn độc đáo, Dương vật mini xoắn mềm đa năng (HM17D) là giải pháp hỗ trợ chăm sóc sức khỏe sinh lý và massage kích thích vùng nhạy cảm một cách an toàn, dễ dàng vệ sinh và bảo quản lâu dài.
+Thiết kế & chất liệu
+Dương vật mini xoắn mềm đa năng (HM17D) sở hữu kích thước nhỏ gọn 9.3cm x 2.5cm với hai tùy chọn kích cỡ linh hoạt, đáp ứng trọn vẹn nhu cầu sử dụng cá nhân. Sản phẩm được hoàn thiện từ chất liệu T-Skin cao cấp không mùi, có đặc tính mềm mại, đàn hồi vượt trội và khả năng kháng tổn hại bề mặt tốt, duy trì độ bền ổn định theo thời gian. Bề mặt sản phẩm nổi bật với tông màu da tự nhiên kết hợp các đường vân xoắn liti tinh xảo, đi kèm phần đế hút gắn tường chắc chắn giúp việc thao tác sử dụng cũng như công đoạn vệ sinh, phơi khô bảo quản trở nên vô cùng thuận tiện.
+Công dụng thực tế
+- Hỗ trợ massage thư giãn và kích thích nhẹ nhàng các điểm nhạy cảm nhờ cấu trúc dải vân xoắn mềm mại.
+- Giúp cải thiện trải nghiệm khoái cảm tự nhiên cho cá nhân hoặc cặp đôi mà không cần phụ thuộc vào động cơ rung.
+- Chất liệu T-Skin bền bỉ, chống bám bẩn tốt, tối ưu hóa quá trình rửa sạch và giữ nguyên hình dáng ban đầu sau thời gian dài sử dụng.
+- Phần đế gắn tường hỗ trợ cố định linh hoạt trên bề mặt phẳng, tạo sự tiện lợi trong quá trình trải nghiệm và phơi khô sản phẩm.
+Ai nên dùng sản phẩm này
+Sản phẩm là lựa chọn phù hợp cho nam giới cũng như các cặp đôi đang tìm kiếm một thiết bị hỗ trợ giải tỏa nhu cầu an toàn, lành tính và có độ bền cao. Nhờ thiết kế nhỏ gọn và phương thức bảo vệ chất liệu đơn giản, HM17D đặc biệt thích hợp cho những người mới bắt đầu làm quen với các sản phẩm chăm sóc sức khỏe cá nhân cao cấp.
+Câu hỏi thường gặp
+Chất liệu T-Skin của sản phẩm có độ bền cao và dễ vệ sinh không?
+Chất liệu T-Skin cao cấp không mùi có độ đàn hồi tốt và khả năng chống xuống cấp hiệu quả nếu được bảo quản đúng cách. Sau khi dùng, bạn chỉ cần làm sạch bằng dung dịch xà phòng kháng khuẩn hoặc cồn y tế nhẹ kết hợp nước ấm, sau đó lau khô bằng khăn mềm là có thể giữ sản phẩm luôn bền đẹp.
+Sản phẩm HM17D có gây ra tiếng ồn trong quá trình sử dụng không?
+Do không tích hợp động cơ rung cơ học, sản phẩm vận hành hoàn toàn tự nhiên nên cực kỳ yên tĩnh. Điều này giúp đảm bảo sự riêng tư tuyệt đối và mang lại cảm giác thư giãn nhẹ nhàng cho người sử dụng.
+Cần bảo quản sản phẩm thế nào để kéo dài tuổi thọ chất liệu?
+Sau khi vệ sinh và lau khô hoàn toàn, bạn nên đặt sản phẩm tại nơi khô ráo, thoáng mát, tránh ánh nắng mặt trời chiếu trực tiếp và môi trường nhiều bụi bẩn. Ngoài ra, việc kết hợp sử dụng gel bôi trơn gốc nước sẽ giúp bảo vệ bề mặt chất liệu T-Skin luôn mịn màng, hạn chế hao mòn.`,
   },
   {
     slug: "may-mat-xa-rung-va-liem-duong-vat",
@@ -68525,6 +69108,9 @@ export const products: Product[] = [
     description: "Tính năng: Massage kích thích dương vật, giải tỏa nhu cầu sinh lý nam; tập luyện cho cậu nhỏ cương cứng hơn, bền bỉ hơn.\n\nChất liệu: Silicone và ABS.\n\nKích thước: 4.8cm x 14.8cm\n\nRung: 10 tần số.\n\nThời gian sạc : 60 phút\n\nThời gian sử dụng : 40 phút\n\nSạc USB\n\nChống nước: Có. \nHoạt động hoàn toàn tự động\n\n– Tận hưởng trải nghiệm đầy khoái cảm mà không tốn sức nhờ cơ chế chuyển động tịnh tiến và xoay 360 độ bằng động cơ, mô phỏng chân thực cảm giác quan hệ bằng miệng. Công nghệ kích thích kép\n\n– Kết hợp xung điện (3 mức cường độ) và chế độ rung mô phỏng chuyển động liếm của lưỡi, mang lại cảm giác mãnh liệt, đa tầng tác động trực tiếp lên quy đầu và thân dương vật. Chế độ luyện tập chuyên biệt cho quy đầu\n\n– Cấu trúc lòng trong được thiết kế tinh xảo với các gờ nổi giúp tăng độ nhạy cảm, cải thiện sức bền và hiệu suất tình dục thông qua các bài tập chuyên sâu. An toàn và chống nước\n\n– Chất liệu silicone TPE chuẩn y tế (bề mặt kín, không gây kích ứng), đạt chuẩn chống nước IPX7, dễ dàng vệ sinh và sử dụng ngay cả khi tắm. Kín đáo và có thể sạc lại\n\n– Động cơ vận hành cực êm (25dB), hỗ trợ sạc nhanh qua cổng USB-C (sạc 60 giờ cho 40 phút sử dụng). Đi kèm hộp đựng nhỏ gọn, tiện lợi khi mang theo du lịch.",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC33H/dc33h1.jpg",
+    thumb: "/thumbs/anh1/DC33H/dc33h1.webp",
+    images: ["/anh1/DC33H/dc33h1.jpg", "/anh1/DC33H/dc33h2.jpg", "/anh1/DC33H/dc33h3.jpg", "/anh1/DC33H/dc33h4.jpg", "/anh1/DC33H/dc33h5.jpg", "/anh1/DC33H/dc33h6.jpg", "/anh1/DC33H/dc33h7.jpg", "/anh1/DC33H/dc33h9.jpg", "/anh1/DC33H/dc33h10.jpg", "/anh1/DC33H/dc33h11.jpg", "/anh1/DC33H/dc33h12 (1).jpg", "/anh1/DC33H/dc33h12.jpg", "/anh1/DC33H/dc33h13.jpg", "/anh1/DC33H/dc33h14.jpg"],
   },
   {
     slug: "duong-vat-yeain-lilith-dildo-rung-thut-suoi-am-dieu-khien-qua-app",
@@ -68538,6 +69124,9 @@ export const products: Product[] = [
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
     sensitive: true,
+    image: "/anh1/DV60M/dv60m0.jpg",
+    thumb: "/thumbs/anh1/DV60M/dv60m0.webp",
+    images: ["/anh1/DV60M/dv60m0.jpg", "/anh1/DV60M/dv60m1.jpg", "/anh1/DV60M/dv60m2.jpg", "/anh1/DV60M/dv60m4.jpg", "/anh1/DV60M/dv60m5.jpg", "/anh1/DV60M/dv60m6.jpg", "/anh1/DV60M/dv60m7.jpg", "/anh1/DV60M/dv60m9.jpg", "/anh1/DV60M/dv60m10.jpg", "/anh1/DV60M/dv60m11.jpg", "/anh1/DV60M/dv60m12.jpg", "/anh1/DV60M/dv60m13.jpg", "/anh1/DV60M/dv60m14.jpg", "/anh1/DV60M/dv60m15.jpg", "/anh1/DV60M/dv60m16.jpg", "/anh1/DV60M/dv60m17.jpg", "/anh1/DV60M/dv60m18.jpg"],
   },
   {
     slug: "may-rung-cao-cap-fun-volta-mon-tron-da-vung-nhay-cam",
@@ -68550,6 +69139,32 @@ export const products: Product[] = [
     description: "Máy rung cao cấp Fun VOLTA mơn trớn đa vùng nhạy cảm \n\nĐánh thức mọi đầu dây thần kinh với máy rung Fun Factory Volta Lay-On màu Magenta. Đầu rung tách đôi đặc trưng giúp tăng cường độ nhạy cảm và tuần hoàn máu, mang đến những cảm giác kích thích, rung động mạnh mẽ cho âm vật, vùng kín, núm vú, hoặc thậm chí là một sự nâng cấp đầy quyến rũ trong khi quan hệ tình dục bằng miệng.\n\nĐược làm từ silicone mềm mại, an toàn cho cơ thể, Volta có thể sạc qua cổng USB-C (không kèm cáp) và hoàn toàn chống nước (IPX7), lý tưởng để sử dụng trong bồn tắm hoặc vòi sen. Dù sử dụng một mình hay với người yêu, máy rung đặt lên người linh hoạt, mạnh mẽ này được thiết kế để tăng cường khoái cảm – hết lần này đến lần khác.",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC91D/01.jpg",
+    thumb: "/thumbs/anh1/DC91D/01.webp",
+    images: ["/anh1/DC91D/01.jpg", "/anh1/DC91D/06.jpg", "/anh1/DC91D/dc91d1.jpg", "/anh1/DC91D/dc91d2.jpg", "/anh1/DC91D/dc91d4.jpg"],
+    longDescription: `Dương vật rung thụt cao cấp Fun Stronic Real (DC91D) là thiết bị hỗ trợ chăm sóc sức khỏe sinh lý và kích thích đa điểm (âm vật, điểm G) dành cho cá nhân hoặc các cặp đôi, hoạt động dựa trên cơ chế rung kết hợp thụt tự động chuẩn xác từ thương hiệu Fun (Đức).
+Vì sao nên chọn Dương vật rung thụt cao cấp Fun Stronic Real (DC91D)
+Sản phẩm nổi bật nhờ sự kết hợp giữa công nghệ chuyển động thụt tự động và 10 tần số rung đa dạng, giúp tối ưu hóa khả năng tác động lên vùng nhạy cảm. Được nghiên cứu và sản xuất bởi thương hiệu Fun tại Đức, thiết bị chú trọng hàng đầu đến tiêu chuẩn an toàn y tế và mức độ thân thiện với làn da người dùng. Đi kèm với khả năng vận hành êm ái không phát ra tiếng ồn, đây là giải pháp đáp ứng hoàn hảo cả về mặt kỹ thuật lẫn tiêu chuẩn an toàn sức khỏe.
+Thông số & chất liệu
+- Thương hiệu: Fun (Đức)
+- Mã sản phẩm: DC91D
+- Chất liệu: Silicon cao cấp và nhựa ABS, đạt chứng nhận kiểm định an toàn y tế và tiêu chuẩn RoHS Châu Âu
+- Kích thước: 23.8cm x 3.5cm
+- Màu sắc: Tím, Hồng, Da
+- Chức năng: Rung thụt tự động kết hợp 10 tần số rung động
+- Động cơ: Vận hành mượt mà, không phát ra tiếng ồn
+- Nguồn điện: Sạc từ tính tiện lợi, hỗ trợ sạc lại nhiều lần
+- Thời gian sạc: 1.5 giờ
+- Thời gian sử dụng tối đa: 1 giờ liên tục
+Cách dùng hiệu quả
+Để đạt hiệu quả vận hành tối ưu và duy trì độ bền thiết bị, người dùng cần sạc đầy pin trong khoảng 1.5 giờ bằng hệ thống sạc từ tính trước khi khởi động. Thao tác điều khiển trên thân máy cho phép dễ dàng chuyển đổi qua lại giữa 10 chế độ rung và tính năng thụt linh hoạt. Sau khi sử dụng, cần làm sạch sản phẩm bằng xà bông nhẹ, nước ấm, cồn y tế hoặc dung dịch vệ sinh chuyên dụng, sau đó lau khô và bảo quản ở nơi khô ráo, tránh nhiệt độ cao hoặc tiếp xúc trực tiếp với ánh nắng mặt trời.
+Câu hỏi thường gặp
+Dương vật rung thụt Fun Stronic Real (DC91D) có đảm bảo an toàn cho da nhạy cảm không?
+Sản phẩm được chế tạo hoàn toàn từ silicon và nhựa ABS cao cấp, trải qua quy trình kiểm nghiệm y tế nghiêm ngặt và đạt tiêu chuẩn RoHS Châu Âu. Chất liệu hoàn toàn không chứa chất độc hại, thân thiện và an toàn cho mọi làn da.
+Thiết bị hoạt động có phát ra tiếng ồn lớn không?
+Dương vật rung thụt Fun Stronic Real (DC91D) sử dụng cơ chế vận hành tối ưu, hoàn toàn không phát ra tiếng ồn trong quá trình hoạt động, đảm bảo không gian trải nghiệm riêng tư cho người sử dụng.
+Thời gian sạc và thời lượng sử dụng của thiết bị là bao lâu?
+Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc đầy là 1.5 giờ. Khi pin được sạc đầy, thiết bị cung cấp thời gian hoạt động liên tục tối đa lên đến 1 giờ tùy thuộc vào chế độ rung thụt được thiết lập.`,
   },
   {
     slug: "may-rung-diem-g-cao-cap-lelo-moka-originals-co-ket-noi-app",
@@ -68562,6 +69177,9 @@ export const products: Product[] = [
     description: "THÔNG SỐ KỸ THUẬT:\n Chất liệu: Silicone an toàn cho cơ thể, nhựa ABS\nBề mặt: Mịn\nKích thước: 192 x 76 x 37 mm / 7.6 x 3 x 1.5 in\nChiều dài có thể đưa vào: 116 mm / 4.6 in\nTrọng lượng: 100g / 3.5 oz\nPin: Li-Ion 200 mAh\nThời gian sạc: lên đến 2 giờ ở 5 V 200 mA\nCông suất định mức:\nĐầu vào: 5V 200 mA 1 W\nĐầu ra: 3.7 V 200 mA 0.74 W\nThời gian sử dụng: Lên đến 2 giờ\n\nCÁCH SỬ DỤNG:\nĐồng hồ LELO Originals có tính năng khóa ứng dụng để đảm bảo thiết bị của bạn là hàng chính hãng, được cập nhật và an toàn khi sử dụng. Sau khi mở khóa thiết bị, bạn có thể chọn sử dụng ứng dụng hoặc không.\n\nVỚI ỨNG DỤNG LELO™:\n• Sạc tai nghe MOKA™ Originals của bạn trong 2 giờ trước khi sử dụng lần đầu.\n• Tải xuống ứng dụng LELO™ cho iOS hoặc Android.\n• Nhấn nút nguồn (M) trên thiết bị - đèn LED sẽ nhấp nháy (chế độ ghép nối).\n• Sau khi đăng ký và đăng nhập vào ứng dụng LELO™, hãy chọn dòng sản phẩm Originals và kết nối thiết bị của bạn.\n• Nhấn nút nguồn (M) một lần nữa để xác nhận ghép nối.\n• Thiết bị của bạn hiện đã được mở khóa và sẵn sàng sử dụng với ứng dụng.\n\nKHÔNG CẦN ỨNG DỤNG LELO™:\n• Sạc pin trong 2 giờ trước khi sử dụng lần đầu.\n• Bạn vẫn cần mở khóa thiết bị thông qua ứng dụng LELO™ khi sử dụng lần đầu (xem các bước ở trên).\n• Sau khi mở khóa: Nhấn + để bật thiết bị. Nhấn (M) để thay đổi chế độ. Sử dụng + và - để điều chỉnh cường độ. Nhấn và giữ (M) để tắt thiết bị.\n\nKhóa khi di chuyển:\n• Nhấn và giữ đồng thời nút + và - trong 3 giây để khóa hoặc mở khóa thiết bị khi di chuyển.\n\n-  Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo\n\n - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC82D/dc82d1 (1).png",
+    thumb: "/thumbs/anh1/DC82D/dc82d1_1_.webp",
+    images: ["/anh1/DC82D/dc82d1 (1).png", "/anh1/DC82D/dc82d1.png", "/anh1/DC82D/dc82d2.png", "/anh1/DC82D/dc82d4.png"],
   },
   {
     slug: "may-rung-tai-tho-cao-cap-lelo-kaya-originals-co-ket-noi-app",
@@ -68574,6 +69192,9 @@ export const products: Product[] = [
     description: "THÔNG SỐ KỸ THUẬT:\n\nChất liệu: Silicone an toàn cho cơ thể, nhựa ABS\nBề mặt: Mịn\nKích thước: 194 x 64 x 37 mm / 7.6 x 2.5 x 1.5 inch\nChiều dài có thể đưa vào: 120 mm / 4.7 inch\nTrọng lượng: 123 g / 4.3 oz\nPin: Li-Ion 200 mAh\nThời gian sạc: lên đến 2 giờ ở 5 V 200 mA\nCông suất định mức:\nĐầu vào: 5V 200mA 1 W\nĐầu ra: 3.7 V 310 mA 1.45 W\nThời gian sử dụng: Lên đến 2 giờ\nThời gian chờ: ít nhất 90 ngày\n\n\n\nKAYA™ Originals là máy rung hình thỏ tác động kép thuộc dòng sản phẩm LELO Originals mới, được thiết kế để mang lại cực khoái kết hợp thông qua kích thích đồng thời điểm G và âm vật. Với thiết kế đẹp mắt, tiện dụng và pin bền lâu, KAYA™ mang đến một sản phẩm đáng tin cậy, hiệu suất cao, lý tưởng cho những khách hàng tìm kiếm cả tính linh hoạt và cường độ trong các sản phẩm khoái cảm. Là một sự bổ sung tuyệt vời cho bất kỳ bộ sưu tập cao cấp nào, nó kết hợp hình thức, chức năng và thương hiệu đáng tin cậy trong lĩnh vực chăm sóc sức khỏe tình dục.\n\nTinh dầu\nKAYA™ Originals mang đến cảm giác khoái lạc đích thực với sự kích thích đồng thời cả điểm G và âm vật.\n\n \n\n\n\n4 CHẾ ĐỘ RUNG MẠNH MẼ\nKAYA™ Originals mang đến 4 chế độ rung khác nhau, với cường độ từ tiếng rung nhẹ nhàng đến xung nhịp mạnh mẽ đầy thỏa mãn.\n\n\n\n4 THIẾT LẬP ĐỘC QUYỀN TRÊN ỨNG DỤNG\nBên cạnh bốn thiết lập cơ bản có sẵn mà không cần ứng dụng, bạn có thể mở khóa thêm bốn thiết lập khác, bao gồm hai chế độ thông thường và hai chế độ nâng cao - Kết liễu tôi và Mất kiểm soát.\n\nSạc USB & Chống nước hoàn toàn theo tiêu chuẩn IPX7.\nTận hưởng những khoái cảm bất tận mọi lúc mọi nơi, kể cả trong bồn tắm hoặc vòi sen.\n\nThời lượng pin cực lâu:\nKaya™ Originals có thời lượng pin kéo dài cho phép bạn tận hưởng nhiều giờ chơi liên tục.\n\n \n\nCÁCH SỬ DỤNG:\nĐồng hồ LELO Originals có tính năng khóa ứng dụng để đảm bảo thiết bị của bạn là hàng chính hãng, được cập nhật và an toàn khi sử dụng. Sau khi mở khóa thiết bị, bạn có thể chọn sử dụng ứng dụng hoặc không.\n\nVỚI ỨNG DỤNG LELO™:\n• Sạc tai nghe KAYA™ Originals của bạn trong 2 giờ trước khi sử dụng lần đầu.\n• Tải xuống ứng dụng LELO™ cho iOS hoặc Android.\n• Nhấn nút nguồn (M) trên thiết bị - đèn LED sẽ nhấp nháy (chế độ ghép nối).\n• Sau khi đăng ký và đăng nhập vào ứng dụng LELO™, hãy chọn dòng Originals và kết nối thiết bị của bạn.\n• Nhấn nút nguồn (M) một lần nữa để xác nhận ghép nối.\n• Thiết bị của bạn hiện đã được mở khóa và sẵn sàng sử dụng với ứng dụng.\n\nKHÔNG CẦN ỨNG DỤNG LELO™:\n• Sạc pin trong 2 giờ trước khi sử dụng lần đầu.\n• Bạn vẫn cần mở khóa thiết bị thông qua ứng dụng LELO™ khi sử dụng lần đầu (xem các bước ở trên).\n• Sau khi mở khóa: Nhấn + để bật thiết bị. Nhấn (M) để thay đổi chế độ. Sử dụng + và - để điều chỉnh cường độ. Nhấn và giữ (M) để tắt thiết bị.\n\nKhóa khi di chuyển:\n• Nhấn và giữ đồng thời nút + và - trong 3 giây để khóa hoặc mở khóa thiết bị khi di chuyển.\n\n -  Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo\n\n - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo. \n\n    Free ship toàn quốc .",
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC82C/dc82c1.jpg",
+    thumb: "/thumbs/anh1/DC82C/dc82c1.webp",
+    images: ["/anh1/DC82C/dc82c1.jpg", "/anh1/DC82C/dc82c2.jpg", "/anh1/DC82C/dc82c3.jpg", "/anh1/DC82C/dc82c4.jpg"],
   },
 ];
 
