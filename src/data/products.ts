@@ -67668,21 +67668,7 @@ export const products: Product[] = [
 <h3>Thiết bị có dễ dàng tháo lắp và vệ sinh sau mỗi lần dùng không?</h3>
 <p>Có, phần ruột silicone có thể tháo rời hoàn toàn khỏi lớp vỏ ABS bên ngoài, kết hợp khả năng kháng nước 100% giúp việc rửa sạch và làm khô trở nên vô cùng nhanh chóng.</p>`,
   },
-  {
-    slug: "am-dao-gia-cao-cap-leten-ruot-3d-mau-do-doc-dao-ad52a",
-    legacySlug: "ad52a-am-dao-gia-cao-cap-leten-ruot-3d-mau-do-doc-dao-ad52a",
-    sku: "AD52A",
-    name: "Âm đạo giả cao cấp Leten ruột 3D màu đỏ độc đáo (AD52A)",
-    category: "Âm Đạo Giả",
-    categorySlug: "am-dao-gia",
-    price: 550000,
-    blurb: "Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất.",
-    description: "Âm đạo giả cao cấp Leten ruột 3D màu đỏ độc đáo (AD52A). Bộ sưu tập cao cấp, thương hiệu quốc tế, công nghệ mới nhất. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Thương hiệu quốc tế", "Chất liệu cao cấp", "Bảo hành chính hãng", "Đóng gói kín đáo"],
-    icon: "spark",
-    image: "/anh/AD52A/01.jpg",
-    sensitive: true,
-  },
+
   {
     slug: "am-dao-gia-bom-nuoc-doc-dao-cho-cam-giac-thang-hoa-khac-la-ad53",
     legacySlug: "ad53-am-dao-gia-bom-nuoc-doc-dao-cho-cam-giac-thang-hoa-khac-la-ad53",
