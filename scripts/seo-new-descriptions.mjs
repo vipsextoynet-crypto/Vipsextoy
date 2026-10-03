@@ -273,8 +273,21 @@ function appendLog(row) {
 
 // ---------------- chay chinh ----------------
 async function main() {
-  let content = fs.readFileSync(PRODUCTS_PATH, "utf8");
+  // File tren Windows thuong co dau xuong dong CRLF (\r\n): doi sang \n de xu ly,
+  // luc ghi doi nguoc lai de khong lam lech toan bo file trong Git.
+  const raw = fs.readFileSync(PRODUCTS_PATH, "utf8");
+  const crlf = raw.includes("\r\n");
+  let content = crlf ? raw.replace(/\r\n/g, "\n") : raw;
   const all = parseProducts(content);
+
+  if (all.length === 0) {
+    const at = content.indexOf("export const products");
+    console.log(`KHONG doc duoc san pham nao tu ${PRODUCTS_PATH}`);
+    console.log(`Kich thuoc file: ${(raw.length / 1024 / 1024).toFixed(2)} MB | xuong dong kieu Windows (CRLF): ${crlf}`);
+    console.log("Doan dau cua danh sach san pham (gui doan nay cho Claude neu loi van con):");
+    console.log(JSON.stringify(content.slice(at, at + 400)));
+    return;
+  }
 
   const counts = { THIEU: 0, CHU: 0, "HTML-KHONG-H2": 0 };
   all.forEach((p) => p.status && counts[p.status]++);
@@ -373,7 +386,7 @@ async function main() {
       console.log("  " + result.replace(/\s+/g, " ").slice(0, 600) + "...\n");
     } else {
       content = setLongDescription(content, p.slug, result);
-      writeAtomic(PRODUCTS_PATH, content);
+      writeAtomic(PRODUCTS_PATH, crlf ? content.replace(/\n/g, "\r\n") : content);
       appendLog([stamp, p.sku, p.slug, "OK", `${h2} h2, ${links} link, ${result.length} chars`]);
       console.log(`  Da ghi (${h2} the h2, ${links} link noi bo).\n`);
     }

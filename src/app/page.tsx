@@ -9,13 +9,28 @@ import HomeSearch from "@/components/HomeSearch";
 import BlogCardImage from "@/components/BlogCardImage";
 import { resolveBlogImage } from "@/lib/blog-image";
 
-// Số sản phẩm hiển thị cho mỗi danh mục trên trang chủ, và số danh mục hiện ra
-// trước khi phải bấm "Xem tất cả danh mục" (tránh trang chủ quá dài với 15 danh mục).
-const PRODUCTS_PER_ROW = 8;
-const HOMEPAGE_CATEGORY_LIMIT = 6;
+// Trang chủ hiện TẤT CẢ danh mục, mỗi danh mục 15 sản phẩm = 3 hàng x 5 cột
+// (máy tính). Thứ tự CỐ ĐỊNH (không ngẫu nhiên, mới nhất lên đầu) để Google thấy
+// cùng một bộ link nội bộ mỗi lần và trang được tạo sẵn (nhanh). Đổi số nếu cần:
+//  - PRODUCTS_PER_ROW: số sản phẩm mỗi danh mục (15 chia hết cho 3 và 5 cột).
+//  - HOMEPAGE_CATEGORY_LIMIT: số danh mục tối đa (Infinity = hiện hết). Nếu điểm
+//    PageSpeed trên điện thoại giảm nhiều, hạ xuống (vd 12) rồi đo lại.
+const PRODUCTS_PER_ROW = 15;
+const HOMEPAGE_CATEGORY_LIMIT = Infinity;
+// Danh mục KHÔNG hiện ở trang chủ ("Chưa phân loại" chỉ là nơi chứa tạm, không
+// phải danh mục thật cho khách). Muốn hiện lại thì xóa dòng slug ở đây.
+const HIDDEN_ON_HOME = new Set(["chua-phan-loai"]);
+// SẢN PHẨM MỚI NHẤT LÊN ĐẦU mỗi danh mục. Trang web không lưu ngày đăng, nên "mới
+// nhất" được suy ra từ vị trí trong src/data/products.ts. Hãy kiểm tra 1 lần:
+// mở products.ts, bấm Ctrl+End (xuống cuối file):
+//  - sản phẩm CUỐI CÙNG là sản phẩm bạn vừa đăng bằng admin  -> để true
+//  - sản phẩm bạn vừa đăng nằm ở ĐẦU danh sách                -> đổi thành false
+const NEW_PRODUCTS_AT_END_OF_FILE = true;
 
 export default function Home() {
-  const homeCategories = categories.slice(0, HOMEPAGE_CATEGORY_LIMIT);
+  const homeCategories = categories
+    .filter((c) => !HIDDEN_ON_HOME.has(c.slug))
+    .slice(0, HOMEPAGE_CATEGORY_LIMIT);
   const latestPosts = blogPosts.slice(0, 3);
 
   return (
@@ -44,13 +59,21 @@ export default function Home() {
           </div>
           <div className="flex-1 flex-col gap-14 md:flex">
             {homeCategories.map((c, catIndex) => {
-              const catProducts = getProductsByCategory(c.slug).slice(
-                0,
-                PRODUCTS_PER_ROW
-              );
+              // Mới nhất lên đầu; sản phẩm có ảnh lên trước (tránh ô trống ảnh).
+              // Thứ tự luôn cố định giữa các lần truy cập, chỉ đổi khi có sản phẩm mới.
+              const raw = getProductsByCategory(c.slug);
+              const inCategory = NEW_PRODUCTS_AT_END_OF_FILE ? [...raw].reverse() : raw;
+              const hasImg = (p: (typeof inCategory)[number]) => !!(p.thumb || p.image);
+              const catProducts = [
+                ...inCategory.filter(hasImg),
+                ...inCategory.filter((p) => !hasImg(p)),
+              ].slice(0, PRODUCTS_PER_ROW);
               if (catProducts.length === 0) return null;
               return (
-                <div key={c.slug} className="mb-14 md:mb-0">
+                <div
+                  key={c.slug}
+                  className="mb-14 [content-visibility:auto] [contain-intrinsic-size:auto_1200px] md:mb-0"
+                >
                   <div className="mb-6 flex items-center justify-between bg-gold px-5 py-3">
                     <h2 className="text-sm font-semibold uppercase tracking-wide text-white">
                       {c.name}
@@ -62,7 +85,7 @@ export default function Home() {
                       Xem tất cả →
                     </Link>
                   </div>
-                  <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
+                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-5 lg:grid-cols-5 [&>*:nth-child(15)]:hidden sm:[&>*:nth-child(15)]:flex">
                       {catProducts.map((p, i) => (
                         <ProductCard key={p.slug} product={p} priority={catIndex === 0 && i < 4} />
                       ))}
