@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const file = path.resolve("src/data/products.ts");
-const KEYWORD_RE = /âm\s*đạo/i;
+const KEYWORD_RE = /dương\s*vật/i;
 
 if (!fs.existsSync(file)) {
   console.error(`Không tìm thấy file: ${file}`);
@@ -88,7 +88,7 @@ if (changed > 0) {
   );
 }
 
-console.log(`Tìm thấy ${matched} sản phẩm có từ khóa "Âm đạo".`);
+console.log(`Tìm thấy ${matched} sản phẩm có từ khóa "Dương Vật".`);
 console.log(`Đã đánh dấu sensitive: true cho ${changed} sản phẩm.`);
 
 if (changed === 0) {

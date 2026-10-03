@@ -15616,6 +15616,7 @@ Có, thiết bị được thiết kế chống thấm nước tuyệt đối, h
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89R/01.jpg",
+    thumb: "/thumbs/anh1/DC89R/01.webp",
     images: ["/anh1/DC89R/01.jpg", "/anh1/DC89R/05.jpg", "/anh1/DC89R/07.jpg", "/anh1/DC89R/08.jpg", "/anh1/DC89R/09.jpg", "/anh1/DC89R/11.jpg", "/anh1/DC89R/12.jpg"],
     longDescription: `Thông tin chi tiết của Máy rung hút kích thích âm đạo và âm vật Svakom Eria DC89R
 Thể loại: Sextoy cho nữ, Dụng cụ mát xa điểm G, Svakom USA.
@@ -15665,6 +15666,7 @@ Giao hàng nhanh chóng đảm bảo tế nhị kín đáo.`,
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89U_NE/01.jpg",
+    thumb: "/thumbs/anh1/DC89U_NE/01.webp",
     images: ["/anh1/DC89U_NE/01.jpg", "/anh1/DC89U_NE/04.png", "/anh1/DC89U_NE/05.png", "/anh1/DC89U_NE/06.png", "/anh1/DC89U_NE/07.png", "/anh1/DC89U_NE/08.png", "/anh1/DC89U_NE/09.png", "/anh1/DC89U_NE/10.png", "/anh1/DC89U_NE/11.png", "/anh1/DC89U_NE/12.png", "/anh1/DC89U_NE/13.png", "/anh1/DC89U_NE/14.png"],
     longDescription: `Giới thiệu về Svakom Echo Neo máy rung gắn quần lót thông minh
 Svakom Echo Neo máy rung gắn quần lót thông minh là một dòng sản phẩm cao cấp với chức năng điều khiển từ xa. Thông qua kết nối với ứng dụng Svakom có trong thiết bị, bạn có thể thỏa sức tận hưởng khoái cảm theo sở thích của mình.
@@ -15807,6 +15809,7 @@ Hướng dẫn đăng ký bảo hành quốc tế 12 tháng cho đồ chơi tì
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89AY/01.jpg",
+    thumb: "/thumbs/anh1/DC89AY/01.webp",
     images: ["/anh1/DC89AY/01.jpg", "/anh1/DC89AY/05.png", "/anh1/DC89AY/06.png", "/anh1/DC89AY/07.png", "/anh1/DC89AY/08.png", "/anh1/DC89AY/09.png", "/anh1/DC89AY/10.png", "/anh1/DC89AY/11.png", "/anh1/DC89AY/12.png"],
     longDescription: `Thông tin chi tiết của Máy massage kích thích điểm G và âm vật Svakom Aylin DC89AY hàng chính hãng.
 Tính năng: Kích thích, mát xa âm đạo, âm vật và những vị trí khác trên cơ thể, trợ tăng khoái cảm khi quan hệ tình dục.
@@ -16813,6 +16816,7 @@ Lưu ý: Không đưa sextoy cá nhân cho người khác dùng chung. Nếu d�
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89A/01.jpg",
+    thumb: "/thumbs/anh1/DC89A/01.webp",
     images: ["/anh1/DC89A/01.jpg", "/anh1/DC89A/06.jpg", "/anh1/DC89A/07.jpg", "/anh1/DC89A/08.jpg", "/anh1/DC89A/09.jpg", "/anh1/DC89A/10.jpg"],
     sensitive: true,
     longDescription: `Dương vật  đa năng  cao cấp svakom avery với chế độ rung thụt cực mạnh giúp cho bạn dễ dàng đạt được khoái cảm. Đầu rung kép có thể hoạt động riêng lẻ hoặc cùng lúc , 5 chế độ thụt kết hợp với 5 chế độ rung và tốc độ khác nhau đưa bạn đến những cảm xúc đê mê . Sản phẩm không thấm nước vì vậy bạn có thể mang đi bất cứ nơi đâu.
@@ -27262,6 +27266,7 @@ Các sản phẩm của SVAKOM
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89M_Neo/01.jpg",
+    thumb: "/thumbs/anh1/DC89M_Neo/01.webp",
     images: ["/anh1/DC89M_Neo/01.jpg"],
     longDescription: `Dành cho các cặp đôi yêu xa hoặc người mới bắt đầu muốn nâng cao chất lượng đời sống tình cảm một cách tinh tế, máy rung cao cấp Svakom Vick Neo (DC89M_Neo) là thiết bị chăm sóc sức khỏe cá nhân cao cấp hỗ trợ điều khiển từ xa qua ứng dụng di động thông minh, giúp kết nối tình cảm dễ dàng ở bất kỳ khoảng cách nào.
 Thông số kỹ thuật
@@ -43166,6 +43171,7 @@ Nhờ kết nối qua ứng dụng thông minh, đối phương có thể nhận
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89K/01.jpg",
+    thumb: "/thumbs/anh1/DC89K/01.webp",
     images: ["/anh1/DC89K/01.jpg"],
     longDescription: `Mô tả sản phẩm
 Tính năng: Mát xa âm vật, nhũ hoa, kích thích điểm G, gia tăng khoái cảm cho nữ
@@ -54065,6 +54071,7 @@ Tất cả các thành phần được sử dụng trong sản xuất đồ ch�
     features: ["Nhiều cấp độ massage", "Vận hành êm ái", "Chống nước", "Sạc nhanh"],
     icon: "petal",
     image: "/anh1/DC89G/01.jpg",
+    thumb: "/thumbs/anh1/DC89G/01.webp",
     images: ["/anh1/DC89G/01.jpg"],
     longDescription: `Mát xa điểm G cao cấp Svakom Adonis điều chỉnh nhiệt độ (DC89G)
 Tính năng: Massager âm vật, kích thích điểm G, giải tỏa sinh lý hiệu quả
@@ -60525,6 +60532,7 @@ Cách sử dụng:
     features: ["Silicone y tế an toàn", "Nhiều chế độ rung", "Chống nước", "Sạc lại tiện lợi"],
     icon: "wave",
     image: "/anh1/DC89C/01.jpg",
+    thumb: "/thumbs/anh1/DC89C/01.webp",
     images: ["/anh1/DC89C/01.jpg"],
     longDescription: `Mô tả sản phẩm
 SVAKOM Barbara thiết kế thông minh với 2 nhánh rung kích thích khoái cảm cả trong và ngoài âm đạo. Phần đầu nhánh lớn là một đường cong lý tưởng cùng với 3 đường rãnh gân nổi tăng ma sát mạnh hơn lên thành âm đạo và điểm G.
@@ -60592,6 +60600,7 @@ Double-click "▽" Button`,
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89N/01.png",
+    thumb: "/thumbs/anh1/DC89N/01.webp",
     images: ["/anh1/DC89N/01.png"],
     longDescription: `Mô tả sản phẩm
 Tính năng: Massager kích thích điểm G, tuyến tiền liệt, giải tỏa sinh lý hiệu quả
@@ -60962,6 +60971,7 @@ SVAKOM Julie có thẻ bảo hành quốc tế 12 tháng.`,
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89F/01.jpg",
+    thumb: "/thumbs/anh1/DC89F/01.webp",
     images: ["/anh1/DC89F/01.jpg"],
     longDescription: `Mô tả sản phẩm
 Tên sản phẩm: Ella
@@ -61009,6 +61019,7 @@ Thông số kỹ thuật
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89Q/01.jpg",
+    thumb: "/thumbs/anh1/DC89Q/01.webp",
     images: ["/anh1/DC89Q/01.jpg"],
     longDescription: `NHỮNG NGÓN TAY KHOÁI LẠC
 Hãy để những ngón tay dịu dàng, mềm mại ngọt ngào của SVAKOM Nymph rung mơn trớn qua làn da bạn, nó rung lên, lưu thông, kích thích những phần nhạy cảm nhất của bạn. Mang đến cho bạn luồng sóng kích thích đê mê khó tả, làm bạn hài lòng ngây ngất.
@@ -61121,6 +61132,7 @@ Sản phẩm SVAKOM chính hãng có thẻ bảo hành quốc tế 12 tháng.`
     features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
     icon: "spark",
     image: "/anh1/DC89E/01.jpg",
+    thumb: "/thumbs/anh1/DC89E/01.webp",
     images: ["/anh1/DC89E/01.jpg"],
     longDescription: `Tính năng: Massager âm vật, kích thích điểm G, giải tỏa sinh lý nữ hiệu quả.
 Chất liệu: Silicone cao cấp an toàn không độc tính.
@@ -69186,6 +69198,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     image: "/anh1/DC82D/dc82d1 (1).png",
     thumb: "/thumbs/anh1/DC82D/dc82d1_1_.webp",
     images: ["/anh1/DC82D/dc82d1 (1).png", "/anh1/DC82D/dc82d1.png", "/anh1/DC82D/dc82d2.png", "/anh1/DC82D/dc82d4.png"],
+    sensitive: true,
   },
   {
     slug: "may-rung-tai-tho-cao-cap-lelo-kaya-originals-co-ket-noi-app",
@@ -69201,6 +69214,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     image: "/anh1/DC82C/dc82c1.jpg",
     thumb: "/thumbs/anh1/DC82C/dc82c1.webp",
     images: ["/anh1/DC82C/dc82c1.jpg", "/anh1/DC82C/dc82c2.jpg", "/anh1/DC82C/dc82c3.jpg", "/anh1/DC82C/dc82c4.jpg"],
+    sensitive: true,
     longDescription: "THÔNG SỐ KỸ THUẬT:\n\nChất liệu: Silicone an toàn cho cơ thể, nhựa ABS\nBề mặt: Mịn\nKích thước: 194 x 64 x 37 mm / 7.6 x 2.5 x 1.5 inch\nChiều dài có thể đưa vào: 120 mm / 4.7 inch\nTrọng lượng: 123 g / 4.3 oz\nPin: Li-Ion 200 mAh\nThời gian sạc: lên đến 2 giờ ở 5 V 200 mA\nCông suất định mức:\nĐầu vào: 5V 200mA 1 W\nĐầu ra: 3.7 V 310 mA 1.45 W\nThời gian sử dụng: Lên đến 2 giờ\nThời gian chờ: ít nhất 90 ngày\n\n\n\nKAYA™ Originals là máy rung hình thỏ tác động kép thuộc dòng sản phẩm LELO Originals mới, được thiết kế để mang lại cực khoái kết hợp thông qua kích thích đồng thời điểm G và âm vật. Với thiết kế đẹp mắt, tiện dụng và pin bền lâu, KAYA™ mang đến một sản phẩm đáng tin cậy, hiệu suất cao, lý tưởng cho những khách hàng tìm kiếm cả tính linh hoạt và cường độ trong các sản phẩm khoái cảm. Là một sự bổ sung tuyệt vời cho bất kỳ bộ sưu tập cao cấp nào, nó kết hợp hình thức, chức năng và thương hiệu đáng tin cậy trong lĩnh vực chăm sóc sức khỏe tình dục.\n\nTinh dầu\nKAYA™ Originals mang đến cảm giác khoái lạc đích thực với sự kích thích đồng thời cả điểm G và âm vật.\n\n \n\n\n\n4 CHẾ ĐỘ RUNG MẠNH MẼ\nKAYA™ Originals mang đến 4 chế độ rung khác nhau, với cường độ từ tiếng rung nhẹ nhàng đến xung nhịp mạnh mẽ đầy thỏa mãn.\n\n\n\n4 THIẾT LẬP ĐỘC QUYỀN TRÊN ỨNG DỤNG\nBên cạnh bốn thiết lập cơ bản có sẵn mà không cần ứng dụng, bạn có thể mở khóa thêm bốn thiết lập khác, bao gồm hai chế độ thông thường và hai chế độ nâng cao - Kết liễu tôi và Mất kiểm soát.\n\nSạc USB & Chống nước hoàn toàn theo tiêu chuẩn IPX7.\nTận hưởng những khoái cảm bất tận mọi lúc mọi nơi, kể cả trong bồn tắm hoặc vòi sen.\n\nThời lượng pin cực lâu:\nKaya™ Originals có thời lượng pin kéo dài cho phép bạn tận hưởng nhiều giờ chơi liên tục.\n\n \n\nCÁCH SỬ DỤNG:\nĐồng hồ LELO Originals có tính năng khóa ứng dụng để đảm bảo thiết bị của bạn là hàng chính hãng, được cập nhật và an toàn khi sử dụng. Sau khi mở khóa thiết bị, bạn có thể chọn sử dụng ứng dụng hoặc không.\n\nVỚI ỨNG DỤNG LELO™:\n• Sạc tai nghe KAYA™ Originals của bạn trong 2 giờ trước khi sử dụng lần đầu.\n• Tải xuống ứng dụng LELO™ cho iOS hoặc Android.\n• Nhấn nút nguồn (M) trên thiết bị - đèn LED sẽ nhấp nháy (chế độ ghép nối).\n• Sau khi đăng ký và đăng nhập vào ứng dụng LELO™, hãy chọn dòng Originals và kết nối thiết bị của bạn.\n• Nhấn nút nguồn (M) một lần nữa để xác nhận ghép nối.\n• Thiết bị của bạn hiện đã được mở khóa và sẵn sàng sử dụng với ứng dụng.\n\nKHÔNG CẦN ỨNG DỤNG LELO™:\n• Sạc pin trong 2 giờ trước khi sử dụng lần đầu.\n• Bạn vẫn cần mở khóa thiết bị thông qua ứng dụng LELO™ khi sử dụng lần đầu (xem các bước ở trên).\n• Sau khi mở khóa: Nhấn + để bật thiết bị. Nhấn (M) để thay đổi chế độ. Sử dụng + và - để điều chỉnh cường độ. Nhấn và giữ (M) để tắt thiết bị.\n\nKhóa khi di chuyển:\n• Nhấn và giữ đồng thời nút + và - trong 3 giây để khóa hoặc mở khóa thiết bị khi di chuyển.\n\n -  Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo\n\n - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo. \n\n    Free ship toàn quốc .",
 
   },

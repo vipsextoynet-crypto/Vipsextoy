@@ -67,11 +67,40 @@ function parseArgs() {
 
 function splitProductBlocks(source) {
   const blocks = [];
-  const regex = /  \{\n(?:.*\n)*?  \},\n/g;
-  let match;
-  while ((match = regex.exec(source)) !== null) {
-    blocks.push({ text: match[0], start: match.index, end: regex.lastIndex });
+
+  // Chỉ bắt field slug hoặc legacySlug ở đầu dòng,
+  // không bắt "slug:" bên trong "legacySlug:".
+  const slugMatches = [
+    ...source.matchAll(/^\s*(?:legacySlug|slug):\s*"([^"]+)"/gm),
+  ];
+
+  for (let i = 0; i < slugMatches.length; i++) {
+    const m = slugMatches[i];
+
+    // Tìm dấu { mở object product ngay phía trước field slug.
+    const start = source.lastIndexOf("{", m.index);
+
+    const end =
+      i + 1 < slugMatches.length
+        ? source.lastIndexOf("{", slugMatches[i + 1].index)
+        : source.length;
+
+    if (start < 0 || end <= start) continue;
+
+    const text = source.slice(start, end);
+
+    // Chỉ nhận block thực sự có sku + name.
+    if (!/\bsku:\s*"/.test(text) || !/\bname:\s*"/.test(text)) {
+      continue;
+    }
+
+    blocks.push({
+      text,
+      start,
+      end,
+    });
   }
+
   return blocks;
 }
 
