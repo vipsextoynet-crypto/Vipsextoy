@@ -3,7 +3,7 @@ import { products } from '@/data/products';
 import { blogPosts } from '@/data/blog';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vipextoy.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vipsextoy.com';
 
   // Các trang cố định
   const staticRoutes: MetadataRoute.Sitemap = [
