@@ -9,13 +9,13 @@ import HomeSearch from "@/components/HomeSearch";
 import BlogCardImage from "@/components/BlogCardImage";
 import { resolveBlogImage } from "@/lib/blog-image";
 
-// Trang chủ hiện TẤT CẢ danh mục, mỗi danh mục 15 sản phẩm = 3 hàng x 5 cột
+// Trang chủ hiện TẤT CẢ danh mục, mỗi danh mục 12 sản phẩm = 3 hàng x 4 cột
 // (máy tính). Thứ tự CỐ ĐỊNH (không ngẫu nhiên, mới nhất lên đầu) để Google thấy
 // cùng một bộ link nội bộ mỗi lần và trang được tạo sẵn (nhanh). Đổi số nếu cần:
-//  - PRODUCTS_PER_ROW: số sản phẩm mỗi danh mục (15 chia hết cho 3 và 5 cột).
+//  - PRODUCTS_PER_ROW: số sản phẩm mỗi danh mục (12 chia hết cho 2, 3 và 4 cột).
 //  - HOMEPAGE_CATEGORY_LIMIT: số danh mục tối đa (Infinity = hiện hết). Nếu điểm
 //    PageSpeed trên điện thoại giảm nhiều, hạ xuống (vd 12) rồi đo lại.
-const PRODUCTS_PER_ROW = 15;
+const PRODUCTS_PER_ROW = 12;
 const HOMEPAGE_CATEGORY_LIMIT = Infinity;
 // Danh mục KHÔNG hiện ở trang chủ ("Chưa phân loại" chỉ là nơi chứa tạm, không
 // phải danh mục thật cho khách). Muốn hiện lại thì xóa dòng slug ở đây.
@@ -85,7 +85,7 @@ export default function Home() {
                       Xem tất cả →
                     </Link>
                   </div>
-                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-5 lg:grid-cols-5 [&>*:nth-child(15)]:hidden sm:[&>*:nth-child(15)]:flex">
+                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-5 lg:grid-cols-4">
                       {catProducts.map((p, i) => (
                         <ProductCard key={p.slug} product={p} priority={catIndex === 0 && i < 4} />
                       ))}
