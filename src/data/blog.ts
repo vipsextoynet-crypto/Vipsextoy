@@ -162,6 +162,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 phút đọc",
     category: "Giải mã",
     icon: "wave",
+    image: "/anhblog/hoi-chung-te-tam-thoi-khi-dung-may-rung-webp-images",
   },
 ];
 
