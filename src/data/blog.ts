@@ -149,6 +149,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 phút đọc",
     category: "Phân Tích",
     icon: "wave",
+    image: "/anhblog/duong-vat-gia-silicone-y-te-sieu-mem-vs-nhua-cung-tpe-webp-images/duong-vat-gia-silicone-y-te-sieu-mem-vs-nhua-cung-tpe-phan-tich-o-an-hoi-va-kha-nang-thich-ung-cho-ban-nu-lan-au-thu-so-sanh-phan-loai-0-cover.webp",
   },
 ];
 
