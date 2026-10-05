@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { BlogPost } from "@/data/blog";
+import { checkImageInput, IMAGE_EXTENSIONS_LABEL } from "@/lib/image-ext";
 
 const ICONS = ["wave", "orb", "petal", "spark", "curve", "drop", "ring", "bloom"] as const;
 
@@ -27,6 +28,10 @@ export default function BlogForm({
   const [success, setSuccess] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [deleting, setDeleting] = useState(false);
+  const [previewFailed, setPreviewFailed] = useState(false);
+
+  // Kiem tra o "Thu muc hoac link anh" ngay khi go (duoi anh, dau "\", thieu "/"...).
+  const imageCheck = checkImageInput(image);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -37,6 +42,11 @@ export default function BlogForm({
 
     if (!title.trim() || !excerpt.trim() || !category.trim() || !html) {
       setError("Vui lòng điền: tiêu đề, mô tả ngắn, danh mục, nội dung.");
+      return;
+    }
+
+    if (!imageCheck.ok) {
+      setError(imageCheck.message);
       return;
     }
 
@@ -54,7 +64,7 @@ export default function BlogForm({
           content: [html],
           category: category.trim(),
           icon,
-          image: image.trim() || undefined,
+          image: imageCheck.ok ? imageCheck.value : undefined,
           date,
         }),
       });
@@ -177,13 +187,38 @@ export default function BlogForm({
         <Field label="Thư mục hoặc link ảnh minh hoạ (để trống nếu dùng biểu tượng)">
           <input
             value={image}
-            onChange={(e) => setImage(e.target.value)}
+            onChange={(e) => {
+              setImage(e.target.value);
+              setPreviewFailed(false);
+            }}
             placeholder="/anhblog/ten-thu-muc"
             className={inputCls}
           />
           <span className="mt-1 block text-xs text-muted">
             Chỉ cần nhập đường dẫn THƯ MỤC (vd /anhblog/ten-thu-muc) — hệ thống tự lấy ảnh đầu tiên trong đó (sắp xếp theo tên). Muốn chỉ định đúng 1 ảnh thì nhập cả tên file (vd /anhblog/ten-thu-muc/01.jpg). Thư mục đặt trong public/anhblog/, khớp chính xác hoa/thường với tên thật trên máy.
+            {" "}Đuôi ảnh dùng được: {IMAGE_EXTENSIONS_LABEL}.
           </span>
+          {!imageCheck.ok && (
+            <span className="mt-1 block text-xs text-red-400">{imageCheck.message}</span>
+          )}
+          {imageCheck.ok && imageCheck.previewable && imageCheck.value && (
+            <span className="mt-2 block">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                key={imageCheck.value}
+                src={imageCheck.value}
+                alt="Xem trước ảnh"
+                className="h-24 w-auto border border-line object-contain"
+                onLoad={() => setPreviewFailed(false)}
+                onError={() => setPreviewFailed(true)}
+              />
+              {previewFailed && (
+                <span className="mt-1 block text-xs text-yellow-400">
+                  Chưa thấy ảnh này trên website. Nếu bạn vừa thêm ảnh vào máy, hãy đưa ảnh lên GitHub (git push) và đợi Vercel deploy xong rồi lưu bài; kiểm tra lại đường dẫn và hoa/thường của tên file.
+                </span>
+              )}
+            </span>
+          )}
         </Field>
       </div>
 

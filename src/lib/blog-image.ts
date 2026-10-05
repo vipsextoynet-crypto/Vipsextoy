@@ -1,7 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import { IMAGE_EXT_RE, hasImageExtension } from "./image-ext";
 
-const IMAGE_EXT = /\.(jpe?g|png|webp|gif|avif)$/i;
+// Duoi anh hop le (jpg, jpeg, png, webp, gif, avif, bmp, svg...) khai bao o
+// src/lib/image-ext.ts - sua o do de ap dung cho ca form admin va server.
+const IMAGE_EXT = IMAGE_EXT_RE;
 
 /**
  * Resolve field image:
@@ -19,9 +22,15 @@ export function resolveBlogImage(image?: string): string | undefined {
   const trimmed = image.trim().replace(/\\/g, "/");
   if (!trimmed) return undefined;
 
-  // Đã là đường dẫn tới file ảnh cụ thể
-  if (IMAGE_EXT.test(trimmed)) {
+  // Link day du (https://...): giu nguyen, khong tim trong thu muc public.
+  if (/^https?:\/\//i.test(trimmed)) {
     return trimmed;
+  }
+
+  // Đã là đường dẫn tới file ảnh cụ thể (chap nhan ca "?v=2" phia sau duoi file).
+  // Thieu "/" o dau thi tu them, neu khong trinh duyet hieu thanh duong dan tuong doi va vo anh.
+  if (hasImageExtension(trimmed)) {
+    return trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
   }
 
   try {
