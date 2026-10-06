@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { categories, getProductsByCategory } from "@/data/products";
+import { getProductsByCategory } from "@/data/products";
+import { getGroups } from "@/lib/groups";
 import { blogPosts } from "@/data/blog";
 import ProductCard from "@/components/ProductCard";
 import Sidebar from "@/components/Sidebar";
@@ -9,14 +10,44 @@ import HomeSearch from "@/components/HomeSearch";
 import BlogCardImage from "@/components/BlogCardImage";
 import { resolveBlogImage } from "@/lib/blog-image";
 
-// Số sản phẩm hiển thị cho mỗi danh mục trên trang chủ, và số danh mục hiện ra
-// trước khi phải bấm "Xem tất cả danh mục" (tránh trang chủ quá dài với 15 danh mục).
-// 12 sản phẩm = 3 hàng x 4 cột (máy tính); 12 chia hết cho 2, 3 và 4 cột nên hàng nào cũng đủ.
+// Trang chủ chỉ hiện DANH MỤC CHA (các nhóm trong thanh bên trái: "Sextoy cho nam",
+// "Sextoy cho nữ", "Trứng rung"...), mỗi nhóm 12 sản phẩm = 3 hàng x 4 cột
+// (máy tính; 12 chia hết cho 2, 3 và 4 cột nên hàng nào cũng đủ).
 const PRODUCTS_PER_ROW = 12;
-const HOMEPAGE_CATEGORY_LIMIT = 6;
+// Nhóm/danh mục KHÔNG hiện ở trang chủ ("Chưa phân loại" chỉ là chỗ chứa tạm).
+const HIDDEN_ON_HOME = new Set(["chua-phan-loai"]);
+
+type HomeProduct = ReturnType<typeof getProductsByCategory>[number];
+
+// Lấy sản phẩm cho 1 danh mục cha: xoay vòng giữa các danh mục con (mỗi danh mục
+// con lần lượt 1 sản phẩm) để khối hiện đủ loại chứ không dồn hết vào danh mục con
+// đầu tiên. Thứ tự luôn cố định (không ngẫu nhiên) và không trùng sản phẩm.
+function pickForGroup(items: { slug: string }[], limit: number): HomeProduct[] {
+  const lists = items
+    .filter((c) => !HIDDEN_ON_HOME.has(c.slug))
+    .map((c) => getProductsByCategory(c.slug));
+  const out: HomeProduct[] = [];
+  const seen = new Set<string>();
+  for (let i = 0; out.length < limit; i++) {
+    let any = false;
+    for (const list of lists) {
+      const p = list[i];
+      if (!p) continue;
+      any = true;
+      if (seen.has(p.slug)) continue;
+      seen.add(p.slug);
+      out.push(p);
+      if (out.length >= limit) break;
+    }
+    if (!any) break;
+  }
+  return out;
+}
 
 export default function Home() {
-  const homeCategories = categories.slice(0, HOMEPAGE_CATEGORY_LIMIT);
+  const homeGroups = getGroups().filter(
+    (g) => !HIDDEN_ON_HOME.has(g.slug) && g.items.some((c) => !HIDDEN_ON_HOME.has(c.slug))
+  );
   const latestPosts = blogPosts.slice(0, 3);
 
   return (
@@ -44,28 +75,27 @@ export default function Home() {
             <Sidebar />
           </div>
           <div className="flex-1 flex-col gap-14 md:flex">
-            {homeCategories.map((c, catIndex) => {
-              const catProducts = getProductsByCategory(c.slug).slice(
-                0,
-                PRODUCTS_PER_ROW
-              );
-              if (catProducts.length === 0) return null;
+            {homeGroups.map((g, groupIndex) => {
+              const groupProducts = pickForGroup(g.items, PRODUCTS_PER_ROW);
+              if (groupProducts.length === 0) return null;
+              // Nhóm chỉ có 1 danh mục con: bấm thẳng vào danh mục đó (giống thanh bên trái).
+              const href = g.items.length === 1 ? `/${g.items[0].slug}` : `/${g.slug}`;
               return (
-                <div key={c.slug} className="mb-14 md:mb-0">
+                <div key={g.slug} className="mb-14 md:mb-0">
                   <div className="mb-6 flex items-center justify-between bg-gold px-5 py-3">
                     <h2 className="text-sm font-semibold uppercase tracking-wide text-white">
-                      {c.name}
+                      {g.name}
                     </h2>
                     <Link
-                      href={`/${c.slug}`}
+                      href={href}
                       className="text-xs text-white hover:underline"
                     >
                       Xem tất cả →
                     </Link>
                   </div>
                   <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
-                      {catProducts.map((p, i) => (
-                        <ProductCard key={p.slug} product={p} priority={catIndex === 0 && i < 4} />
+                      {groupProducts.map((p, i) => (
+                        <ProductCard key={p.slug} product={p} priority={groupIndex === 0 && i < 4} />
                       ))}
                   </div>
                 </div>
