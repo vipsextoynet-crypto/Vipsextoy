@@ -11,7 +11,8 @@ import { resolveBlogImage } from "@/lib/blog-image";
 
 // Số sản phẩm hiển thị cho mỗi danh mục trên trang chủ, và số danh mục hiện ra
 // trước khi phải bấm "Xem tất cả danh mục" (tránh trang chủ quá dài với 15 danh mục).
-const PRODUCTS_PER_ROW = 8;
+// 12 sản phẩm = 3 hàng x 4 cột (máy tính); 12 chia hết cho 2, 3 và 4 cột nên hàng nào cũng đủ.
+const PRODUCTS_PER_ROW = 12;
 const HOMEPAGE_CATEGORY_LIMIT = 6;
 
 export default function Home() {
@@ -56,7 +57,7 @@ export default function Home() {
                       {c.name}
                     </h2>
                     <Link
-                      href={`/danh-muc/${c.slug}`}
+                      href={`/${c.slug}`}
                       className="text-xs text-white hover:underline"
                     >
                       Xem tất cả →
