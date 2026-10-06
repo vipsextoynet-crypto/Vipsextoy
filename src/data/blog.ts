@@ -139,6 +139,8 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 phút đọc",
     category: "Bật Mí",
     icon: "wave",
+    image: "/anhblog/meo-bien-buoi-xem-phim-thanh-dip-thu-may-hut-mini",
+
   },
   {
     slug: "kinh-nghiem-mua-sextoy-lan-dau-khong-lo-bi-lo-5-tieu-chi-chon-shop-che-ten-dong-goi-3-lop",
@@ -151,6 +153,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 phút đọc",
     category: "Kinh Nghiệm",
     icon: "wave",
+    image: "/anhblog/kinh-nghiem-mua-sextoy-lan-dau-khong-lo-bi-lo",
   },
   {
     slug: "coc-thu-dam-cam-tay-bang-tay-thu-cong-hay-tu-dong-rung-xoay-nam-gioi-moi-bat-dau-nen-chon-loai-nao",
@@ -163,6 +166,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 phút đọc",
     category: "Tư Vấn",
     icon: "wave",
+    image: "/anhblog/coc-thu-dam-cam-tay-bang-tay-hay-tu-dong-rung-xoay",
   },
 ];
 
