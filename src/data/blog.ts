@@ -179,6 +179,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 phút đọc",
     category: "Hướng dẫn",
     icon: "wave",
+    image: "/anhblog/ky-thuat-dem-khan-mong-khi-dung-chay-rung-lan-dau-hinh-anh",
   },
   {
     slug: "dung-chay-rung-co-lam-chai-li-cam-giac-3-thoi-quen-can-nho-de-tranh-tinh-trang-nhon-song-rung",
@@ -191,6 +192,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 phút đọc",
     category: "Góc Chia Sẽ",
     icon: "wave",
+    image: "/anhblog/dung-chay-rung-co-lam-chai-li-cam-giac-khong",
   },
   {
     slug: "so-sanh-chay-rung-cam-dien-truc-tiep-vs-chay-rung-sac-pin-cam-tay-tan-binh-nen-chon-loai-nao",
@@ -203,6 +205,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 phút đọc",
     category: "Đánh Giá",
     icon: "wave",
+    image: "/anhblog/so-sanh-chay-rung-cam-dien-va-sac-pin",
   },
 ];
 
