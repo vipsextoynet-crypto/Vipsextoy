@@ -16958,35 +16958,17 @@ Các sản phẩm của SVAKOM
   },
   {
     slug: "bup-be-silicon-cao-cap-mini-65cm-bb25b",
-    legacySlug: "bb25b-bup-be-silicon-cao-cap-mini-65cm-bb25b",
     sku: "BB25B",
     name: "Búp bê silicon cao cấp mini 65cm (BB25B)",
     category: "Búp Bê Silicon",
     categorySlug: "bup-be-silicon-cao-cap",
-    price: 3950000,
-    blurb: "Chất liệu silicon cao cấp, thiết kế chân thực, riêng tư khi giao nhận.",
+    price: 3350000,
+    blurb: "",
     description: "Búp bê silicon cao cấp mini 65cm (BB25B). Chất liệu silicon cao cấp, thiết kế chân thực, riêng tư khi giao nhận. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicon cao cấp", "Thiết kế chân thực", "Đóng gói kín đáo, ẩn danh", "Bảo hành chính hãng"],
     icon: "ring",
     image: "/anh1/BB25B/01.jpg",
-    thumb: "/thumbs/anh1/BB25B/01.webp",
     images: ["/anh1/BB25B/01.jpg", "/anh1/BB25B/05.jpg", "/anh1/BB25B/06.jpg", "/anh1/BB25B/07.jpg", "/anh1/BB25B/08.jpg", "/anh1/BB25B/09.jpg", "/anh1/BB25B/10.jpg", "/anh1/BB25B/11.jpg", "/anh1/BB25B/12.jpg"],
-    longDescription: `<h2>-Chiều cao: 65 cm</h2>
-<h2>-Trọng lượng: 4kg</h2>
-<h2>-Ngực: 33cm</h2>
-<h2>-Hông: 33 cm</h2>
-<h2>-Chiều dài chân: 28cm</h2>
-<h2>-Chiều dài âm đạo: 17cm</h2>
-<h2>-Chiều dài hậu môn: 15 cm</h2>
-<h2>-Chất liệu: Silicon cao cấp mềm mại</h2>
-<h2>-Chiều cao: 65 cm</h2>
-<h2>-Trọng lượng: 4kg</h2>
-<h2>-Ngực: 33cm</h2>
-<h2>-Hông: 33 cm</h2>
-<h2>-Chiều dài chân: 28cm</h2>
-<h2>-Chiều dài âm đạo: 17cm</h2>
-<h2>-Chiều dài hậu môn: 15 cm</h2>
-<p>Búp bê tình dục được thiết kế giống như thật, các vòng chuẩn, mông cong, ngực to và bộ phận sinh dục đẹp, khít</p>`,
   },
   {
     slug: "trung-rung-tinh-yeu-khong-day-dieu-khien-tu-xa-20-cap-do-manh-eg20",
