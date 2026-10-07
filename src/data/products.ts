@@ -16969,6 +16969,7 @@ Các sản phẩm của SVAKOM
     icon: "ring",
     image: "/anh1/BB25B/01.jpg",
     images: ["/anh1/BB25B/01.jpg", "/anh1/BB25B/05.jpg", "/anh1/BB25B/06.jpg", "/anh1/BB25B/07.jpg", "/anh1/BB25B/08.jpg", "/anh1/BB25B/09.jpg", "/anh1/BB25B/10.jpg", "/anh1/BB25B/11.jpg", "/anh1/BB25B/12.jpg"],
+    sensitive: true,
   },
   {
     slug: "trung-rung-tinh-yeu-khong-day-dieu-khien-tu-xa-20-cap-do-manh-eg20",
