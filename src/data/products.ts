@@ -45710,41 +45710,7 @@ Tất cả các thành phần được sử dụng trong sản xuất đồ ch�
 <h2>Nên bảo quản thiết bị như thế nào để đảm bảo độ bền?</h2>
 <p>Sau khi sử dụng, bạn nên vệ sinh sạch bề mặt bằng khăn mềm ẩm hoặc dung dịch chuyên dụng, tránh để nước thâm nhập vào khoang chứa pin. Sau đó, tháo pin ra khỏi thiết bị và cất giữ ở nơi khô ráo, thoáng mát.</p>`,
   },
-  {
-    slug: "trung-rung-doi-co-the-tach-roi-tung-qua-eg19",
-    legacySlug: "eg19-trung-rung-doi-co-the-tach-roi-tung-qua-eg19",
-    sku: "EG19",
-    name: "Trứng rung đôi có thể tách rời từng quả (EG19)",
-    category: "Trứng Rung Nữ",
-    categorySlug: "trung-rung-tinh-yeu",
-    price: 550000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Trứng rung đôi có thể tách rời từng quả (EG19). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/eg19/01.webp",
-    longDescription: `<h2>Trứng rung đôi có thể tách rời từng quả (EG19)</h2>
-<p>Thông tin chi tiết:</p>
-<ul><li>Tính năng: Massage cho phụ nữ, giải tỏa sinh lý hiệu quả.</li></ul>
-<h2>Thể loại: Đồ chơi tình dục cho nữ</h2>
-<p>Chất liệu: Nhựa cao cấp ABS, đảm bảo tiêu chuẩn y tế, an toàn với người sử dụng.</p>
-<p>Tần số rung: 12 chế độ rung khác nhau.</p>
-<p>Thông số sản phẩm:</p>
-<h2>-&quot;Quả to&quot; có đường kính 30 mm, chiều dài 115 mm</h2>
-<h2>-&quot;Quả nhỏ&quot; có đường kính 25mm, chiều dài 73mm</h2>
-<h2>Pin: 3 pin AAA</h2>
-<p>Thời lượng pin: Tùy thuộc vào chất lượng pin sử dụng.</p>
-<h2>Xuất xứ: Hồng Kông</h2>
-<p>Tìm được đúng điểm G sẽ kích thích phụ nữ đạt được khoái cảm đến tột độ nhưng không phải ai cũng biết tìm và kích thích điểm G hiêu quả. Sử dụng đồ chơi người lớn &quot;Trứng rung đôi có thể tách rời từng quả&quot;, với 12 cấp độ rung khác nhau đem lại cảm giác trải nghiệm khám phá điểm G hoàn toàn mới lạ, kích thích chị em đạt hưng phấn nhanh nhất.</p>
-<p>Đồ chơi người lớn &quot;Trứng rung đôi có thể tách rời từng quả&quot; được hoạt động bằng 3pin tiểu, có nút điều chỉnh cấp độ rung.  Đặc biệt  được thiết kế có thể sử dụng cắm rời từng quả theo như mong muốn. Dùng xong rửa sạch phần trứng rung bằng nước sạch, xà phòng  sau đó lau khô .. Hoặc rửa bằng cồn y tế.</p>
-<h2>Kích thước sản phẩm</h2>
-<p>Trứng được thiết kế đặc biệt 2 quả có thể tách rời nhau mỗi quả có nút cắm riêng biệt có thể  cắm 2 quả hoặc 1 quả tùy theo sở thích mong muốn.</p>
-<p>Sản phẩm sử dụng 3 pin tiểu, với thiết kế 100% không thấm nước, rung nhẹ không gây tiếng ồn</p>
-<p>Cách sử dụng:</p>
-<ul><li>- Lắp pin và bật công tắc, điều chỉnh độ rung phù hợp và để sản phẩm tiếp xúc với phần nhạy cảm trên cơ thể, từ từ điều chỉnh tốc độ, di chuyển theo hướng phù hợp.</li><li>- Sản phẩm được sử dụng để kích thích âm đạo, kích thích núm vú hoặc các bộ phận nhạy cảm khác trên cơ thể.</li></ul>
-<p>Lưu ý:</p>
-<ul><li>- Sản phẩm  dành cho cá nhân hoặc vợ chồng sử dụng, chú ý vệ sinh trước và sau khi sử dụng.</li><li>- Khi đã sử dụng xong quý khách vui lòng tháo pin ra, tránh tình trạng pin bị rò rỉ gây hư hại sản phẩm.</li><li>- Trong quá trình sử dụng thêm chút gel bôi trơn mang lại kết quả tốt hơn.</li><li>- Hướng dẫn bảo quản: Tránh để phần điều khiển tiếp xúc với nước. Dùng khăn khô hoặc ấm lau khô nhẹ nhàng và bảo quản cho những lần sử dụng tiếp theo.</li></ul>`,
-  },
+
   {
     slug: "trung-rung-doi-co-kep-mat-xa-nguc-eg18a",
     legacySlug: "eg18a-trung-rung-doi-co-kep-mat-xa-nguc-eg18a",
