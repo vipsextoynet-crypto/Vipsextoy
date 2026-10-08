@@ -43887,56 +43887,7 @@ Tất cả các thành phần được sử dụng trong sản xuất đồ ch�
 <h2>Thiết bị vận hành bằng nguồn điện nào và có dễ dùng không?</h2>
 <p>Quần xì siêu rung MS32A sử dụng 2 pin AAA rất phổ biến, dễ dàng thay thế khi cần. Mọi thao tác chuyển đổi 10 chế độ rung đều được thực hiện thông qua điều khiển từ xa nhỏ gọn, thao tác cực kỳ đơn giản.</p>`,
   },
-  {
-    slug: "duong-vat-gia-vo-so-rung-cuc-manh-suong-phe-chim-dc38g",
-    legacySlug: "dc38g-duong-vat-gia-vo-so-rung-cuc-manh-suong-phe-chim-dc38g",
-    sku: "DC38G",
-    name: "Dương vật giả vỏ sò rung cực mạnh sướng phê chim (DC38G)",
-    category: "Trứng Rung Nữ",
-    categorySlug: "trung-rung-tinh-yeu",
-    price: 1650000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Dương vật giả vỏ sò rung cực mạnh sướng phê chim (DC38G). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dc38g/01.webp",
-    sensitive: true,
-    longDescription: `<h2>DC38G Dương vật giả vỏ sò rung cực mạnh sướng phê chim</h2>
-<p>Thông tin giới thiệu chi tiết sản phẩm:</p>
-<h2>Chức năng: Rung, kích thích điểm G, Âm vật, giải tỏa sinh lý hiệu quả</h2>
-<h2>Đặc điểm: Được điều khiển từ xa</h2>
-<h2>Chất liệu: Silicone ABS</h2>
-<h2>Kích thước dương vật giả: 8cm x 2.5cm</h2>
-<h2>Kích thước điều khiển xa: 10cm x 4.5cm</h2>
-<h2>Rung: 12 chế độ rung</h2>
-<h2>Pin: Sạc pin USB</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng: 1.5 giờ</h2>
-<h2>Chống thấm nước: Không thấm nước</h2>
-<h2>Độ ồn: Không gây tiếng ồn</h2>
-<h2>Trọng lượng: 71gram</h2>
-<h2>Màu sắc: Tím</h2>
-<h2>Thương hiệu: Pretty love</h2>
-<h2>Xuất xứ và nhập khẩu: Hồng Kong</h2>
-<p>Dương vật vỏ sò đa điểm rung điều khiển xa, là sự tích hợp hoàn hảo giữa một máy mát xa đa năng.</p>
-<p>Thuộc dòng Sextoy cao cấp tự động, được điều khiển từ xa thông minh.</p>
-<p>Sự hoàn hảo của dòng đồ chơi người lớn này không chỉ cho các nàng thoải mái khi vừa vận động, lại có thể giải tỏa sự khao khát ham muốn trong quan hệ tình dục khi cô đơn chỉ có một mình.</p>
-<p>Dòng đồ chơi với thiết kế độc đáo và ôm khít lấy âm đạo khi dương vật đi sâu bên trong, kích thích điểm G.</p>
-<p>Phần vỏ sò bên ngoài có tác dụng mơn trớn, rung và kích thích môi ngoài âm vật.</p>
-<p>Thúc đấy cả trong và ngoài âm đạo đều được kích thích khá tự nhiên và sung sướng.</p>
-<p>Hơn thế dương vật vỏ sò còn được thiết kế với điều khiển xa không dây, thông minh giúp chị em tự sướng khi đặt dương vật nằm gọn bên trong chiếc quần lót của mình.</p>
-<p>Nàng thoải mái tự sướng ở nhiều cung bậc cảm xúc khi lựa chọn tới 12 chế độ rung đặc biệt.</p>
-<p>Cảm xúc ngày càng nâng cao khi tận hưởng và càng tuyệt vời hơn khi ở bất cứ đâu dù bạn đang làm việc.</p>
-<p>Dù đi chơi hay đi dạo, đều có thể tự sướng với dương vật vỏ sò thông minh này.</p>
-<p>Thiết kế của dương vật vỏ sò được làm hoàn toàn từ Silicone cao cấp, có độ mịn màng cao, cảm giác thân thiện đảm bảo cho sức khỏe.</p>
-<p>Đây là điều hãng luôn lấy được lòng tin từ người tiêu dùng.</p>
-<p>Phần thân dương vật giả tạo đường cong tự nhiên, để có thể chạm tới điểm G và kích thích nhiều hơn tới thành âm đạo.</p>
-<p>Giúp các nàng được thỏa mãn và sung sướng hơn khi lên đỉnh.</p>
-<p>Độ ồn khá êm, nên ngay người đối diện cũng khó có thể phát hiện ra tiếng rung bên trong bạn.</p>
-<p>Thế nên bạn hoàn toàn của thể yên tâm và lựa chọn anh chàng dương vật vỏ sò này là người tình hoàn hảo cho riêng mình, khi chàng vắng nhà hay công tác lâu này.</p>
-<p>Cách sử dụng sản phẩm dương vật vỏ sò hiệu quả và đúng cách:</p>
-<ul><li>– Trước và sau khi sử dụng bạn cần vệ sinh sạch sẽ bằng nước sạch, cồn y tế.</li><li>– Sạc đầy pin trước khi sử dụng, sử dụng kèm thêm gel bôi trơn và bao cao su siêu mỏng để tăng độ ẩm ướt và gia tăng khoái cảm được nhiều hơn</li><li>– Trong quá trình sử dụng bật giữ nút nguồn ở dương vật giả trong khoảng 3 giây, đèn sáng.</li><li>– Lắp 1pin AAA vào điều khiển xa và bật nút điều chỉnh chế độ rung để bắt đầu sử dụng.</li><li>– Đưa dương vật vỏ sò kích thích nên môi âm đạo, âm vật và đưa sâu bên trong âm đạo cho tới khi đạt đỉnh.</li><li>– Lưu ý chọn chế độ rung phù hợp từ nhẹ tới manh để đạt hưng phấn.</li><li>– Bảo quản nơi khô thoáng, tránh bui bẩn và nơi có nhiệt độ cao.</li></ul>`,
-  },
+
   {
     slug: "may-rung-bu-am-dao-cuc-phe-romance-3-dau-hut-ms14a",
     legacySlug: "ms14a-may-rung-bu-am-dao-cuc-phe-romance-3-dau-hut-ms14a",
