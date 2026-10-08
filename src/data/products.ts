@@ -31162,36 +31162,7 @@ Nhờ kết nối qua ứng dụng thông minh, đối phương có thể nhận
 <h2>Cách vệ sinh và bảo quản sản phẩm DC05A như thế nào?</h2>
 <p>Bạn chỉ cần rửa sạch phần thân silicon với nước sạch hoặc cồn y tế, sau đó để khô tự nhiên. Đối với phần đệm, hãy xả sạch hơi bên trong, tháo rời pin AA khỏi bộ điều khiển và cất giữ toàn bộ thiết bị ở nơi khô ráo, tránh ánh nắng trực tiếp.</p>`,
   },
-  {
-    slug: "trung-rung-tinh-yeu-don-manh-me-kich-thich-vung-kin-nu-gioi",
-    legacySlug: "dc04b-trung-rung-tinh-yeu-don-manh-me-kich-thich-vung-kin-nu-gioi",
-    sku: "DC04B",
-    name: "Trứng rung tình yêu đơn mạnh mẽ kích thích vùng kín nữ giới",
-    category: "Trứng Rung Nữ",
-    categorySlug: "trung-rung-tinh-yeu",
-    price: 150000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Trứng rung tình yêu đơn mạnh mẽ kích thích vùng kín nữ giới. Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dc04b/01.webp",
-    longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị massage thông thường dùng nút bấm cố định, trứng rung tình yêu đơn DC04B sở hữu bộ điều khiển dạng núm xoay vô cấp thông minh, cho phép chị em tùy chỉnh lực rung mượt mà từ dịu nhẹ đến mạnh mẽ để kích thích vùng kín và giải tỏa nhu cầu sinh lý một cách tối ưu.</p>
-<h2>Thiết kế &amp; chất liệu</h2>
-<p>Sản phẩm sở hữu kích thước siêu nhỏ gọn chỉ 5 x 2.5 cm, cực kỳ tiện lợi để bạn cất gọn trong túi xách hay bóp trang điểm khi đi xa. Điểm đáng chú ý nhất chính là phần đầu rung được gia công từ chất liệu polymer y tế cao cấp, bề mặt láng mịn, hoàn toàn không độc hại và an toàn cho làn da nhạy cảm. Máy kết nối trực tiếp với hộp điều khiển rời chạy bằng 2 viên pin AA vô cùng tiết kiệm điện năng. Cơ chế núm vặn tùy biến tần số giúp bạn chủ động kiểm soát nhịp rung linh hoạt theo từng dải cảm xúc mà không gặp bất kỳ trở ngại nào.</p>
-<h2>Công dụng thực tế</h2>
-<p>- Giúp massage nhẹ nhàng hoặc kích thích sâu các điểm nhạy cảm trên cơ thể nữ giới, đem lại cảm giác thư giãn và giải tỏa sinh lý hiệu quả.</p>
-<p>- Thiết kế một đầu rung nhỏ tập trung nguồn lực rung mạnh mẽ, phù hợp để tạo hưng phấn trong các phút giây thư giãn cá nhân hoặc hâm nóng tình cảm đôi lứa.</p>
-<p>- Tích hợp bộ điều khiển núm vặn linh hoạt, giúp chị em dễ dàng dò tìm cường độ vuốt ve ưng ý và thoải mái nhất.</p>
-<h2>Ai nên dùng sản phẩm này</h2>
-<p>Trứng rung DC04B là lựa chọn tuyệt vời cho những chị em mới bắt đầu tìm hiểu thiết bị chăm sóc sức khỏe cá nhân nhờ cách vận hành đơn giản, an toàn và dễ kiểm soát. Đồng thời, đây cũng là món phụ kiện nhỏ gọn lý tưởng cho các cặp đôi muốn thêm chút gia vị mới mẻ và rung động nhẹ nhàng trong những chuyến du lịch hay hẹn hò riêng tư.</p>
-<h2>Câu hỏi thường gặp</h2>
-<h2>Sản phẩm này có dễ sử dụng cho người mới bắt đầu không?</h2>
-<p>Vô cùng đơn giản bạn nhé! Bạn chỉ cần lắp 2 viên pin AA vào hộp điều khiển, xoay nhẹ núm điều chỉnh là đầu trứng đã bắt đầu hoạt động. Việc điều chỉnh lực rung dạng núm vặn giúp người mới dễ dàng làm quen và chủ động chọn mức rung phù hợp nhất.</p>
-<h2>Vệ sinh và bảo quản trứng rung DC04B như thế nào cho đúng cách?</h2>
-<p>Sau khi dùng, bạn lau sạch phần đầu trứng bằng cồn y tế nhẹ. Lưu ý tuyệt đối không để nước dính vào hộp điều khiển chứa pin, tháo pin ra khỏi thiết bị sau khi dùng xong và cất giữ sản phẩm ở nơi khô ráo, thoáng mát.</p>
-<h2>Sản phẩm có thể dùng chung với gel bôi trơn được không?</h2>
-<p>Hoàn toàn được nhé! Bạn có thể kết hợp thêm gel bôi trơn hoặc bao cao su để tăng độ mượt mà, giúp trải nghiệm massage trở nên mềm mại và thoải mái hơn rất nhiều.</p>`,
-  },
+
   {
     slug: "trung-rung-diem-g-mot-qua-dai",
     legacySlug: "dc04f-trung-rung-diem-g-mot-qua-dai",
