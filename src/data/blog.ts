@@ -231,10 +231,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 phút đọc",
     category: "Hướng dẫn",
     icon: "wave",
-<<<<<<< HEAD
     image: "/anhblog/ky-thuat-bom-gel-tu-day-ong-long-coc-thu-dam",
-=======
->>>>>>> origin/main
   },
   {
     slug: "kinh-nghiem-chon-duong-vat-gia-mat-do-kep-dual-density-loi-cung-vo-mem-giup-tranh-lech-pha-xuc-giac",
@@ -247,10 +244,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 phút đọc",
     category: "Kinh nghiệm",
     icon: "wave",
-<<<<<<< HEAD
     image: "/anhblog/kinh-nghiem-chon-duong-vat-gia-mat-do-kep-dual-density",
-=======
->>>>>>> origin/main
   },
 ];
 
