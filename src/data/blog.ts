@@ -218,10 +218,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 phút đọc",
     category: "Tìm hiểu",
     icon: "wave",
-<<<<<<< HEAD
     image: "/anhblog/coc-thu-dam-tach-roi-ruot-rua-sieu-toc-cong-nghe-module",
-=======
->>>>>>> origin/main
   },
   {
     slug: "ky-thuat-bom-gel-tu-day-ong-long-meo-phan-bo-gel-boi-tron-deu-khap-coc-thu-dam-khong-bi-kho-nua-chung",
