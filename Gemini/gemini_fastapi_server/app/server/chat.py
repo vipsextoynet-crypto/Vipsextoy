@@ -801,18 +801,47 @@ def _instructions_to_messages(
 
 
 def _get_model_by_name(name: str) -> Model:
-    """Retrieve a Model instance by name."""
+    """Retrieve a Model enum by name."""
     strategy = g_config.gemini.model_strategy
     custom_models = {m.model_name: m for m in g_config.gemini.models if m.model_name}
 
     if name in custom_models:
-        return Model.from_dict(custom_models[name].model_dump())
+        custom = custom_models[name]
+
+        # Custom model configuration uses the actual Model enum value
+        model_value = getattr(custom, "model", None)
+
+        if isinstance(model_value, Model):
+            return model_value
+
+        if isinstance(model_value, str):
+            for model in Model:
+                if model.name == model_value or model.value == model_value:
+                    return model
+
+        raise ValueError(
+            f"Custom model '{name}' does not contain a valid gemini_webapi Model."
+        )
 
     if strategy == "overwrite":
-        raise ValueError(f"Model '{name}' not found in custom models (strategy='overwrite').")
+        raise ValueError(
+            f"Model '{name}' not found in custom models "
+            f"(strategy='overwrite')."
+        )
 
-    return Model.from_name(name)
+    # Map common OpenAI-compatible model names to gemini_webapi models.
+    name_lower = name.lower()
 
+    if "pro" in name_lower:
+        return Model.ADVANCED_PRO
+
+    if "flash" in name_lower:
+        return Model.ADVANCED_FLASH
+
+    if "lite" in name_lower:
+        return Model.ADVANCED_LITE
+
+    return Model.UNSPECIFIED
 
 def _get_available_models() -> list[ModelData]:
     """Return a list of available models based on configuration strategy."""
