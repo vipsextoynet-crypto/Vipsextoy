@@ -16958,35 +16958,18 @@ Các sản phẩm của SVAKOM
   },
   {
     slug: "bup-be-silicon-cao-cap-mini-65cm-bb25b",
-    legacySlug: "bb25b-bup-be-silicon-cao-cap-mini-65cm-bb25b",
     sku: "BB25B",
     name: "Búp bê silicon cao cấp mini 65cm (BB25B)",
     category: "Búp Bê Silicon",
     categorySlug: "bup-be-silicon-cao-cap",
-    price: 3950000,
-    blurb: "Chất liệu silicon cao cấp, thiết kế chân thực, riêng tư khi giao nhận.",
+    price: 3350000,
+    blurb: "",
     description: "Búp bê silicon cao cấp mini 65cm (BB25B). Chất liệu silicon cao cấp, thiết kế chân thực, riêng tư khi giao nhận. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
     features: ["Silicon cao cấp", "Thiết kế chân thực", "Đóng gói kín đáo, ẩn danh", "Bảo hành chính hãng"],
     icon: "ring",
     image: "/anh1/BB25B/01.jpg",
-    thumb: "/thumbs/anh1/BB25B/01.webp",
     images: ["/anh1/BB25B/01.jpg", "/anh1/BB25B/05.jpg", "/anh1/BB25B/06.jpg", "/anh1/BB25B/07.jpg", "/anh1/BB25B/08.jpg", "/anh1/BB25B/09.jpg", "/anh1/BB25B/10.jpg", "/anh1/BB25B/11.jpg", "/anh1/BB25B/12.jpg"],
-    longDescription: `<h2>-Chiều cao: 65 cm</h2>
-<h2>-Trọng lượng: 4kg</h2>
-<h2>-Ngực: 33cm</h2>
-<h2>-Hông: 33 cm</h2>
-<h2>-Chiều dài chân: 28cm</h2>
-<h2>-Chiều dài âm đạo: 17cm</h2>
-<h2>-Chiều dài hậu môn: 15 cm</h2>
-<h2>-Chất liệu: Silicon cao cấp mềm mại</h2>
-<h2>-Chiều cao: 65 cm</h2>
-<h2>-Trọng lượng: 4kg</h2>
-<h2>-Ngực: 33cm</h2>
-<h2>-Hông: 33 cm</h2>
-<h2>-Chiều dài chân: 28cm</h2>
-<h2>-Chiều dài âm đạo: 17cm</h2>
-<h2>-Chiều dài hậu môn: 15 cm</h2>
-<p>Búp bê tình dục được thiết kế giống như thật, các vòng chuẩn, mông cong, ngực to và bộ phận sinh dục đẹp, khít</p>`,
+    sensitive: true,
   },
   {
     slug: "trung-rung-tinh-yeu-khong-day-dieu-khien-tu-xa-20-cap-do-manh-eg20",
@@ -31179,36 +31162,7 @@ Nhờ kết nối qua ứng dụng thông minh, đối phương có thể nhận
 <h2>Cách vệ sinh và bảo quản sản phẩm DC05A như thế nào?</h2>
 <p>Bạn chỉ cần rửa sạch phần thân silicon với nước sạch hoặc cồn y tế, sau đó để khô tự nhiên. Đối với phần đệm, hãy xả sạch hơi bên trong, tháo rời pin AA khỏi bộ điều khiển và cất giữ toàn bộ thiết bị ở nơi khô ráo, tránh ánh nắng trực tiếp.</p>`,
   },
-  {
-    slug: "trung-rung-tinh-yeu-don-manh-me-kich-thich-vung-kin-nu-gioi",
-    legacySlug: "dc04b-trung-rung-tinh-yeu-don-manh-me-kich-thich-vung-kin-nu-gioi",
-    sku: "DC04B",
-    name: "Trứng rung tình yêu đơn mạnh mẽ kích thích vùng kín nữ giới",
-    category: "Trứng Rung Nữ",
-    categorySlug: "trung-rung-tinh-yeu",
-    price: 150000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Trứng rung tình yêu đơn mạnh mẽ kích thích vùng kín nữ giới. Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dc04b/01.webp",
-    longDescription: `<p>Khác biệt hoàn toàn so với các dòng thiết bị massage thông thường dùng nút bấm cố định, trứng rung tình yêu đơn DC04B sở hữu bộ điều khiển dạng núm xoay vô cấp thông minh, cho phép chị em tùy chỉnh lực rung mượt mà từ dịu nhẹ đến mạnh mẽ để kích thích vùng kín và giải tỏa nhu cầu sinh lý một cách tối ưu.</p>
-<h2>Thiết kế &amp; chất liệu</h2>
-<p>Sản phẩm sở hữu kích thước siêu nhỏ gọn chỉ 5 x 2.5 cm, cực kỳ tiện lợi để bạn cất gọn trong túi xách hay bóp trang điểm khi đi xa. Điểm đáng chú ý nhất chính là phần đầu rung được gia công từ chất liệu polymer y tế cao cấp, bề mặt láng mịn, hoàn toàn không độc hại và an toàn cho làn da nhạy cảm. Máy kết nối trực tiếp với hộp điều khiển rời chạy bằng 2 viên pin AA vô cùng tiết kiệm điện năng. Cơ chế núm vặn tùy biến tần số giúp bạn chủ động kiểm soát nhịp rung linh hoạt theo từng dải cảm xúc mà không gặp bất kỳ trở ngại nào.</p>
-<h2>Công dụng thực tế</h2>
-<p>- Giúp massage nhẹ nhàng hoặc kích thích sâu các điểm nhạy cảm trên cơ thể nữ giới, đem lại cảm giác thư giãn và giải tỏa sinh lý hiệu quả.</p>
-<p>- Thiết kế một đầu rung nhỏ tập trung nguồn lực rung mạnh mẽ, phù hợp để tạo hưng phấn trong các phút giây thư giãn cá nhân hoặc hâm nóng tình cảm đôi lứa.</p>
-<p>- Tích hợp bộ điều khiển núm vặn linh hoạt, giúp chị em dễ dàng dò tìm cường độ vuốt ve ưng ý và thoải mái nhất.</p>
-<h2>Ai nên dùng sản phẩm này</h2>
-<p>Trứng rung DC04B là lựa chọn tuyệt vời cho những chị em mới bắt đầu tìm hiểu thiết bị chăm sóc sức khỏe cá nhân nhờ cách vận hành đơn giản, an toàn và dễ kiểm soát. Đồng thời, đây cũng là món phụ kiện nhỏ gọn lý tưởng cho các cặp đôi muốn thêm chút gia vị mới mẻ và rung động nhẹ nhàng trong những chuyến du lịch hay hẹn hò riêng tư.</p>
-<h2>Câu hỏi thường gặp</h2>
-<h2>Sản phẩm này có dễ sử dụng cho người mới bắt đầu không?</h2>
-<p>Vô cùng đơn giản bạn nhé! Bạn chỉ cần lắp 2 viên pin AA vào hộp điều khiển, xoay nhẹ núm điều chỉnh là đầu trứng đã bắt đầu hoạt động. Việc điều chỉnh lực rung dạng núm vặn giúp người mới dễ dàng làm quen và chủ động chọn mức rung phù hợp nhất.</p>
-<h2>Vệ sinh và bảo quản trứng rung DC04B như thế nào cho đúng cách?</h2>
-<p>Sau khi dùng, bạn lau sạch phần đầu trứng bằng cồn y tế nhẹ. Lưu ý tuyệt đối không để nước dính vào hộp điều khiển chứa pin, tháo pin ra khỏi thiết bị sau khi dùng xong và cất giữ sản phẩm ở nơi khô ráo, thoáng mát.</p>
-<h2>Sản phẩm có thể dùng chung với gel bôi trơn được không?</h2>
-<p>Hoàn toàn được nhé! Bạn có thể kết hợp thêm gel bôi trơn hoặc bao cao su để tăng độ mượt mà, giúp trải nghiệm massage trở nên mềm mại và thoải mái hơn rất nhiều.</p>`,
-  },
+
   {
     slug: "trung-rung-diem-g-mot-qua-dai",
     legacySlug: "dc04f-trung-rung-diem-g-mot-qua-dai",
@@ -43904,56 +43858,7 @@ Tất cả các thành phần được sử dụng trong sản xuất đồ ch�
 <h2>Thiết bị vận hành bằng nguồn điện nào và có dễ dùng không?</h2>
 <p>Quần xì siêu rung MS32A sử dụng 2 pin AAA rất phổ biến, dễ dàng thay thế khi cần. Mọi thao tác chuyển đổi 10 chế độ rung đều được thực hiện thông qua điều khiển từ xa nhỏ gọn, thao tác cực kỳ đơn giản.</p>`,
   },
-  {
-    slug: "duong-vat-gia-vo-so-rung-cuc-manh-suong-phe-chim-dc38g",
-    legacySlug: "dc38g-duong-vat-gia-vo-so-rung-cuc-manh-suong-phe-chim-dc38g",
-    sku: "DC38G",
-    name: "Dương vật giả vỏ sò rung cực mạnh sướng phê chim (DC38G)",
-    category: "Trứng Rung Nữ",
-    categorySlug: "trung-rung-tinh-yeu",
-    price: 1650000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Dương vật giả vỏ sò rung cực mạnh sướng phê chim (DC38G). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/dc38g/01.webp",
-    sensitive: true,
-    longDescription: `<h2>DC38G Dương vật giả vỏ sò rung cực mạnh sướng phê chim</h2>
-<p>Thông tin giới thiệu chi tiết sản phẩm:</p>
-<h2>Chức năng: Rung, kích thích điểm G, Âm vật, giải tỏa sinh lý hiệu quả</h2>
-<h2>Đặc điểm: Được điều khiển từ xa</h2>
-<h2>Chất liệu: Silicone ABS</h2>
-<h2>Kích thước dương vật giả: 8cm x 2.5cm</h2>
-<h2>Kích thước điều khiển xa: 10cm x 4.5cm</h2>
-<h2>Rung: 12 chế độ rung</h2>
-<h2>Pin: Sạc pin USB</h2>
-<h2>Thời gian sạc: 1 giờ</h2>
-<h2>Thời gian sử dụng: 1.5 giờ</h2>
-<h2>Chống thấm nước: Không thấm nước</h2>
-<h2>Độ ồn: Không gây tiếng ồn</h2>
-<h2>Trọng lượng: 71gram</h2>
-<h2>Màu sắc: Tím</h2>
-<h2>Thương hiệu: Pretty love</h2>
-<h2>Xuất xứ và nhập khẩu: Hồng Kong</h2>
-<p>Dương vật vỏ sò đa điểm rung điều khiển xa, là sự tích hợp hoàn hảo giữa một máy mát xa đa năng.</p>
-<p>Thuộc dòng Sextoy cao cấp tự động, được điều khiển từ xa thông minh.</p>
-<p>Sự hoàn hảo của dòng đồ chơi người lớn này không chỉ cho các nàng thoải mái khi vừa vận động, lại có thể giải tỏa sự khao khát ham muốn trong quan hệ tình dục khi cô đơn chỉ có một mình.</p>
-<p>Dòng đồ chơi với thiết kế độc đáo và ôm khít lấy âm đạo khi dương vật đi sâu bên trong, kích thích điểm G.</p>
-<p>Phần vỏ sò bên ngoài có tác dụng mơn trớn, rung và kích thích môi ngoài âm vật.</p>
-<p>Thúc đấy cả trong và ngoài âm đạo đều được kích thích khá tự nhiên và sung sướng.</p>
-<p>Hơn thế dương vật vỏ sò còn được thiết kế với điều khiển xa không dây, thông minh giúp chị em tự sướng khi đặt dương vật nằm gọn bên trong chiếc quần lót của mình.</p>
-<p>Nàng thoải mái tự sướng ở nhiều cung bậc cảm xúc khi lựa chọn tới 12 chế độ rung đặc biệt.</p>
-<p>Cảm xúc ngày càng nâng cao khi tận hưởng và càng tuyệt vời hơn khi ở bất cứ đâu dù bạn đang làm việc.</p>
-<p>Dù đi chơi hay đi dạo, đều có thể tự sướng với dương vật vỏ sò thông minh này.</p>
-<p>Thiết kế của dương vật vỏ sò được làm hoàn toàn từ Silicone cao cấp, có độ mịn màng cao, cảm giác thân thiện đảm bảo cho sức khỏe.</p>
-<p>Đây là điều hãng luôn lấy được lòng tin từ người tiêu dùng.</p>
-<p>Phần thân dương vật giả tạo đường cong tự nhiên, để có thể chạm tới điểm G và kích thích nhiều hơn tới thành âm đạo.</p>
-<p>Giúp các nàng được thỏa mãn và sung sướng hơn khi lên đỉnh.</p>
-<p>Độ ồn khá êm, nên ngay người đối diện cũng khó có thể phát hiện ra tiếng rung bên trong bạn.</p>
-<p>Thế nên bạn hoàn toàn của thể yên tâm và lựa chọn anh chàng dương vật vỏ sò này là người tình hoàn hảo cho riêng mình, khi chàng vắng nhà hay công tác lâu này.</p>
-<p>Cách sử dụng sản phẩm dương vật vỏ sò hiệu quả và đúng cách:</p>
-<ul><li>– Trước và sau khi sử dụng bạn cần vệ sinh sạch sẽ bằng nước sạch, cồn y tế.</li><li>– Sạc đầy pin trước khi sử dụng, sử dụng kèm thêm gel bôi trơn và bao cao su siêu mỏng để tăng độ ẩm ướt và gia tăng khoái cảm được nhiều hơn</li><li>– Trong quá trình sử dụng bật giữ nút nguồn ở dương vật giả trong khoảng 3 giây, đèn sáng.</li><li>– Lắp 1pin AAA vào điều khiển xa và bật nút điều chỉnh chế độ rung để bắt đầu sử dụng.</li><li>– Đưa dương vật vỏ sò kích thích nên môi âm đạo, âm vật và đưa sâu bên trong âm đạo cho tới khi đạt đỉnh.</li><li>– Lưu ý chọn chế độ rung phù hợp từ nhẹ tới manh để đạt hưng phấn.</li><li>– Bảo quản nơi khô thoáng, tránh bui bẩn và nơi có nhiệt độ cao.</li></ul>`,
-  },
+
   {
     slug: "may-rung-bu-am-dao-cuc-phe-romance-3-dau-hut-ms14a",
     legacySlug: "ms14a-may-rung-bu-am-dao-cuc-phe-romance-3-dau-hut-ms14a",
@@ -45776,41 +45681,7 @@ Tất cả các thành phần được sử dụng trong sản xuất đồ ch�
 <h2>Nên bảo quản thiết bị như thế nào để đảm bảo độ bền?</h2>
 <p>Sau khi sử dụng, bạn nên vệ sinh sạch bề mặt bằng khăn mềm ẩm hoặc dung dịch chuyên dụng, tránh để nước thâm nhập vào khoang chứa pin. Sau đó, tháo pin ra khỏi thiết bị và cất giữ ở nơi khô ráo, thoáng mát.</p>`,
   },
-  {
-    slug: "trung-rung-doi-co-the-tach-roi-tung-qua-eg19",
-    legacySlug: "eg19-trung-rung-doi-co-the-tach-roi-tung-qua-eg19",
-    sku: "EG19",
-    name: "Trứng rung đôi có thể tách rời từng quả (EG19)",
-    category: "Trứng Rung Nữ",
-    categorySlug: "trung-rung-tinh-yeu",
-    price: 550000,
-    blurb: "Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời.",
-    description: "Trứng rung đôi có thể tách rời từng quả (EG19). Nhỏ gọn, êm ái, dễ mang theo, phù hợp dùng riêng hoặc cùng bạn đời. Sản phẩm được tuyển chọn kỹ lưỡng tại Vipsextoy, đóng gói kín đáo và giao hàng nhanh toàn quốc.",
-    features: ["Kích thước nhỏ gọn", "Vận hành êm ái", "Điều khiển dễ dàng", "Chống nước"],
-    icon: "spark",
-    image: "https://qcxb98job7ykqv8o.public.blob.vercel-storage.com/products/eg19/01.webp",
-    longDescription: `<h2>Trứng rung đôi có thể tách rời từng quả (EG19)</h2>
-<p>Thông tin chi tiết:</p>
-<ul><li>Tính năng: Massage cho phụ nữ, giải tỏa sinh lý hiệu quả.</li></ul>
-<h2>Thể loại: Đồ chơi tình dục cho nữ</h2>
-<p>Chất liệu: Nhựa cao cấp ABS, đảm bảo tiêu chuẩn y tế, an toàn với người sử dụng.</p>
-<p>Tần số rung: 12 chế độ rung khác nhau.</p>
-<p>Thông số sản phẩm:</p>
-<h2>-&quot;Quả to&quot; có đường kính 30 mm, chiều dài 115 mm</h2>
-<h2>-&quot;Quả nhỏ&quot; có đường kính 25mm, chiều dài 73mm</h2>
-<h2>Pin: 3 pin AAA</h2>
-<p>Thời lượng pin: Tùy thuộc vào chất lượng pin sử dụng.</p>
-<h2>Xuất xứ: Hồng Kông</h2>
-<p>Tìm được đúng điểm G sẽ kích thích phụ nữ đạt được khoái cảm đến tột độ nhưng không phải ai cũng biết tìm và kích thích điểm G hiêu quả. Sử dụng đồ chơi người lớn &quot;Trứng rung đôi có thể tách rời từng quả&quot;, với 12 cấp độ rung khác nhau đem lại cảm giác trải nghiệm khám phá điểm G hoàn toàn mới lạ, kích thích chị em đạt hưng phấn nhanh nhất.</p>
-<p>Đồ chơi người lớn &quot;Trứng rung đôi có thể tách rời từng quả&quot; được hoạt động bằng 3pin tiểu, có nút điều chỉnh cấp độ rung.  Đặc biệt  được thiết kế có thể sử dụng cắm rời từng quả theo như mong muốn. Dùng xong rửa sạch phần trứng rung bằng nước sạch, xà phòng  sau đó lau khô .. Hoặc rửa bằng cồn y tế.</p>
-<h2>Kích thước sản phẩm</h2>
-<p>Trứng được thiết kế đặc biệt 2 quả có thể tách rời nhau mỗi quả có nút cắm riêng biệt có thể  cắm 2 quả hoặc 1 quả tùy theo sở thích mong muốn.</p>
-<p>Sản phẩm sử dụng 3 pin tiểu, với thiết kế 100% không thấm nước, rung nhẹ không gây tiếng ồn</p>
-<p>Cách sử dụng:</p>
-<ul><li>- Lắp pin và bật công tắc, điều chỉnh độ rung phù hợp và để sản phẩm tiếp xúc với phần nhạy cảm trên cơ thể, từ từ điều chỉnh tốc độ, di chuyển theo hướng phù hợp.</li><li>- Sản phẩm được sử dụng để kích thích âm đạo, kích thích núm vú hoặc các bộ phận nhạy cảm khác trên cơ thể.</li></ul>
-<p>Lưu ý:</p>
-<ul><li>- Sản phẩm  dành cho cá nhân hoặc vợ chồng sử dụng, chú ý vệ sinh trước và sau khi sử dụng.</li><li>- Khi đã sử dụng xong quý khách vui lòng tháo pin ra, tránh tình trạng pin bị rò rỉ gây hư hại sản phẩm.</li><li>- Trong quá trình sử dụng thêm chút gel bôi trơn mang lại kết quả tốt hơn.</li><li>- Hướng dẫn bảo quản: Tránh để phần điều khiển tiếp xúc với nước. Dùng khăn khô hoặc ấm lau khô nhẹ nhàng và bảo quản cho những lần sử dụng tiếp theo.</li></ul>`,
-  },
+
   {
     slug: "trung-rung-doi-co-kep-mat-xa-nguc-eg18a",
     legacySlug: "eg18a-trung-rung-doi-co-kep-mat-xa-nguc-eg18a",

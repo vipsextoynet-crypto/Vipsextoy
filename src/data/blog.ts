@@ -218,7 +218,10 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 phút đọc",
     category: "Tìm hiểu",
     icon: "wave",
+<<<<<<< HEAD
     image: "/anhblog/coc-thu-dam-tach-roi-ruot-rua-sieu-toc-cong-nghe-module",
+=======
+>>>>>>> origin/main
   },
   {
     slug: "ky-thuat-bom-gel-tu-day-ong-long-meo-phan-bo-gel-boi-tron-deu-khap-coc-thu-dam-khong-bi-kho-nua-chung",
@@ -231,7 +234,10 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 phút đọc",
     category: "Hướng dẫn",
     icon: "wave",
+<<<<<<< HEAD
     image: "/anhblog/ky-thuat-bom-gel-tu-day-ong-long-coc-thu-dam",
+=======
+>>>>>>> origin/main
   },
   {
     slug: "kinh-nghiem-chon-duong-vat-gia-mat-do-kep-dual-density-loi-cung-vo-mem-giup-tranh-lech-pha-xuc-giac",
@@ -244,7 +250,10 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 phút đọc",
     category: "Kinh nghiệm",
     icon: "wave",
+<<<<<<< HEAD
     image: "/anhblog/kinh-nghiem-chon-duong-vat-gia-mat-do-kep-dual-density",
+=======
+>>>>>>> origin/main
   },
 ];
 
