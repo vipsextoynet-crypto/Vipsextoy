@@ -251,6 +251,35 @@ export function groupCategories(list: Category[]) {
   return order.map((group) => ({ group, items: map.get(group)! }));
 }
 export const products: Product[] = [
+  {
+    slug: 'quan-lot-svakom-eros-gan-may-rung-thut-bu-mini-ket-noi-app',
+    sku: 'DC90ER',
+    name: 'Quần lót Svakom Eros gắn máy rung thụt bú mini kết nối app',
+    category: 'Dương Vật Giả',
+    categorySlug: 'duong-vat-gia-rung',
+    price: 2450000,
+    blurb: 'Quần lót rung Svakom Eros DC90ER cao cấp chính hãng từ Mỹ, thiết kế kín đáo gắn quần lót với tính năng rung và hút 8 chế độ, kết nối App thông minh điều khiển không giới hạn.',
+    description: 'Quần lót Svakom Eros DC90ER là sản phẩm đồ chơi tình dục cao cấp đến từ thương hiệu nổi tiếng SVAKOM USA, được thiết kế đặc biệt dành cho phái đẹp muốn trải nghiệm cảm giác thăng hoa tinh tế và kín đáo. Với thiết kế nhỏ gọn, sản phẩm có thể đặt gọn bên trong quần lót, giúp bạn thoải mái tận hưởng những khoảnh khắc kích thích mọi lúc mọi nơi mà không lo bị phát hiện. Máy tích hợp đồng thời tính năng rung và hút với 8 chế độ hoạt động mạnh mẽ, kết hợp khả năng kết nối ứng dụng smartphone qua Bluetooth không giới hạn chế độ điều khiển. Sản phẩm sử dụng chất liệu silicon y tế cao cấp siêu mềm mại, an toàn tuyệt đối cho làn da nhạy cảm.',
+    features: [
+      'Thương hiệu chính hãng SVAKOM USA cao cấp',
+      'Thiết kế quần lót rung gắn trong kín đáo, lý tưởng dùng ở mọi không gian',
+      'Tích hợp kép 8 chế độ rung và 8 chế độ hút mạnh mẽ',
+      'Kết nối App điện thoại thông minh điều khiển không giới hạn khoảng cách',
+      'Chất liệu silicon y tế cao cấp, an toàn tuyệt đối cho cơ thể',
+      'Trọng lượng nhẹ 126g, pin sạc USB tiện lợi với thời lượng sử dụng lên đến 1 giờ'
+    ],
+    icon: 'ring',
+    badge: 'Hot',
+    image: '/anh1/DC90ER/01.jpg',
+    images: [
+      '/anh1/DC90ER/01.jpg',
+      '/anh1/DC90ER/02.jpg',
+      '/anh1/DC90ER/03.jpg',
+      '/anh1/DC90ER/04.jpg',
+      '/anh1/DC90ER/05.jpg',
+      '/anh1/DC90ER/06.jpg'
+    ]
+  },
 
   {
     slug: "vong-rung-luoi-liem-don-day-duong-vat-dieu-khien-xa",
