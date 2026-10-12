@@ -251,6 +251,7 @@ export function groupCategories(list: Category[]) {
   return order.map((group) => ({ group, items: map.get(group)! }));
 }
 export const products: Product[] = [
+
   {
     slug: "vong-rung-luoi-liem-don-day-duong-vat-dieu-khien-xa",
     legacySlug: "dc72e1-vong-rung-luoi-liem-don-day-duong-vat-dieu-khien-xa",
