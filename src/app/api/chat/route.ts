@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { GoogleGenAI } from "@google/genai";
 import { site } from "@/lib/site";
 import { categories, products } from "@/data/products";
 
@@ -21,25 +20,19 @@ export const runtime = "nodejs";
 // gemini-2.5-flash da bi Google ngung ho tro cho user moi (thong bao tra ve
 // tu chinh API: "no longer available... use models/gemini-3.8-flash").
 // Doi model du phong sang gemini-3.8-flash theo dung khuyen nghi do.
-const MODELS_TO_TRY = ["gemini-flash-lite", "gemini-3.8-flash"];
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function isOverloadedError(e: unknown) {
-  const msg = e instanceof Error ? e.message : String(e);
-  return msg.includes("503") || msg.includes("UNAVAILABLE") || msg.includes("high demand");
-}
+
 
 // Gemini doi khi CAT NGANG cau tra loi giua chung (thuong do bo loc an toan
 // noi dung cua Google can thiep voi chu de nhay cam, du cau chua noi gi sai)
 // - finishReason luc do la "SAFETY"/"OTHER"/"RECITATION" thay vi "STOP".
 // Tuyet doi KHONG hien nhung cau bi cat nay cho khach - phai coi la that
 // bai va thu lai, giong nhu loi qua tai.
-function isBadFinish(finishReason: string | undefined) {
-  return !!finishReason && finishReason !== "STOP";
-}
+
 
 // (Da bo ham kiem tra "ket thuc bang dau cau gi" - qua khat khe, cau tra
 // loi tieng Viet binh thuong hay ket thuc bang "...nhe", "...a" khong co
@@ -185,15 +178,6 @@ QUY TRÌNH TƯ VẤN (luôn theo đúng thứ tự):
 }
 
 export async function POST(req: NextRequest) {
-  const apiKey = process.env.GEMINI_API_KEY;
-
-  if (!apiKey) {
-    return NextResponse.json(
-      { error: "Chatbot chưa được cấu hình (thiếu GEMINI_API_KEY trên Vercel)." },
-      { status: 500 }
-    );
-  }
-
   const body = await req.json().catch(() => null);
   const messages: { role: "user" | "model"; text: string }[] = body?.messages;
 
@@ -201,9 +185,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Thiếu nội dung tin nhắn." }, { status: 400 });
   }
 
-  // Giới hạn lịch sử gửi lên (10 tin gần nhất) để tiết kiệm quota miễn phí.
   const recent = messages.slice(-10);
-
   const matchedProducts = findRelevantProducts(recent);
   const priceHint = parsePriceHint(
     recent
@@ -213,57 +195,62 @@ export async function POST(req: NextRequest) {
       .join(" ")
   );
 
-  const ai = new GoogleGenAI({ apiKey });
-  const contents = recent.map((m) => ({
-    role: m.role,
-    parts: [{ text: m.text }],
-  }));
+  const apiUrl = (
+    process.env.GEMINI_FASTAPI_URL || "http://127.0.0.1:8000"
+  ).replace(/\/+$/, "");
+  const model = process.env.GEMINI_FASTAPI_MODEL || "gemini-flash";
+
+  const apiMessages = [
+    {
+      role: "system",
+      content: buildSystemPrompt(matchedProducts, priceHint),
+    },
+    ...recent.map((m) => ({
+      role: m.role === "model" ? "assistant" : "user",
+      content: m.text,
+    })),
+  ];
 
   let lastErr: unknown = null;
 
-  for (const model of MODELS_TO_TRY) {
-    // Gemini bao 503 "qua tai" thuong chi tam thoi vai giay - thu lai 1 lan
-    // truoc khi chuyen sang model khac.
-    for (let attempt = 0; attempt < 2; attempt++) {
-      try {
-        const res = await ai.models.generateContent({
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const res = await fetch(`${apiUrl}/v1/chat/completions`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
           model,
-          contents,
-          config: {
-            systemInstruction: buildSystemPrompt(matchedProducts, priceHint),
-            maxOutputTokens: 500,
-          },
-        });
+          messages: apiMessages,
+          max_tokens: 500,
+        }),
+        signal: AbortSignal.timeout(60000),
+      });
 
-        const finishReason = res.candidates?.[0]?.finishReason;
-        const text = res.text?.trim();
+      const data = await res.json().catch(() => ({}));
 
-        if (text && !isBadFinish(finishReason) && !looksTruncated(text)) {
-          return NextResponse.json({ reply: text });
-        }
-
-        // Cau tra loi rong, bi chan, hoac bi cat cut -> KHONG tra ve cho
-        // khach, coi nhu that bai va thu lai (giong loi qua tai).
-        lastErr = new Error(
-          `Câu trả lời không hợp lệ (finishReason=${finishReason ?? "?"}, text=${JSON.stringify(text?.slice(0, 60))})`
+      if (!res.ok) {
+        throw new Error(
+          `Gemini FastAPI HTTP ${res.status}: ${JSON.stringify(data).slice(0, 300)}`
         );
-        if (attempt === 0) {
-          await sleep(800);
-          continue; // thu lai cung model 1 lan
-        }
-        break; // da thu lai roi - sang model tiep theo
-      } catch (e) {
-        lastErr = e;
-        if (attempt === 0 && isOverloadedError(e)) {
-          await sleep(1200);
-          continue; // thu lai cung model 1 lan
-        }
-        break; // loi khac hoac da thu lai - sang model tiep theo
       }
+
+      const text = data?.choices?.[0]?.message?.content?.trim();
+
+      if (text && !looksTruncated(text)) {
+        return NextResponse.json({ reply: text });
+      }
+
+      lastErr = new Error("Gemini FastAPI trả về câu trả lời rỗng hoặc bị cắt.");
+    } catch (e) {
+      lastErr = e;
+    }
+
+    if (attempt === 0) {
+      await sleep(800);
     }
   }
 
-  console.error("Chatbot: mọi model đều thất bại.", lastErr);
+  console.error("Chatbot: Gemini FastAPI thất bại.", lastErr);
 
   return NextResponse.json({
     reply:

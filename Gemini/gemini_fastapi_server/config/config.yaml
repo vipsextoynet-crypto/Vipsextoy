@@ -1,8 +1,8 @@
 gemini:
   clients:
     - id: "account-1"
-      secure_1psid: "g.a000CwkPDZJ8qm9IesXNZagOiEzFf7lfo2Zc0cFNYsk819OgvIQDalXz1agmExM2pjuM8phdMgACgYKAeISARUSFQHGX2MiGz6b52VB_BdEuMUg-tGKphoVAUF8yKq2ZuQfhRBlkGGi9GzvdygF0076"
-      secure_1psidts: "sidts-CjIBkldj_yCQn9LzPiHAHVsqyA4ot9w1Izs-9pnpMsjkpVTACqHTuWYC80YuO6_cFp0VQhAA"
+      secure_1psid: "g.a000DQkPDZgZ6VBNd7AsXhhKRD1sn1JlLXYB15JUPZNul9sGc5GSNqzOVbBowJ2spqImrqlWzgACgYKAcQSARUSFQHGX2MijjgqqB3PgI4d2G6VGrpb6hoVAUF8yKpV7jZ-wJlxIbcxatXPOCnR0076"
+      secure_1psidts: "sidts-CjIBkldj_1dz7BHoiN7u0Mc281x-Lu71suB7NxBo4WSy-Vc0JRk9agU4Yz3It99ESUGRSxAA"
       proxy: null
 
   timeout: 600

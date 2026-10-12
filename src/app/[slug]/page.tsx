@@ -13,24 +13,14 @@ import GroupView, { getGroupMetadata } from "@/components/GroupView";
 import CategoryView, { getCategoryMetadata } from "@/components/CategoryView";
 import { getGroups, getGroup } from "@/lib/groups";
 
-// Ngay het han gia cho JSON-LD Offer (Google khuyen nghi co truong nay).
-// Tinh 1 lan luc build = ngay build + 1 nam; web build lai thuong xuyen
-// (moi lan dang blog) nen luon la ngay trong tuong lai.
 const PRICE_VALID_UNTIL = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000)
   .toISOString()
   .slice(0, 10);
 
-// Data moi (sau khi chay script AI) la HTML thuan (<h2>, <p>, <ul>...).
-// Data cu (chua kip viet lai) van la text thuong voi "## "/"- ". Ham nay
-// tu nhan biet dinh dang de hien dung ca 2 truong hop trong luc migrate
-// dan 1913 san pham, khong can lam moi luc.
 function isHtmlContent(text: string) {
   return /^\s*</.test(text);
 }
 
-// Chen anh vao ngay sau moi the <h2> (dung anh that cua san pham, khong
-// lap lai anh nao ca). Anh du (nhieu hon so luong h2) thi gom vao 1 dai
-// nho o cuoi bai, dam bao dung het toan bo anh co san.
 function interleaveImagesAfterH2(html: string, images: string[], altBase: string) {
   if (!images || images.length === 0) return html;
 
@@ -71,8 +61,6 @@ function renderLongDescription(text: string, images: string[], altBase: string) 
   return renderMarkdownLite(text);
 }
 
-// Parser markdown-nhe cho data CU: dong bat dau "## " -> tieu de phu (h3),
-// dong bat dau "- " -> gom thanh 1 danh sach <ul>, con lai la doan van <p>.
 function renderMarkdownLite(text: string) {
   const lines = text
     .split(/\n+/)
@@ -115,8 +103,6 @@ function renderMarkdownLite(text: string) {
   return blocks;
 }
 
-// /[slug] phục vụ 3 loại trang: sản phẩm, danh mục, nhóm danh mục.
-// Thứ tự ưu tiên khi trùng slug: sản phẩm > danh mục > nhóm.
 export function generateStaticParams() {
   const seen = new Set(products.map((p) => p.slug));
   const extra: { slug: string }[] = [];
@@ -125,7 +111,6 @@ export function generateStaticParams() {
     ...getGroups().map((g) => g.slug),
   ]) {
     if (seen.has(slug)) {
-      console.warn(`[slug] Trùng slug "${slug}" - chỉ một trang được hiển thị, hãy đổi slug.`);
       continue;
     }
     seen.add(slug);
@@ -144,7 +129,6 @@ export async function generateMetadata({
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) {
-    // Không phải sản phẩm -> thử danh mục, rồi nhóm (chỉ lúc này mới đọc searchParams).
     if (getCategory(slug)) {
       const { page } = await searchParams;
       return getCategoryMetadata(slug, page);
@@ -156,9 +140,6 @@ export async function generateMetadata({
     return {};
   }
 
-  // Truoc day og:url tro sai sang /product/<slug> (khong ton tai) va khong
-  // co og:image. Gio dung chung helper: canonical, og:url deu la /<slug>,
-  // anh chia se la anh san pham.
   return buildMetadata({
     title: product.name,
     description: product.blurb,
@@ -177,7 +158,6 @@ export default async function ProductPage({
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) {
-    // URL cũ có mã SKU (vd /bz03c-phu-kien-...) -> 301 sang slug mới không có SKU.
     const moved = getProductByLegacySlug(slug);
     if (moved) permanentRedirect(`/${moved.slug}`);
     if (getCategory(slug)) {
@@ -192,7 +172,6 @@ export default async function ProductPage({
   }
 
   const productUrl = `${site.url}/${product.slug}`;
-  // Tat ca anh cua san pham (bo trung), doi sang URL tuyet doi cho JSON-LD.
   const jsonLdImages = Array.from(
     new Set(
       [product.image, ...(product.images || [])].filter(
@@ -308,7 +287,6 @@ export default async function ProductPage({
         </div>
       </div>
 
-      {/* Chi tiết sản phẩm — đặt riêng, căn giữa trang, dưới cả 2 cột */}
       <div className="mx-auto mt-14 max-w-3xl border border-line bg-surface p-6 sm:p-8">
         <h2 className="font-serif text-xl text-ivory">Chi tiết sản phẩm</h2>
         {product.longDescription && (

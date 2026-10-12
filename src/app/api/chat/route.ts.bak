@@ -1,0 +1,275 @@
+import { NextRequest, NextResponse } from "next/server";
+import { GoogleGenAI } from "@google/genai";
+import { site } from "@/lib/site";
+import { categories, products } from "@/data/products";
+
+// Chatbot tu van AI - dung Gemini (mien phi, tan dung lai GEMINI_API_KEY da
+// co san cho tinh nang blog tu dong).
+//
+// Cach hoat dong moi:
+// 1. AI luon hoi lai nhu cau cu the (cam tay / hit tuong / gia re / cao cap...)
+//    truoc khi goi y, thay vi tra loi chung chung.
+// 2. Khi khach nhan tin, server tu loc ra toi da ~12 san pham THAT trong
+//    data/products khop voi tu khoa/danh muc khach nhac toi, roi gui danh
+//    sach nay cho AI. AI CHI duoc chon trong danh sach nay (khong bia ten,
+//    gia, SKU nua) - giai quyet loi "AI tra loi chung chung, khong biet
+//    san pham that".
+// 3. Khong gui toan bo 1913 san pham (qua nang, ton quota mien phi).
+
+export const runtime = "nodejs";
+
+// gemini-2.5-flash da bi Google ngung ho tro cho user moi (thong bao tra ve
+// tu chinh API: "no longer available... use models/gemini-3.8-flash").
+// Doi model du phong sang gemini-3.8-flash theo dung khuyen nghi do.
+const MODELS_TO_TRY = ["gemini-flash-lite", "gemini-3.8-flash"];
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isOverloadedError(e: unknown) {
+  const msg = e instanceof Error ? e.message : String(e);
+  return msg.includes("503") || msg.includes("UNAVAILABLE") || msg.includes("high demand");
+}
+
+// Gemini doi khi CAT NGANG cau tra loi giua chung (thuong do bo loc an toan
+// noi dung cua Google can thiep voi chu de nhay cam, du cau chua noi gi sai)
+// - finishReason luc do la "SAFETY"/"OTHER"/"RECITATION" thay vi "STOP".
+// Tuyet doi KHONG hien nhung cau bi cat nay cho khach - phai coi la that
+// bai va thu lai, giong nhu loi qua tai.
+function isBadFinish(finishReason: string | undefined) {
+  return !!finishReason && finishReason !== "STOP";
+}
+
+// (Da bo ham kiem tra "ket thuc bang dau cau gi" - qua khat khe, cau tra
+// loi tieng Viet binh thuong hay ket thuc bang "...nhe", "...a" khong co
+// dau cham, bi bat nham la "bi cat" oan. Chi con dua vao finishReason that
+// su tu Google (isBadFinish) de phat hien truong hop bi chan/cat that.)
+function looksTruncated(text: string) {
+  // Chi coi la bat thuong neu QUA NGAN mot cach kho hieu (< 8 ky tu) - con
+  // lai tin tuong finishReason la du.
+  return text.trim().length < 8;
+}
+
+// --- Chinh lai phan nay neu ten field trong data/products.ts khac ---
+// Gia dinh moi san pham co dang: { name, slug, price, category (ten hoac slug danh muc), shortDescription? }
+type Product = {
+  name: string;
+  slug: string;
+  price?: number;
+  category?: string;
+  shortDescription?: string;
+};
+
+function formatPrice(price?: number) {
+  if (!price && price !== 0) return "";
+  return price.toLocaleString("vi-VN") + "đ";
+}
+
+// Cac tu qua chung chung, xuat hien trong hau het san pham -> bo qua khi
+// tinh diem so khop, tranh lam nhieu ket qua.
+const STOPWORDS = new Set([
+  "mua", "mẫu", "của", "và", "các", "một", "cho", "là", "có", "muốn",
+  "cần", "xin", "shop", "sản", "phẩm", "loại", "cái", "con", "này",
+  "đó", "với", "được", "shop", "cửa", "hàng", "tư", "vấn", "giúp", "ạ",
+]);
+
+// Bo dau tieng Viet + ha chu thuong, de so khop CHU KHONG DAU (khach hay go
+// tat, vd "cam tay" phai khop duoc voi "Cầm Tay" trong ten san pham) va CA
+// chu co dau voi nhau it bi lech do go sai Unicode dung san (NFC vs NFD).
+function normalizeVi(s: string): string {
+  return s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
+    .toLowerCase();
+}
+
+const STOPWORDS_NORMALIZED = new Set(Array.from(STOPWORDS).map(normalizeVi));
+
+// Nhan dien khach co nhac gia/ngan sach khong, vd "1000k", "650k", "1 triệu",
+// "1tr" -> tra ve so tien VND thuc te, hoac null neu khong co.
+function parsePriceHint(text: string): number | null {
+  const kMatch = text.match(/(\d+(?:[.,]\d+)?)\s*k\b/i);
+  if (kMatch) return parseFloat(kMatch[1].replace(",", ".")) * 1000;
+
+  const trMatch = text.match(/(\d+(?:[.,]\d+)?)\s*(triệu|trieu|tr)\b/i);
+  if (trMatch) return parseFloat(trMatch[1].replace(",", ".")) * 1_000_000;
+
+  return null;
+}
+
+// Loc san pham theo tu khoa nguoi dung vua go (lay tu 1-2 tin nhan gan nhat)
+function findRelevantProducts(recentMessages: { role: string; text: string }[], limit = 12): Product[] {
+  const userText = recentMessages
+    .filter((m) => m.role === "user")
+    .slice(-2)
+    .map((m) => m.text.toLowerCase())
+    .join(" ");
+
+  if (!userText.trim()) return [];
+
+  const priceHint = parsePriceHint(userText);
+
+  // Tach tu khoa co nghia (bo qua tu qua ngan VA tu qua chung chung)
+  const keywords = userText
+    .split(/[\s,.!?]+/)
+    .map((w) => normalizeVi(w.trim()))
+    .filter((w) => w.length >= 2 && !STOPWORDS_NORMALIZED.has(w));
+
+  if (keywords.length === 0 && !priceHint) return [];
+
+  const scored = (products as Product[])
+    .map((p) => {
+      const haystack = normalizeVi(`${p.name} ${p.category ?? ""} ${p.shortDescription ?? ""}`);
+      let score = keywords.reduce((acc, kw) => (haystack.includes(kw) ? acc + 2 : acc), 0);
+
+      // Neu khach co nhac gia/ngan sach, uu tien san pham co gia gan dung -
+      // ke ca khi khong khop tu khoa nao (vd khach chi go "1000k").
+      if (priceHint && p.price) {
+        const diffRatio = Math.abs(p.price - priceHint) / priceHint;
+        if (diffRatio <= 0.2) score += 5;
+        else if (diffRatio <= 0.45) score += 3;
+        else if (diffRatio <= 0.8) score += 1;
+      }
+
+      return { p, score };
+    })
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  return scored.slice(0, limit).map((x) => x.p);
+}
+
+function buildSystemPrompt(matchedProducts: Product[], priceHint: number | null) {
+  const categoryList = categories.map((c) => `- ${c.name}: ${c.shortDescription}`).join("\n");
+
+  const productBlock =
+    matchedProducts.length > 0
+      ? matchedProducts
+          .map((p) => `- ${p.name}${p.price ? ` | ${formatPrice(p.price)}` : ""} | link: ${site.url}/${p.slug}`)
+          .join("\n")
+      : "(chưa có sản phẩm khớp — hãy hỏi thêm nhu cầu trước khi gợi ý)";
+
+  const budgetLine = priceHint
+    ? `\nKHÁCH ĐANG NHẮC NGÂN SÁCH KHOẢNG: ${formatPrice(priceHint)} — ưu tiên gợi ý sản phẩm có giá gần mức này trong danh sách trên.\n`
+    : "";
+
+  return `Bạn là nhân viên tư vấn bán hàng của ${site.name} (${site.url}), một cửa hàng
+sản phẩm chăm sóc cá nhân dành cho người trưởng thành tại Việt Nam.
+
+THÔNG TIN CỬA HÀNG:
+${site.description}
+- Hotline/Zalo: ${site.phone}
+- Giờ làm việc: ${site.hours}
+- Giao hàng: đóng gói kín đáo, không in tên/hình ảnh sản phẩm bên ngoài hộp, tên người gửi trung lập.
+- Thanh toán: COD (thanh toán khi nhận hàng) hoặc chuyển khoản.
+- Đổi trả: trong vòng 7 ngày kể từ khi nhận hàng nếu sản phẩm còn nguyên vẹn.
+
+DANH MỤC SẢN PHẨM ĐANG CÓ:
+${categoryList}
+${budgetLine}
+SẢN PHẨM THẬT KHỚP VỚI YÊU CẦU KHÁCH (chỉ dùng đúng danh sách này, KHÔNG được bịa thêm sản phẩm/giá/SKU khác):
+${productBlock}
+
+QUY TRÌNH TƯ VẤN (luôn theo đúng thứ tự):
+1. Nếu khách mới nhắc tên loại sản phẩm chung chung (vd "mua dương vật giả") mà CHƯA rõ nhu cầu cụ thể, và danh sách sản phẩm khớp bên trên còn ít/rỗng: đừng liệt kê sản phẩm ngay. Hãy hỏi lại nhu cầu bằng cách đưa ra 3-4 lựa chọn cụ thể, dạng liệt kê ngắn gọn từng dòng để khách dễ chọn, ví dụ: loại cầm tay, loại hít tường, tầm giá rẻ, hay dòng cao cấp/có rung. Điều chỉnh lựa chọn theo đúng danh mục khách đang hỏi. QUAN TRỌNG: nếu khách đã nhắc ngân sách (dòng "KHÁCH ĐANG NHẮC NGÂN SÁCH" ở trên) nhưng danh sách sản phẩm khớp vẫn ít/rỗng, TUYỆT ĐỐI không chỉ lặp lại đúng số tiền đó rồi dừng — phải luôn kết thúc bằng MỘT câu hỏi cụ thể tiếp theo (vd loại nào, cầm tay hay hít tường) để khách trả lời tiếp, không bao giờ để câu trả lời dừng lại mà không kèm câu hỏi hoặc gợi ý.
+2. Khi khách đã trả lời rõ nhu cầu (hoặc danh sách sản phẩm khớp bên trên đã có sản phẩm phù hợp): liệt kê 2-3 sản phẩm PHÙ HỢP NHẤT lấy đúng từ danh sách "SẢN PHẨM THẬT" ở trên (tên + giá + link), không thêm sản phẩm ngoài danh sách. Mời khách bấm vào link để xem ảnh thật và đặt hàng.
+3. Khi khách hỏi về giao hàng, thanh toán, đổi trả, giờ mở cửa: trả lời chính xác theo thông tin trên.
+4. Khi khách sẵn sàng mua: hướng dẫn họ vào giỏ hàng bấm "Đặt hàng" trên web, hoặc nhắn Zalo/hotline nếu muốn tư vấn trực tiếp.
+5. Luôn kết thúc câu trả lời trọn vẹn, không viết dở dang. Ngắn gọn (3-5 câu), không markdown, có thể xuống dòng để liệt kê lựa chọn/sản phẩm cho dễ đọc.
+6. Xưng "shop", gọi khách là "bạn/anh/chị", giọng thân thiện, tôn trọng, không phán xét, không dùng ngôn từ thô tục hay mô tả hành vi tình dục chi tiết.
+7. Nếu khách hỏi ngoài phạm vi cửa hàng, lịch sự từ chối và hướng về chủ đề sản phẩm/dịch vụ.
+8. Nhắc kín đáo rằng sản phẩm chỉ dành cho người từ 18 tuổi trở lên nếu ngữ cảnh phù hợp (không cần nhắc mỗi câu).`;
+}
+
+export async function POST(req: NextRequest) {
+  const apiKey = process.env.GEMINI_API_KEY;
+
+  if (!apiKey) {
+    return NextResponse.json(
+      { error: "Chatbot chưa được cấu hình (thiếu GEMINI_API_KEY trên Vercel)." },
+      { status: 500 }
+    );
+  }
+
+  const body = await req.json().catch(() => null);
+  const messages: { role: "user" | "model"; text: string }[] = body?.messages;
+
+  if (!Array.isArray(messages) || messages.length === 0) {
+    return NextResponse.json({ error: "Thiếu nội dung tin nhắn." }, { status: 400 });
+  }
+
+  // Giới hạn lịch sử gửi lên (10 tin gần nhất) để tiết kiệm quota miễn phí.
+  const recent = messages.slice(-10);
+
+  const matchedProducts = findRelevantProducts(recent);
+  const priceHint = parsePriceHint(
+    recent
+      .filter((m) => m.role === "user")
+      .slice(-2)
+      .map((m) => m.text.toLowerCase())
+      .join(" ")
+  );
+
+  const ai = new GoogleGenAI({ apiKey });
+  const contents = recent.map((m) => ({
+    role: m.role,
+    parts: [{ text: m.text }],
+  }));
+
+  let lastErr: unknown = null;
+
+  for (const model of MODELS_TO_TRY) {
+    // Gemini bao 503 "qua tai" thuong chi tam thoi vai giay - thu lai 1 lan
+    // truoc khi chuyen sang model khac.
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const res = await ai.models.generateContent({
+          model,
+          contents,
+          config: {
+            systemInstruction: buildSystemPrompt(matchedProducts, priceHint),
+            maxOutputTokens: 500,
+          },
+        });
+
+        const finishReason = res.candidates?.[0]?.finishReason;
+        const text = res.text?.trim();
+
+        if (text && !isBadFinish(finishReason) && !looksTruncated(text)) {
+          return NextResponse.json({ reply: text });
+        }
+
+        // Cau tra loi rong, bi chan, hoac bi cat cut -> KHONG tra ve cho
+        // khach, coi nhu that bai va thu lai (giong loi qua tai).
+        lastErr = new Error(
+          `Câu trả lời không hợp lệ (finishReason=${finishReason ?? "?"}, text=${JSON.stringify(text?.slice(0, 60))})`
+        );
+        if (attempt === 0) {
+          await sleep(800);
+          continue; // thu lai cung model 1 lan
+        }
+        break; // da thu lai roi - sang model tiep theo
+      } catch (e) {
+        lastErr = e;
+        if (attempt === 0 && isOverloadedError(e)) {
+          await sleep(1200);
+          continue; // thu lai cung model 1 lan
+        }
+        break; // loi khac hoac da thu lai - sang model tiep theo
+      }
+    }
+  }
+
+  console.error("Chatbot: mọi model đều thất bại.", lastErr);
+
+  return NextResponse.json({
+    reply:
+      "Xin lỗi bạn, hiện shop đang xử lý hơi chậm 🙏 Bạn có thể nhắn cụ thể hơn giúp shop " +
+      "(ví dụ loại sản phẩm, tầm giá) hoặc liên hệ trực tiếp hotline/Zalo " +
+      site.phone +
+      " để được tư vấn nhanh nhất nhé.",
+  });
+}
