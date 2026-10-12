@@ -272,10 +272,10 @@ export const products: Product[] = [
     badge: 'Hot',
     image: '/anh1/DC90ER/01.jpg',
     images: [
-/anh1/DC90ER/
-/anh1/DC90ER/
-/anh1/DC90ER/
-/anh1/DC90ER/
+      '/anh1/DC90ER/02.jpg',
+      '/anh1/DC90ER/03.jpg',
+      '/anh1/DC90ER/04.jpg',
+      '/anh1/DC90ER/06.jpg'
     ]
   },
 
