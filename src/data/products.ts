@@ -69114,7 +69114,8 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     sensitive: true,
     longDescription: "THÔNG SỐ KỸ THUẬT:\n\nChất liệu: Silicone an toàn cho cơ thể, nhựa ABS\nBề mặt: Mịn\nKích thước: 194 x 64 x 37 mm / 7.6 x 2.5 x 1.5 inch\nChiều dài có thể đưa vào: 120 mm / 4.7 inch\nTrọng lượng: 123 g / 4.3 oz\nPin: Li-Ion 200 mAh\nThời gian sạc: lên đến 2 giờ ở 5 V 200 mA\nCông suất định mức:\nĐầu vào: 5V 200mA 1 W\nĐầu ra: 3.7 V 310 mA 1.45 W\nThời gian sử dụng: Lên đến 2 giờ\nThời gian chờ: ít nhất 90 ngày\n\n\n\nKAYA™ Originals là máy rung hình thỏ tác động kép thuộc dòng sản phẩm LELO Originals mới, được thiết kế để mang lại cực khoái kết hợp thông qua kích thích đồng thời điểm G và âm vật. Với thiết kế đẹp mắt, tiện dụng và pin bền lâu, KAYA™ mang đến một sản phẩm đáng tin cậy, hiệu suất cao, lý tưởng cho những khách hàng tìm kiếm cả tính linh hoạt và cường độ trong các sản phẩm khoái cảm. Là một sự bổ sung tuyệt vời cho bất kỳ bộ sưu tập cao cấp nào, nó kết hợp hình thức, chức năng và thương hiệu đáng tin cậy trong lĩnh vực chăm sóc sức khỏe tình dục.\n\nTinh dầu\nKAYA™ Originals mang đến cảm giác khoái lạc đích thực với sự kích thích đồng thời cả điểm G và âm vật.\n\n \n\n\n\n4 CHẾ ĐỘ RUNG MẠNH MẼ\nKAYA™ Originals mang đến 4 chế độ rung khác nhau, với cường độ từ tiếng rung nhẹ nhàng đến xung nhịp mạnh mẽ đầy thỏa mãn.\n\n\n\n4 THIẾT LẬP ĐỘC QUYỀN TRÊN ỨNG DỤNG\nBên cạnh bốn thiết lập cơ bản có sẵn mà không cần ứng dụng, bạn có thể mở khóa thêm bốn thiết lập khác, bao gồm hai chế độ thông thường và hai chế độ nâng cao - Kết liễu tôi và Mất kiểm soát.\n\nSạc USB & Chống nước hoàn toàn theo tiêu chuẩn IPX7.\nTận hưởng những khoái cảm bất tận mọi lúc mọi nơi, kể cả trong bồn tắm hoặc vòi sen.\n\nThời lượng pin cực lâu:\nKaya™ Originals có thời lượng pin kéo dài cho phép bạn tận hưởng nhiều giờ chơi liên tục.\n\n \n\nCÁCH SỬ DỤNG:\nĐồng hồ LELO Originals có tính năng khóa ứng dụng để đảm bảo thiết bị của bạn là hàng chính hãng, được cập nhật và an toàn khi sử dụng. Sau khi mở khóa thiết bị, bạn có thể chọn sử dụng ứng dụng hoặc không.\n\nVỚI ỨNG DỤNG LELO™:\n• Sạc tai nghe KAYA™ Originals của bạn trong 2 giờ trước khi sử dụng lần đầu.\n• Tải xuống ứng dụng LELO™ cho iOS hoặc Android.\n• Nhấn nút nguồn (M) trên thiết bị - đèn LED sẽ nhấp nháy (chế độ ghép nối).\n• Sau khi đăng ký và đăng nhập vào ứng dụng LELO™, hãy chọn dòng Originals và kết nối thiết bị của bạn.\n• Nhấn nút nguồn (M) một lần nữa để xác nhận ghép nối.\n• Thiết bị của bạn hiện đã được mở khóa và sẵn sàng sử dụng với ứng dụng.\n\nKHÔNG CẦN ỨNG DỤNG LELO™:\n• Sạc pin trong 2 giờ trước khi sử dụng lần đầu.\n• Bạn vẫn cần mở khóa thiết bị thông qua ứng dụng LELO™ khi sử dụng lần đầu (xem các bước ở trên).\n• Sau khi mở khóa: Nhấn + để bật thiết bị. Nhấn (M) để thay đổi chế độ. Sử dụng + và - để điều chỉnh cường độ. Nhấn và giữ (M) để tắt thiết bị.\n\nKhóa khi di chuyển:\n• Nhấn và giữ đồng thời nút + và - trong 3 giây để khóa hoặc mở khóa thiết bị khi di chuyển.\n\n -  Giao hàng nhanh chóng, đảm bảo tế nhị kín đáo\n\n - Tại HCM & HN giao hàng nhanh chóng trong 15 phút – 2 tiếng. Đối với các tỉnh thành khác chỉ 1 -2 ngày\n\n   Giao hàng nhanh chóng đảm bảo tế nhị kín đáo. \n\n    Free ship toàn quốc .",
 
-  },,
+  },
+,
     {
         slug: "duong-vat-da-nang-rung-thut-bu-svakom-zelda",
         sku: "SP2334",
@@ -69336,12 +69337,9 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
         thumb: "/thumbs/anh1/SP1774/01.webp",
         images: ["/anh1/SP1774/01.jpg"],
     },
-
-];
-
     {
         slug: "duong-vat-da-nang-rung-thut-bu-svakom-zelda",
-        sku: "SP2334",
+        sku: "DC89ZD",
         name: "Dương vật đa năng rung thụt bú Svakom Zelda",
         category: "Đồ Chơi Nữ",
         categorySlug: "do-choi-cao-cap-nu",
@@ -69358,7 +69356,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "luoi-liem-cao-cap-svakom-licksy",
-        sku: "SP2333",
+        sku: "DC90LS",
         name: "Lưỡi liếm cao cấp Svakom Licksy",
         category: "Đồ Chơi Nữ",
         categorySlug: "do-choi-cao-cap-nu",
@@ -69375,7 +69373,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "am-dao-tu-dong-cao-cap-kaotik-labs-the-shotty",
-        sku: "SP2332",
+        sku: "AD80K",
         name: "Âm đạo tự động cao cấp Kaotik Labs The Shotty",
         category: "Đồ Chơi Nam",
         categorySlug: "do-choi-cao-cap-nam",
@@ -69392,7 +69390,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "bo-3-vong-silicon-cao-cap-svakom-triooo",
-        sku: "SP2331",
+        sku: "DC90TR",
         name: "Bộ 3 vòng silicon cao cấp Svakom Triooo",
         category: "Đồ Chơi Nam",
         categorySlug: "do-choi-cao-cap-nam",
@@ -69409,7 +69407,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "duong-vat-silicon-bom-hoi-cao-cap-lovetoy-aerosx",
-        sku: "SP2330",
+        sku: "DV69B",
         name: "Dương vật silicon bơm hơi cao cấp Lovetoy Aerosx",
         category: "Dương Vật Giả",
         categorySlug: "duong-vat-gia-rung",
@@ -69426,7 +69424,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "quan-silicon-gan-duong-vat-nhu-that",
-        sku: "SP2329",
+        sku: "DV65U",
         name: "Quần silicon gắn dương vật như thật",
         category: "Đồ Chơi BDSM",
         categorySlug: "phu-kien-bdsm",
@@ -69443,7 +69441,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "duong-vat-silicon-rung-thut-bu-suoi-am-dieu-khien-xa",
-        sku: "SP2328",
+        sku: "DV30F",
         name: "Dương vật silicon rung thụt bú sưởi ấm điều khiển xa",
         category: "Dương Vật Giả",
         categorySlug: "duong-vat-gia-rung",
@@ -69460,7 +69458,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "quan-silicon-gan-duong-vat-2-dau-cho-les",
-        sku: "SP2327",
+        sku: "DV65R",
         name: "Quần silicon gắn dương vật 2 đầu cho les",
         category: "Đồ Chơi BDSM",
         categorySlug: "phu-kien-bdsm",
@@ -69477,7 +69475,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "bao-cao-su-gai-wille-co-vien-bi-lon-o-dau-hop-7c",
-        sku: "SP2336",
+        sku: "CD01B",
         name: "Bao cao su gai Wille có viên bi lớn ở đầu hộp 7 chiếc",
         category: "Bao Cao Su",
         categorySlug: "bao-cao-su",
@@ -69494,7 +69492,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "bao-cao-su-gai-wille-voi-2-bi-lon-o-dau-hop-3-cai",
-        sku: "SP2335",
+        sku: "CD01D",
         name: "Bao cao su gai Wille với 2 bi lớn ở đầu hộp 3 cái",
         category: "Bao Cao Su",
         categorySlug: "bao-cao-su",
@@ -69511,7 +69509,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "bup-be-tinh-duc-mini-3d-avatar",
-        sku: "SP1493",
+        sku: "BB25A",
         name: "Búp bê tình dục mini 3D Avatar",
         category: "Búp Bê Silicon",
         categorySlug: "bup-be-silicon-cao-cap",
@@ -69528,7 +69526,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "thien-than-be-bong-fiona-85cm",
-        sku: "SP1573",
+        sku: "BB25C",
         name: "Thiên thần bé bỏng Fiona 85cm",
         category: "Búp Bê Silicon",
         categorySlug: "bup-be-silicon-cao-cap",
@@ -69545,7 +69543,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     },
     {
         slug: "bup-be-tinh-duc-silicon-mini-em-be-mum-mim",
-        sku: "SP1774",
+        sku: "BB25D",
         name: "Búp bê tình dục silicon mini em bé mũm mĩm",
         category: "Búp Bê Silicon",
         categorySlug: "bup-be-silicon-cao-cap",
