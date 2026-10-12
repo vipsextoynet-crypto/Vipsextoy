@@ -270,7 +270,7 @@ export const products: Product[] = [
     ],
     icon: 'ring',
     badge: 'Hot',
-    image: '/anh1/DC90ER/01.jpg',
+    image: '/anh1/DC90ER/02.jpg',
     images: [
       '/anh1/DC90ER/02.jpg',
       '/anh1/DC90ER/03.jpg',
