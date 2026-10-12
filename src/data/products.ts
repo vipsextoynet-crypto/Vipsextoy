@@ -69779,6 +69779,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
         thumb: "/thumbs/anh1/SP1774/01.webp",
         images: ["/anh1/SP1774/01.jpg"],
     },
+  ];
 
 export function getProduct(slug: string) {
   return products.find((p) => p.slug === slug);
