@@ -270,6 +270,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 phút đọc",
     category: "Review",
     icon: "wave",
+    image: "/anhblog/review-may-rung-hat-dau-mini-dang-kep-cho-nguoi-moi",
   },
   {
     slug: "top-3-dong-may-rung-dem-hut-khi-mini-duoi-800k-cho-cam-giac-tu-nhien-nhat",
@@ -282,6 +283,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 phút đọc",
     category: "Khám phá",
     icon: "wave",
+    image: "/anhblog/top-3-dong-may-rung-dem-hut-khi-mini-duoi-800k-cho-cam-giac-tu-nhien-nhat",
   },
   {
     slug: "bi-quyet-cat-giau-may-rung-mini-bang-hop-khoa-bi-mat-kin-dao-an-toan",
@@ -294,6 +296,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 phút đọc",
     category: "Khám phá",
     icon: "wave",
+    image: "/anhblog/bi-quyet-cat-giau-may-rung-mini-bang-hop-khoa-bi-mat",
   },
 ];
 
