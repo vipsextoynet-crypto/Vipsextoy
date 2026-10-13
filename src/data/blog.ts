@@ -257,6 +257,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 phút đọc",
     category: "Bật mí",
     icon: "wave",
+    image: "/anhblog/ky-thuat-thao-tac-2-phut-voi-may-rung-diem-g",
   },
 ];
 
