@@ -9,6 +9,11 @@ import HeroBanner from "@/components/HeroBanner";
 import HomeSearch from "@/components/HomeSearch";
 import BlogCardImage from "@/components/BlogCardImage";
 import { resolveBlogImage } from "@/lib/blog-image";
+import { seededShuffle, todaySeed, hashStr } from "@/lib/shuffle";
+
+// Làm mới trang chủ mỗi 24 giờ để danh sách sản phẩm tự đổi theo ngày
+// mà không cần deploy lại.
+export const revalidate = 86400;
 
 // Trang chủ chỉ hiện DANH MỤC CHA (các nhóm trong thanh bên trái: "Sextoy cho nam",
 // "Sextoy cho nữ", "Trứng rung"...), mỗi nhóm 12 sản phẩm = 3 hàng x 4 cột
@@ -21,11 +26,16 @@ type HomeProduct = ReturnType<typeof getProductsByCategory>[number];
 
 // Lấy sản phẩm cho 1 danh mục cha: xoay vòng giữa các danh mục con (mỗi danh mục
 // con lần lượt 1 sản phẩm) để khối hiện đủ loại chứ không dồn hết vào danh mục con
-// đầu tiên. Thứ tự luôn cố định (không ngẫu nhiên) và không trùng sản phẩm.
+// đầu tiên. Thứ tự được xáo theo NGÀY (cùng 1 ngày ai xem cũng thấy giống nhau,
+// sang ngày mới tự đổi) và không trùng sản phẩm.
 function pickForGroup(items: { slug: string }[], limit: number): HomeProduct[] {
-  const lists = items
-    .filter((c) => !HIDDEN_ON_HOME.has(c.slug))
-    .map((c) => getProductsByCategory(c.slug));
+  const seed = todaySeed();
+  const lists = seededShuffle(
+    items
+      .filter((c) => !HIDDEN_ON_HOME.has(c.slug))
+      .map((c) => seededShuffle(getProductsByCategory(c.slug), seed + hashStr(c.slug))),
+    seed
+  );
   const out: HomeProduct[] = [];
   const seen = new Set<string>();
   for (let i = 0; out.length < limit; i++) {
