@@ -309,6 +309,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 phút đọc",
     category: "Hướng dẫn",
     icon: "wave",
+    image: "/anhblog/phan-bo-ngan-sach-500k-1-trieu-mua-sextoy-hay-combo",
   },
   {
     slug: "coc-thu-dam-trung-co-gian-duoi-200k-khoi-dau-nhe-nhang-va-kin-dao-cho-nam-gioi",
@@ -321,6 +322,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 phút đọc",
     category: "Khám phá",
     icon: "wave",
+    image: "/anhblog/coc-thu-dam-trung-co-gian-duoi-200k-cho-nguoi-moi",
   },
   {
     slug: "xu-huong-trung-rung-nam-cham-dong-co-khong-choi-than-giai-phap-chong-on-tuyet-doi-cho-nang-moi",
@@ -333,6 +335,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 phút đọc",
     category: "Khám phá",
     icon: "wave",
+    image: "/anhblog/trung-rung-nam-cham-dong-co-khong-choi-than",
   },
 ];
 

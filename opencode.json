@@ -1,18 +1,37 @@
 {
-"$schema": "https://opencode.ai/config.json",
-"provider": {
-"gemini-local": {
-"npm": "@ai-sdk/openai-compatible",
-"name": "Gemini FastAPI Local",
-"options": {
-"baseURL": "http://127.0.0.1:8000/v1"
-},
-"models": {
-"gemini-flash": {
-"name": "Gemini Flash"
-}
-}
-}
-},
-"model": "gemini-local/gemini-flash"
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "superpowers@git+https://github.com/obra/superpowers.git"
+  ],
+  "provider": {
+    "gemini-local": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Gemini FastAPI",
+      "options": {
+        "baseURL": "http://127.0.0.1:8000/v1",
+        "apiKey": "abc123",
+        "timeout": 900000,
+        "chunkTimeout": 900000
+      },
+      "models": {
+        "gemini-flash-lite": {
+          "name": "Gemini Flash Lite",
+          "tool_call": true
+        }
+      }
+    }
+  },
+  "model": "gemini-local/gemini-flash-lite",
+  "mcp": {
+    "rea": {
+      "type": "local",
+      "command": ["rea", "mcp"],
+      "enabled": true,
+      "timeout": 120000,
+      "environment": {
+        "REA_GHIDRA_STARTUP_TIMEOUT_MS": "180000",
+        "REA_HOPPER_STARTUP_TIMEOUT_MS": "180000"
+      }
+    }
+  }
 }
