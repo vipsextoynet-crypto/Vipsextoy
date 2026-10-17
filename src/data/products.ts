@@ -69319,7 +69319,19 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
         thumb: "/thumbs/anh1/DC89ZD/2.webp",
         images: ["/anh1/DC89ZD/1.jpg","/anh1/DC89ZD/2.jpg","/anh1/DC89ZD/3.jpg","/anh1/DC89ZD/4.jpg","/anh1/DC89ZD/5.jpg","/anh1/DC89ZD/6.jpg","/anh1/DC89ZD/7.jpg"],
     },
-  ];
+    {
+    slug: "may-rung-diem-g-mini-cao-cap-svakom-tulip",
+    sku: "DC90A",
+    name: "Máy rung điểm G mini cao cấp Svakom Tulip",
+    category: "Dương Vật Giả",
+    categorySlug: "duong-vat-gia-rung",
+    price: 950000,
+    blurb: "",
+    description: "# Máy Rung Điểm G Svakom Tulip Mini 10 Chế Độ Rung\n\n**Svakom Tulip** là dòng máy rung điểm G mini sở hữu thiết kế nhỏ gọn, thanh lịch, phù hợp cho nhu cầu massage và khám phá cảm giác riêng tư. Sản phẩm được làm từ silicone và ABS, tích hợp 10 chế độ rung cùng thao tác điều khiển bằng một nút bấm tiện lợi.\n\nVới kích thước nhỏ nhắn, khả năng sạc lại và thiết kế chống nước theo thông số nhà sản xuất, máy rung Svakom Tulip là lựa chọn đáng cân nhắc cho những ai yêu thích sự kín đáo, tiện lợi và dễ dàng mang theo khi đi du lịch.\n\n## Thông số kỹ thuật Svakom Tulip\n\n- **Thương hiệu:** Svakom\n- **Tên sản phẩm:** Svakom Tulip\n- **Loại sản phẩm:** Máy rung massage điểm G mini\n- **Chất liệu:** Silicone và nhựa ABS\n- **Kích thước:** 10,6 × 2,65 cm\n- **Trọng lượng:** 42 g\n- **Chế độ rung:** 10 chế độ\n- **Điều khiển:** Một nút bấm\n- **Thời gian sạc:** Khoảng 2 giờ\n- **Thời gian sử dụng:** Tối đa 4 giờ theo thông số cung cấp\n- **Màu sắc:** Đen, tím\n- **Khả năng chống nước:** Theo thông số nhà sản xuất, sản phẩm chống nước hoàn toàn\n- **Phụ kiện:** Cáp sạc, sách hướng dẫn, phiếu bảo hành và túi lụa đựng sản phẩm (theo hộp thực tế)\n\n## Ưu điểm nổi bật của máy rung Svakom Tulip\n\n### 1. Thiết kế mini nhỏ gọn, thanh lịch\n\nSvakom Tulip có kiểu dáng thon nhỏ, trọng lượng chỉ 42 g, thuận tiện khi cầm nắm, cất giữ và mang theo. Thiết kế kín đáo giúp sản phẩm phù hợp với những người ưu tiên sự riêng tư trong quá trình sử dụng.\n\n### 2. 10 chế độ rung linh hoạt\n\nSản phẩm tích hợp 10 chế độ rung, hỗ trợ người dùng tùy chỉnh trải nghiệm theo sở thích cá nhân. Hệ thống điều khiển bằng một nút bấm giúp thao tác đơn giản, thuận tiện ngay cả với người mới sử dụng.\n\n### 3. Chất liệu silicone và ABS\n\nSự kết hợp giữa silicone và nhựa ABS tạo nên bề mặt mềm mại ở phần tiếp xúc và kết cấu chắc chắn. Nên vệ sinh sản phẩm trước và sau khi sử dụng, đồng thời kiểm tra hướng dẫn của nhà sản xuất để bảo quản đúng cách.\n\n### 4. Sạc lại tiện lợi, thời gian sử dụng dài\n\nTheo thông số được cung cấp, Svakom Tulip có thời gian sạc khoảng 2 giờ và thời gian hoạt động tối đa 4 giờ. Thời lượng thực tế có thể thay đổi tùy chế độ rung và tình trạng pin.\n\n### 5. Hai màu sắc dễ lựa chọn\n\nSản phẩm có hai phiên bản màu đen và tím, mang phong cách từ tối giản, bí ẩn đến nhẹ nhàng, thanh lịch.\n\n## Hướng dẫn sử dụng và bảo quản\n\n- Sạc thiết bị theo hướng dẫn của nhà sản xuất trước khi sử dụng.\n- Vệ sinh sản phẩm trước và sau mỗi lần dùng bằng dung dịch vệ sinh phù hợp.\n- Sử dụng gel bôi trơn gốc nước nếu cần và tương thích với chất liệu.\n- Không sử dụng khi sản phẩm có dấu hiệu hư hỏng hoặc cáp sạc bị lỗi.\n- Chỉ vệ sinh hoặc sử dụng trong môi trường ẩm ướt khi khả năng chống nước được xác nhận trong hướng dẫn chính hãng.\n- Bảo quản nơi khô ráo, sạch sẽ và tránh xa tầm tay trẻ em.\n\n## Mua máy rung Svakom Tulip chính hãng tại Vipextoy\n\nNếu bạn đang tìm kiếm một mẫu máy rung mini nhỏ gọn, dễ sử dụng và có nhiều chế độ rung, Svakom Tulip là sản phẩm đáng tham khảo.\n\nVipextoy hướng đến trải nghiệm mua sắm riêng tư với các thông tin sản phẩm rõ ràng và dịch vụ giao hàng kín đáo.\n\n- Giao hàng đóng gói kín đáo.\n- Hỗ trợ giao hàng tại TP.HCM, Hà Nội và các tỉnh thành theo điều kiện vận chuyển thực tế.\n- Chính sách bảo hành áp dụng theo thông tin của từng sản phẩm.\n\n**Vipextoy – Mua sắm riêng tư, giao hàng kín đáo.**",
+    features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
+    icon: "wave",
+  },
+];
 
 export function getProduct(slug: string) {
   return products.find((p) => p.slug === slug);
