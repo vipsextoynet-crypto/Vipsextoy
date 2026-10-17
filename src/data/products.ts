@@ -69329,9 +69329,57 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
     categorySlug: "duong-vat-gia-rung",
     price: 950000,
     blurb: "",
-    description: "# Máy Rung Điểm G Svakom Tulip Mini 10 Chế Độ Rung\n\n**Svakom Tulip** là dòng máy rung điểm G mini sở hữu thiết kế nhỏ gọn, thanh lịch, phù hợp cho nhu cầu massage và khám phá cảm giác riêng tư. Sản phẩm được làm từ silicone và ABS, tích hợp 10 chế độ rung cùng thao tác điều khiển bằng một nút bấm tiện lợi.\n\nVới kích thước nhỏ nhắn, khả năng sạc lại và thiết kế chống nước theo thông số nhà sản xuất, máy rung Svakom Tulip là lựa chọn đáng cân nhắc cho những ai yêu thích sự kín đáo, tiện lợi và dễ dàng mang theo khi đi du lịch.\n\n## Thông số kỹ thuật Svakom Tulip\n\n- **Thương hiệu:** Svakom\n- **Tên sản phẩm:** Svakom Tulip\n- **Loại sản phẩm:** Máy rung massage điểm G mini\n- **Chất liệu:** Silicone và nhựa ABS\n- **Kích thước:** 10,6 × 2,65 cm\n- **Trọng lượng:** 42 g\n- **Chế độ rung:** 10 chế độ\n- **Điều khiển:** Một nút bấm\n- **Thời gian sạc:** Khoảng 2 giờ\n- **Thời gian sử dụng:** Tối đa 4 giờ theo thông số cung cấp\n- **Màu sắc:** Đen, tím\n- **Khả năng chống nước:** Theo thông số nhà sản xuất, sản phẩm chống nước hoàn toàn\n- **Phụ kiện:** Cáp sạc, sách hướng dẫn, phiếu bảo hành và túi lụa đựng sản phẩm (theo hộp thực tế)\n\n## Ưu điểm nổi bật của máy rung Svakom Tulip\n\n### 1. Thiết kế mini nhỏ gọn, thanh lịch\n\nSvakom Tulip có kiểu dáng thon nhỏ, trọng lượng chỉ 42 g, thuận tiện khi cầm nắm, cất giữ và mang theo. Thiết kế kín đáo giúp sản phẩm phù hợp với những người ưu tiên sự riêng tư trong quá trình sử dụng.\n\n### 2. 10 chế độ rung linh hoạt\n\nSản phẩm tích hợp 10 chế độ rung, hỗ trợ người dùng tùy chỉnh trải nghiệm theo sở thích cá nhân. Hệ thống điều khiển bằng một nút bấm giúp thao tác đơn giản, thuận tiện ngay cả với người mới sử dụng.\n\n### 3. Chất liệu silicone và ABS\n\nSự kết hợp giữa silicone và nhựa ABS tạo nên bề mặt mềm mại ở phần tiếp xúc và kết cấu chắc chắn. Nên vệ sinh sản phẩm trước và sau khi sử dụng, đồng thời kiểm tra hướng dẫn của nhà sản xuất để bảo quản đúng cách.\n\n### 4. Sạc lại tiện lợi, thời gian sử dụng dài\n\nTheo thông số được cung cấp, Svakom Tulip có thời gian sạc khoảng 2 giờ và thời gian hoạt động tối đa 4 giờ. Thời lượng thực tế có thể thay đổi tùy chế độ rung và tình trạng pin.\n\n### 5. Hai màu sắc dễ lựa chọn\n\nSản phẩm có hai phiên bản màu đen và tím, mang phong cách từ tối giản, bí ẩn đến nhẹ nhàng, thanh lịch.\n\n## Hướng dẫn sử dụng và bảo quản\n\n- Sạc thiết bị theo hướng dẫn của nhà sản xuất trước khi sử dụng.\n- Vệ sinh sản phẩm trước và sau mỗi lần dùng bằng dung dịch vệ sinh phù hợp.\n- Sử dụng gel bôi trơn gốc nước nếu cần và tương thích với chất liệu.\n- Không sử dụng khi sản phẩm có dấu hiệu hư hỏng hoặc cáp sạc bị lỗi.\n- Chỉ vệ sinh hoặc sử dụng trong môi trường ẩm ướt khi khả năng chống nước được xác nhận trong hướng dẫn chính hãng.\n- Bảo quản nơi khô ráo, sạch sẽ và tránh xa tầm tay trẻ em.\n\n## Mua máy rung Svakom Tulip chính hãng tại Vipextoy\n\nNếu bạn đang tìm kiếm một mẫu máy rung mini nhỏ gọn, dễ sử dụng và có nhiều chế độ rung, Svakom Tulip là sản phẩm đáng tham khảo.\n\nVipextoy hướng đến trải nghiệm mua sắm riêng tư với các thông tin sản phẩm rõ ràng và dịch vụ giao hàng kín đáo.\n\n- Giao hàng đóng gói kín đáo.\n- Hỗ trợ giao hàng tại TP.HCM, Hà Nội và các tỉnh thành theo điều kiện vận chuyển thực tế.\n- Chính sách bảo hành áp dụng theo thông tin của từng sản phẩm.\n\n**Vipextoy – Mua sắm riêng tư, giao hàng kín đáo.**",
+    description: "",
+    longDescription: `<p>Máy rung điểm G mini cao cấp Svakom Tulip là sản phẩm massage cá nhân có thiết kế nhỏ gọn, thanh lịch và tiện lợi. Sản phẩm tích hợp 10 chế độ rung, sử dụng chất liệu silicone kết hợp nhựa ABS và điều khiển bằng một nút bấm đơn giản. Với trọng lượng chỉ 42g, Svakom Tulip phù hợp với người yêu thích thiết kế mini, kín đáo và dễ dàng mang theo.</p>
+
+    <h2>Thông số kỹ thuật máy rung Svakom Tulip</h2>
+    <ul>
+    <li><strong>Thương hiệu:</strong> Svakom</li>
+    <li><strong>Tên sản phẩm:</strong> Svakom Tulip</li>
+    <li><strong>Loại sản phẩm:</strong> Máy rung massage điểm G mini</li>
+    <li><strong>Chất liệu:</strong> Silicone và nhựa ABS</li>
+    <li><strong>Kích thước:</strong> 10,6 x 2,65 cm</li>
+    <li><strong>Trọng lượng:</strong> 42g</li>
+    <li><strong>Chế độ rung:</strong> 10 chế độ</li>
+    <li><strong>Điều khiển:</strong> Một nút bấm</li>
+    <li><strong>Thời gian sạc:</strong> Khoảng 2 giờ</li>
+    <li><strong>Thời gian sử dụng:</strong> Tối đa 4 giờ theo thông số được cung cấp</li>
+    <li><strong>Màu sắc:</strong> Đen, tím</li>
+    <li><strong>Khả năng chống nước:</strong> Theo thông số nhà sản xuất</li>
+    <li><strong>Phụ kiện:</strong> Cáp sạc, sách hướng dẫn, phiếu bảo hành và túi lụa theo hộp thực tế</li>
+    </ul>
+
+    <h2>Ưu điểm nổi bật của Svakom Tulip</h2>
+
+    <h3>1. Thiết kế mini nhỏ gọn, thanh lịch</h3>
+    <p>Máy rung Svakom Tulip có kiểu dáng thon nhỏ, trọng lượng chỉ 42g, thuận tiện khi cầm nắm, cất giữ và mang theo khi đi du lịch.</p>
+
+    <h3>2. Tích hợp 10 chế độ rung linh hoạt</h3>
+    <p>Sản phẩm được trang bị 10 chế độ rung, cho phép người dùng lựa chọn trải nghiệm theo sở thích cá nhân. Hệ thống điều khiển bằng một nút bấm giúp thao tác đơn giản và thuận tiện.</p>
+
+    <h3>3. Chất liệu silicone và ABS</h3>
+    <p>Sự kết hợp giữa silicone và nhựa ABS tạo nên thiết kế gọn nhẹ, thuận tiện vệ sinh và bảo quản. Nên làm sạch sản phẩm trước và sau mỗi lần sử dụng theo hướng dẫn của nhà sản xuất.</p>
+
+    <h3>4. Sạc điện tiện lợi</h3>
+    <p>Theo thông số được cung cấp, Svakom Tulip có thời gian sạc khoảng 2 giờ và thời gian hoạt động tối đa 4 giờ. Thời lượng thực tế có thể thay đổi tùy chế độ rung và tình trạng pin.</p>
+
+    <h3>5. Hai màu sắc dễ lựa chọn</h3>
+    <p>Svakom Tulip có hai phiên bản màu đen và tím, mang phong cách hiện đại, thanh lịch và phù hợp với sở thích cá nhân.</p>
+
+    <h2>Hướng dẫn sử dụng và bảo quản</h2>
+    <ul>
+    <li>Sạc thiết bị theo hướng dẫn của nhà sản xuất trước khi sử dụng.</li>
+    <li>Vệ sinh sản phẩm trước và sau mỗi lần sử dụng bằng phương pháp phù hợp với chất liệu.</li>
+    <li>Ưu tiên gel bôi trơn gốc nước tương thích với silicone khi cần thiết.</li>
+    <li>Không sử dụng nếu sản phẩm có dấu hiệu hư hỏng hoặc cáp sạc bất thường.</li>
+    <li>Chỉ vệ sinh bằng nước theo hướng dẫn chống nước chính hãng.</li>
+    <li>Bảo quản sản phẩm ở nơi khô ráo, sạch sẽ.</li>
+    </ul>`,
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
+    image: "/anh1/DC90A/01.jpg",
+    thumb: "/thumbs/anh1/DC90A/01.webp",
+    images: ["/anh1/DC90A/01.jpg","/anh1/DC90A/02.jpg","/anh1/DC90A/03.jpg","/anh1/DC90A/04.jpg","/anh1/DC90A/05.jpg"],
   },
 ];
 
