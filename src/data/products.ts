@@ -70,14 +70,14 @@ export const categories: Category[] = [
     seoDescription: "Máy Thủ Dâm Tự Động tại Vipsextoy — chất liệu an toàn, giao hàng kín đáo toàn quốc, chỉ dành cho khách hàng từ 18 tuổi trở lên.",
   },
   {
-    slug: "may-tap-duong-vat",
+    slug: "may-tap-duong-vat-tang-kich-thuoc",
     name: "Máy Tập Dương Vật",
     group: "Sextoy Cho Nam",
     shortDescription: "Bộ sưu tập máy tập dương vật chính hãng tại Vipsextoy.",
     seoDescription: "Máy Tập Dương Vật tại Vipsextoy — chất liệu an toàn, giao hàng kín đáo toàn quốc, chỉ dành cho khách hàng từ 18 tuổi trở lên.",
   },
   {
-    slug: "duong-vat-gia",
+    slug: "duong-vat-gia-rung",
     name: "Dương Vật Giả",
     group: "Sextoy Cho Nữ",
     shortDescription: "Bộ sưu tập dương vật giả chính hãng tại Vipsextoy.",
@@ -105,14 +105,14 @@ export const categories: Category[] = [
     seoDescription: "Lưỡi Liếm Âm Đạo tại Vipsextoy — chất liệu an toàn, giao hàng kín đáo toàn quốc, chỉ dành cho khách hàng từ 18 tuổi trở lên.",
   },
   {
-    slug: "trung-rung-nu",
+    slug: "trung-rung-tinh-yeu",
     name: "Trứng Rung Nữ",
     group: "Trứng Rung",
     shortDescription: "Bộ sưu tập trứng rung nữ chính hãng tại Vipsextoy.",
     seoDescription: "Trứng Rung Nữ tại Vipsextoy — chất liệu an toàn, giao hàng kín đáo toàn quốc, chỉ dành cho khách hàng từ 18 tuổi trở lên.",
   },
   {
-    slug: "may-massage",
+    slug: "may-massage-ca-nhan",
     name: "Dụng Cụ Massage, Chày Rung",
     group: "Máy Massage",
     shortDescription: "Bộ sưu tập dụng cụ massage, chày rung chính hãng tại Vipsextoy.",
@@ -161,7 +161,7 @@ export const categories: Category[] = [
     seoDescription: "Cường Dương tại Vipsextoy — chất liệu an toàn, giao hàng kín đáo toàn quốc, chỉ dành cho khách hàng từ 18 tuổi trở lên.",
   },
   {
-    slug: "nuoc-hoa",
+    slug: "nuoc-hoa-kich-thich",
     name: "Nước Hoa",
     shortDescription: "Bộ sưu tập nước hoa chính hãng tại Vipsextoy.",
     seoDescription: "Nước Hoa tại Vipsextoy — chất liệu an toàn, giao hàng kín đáo toàn quốc, chỉ dành cho khách hàng từ 18 tuổi trở lên.",
@@ -202,7 +202,7 @@ export const categories: Category[] = [
     seoDescription: "Gel Bôi Trơn Hậu Môn tại Vipsextoy — chất liệu an toàn, giao hàng kín đáo toàn quốc, chỉ dành cho khách hàng từ 18 tuổi trở lên.",
   },
   {
-    slug: "bao-cao-su",
+    slug: "bao-cao-su-chinh-hang",
     name: "BCS Gai, Bi",
     group: "Bao Cao Su",
     shortDescription: "Bộ sưu tập bcs gai, bi chính hãng tại Vipsextoy.",
@@ -216,7 +216,7 @@ export const categories: Category[] = [
     seoDescription: "Bao Đôn Dên tại Vipsextoy — chất liệu an toàn, giao hàng kín đáo toàn quốc, chỉ dành cho khách hàng từ 18 tuổi trở lên.",
   },
   {
-    slug: "bup-be-silicon",
+    slug: "bup-be-silicon-cao-cap",
     name: "Búp Bê Silicon",
     group: "Búp Bê Silicon",
     shortDescription: "Bộ sưu tập búp bê silicon chính hãng tại Vipsextoy.",
@@ -260,8 +260,7 @@ export const products: Product[] = [
     categorySlug: 'duong-vat-gia-rung',
     price: 2450000,
     blurb: 'Quần lót rung Svakom Eros DC90ER cao cấp chính hãng từ Mỹ, thiết kế kín đáo gắn quần lót với tính năng rung và hút 8 chế độ, kết nối App thông minh điều khiển không giới hạn.',
-    description: "",
-    longDescription:'Quần lót Svakom Eros DC90ER là sản phẩm đồ chơi tình dục cao cấp đến từ thương hiệu nổi tiếng SVAKOM USA, được thiết kế đặc biệt dành cho phái đẹp muốn trải nghiệm cảm giác thăng hoa tinh tế và kín đáo. Với thiết kế nhỏ gọn, sản phẩm có thể đặt gọn bên trong quần lót, giúp bạn thoải mái tận hưởng những khoảnh khắc kích thích mọi lúc mọi nơi mà không lo bị phát hiện. Máy tích hợp đồng thời tính năng rung và hút với 8 chế độ hoạt động mạnh mẽ, kết hợp khả năng kết nối ứng dụng smartphone qua Bluetooth không giới hạn chế độ điều khiển. Sản phẩm sử dụng chất liệu silicon y tế cao cấp siêu mềm mại, an toàn tuyệt đối cho làn da nhạy cảm.',
+    description: 'Quần lót Svakom Eros DC90ER là sản phẩm đồ chơi tình dục cao cấp đến từ thương hiệu nổi tiếng SVAKOM USA, được thiết kế đặc biệt dành cho phái đẹp muốn trải nghiệm cảm giác thăng hoa tinh tế và kín đáo. Với thiết kế nhỏ gọn, sản phẩm có thể đặt gọn bên trong quần lót, giúp bạn thoải mái tận hưởng những khoảnh khắc kích thích mọi lúc mọi nơi mà không lo bị phát hiện. Máy tích hợp đồng thời tính năng rung và hút với 8 chế độ hoạt động mạnh mẽ, kết hợp khả năng kết nối ứng dụng smartphone qua Bluetooth không giới hạn chế độ điều khiển. Sản phẩm sử dụng chất liệu silicon y tế cao cấp siêu mềm mại, an toàn tuyệt đối cho làn da nhạy cảm.',
     features: [
       'Thương hiệu chính hãng SVAKOM USA cao cấp',
       'Thiết kế quần lót rung gắn trong kín đáo, lý tưởng dùng ở mọi không gian',
@@ -69131,7 +69130,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
         sensitive: true,
         image: "/anh1/DC90LS/01.jpg",
         thumb: "/thumbs/anh1/DC90LS/01.webp",
-        images: ["/anh1/DC90LS/01.jpg","/anh1/DC90LS/02.jpg","/anh1/DC90LS/03.jpg","/anh1/DC90LS/04.jpg"],
+        images: ["/anh1/DC90LS/02.jpg","/anh1/DC90LS/03.jpg","/anh1/DC90LS/04.jpg"],
     },
     {
         slug: "am-dao-tu-dong-cao-cap-kaotik-labs-the-shotty",
@@ -69318,7 +69317,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
         sensitive: true,
         image: "/anh1/DC89ZD/2.jpg",
         thumb: "/thumbs/anh1/DC89ZD/2.webp",
-        images: ["/anh1/DC89ZD/1.jpg","/anh1/DC89ZD/2.jpg","/anh1/DC89ZD/4.jpg","/anh1/DC89ZD/5.jpg","/anh1/DC89ZD/6.jpg","/anh1/DC89ZD/7.jpg"],
+        images: ["/anh1/DC89ZD/1.jpg","/anh1/DC89ZD/2.jpg","/anh1/DC89ZD/3.jpg","/anh1/DC89ZD/4.jpg","/anh1/DC89ZD/5.jpg","/anh1/DC89ZD/6.jpg","/anh1/DC89ZD/7.jpg"],
     },
   ];
 
