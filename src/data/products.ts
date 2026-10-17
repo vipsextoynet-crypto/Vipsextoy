@@ -16996,6 +16996,7 @@ Các sản phẩm của SVAKOM
     features: ["Silicon cao cấp", "Thiết kế chân thực", "Đóng gói kín đáo, ẩn danh", "Bảo hành chính hãng"],
     icon: "ring",
     image: "/anh1/BB25B/01.jpg",
+    thumb: "/thumbs/anh1/BB25B/01.webp",
     images: ["/anh1/BB25B/01.jpg", "/anh1/BB25B/05.jpg", "/anh1/BB25B/06.jpg", "/anh1/BB25B/07.jpg", "/anh1/BB25B/08.jpg", "/anh1/BB25B/09.jpg", "/anh1/BB25B/10.jpg", "/anh1/BB25B/11.jpg", "/anh1/BB25B/12.jpg"],
     sensitive: true,
   },
@@ -68944,6 +68945,7 @@ Thuốc xịt không mùi không vị nên có thể dễ dàng quan hệ bằng
     features: ["Chất lượng cao", "Đóng gói kín đáo", "Giao hàng nhanh toàn quốc"],
     icon: "wave",
     image: "/anh1/DC56G/dc56g1.jpg",
+    thumb: "/thumbs/anh1/DC56G/dc56g1.webp",
     images: ["/anh1/DC56G/dc56g1.jpg", "/anh1/DC56G/dc56g2.jpg", "/anh1/DC56G/dc56g3.jpg", "/anh1/DC56G/dc56g4.jpg", "/anh1/DC56G/dc56g5.jpg", "/anh1/DC56G/dc56g6.jpg", "/anh1/DC56G/dc56g7 (1).jpg", "/anh1/DC56G/dc56g7.jpg", "/anh1/DC56G/dc56g8.jpg", "/anh1/DC56G/dc56g9.jpg"],
   },
   {
