@@ -69130,7 +69130,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
         sensitive: true,
         image: "/anh1/DC90LS/01.jpg",
         thumb: "/thumbs/anh1/DC90LS/01.webp",
-        images: ["/anh1/DC90LS/02.jpg","/anh1/DC90LS/03.jpg","/anh1/DC90LS/04.jpg"],
+        images: ["/anh1/DC90LS/01.jpg","/anh1/DC90LS/02.jpg","/anh1/DC90LS/03.jpg","/anh1/DC90LS/04.jpg"],
     },
     {
         slug: "am-dao-tu-dong-cao-cap-kaotik-labs-the-shotty",
