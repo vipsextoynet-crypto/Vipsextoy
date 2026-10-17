@@ -69317,7 +69317,7 @@ Sản phẩm tích hợp công nghệ sạc từ tính với thời gian sạc �
         sensitive: true,
         image: "/anh1/DC89ZD/2.jpg",
         thumb: "/thumbs/anh1/DC89ZD/2.webp",
-        images: ["/anh1/DC89ZD/1.jpg","/anh1/DC89ZD/2.jpg","/anh1/DC89ZD/3.jpg","/anh1/DC89ZD/4.jpg","/anh1/DC89ZD/5.jpg","/anh1/DC89ZD/6.jpg","/anh1/DC89ZD/7.jpg"],
+        images: ["/anh1/DC89ZD/1.jpg","/anh1/DC89ZD/2.jpg","/anh1/DC89ZD/4.jpg","/anh1/DC89ZD/5.jpg","/anh1/DC89ZD/6.jpg","/anh1/DC89ZD/7.jpg"],
     },
   ];
 
